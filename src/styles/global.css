@@ -212,6 +212,55 @@ section { padding: 56px 0; }
 .steps strong { display: block; font-size: 1.08rem; color: #14140f; margin-bottom: 4px; }
 .steps p { color: var(--muted); margin: 0; }
 
+/* ===== NAV CTA ===== */
+.nav-cta {
+  display: inline-block;
+  margin-right: 18px;
+  padding: 10px 22px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--gold-soft), var(--gold));
+  color: #14140f;
+  font-weight: 700;
+  font-size: .93rem;
+  white-space: nowrap;
+  box-shadow: 0 2px 10px rgba(201, 182, 132, .35);
+  transition: transform .15s, box-shadow .15s, filter .15s;
+}
+.nav-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(201, 182, 132, .5);
+  filter: brightness(1.03);
+}
+.nav-cta:active { transform: translateY(0); }
+
+/* الهاتف: يظهر في الجوال فقط */
+.nav-phone { display: none; }
+
+@media (max-width: 900px) {
+  .nav-cta {
+    margin: 12px 24px 0;
+    text-align: center;
+    width: calc(100% - 48px);
+  }
+  .nav-phone {
+    display: block;
+    margin: 10px 24px 16px;
+    text-align: center;
+    padding: 11px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    color: #14140f;
+    font-weight: 700;
+  }
+  nav.top-nav a.nav-cta,
+  nav.top-nav a.nav-phone { border-bottom: none; padding: 11px; }
+}
+
+/* على الشاشات الواسعة جداً لا ينضغط الزر مع الروابط */
+@media (min-width: 901px) {
+  .nav-cta { margin-inline-start: 0; }
+}
+
 /* ===== DEEP PRODUCT CONTENT ===== */
 .deep {
   margin-top: 52px;

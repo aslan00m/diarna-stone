@@ -24,7 +24,6 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
     <header class="top">
       <div class="wrap">
         <a href={url("/")} class="brand">ديارنا <span>الحديثة</span></a>
-        <a href={LINKS.phone} class="btn">{COMPANY.phone}</a>
         <button class="burger" id="burger" aria-label="القائمة" aria-expanded="false" aria-controls="top-nav">
           <span></span><span></span><span></span>
         </button>
@@ -39,7 +38,8 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
           <a href={url("/consulting")}>الاستشارات</a>
           <a href={url("/blog")}>مدونتنا</a>
           <a href={url("/about")}>عن الشركة</a>
-          <a href={url("/contact")}>طلب عرض سعر</a>
+          <a href={url("/contact")} class="nav-cta">طلب عرض سعر</a>
+          <a href={LINKS.phone} class="nav-phone">{COMPANY.phone}</a>
         </nav>
       </div>
     </header>
