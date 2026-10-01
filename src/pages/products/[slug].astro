@@ -7,6 +7,7 @@ import ProductCard from '../../components/ProductCard.astro';
 import ProductImage from '../../components/ProductImage.astro';
 import { MARBLE_CONTENT } from '../../data/content/marble.js';
 import { STONE_CONTENT } from '../../data/content/stone.js';
+import { SINK_CONTENT } from '../../data/content/sinks.js';
 
 export function getStaticPaths() {
   return PRODUCTS.map((p) => ({
@@ -19,7 +20,7 @@ const { product } = Astro.props;
 const cat = CATEGORIES.find((c) => c.slug === product.category);
 const org = ORIGINS.find((o) => o.slug === product.origin);
 const related = PRODUCTS.filter((p) => p.slug !== product.slug && (p.category === product.category || p.origin === product.origin)).slice(0, 4);
-const deep = MARBLE_CONTENT[product.slug] || STONE_CONTENT[product.slug] || null;
+const deep = MARBLE_CONTENT[product.slug] || STONE_CONTENT[product.slug] || SINK_CONTENT[product.slug] || null;
 
 // رابط واتساب برسالة تخص هذا المنتج بالاسم
 const waMsg = encodeURIComponent(

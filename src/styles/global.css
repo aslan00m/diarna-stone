@@ -235,41 +235,43 @@ section { padding: 56px 0; }
 /* ===== FLOATING CALL BUTTON ===== */
 .fab-call {
   position: fixed;
-  inset-inline-start: 22px;   /* left in RTL = site's far edge */
-  bottom: 22px;
+  inset-inline-end: 24px;   /* the physical LEFT edge in RTL */
+  bottom: 24px;
   z-index: 60;
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 9px;
-  padding: 12px 18px;
-  border-radius: 999px;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  border-radius: 50%;
   background: #14140f;
   color: var(--gold-soft);
-  font-weight: 700;
-  font-size: .92rem;
-  box-shadow: 0 6px 22px rgba(20, 20, 15, .28);
+  box-shadow: 0 6px 22px rgba(20, 20, 15, .3);
   transition: transform .18s, box-shadow .18s, background .18s;
 }
 .fab-call svg {
-  width: 20px; height: 20px;
+  width: 22px;
+  height: 22px;
   fill: currentColor;
-  flex-shrink: 0;
 }
+/* the label is for screen readers / tooltip only */
+.fab-call span { display: none; }
 .fab-call:hover {
-  transform: translateY(-3px);
+  transform: translateY(-3px) scale(1.05);
   background: #000;
-  box-shadow: 0 10px 28px rgba(20, 20, 15, .38);
+  box-shadow: 0 10px 28px rgba(20, 20, 15, .4);
 }
-.fab-call:active { transform: translateY(0); }
+.fab-call:active { transform: scale(.97); }
 
 @media (max-width: 640px) {
   .fab-call {
-    inset-inline-start: 50%;
-    transform: translateX(50%);
-    bottom: 16px;
-    padding: 13px 22px;
+    inset-inline-end: 18px;
+    bottom: 18px;
+    width: 48px;
+    height: 48px;
   }
-  .fab-call:hover { transform: translateX(50%) translateY(-3px); }
+  .fab-call svg { width: 20px; height: 20px; }
 }
 
 /* ===== NAV CTA ===== */

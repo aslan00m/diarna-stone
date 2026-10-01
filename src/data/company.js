@@ -24,6 +24,7 @@ export const CATEGORIES = [
   { slug: 'granite', name: 'جرانيت', icon: '◈' },
   { slug: 'travertine', name: 'ترافنتينو', icon: '▤' },
   { slug: 'limestone', name: 'حجر جيري', icon: '▨' },
+  { slug: 'sinks', name: 'المغاسل', icon: '◐' },
 ];
 
 // التصنيف حسب المصدر
