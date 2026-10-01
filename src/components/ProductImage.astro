@@ -1,0 +1,19 @@
+---
+import PRODUCTS from '../data/products.js';
+
+const { product, large = false } = Astro.props;
+const isPlaceholder = !product.image;
+---
+
+<div class="ph">
+  {
+    isPlaceholder ? (
+      <>
+        <span class="ico">▧</span>
+        <span>تحت البحث عن صورة</span>
+      </>
+    ) : (
+      <img src={product.image} alt={`${product.name} - ${product.nameEn}`} loading="lazy" />
+    )
+  }
+</div>

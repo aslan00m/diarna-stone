@@ -1,0 +1,111 @@
+---
+import Base from '../layouts/Base.astro';
+import PRODUCTS from '../data/products.js';
+import { CATEGORIES, ORIGINS, LINKS, COMPANY } from '../data/company.js';
+import ProductCard from '../components/ProductCard.astro';
+
+const featured = PRODUCTS.slice(0, 8);
+const newest = PRODUCTS.slice(-3).reverse();
+const luxury = PRODUCTS.filter((p) => ['bianco-carrara-marble', 'buccino-italian-marble', 'cipollino-italian-marble'].includes(p.slug));
+---
+
+<Base>
+  <!-- HERO -->
+  <div class="hero">
+    <div class="wrap">
+      <h1>رخام وجحر طبيعي<br />بجودة تدوم طويلاً</h1>
+      <p>
+        {COMPANY.name} — تجارة الرخام والجرانيت والترافرتينو وتركيب الواجهات والأرضيات.
+        نختار لك خامات تدوم تدوم أكثر من عمر المبنى.
+      </p>
+      <a href="/products" class="btn">تصفّح المنتجات</a>
+      <a href={LINKS.whatsapp} class="btn ghost">اطلب عرض سعر</a>
+    </div>
+  </div>
+
+  <!-- التصنيف حسب النوع -->
+  <section>
+    <div class="wrap">
+      <h2 class="sec-title">تصفّح حسب النوع</h2>
+      <p class="sec-sub">أربع فئات رئيسية تغطي معظم احتياجات المشاريع السكنية والتجارية.</p>
+      <div class="grid">
+        {CATEGORIES.map((c) => (
+          <a href={`/products?cat=${c.slug}`} class="card">
+            <div class="ph" style="aspect-ratio: 4/3">
+              <span class="ico">{c.icon}</span>
+              <span>{c.name}</span>
+            </div>
+            <div class="card-body">
+              <h3>{c.name}</h3>
+              <div class="meta">
+                {PRODUCTS.filter((p) => p.category === c.slug).length} منتج
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- التصنيف حسب المصدر -->
+  <section>
+    <div class="wrap">
+      <h2 class="sec-title">تصفّح حسب المصدر</h2>
+      <p class="sec-sub">خامات من أفضل مصانع العالم، مع إمكانية التوريد بكميات الجملة.</p>
+      <div class="tabs">
+        {ORIGINS.map((o) => (
+          <span class="tab">{o.flag} {o.name}</span>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- منتجات مميزة -->
+  <section>
+    <div class="wrap">
+      <h2 class="sec-title">منتجات مميزة</h2>
+      <p class="sec-sub">اختياراتنا الأكثر طلباً هذا الموسم.</p>
+      <div class="grid">
+        {featured.map((p) => <ProductCard product={p} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- أحدث المنتجات -->
+  <section>
+    <div class="wrap">
+      <h2 class="sec-title">أحدث المنتجات</h2>
+      <p class="sec-sub">خامات أضفناها مؤخراً إلى المتجر.</p>
+      <div class="grid">
+        {newest.map((p) => <ProductCard product={p} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- منتجات فاخرة -->
+  {
+    luxury.length > 0 && (
+      <section>
+        <div class="wrap">
+          <h2 class="sec-title">منتجات فاخرة</h2>
+          <p class="sec-sub">رخام إيطالي مختار للمشاريع التي لا تقبل التنازل.</p>
+          <div class="grid">
+            {luxury.map((p) => (
+              <ProductCard product={p} />
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  <!-- CTA -->
+  <div class="wrap">
+    <div class="cta">
+      <h3>جاهزون لعرض سعر مشروعك</h3>
+      <p>أرسل لنا نوع الحجر والمقاسات المطلوبة، ونرد خلال ساعات العمل.</p>
+      <a href="/contact" class="btn">طلب عرض سعر</a>
+      <a href={LINKS.phone} class="btn" style="background:#14151a;color:#c9a227;margin-right:10px">اتصل الآن</a>
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import PRODUCTS from '../../data/products.js';
+import { CATEGORIES } from '../../data/company.js';
+import ProductCard from '../../components/ProductCard.astro';
+---
+
+<Base title="المنتجات" description="كتالوج كامل للرخام والجرانيت والترافرتينو.">
+  <meta http-equiv="refresh" content={`0; url=/products/all`} />
+  <section>
+    <div class="wrap">
+      <h1 class="sec-title">المنتجات</h1>
+      <p class="sec-sub">{PRODUCTS.length} منتجاً. اختر التصنيف للبدء.</p>
+      <div class="tabs">
+        <a href="/products/all" class="tab">الكل ({PRODUCTS.length})</a>
+        {CATEGORIES.map((c) => (
+          <a href={`/products/${c.slug}`} class="tab">{c.name}</a>
+        ))}
+      </div>
+      <div class="grid">
+        {PRODUCTS.map((p) => <ProductCard product={p} />)}
+      </div>
+    </div>
+  </section>
+</Base>

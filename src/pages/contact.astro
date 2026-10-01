@@ -1,0 +1,90 @@
+---
+import Base from '../layouts/Base.astro';
+import { COMPANY, CATEGORIES, ORIGINS, LINKS } from '../data/company.js';
+---
+
+<Base title="طلب عرض سعر" description="أرسل طلبك للحصول على عرض سعر للحجر والتركيب.">
+  <section>
+    <div class="wrap" style="max-width:720px">
+      <div class="crumbs"><a href="/">الرئيسية</a> / طلب عرض سعر</div>
+      <h1 class="sec-title">طلب عرض سعر</h1>
+      <p class="sec-sub">املأ البيانات التالية وسنرسل لك عرض سعر عبر واتساب.</p>
+
+      <!--
+        النموذج يُبنى عبر واتساب: عند الإرسال يفتح محادثة جاهزة بالتفاصيل.
+        لا يوجد خادم — البيانات لا تُخزَّن ولا تُرسل لأي جهة خارجية.
+      -->
+      <form id="quote" style="background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px">
+        <div class="field">
+          <label for="name">الاسم *</label>
+          <input id="name" name="name" required placeholder="اسمك الكريم" />
+        </div>
+
+        <div class="field">
+          <label for="phone">رقم الجوال *</label>
+          <input id="phone" name="phone" type="tel" required placeholder="05xxxxxxxx" inputmode="tel" />
+        </div>
+
+        <div class="field">
+          <label for="city">المدينة</label>
+          <input id="city" name="city" placeholder="مثال: الرياض" />
+        </div>
+
+        <div class="field">
+          <label for="cat">نوع الحجر</label>
+          <select id="cat" name="cat">
+            <option value="">— اختر —</option>
+            {CATEGORIES.map((c) => <option value={c.name}>{c.name}</option>)}
+            <option value="أخرى">أخرى</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="origin">المصدر المطلوب</label>
+          <select id="origin" name="origin">
+            <option value="">— أي مصدر —</option>
+            {ORIGINS.map((o) => <option value={o.name}>{o.name}</option>)}
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="details">تفاصيل الطلب</label>
+          <textarea id="details" name="details" placeholder="مثال: رخام للأرضيات، المساحة تقريباً 120 متر مربع، سماكة 20 مم، مع التركيب."></textarea>
+        </div>
+
+        <button type="submit" class="btn" style="width:100%;border:none;cursor:pointer">إرسال الطلب عبر واتساب</button>
+        <p style="color:var(--muted);font-size:.82rem;margin:14px 0 0;text-align:center">
+          بالضغط على الإرسال ستفتح لك محادثة واتساب جاهزة مع بياناتك. لا يوجد خادم ولا تُخزَّن بياناتك.
+        </p>
+      </form>
+
+      <div style="margin-top:24px;padding:20px;border:1px solid var(--line);border-radius:14px;text-align:center">
+        <p style="margin:0 0 12px;color:var(--muted)">أو تواصل مباشرة</p>
+        <a href={LINKS.phone} class="btn">اتصل {COMPANY.phone}</a>
+        <a href={LINKS.whatsapp} class="btn ghost" style="margin-right:8px">واتساب</a>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline>
+    document.getElementById('quote')?.addEventListener('submit', function (e) {
+      e.preventDefault();
+      const g = (id) => (document.getElementById(id)?.value || '').trim();
+      const lines = [
+        '*طلب عرض سعر — موقع ديارنا الحديثة*',
+        '',
+        'الاسم: ' + g('name'),
+        'الجوال: ' + g('phone'),
+        g('city') ? 'المدينة: ' + g('city') : '',
+        g('cat') ? 'نوع الحجر: ' + g('cat') : '',
+        g('origin') ? 'المصدر: ' + g('origin') : '',
+        '',
+        g('details') ? '*التفاصيل:*\n' + g('details') : '',
+      ].filter(Boolean);
+      window.open(
+        'https://wa.me/966536089153?text=' + encodeURIComponent(lines.join('\n')),
+        '_blank'
+      );
+    });
+  </script>
+</Base>

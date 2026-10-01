@@ -1,0 +1,112 @@
+---
+import Base from '../../layouts/Base.astro';
+import PRODUCTS from '../../data/products.js';
+import { CATEGORIES, ORIGINS, LINKS } from '../../data/company.js';
+import ProductCard from '../../components/ProductCard.astro';
+import ProductImage from '../../components/ProductImage.astro';
+
+export function getStaticPaths() {
+  return PRODUCTS.map((p) => ({
+    params: { slug: p.slug },
+    props: { product: p },
+  }));
+}
+
+const { product } = Astro.props;
+const cat = CATEGORIES.find((c) => c.slug === product.category);
+const org = ORIGINS.find((o) => o.slug === product.origin);
+const related = PRODUCTS.filter((p) => p.slug !== product.slug && (p.category === product.category || p.origin === product.origin)).slice(0, 4);
+---
+
+<Base title={`${product.name} (${product.nameEn})`} description={product.excerpt}>
+  <section>
+    <div class="wrap">
+      <div class="crumbs">
+        <a href="/">الرئيسية</a> / <a href="/products">المنتجات</a> /
+        <a href={`/products/${product.category}`}>{cat?.name}</a> / {product.name}
+      </div>
+
+      <div class="pp">
+        <!-- الصورة -->
+        <div>
+          <div style="border:1px solid var(--line);border-radius:14px;overflow:hidden">
+            <ProductImage product={product} large={true} />
+          </div>
+          <p style="color:var(--muted);font-size:.85rem;margin-top:10px">
+            المصدر: {org?.name} — اللون: {product.color}
+          </p>
+        </div>
+
+        <!-- التفاصيل -->
+        <div>
+          <h1>{product.name}</h1>
+          <div class="en">{product.nameEn}</div>
+          <p>{product.excerpt}</p>
+
+          <a href={LINKS.whatsapp} class="btn">اطلب عرض سعر</a>
+          <a href={LINKS.phone} class="btn ghost" style="margin-right:8px">{LINKS.phone.replace('tel:+', '')}</a>
+
+          <!-- المواصفات -->
+          <h2>المواصفات</h2>
+          <table class="spec">
+            <tbody>
+              <tr><td>كود الصنف</td><td>{product.code}</td></tr>
+              <tr><td>المادة</td><td>{cat?.name}</td></tr>
+              <tr><td>اللون</td><td>{product.color}</td></tr>
+              <tr><td>رقم اللون</td><td>{product.colorCode}</td></tr>
+              <tr><td>السماكات المتوفرة</td><td>{product.thickness.join('، ')}</td></tr>
+              <tr><td>التشطيب</td><td>{product.finish.join('، ')}</td></tr>
+              <tr><td>الصلابة (موهس)</td><td>{product.hardness}</td></tr>
+              <tr><td>الكثافة</td><td>{product.density}</td></tr>
+              <tr><td>المصدر</td><td>{org?.name}</td></tr>
+              <tr><td>الاستخدامات</td><td>{product.uses.join('، ')}</td></tr>
+            </tbody>
+          </table>
+
+          <!-- المميزات -->
+          <h2>لماذا تختار {product.name}؟</h2>
+          <ul style="color:#c6cdd9;padding-right:20px">
+            {product.features.map((f) => <li style="margin-bottom:8px">{f}</li>)}
+          </ul>
+
+          <!-- نصائح -->
+          <h2>نصائح عند الاختيار</h2>
+          <ul style="color:#c6cdd9;padding-right:20px">
+            {product.tips.map((t) => <li style="margin-bottom:8px">{t}</li>)}
+          </ul>
+
+          <!-- FAQ -->
+          <h2>الأسئلة الشائعة</h2>
+          <div style="border-top:1px solid var(--line)">
+            <details style="padding:14px 0;border-bottom:1px solid var(--line)">
+              <summary style="cursor:pointer;font-weight:600">هل أسعار {product.name} مناسبة للمشاريع الكبيرة؟</summary>
+              <p style="color:var(--muted);margin:10px 0 0">نعم، الأسعار تتغير حسب الكمية والسماكة والتشطيب. تواصل معنا لعرض سعر مخصص.</p>
+            </details>
+            <details style="padding:14px 0;border-bottom:1px solid var(--line)">
+              <summary style="cursor:pointer;font-weight:600">كم يستغرق التوريد؟</summary>
+              <p style="color:var(--muted);margin:10px 0 0">يعتمد على الكمية والتوفّر. عادة بين أسبوعين إلى ستة أسابيع حسب المنتج.</p>
+            </details>
+            <details style="padding:14px 0;border-bottom:1px solid var(--line)">
+              <summary style="cursor:pointer;font-weight:600">هل تقدمون خدمة التركيب؟</summary>
+              <p style="color:var(--muted);margin:10px 0 0">نعم، فريق التركيب لدينا متخصص في الواجهات والأرضيات والدرج.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+
+      {/* منتجات ذات صلة */}
+      {
+        related.length > 0 && (
+          <div style="margin-top:56px">
+            <h2 class="sec-title">منتجات ذات صلة</h2>
+            <div class="grid">
+              {related.map((p) => (
+                <ProductCard product={p} />
+              ))}
+            </div>
+          </div>
+        )
+      }
+    </div>
+  </section>
+</Base>

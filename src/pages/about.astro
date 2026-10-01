@@ -1,0 +1,49 @@
+---
+import Base from '../layouts/Base.astro';
+import { COMPANY, LINKS } from '../data/company.js';
+---
+
+<Base title="عن الشركة" description={COMPANY.description}>
+  <section>
+    <div class="wrap">
+      <div class="crumbs"><a href="/">الرئيسية</a> / عن الشركة</div>
+      <h1 class="sec-title">عن {COMPANY.name}</h1>
+      <p class="sec-sub">{COMPANY.tagline}</p>
+
+      <p style="max-width:760px;color:#c6cdd9">
+        {COMPANY.name} شركة سعودية متخصصة في تجارة الرخام والحجر الطبيعي وتركيب الواجهات
+        والأرضيات. نعمل مع أفضل المصادر العالمية لنوفر تشكيلة تلبي احتياجات المشاريع
+        السكنية والتجارية وال industriales على حد سواء.
+      </p>
+
+      <p style="max-width:760px;color:#c6cdd9">
+        نؤمن أن الحجر الجيد ليس مجرد لون، بل استثمار في شكل المكان لعقود. لذلك نختار
+        الخامات بعناية، ونقدّم استشارة صادقة قبل الشراء حتى لا ت regret الاختيار.
+      </p>
+
+      <div class="grid" style="margin-top:34px">
+        {[
+          { t: 'خبرة ميدانية', d: 'سنوات من التنفيذ الفعلي في مشاريع سكنية وتجارية.' },
+          { t: 'خامات مختارة', d: 'نختار فقط ما نضمن جودته في الاستخدام الفعلي.' },
+          { t: 'تنفيذ كامل', d: 'من التوريد إلى التركيب النهائي تحت مسؤوليتنا.' },
+        ].map((v) => (
+          <div class="card">
+            <div class="card-body">
+              <h3>{v.t}</h3>
+              <p style="color:var(--muted);font-size:.93rem;margin:0">{v.d}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="cta">
+        <h3>تحدّث مع فريقنا</h3>
+        <p>نحن هنا للإجابة على استفساراتك.</p>
+        <a href="/contact" class="btn">طلب عرض سعر</a>
+        <a href={LINKS.phone} class="btn" style="background:#14151a;color:#c9a227;margin-right:10px">
+          {COMPANY.phone}
+        </a>
+      </div>
+    </div>
+  </section>
+</Base>

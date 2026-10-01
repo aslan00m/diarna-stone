@@ -1,0 +1,20 @@
+---
+import PRODUCTS from '../data/products.js';
+import { CATEGORIES, ORIGINS } from '../data/company.js';
+import ProductImage from './ProductImage.astro';
+
+const { product } = Astro.props;
+const cat = CATEGORIES.find((c) => c.slug === product.category);
+const org = ORIGINS.find((o) => o.slug === product.origin);
+---
+
+<a href={`/products/${product.slug}`} class="card">
+  <ProductImage product={product} />
+  <div class="card-body">
+    <h3>{product.name}</h3>
+    <div class="en">{product.nameEn}</div>
+    <div class="meta">
+      {cat?.name} · {org?.name} — {product.color}
+    </div>
+  </div>
+</a>
