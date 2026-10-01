@@ -1,4 +1,5 @@
 ---
+import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
 import { COMPANY, CATEGORIES, ORIGINS, LINKS } from '../data/company.js';
 ---
@@ -6,7 +7,7 @@ import { COMPANY, CATEGORIES, ORIGINS, LINKS } from '../data/company.js';
 <Base title="طلب عرض سعر" description="أرسل طلبك للحصول على عرض سعر للحجر والتركيب.">
   <section>
     <div class="wrap" style="max-width:720px">
-      <div class="crumbs"><a href="/">الرئيسية</a> / طلب عرض سعر</div>
+      <div class="crumbs"><a href={url("/")}>الرئيسية</a> / طلب عرض سعر</div>
       <h1 class="sec-title">طلب عرض سعر</h1>
       <p class="sec-sub">املأ البيانات التالية وسنرسل لك عرض سعر عبر واتساب.</p>
 

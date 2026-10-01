@@ -1,4 +1,5 @@
 ---
+import { url } from '../../data/urls.js';
 import Base from '../../layouts/Base.astro';
 import PRODUCTS from '../../data/products.js';
 import { CATEGORIES, ORIGINS } from '../../data/company.js';
@@ -19,17 +20,17 @@ const catName = cat === 'all' ? 'كل المنتجات' : CATEGORIES.find((c) =>
 <Base title={`${catName} — المنتجات`} description={`تصفح ${catName} من ${filtered.length} منتجاً في متجر ديارنا الحديثة للحجر الطبيعي.`}>
   <section>
     <div class="wrap">
-      <div class="crumbs"><a href="/">الرئيسية</a> / <a href="/products">المنتجات</a> / {catName}</div>
+      <div class="crumbs"><a href={url("/")}>الرئيسية</a> / <a href={url("/products")}>المنتجات</a> / {catName}</div>
       <h1 class="sec-title">{catName}</h1>
       <p class="sec-sub">{filtered.length} منتجاً متاحاً — اختر نوع الحجر المناسب لمشروعك.</p>
 
       <!-- تصفية حسب النوع -->
       <div class="tabs">
-        <a href="/products" class={`tab ${cat === 'all' ? 'active' : ''}`}>الكل ({PRODUCTS.length})</a>
+        <a href={url("/products")} class={`tab ${cat === 'all' ? 'active' : ''}`}>الكل ({PRODUCTS.length})</a>
         {CATEGORIES.map((c) => {
           const n = PRODUCTS.filter((p) => p.category === c.slug).length;
           return (
-            <a href={`/products/${c.slug}`} class={`tab ${cat === c.slug ? 'active' : ''}`}>
+            <a href={url(`/products/${c.slug}`)} class={`tab ${cat === c.slug ? 'active' : ''}`}>
               {c.name} ({n})
             </a>
           );
@@ -42,7 +43,7 @@ const catName = cat === 'all' ? 'كل المنتجات' : CATEGORIES.find((c) =>
         {ORIGINS.map((o) => {
           const n = filtered.filter((p) => p.origin === o.slug).length;
           return n > 0 && (
-            <a href={`/products/${cat}?origin=${o.slug}`} class="tab">
+            <a href={url(`/products/${cat}`)} class="tab">
               {o.flag} {o.name} ({n})
             </a>
           );
@@ -64,7 +65,7 @@ const catName = cat === 'all' ? 'كل المنتجات' : CATEGORIES.find((c) =>
       <div class="cta">
         <h3>لم تجد الحجر المناسب؟</h3>
         <p>نتعامل مع موردين متعددين — أرسل لنا طلبك وسنبحث لك عن الخامة.</p>
-        <a href="/contact" class="btn">أرسل طلبك</a>
+        <a href={url("/contact")} class="btn">أرسل طلبك</a>
       </div>
     </div>
   </section>

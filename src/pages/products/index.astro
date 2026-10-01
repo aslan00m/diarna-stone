@@ -1,4 +1,5 @@
 ---
+import { url } from '../../data/urls.js';
 import Base from '../../layouts/Base.astro';
 import PRODUCTS from '../../data/products.js';
 import { CATEGORIES } from '../../data/company.js';
@@ -12,9 +13,9 @@ import ProductCard from '../../components/ProductCard.astro';
       <h1 class="sec-title">المنتجات</h1>
       <p class="sec-sub">{PRODUCTS.length} منتجاً. اختر التصنيف للبدء.</p>
       <div class="tabs">
-        <a href="/products/all" class="tab">الكل ({PRODUCTS.length})</a>
+        <a href={url("/products/all")} class="tab">الكل ({PRODUCTS.length})</a>
         {CATEGORIES.map((c) => (
-          <a href={`/products/${c.slug}`} class="tab">{c.name}</a>
+          <a href={url(`/products/${c.slug}`)} class="tab">{c.name}</a>
         ))}
       </div>
       <div class="grid">

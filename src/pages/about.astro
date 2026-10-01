@@ -1,4 +1,5 @@
 ---
+import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
 import { COMPANY, LINKS } from '../data/company.js';
 ---
@@ -6,7 +7,7 @@ import { COMPANY, LINKS } from '../data/company.js';
 <Base title="عن الشركة" description={COMPANY.description}>
   <section>
     <div class="wrap">
-      <div class="crumbs"><a href="/">الرئيسية</a> / عن الشركة</div>
+      <div class="crumbs"><a href={url("/")}>الرئيسية</a> / عن الشركة</div>
       <h1 class="sec-title">عن {COMPANY.name}</h1>
       <p class="sec-sub">{COMPANY.tagline}</p>
 
@@ -39,7 +40,7 @@ import { COMPANY, LINKS } from '../data/company.js';
       <div class="cta">
         <h3>تحدّث مع فريقنا</h3>
         <p>نحن هنا للإجابة على استفساراتك.</p>
-        <a href="/contact" class="btn">طلب عرض سعر</a>
+        <a href={url("/contact")} class="btn">طلب عرض سعر</a>
         <a href={LINKS.phone} class="btn" style="background:#14151a;color:#c9a227;margin-right:10px">
           {COMPANY.phone}
         </a>

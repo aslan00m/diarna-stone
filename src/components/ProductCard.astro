@@ -1,4 +1,5 @@
 ---
+import { url } from '../data/urls.js';
 import PRODUCTS from '../data/products.js';
 import { CATEGORIES, ORIGINS } from '../data/company.js';
 import ProductImage from './ProductImage.astro';
@@ -8,7 +9,7 @@ const cat = CATEGORIES.find((c) => c.slug === product.category);
 const org = ORIGINS.find((o) => o.slug === product.origin);
 ---
 
-<a href={`/products/${product.slug}`} class="card">
+<a href={url(`/products/${product.slug}`)} class="card">
   <ProductImage product={product} />
   <div class="card-body">
     <h3>{product.name}</h3>

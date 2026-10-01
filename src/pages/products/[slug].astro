@@ -1,4 +1,5 @@
 ---
+import { url } from '../../data/urls.js';
 import Base from '../../layouts/Base.astro';
 import PRODUCTS from '../../data/products.js';
 import { CATEGORIES, ORIGINS, LINKS } from '../../data/company.js';
@@ -22,8 +23,8 @@ const related = PRODUCTS.filter((p) => p.slug !== product.slug && (p.category ==
   <section>
     <div class="wrap">
       <div class="crumbs">
-        <a href="/">الرئيسية</a> / <a href="/products">المنتجات</a> /
-        <a href={`/products/${product.category}`}>{cat?.name}</a> / {product.name}
+        <a href={url("/")}>الرئيسية</a> / <a href={url("/products")}>المنتجات</a> /
+        <a href={url(`/products/${product.category}`)}>{cat?.name}</a> / {product.name}
       </div>
 
       <div class="pp">
