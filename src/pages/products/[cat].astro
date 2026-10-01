@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import PRODUCTS from '../../data/products.js';
 import { CATEGORIES, ORIGINS } from '../../data/company.js';
 import ProductCard from '../../components/ProductCard.astro';
+import { CATEGORY_INTRO } from '../../data/category-intro.js';
 
 export function getStaticPaths() {
   return [
@@ -15,6 +16,7 @@ export function getStaticPaths() {
 const { cat } = Astro.props;
 const filtered = cat === 'all' ? PRODUCTS : PRODUCTS.filter((p) => p.category === cat);
 const catName = cat === 'all' ? 'كل المنتجات' : CATEGORIES.find((c) => c.slug === cat)?.name;
+const intro = cat === 'all' ? null : CATEGORY_INTRO[cat];
 ---
 
 <Base title={`${catName} — المنتجات`} description={`تصفح ${catName} من ${filtered.length} منتجاً في متجر ديارنا الحديثة للحجر الطبيعي.`}>
@@ -23,6 +25,19 @@ const catName = cat === 'all' ? 'كل المنتجات' : CATEGORIES.find((c) =>
       <div class="crumbs"><a href={url("/")}>الرئيسية</a> / <a href={url("/products")}>المنتجات</a> / {catName}</div>
       <h1 class="sec-title">{catName}</h1>
       <p class="sec-sub">{filtered.length} منتجاً متاحاً — اختر نوع الحجر المناسب لمشروعك.</p>
+
+      {intro && (
+        <div class="cat-intro">
+          <p class="lead">{intro.lead}</p>
+          {intro.body.map((para) => <p>{para}</p>)}
+          <div class="buy-box">
+            <h3>نصائح قبل الشراء</h3>
+            <ul>
+              {intro.buying.map((t) => <li>{t}</li>)}
+            </ul>
+          </div>
+        </div>
+      )}
 
       <!-- تصفية حسب النوع -->
       <div class="tabs">

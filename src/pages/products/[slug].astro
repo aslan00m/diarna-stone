@@ -5,6 +5,8 @@ import PRODUCTS from '../../data/products.js';
 import { CATEGORIES, ORIGINS, LINKS } from '../../data/company.js';
 import ProductCard from '../../components/ProductCard.astro';
 import ProductImage from '../../components/ProductImage.astro';
+import { MARBLE_CONTENT } from '../../data/content/marble.js';
+import { STONE_CONTENT } from '../../data/content/stone.js';
 
 export function getStaticPaths() {
   return PRODUCTS.map((p) => ({
@@ -17,6 +19,7 @@ const { product } = Astro.props;
 const cat = CATEGORIES.find((c) => c.slug === product.category);
 const org = ORIGINS.find((o) => o.slug === product.origin);
 const related = PRODUCTS.filter((p) => p.slug !== product.slug && (p.category === product.category || p.origin === product.origin)).slice(0, 4);
+const deep = MARBLE_CONTENT[product.slug] || STONE_CONTENT[product.slug] || null;
 ---
 
 <Base title={`${product.name} (${product.nameEn})`} description={product.excerpt}>
@@ -110,4 +113,50 @@ const related = PRODUCTS.filter((p) => p.slug !== product.slug && (p.category ==
       }
     </div>
   </section>
+
+      {deep && (
+        <div class="deep">
+          <h2 class="deep-title">عن {product.name} بالتفصيل</h2>
+
+          <section class="deep-sec">
+            <h2>ما هو {product.name}؟</h2>
+            <p>{deep.overview}</p>
+          </section>
+
+          <section class="deep-sec">
+            <h2>المظهر واللون والعروق</h2>
+            <p>{deep.appearance}</p>
+          </section>
+
+          <section class="deep-sec">
+            <h2>أفضل استخدامات {product.name}</h2>
+            <ul>
+              {deep.bestUses.map((u) => <li>{u}</li>)}
+            </ul>
+          </section>
+
+          <section class="deep-sec">
+            <h2>العناية والصيانة</h2>
+            <p>{deep.care}</p>
+          </section>
+
+          <section class="deep-sec">
+            <h2>{product.name} مقارنةً بـ{product.category === 'marble' ? 'الرخام الأخر' : 'الأحجار المشابهة'}</h2>
+            <p>{deep.comparison}</p>
+          </section>
+
+          <section class="deep-sec">
+            <h2>المصدر الجيولوجي</h2>
+            <p>{deep.origin}</p>
+          </section>
+
+          <section class="deep-sec">
+            <h2>نصائح قبل الشراء</h2>
+            <ul>
+              {deep.buyingTips.map((t) => <li>{t}</li>)}
+            </ul>
+          </section>
+        </div>
+      )}
+
 </Base>
