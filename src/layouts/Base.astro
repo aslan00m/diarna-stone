@@ -29,8 +29,15 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
           <span></span><span></span><span></span>
         </button>
         <nav class="top-nav" id="top-nav">
-          <a href={url("/products")}>المنتجات</a>
-          <a href={url("/services")}>خدمات التركيب</a>
+          <a href={url("/")}>الرئيسية</a>
+          <a href={url("/products")}>معرض المنتجات</a>
+          <a href={url("/products/marble")}>الرخام</a>
+          <a href={url("/products/granite")}>الجرانيت</a>
+          <a href={url("/products/travertine")}>الحجر الطبيعي</a>
+          <a href={url("/products/limestone")}>الحجر الجيري</a>
+          <a href={url("/services")}>الخدمات</a>
+          <a href={url("/consulting")}>الاستشارات</a>
+          <a href={url("/blog")}>مدونتنا</a>
           <a href={url("/about")}>عن الشركة</a>
           <a href={url("/contact")}>طلب عرض سعر</a>
         </nav>
@@ -47,8 +54,14 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
           <strong class="brand-f">ديارنا <span>الحديثة</span></strong><br />
           {COMPANY.tagline}
           <div class="f-links">
-            <a href={url("/products")}>المنتجات</a>
-            <a href={url("/services")}>خدمات التركيب</a>
+            <a href={url("/products")}>معرض المنتجات</a>
+            <a href={url("/products/marble")}>الرخام</a>
+            <a href={url("/products/granite")}>الجرانيت</a>
+            <a href={url("/products/travertine")}>الحجر الطبيعي</a>
+            <a href={url("/products/limestone")}>الحجر الجيري</a>
+            <a href={url("/services")}>الخدمات</a>
+            <a href={url("/consulting")}>الاستشارات</a>
+            <a href={url("/blog")}>مدونتنا</a>
             <a href={url("/about")}>عن الشركة</a>
             <a href={url("/contact")}>طلب عرض سعر</a>
           </div>

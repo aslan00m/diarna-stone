@@ -1,0 +1,76 @@
+---
+import { url } from '../../data/urls.js';
+import Base from '../../layouts/Base.astro';
+import POSTS from '../../data/blog.js';
+
+export function getStaticPaths() {
+  return [
+    { params: { slug: '_' }, props: { post: null } },
+    ...POSTS.map((p) => ({ params: { slug: p.slug }, props: { post: p } })),
+  ];
+}
+
+const { post } = Astro.props;
+const others = POSTS.filter((p) => p.slug !== post?.slug).slice(0, 3);
+
+if (!post) {
+  return Astro.redirect(url('/blog'));
+}
+
+const fmt = (d) =>
+  new Date(d).toLocaleDateString('ar-SA', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<Base title={post.title} description={post.excerpt}>
+  <section>
+    <div class="wrap">
+      <div class="crumbs"><a href={url('/')}>الرئيسية</a> / <a href={url('/blog')}>مدونتنا</a> / {post.title}</div>
+
+      <div class="post-head">
+        <span class="pill">{post.category}</span>
+        <h1 class="sec-title">{post.title}</h1>
+        <p class="post-meta">{fmt(post.date)} · قراءة {post.readTime}</p>
+        <p class="lead">{post.excerpt}</p>
+      </div>
+
+      <article class="prose">
+        {post.sections.map((s) => (
+          <>
+            <h2>{s.h}</h2>
+            {s.p.map((para) => <p>{para}</p>)}
+          </>
+        ))}
+
+        <h2>الأسئلة الشائعة</h2>
+        {post.faq.map((f) => (
+          <details class="faq">
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+
+        <div class="post-cta">
+          <h3>محتاج مساعدة في اختيار الخامة؟</h3>
+          <p>فريقنا يراجع استخدامك ويقترح الأنسب ضمن ميزانيتك.</p>
+          <a href={url('/contact')} class="btn">تحدث مع مختص</a>
+          <a href={url('/consulting')} class="btn ghost">استشارة مجانية</a>
+        </div>
+      </article>
+
+      <div style="margin-top:56px">
+        <h2 class="sec-title">مقالات أخرى</h2>
+        <div class="grid">
+          {others.map((o) => (
+            <a href={url(`/blog/${o.slug}`)} class="card">
+              <div class="card-body">
+                <span class="pill">{o.category}</span>
+                <h3 style="margin-top:8px">{o.title}</h3>
+                <div class="meta">{fmt(o.date)} · {o.readTime}</div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

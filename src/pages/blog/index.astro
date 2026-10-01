@@ -1,0 +1,43 @@
+---
+import { url } from '../../data/urls.js';
+import Base from '../../layouts/Base.astro';
+import POSTS from '../../data/blog.js';
+
+const fmt = (d) =>
+  new Date(d).toLocaleDateString('ar-SA', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<Base title="مدونتنا" description="مقالات ونصائح عن الرخام والحجر الطبيعي: الاختيار، المواصفات، والتركيب.">
+  <section>
+    <div class="wrap">
+      <div class="crumbs"><a href={url('/')}>الرئيسية</a> / مدونتنا</div>
+      <h1 class="sec-title">مدونتنا</h1>
+      <p class="sec-sub">
+        نصائح عملية من فريق التنفيذ — عن اختيار الخامة، قراءة المواصفات، والتركيب
+        الصحيح. نكتب ما نعرفه من العمل الميداني، لا من الكتيبات التسويقية.
+      </p>
+
+      <div class="blog-list">
+        {POSTS.map((p) => (
+          <a href={url(`/blog/${p.slug}`)} class="post-card">
+            <div class="post-card-body">
+              <div class="post-card-top">
+                <span class="pill">{p.category}</span>
+                <span class="post-card-date">{fmt(p.date)} · {p.readTime}</span>
+              </div>
+              <h2>{p.title}</h2>
+              <p>{p.excerpt}</p>
+              <span class="read-more">اقرأ المقال ←</span>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <div class="cta">
+        <h3>لديك سؤال لم تجده مقالاً عنه؟</h3>
+        <p>اسأل مباشرة — نرد خلال ساعات العمل.</p>
+        <a href={url('/contact')} class="btn">اسأل الآن</a>
+      </div>
+    </div>
+  </section>
+</Base>
