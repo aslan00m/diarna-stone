@@ -98,22 +98,6 @@ const deep = MARBLE_CONTENT[product.slug] || STONE_CONTENT[product.slug] || null
         </div>
       </div>
 
-      {/* منتجات ذات صلة */}
-      {
-        related.length > 0 && (
-          <div style="margin-top:56px">
-            <h2 class="sec-title">منتجات ذات صلة</h2>
-            <div class="grid">
-              {related.map((p) => (
-                <ProductCard product={p} />
-              ))}
-            </div>
-          </div>
-        )
-      }
-    </div>
-  </section>
-
       {deep && (
         <div class="deep">
           <h2 class="deep-title">عن {product.name} بالتفصيل</h2>
@@ -158,5 +142,21 @@ const deep = MARBLE_CONTENT[product.slug] || STONE_CONTENT[product.slug] || null
           </section>
         </div>
       )}
+
+      {/* منتجات ذات صلة */}
+      {
+        related.length > 0 && (
+          <div style="margin-top:56px">
+            <h2 class="sec-title">منتجات ذات صلة</h2>
+            <div class="grid">
+              {related.map((p) => (
+                <ProductCard product={p} />
+              ))}
+            </div>
+          </div>
+        )
+      }
+    </div>
+  </section>
 
 </Base>
