@@ -24,13 +24,16 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
     <header class="top">
       <div class="wrap">
         <a href={url("/")} class="brand">ديارنا <span>الحديثة</span></a>
-        <nav class="top-nav">
+        <a href={LINKS.phone} class="btn">{COMPANY.phone}</a>
+        <button class="burger" id="burger" aria-label="القائمة" aria-expanded="false" aria-controls="top-nav">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="top-nav" id="top-nav">
           <a href={url("/products")}>المنتجات</a>
           <a href={url("/services")}>خدمات التركيب</a>
           <a href={url("/about")}>عن الشركة</a>
           <a href={url("/contact")}>طلب عرض سعر</a>
         </nav>
-        <a href={LINKS.phone} class="btn">{COMPANY.phone}</a>
       </div>
     </header>
 
@@ -40,19 +43,48 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
 
     <footer class="bot">
       <div class="wrap">
-        <div>
-          <strong>{COMPANY.name}</strong><br />
+        <div class="f-col">
+          <strong class="brand-f">ديارنا <span>الحديثة</span></strong><br />
           {COMPANY.tagline}
+          <div class="f-links">
+            <a href={url("/products")}>المنتجات</a>
+            <a href={url("/services")}>خدمات التركيب</a>
+            <a href={url("/about")}>عن الشركة</a>
+            <a href={url("/contact")}>طلب عرض سعر</a>
+          </div>
         </div>
         <div>
+          <strong class="f-h">تواصل معنا</strong><br />
           هاتف: <a href={LINKS.phone}>{COMPANY.phone}</a><br />
           واتساب: <a href={LINKS.whatsapp}>تواصل الآن</a>
         </div>
         <div>
+          <strong class="f-h">نعمل على مدار الأسبوع</strong><br />
           {COMPANY.city}<br />
           {COMPANY.hours}
         </div>
       </div>
+      <div class="f-bottom">
+        <div class="wrap">© {new Date().getFullYear()} {COMPANY.name} — جميع الحقوق محفوظة</div>
+      </div>
     </footer>
+
+    <script is:inline>
+      (function () {
+        var burger = document.getElementById('burger');
+        var nav = document.getElementById('top-nav');
+        if (!burger || !nav) return;
+        burger.addEventListener('click', function () {
+          var open = nav.classList.toggle('open');
+          burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+        });
+        nav.addEventListener('click', function (e) {
+          if (e.target.tagName === 'A') {
+            nav.classList.remove('open');
+            burger.setAttribute('aria-expanded', 'false');
+          }
+        });
+      })();
+    </script>
   </body>
 </html>

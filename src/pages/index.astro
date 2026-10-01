@@ -6,8 +6,14 @@ import { CATEGORIES, ORIGINS, LINKS, COMPANY } from '../data/company.js';
 import ProductCard from '../components/ProductCard.astro';
 
 const featured = PRODUCTS.slice(0, 8);
-const newest = PRODUCTS.slice(-3).reverse();
-const luxury = PRODUCTS.filter((p) => ['bianco-carrara-marble', 'buccino-italian-marble', 'cipollino-italian-marble'].includes(p.slug));
+const newest = [...PRODUCTS].slice(-6).reverse();
+const luxury = PRODUCTS.filter((p) => ['bianco-carrara-marble', 'buccino-italian-marble', 'cipollino-italian-marble', 'roman-travertine'].includes(p.slug));
+const counts = {
+  marble: PRODUCTS.filter((p) => p.category === 'marble').length,
+  granite: PRODUCTS.filter((p) => p.category === 'granite').length,
+  travertine: PRODUCTS.filter((p) => p.category === 'travertine').length,
+  limestone: PRODUCTS.filter((p) => p.category === 'limestone').length,
+};
 ---
 
 <Base>
@@ -17,10 +23,22 @@ const luxury = PRODUCTS.filter((p) => ['bianco-carrara-marble', 'buccino-italian
       <h1>رخام وجحر طبيعي<br />بجودة تدوم طويلاً</h1>
       <p>
         {COMPANY.name} — تجارة الرخام والجرانيت والترافرتينو وتركيب الواجهات والأرضيات.
-        نختار لك خامات تدوم تدوم أكثر من عمر المبنى.
+        نختار لك خامات تدوم أكثر من عمر المبنى.
       </p>
       <a href={url("/products")} class="btn">تصفّح المنتجات</a>
       <a href={LINKS.whatsapp} class="btn ghost">اطلب عرض سعر</a>
+    </div>
+  </div>
+
+  <!-- شريط المزايا -->
+  <div class="strip">
+    <div class="wrap">
+      <div class="strip-grid">
+        <div><strong>{PRODUCTS.length}+</strong><span>نوع حجر</span></div>
+        <div><strong>6</strong><span>مصادر عالمية</span></div>
+        <div><strong>10+</strong><span>سنوات خبرة</span></div>
+        <div><strong>100%</strong><span>ضمان جودة</span></div>
+      </div>
     </div>
   </div>
 
@@ -69,6 +87,9 @@ const luxury = PRODUCTS.filter((p) => ['bianco-carrara-marble', 'buccino-italian
       <div class="grid">
         {featured.map((p) => <ProductCard product={p} />)}
       </div>
+      <div style="text-align:center;margin-top:30px">
+        <a href={url('/products')} class="btn">شاهد كل المنتجات</a>
+      </div>
     </div>
   </section>
 
@@ -99,6 +120,53 @@ const luxury = PRODUCTS.filter((p) => ['bianco-carrara-marble', 'buccino-italian
       </section>
     )
   }
+
+  <!-- خدمات التركيب -->
+  <section>
+    <div class="wrap">
+      <h2 class="sec-title">خدمات التركيب والتنفيذ</h2>
+      <p class="sec-sub">لا نبيع الحجر فحسب — نوفّر فريق التنفيذ الذي يحوّل التصميم إلى واقع.</p>
+      <div class="grid">
+        {[
+          { i: '▤', t: 'تركيب الواجهات', d: 'تركيب حجر الجدران الخارجية بأسلوب دقيق يحافظ على استقامة السطح والتعامل مع النهايات والزوايا.' },
+          { i: '▦', t: 'تركيب الأرضيات', d: 'أرضيات داخلية وخارجية بمسافات متناسقة ومعالجة كاملة للحواف.' },
+          { i: '◈', t: 'تركيب الدرج', d: 'درج داخلي وخارجي بخطوات دقيقة المقطع وتناسق في الارتفاعات.' },
+          { i: '▨', t: 'طاولات ومغاسل', d: 'قطع مخصصة حسب المقاسات مع حواف مصقولة وتنظيف نهائي قبل التسليم.' },
+        ].map((s) => (
+          <div class="card">
+            <div class="card-body">
+              <div class="ico-lg">{s.i}</div>
+              <h3>{s.t}</h3>
+              <p style="color:var(--muted);font-size:.93rem;margin:0">{s.d}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- لماذا نحن -->
+  <section>
+    <div class="wrap">
+      <h2 class="sec-title">لماذا تختار ديارنا الحديثة؟</h2>
+      <p class="sec-sub">أربعة أسباب تجعلنا الخيار الأول للعمّال والمصمّمين.</p>
+      <div class="grid">
+        {[
+          { t: 'خبرة ميدانية', d: 'سنوات من التنفيذ الفعلي في مشاريع سكنية وتجارية، نعرف الفرق بين النظرية والممارسة.' },
+          { t: 'خامات مختارة', d: 'نختار فقط ما نضمن جودته في الاستخدام الفعلي، ولا نبيع ما لا نستخدمه بأنفسنا.' },
+          { t: 'تنفيذ كامل', d: 'من التوريد إلى التركيب النهائي تحت مسؤوليتنا — لا تحتاج للتنقّل بين موردين.' },
+          { t: 'استشارة صادقة', d: 'ننصح بما يناسب مشروعك فعلاً، حتى لو كان الخيار الأرخص هو الأنسب لك.' },
+        ].map((v) => (
+          <div class="card">
+            <div class="card-body">
+              <h3>{v.t}</h3>
+              <p style="color:var(--muted);font-size:.93rem;margin:0">{v.d}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
 
   <!-- CTA -->
   <div class="wrap">
