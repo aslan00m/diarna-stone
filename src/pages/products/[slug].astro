@@ -2,7 +2,7 @@
 import { url } from '../../data/urls.js';
 import Base from '../../layouts/Base.astro';
 import PRODUCTS from '../../data/products.js';
-import { CATEGORIES, ORIGINS, LINKS } from '../../data/company.js';
+import { CATEGORIES, ORIGINS, LINKS, COMPANY } from '../../data/company.js';
 import ProductCard from '../../components/ProductCard.astro';
 import ProductImage from '../../components/ProductImage.astro';
 import { MARBLE_CONTENT } from '../../data/content/marble.js';
@@ -25,7 +25,7 @@ const deep = MARBLE_CONTENT[product.slug] || STONE_CONTENT[product.slug] || null
 const waMsg = encodeURIComponent(
   `السلام عليكم، أرغب في الاستفسار عن ${product.name} (${product.nameEn}) — السعر والتوفر.`
 );
-const waLink = `${LINKS.whatsapp}&text=${waMsg}`;
+const waLink = `https://wa.me/${COMPANY.whatsapp}?text=${waMsg}`;
 ---
 
 <Base title={`${product.name} (${product.nameEn})`} description={product.excerpt}>

@@ -14,6 +14,7 @@ export const COMPANY = {
 // روابط التواصل
 export const LINKS = {
   phone: `tel:+${COMPANY.phone}`,
+  whatsappNumber: COMPANY.whatsapp,
   whatsapp: `https://wa.me/${COMPANY.whatsapp}?text=${encodeURIComponent('مرحباً، أود الاستفسار عن أسعار الحجر')}`,
 };
 
