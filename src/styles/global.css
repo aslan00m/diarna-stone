@@ -515,8 +515,9 @@ footer.bot .wrap { display: flex; flex-wrap: wrap; gap: 34px; justify-content: s
     transition: max-height .28s ease;
   }
   nav.top-nav.open {
-    max-height: 70vh;
+    max-height: min(78vh, 640px);
     overflow-y: auto;
+    overscroll-behavior: contain;
     display: flex;
   }
   nav.top-nav a {
