@@ -1,8 +1,10 @@
 import PRODUCTS from '../data/products.js';
 import { CATEGORIES } from '../data/company.js';
 
-export async function GET({ site }) {
-  const base = (site?.toString() || 'https://diarna-stone.pages.dev').replace(/\/$/, '');
+import { BASE } from '../data/urls.js';
+
+export async function GET() {
+  const base = ('https://aslan00m.github.io' + BASE).replace(/\/$/, '');
   const pages = ['/', '/products', '/products/all', '/services', '/about', '/contact'];
   for (const c of CATEGORIES) pages.push(`/products/${c.slug}`);
   for (const p of PRODUCTS) pages.push(`/products/${p.slug}`);

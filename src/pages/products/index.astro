@@ -7,13 +7,13 @@ import ProductCard from '../../components/ProductCard.astro';
 ---
 
 <Base title="المنتجات" description="كتالوج كامل للرخام والجرانيت والترافرتينو.">
-  <meta http-equiv="refresh" content={`0; url=/products/all`} />
   <section>
     <div class="wrap">
+      <div class="crumbs"><a href={url('/')}>الرئيسية</a> / المنتجات</div>
       <h1 class="sec-title">المنتجات</h1>
-      <p class="sec-sub">{PRODUCTS.length} منتجاً. اختر التصنيف للبدء.</p>
+      <p class="sec-sub">{PRODUCTS.length} منتجاً. اختر التصنيف لتضييق النتائج.</p>
       <div class="tabs">
-        <a href={url("/products/all")} class="tab">الكل ({PRODUCTS.length})</a>
+        <a href={url("/products/all")} class="tab active">الكل ({PRODUCTS.length})</a>
         {CATEGORIES.map((c) => (
           <a href={url(`/products/${c.slug}`)} class="tab">{c.name}</a>
         ))}
