@@ -255,9 +255,7 @@ section { padding: 56px 0; }
   nav.top-nav a.nav-cta,
   nav.top-nav a.nav-phone {
     border-bottom: none;
-    order: 99;
   }
-  nav.top-nav a.nav-phone { order: 100; }
 }
 
 /* على الشاشات الواسعة جداً لا ينضغط الزر مع الروابط */
