@@ -23,7 +23,7 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
   <body>
     <header class="top">
       <div class="wrap">
-        <a href={url("/")} class="brand">ديارنا <span>الحديثة</span></a>
+        <a href={url("/")} class="brand"><span class="brand-a">ديارنا</span> <span class="brand-b">الحديثة</span></a>
         <button class="burger" id="burger" aria-label="القائمة" aria-expanded="false" aria-controls="top-nav">
           <span></span><span></span><span></span>
         </button>
@@ -34,6 +34,7 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
           <a href={url("/products/granite")}>الجرانيت</a>
           <a href={url("/products/travertine")}>الحجر الطبيعي</a>
           <a href={url("/products/limestone")}>الحجر الجيري</a>
+          <a href={url("/sinks")}>المغاسل</a>
           <a href={url("/services")}>الخدمات</a>
           <a href={url("/consulting")}>الاستشارات</a>
           <a href={url("/blog")}>مدونتنا</a>
@@ -59,7 +60,8 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
             <a href={url("/products/granite")}>الجرانيت</a>
             <a href={url("/products/travertine")}>الحجر الطبيعي</a>
             <a href={url("/products/limestone")}>الحجر الجيري</a>
-            <a href={url("/services")}>الخدمات</a>
+            <a href={url("/sinks")}>المغاسل</a>
+          <a href={url("/services")}>الخدمات</a>
             <a href={url("/consulting")}>الاستشارات</a>
             <a href={url("/blog")}>مدونتنا</a>
             <a href={url("/about")}>عن الشركة</a>
@@ -99,5 +101,11 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
         });
       })();
     </script>
+
+    <!-- زر اتصال عائم دائم -->
+    <a href={LINKS.phone} class="fab-call" aria-label="اتصل بنا" title="اتصل بنا">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg>
+      <span>اتصل بنا</span>
+    </a>
   </body>
 </html>

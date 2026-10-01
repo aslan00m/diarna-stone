@@ -20,6 +20,12 @@ const cat = CATEGORIES.find((c) => c.slug === product.category);
 const org = ORIGINS.find((o) => o.slug === product.origin);
 const related = PRODUCTS.filter((p) => p.slug !== product.slug && (p.category === product.category || p.origin === product.origin)).slice(0, 4);
 const deep = MARBLE_CONTENT[product.slug] || STONE_CONTENT[product.slug] || null;
+
+// رابط واتساب برسالة تخص هذا المنتج بالاسم
+const waMsg = encodeURIComponent(
+  `السلام عليكم، أرغب في الاستفسار عن ${product.name} (${product.nameEn}) — السعر والتوفر.`
+);
+const waLink = `${LINKS.whatsapp}&text=${waMsg}`;
 ---
 
 <Base title={`${product.name} (${product.nameEn})`} description={product.excerpt}>
@@ -47,7 +53,7 @@ const deep = MARBLE_CONTENT[product.slug] || STONE_CONTENT[product.slug] || null
           <div class="en">{product.nameEn}</div>
           <p>{product.excerpt}</p>
 
-          <a href={LINKS.whatsapp} class="btn">اطلب عرض سعر</a>
+          <a href={waLink} class="btn">اطلب عرض سعر {product.name}</a>
           <a href={LINKS.phone} class="btn ghost" style="margin-right:8px">{LINKS.phone.replace('tel:+', '')}</a>
 
           <!-- المواصفات -->
@@ -143,7 +149,20 @@ const deep = MARBLE_CONTENT[product.slug] || STONE_CONTENT[product.slug] || null
         </div>
       )}
 
-      {/* منتجات ذات صلة */}
+            <!-- طلب سعر خاص بالمنتج -->
+      <div class="quote-box">
+        <div class="quote-head">
+          <h2>اطلب سعر {product.name}</h2>
+          <p>أرسل لنا طلب السعر وسنرد عليك بالسعر والمقاسات المتاحة والتوفر.</p>
+        </div>
+        <div class="quote-actions">
+          <a href={waLink} class="btn">اطلب عبر واتساب</a>
+          <a href={url('/contact')} class="btn ghost">نموذج طلب كامل</a>
+        </div>
+        <p class="quote-hint">السعر يتغير حسب المقاس والسماكة والتشطيب — والرسالة تُبنى باسم هذا المنتج تلقائياً.</p>
+      </div>
+
+{/* منتجات ذات صلة */}
       {
         related.length > 0 && (
           <div style="margin-top:56px">

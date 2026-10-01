@@ -9,7 +9,7 @@ export async function GET() {
   const pages = ['/', '/products', '/products/all', '/services', '/about', '/contact'];
   for (const c of CATEGORIES) pages.push(`/products/${c.slug}`);
   for (const p of PRODUCTS) pages.push(`/products/${p.slug}`);
-  pages.push('/blog', '/consulting');
+  pages.push('/blog', '/consulting', '/sinks');
   for (const b of POSTS) pages.push(`/blog/${b.slug}`);
 
   const urls = pages
