@@ -996,3 +996,34 @@ section, .page-hero, #works {
   background: rgba(255,255,255,.92);
   border-color: rgba(20,20,15,.28);
 }
+
+
+/* ===== روابط المصادر ===== */
+.tabs { display: flex; flex-wrap: wrap; gap: 10px; }
+a.tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  text-decoration: none;
+  transition: border-color .18s, transform .18s, box-shadow .18s;
+}
+a.tab:hover {
+  border-color: var(--gold-dim);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(20,20,15,.07);
+}
+.tab-flag { font-size: 1.35rem; line-height: 1; }
+.tab-name { font-weight: 600; color: #14140f; font-size: .95rem; }
+.tab-count {
+  font-size: .74rem;
+  color: var(--muted);
+  background: var(--bg-soft);
+  border-radius: 999px;
+  padding: 1px 8px;
+  min-width: 22px;
+  text-align: center;
+}

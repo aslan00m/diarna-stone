@@ -1,0 +1,145 @@
+---
+import Base from '../../layouts/Base.astro';
+import PROJECTS from '../../data/projects-full.js';
+import { url } from '../../data/urls.js';
+
+export function getStaticPaths() {
+  return PROJECTS.map((p) => ({ params: { slug: p.slug }, props: { project: p } }));
+}
+
+const { project: pr } = Astro.props;
+const allImgs = pr.stages.flatMap((s) => s.images);
+const others = PROJECTS.filter((p) => p.slug !== pr.slug).slice(0, 3);
+---
+
+<Base
+  title={`${pr.title} | مشاريع ديارنا الحديثة`}
+  description={pr.summary}
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <a href={url('/works')} class="back">→ معرض الأعمال</a>
+      <h1>{pr.title}</h1>
+      <p class="lede">{pr.summary}</p>
+      <div class="pills">
+        <span class="pill">{pr.category}</span>
+        {pr.scope.map((s) => <span class="pill">{s}</span>)}
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      {
+        pr.stages.length > 1 && (
+          <div class="note">
+            هذا المشروع موثّق بمراحل: {pr.stages.map((s) => s.label).join(' ← ')}.
+          </div>
+        )
+      }
+
+      {
+        pr.stages.map((stage) => (
+          <div class="stage">
+            <div class="stage-head">
+              <h2 class="sec-title">{stage.label}</h2>
+              <span class="stage-note">{stage.note}</span>
+            </div>
+            <div class="stage-grid">
+              {stage.images.map((img) => (
+                <figure class="shot">
+                  <img src={url(img.src)} alt={img.alt} loading="lazy" decoding="async" />
+                </figure>
+              ))}
+            </div>
+          </div>
+        ))
+      }
+
+      <div class="cta-band">
+        <h2>مشروعك قادم؟</h2>
+        <p>ننفّذ نفس الكفاءة على مشروعك، من التوريد حتى التسليم.</p>
+        <div class="cta-row">
+          <a href={url('/contact')} class="btn">طلب عرض سعر</a>
+          <a href={url('/works')} class="btn ghost">مشاريع أخرى</a>
+        </div>
+      </div>
+
+      <h2 class="sec-title" style="margin-top:56px">مشاريع أخرى</h2>
+      <div class="grid" style="margin-top:18px">
+        {others.map((o) => (
+          <a href={url(`/works/${o.slug}`)} class="card">
+            <div class="ph">
+              <img src={url(o.cover)} alt={o.coverAlt} loading="lazy" decoding="async" />
+            </div>
+            <div class="card-body">
+              <h3>{o.title}</h3>
+              <div class="meta">{o.category}</div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .back {
+    display: inline-block;
+    font-size: .9rem;
+    color: var(--muted);
+    text-decoration: none;
+    margin-bottom: 14px;
+  }
+  .back:hover { color: #14140f; }
+  .lede { font-size: 1.06rem; line-height: 1.85; max-width: 68ch; }
+  .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+  .pill {
+    font-size: .8rem;
+    background: var(--bg-soft);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 5px 13px;
+    color: var(--muted);
+  }
+  .note {
+    background: var(--bg-soft);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 14px 18px;
+    font-size: .94rem;
+    color: var(--muted);
+    margin-bottom: 34px;
+  }
+  .stage { margin-bottom: 52px; }
+  .stage-head {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  .stage-head .sec-title { margin: 0; font-size: 1.4rem; }
+  .stage-note { font-size: .86rem; color: var(--muted); }
+  .stage-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 18px;
+  }
+  .shot {
+    margin: 0;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    background: #fff;
+  }
+  .shot img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 700px) {
+    .stage-grid { grid-template-columns: 1fr; }
+  }
+</style>

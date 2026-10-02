@@ -8,6 +8,10 @@ import PRODUCTS from '../data/products.js';
 import { CATEGORIES, ORIGINS, LINKS, COMPANY } from '../data/company.js';
 import ProductCard from '../components/ProductCard.astro';
 
+const usedOrigins = ORIGINS.filter((o) => PRODUCTS.some((p) => p.origin === o.slug));
+const originCounts = Object.fromEntries(
+  usedOrigins.map((o) => [o.slug, PRODUCTS.filter((p) => p.origin === o.slug).length])
+);
 const featured = PRODUCTS.slice(0, 8);
 const newest = [...PRODUCTS].slice(-6).reverse();
 const luxury = PRODUCTS.filter((p) => ['bianco-carrara-marble', 'buccino-italian-marble', 'cipollino-italian-marble', 'roman-travertine'].includes(p.slug));
@@ -118,8 +122,12 @@ const counts = {
       <h2 class="sec-title">تصفّح حسب المصدر</h2>
       <p class="sec-sub">خامات من أفضل مصانع العالم، مع إمكانية التوريد بكميات الجملة.</p>
       <div class="tabs">
-        {ORIGINS.map((o) => (
-          <span class="tab">{o.flag} {o.name}</span>
+        {usedOrigins.map((o) => (
+          <a class="tab" href={url(`/origins/${o.slug}`)}>
+            <span class="tab-flag">{o.flag}</span>
+            <span class="tab-name">{o.name}</span>
+            <span class="tab-count">{originCounts[o.slug]}</span>
+          </a>
         ))}
       </div>
     </div>

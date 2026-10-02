@@ -1,55 +1,77 @@
 ---
 import Base from '../layouts/Base.astro';
-import { PROJECTS } from '../data/projects.js';
+import PROJECTS from '../data/projects-full.js';
 import MATERIALS from '../data/materials.js';
 import { url } from '../data/urls.js';
 import { COMPANY, LINKS } from '../data/company.js';
+
+const byCat = PROJECTS.reduce((acc, p) => {
+  (acc[p.category] ||= []).push(p);
+  return acc;
+}, {});
 ---
 
 <Base
   title={`أعمالنا | ${COMPANY.name}`}
-  description="صور حقيقية من مشاريع ديارنا الحديثة: واجهات خارجية، تشطيبات كلاسيكية، وأعمال حجر تحت التنفيذ."
+  description="مشاريع حقيقية نفّذتها ديارنا الحديثة: واجهات خارجية، ترميم، تشطيب داخلي، ومشاريع تحت التنفيذ — لكل مشروع صفحته بصوره ومراحله."
 >
   <section class="page-hero">
     <div class="wrap">
-      <h1>أعمالنا</h1>
+      <h1>معرض الأعمال</h1>
       <p>
-        هذه صور فعلية من مشاريع نفّذتها {COMPANY.name} — واجهات خارجية، أبواب ومسارات،
-        أرضيات، وأعمال ترميم. نعرضها كما هي، بما فيها المراحل التي ما زالت قيد التنفيذ.
+        مشاريع نفّذتها {COMPANY.name} فعلياً — واجهات خارجية، ترميم، وتشطيب داخلي.
+        كل مشروع له صفحته الخاصة بصوره ومراحله (قبل وأثناء وبعد) وشرح العمل الذي قمنا عليه.
       </p>
     </div>
   </section>
 
   <section>
     <div class="wrap">
-      <div class="work-grid">
-        {PROJECTS.map((p) => (
-          <figure class="work-item">
-            <img src={url(p.src)} alt={p.alt} loading="lazy" decoding="async" />
-            <figcaption>
-              <span class="work-t">{p.title}</span>
-              <span class="work-tag">{p.tag}</span>
-            </figcaption>
-          </figure>
-        ))}
-      </div>
+      {
+        Object.entries(byCat).map(([cat, list]) => (
+          <div class="cat-block">
+            <h2 class="sec-title">{cat}</h2>
+            <div class="work-grid">
+              {list.map((pr) => {
+                const imgs = pr.stages.flatMap((s) => s.images);
+                return (
+                  <a href={url(`/works/${pr.slug}`)} class="work-item">
+                    <img src={url(pr.cover)} alt={pr.coverAlt} loading="lazy" decoding="async" />
+                    <figcaption>
+                      <span class="work-t">{pr.title}</span>
+                      <span class="work-tag">
+                        {imgs.length} صورة
+                        {pr.stages.length > 1 &&
+                          ` · ${pr.stages.map((s) => s.label).join(' ← ')}`}
+                      </span>
+                    </figcaption>
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        ))
+      }
 
-      <h2 class="sec-title" style="margin-top:44px">الخامات والمواد</h2>
-      <p class="sec-sub">
-        كتل وألواح حجرية في مخزننا وورشتنا، قبل القص والتشطيب النهائي.
-        هذه صور حقيقية للمواد كما تصل، وبنفس اللمسات التي تخرج من المعمل.
-      </p>
-
-      <div class="work-grid">
-        {MATERIALS.map((m) => (
-          <figure class="work-item">
-            <img src={url(m.src)} alt={m.alt} loading="lazy" decoding="async" />
-            <figcaption>
-              <span class="work-t">{m.title}</span>
-              <span class="work-tag">{m.tag}</span>
-            </figcaption>
-          </figure>
-        ))}
+      <div class="cat-block">
+        <h2 class="sec-title">الخامات والمواد</h2>
+        <p class="sec-sub">
+          كتل وألواح حجرية في مخزننا وورشتنا، قبل القص والتشطيب النهائي.
+          صور حقيقية للمواد كما تصل.
+        </p>
+        <div class="work-grid">
+          {
+            MATERIALS.map((m) => (
+              <figure class="work-item">
+                <img src={url(m.src)} alt={m.alt} loading="lazy" decoding="async" />
+                <figcaption>
+                  <span class="work-t">{m.title}</span>
+                  <span class="work-tag">{m.tag}</span>
+                </figcaption>
+              </figure>
+            ))
+          }
+        </div>
       </div>
 
       <div class="cta-band">
@@ -63,3 +85,39 @@ import { COMPANY, LINKS } from '../data/company.js';
     </div>
   </section>
 </Base>
+
+<style>
+  .cat-block { margin-bottom: 58px; }
+  .work-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 18px;
+    margin-top: 18px;
+  }
+  /* عمودان على الجوال — قاعدة نهائية تمنع الرجوع لعمود واحد */
+  @media (max-width: 900px) {
+    .work-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 12px; }
+  }
+  .work-item {
+    margin: 0;
+    display: block;
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overflow: hidden;
+    transition: transform .18s, box-shadow .18s;
+  }
+  .work-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 26px rgba(20, 20, 15, .08);
+  }
+  .work-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .work-item figcaption { padding: 12px 15px 14px; }
+  .work-t { display: block; font-weight: 600; color: #14140f; font-size: .98rem; }
+  .work-tag { display: block; font-size: .8rem; color: var(--muted); margin-top: 3px; }
+</style>
