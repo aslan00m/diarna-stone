@@ -565,11 +565,13 @@ header.top .burger { visibility: visible !important; opacity: 1 !important; }
   font-weight: 800;
   font-size: 1.08rem;
   color: #14140f;
-  display: inline-flex;
+  display: flex;
   align-items: baseline;
   gap: 6px;
   white-space: nowrap;
+  flex-wrap: nowrap;      /* الشعار سطر واحد دائماً */
   flex-shrink: 0;
+  line-height: 1.25;
   letter-spacing: -.2px;
 }
 .brand-a { white-space: nowrap; }
