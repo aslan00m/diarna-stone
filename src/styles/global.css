@@ -313,6 +313,19 @@ section { padding: 56px 0; }
 }
 
 /* ===== NAV CTA ===== */
+/* على الشاشات الواسعة: الزر مثبّت في الزاوية بعيداً عن الشعار */
+@media (min-width: 1181px) {
+  .top .wrap { position: relative; }
+  .top nav.top-nav { padding-inline-start: 150px; }
+  nav.top-nav a.nav-cta {
+    position: absolute;
+    inset-inline-start: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+  }
+}
+
 .nav-cta {
   display: inline-block;
   margin-right: 18px;
