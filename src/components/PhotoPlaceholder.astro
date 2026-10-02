@@ -1,0 +1,65 @@
+---
+// صورة بديلة: تحجز حاوية الصورة بنسبة ثابتة وتكتب "جاري البحث عن صورة"
+// حتى يبقي التخطيط متماسكاً قبل توفّر الصور الحقيقية.
+const {
+  label = 'جاري البحث عن صورة',
+  ratio = '4 / 3',
+  icon = '▦',
+  tone = 'soft',
+} = Astro.props;
+---
+
+<div class={`ph ph-${tone}`} style={`aspect-ratio:${ratio}`} role="img" aria-label={label}>
+  <span class="ph-icon" aria-hidden="true">{icon}</span>
+  <span class="ph-text">{label}</span>
+</div>
+
+<style>
+  .ph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    border-radius: var(--radius, 14px);
+    border: 1px dashed var(--line, #e8e4dc);
+    background:
+      repeating-linear-gradient(
+        45deg,
+        var(--bg-soft, #fbfaf7),
+        var(--bg-soft, #fbfaf7) 10px,
+        #ffffff 10px,
+        #ffffff 20px
+      );
+    color: var(--muted, #6f6b62);
+    overflow: hidden;
+  }
+  .ph-gold {
+    border-color: var(--gold-dim, #c9b684);
+    background:
+      repeating-linear-gradient(
+        45deg,
+        #fdfbf4,
+        #fdfbf4 10px,
+        var(--gold-soft, #f4ead1) 10px,
+        var(--gold-soft, #f4ead1) 20px
+      );
+  }
+  .ph-dark {
+    border-color: #3a3a33;
+    background: #191915;
+    color: var(--gold-soft, #f4ead1);
+  }
+  .ph-icon {
+    font-size: 1.7rem;
+    line-height: 1;
+    opacity: 0.55;
+  }
+  .ph-text {
+    font-size: 0.84rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 10px;
+  }
+</style>

@@ -1,0 +1,138 @@
+---
+import { url } from '../data/urls.js';
+import Base from '../layouts/Base.astro';
+import { LINKS } from '../data/company.js';
+import PhotoPlaceholder from '../components/PhotoPlaceholder.astro';
+---
+
+<Base
+  title="التركيب الخارجي"
+  description="تركيب واجهات الحجر الطبيعي بخبرة ميدانية — تحضير، تثبيت، فواصل التمدد، ومعالجة التفاصيل النهائية."
+>
+  <section>
+    <div class="wrap">
+      <div class="crumbs"><a href={url('/')}>الرئيسية</a> / التركيب الخارجي</div>
+
+      <h1 class="sec-title">التركيب الخارجي</h1>
+      <p class="sec-sub">
+        الواجهة هي أول ما يراه المارة، وأكثر ما يتعرّض للشمس والأمطار وحركة الرياح.
+        التركيب الخارجي عمل دقيق لا يُختصر.
+      </p>
+
+      <div class="split">
+        <div>
+          <h2>لماذا التركيب الخارجي أصعب من الداخلي؟</h2>
+          <p>
+            الجدار الداخلي مستقرّ، حمايته سهلة، والتوصيف يُغفر كثيراً من الأخطاء. أما
+            الجدار الخارجي فيواجه ثلاث قوى في وقت واحد: الحرارة والمطر والريح.
+          </p>
+          <p>
+            ونتيجةً لذلك، الفشل في التركيب الخارجي لا يظهر يوم التركيب. يظهر بعد شهور،
+            على شكل شق رفيع يمتد ببطء، أو بقع داكنة نازلة، أو لون رخام يتغير مع تغيّر
+            الفصول. هذه المشاكل لا سببها الحجر، بل طريقة تركيبه.
+          </p>
+          <h3>الفرق الجوهري</h3>
+          <p>
+            الفرق بين تركيب صحيح وآخر خاطئ قد يكون بضعة مليمترات. هذه البضعة المليمترات
+            تحدد إن كان الماء سيدخل خلف الحجر أم يمرّ، وهل حركة الحجر الحراري سيجد
+            مكاناً يتمدد فيه أم سيضغط على نفسه.
+          </p>
+        </div>
+        <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+      </div>
+
+      <h2 class="deep-title">ماذا نفعل في التركيب الخارجي</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="card-body">
+            <h3>تحضير الجدار</h3>
+            <p>
+              نبدأ من القاعدة. الجدار يجب أن يكون مستقيماً ومتيناً ونظيفاً. كل تفاوت هنا
+              ينتقل مباشرة إلى وجه الواجهة.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>فواصل التمدد</h3>
+            <p>
+              الحجر يتمدد وينكمش مع الحرارة. نترك فواصل مرنة تسمح له بالحركة، ونشرح لك
+              أين تكون ولماذا — لأن تفويتها يظهر أثرها بعد سنوات.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>التثبيت الميكانيكي</h3>
+            <p>
+              حسب السماكة والحمل، نستخدم مسامير أو كوابيل معدنية. لا نلصق
+              الحجر على جدار لا يتحمل وزنه.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>معالجة النهايات</h3>
+            <p>
+              الحواف والزوايا أضعف نقاط الواجهة. نعالجها بطريقة تحفظ المظهر وتقاوم الصدمات.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>التصريف السفلي</h3>
+            <p>
+              نقطة أسفل كل لوح هي نقطة الخطر. نترك فتحات تصريف تدفع الماء خارج الحجر بدل
+              أن يبقى فيه.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>العزل والتشطيب</h3>
+            <p>
+              العزل ضروري للخامات المسامية، وليس اختيارياً. نشتري، ونجهّز، ونجدده دورياً</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+        <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+        <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+      </div>
+
+      <div class="cta">
+        <h3>لديك واجهة تحتاج تنفيذ؟</h3>
+        <p>أرسل لنا صورة الموقع والمساحة التقريبية، ونرشّح لك الحل.</p>
+        <a href={url('/contact')} class="btn">اطلب عرض سعر</a>
+        <a href={LINKS.whatsapp} class="btn ghost">واتساب</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .split {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 34px;
+    align-items: start;
+    margin: 28px 0 44px;
+  }
+  .split h2 { font-size: 1.3rem; color: #14140f; margin: 0 0 14px; }
+  .split h3 { font-size: 1.05rem; color: #14140f; margin: 22px 0 10px; }
+  .split p { color: #43423d; line-height: 2; margin: 0 0 14px; }
+  .grid .card-body h3 { font-size: 1rem; color: #14140f; }
+  .grid .card-body p { color: var(--muted); margin: 8px 0 0; line-height: 1.8; }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin: 40px 0 12px;
+  }
+  @media (max-width: 900px) {
+    .split { grid-template-columns: 1fr; }
+    .gallery { grid-template-columns: 1fr; }
+  }
+</style>

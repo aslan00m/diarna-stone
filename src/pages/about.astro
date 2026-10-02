@@ -2,49 +2,193 @@
 import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
 import { COMPANY, LINKS } from '../data/company.js';
+import PhotoPlaceholder from '../components/PhotoPlaceholder.astro';
 ---
 
-<Base title="عن الشركة" description={COMPANY.description}>
+<Base title="عن الشركة" description={`تعرف على ${COMPANY.name} — تجارة الرخام والحجر الطبيعي وتركيب الواجهات في الرياض.`}>
   <section>
     <div class="wrap">
-      <div class="crumbs"><a href={url("/")}>الرئيسية</a> / عن الشركة</div>
+      <div class="crumbs"><a href={url('/')}>الرئيسية</a> / عن الشركة</div>
+
       <h1 class="sec-title">عن {COMPANY.name}</h1>
       <p class="sec-sub">{COMPANY.tagline}</p>
 
-      <p style="max-width:760px;color:#c6cdd9">
-        {COMPANY.name} شركة سعودية متخصصة في تجارة الرخام والحجر الطبيعي وتركيب الواجهات
-        والأرضيات. نعمل مع أفضل المصادر العالمية لنوفر تشكيلة تلبي احتياجات المشاريع
-        السكنية والتجارية وال industriales على حد سواء.
-      </p>
+      <div class="about-lead">
+        <div class="about-lead-text">
+          <p class="lead">
+            الحجر ليس مادة بناء عادية. هو قطعة من الأرض أخذت شكلها بعد ملايين السنين،
+            ثم تأتي إلينا لتبقى في المكان لعقود. نعرف هذا، ولهذا نتعامل مع كل لوح كأنه
+            ليس مجرد بضاعة.
+          </p>
+          <p>
+            في ديارنا الحديثة نبدأ من سؤال واحد قبل أي مشروع: ما الذي سيعنيه هذا الحجر في
+            هذا المكان تحديداً؟ الإضاءة، الاستخدام، الطقس، حركة المبنى — كلها تؤثر في
+            القرار. ثم نختار الصنف والسماكة والتشطيب بما يناسبها، لا بما هو متوفر فقط.
+          </p>
+          <p>
+            هذه هي القيمة الحقيقية: ليست في سعر اللوح، بل في اختيار اللوح الصحيح. حجر رخام
+            جميل في صالة عرض قد يتشقق في شمس الصيف، وحجر رمادي بسيط قد يبدو أرقى في حي
+            هادئ. الحكم يكون بالموقع لا بالصنف.
+          </p>
+        </div>
+        <PhotoPlaceholder label="جاري البحث عن صورة" ratio="3 / 4" icon="▦" />
+      </div>
 
-      <p style="max-width:760px;color:#c6cdd9">
-        نؤمن أن الحجر الجيد ليس مجرد لون، بل استثمار في شكل المكان لعقود. لذلك نختار
-        الخامات بعناية، ونقدّم استشارة صادقة قبل الشراء حتى لا ت regret الاختيار.
-      </p>
-
-      <div class="grid" style="margin-top:34px">
-        {[
-          { t: 'خبرة ميدانية', d: 'سنوات من التنفيذ الفعلي في مشاريع سكنية وتجارية.' },
-          { t: 'خامات مختارة', d: 'نختار فقط ما نضمن جودته في الاستخدام الفعلي.' },
-          { t: 'تنفيذ كامل', d: 'من التوريد إلى التركيب النهائي تحت مسؤوليتنا.' },
-        ].map((v) => (
-          <div class="card">
-            <div class="card-body">
-              <h3>{v.t}</h3>
-              <p style="color:var(--muted);font-size:.93rem;margin:0">{v.d}</p>
-            </div>
+      <h2 class="deep-title">ما الذي يميزنا</h2>
+      <div class="grid about-grid">
+        <div class="card">
+          <div class="card-body">
+            <h3>اختيار قبل العرض</h3>
+            <p>
+              لا نرسل قائمة أسعار فقط. نبدأ بفهم الاستخدام، ثم نرشّح لك ثلاثة أو أربعة
+              خيارات مع سبب ترشيح كل واحد. الاختيار قرار هندسي وجمالي معاً.
+            </p>
           </div>
-        ))}
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>خامات من مصادر معروفة</h3>
+            <p>
+              نعمل مع موردين نعرف منشأ أحجارهم. مصحف الحارة يحدد مقدار العروق ووضوحها،
+              والمحجر يحدد عمر الحجر وسلوكه تحت الشمس والأمطار.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>نشرح ما لا تعرفه</h3>
+            <p>
+              السماكة، والتشطيب، والعزل، ودرجة النعومة — هذه أربعة أشياء تغيّر السعر
+              والأداء معاً. نشرحها قبل الشراء لا بعده.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>تنفيذ ميداني</h3>
+            <p>
+              من القياس إلى التركيب النهائي. فريق يعرف الفروقات التي تصنع الفرق في النتيجة
+              النهائية، ويعرف كيف يتعامل مع حواف المبنى وزواياه.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="deep-title">أعمالنا</h2>
+      <p class="sec-sub">
+        نماذج من أعمالنا في الواجهات والأرضيات والتشطيبات الداخلية. نعرض ما نفتخر به فقط.
+      </p>
+      <div class="work-grid">
+        <figure class="work-item">
+          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+          <figcaption>واجهة سكنية</figcaption>
+        </figure>
+        <figure class="work-item">
+          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+          <figcaption>أرضيات داخلية</figcaption>
+        </figure>
+        <figure class="work-item">
+          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+          <figcaption>درج ومدرّج</figcaption>
+        </figure>
+        <figure class="work-item">
+          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+          <figcaption>تشطيب مطابخ</figcaption>
+        </figure>
+        <figure class="work-item">
+          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+          <figcaption>واجهات تجارية</figcaption>
+        </figure>
+        <figure class="work-item">
+          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+          <figcaption>مغاسل حجرية</figcaption>
+        </figure>
+      </div>
+
+      <h2 class="deep-title">شركاؤنا</h2>
+      <p class="sec-sub">
+        نعمل مع شبكات من الموردين والمصنّعين والمقاولين، ونتشارك معهم المعايير نفسها:
+        دقة في القطع، ووضوح في التعامل، واحترام الموعد.
+      </p>
+      <div class="partners-grid">
+        {
+          Array.from({ length: 6 }, () => (
+            <div class="partner">
+              <PhotoPlaceholder label="جاري البحث عن صورة" ratio="1 / 1" icon="◈" />
+              <span>اسم الشريك</span>
+            </div>
+          ))
+        }
       </div>
 
       <div class="cta">
-        <h3>تحدّث مع فريقنا</h3>
-        <p>نحن هنا للإجابة على استفساراتك.</p>
-        <a href={url("/contact")} class="btn">طلب عرض سعر</a>
-        <a href={LINKS.phone} class="btn" style="background:#14151a;color:#c9a227;margin-right:10px">
-          {COMPANY.phone}
-        </a>
+        <h3>جاهزون لنتحدث عن مشروعك؟</h3>
+        <p>أرسل لنا فكرتك، ونقترح عليك ما يناسبها ضمن ميزانيتك.</p>
+        <a href={url('/contact')} class="btn">تواصل معنا</a>
+        <a href={LINKS.whatsapp} class="btn ghost">واتساب</a>
       </div>
     </div>
   </section>
 </Base>
+
+<style>
+  .about-lead {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    gap: 34px;
+    align-items: start;
+    margin: 30px 0 46px;
+  }
+  .about-lead-text p {
+    color: #43423d;
+    line-height: 2.05;
+    margin: 0 0 16px;
+  }
+  .about-lead-text .lead {
+    font-size: 1.14rem;
+    color: #2a2a26;
+  }
+  .about-grid .card-body p {
+    color: var(--muted);
+    margin: 10px 0 0;
+    line-height: 1.85;
+  }
+  .about-grid .card-body h3 { font-size: 1.06rem; color: #14140f; }
+
+  .work-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin: 26px 0 12px;
+  }
+  .work-item { margin: 0; }
+  .work-item figcaption {
+    margin-top: 10px;
+    font-size: .9rem;
+    font-weight: 600;
+    color: #4a4a44;
+  }
+
+  .partners-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 14px;
+    margin: 26px 0 12px;
+  }
+  .partner { text-align: center; }
+  .partner span {
+    display: block;
+    margin-top: 8px;
+    font-size: .78rem;
+    color: var(--muted);
+  }
+
+  @media (max-width: 900px) {
+    .about-lead { grid-template-columns: 1fr; }
+    .work-grid { grid-template-columns: repeat(2, 1fr); }
+    .partners-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 480px) {
+    .work-grid { grid-template-columns: 1fr; }
+  }
+</style>

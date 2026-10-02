@@ -1,0 +1,137 @@
+---
+import { url } from '../data/urls.js';
+import Base from '../layouts/Base.astro';
+import { LINKS } from '../data/company.js';
+import PhotoPlaceholder from '../components/PhotoPlaceholder.astro';
+---
+
+<Base
+  title="التركيب الداخلي"
+  description="تركيب أرضيات الرخام والجرانيت والتشطيبات الداخلية — أرضيات، جدران، درج، مطابخ، ومغاسل."
+>
+  <section>
+    <div class="wrap">
+      <div class="crumbs"><a href={url('/')}>الرئيسية</a> / التركيب الداخلي</div>
+
+      <h1 class="sec-title">التركيب الداخلي</h1>
+      <p class="sec-sub">
+        هنا تتحدد الراحة. أرضية لا تهتز، ودرج لا يصرّ، ومطبخ لا يبقّع بعد سنة.
+        التركيب الداخلي ليس أصعب من الخارجي، لكنه أدق.
+      </p>
+
+      <div class="split">
+        <div>
+          <h2>الدقة هنا هي كل شيء</h2>
+          <p>
+            في الداخل لا ينمو فشل مفاجئ. لا شق ينمو ببطء، ولا لون يزحف
+            نزولاً. الخطأ يظهر فوراً: خط واحد غير مستقيم، أو فاصل غير متساوٍ، أو سطح
+            ليس في مستوى واحد.
+          </p>
+          <p>
+            ولهذا نبدأ من القياس الدقيق وننتهي بفحص نهائي في الضوء الطبيعي. لأن الحجر في
+            المساء تحت الإنارة يبدو مختلفاً عنه في الصباح تحت الشمس.
+          </p>
+          <h3>ما الذي نتحقق منه قبل التركيب؟</h3>
+          <p>
+            استواء الأرضية، ونسب العيّنات، وتطابق اللون واللون، ودرجة التشطيب في كل لوح.
+            هذه الأربعة لا تُصحّح بعد التركيب.
+          </p>
+        </div>
+        <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+      </div>
+
+      <h2 class="deep-title">مجالات العمل الداخلي</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="card-body">
+            <h3>الأرضيات</h3>
+            <p>
+              رخام وجرانيت وحجر جيري. نراعي نمط العروق عند الرصف حتى لا تلتقط العينة
+              غير المناسبة، ونترك فواصل تمدد في المساحات الكبيرة.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>الجدران والتشطيبات</h3>
+            <p>
+              جداريات المطابخ وخلفياتها، وخطوط الزخرفة. هنا يصبح الحساب الهندسي
+              واضحاً، لأن العين تلاحظ كل انحراف.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>الدرج والمدرّج</h3>
+            <p>
+              أكثر ما يكرر سؤاله العملاء. نراجع سلامة النليس</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>المطابخ</h3>
+            <p>
+              أسطح المطابخ مقاوم للخدش والحرارة والأحماض. الجرانيت الأنسب هنا، ونشرح
+              لك الفرق.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>الحمامات والمغاسل</h3>
+            <p>
+              مغاسل حجرية سطحية ومدمجة، وبلاطات مغاسل، وعزل صحيح حول المناطق المبللة.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>مداخل وممرات</h3>
+            <p>
+              أول ما يراه الزائر. نرشّح له حجراً يتحمّل الاحتكاك اليومي، لا حجراً هشاً لمظهره
+              فقط.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+        <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+        <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+      </div>
+
+      <div class="cta">
+        <h3>جاهزون نبدأ؟</h3>
+        <p>أرسل لنا المساحة والصورة، ونعطيك خطة تنفيذ وتقدير سعر.</p>
+        <a href={url('/contact')} class="btn">اطلب عرض سعر</a>
+        <a href={LINKS.whatsapp} class="btn ghost">واتساب</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .split {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 34px;
+    align-items: start;
+    margin: 28px 0 44px;
+  }
+  .split h2 { font-size: 1.3rem; color: #14140f; margin: 0 0 14px; }
+  .split h3 { font-size: 1.05rem; color: #14140f; margin: 22px 0 10px; }
+  .split p { color: #43423d; line-height: 2; margin: 0 0 14px; }
+  .grid .card-body h3 { font-size: 1rem; color: #14140f; }
+  .grid .card-body p { color: var(--muted); margin: 8px 0 0; line-height: 1.8; }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin: 40px 0 12px;
+  }
+  @media (max-width: 900px) {
+    .split { grid-template-columns: 1fr; }
+    .gallery { grid-template-columns: 1fr; }
+  }
+</style>

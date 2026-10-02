@@ -1,6 +1,7 @@
 ---
 import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
+import PhotoPlaceholder from '../components/PhotoPlaceholder.astro';
 import PRODUCTS from '../data/products.js';
 import { CATEGORIES, ORIGINS, LINKS, COMPANY } from '../data/company.js';
 import ProductCard from '../components/ProductCard.astro';
@@ -169,20 +170,65 @@ const counts = {
   </section>
 
 
-  <!-- معرض أعمال -->
+  <!-- أعمالنا -->
   <section>
     <div class="wrap">
-      <h2 class="sec-title">من أعمالنا</h2>
-      <p class="sec-sub">نماذج من تنسيقات الحجر في مشاريع داخلية وخارجية.</p>
-      <div class="gallery">
-        <figure class="shot">
-          <img src={url('/images/scenes/interior.jpg')} alt="درج داخلي مكسو بالرخام الفاخر — من أعمال تركيب ديارنا الحديثة" loading="lazy" width="1200" height="900" />
-          <figcaption>درج رخام داخلي — تشطيب متجانس في كل درجات</figcaption>
+      <h2 class="sec-title">أعمالنا</h2>
+      <p class="sec-sub">نماذج من أعمالنا المميزة في الواجهات والأرضيات والتشطيبات الداخلية.</p>
+
+      <div class="work-grid">
+        <figure class="work-item">
+          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+          <figcaption>واجهة سكنية</figcaption>
+        </figure>
+        <figure class="work-item">
+          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+          <figcaption>أرضيات داخلية</figcaption>
+        </figure>
+        <figure class="work-item">
+          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+          <figcaption>درج ومدرّج</figcaption>
+        </figure>
+        <figure class="work-item">
+          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+          <figcaption>تشطيب مطابخ</figcaption>
+        </figure>
+        <figure class="work-item">
+          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+          <figcaption>واجهات تجارية</figcaption>
+        </figure>
+        <figure class="work-item">
+          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
+          <figcaption>مغاسل حجرية</figcaption>
         </figure>
       </div>
-      <p style="color:var(--muted);font-size:.88rem;margin-top:14px">
-        معرض الأعمال قيد الإضافة — تُنشر صور المشاريع الفعّلة عند اعتمادها.
+
+      <p class="gallery-note">
+       JZ.note ||
+        الصور تُضاف تدريجياً بعد معاينتها والتأكد من دقتها. نعرض ما نفّذناه بأنفسنا فقط.
       </p>
+    </div>
+  </section>
+
+  <!-- شركاؤنا -->
+  <section>
+    <div class="wrap">
+      <h2 class="sec-title">شركاؤنا</h2>
+      <p class="sec-sub">
+        نعمل مع شبكة من الموردين والمصنّعين والمقاولين في المملكة، ونشاركهم المعايير نفسها:
+        دقة في القطع، ووضوح في التعامل، واحترام الموعد.
+      </p>
+
+      <div class="partners-grid">
+        {
+          Array.from({ length: 6 }, () => (
+            <div class="partner">
+              <PhotoPlaceholder label="جاري البحث عن صورة" ratio="1 / 1" icon="◈" />
+              <span>اسم الشريك</span>
+            </div>
+          ))
+        }
+      </div>
     </div>
   </section>
 

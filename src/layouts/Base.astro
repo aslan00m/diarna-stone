@@ -36,6 +36,8 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
           <a href={url("/products/limestone")}>الحجر الجيري</a>
           <a href={url("/sinks")}>المغاسل</a>
           <a href={url("/services")}>الخدمات</a>
+          <a href={url("/installation-external")}>تركيب خارجي</a>
+          <a href={url("/installation-internal")}>تركيب داخلي</a>
           <a href={url("/consulting")}>الاستشارات</a>
           <a href={url("/blog")}>مدونتنا</a>
           <a href={url("/about")}>عن الشركة</a>
@@ -62,6 +64,8 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
             <a href={url("/products/limestone")}>الحجر الجيري</a>
             <a href={url("/sinks")}>المغاسل</a>
           <a href={url("/services")}>الخدمات</a>
+          <a href={url("/installation-external")}>تركيب خارجي</a>
+          <a href={url("/installation-internal")}>تركيب داخلي</a>
             <a href={url("/consulting")}>الاستشارات</a>
             <a href={url("/blog")}>مدونتنا</a>
             <a href={url("/about")}>عن الشركة</a>
@@ -112,7 +116,7 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
         });
         // إعادة الضبط عند تكبير النافذة إلى وضع سطح المكتب
         window.addEventListener('resize', function () {
-          if (window.innerWidth > 1280 && nav.classList.contains('open')) setOpen(false);
+          if (window.innerWidth > 1560 && nav.classList.contains('open')) setOpen(false);
         });
       })();
     </script>
