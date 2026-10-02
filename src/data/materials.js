@@ -1,0 +1,28 @@
+export const MATERIALS = [
+  { src: '/images/materials/m01-0851ceef.jpg', alt: 'كتل حجرية وردية في المخزن', title: 'كتل حجرية وردية في المخزن', tag: 'مواد خام' },
+  { src: '/images/materials/m02-09203987.jpg', alt: 'كتل حجرية في ساحة التخزين', title: 'كتل حجرية في ساحة التخزين', tag: 'مواد خام' },
+  { src: '/images/materials/m03-0a85b1f5.jpg', alt: 'لوح حجري طويل بعروق خشبية', title: 'لوح حجري طويل بعروق خشبية', tag: 'مواد خام' },
+  { src: '/images/materials/m04-0dcd64aa.jpg', alt: 'كتل حجرية بيضاء مكدسة في ساحة خارجية', title: 'كتل حجرية بيضاء مكدسة في ساحة خارجية', tag: 'مخزن' },
+  { src: '/images/materials/m05-1ae654cc.jpg', alt: 'ألواح حجرية بيضاء مكدسة', title: 'ألواح حجرية بيضاء مكدسة', tag: 'مخزن' },
+  { src: '/images/materials/m06-1c8125f2.jpg', alt: 'كتل حجرية بيضاء', title: 'كتل حجرية بيضاء', tag: 'مخزن' },
+  { src: '/images/materials/m07-208f2841.jpg', alt: 'كتل حجرية بنية محمرة', title: 'كتل حجرية بنية محمرة', tag: 'مخزن' },
+  { src: '/images/materials/m08-309af575.jpg', alt: 'كتل حجرية بنية مكدسة', title: 'كتل حجرية بنية مكدسة', tag: 'مواد خام' },
+  { src: '/images/materials/m09-46ca10dd.jpg', alt: 'ألواح حجرية بسطح خشن', title: 'ألواح حجرية بسطح خشن', tag: 'مواد خام' },
+  { src: '/images/materials/m10-57ef4343.jpg', alt: 'كتل حجرية بيضاء', title: 'كتل حجرية بيضاء', tag: 'مخزن' },
+  { src: '/images/materials/m11-649b3999.jpg', alt: 'ألواح ترا فرتينو طويلة', title: 'ألواح ترا فرتينو طويلة', tag: 'مواد خام' },
+  { src: '/images/materials/m12-766a78c5.jpg', alt: 'تفصيل سطح حجري أبيض', title: 'تفصيل سطح حجري أبيض', tag: 'مواد خام' },
+  { src: '/images/materials/m13-777f1a9c.jpg', alt: 'واجهة فيلا حديثة بالحجر', title: 'واجهة فيلا حديثة بالحجر', tag: 'واجهات خارجية' },
+  { src: '/images/materials/m14-7a955ae7.jpg', alt: 'ألواح حجرية منقوشة', title: 'ألواح حجرية منقوشة', tag: 'مواد خام' },
+  { src: '/images/materials/m15-7b988ae8.jpg', alt: 'كتل حجرية مكدسة', title: 'كتل حجرية مكدسة', tag: 'مخزن' },
+  { src: '/images/materials/m16-9f56042f.jpg', alt: 'ألواح حجرية على خط الإنتاج', title: 'ألواح حجرية على خط الإنتاج', tag: 'ورشة' },
+  { src: '/images/materials/m17-a247b908.jpg', alt: 'مبنى حديث بواجهة حجرية', title: 'مبنى حديث بواجهة حجرية', tag: 'واجهات خارجية' },
+  { src: '/images/materials/m18-a62505be.jpg', alt: 'مبنى تحت الإنشاء', title: 'مبنى تحت الإنشاء', tag: 'تحت التنفيذ' },
+  { src: '/images/materials/m19-ae937acf.jpg', alt: 'كتل حجرية حمراء', title: 'كتل حجرية حمراء', tag: 'مخزن' },
+  { src: '/images/materials/m20-b31d7414.jpg', alt: 'كتل حجرية بيضاء', title: 'كتل حجرية بيضاء', tag: 'مخزن' },
+  { src: '/images/materials/m21-cc54b3d3.jpg', alt: 'فيلا حديثة', title: 'فيلا حديثة', tag: 'مشاريعنا' },
+  { src: '/images/materials/m22-d6f12da8.jpg', alt: 'كتل حجرية', title: 'كتل حجرية', tag: 'مواد خام' },
+  { src: '/images/materials/m23-e27c9a4d.jpg', alt: 'أعمدة وأطواق حجرية', title: 'أعمدة وأطواق حجرية', tag: 'مواد خام' },
+  { src: '/images/materials/m25-f7d74af1.jpg', alt: 'كتل حجرية بنية', title: 'كتل حجرية بنية', tag: 'مخزن' },
+];
+
+export default MATERIALS;

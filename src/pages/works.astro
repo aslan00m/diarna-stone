@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { PROJECTS } from '../data/projects.js';
+import MATERIALS from '../data/materials.js';
 import { url } from '../data/urls.js';
 import { COMPANY, LINKS } from '../data/company.js';
 ---
@@ -28,6 +29,24 @@ import { COMPANY, LINKS } from '../data/company.js';
             <figcaption>
               <span class="work-t">{p.title}</span>
               <span class="work-tag">{p.tag}</span>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+
+      <h2 class="sec-title" style="margin-top:44px">الخامات والمواد</h2>
+      <p class="sec-sub">
+        كتل وألواح حجرية في مخزننا وورشتنا، قبل القص والتشطيب النهائي.
+        هذه صور حقيقية للمواد كما تصل، وبنفس اللمسات التي تخرج من المعمل.
+      </p>
+
+      <div class="work-grid">
+        {MATERIALS.map((m) => (
+          <figure class="work-item">
+            <img src={url(m.src)} alt={m.alt} loading="lazy" decoding="async" />
+            <figcaption>
+              <span class="work-t">{m.title}</span>
+              <span class="work-tag">{m.tag}</span>
             </figcaption>
           </figure>
         ))}
