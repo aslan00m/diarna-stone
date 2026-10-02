@@ -918,17 +918,18 @@ section, .page-hero, #works {
   transition: opacity 1.1s ease, transform 7s linear;
 }
 .hero-slide.is-active {
-  opacity: .42;
+  opacity: .85;
   transform: scale(1);
 }
 .hero-scrim {
   position: absolute;
   inset: 0;
   z-index: 1;
+  /* طبقة أخف حتى تظهر الصورة بوضوح مع بقاء النص مقروءاً */
   background: linear-gradient(180deg,
-    rgba(250,248,244,.86) 0%,
-    rgba(250,248,244,.66) 45%,
-    rgba(250,248,244,.92) 100%);
+    rgba(250,248,244,.40) 0%,
+    rgba(250,248,244,.22) 45%,
+    rgba(250,248,244,.62) 100%);
   pointer-events: none;
 }
 
@@ -964,5 +965,14 @@ section, .page-hero, #works {
 
 @media (max-width: 640px) {
   .hero { padding: 68px 0 72px; }
-  .hero-slide.is-active { opacity: .38; }
+  .hero-slide.is-active { opacity: .8; }
 }
+
+
+/* وضوح النص فوق صورة الهيرو بدون إخفائها */
+.hero .wrap > h1,
+.hero .wrap > p {
+  text-shadow: 0 1px 2px rgba(255,255,255,.85),
+               0 0 14px rgba(255,255,255,.7);
+}
+.hero .wrap > h1 { color: #14140f; }
