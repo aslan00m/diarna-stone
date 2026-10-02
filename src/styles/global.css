@@ -594,7 +594,7 @@ footer.bot .wrap { display: flex; flex-wrap: wrap; gap: 34px; justify-content: s
     gap: 0;
     background: #ffffff;
     border-top: 1px solid var(--line);
-    padding: 8px 0 calc(20px + env(safe-area-inset-bottom, 0px));
+    padding: 6px 0 calc(16px + env(safe-area-inset-bottom, 0px));
     display: flex;
     transform: translateY(-102%);
     transition: transform .28s ease;
@@ -608,7 +608,7 @@ footer.bot .wrap { display: flex; flex-wrap: wrap; gap: 34px; justify-content: s
     visibility: visible;
   }
   nav.top-nav a {
-    padding: 14px 24px;
+    padding: 13px 24px;
     border-bottom: 1px solid var(--line);
   }
   nav.top-nav a:last-child { border-bottom: none; }
