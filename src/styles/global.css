@@ -746,15 +746,15 @@ footer.bot .wrap { display: flex; flex-wrap: wrap; gap: 34px; justify-content: s
   background-image: var(--hero-img);
   background-size: cover;
   background-position: center 40%;
-  filter: saturate(.92) contrast(1.02);
-  opacity: .30;
+  filter: saturate(.95) contrast(1.03);
+  opacity: .55;
 }
 .hero.has-photo::after {
   content: "";
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(180deg, rgba(250,248,244,.86) 0%, rgba(250,248,244,.72) 55%, rgba(250,248,244,.95) 100%);
+  background: linear-gradient(180deg, rgba(250,248,244,.72) 0%, rgba(250,248,244,.52) 55%, rgba(250,248,244,.88) 100%);
 }
 
 .work-grid {
