@@ -873,3 +873,25 @@ section, .page-hero, #works {
 }
 .card-body,
 .work-item figcaption { flex: 1 1 auto; }
+
+
+/* ===== صورة المنتج في صفحة المنتج ===== */
+.ph-large {
+  aspect-ratio: 4 / 3;
+  background: #f4f1ea;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 26px;
+}
+.ph-large img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+/* الصور الأصلية 300×300 — نكبّرها بالحد الأدنى دون تشويه */
+.card .ph img,
+.ph img {
+  image-rendering: auto;
+}

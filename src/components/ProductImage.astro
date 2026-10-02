@@ -1,11 +1,11 @@
 ---
-import PRODUCTS from '../data/products.js';
+import { url } from '../data/urls.js';
 
 const { product, large = false } = Astro.props;
 const isPlaceholder = !product.image;
 ---
 
-<div class="ph">
+<div class={`ph ${large ? 'ph-large' : ''}`}>
   {
     isPlaceholder ? (
       <>
@@ -13,7 +13,7 @@ const isPlaceholder = !product.image;
         <span>تحت البحث عن صورة</span>
       </>
     ) : (
-      <img src={product.image} alt={`${product.name} - ${product.nameEn}`} loading="lazy" />
+      <img src={url(product.image)} alt={`${product.name} - ${product.nameEn}`} loading={large ? 'eager' : 'lazy'} decoding="async" />
     )
   }
 </div>
