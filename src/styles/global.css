@@ -636,7 +636,10 @@ footer.bot .wrap { display: flex; flex-wrap: wrap; gap: 34px; justify-content: s
     top: 62px;
     left: 0;
     right: 0;
-    bottom: 0;
+    height: calc(100vh - 62px);
+    height: calc(100dvh - 62px);
+    max-height: calc(100vh - 62px);
+    max-height: calc(100dvh - 62px);
     flex-direction: column;
     gap: 0;
     background: #ffffff;
@@ -675,11 +678,10 @@ footer.bot .wrap { display: flex; flex-wrap: wrap; gap: 34px; justify-content: s
     top: 62px !important;
     left: 0 !important;
     right: 0 !important;
-    bottom: 0 !important;
+    height: calc(100dvh - 62px) !important;
+    max-height: calc(100dvh - 62px) !important;
     display: flex !important;
     flex-direction: column !important;
-    max-height: none !important;
-    height: auto;
     overflow-y: auto;
     background: #fff;
     z-index: 49;
