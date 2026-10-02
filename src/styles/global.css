@@ -336,7 +336,7 @@ section { padding: 56px 0; }
 /* الهاتف: الزر العائم 대체ه، فلا يظهر في الشريط إطلاقاً */
 .nav-phone { display: none !important; }
 
-@media (max-width: 1560px) {
+@media (max-width: 1180px) {
   .nav-cta {
     margin: 12px 24px 0;
     text-align: center;
@@ -359,7 +359,7 @@ section { padding: 56px 0; }
 }
 
 /* على الشاشات الواسعة جداً لا ينضغط الزر مع الروابط */
-@media (min-width: 1561px) {
+@media (min-width: 1181px) {
   .nav-cta { margin-inline-start: 0; }
 }
 
@@ -556,14 +556,15 @@ header.top {
 .brand span { color: var(--gold-dim); }
 nav.top-nav {
   display: flex;
-  gap: 2px;
-  font-size: .845rem;
+  gap: 0;
+  font-size: .82rem;
   color: var(--muted);
   flex-wrap: nowrap;
   align-items: center;
   white-space: nowrap;
 }
-nav.top-nav a { white-space: nowrap; }
+nav.top-nav a { white-space: nowrap; padding: 6px 7px; border-radius: 8px; }
+nav.top-nav a:hover { background: var(--bg-soft); }
 nav.top-nav a:hover { color: #14140f; }
 
 /* زر قائمة الجوال */
@@ -619,7 +620,7 @@ footer.bot .wrap { display: flex; flex-wrap: wrap; gap: 34px; justify-content: s
 }
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 1560px) {
+@media (max-width: 1180px) {
   .burger { display: flex; order: 3; }
 
   nav.top-nav {
