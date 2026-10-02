@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import { PROJECTS } from '../data/projects.js';
+import { url } from '../data/urls.js';
+import { COMPANY, LINKS } from '../data/company.js';
+---
+
+<Base
+  title={`أعمالنا | ${COMPANY.name}`}
+  description="صور حقيقية من مشاريع ديارنا الحديثة: واجهات خارجية، تشطيبات كلاسيكية، وأعمال حجر تحت التنفيذ."
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>أعمالنا</h1>
+      <p>
+        هذه صور فعلية من مشاريع نفّذتها {COMPANY.name} — واجهات خارجية، أبواب ومسارات،
+        أرضيات، وأعمال ترميم. نعرضها كما هي، بما فيها المراحل التي ما زالت قيد التنفيذ.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="work-grid">
+        {PROJECTS.map((p) => (
+          <figure class="work-item">
+            <img src={url(p.src)} alt={p.alt} loading="lazy" decoding="async" />
+            <figcaption>
+              <span class="work-t">{p.title}</span>
+              <span class="work-tag">{p.tag}</span>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+
+      <div class="cta-band">
+        <h2>مشروعك القادم قد يكون هنا</h2>
+        <p>أرسل لنا نوع الحجر والتشطيب المطلوب، ونرجع لك بعرض سعر واضح.</p>
+        <div class="cta-row">
+          <a href={url('/contact')} class="btn">طلب عرض سعر</a>
+          <a href={LINKS.whatsapp} class="btn ghost">تواصل واتساب</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

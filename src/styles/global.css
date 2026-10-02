@@ -731,3 +731,89 @@ footer.bot .wrap { display: flex; flex-wrap: wrap; gap: 34px; justify-content: s
 @media (min-width: 1181px) {
   .burger { display: none !important; }
 }
+
+
+/* ===== صور المشاريع ===== */
+.hero.has-photo {
+  position: relative;
+  isolation: isolate;
+}
+.hero.has-photo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: var(--hero-img);
+  background-size: cover;
+  background-position: center 40%;
+  filter: saturate(.92) contrast(1.02);
+  opacity: .30;
+}
+.hero.has-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(250,248,244,.86) 0%, rgba(250,248,244,.72) 55%, rgba(250,248,244,.95) 100%);
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.work-item {
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+  transition: transform .2s, box-shadow .2s;
+}
+.work-item:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(20,20,15,.08); }
+.work-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--bg-soft);
+}
+.work-item figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 12px 14px 14px;
+}
+.work-t { font-weight: 700; font-size: .95rem; color: #14140f; }
+.work-tag { font-size: .78rem; color: var(--muted); }
+
+@media (max-width: 900px) {
+  .work-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .work-item figcaption { padding: 10px 11px 12px; }
+  .work-t { font-size: .86rem; }
+  .work-tag { font-size: .72rem; }
+}
+@media (max-width: 560px) {
+  .work-grid { gap: 10px; }
+}
+
+
+.page-hero {
+  background: linear-gradient(180deg, var(--bg-soft), #fff);
+  border-bottom: 1px solid var(--line);
+  padding: 44px 0 34px;
+}
+.page-hero h1 { margin: 0 0 10px; font-size: clamp(1.7rem, 3.4vw, 2.5rem); }
+.page-hero p { margin: 0; max-width: 62ch; color: var(--muted); line-height: 1.8; }
+
+.cta-band {
+  margin: 44px 0 8px;
+  padding: 34px 28px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: linear-gradient(180deg, var(--gold-soft), #fff);
+  text-align: center;
+}
+.cta-band h2 { margin: 0 0 8px; font-size: 1.35rem; }
+.cta-band p { margin: 0 0 18px; color: var(--muted); }
+.cta-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }

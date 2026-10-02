@@ -1,4 +1,6 @@
 ---
+import { PROJECTS, HERO } from '../data/projects.js';
+import { url } from '../data/urls.js';
 import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
 import PhotoPlaceholder from '../components/PhotoPlaceholder.astro';
@@ -19,7 +21,7 @@ const counts = {
 
 <Base>
   <!-- HERO -->
-  <div class="hero">
+  <div class="hero has-photo" style={`--hero-img:url('${url(HERO.src)}')`}>
     <div class="wrap">
       <h1>رخام وجحر طبيعي<br />بجودة تدوم طويلاً</h1>
       <p>
@@ -171,42 +173,24 @@ const counts = {
 
 
   <!-- أعمالنا -->
-  <section>
+  <section id="works">
     <div class="wrap">
       <h2 class="sec-title">أعمالنا</h2>
-      <p class="sec-sub">نماذج من أعمالنا المميزة في الواجهات والأرضيات والتشطيبات الداخلية.</p>
+      <p class="sec-sub">
+        صور حقيقية من مشاريع نفّذناها: واجهات خارجية، تشطيبات كلاسيكية، وأعمال قيد التنفيذ.
+      </p>
 
       <div class="work-grid">
-        <figure class="work-item">
-          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
-          <figcaption>واجهة سكنية</figcaption>
-        </figure>
-        <figure class="work-item">
-          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
-          <figcaption>أرضيات داخلية</figcaption>
-        </figure>
-        <figure class="work-item">
-          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
-          <figcaption>درج ومدرّج</figcaption>
-        </figure>
-        <figure class="work-item">
-          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
-          <figcaption>تشطيب مطابخ</figcaption>
-        </figure>
-        <figure class="work-item">
-          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
-          <figcaption>واجهات تجارية</figcaption>
-        </figure>
-        <figure class="work-item">
-          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
-          <figcaption>مغاسل حجرية</figcaption>
-        </figure>
+        {PROJECTS.map((p) => (
+          <figure class="work-item">
+            <img src={url(p.src)} alt={p.alt} loading="lazy" decoding="async" width="1280" height="720" />
+            <figcaption>
+              <span class="work-t">{p.title}</span>
+              <span class="work-tag">{p.tag}</span>
+            </figcaption>
+          </figure>
+        ))}
       </div>
-
-      <p class="gallery-note">
-       JZ.note ||
-        الصور تُضاف تدريجياً بعد معاينتها والتأكد من دقتها. نعرض ما نفّذناه بأنفسنا فقط.
-      </p>
     </div>
   </section>
 

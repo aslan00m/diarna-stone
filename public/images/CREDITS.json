@@ -1,8 +1,15 @@
 [
- {
-  "file": "interior.jpg",
-  "title": "Marble Staircase Hotel Russell.jpg",
-  "license": "CC0",
-  "descurl": "https://commons.wikimedia.org/wiki/File:Marble_Staircase_Hotel_Russell.jpg"
- }
+  {
+    "file": "interior.jpg",
+    "title": "Marble Staircase Hotel Russell.jpg",
+    "license": "CC0",
+    "descurl": "https://commons.wikimedia.org/wiki/File:Marble_Staircase_Hotel_Russell.jpg"
+  },
+  {
+    "file": "projects/",
+    "title": "صور مشاريع حقيقية مقدمة من الشركة",
+    "license": "الشركة",
+    "descurl": "صور فوتوغرافية لمشاريع نفّذتها ديارنا الحديثة. طُمست أرقام الهواتف وأسماء المقاولين الظاهرة في صورتين قبل النشر.",
+    "note": "في الصورتين p03 و p05 طُمست أرقام هواتف مقاولين ظاهرة، وتم التحقق البصري من عدم بقائها."
+  }
 ]
