@@ -18,7 +18,8 @@
 
 * { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-padding-top: 78px; scroll-behavior: smooth; }
 
 body {
   margin: 0;
@@ -817,3 +818,9 @@ footer.bot .wrap { display: flex; flex-wrap: wrap; gap: 34px; justify-content: s
 .cta-band h2 { margin: 0 0 8px; font-size: 1.35rem; }
 .cta-band p { margin: 0 0 18px; color: var(--muted); }
 .cta-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+
+/* الرأس ثابت: أي قسم يُفتح بـ anchor يبدأ تحته لا خلفه */
+section, .page-hero, #works {
+  scroll-margin-top: 78px;
+}
