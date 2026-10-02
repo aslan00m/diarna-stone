@@ -18,7 +18,7 @@ const others = PROJECTS.filter((p) => p.slug !== pr.slug).slice(0, 3);
 >
   <section class="page-hero">
     <div class="wrap">
-      <a href={url('/works')} class="back">→ معرض الأعمال</a>
+      <a href={url('/works')} class="back">→ مشاريعنا</a>
       <h1>{pr.title}</h1>
       <p class="lede">{pr.summary}</p>
       <div class="pills">
@@ -61,11 +61,11 @@ const others = PROJECTS.filter((p) => p.slug !== pr.slug).slice(0, 3);
         <p>ننفّذ نفس الكفاءة على مشروعك، من التوريد حتى التسليم.</p>
         <div class="cta-row">
           <a href={url('/contact')} class="btn">طلب عرض سعر</a>
-          <a href={url('/works')} class="btn ghost">مشاريع أخرى</a>
+          <a href={url('/works')} class="btn ghost">مشاريعنا الأخرى</a>
         </div>
       </div>
 
-      <h2 class="sec-title" style="margin-top:56px">مشاريع أخرى</h2>
+      <h2 class="sec-title" style="margin-top:56px">مشاريعنا الأخرى</h2>
       <div class="grid" style="margin-top:18px">
         {others.map((o) => (
           <a href={url(`/works/${o.slug}`)} class="card">
