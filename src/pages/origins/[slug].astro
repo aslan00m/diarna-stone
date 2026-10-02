@@ -1,0 +1,83 @@
+---
+import Base from '../../layouts/Base.astro';
+import PRODUCTS from '../../data/products.js';
+import { ORIGINS, CATEGORIES } from '../../data/company.js';
+import { url } from '../../data/urls.js';
+
+export function getStaticPaths() {
+  const used = new Set(PRODUCTS.map((p) => p.origin));
+  return ORIGINS.filter((o) => used.has(o.slug)).map((o) => ({
+    params: { slug: o.slug },
+    props: { origin: o },
+  }));
+}
+
+const { origin } = Astro.props;
+const items = PRODUCTS.filter((p) => p.origin === origin.slug);
+const byCat = CATEGORIES.map((c) => ({
+  cat: c,
+  list: items.filter((p) => p.category === c.slug),
+})).filter((g) => g.list.length > 0);
+---
+
+<Base
+  title={`أحجار ${origin.name} | ديارنا الحديثة`}
+  description={`تشكيلة الأحجار القادمة من ${origin.name}: رخام وجرانيت وترا فرتينو وحجر جيري، مع الأسعار والمقاسات والتشطيبات المتاحة.`}
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>أحجار {origin.name}</h1>
+      <p>
+        مجموعة من الأحجار الطبيعية القادمة من {origin.name}، نوفّرها بالمقاسات والتشطيبات
+        الشائعة، ونستطيع قصّها حسب مقاس مشروعك. هذه قائمة ما متوفر لدينا حالياً.
+      </p>
+      <p style="margin-top:10px">
+        <strong>{items.length}</strong> نوع في هذه المجموعة.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      {
+        byCat.map((g) => (
+          <div style="margin-bottom:40px">
+            <h2 class="sec-title" style="font-size:1.35rem">{g.cat.name} {origin.name}</h2>
+            <div class="grid" style="margin-top:18px">
+              {g.list.map((p) => (
+                <a href={url(`/products/${p.slug}`)} class="card">
+                  {p.image ? (
+                    <div class="ph">
+                      <img src={url(p.image)} alt={`${p.name} - ${p.nameEn}`} loading="lazy" decoding="async" />
+                    </div>
+                  ) : (
+                    <div class="ph">
+                      <span class="ico">▧</span>
+                      <span>تحت البحث عن صورة</span>
+                    </div>
+                  )}
+                  <div class="card-body">
+                    <h3>{p.name}</h3>
+                    <div class="en">{p.nameEn}</div>
+                    <div class="meta">
+                      {p.color} · كود {p.code}
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        ))
+      }
+
+      <div class="cta-band">
+        <h2>تريد نوعاً غير مذكور؟</h2>
+        <p>أخبرنا بالمقاس والتشطيب، ونبحث لك عن الخيار المناسب من {origin.name} أو من مصدر بديل.</p>
+        <div class="cta-row">
+          <a href={url('/contact')} class="btn">طلب عرض سعر</a>
+          <a href={url('/products')} class="btn ghost">كل المنتجات</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

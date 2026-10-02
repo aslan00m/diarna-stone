@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import PRODUCTS from '../../data/products.js';
+import { ORIGINS } from '../../data/company.js';
+import { url } from '../../data/urls.js';
+
+const used = ORIGINS.filter((o) => PRODUCTS.some((p) => p.origin === o.slug));
+const groups = used.map((o) => ({
+  o,
+  count: PRODUCTS.filter((p) => p.origin === o.slug).length,
+}));
+---
+
+<Base
+  title="مصادر الأحجار حسب الدولة"
+  description="من أي دولة يأتي حجرك؟ تصفّح أحجارنا مصنّفة حسب بلد المنشأ: تركي، إيطالي، إسباني، هندي، برازيلي وغيرها."
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>مصادر الأحجار</h1>
+      <p>
+        كل حجر عندنا مرتبط ببلد منشئه، لأن المصدر يحدد أيضاً الملمس والعروق وسلوك الحجر
+        مع الحرارة والرطوبة. اختر بلدك لترى ما متوفر لدينا منه.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="grid" style="margin-top:8px">
+        {groups.map((g) => (
+          <a href={url(`/origins/${g.o.slug}`)} class="card">
+            <div class="card-body" style="align-items:flex-start;text-align:right">
+              <h3>{g.o.flag} {g.o.name}</h3>
+              <div class="meta">{g.count} نوع حجر</div>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <div class="cta-band">
+        <h2>لم تجد بلدك؟</h2>
+        <p>نستورد من مصادر متعددة، وأي نوع غير مذكور نبحث لك عنه حسب المقاس واللون.</p>
+        <div class="cta-row">
+          <a href={url('/contact')} class="btn">اسأل عن نوع معيّن</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

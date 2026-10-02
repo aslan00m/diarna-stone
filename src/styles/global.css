@@ -976,3 +976,23 @@ section, .page-hero, #works {
                0 0 14px rgba(255,255,255,.7);
 }
 .hero .wrap > h1 { color: #14140f; }
+
+
+/* وضوح النص في الهيرو: النص الفرعي كان رمادياً فاتحاً على صورة */
+.hero .wrap > p {
+  color: #2b2a26 !important;
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgba(255,255,255,.95),
+               0 0 18px rgba(255,255,255,.85);
+  max-width: 60ch;
+  margin-inline: auto;
+}
+.hero .wrap > h1 {
+  text-shadow: 0 1px 2px rgba(255,255,255,.95),
+               0 0 20px rgba(255,255,255,.9);
+}
+/* الأزرار تبقى واضحة فوق الصورة */
+.hero .btn.ghost {
+  background: rgba(255,255,255,.92);
+  border-color: rgba(20,20,15,.28);
+}
