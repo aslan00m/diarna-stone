@@ -592,7 +592,7 @@ nav.top-nav a:hover { color: #14140f; }
 
 /* زر قائمة الجوال */
 .burger {
-  display: none;
+  display: none;   /* تظهر فقط على الجوال عبر قاعدةMedia الأسفل */
   background: transparent;
   border: 1px solid var(--line);
   border-radius: 10px;
@@ -725,4 +725,9 @@ footer.bot .wrap { display: flex; flex-wrap: wrap; gap: 34px; justify-content: s
   .hero h1 { font-size: 1.7rem; }
   .wrap { padding: 0 14px; }
   .cta { padding: 24px 18px; }
+}
+
+/* الزر البرغر: يظهر على الجوال فقط رغم وجود display:flex في السمة */
+@media (min-width: 1181px) {
+  .burger { display: none !important; }
 }

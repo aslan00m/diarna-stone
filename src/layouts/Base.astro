@@ -21,10 +21,10 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
     <link rel="icon" href={url("/favicon.svg")} type="image/svg+xml" />
   </head>
   <body>
-    <header class="top">
-      <div class="wrap">
+    <header class="top" style="display:block !important;visibility:visible !important;opacity:1 !important;position:sticky;top:0;z-index:999;">
+      <div class="wrap" style="min-height:60px;display:flex;align-items:center;">
         <a href={url("/")} class="brand"><span class="brand-a">ديارنا</span> <span class="brand-b">الحديثة</span></a>
-        <button class="burger" id="burger" aria-label="القائمة" aria-expanded="false" aria-controls="top-nav">
+        <button class="burger" id="burger" style="display:flex;" aria-label="القائمة" aria-expanded="false" aria-controls="top-nav">
           <span></span><span></span><span></span>
         </button>
         <nav class="top-nav" id="top-nav">
