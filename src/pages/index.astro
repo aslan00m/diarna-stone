@@ -1,5 +1,5 @@
 ---
-import { PROJECTS, HERO } from '../data/projects.js';
+import { PROJECTS, HEROES } from '../data/projects.js';
 import { url } from '../data/urls.js';
 import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
@@ -21,7 +21,20 @@ const counts = {
 
 <Base>
   <!-- HERO -->
-  <div class="hero has-photo" style={`--hero-img:url('${url(HERO.src)}')`}>
+  <div class="hero has-photo" id="hero">
+    <div class="hero-slides" aria-hidden="true">
+      {HEROES.map((h, i) => (
+        <img
+          class={`hero-slide${i === 0 ? ' is-active' : ''}`}
+          src={url(h.src)}
+          alt=""
+          loading={i === 0 ? 'eager' : 'lazy'}
+          decoding="async"
+          data-hero-alt={h.alt}
+        />
+      ))}
+    </div>
+    <div class="hero-scrim"></div>
     <div class="wrap">
       <h1>رخام وجحر طبيعي<br />بجودة تدوم طويلاً</h1>
       <p>
@@ -31,7 +44,37 @@ const counts = {
       <a href={url("/products")} class="btn">تصفّح المنتجات</a>
       <a href={LINKS.whatsapp} class="btn ghost">اطلب عرض سعر</a>
     </div>
+    <div class="hero-dots" role="presentation">
+      {HEROES.map((_, i) => (
+        <span class={`hero-dot${i === 0 ? ' is-on' : ''}`} data-i={i}></span>
+      ))}
+    </div>
   </div>
+
+  <script is:inline>
+    (function () {
+      var slides = document.querySelectorAll('#hero .hero-slide');
+      var dots = document.querySelectorAll('#hero .hero-dot');
+      if (slides.length < 2) return;
+      var i = 0, t = null;
+      function show(n) {
+        i = (n + slides.length) % slides.length;
+        slides.forEach(function (s, k) { s.classList.toggle('is-active', k === i); });
+        dots.forEach(function (d, k) { d.classList.toggle('is-on', k === i); });
+      }
+      function play() { t = setInterval(function () { show(i + 1); }, 6000); }
+      play();
+      dots.forEach(function (d) {
+        d.addEventListener('click', function () {
+          show(parseInt(d.getAttribute('data-i'), 10));
+          clearInterval(t); play();
+        });
+      });
+      var hero = document.getElementById('hero');
+      hero.addEventListener('mouseenter', function () { clearInterval(t); });
+      hero.addEventListener('mouseleave', play);
+    })();
+  </script>
 
   <!-- شريط المزايا -->
   <div class="strip">

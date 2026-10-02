@@ -108,9 +108,26 @@ export const PROJECTS = [
   },
 ];
 
-export const HERO = {
-  src: '/images/projects/p01-facade-beige.jpg',
-  alt: 'واجهة فيلا بيج بتشطيب حجري وزخارف هندسية حول الشبابيك الزرقاء',
-};
+// صور الهيرو: أربع فيلات نفّذناها، تتبدّل تلقائياً في الصفحة الرئيسية.
+export const HEROES = [
+  {
+    src: '/images/heroes/hero-1-villa-evening.jpg',
+    alt: 'فيلا حديثة بواجهة داكنة وزجاج وإضاءة داخلية دافئة عند الغروب',
+  },
+  {
+    src: '/images/heroes/hero-2-villa-pool.jpg',
+    alt: 'فيلا بيضاء حديثة بمسبح خارجي وحدائق نخيل',
+  },
+  {
+    src: '/images/heroes/hero-3-villa-pool-2.jpg',
+    alt: 'فيلا من مستويين بمسبح فيروزي وشرفات زجاجية',
+  },
+  {
+    src: '/images/heroes/hero-4-villa-modern.jpg',
+    alt: 'فيلا بواجهة بيضاء وأسقف خشبية ومسبح طويل',
+  },
+];
+
+export const HERO = HEROES[0];
 
 export default PROJECTS;

@@ -35,6 +35,14 @@ export const ORIGINS = [
   { slug: 'spanish', name: 'إسباني', flag: '🇪🇸' },
   { slug: 'indian', name: 'هندي', flag: '🇮🇳' },
   { slug: 'egyptian', name: 'مصري', flag: '🇪🇬' },
+  { slug: 'brazilian', name: 'برازيلي', flag: '🇧🇷' },
+  { slug: 'chinese', name: 'صيني', flag: '🇨🇳' },
+  { slug: 'finnish', name: 'فنلندي', flag: '🇫🇮' },
+  { slug: 'greek', name: 'يوناني', flag: '🇬🇷' },
+  { slug: 'moroccan', name: 'مغربي', flag: '🇲🇦' },
+  { slug: 'tunisian', name: 'تونسي', flag: '🇹🇳' },
+  { slug: 'portuguese', name: 'برتغالي', flag: '🇵🇹' },
+  { slug: 'french', name: 'فرنسي', flag: '🇫🇷' },
 ];
 
 // استخدامات شائعة

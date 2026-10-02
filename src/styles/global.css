@@ -895,3 +895,74 @@ section, .page-hero, #works {
 .ph img {
   image-rendering: auto;
 }
+
+
+/* ===== HERO SLIDESHOW ===== */
+.hero { padding: 96px 0 88px; }
+.hero.has-photo .wrap { position: relative; z-index: 2; }
+
+.hero-slides {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.06);
+  transition: opacity 1.1s ease, transform 7s linear;
+}
+.hero-slide.is-active {
+  opacity: .42;
+  transform: scale(1);
+}
+.hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg,
+    rgba(250,248,244,.86) 0%,
+    rgba(250,248,244,.66) 45%,
+    rgba(250,248,244,.92) 100%);
+  pointer-events: none;
+}
+
+.hero-dots {
+  position: absolute;
+  z-index: 3;
+  bottom: 22px;
+  left: 0;
+  right: 0;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+.hero-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid rgba(20,20,15,.35);
+  background: rgba(255,255,255,.6);
+  cursor: pointer;
+  padding: 0;
+  transition: background .25s, width .25s;
+}
+.hero-dot.is-on {
+  background: var(--gold-dim);
+  width: 26px;
+  border-radius: 6px;
+}
+
+/* إزالة الخلفية القديمة حتى لا تتراكم */
+.hero.has-photo::before { display: none !important; }
+.hero.has-photo::after { display: none !important; }
+
+@media (max-width: 640px) {
+  .hero { padding: 68px 0 72px; }
+  .hero-slide.is-active { opacity: .38; }
+}
