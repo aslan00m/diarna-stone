@@ -780,14 +780,18 @@ footer.bot .wrap { display: flex; flex-wrap: wrap; gap: 34px; justify-content: s
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: contain;
-  background: #f2efe8;
+  background: transparent;
   padding: 0;
+  margin: 0;
 }
 .work-item figcaption {
   display: flex;
   flex-direction: column;
-  gap: 3px;
-  padding: 12px 14px 14px;
+  gap: 2px;
+  margin-top: 0;
+  padding: 11px 14px 13px;
+  border-top: 1px solid var(--line);
+  background: #fff;
 }
 .work-t { font-weight: 700; font-size: .95rem; color: #14140f; }
 .work-tag { font-size: .78rem; color: var(--muted); }
