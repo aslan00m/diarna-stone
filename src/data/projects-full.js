@@ -13,11 +13,11 @@ export const PROJECTS_FULL = [
     duration: 'غير محدد',
     cover: '/images/heroes/hero-1-villa-evening.jpg',
     coverAlt: 'فيلا حديثة بواجهة داكنة وإضاءة داخلية دافئة عند الغروب',
+
     stages: [
-      { label: 'قبل', note: 'مرحلة الأساس والهيكل', images: [] },
       { label: 'بعد', note: 'التسليم النهائي', images: [
         { src: '/images/heroes/hero-1-villa-evening.jpg', alt: 'الفيلا بعد التسليم عند الغروب' },
-        { src: '/images/heroes/hero-2-villa-pool.jpg', alt: 'المسبح والواجهة الخلفية بعد التشطيب' },
+        { src: '/images/heroes/hero-2-villa-pool.jpg', alt: 'الواجهة الخلفية والمسبح بعد التشطيب' },
       ] },
     ],
   },
@@ -34,7 +34,6 @@ export const PROJECTS_FULL = [
     stages: [
       { label: 'بعد', note: 'التسليم النهائي', images: [
         { src: '/images/heroes/hero-2-villa-pool.jpg', alt: 'الفيلا والمسبح بعد التشطيب' },
-        { src: '/images/heroes/hero-3-villa-pool-2.jpg', alt: 'مسبح فيروزي وشرفات زجاجية' },
       ] },
     ],
   },
@@ -43,7 +42,7 @@ export const PROJECTS_FULL = [
     title: 'فيلا بمسبح وشرفات',
     category: 'فلل ومبانٍ سكنية',
     summary:
-      'فيلا من مستويين بمسبح فيروزي، بواجهة بيضاء وأسقف خشبية داخلية. عملنا على الواجهة والأرضياتochlor مع الحرص على تناسب الخامة مع لون المسبح.',
+      'فيلا من مستويين بمسبح فيروزي، بواجهة بيضاء وأسقف خشبية داخلية. عملنا على الواجهة والأرضياتoمع الحرص على تناسب الخامة مع لون المسبح.',
     scope: ['تركيب الواجهات', 'أرضيات', 'تشطيب داخلي'],
     duration: 'غير محدد',
     cover: '/images/heroes/hero-3-villa-pool-2.jpg',
@@ -51,7 +50,6 @@ export const PROJECTS_FULL = [
     stages: [
       { label: 'بعد', note: 'التسليم النهائي', images: [
         { src: '/images/heroes/hero-3-villa-pool-2.jpg', alt: 'الفيلا بعد التسليم' },
-        { src: '/images/heroes/hero-4-villa-modern.jpg', alt: 'واجهة بيضاء وأسقف خشبية ومسبح طويل' },
       ] },
     ],
   },
@@ -84,7 +82,6 @@ export const PROJECTS_FULL = [
     stages: [
       { label: 'بعد', note: 'واجهة مكتملة', images: [
         { src: '/images/projects/p01-facade-beige.jpg', alt: 'واجهة الفيلا البيج بعد التشطيب' },
-        { src: '/images/projects/p02-facade-blue-glass.jpg', alt: 'واجهة مبنى سكني بنوافذ زجاجية زرقاء' },
       ] },
     ],
   },
@@ -109,16 +106,12 @@ export const PROJECTS_FULL = [
     title: 'واجهة سكنية حجرية وزجاج',
     category: 'واجهات خارجية',
     summary:
-      'مبنى سكني حديث يجمع بين حجر فاتح في الحواف وزجاج داكن في الوسط. هذا المزيج يحتاج دقة في قصّ Stone حتى تتطابق الفواصل بينRISTO الزجاجي والحجري.',
+      'مبنى سكني حديث يجمع بين حجر فاتح في الحواف وزجاج داكن في الوسط. هذا المزيج يحتاج دقة في القص حتى تتطابق الفواصل بين الزجاج والحجر.',
     scope: ['تركيب الواجهات', 'قص دقيق', 'تنسيق مع الزجاج'],
     duration: 'غير محدد',
     cover: '/images/projects/p13-residence-stone-glass.jpg',
     coverAlt: 'مبنى سكني حديث بواجهة حجرية فاتحة وزجاج داكن وشرفات',
     stages: [
-      { label: 'قبل', note: 'الهيكل والواجهة الأولية', images: [
-        { src: '/images/projects/p32-wip-grey-3story.jpg', alt: 'الهيكل Grey الخرساني قبل تركيب الحجر' },
-        { src: '/images/projects/p34-wip-light-facade.jpg', alt: 'الواجهة الفاتحة أثناء التركيب' },
-      ] },
       { label: 'بعد', note: 'واجهة مكتملة', images: [
         { src: '/images/projects/p13-residence-stone-glass.jpg', alt: 'الواجهة الحجرية والزجاجية بعد التشطيب' },
       ] },
@@ -129,7 +122,7 @@ export const PROJECTS_FULL = [
     title: 'واجهة حجرية داكنة',
     category: 'واجهات خارجية',
     summary:
-      'مشروع واجهة حجرية داكنة مع أعمدة خرسانية بارزة. التزمّينا في التركيب بزوايا حادة على الكورنيش لأن الحجر الداكن ين إبراز خطّ الكورنيش أكثر من الفاتح.',
+      'مشروع واجهة حجرية داكنة مع أعمدة خرسانية بارزة. التزمّينا في التركيب بزوايا حادة على الكورنيش، لأن الحجر الداكن يُبرز خطّ الكورنيش أكثر من الفاتح.',
     scope: ['توريد الحجر', 'تركيب الواجهة', 'كورنيش وزوايا'],
     duration: 'غير محدد',
     cover: '/images/projects/p03-wip-dark-facade.jpg',
@@ -137,7 +130,6 @@ export const PROJECTS_FULL = [
     stages: [
       { label: 'أثناء', note: 'مرحلة التركيب', images: [
         { src: '/images/projects/p03-wip-dark-facade.jpg', alt: 'الواجهة الحجرية الداكنة أثناء التركيب' },
-        { src: '/images/projects/p04-wip-stone-beam.jpg', alt: 'تركيب الحجر مع الكمرات الخرسانية' },
       ] },
     ],
   },
@@ -154,7 +146,6 @@ export const PROJECTS_FULL = [
     stages: [
       { label: 'أثناء', note: 'مرحلة التركيب الدقيقة', images: [
         { src: '/images/projects/p04-wip-stone-beam.jpg', alt: 'الحجر الرمادي فوق الكمرات البيضاء' },
-        { src: '/images/projects/p07-scaffolding-panels.jpg', alt: 'عمال على سقلات يركّبون ألواح الواجهة' },
       ] },
     ],
   },
@@ -185,12 +176,9 @@ export const PROJECTS_FULL = [
     cover: '/images/projects/p09-ornate-white.jpg',
     coverAlt: 'مبنى أبيض مزخرف بأقواس وأعمدة وشرفات وتيجان أسفلية',
     stages: [
-      { label: 'قبل', note: 'الهيكل', images: [
-        { src: '/images/projects/p23-wip-grey-arch.jpg', alt: 'الهيكل Grey مع الأقواس قبل التشطيب' },
-        { src: '/images/projects/p10-neoclassical-facade.jpg', alt: 'واجهة نيوكلاسيكية أثناء التشطيب' },
-      ] },
-      { label: 'بعد', note: 'الواجهة مكتملة', images: [
+      { label: 'بعد', note: 'الواجهة مكتملة — نفس المبنى من زاويتين', images: [
         { src: '/images/projects/p09-ornate-white.jpg', alt: 'المبنى الكلاسيكي بعد التشطيب الكامل' },
+        { src: '/images/projects/p10-neoclassical-facade.jpg', alt: 'الواجهة النيوكلاسيكية من زاوية أخرى' },
       ] },
     ],
   },
@@ -207,7 +195,6 @@ export const PROJECTS_FULL = [
     stages: [
       { label: 'بعد', note: 'واجهة مكتملة', images: [
         { src: '/images/projects/p10-neoclassical-facade.jpg', alt: 'الواجهة النيوكلاسيكية بعد التشطيب' },
-        { src: '/images/projects/p17-classic-facade-work.jpg', alt: 'واجهة كلاسيكية أثناء أعمال الإنهاء' },
       ] },
     ],
   },
@@ -237,11 +224,10 @@ export const PROJECTS_FULL = [
     duration: 'غير محدد',
     cover: '/images/projects/p05-wip-arched-blocks.jpg',
     coverAlt: 'هيكل مبنى بالبلوك بأقواس نافذة وعمود خرساني، معماري قيد الإنشاء',
+
     stages: [
       { label: 'قبل', note: 'مرحلة الهيكل والبلوك', images: [
         { src: '/images/projects/p05-wip-arched-blocks.jpg', alt: 'الهيكل بالبلوك والأقواس قبل التشطيب' },
-        { src: '/images/projects/p11-wip-block-arches.jpg', alt: 'هيكل بلوك بأقواس وسقالات خشبية' },
-        { src: '/images/projects/p23-wip-grey-arch.jpg', alt: 'أقواس خرسانية في مرحلة البناء' },
       ] },
     ],
   },
@@ -255,10 +241,10 @@ export const PROJECTS_FULL = [
     duration: 'غير محدد',
     cover: '/images/projects/p11-wip-block-arches.jpg',
     coverAlt: 'مبنى بالبلوك تحت الإنشاء بأقواس نافذة وحواف بلاطات وسقالات خشبية في المقدمة',
+
     stages: [
       { label: 'قبل', note: 'مرحلة الهيكل', images: [
-        { src: '/images/projects/p11-wip-block-arches.jpg', alt: 'هيكل البلوك بأقواس' },
-        { src: '/images/projects/p12-wip-tall-scaffold.jpg', alt: 'مبنى عالي بسقالات' },
+        { src: '/images/projects/p11-wip-block-arches.jpg', alt: 'هيكل البلوك بأقواس نافذة' },
       ] },
     ],
   },
@@ -272,10 +258,10 @@ export const PROJECTS_FULL = [
     duration: 'غير محدد',
     cover: '/images/projects/p12-wip-tall-scaffold.jpg',
     coverAlt: 'مبنى عالي تحت الإنشاء بسقالات على الجانب وسياج إنشائي في المقدمة',
+
     stages: [
       { label: 'قبل', note: 'مرحلة البناء المتقدمة', images: [
-        { src: '/images/projects/p12-wip-tall-scaffold.jpg', alt: 'المبنى العالي مع السقالات' },
-        { src: '/images/projects/p31-unknown-2.jpg', alt: 'هيكل خرساني في مرحلة البناء' },
+        { src: '/images/projects/p12-wip-tall-scaffold.jpg', alt: 'المبنى العالي مع السقالات على الجانب' },
       ] },
     ],
   },
@@ -316,7 +302,7 @@ export const PROJECTS_FULL = [
     title: 'مدخل داخلي بقوس حجري',
     category: 'أعمال داخلية',
     summary:
-      'مدخل داخلي بقوس حجري منحوت وباب خشبي. عمل تطبيقي علىphem details الداخلية، وتعكس دقة التنفيذ التي نتبعها في كل التفاصيل الصغيرة.',
+      'مدخل داخلي بقوس حجري منحوت وباب خشبي. عمل تطبيقي على التفاصيل الداخلية، وتعكس دقة التنفيذ التي نتبعها في كل التفاصيل الصغيرة.',
     scope: ['تشطيب داخلي', 'أعمال النحت', 'أبواب خشبية'],
     duration: 'غير محدد',
     cover: '/images/projects/p30-interior-arch.jpg',

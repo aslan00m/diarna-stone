@@ -1,5 +1,6 @@
 ---
-import { PROJECTS, HEROES } from '../data/projects.js';
+import { HEROES } from '../data/projects.js';
+import { HOMEPAGE_WORKS } from '../data/projects-home.js';
 import { url } from '../data/urls.js';
 import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
@@ -231,16 +232,19 @@ const counts = {
         صور حقيقية من مشاريع نفّذناها: واجهات خارجية، تشطيبات كلاسيكية، وأعمال قيد التنفيذ.
       </p>
 
-      <div class="work-grid">
-        {PROJECTS.map((p) => (
-          <figure class="work-item">
-            <img src={url(p.src)} alt={p.alt} loading="lazy" decoding="async" width="1280" height="720" />
+      <div class="home-works-grid">
+        {HOMEPAGE_WORKS.map((pr) => (
+          <a href={url(`/works/${pr.slug}`)} class="work-item">
+            <img src={url(pr.cover)} alt={pr.coverAlt} loading="lazy" decoding="async" />
             <figcaption>
-              <span class="work-t">{p.title}</span>
-              <span class="work-tag">{p.tag}</span>
+              <span class="work-t">{pr.title}</span>
+              <span class="work-tag">{pr.category}</span>
             </figcaption>
-          </figure>
+          </a>
         ))}
+      </div>
+      <div class="cta-row" style="margin-top:26px;justify-content:center">
+        <a href={url('/works')} class="btn ghost">تصفح باقي أعمالنا</a>
       </div>
     </div>
   </section>
