@@ -763,6 +763,7 @@ footer.bot .wrap { display: flex; flex-wrap: wrap; gap: 34px; justify-content: s
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
+  align-items: start;
 }
 .work-item {
   margin: 0;
@@ -778,8 +779,8 @@ footer.bot .wrap { display: flex; flex-wrap: wrap; gap: 34px; justify-content: s
 .work-item img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: contain;
+  height: auto;
+  object-fit: cover;
   background: transparent;
   padding: 0;
   margin: 0;
@@ -846,5 +847,5 @@ section, .page-hero, #works {
   .work-item figcaption { padding: 9px 10px 11px; }
   .work-t { font-size: .82rem; line-height: 1.35; }
   .work-tag { font-size: .7rem; }
-  .work-item img { aspect-ratio: 1 / 1; object-fit: contain; }
+  .work-item img { height: auto; }
 }
