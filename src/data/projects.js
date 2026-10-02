@@ -82,6 +82,30 @@ export const PROJECTS = [
     tag: 'ترميم وصيانة',
     ratio: '16 / 9',
   },
+  {
+    id: 'p11',
+    src: '/images/projects/p11-wip-block-arches.jpg',
+    alt: 'مبنى بالبلوك تحت الإنشاء بأقواس نافذة وحواف بلاطات وسقالات خشبية في المقدمة',
+    title: 'هيكل بلوك بأقواس',
+    tag: 'تحت التنفيذ',
+    ratio: '3 / 4',
+  },
+  {
+    id: 'p12',
+    src: '/images/projects/p12-wip-tall-scaffold.jpg',
+    alt: 'مبنى عالي تحت الإنشاء بسقالات على الجانب وسياج إنشائي في المقدمة',
+    title: 'مبنى عالي قيد الإنشاء',
+    tag: 'تحت التنفيذ',
+    ratio: '3 / 4',
+  },
+  {
+    id: 'p13',
+    src: '/images/projects/p13-residence-stone-glass.jpg',
+    alt: 'مبنى سكني حديث بواجهة حجرية فاتحة وزجاج داكن وشرفات، بجوار سياج إنشائي',
+    title: 'واجهة سكنية حجرية وزجاج',
+    tag: 'واجهات خارجية',
+    ratio: '3 / 4',
+  },
 ];
 
 export const HERO = {
