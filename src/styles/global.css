@@ -316,10 +316,10 @@ section { padding: 56px 0; }
 /* على الشاشات الواسعة: الزر مثبّت في الزاوية بعيداً عن الشعار */
 @media (min-width: 1181px) {
   .top .wrap { position: relative; }
-  .top nav.top-nav { padding-inline-start: 150px; }
+  .top nav.top-nav { padding-inline-end: 150px; }
   nav.top-nav a.nav-cta {
     position: absolute;
-    inset-inline-start: 20px;
+    inset-inline-end: 20px;   /* في RTL = الحافة البصرية اليسرى */
     top: 50%;
     transform: translateY(-50%);
     margin: 0;
