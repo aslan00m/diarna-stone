@@ -1073,3 +1073,20 @@ a.work-item figcaption {
   flex-direction: column;
   justify-content: center;
 }
+
+
+/* نصوص البطاقات: سطران كحد أقصى حتى لا يختلف ارتفاع البطاقة */
+a.work-item .work-t,
+.home-works-grid .work-t {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.45;
+}
+a.work-item .work-tag,
+.home-works-grid .work-tag {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
