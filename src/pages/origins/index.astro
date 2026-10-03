@@ -1,4 +1,5 @@
 ---
+import PageHero from '../../components/PageHero.astro';
 import Base from '../../layouts/Base.astro';
 import PRODUCTS from '../../data/products.js';
 import { ORIGINS } from '../../data/company.js';
@@ -15,15 +16,13 @@ const groups = used.map((o) => ({
   title="مصادر الأحجار حسب الدولة"
   description="من أي دولة يأتي حجرك؟ تصفّح أحجارنا مصنّفة حسب بلد المنشأ: تركي، إيطالي، إسباني، هندي، برازيلي وغيرها."
 >
-  <section class="page-hero">
-    <div class="wrap">
-      <h1>مصادر الأحجار</h1>
-      <p>
-        كل حجر عندنا مرتبط ببلد منشئه، لأن المصدر يحدد أيضاً الملمس والعروق وسلوك الحجر
-        مع الحرارة والرطوبة. اختر بلدك لترى ما متوفر لدينا منه.
-      </p>
-    </div>
-  </section>
+  <PageHero
+    title="مصادر الأحجار"
+    subtitle="كل حجر عندنا مرتبط ببلد منشئه، لأن المصدر يحدد أيضاً الملمس والعروق وسلوك الحجر مع الحرارة والرطوبة. اختر بلدك لترى ما متوفر لدينا منه."
+    eyebrow="من مصادرنا"
+    image={url("/images/materials/m01-0851ceef.jpg")}
+    alt="خامات رخام طبيعية"
+  />
 
   <section>
     <div class="wrap">

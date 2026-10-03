@@ -1,4 +1,5 @@
 ---
+import PageHero from '../../components/PageHero.astro';
 import Base from '../../layouts/Base.astro';
 import PROJECTS from '../../data/projects-full.js';
 import { url } from '../../data/urls.js';
@@ -16,17 +17,18 @@ const others = PROJECTS.filter((p) => p.slug !== pr.slug).slice(0, 3);
   title={`${pr.title} | مشاريع ديارنا الحديثة`}
   description={pr.summary}
 >
-  <section class="page-hero">
-    <div class="wrap">
-      <a href={url('/works')} class="back">→ مشاريعنا</a>
-      <h1>{pr.title}</h1>
-      <p class="lede">{pr.summary}</p>
-      <div class="pills">
-        <span class="pill">{pr.category}</span>
-        {pr.scope.map((s) => <span class="pill">{s}</span>)}
-      </div>
+  <PageHero
+    title={pr.title}
+    subtitle={pr.summary}
+    eyebrow={pr.category}
+    image={pr.cover ? url(pr.cover) : ''}
+    alt={pr.title}
+  >
+    <div class="pills">
+      {pr.scope.map((s) => <span class="pill">{s}</span>)}
     </div>
-  </section>
+    <a href={url('/works')} class="back">→ مشاريعنا</a>
+  </PageHero>
 
   <section>
     <div class="wrap">

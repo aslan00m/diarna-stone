@@ -1,4 +1,5 @@
 ---
+import PageHero from '../../components/PageHero.astro';
 import Base from '../../layouts/Base.astro';
 import ABOUT_CARDS from '../../data/about-cards.js';
 import PhotoPlaceholder from '../../components/PhotoPlaceholder.astro';
@@ -16,16 +17,9 @@ const others = ABOUT_CARDS.filter((c) => c.slug !== card.slug).slice(0, 3);
   title={`${card.title} | خدمات ديارنا الحديثة`}
   description={card.excerpt}
 >
-  <section class="page-hero">
-    <div class="wrap">
-      <a href={url('/about')} class="back">→ عن الشركة</a>
-      <h1>{card.title}</h1>
-      <p class="lede">{card.excerpt}</p>
-      <div class="pills">
-        <span class="pill">{card.tag}</span>
-      </div>
-    </div>
-  </section>
+  <PageHero title={card.title} subtitle={card.excerpt} eyebrow={card.tag}>
+    <a href={url('/about')} class="back">→ عن الشركة</a>
+  </PageHero>
 
   <section>
     <div class="wrap">

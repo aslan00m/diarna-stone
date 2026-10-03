@@ -1,0 +1,33 @@
+---
+// رأس الصفحة الداخلية — نفس هوية الهيرو في الرئيسية:
+// صورة بملء العرض أعلى، ثم العنوان والنص تحتها.
+// موحّد لكل صفحات الموقع بدل تكرار قواعد CSS.
+const {
+  title,
+  subtitle = '',
+  eyebrow = '',
+  image = '',
+  alt = '',
+} = Astro.props;
+
+// حارس: أي قيمة غير نصية تُتجاهل بدل كسر البناء
+const safeImage = typeof image === 'string' && image ? image : '';
+const safeTitle = typeof title === 'string' ? title : String(title ?? '');
+---
+
+{safeImage && (
+  <div class="ph-media" aria-hidden="true">
+    <div class="reveal-mask" data-parallax="0.09">
+      <img src={safeImage} alt={alt} loading="eager" decoding="async" class="ph-slide" />
+    </div>
+  </div>
+)}
+
+<div class="ph-body">
+  <div class="wrap">
+    {eyebrow && <span class="eyebrow">{eyebrow}</span>}
+    <h1 class="line-reveal"><span>{safeTitle}</span></h1>
+    {subtitle && <p class="lead">{subtitle}</p>}
+    <slot />
+  </div>
+</div>

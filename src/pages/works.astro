@@ -1,4 +1,5 @@
 ---
+import PageHero from '../components/PageHero.astro';
 import Base from '../layouts/Base.astro';
 import PROJECTS from '../data/projects-full.js';
 import { url } from '../data/urls.js';
@@ -14,15 +15,13 @@ const byCat = PROJECTS.reduce((acc, p) => {
   title={`مشاريعنا | ${COMPANY.name}`}
   description="مشاريع حقيقية نفّذتها ديارنا الحديثة: واجهات خارجية، ترميم، تشطيب داخلي، ومشاريع تحت التنفيذ — لكل مشروع صفحته بصوره ومراحله."
 >
-  <section class="page-hero">
-    <div class="wrap">
-      <h1>مشاريعنا</h1>
-      <p>
-        مشاريع نفّذتها {COMPANY.name} فعلياً — واجهات خارجية، ترميم، وتشطيب داخلي.
-        كل مشروع له صفحته الخاصة بصوره ومراحله (قبل وأثناء وبعد) وشرح العمل الذي قمنا عليه.
-      </p>
-    </div>
-  </section>
+  <PageHero
+    title="مشاريعنا"
+    subtitle={`مشاريع نفّذتها ${COMPANY.name} فعلياً — واجهات خارجية، ترميم، وتشطيب داخلي. كل مشروع له صفحته الخاصة بصوره ومراحله (قبل وأثناء وبعد) وشرح العمل الذي قمنا عليه.`}
+    eyebrow="معرض الأعمال"
+    image={url("/images/projects/pr01-after.jpg")}
+    alt="مشروع واجهات خارجية منفذ"
+  />
 
   <section>
     <div class="wrap">

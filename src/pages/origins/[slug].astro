@@ -1,4 +1,5 @@
 ---
+import PageHero from '../../components/PageHero.astro';
 import Base from '../../layouts/Base.astro';
 import PRODUCTS from '../../data/products.js';
 import { ORIGINS, CATEGORIES } from '../../data/company.js';
@@ -24,18 +25,15 @@ const byCat = CATEGORIES.map((c) => ({
   title={`أحجار ${origin.name} | ديارنا الحديثة`}
   description={`تشكيلة الأحجار القادمة من ${origin.name}: رخام وجرانيت وترا فرتينو وحجر جيري، مع الأسعار والمقاسات والتشطيبات المتاحة.`}
 >
-  <section class="page-hero">
-    <div class="wrap">
-      <h1>أحجار {origin.name}</h1>
-      <p>
-        مجموعة من الأحجار الطبيعية القادمة من {origin.name}، نوفّرها بالمقاسات والتشطيبات
-        الشائعة، ونستطيع قصّها حسب مقاس مشروعك. هذه قائمة ما متوفر لدينا حالياً.
-      </p>
-      <p style="margin-top:10px">
-        <strong>{items.length}</strong> نوع في هذه المجموعة.
-      </p>
-    </div>
-  </section>
+  <PageHero
+    title={`أحجار ${origin.name}`}
+    subtitle={`مجموعة من الأحجار الطبيعية القادمة من ${origin.name}، نوفّرها بالمقاسات والتشطيبات الشائعة، ونستطيع قصّها حسب مقاس مشروعك. هذه قائمة ما متوفر لدينا حالياً.`}
+    eyebrow="حسب المصدر"
+    image={items[0] ? url(typeof items[0].image === 'string' ? items[0].image : items[0].image?.src) : ''}
+    alt={`خامات ${origin.name}`}
+  >
+    <p class="hero-count"><strong>{items.length}</strong> نوع في هذه المجموعة.</p>
+  </PageHero>
 
   <section>
     <div class="wrap">

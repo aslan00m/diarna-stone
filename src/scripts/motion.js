@@ -236,6 +236,23 @@ function counters(start, isMobile) {
 /* --------------------------------------------------------------------------
    7) Line Reveal — للعناوين المغلّفة
    -------------------------------------------------------------------------- */
+/* كشف سطور تلقائي للعناوين داخل رؤوس الصفحات */
+function lineRevealAuto(start, isMobile) {
+  qa('main .ph-body h1').forEach((h) => {
+    if (h.dataset.revealed) return;
+    h.dataset.revealed = '1';
+    const span = h.querySelector('span');
+    if (!span) return;
+    gsap.fromTo(span, { yPercent: 110 }, {
+      yPercent: 0,
+      duration: 1.0,
+      ease: EASE,
+      onComplete() { gsap.set(span, { clearProps: 'transform' }); },
+      scrollTrigger: { trigger: h, start, once: true },
+    });
+  });
+}
+
 function lineReveal(start, isMobile) {
   qa('[data-line-reveal]').forEach((el) => {
     const lines = qa('> span', el);
@@ -251,6 +268,52 @@ function lineReveal(start, isMobile) {
         onComplete() { gsap.set(lines, { clearProps: 'transform' }); },
         scrollTrigger: { trigger: el, start, once: true },
       });
+  });
+}
+
+
+/* --------------------------------------------------------------------------
+   التلقائي: تPolish الأقسام والبطاقات التي لم تُوسم يدوياً
+   هذا يجعل كل صفحات الموقع تتحرك دون تعديل 19 قالباً يدوياً.
+   نتجنّب التكرار: العنصر الذي يحمل data-* يدوياً لا يُلمس.
+   -------------------------------------------------------------------------- */
+function autoInstrument(isMobile) {
+  const skip = (el) => el.closest('[data-no-auto]');
+
+  // 1) رؤوس الأقسام: العنوان صعداً، النص بعده
+  qa('main section').forEach((sec) => {
+    if (skip(sec)) return;
+    const head = sec.querySelector('h2.sec-title, h2.h2, .sec-head h2');
+    if (head && !head.dataset.anim) {
+      head.dataset.anim = isMobile ? 'up' : 'up';
+      head.dataset.auto = '1';
+    }
+  });
+
+  // 2) شبكات البطاقات: تدرّج
+  qa('main .grid, main .work-grid, main .products-grid').forEach((g) => {
+    if (skip(g)) return;
+    if (g.dataset.stagger) return;
+    // لا نُطبّق على الحاويات التي تحوي صوراً كبيرة (reveal أدق لها)
+    if (g.querySelector('[data-anim="reveal"]')) return;
+    if (!g.children.length) return;
+    g.dataset.stagger = '1';
+    g.dataset.auto = '1';
+  });
+
+  // 3) صناديق CTA والخطوات: ظهور خفيف
+  qa('main .cta-band, main .cta, main .quote-box, main .ba-card, main .cat-intro')
+    .forEach((b) => {
+      if (skip(b) || b.dataset.anim) return;
+      b.dataset.anim = 'fade';
+      b.dataset.auto = '1';
+    });
+
+  // 4) بطاقات الخدمات والمزايا العادية
+  qa('main .grid > .card, main .ba-grid > *').forEach((c) => {
+    if (skip(c) || c.dataset.anim) return;
+    c.dataset.anim = isMobile ? 'up' : 'up';
+    c.dataset.auto = '1';
   });
 }
 
@@ -294,12 +357,14 @@ function init() {
         const { isMobile } = ctx.conditions;
         const start = isMobile ? START_M : START;
 
+        autoInstrument(isMobile);
         parallax(!isMobile);
         imageReveal(start);
         entrances(start);
         stagger(start, isMobile);
         counters(start, isMobile);
         lineReveal(start, isMobile);
+        lineRevealAuto(start, isMobile);
       });
 
     ScrollTrigger.refresh();
