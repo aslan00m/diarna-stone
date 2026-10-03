@@ -3885,7 +3885,7 @@ const PRODUCTS = [
     origin: 'italian',
     image: null,
     code: 'SNK-IT-002',
-    color: 'أبيض بع��وق ذهبية',
+    color: 'أبيض بعروق ذهبية',
     colorCode: 'أبيض بعروق ذهبية ورمادية',
     thickness: ['25 مم', '30 مم'],
     finish: ['مصقول (Polished)'],
