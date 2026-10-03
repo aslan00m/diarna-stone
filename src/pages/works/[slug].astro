@@ -133,11 +133,25 @@ const others = PROJECTS.filter((p) => p.slug !== pr.slug).slice(0, 3);
     overflow: hidden;
     border: 1px solid var(--line);
     background: #fff;
+    aspect-ratio: 4 / 3;
+    display: block;
   }
   .shot img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* بطاقات المشاريع الأخرى: نفس نسبة قصّ，以保证 تساوي الأحجام */
+  .grid .card .ph {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: #f3f1ec;
+  }
+  .grid .card .ph img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   @media (max-width: 700px) {
     .stage-grid { grid-template-columns: 1fr; }

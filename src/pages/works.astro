@@ -37,7 +37,7 @@ const byCat = PROJECTS.reduce((acc, p) => {
                 const imgs = pr.stages.flatMap((s) => s.images);
                 return (
                   <a href={url(`/works/${pr.slug}`)} class="work-item">
-                    <img src={url(pr.cover)} alt={pr.coverAlt} loading="lazy" decoding="async" />
+                    <span class="shot"><img src={url(pr.cover)} alt={pr.coverAlt} loading="lazy" decoding="async" /></span>
                     <figcaption>
                       <span class="work-t">{pr.title}</span>
                       <span class="work-tag">
@@ -62,7 +62,7 @@ const byCat = PROJECTS.reduce((acc, p) => {
         <div class="work-grid">
           {OUR_WORKS.map((m) => (
             <figure class="work-item">
-              <img src={url(m.src)} alt={m.alt} loading="lazy" decoding="async" />
+              <span class="shot"><img src={url(m.src)} alt={m.alt} loading="lazy" decoding="async" /></span>
               <figcaption>
                 <span class="work-t">{m.title}</span>
                 <span class="work-tag">واجهات خارجية</span>
@@ -82,7 +82,7 @@ const byCat = PROJECTS.reduce((acc, p) => {
           {
             MATERIALS.map((m) => (
               <figure class="work-item">
-                <img src={url(m.src)} alt={m.alt} loading="lazy" decoding="async" />
+                <span class="shot"><img src={url(m.src)} alt={m.alt} loading="lazy" decoding="async" /></span>
                 <figcaption>
                   <span class="work-t">{m.title}</span>
                   <span class="work-tag">{m.tag}</span>
@@ -131,12 +131,26 @@ const byCat = PROJECTS.reduce((acc, p) => {
     transform: translateY(-3px);
     box-shadow: 0 10px 26px rgba(20, 20, 15, .08);
   }
+  /* الصورة بنسبة ثابتة وقص: كل بطاقة بنفس الارتفاع مهما اختلفت الصورة */
+  .work-item .shot {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: #f3f1ec;
+    display: block;
+  }
   .work-item img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
   }
-  .work-item figcaption { padding: 12px 15px 14px; }
+  .work-item figcaption {
+    padding: 12px 15px 14px;
+    min-height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .work-t { display: block; font-weight: 600; color: #14140f; font-size: .98rem; }
   .work-tag { display: block; font-size: .8rem; color: var(--muted); margin-top: 3px; }
 </style>

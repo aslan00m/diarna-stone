@@ -235,7 +235,7 @@ const counts = {
       <div class="home-works-grid">
         {HOMEPAGE_WORKS.map((pr) => (
           <a href={url(`/works/${pr.slug}`)} class="work-item">
-            <img src={url(pr.cover)} alt={pr.coverAlt} loading="lazy" decoding="async" />
+            <span class="shot"><img src={url(pr.cover)} alt={pr.coverAlt} loading="lazy" decoding="async" /></span>
             <figcaption>
               <span class="work-t">{pr.title}</span>
               <span class="work-tag">{pr.category}</span>
