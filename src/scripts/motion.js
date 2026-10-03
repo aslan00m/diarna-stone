@@ -251,6 +251,14 @@ function init() {
   try {
     gsap.registerPlugin(ScrollTrigger);
 
+    // الهيرو خارج matchMedia عن قصد: تسلسل فتح الصفحة لا يعتمد على
+    // حجم الشاشة، وحصره داخل matchMedia يجعله يُعاد (revert) عند أي
+    // تغيّر في المقاس — فيعود العنوان محجوباً خلف قناعه.
+    if (!document.body.dataset.heroPlayed) {
+      document.body.dataset.heroPlayed = '1';
+      heroIntro();
+    }
+
     gsap.matchMedia()
       .add({
         isDesktop: '(min-width: 769px)',
@@ -258,11 +266,6 @@ function init() {
       }, (ctx) => {
         const { isMobile } = ctx.conditions;
         const start = isMobile ? START_M : START;
-
-        if (!document.body.dataset.heroPlayed) {
-          document.body.dataset.heroPlayed = '1';
-          heroIntro();
-        }
 
         parallax(!isMobile);
         imageReveal(start);
