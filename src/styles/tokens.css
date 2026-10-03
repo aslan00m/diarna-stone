@@ -1,0 +1,322 @@
+@import './fonts.css';
+
+/* ==========================================================================
+   نظام التصميم — ديارنا الحديثة
+   Premium Architectural / Luxury Stone
+   طبقة التوكنات: تُحمَّل بعد global.css وتُمدِّد قيمها دون المساس بالسمارات.
+   ========================================================================== */
+
+:root {
+  /* ---------- الألوان الأساسية ---------- */
+  --bg:        #ffffff;
+  --bg-soft:   #fbfaf7;
+  --bg-warm:   #f7f4ee;
+
+  /* الحجر الداكن — للcontrast العالي والـfooter */
+  --ink:       #14140f;
+  --ink-2:     #1c1c17;
+  --ink-soft:  #2a2a23;
+
+  --card:      #ffffff;
+  --card-2:    #fdfcfa;
+  --line:      #e6e1d6;
+  --line-2:    #d8d2c4;
+
+  /* الذهبي مائل للشامبانيا — يبقى كما هو، مصحوباً بنسخة أعمق للتباين */
+  --gold:      #e6d7ae;
+  --gold-soft: #f4ead1;
+  --gold-dim:  #c9b684;
+  /* جديد: الذهبي الصلب — للأزرار التي تحتاج تباين نص عالٍ */
+  --gold-deep: #8f7a3c;
+
+  --text:      #1a1a17;
+  --text-2:    #3d3c37;
+  --muted:     #6f6b62;
+  --muted-2:   #8b8679;
+
+  --white:     #ffffff;
+  --black:     #000000;
+
+  /* ---------- الطباعة ---------- */
+  --font-sans: 'IBM Plex Sans Arabic', 'Segoe UI', Tahoma, system-ui, -apple-system, sans-serif;
+  --font-serif:'IBM Plex Serif', Georgia, 'Times New Roman', serif;
+
+  /* سلّم أحجام متدرّج — clamp يضمن استجابة بلا media queries */
+  --fs-display: clamp(2.6rem, 6.2vw, 4.6rem);   /* Hero */
+  --fs-h1:      clamp(2rem,   4.2vw, 3rem);      /* عناوين الصفحات */
+  --fs-h2:      clamp(1.55rem, 2.6vw, 2.15rem);  /* عناوين الأقسام */
+  --fs-h3:      clamp(1.12rem, 1.6vw, 1.3rem);   /* عناوين البطاقات */
+  --fs-lead:    clamp(1.02rem, 1.5vw, 1.2rem);   /* نص تمهيدي */
+  --fs-body:    1rem;
+  --fs-sm:      .9rem;
+  --fs-xs:      .8rem;
+  --fs-eyebrow: .74rem;
+
+  --lh-tight:   1.18;
+  --lh-snug:    1.42;
+  --lh-body:    1.9;
+
+  --ls-display: -0.02em;
+  --ls-eyebrow:  0.22em;
+
+  /* ---------- المسافات (سلّم 8px) ---------- */
+  --s-1: 4px;   --s-2: 8px;   --s-3: 12px;  --s-4: 16px;
+  --s-5: 24px;  --s-6: 32px;  --s-7: 48px;  --s-8: 64px;
+  --s-9: 96px;  --s-10: 128px;
+
+  --section-y:   clamp(56px, 8vw, 112px);
+  --section-y-sm: clamp(40px, 5vw, 68px);
+
+  /* ---------- الأشكال ---------- */
+  --radius-sm: 6px;
+  --radius:    10px;
+  --radius-lg: 18px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+
+  /* ---------- الظلال: هادئة معمارية، لا "قوية" ---------- */
+  --sh-xs: 0 1px 2px rgba(20, 20, 15, .04);
+  --sh-sm: 0 4px 14px rgba(20, 20, 15, .06);
+  --sh-md: 0 14px 34px rgba(20, 20, 15, .09);
+  --sh-lg: 0 30px 70px rgba(20, 20, 15, .12);
+  --sh-gold: 0 14px 40px rgba(143, 122, 60, .16);
+
+  /* ---------- التخطيط ---------- */
+  --max:      1200px;
+  --max-wide: 1400px;
+  --max-text: 780px;
+
+  /* ---------- الحركة ---------- */
+  --e-out:  cubic-bezier(.22, 1, .36, 1);        /* decelerate — الأفخم */
+  --e-io:   cubic-bezier(.65, 0, .35, 1);        /* symmetrical */
+  --e-soft: cubic-bezier(.4, 0, .2, 1);          /* material */
+  --d-fast: .22s;
+  --d-base: .38s;
+  --d-slow: .7s;
+  --d-hero: 1.15s;
+}
+
+/* ==========================================================================
+   الأساسيات — محسّنة فوق ما هو موجود في global.css
+   ========================================================================== */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: 88px;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--text);
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;               /* حماية من أي overflow أفقي */
+}
+
+.wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--s-5); }
+
+/* أرقام لاتينية داخل نص عربي — خط serif يعطيها حضوراً معمارياً */
+.num { font-family: var(--font-serif); font-weight: 400; letter-spacing: .01em; }
+
+/* ==========================================================================
+   نظام العناوين — يحل محل الـinline styles المنتشرة في الصفحات
+   ========================================================================== */
+
+.display {
+  font-family: var(--font-sans);
+  font-size: var(--fs-display);
+  font-weight: 600;
+  line-height: var(--lh-tight);
+  letter-spacing: var(--ls-display);
+  margin: 0 0 var(--s-5);
+  color: var(--ink);
+}
+
+.h1 { font-size: var(--fs-h1); font-weight: 600; line-height: var(--lh-snug); letter-spacing: -.01em; margin: 0 0 var(--s-3); color: var(--ink); }
+.h2 { font-size: var(--fs-h2); font-weight: 600; line-height: var(--lh-snug); margin: 0 0 var(--s-3); color: var(--ink); }
+.h3 { font-size: var(--fs-h3); font-weight: 600; line-height: var(--lh-snug); margin: 0 0 var(--s-2); color: var(--ink); }
+
+.lead {
+  font-size: var(--fs-lead);
+  line-height: 1.85;
+  color: var(--muted);
+  max-width: 68ch;
+  margin: 0 0 var(--s-6);
+}
+
+/* عنوان صغير فوق العناوين — بديل الشريط الذهبي المكرر */
+.eyebrow {
+  display: block;
+  font-size: var(--fs-eyebrow);
+  font-weight: 600;
+  letter-spacing: var(--ls-eyebrow);
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  margin: 0 0 var(--s-3);
+}
+
+/* ==========================================================================
+   الأزرار — ركن مسطّح قليلاً بدل الدائرة الكاملة، وتباين صحيح
+   ========================================================================== */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+  background: var(--ink);
+  color: #fff;
+  padding: 15px 34px;
+  border: 1px solid var(--ink);
+  border-radius: var(--radius-pill);
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0;
+  cursor: pointer;
+  transition: background var(--d-fast) var(--e-out),
+              color var(--d-fast) var(--e-out),
+              border-color var(--d-fast) var(--e-out),
+              transform var(--d-fast) var(--e-out),
+              box-shadow var(--d-base) var(--e-out);
+}
+.btn:hover {
+  background: var(--ink-soft);
+  color: var(--gold-soft);
+  border-color: var(--gold-dim);
+  transform: translateY(-2px);
+  box-shadow: var(--sh-md);
+}
+.btn:focus-visible { outline: 2px solid var(--gold-deep); outline-offset: 3px; }
+
+/* الشبح — حدود رفيعة، شفافية عند التحويم */
+.btn.ghost {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--line-2);
+}
+.btn.ghost:hover {
+  background: var(--ink);
+  color: var(--gold-soft);
+  border-color: var(--ink);
+}
+
+/* الذهبي — للاستخدام المحدود: يحتاج نص غامق */
+.btn.gold {
+  background: linear-gradient(135deg, var(--gold-soft), var(--gold));
+  color: var(--ink);
+  border-color: var(--gold-dim);
+}
+.btn.gold:hover { background: var(--gold); color: var(--ink); border-color: var(--gold-deep); }
+
+.btn.cta-dark {
+  background: transparent;
+  color: var(--gold-soft);
+  border-color: rgba(201, 182, 132, .45);
+}
+.btn.cta-dark:hover { background: rgba(201, 182, 132, .12); color: #fff; border-color: var(--gold); }
+
+/* رابط نصي بسيط يفتح بخط سفلي متحرك */
+.link-more {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  color: var(--gold-deep);
+  transition: gap var(--d-fast) var(--e-out), color var(--d-fast) var(--e-out);
+}
+.link-more:hover { gap: var(--s-3); color: var(--ink); }
+
+/* ==========================================================================
+   الأقسام — إيقاع معماري
+   ========================================================================== */
+
+section { padding: var(--section-y) 0; }
+.sec-tight { padding: var(--section-y-sm) 0; }
+
+.sec-head { margin: 0 0 var(--s-8); }
+.sec-head .h2 { max-width: 22ch; }
+
+/* عنوان القسم القديم — نحتفظ بالشكل لكن بلمسة أنعم */
+.sec-title {
+  font-size: var(--fs-h2);
+  font-weight: 600;
+  letter-spacing: -.01em;
+  line-height: var(--lh-snug);
+}
+.sec-sub {
+  color: var(--muted);
+  margin: 0 0 var(--s-7);
+  max-width: 62ch;
+  line-height: 1.8;
+}
+
+/* فاصل بنّاء بين الأقسام — خط رفيع يمتد */
+.rule {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--line) 18%, var(--line) 82%, transparent);
+  border: 0;
+  margin: 0;
+}
+
+/* ==========================================================================
+   البطاقات — طبقة علوية هادئة، بلا مبالغة
+   ========================================================================== */
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: transform var(--d-base) var(--e-out),
+              border-color var(--d-base) var(--e-out),
+              box-shadow var(--d-base) var(--e-out);
+}
+.card:hover {
+  transform: translateY(-6px);
+  border-color: var(--gold-dim);
+  box-shadow: var(--sh-lg);
+}
+.card-body { padding: var(--s-5); flex: 1; display: flex; flex-direction: column; }
+.card-body h3, .card-body .h3 { margin: 0 0 var(--s-2); }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(248px, 1fr));
+  gap: var(--s-5);
+}
+
+/* ==========================================================================
+   الحركات — تُبنى عليها المرحلة 2 (GSAP)
+   الحالة الافتراضية: المحتوى ظاهر تماماً. الحركة تُضاف فقط فوقه.
+   هذا يعني أن الموقع يبقى مقروءاً حتى لو تعطّل أي سكربت.
+   ========================================================================== */
+
+.js-motion [data-anim] { will-change: transform, opacity; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ==========================================================================
+   التفاصيل الدقيقة دقيقة
+   ========================================================================== */
+
+::selection { background: var(--gold-soft); color: var(--ink); }
+
+:focus-visible {
+  outline: 2px solid var(--gold-deep);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
