@@ -3,6 +3,7 @@ import { url } from '../data/urls.js';
 import { COMPANY, LINKS } from '../data/company.js';
 import '../styles/global.css';
 import '../styles/tokens.css';
+import '../styles/motion.css';
 
 const { title, description } = Astro.props;
 const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${COMPANY.tagline}`;
@@ -90,6 +91,10 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
         <div class="wrap">© {new Date().getFullYear()} {COMPANY.name} — جميع الحقوق محفوظة</div>
       </div>
     </footer>
+
+    <script>
+      import '../scripts/motion.js';
+    </script>
 
     <script is:inline>
       (function () {

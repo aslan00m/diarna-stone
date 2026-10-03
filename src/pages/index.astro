@@ -26,7 +26,7 @@ const counts = {
 <Base>
   <!-- HERO -->
   <div class="hero has-photo" id="hero">
-    <div class="hero-slides" aria-hidden="true">
+    <div class="hero-slides reveal-mask" aria-hidden="true" data-parallax="0.14">
       {HEROES.map((h, i) => (
         <img
           class={`hero-slide${i === 0 ? ' is-active' : ''}`}
@@ -40,7 +40,7 @@ const counts = {
     </div>
     <div class="hero-scrim"></div>
     <div class="wrap">
-      <h1>رخام وجحر طبيعي<br />بجودة تدوم طويلاً</h1>
+      <h1 class="line-reveal"><span>رخام وجحر طبيعي</span><span>بجودة تدوم طويلاً</span></h1>
       <p>
         {COMPANY.name} — تجارة الرخام والجرانيت والترافرتينو وتركيب الواجهات والأرضيات.
         نختار لك خامات تدوم أكثر من عمر المبنى.
@@ -83,11 +83,11 @@ const counts = {
   <!-- شريط المزايا -->
   <div class="strip">
     <div class="wrap">
-      <div class="strip-grid">
-        <div><strong>{PRODUCTS.length}+</strong><span>نوع حجر</span></div>
-        <div><strong>6</strong><span>مصادر عالمية</span></div>
-        <div><strong>10+</strong><span>سنوات خبرة</span></div>
-        <div><strong>100%</strong><span>ضمان جودة</span></div>
+      <div class="strip-grid" data-stagger>
+        <div><strong class="num" data-count={PRODUCTS.length} data-suffix="+">{PRODUCTS.length}+</strong><span>نوع حجر</span></div>
+        <div><strong class="num" data-count={6} data-suffix="">6</strong><span>مصادر عالمية</span></div>
+        <div><strong class="num" data-count={10} data-suffix="+">10+</strong><span>سنوات خبرة</span></div>
+        <div><strong class="num" data-count={100} data-suffix="%">100%</strong><span>ضمان جودة</span></div>
       </div>
     </div>
   </div>
@@ -95,9 +95,9 @@ const counts = {
   <!-- التصنيف حسب النوع -->
   <section>
     <div class="wrap">
-      <h2 class="sec-title">تصفّح حسب النوع</h2>
+      <h2 class="sec-title" data-anim="up">تصفّح حسب النوع</h2>
       <p class="sec-sub">أربع فئات رئيسية تغطي معظم احتياجات المشاريع السكنية والتجارية.</p>
-      <div class="grid">
+      <div class="grid" data-stagger>
         {CATEGORIES.map((c) => (
           <a href={url(`/products/${c.slug}`)} class="card">
             <div class="ph" style="aspect-ratio: 4/3">
@@ -119,7 +119,7 @@ const counts = {
   <!-- التصنيف حسب المصدر -->
   <section>
     <div class="wrap">
-      <h2 class="sec-title">تصفّح حسب المصدر</h2>
+      <h2 class="sec-title" data-anim="up">تصفّح حسب المصدر</h2>
       <p class="sec-sub">خامات من أفضل مصانع العالم، مع إمكانية التوريد بكميات الجملة.</p>
       <div class="tabs">
         {usedOrigins.map((o) => (
@@ -136,9 +136,9 @@ const counts = {
   <!-- منتجات مميزة -->
   <section>
     <div class="wrap">
-      <h2 class="sec-title">منتجات مميزة</h2>
+      <h2 class="sec-title" data-anim="up">منتجات مميزة</h2>
       <p class="sec-sub">اختياراتنا الأكثر طلباً هذا الموسم.</p>
-      <div class="grid">
+      <div class="grid" data-stagger>
         {featured.map((p) => <ProductCard product={p} />)}
       </div>
       <div style="text-align:center;margin-top:30px">
@@ -150,9 +150,9 @@ const counts = {
   <!-- أحدث المنتجات -->
   <section>
     <div class="wrap">
-      <h2 class="sec-title">أحدث المنتجات</h2>
+      <h2 class="sec-title" data-anim="up">أحدث المنتجات</h2>
       <p class="sec-sub">خامات أضفناها مؤخراً إلى المتجر.</p>
-      <div class="grid">
+      <div class="grid" data-stagger>
         {newest.map((p) => <ProductCard product={p} />)}
       </div>
     </div>
@@ -163,9 +163,9 @@ const counts = {
     luxury.length > 0 && (
       <section>
         <div class="wrap">
-          <h2 class="sec-title">منتجات فاخرة</h2>
+          <h2 class="sec-title" data-anim="up">منتجات فاخرة</h2>
           <p class="sec-sub">رخام إيطالي مختار للمشاريع التي لا تقبل التنازل.</p>
-          <div class="grid">
+          <div class="grid" data-stagger>
             {luxury.map((p) => (
               <ProductCard product={p} />
             ))}
@@ -178,9 +178,9 @@ const counts = {
   <!-- خدمات التركيب -->
   <section>
     <div class="wrap">
-      <h2 class="sec-title">خدمات التركيب والتنفيذ</h2>
+      <h2 class="sec-title" data-anim="up">خدمات التركيب والتنفيذ</h2>
       <p class="sec-sub">لا نبيع الحجر فحسب — نوفّر فريق التنفيذ الذي يحوّل التصميم إلى واقع.</p>
-      <div class="grid">
+      <div class="grid" data-stagger>
         {[
           { i: '▤', t: 'تركيب الواجهات', d: 'تركيب حجر الجدران الخارجية بأسلوب دقيق يحافظ على استقامة السطح والتعامل مع النهايات والزوايا.' },
           { i: '▦', t: 'تركيب الأرضيات', d: 'أرضيات داخلية وخارجية بمسافات متناسقة ومعالجة كاملة للحواف.' },
