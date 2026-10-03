@@ -29,7 +29,12 @@ const byCat = PROJECTS.reduce((acc, p) => {
   <section>
     <div class="wrap">
       {
-        Object.entries(byCat).map(([cat, list]) => (
+        PROJECTS.length === 0 ? (
+          <div class="cta-band">
+            <h2>المشاريع قيد الإضافة</h2>
+            <p>ننشر مشاريعنا مع صور المراحل الفعلية — تابعنا قريباً.</p>
+          </div>
+        ) : Object.entries(byCat).map(([cat, list]) => (
           <div class="cat-block">
             <h2 class="sec-title">{cat}</h2>
             <div class="work-grid">
