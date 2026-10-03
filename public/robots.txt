@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.dyarnaa.com/sitemap.xml
+Sitemap: https://dyarnaa.com/sitemap.xml
