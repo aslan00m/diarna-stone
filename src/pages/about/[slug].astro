@@ -1,0 +1,164 @@
+---
+import Base from '../../layouts/Base.astro';
+import ABOUT_CARDS from '../../data/about-cards.js';
+import PhotoPlaceholder from '../../components/PhotoPlaceholder.astro';
+import { url } from '../../data/urls.js';
+
+export function getStaticPaths() {
+  return ABOUT_CARDS.map((c) => ({ params: { slug: c.slug }, props: { card: c } }));
+}
+
+const { card } = Astro.props;
+const others = ABOUT_CARDS.filter((c) => c.slug !== card.slug).slice(0, 3);
+---
+
+<Base
+  title={`${card.title} | خدمات ديارنا الحديثة`}
+  description={card.excerpt}
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <a href={url('/about')} class="back">→ عن الشركة</a>
+      <h1>{card.title}</h1>
+      <p class="lede">{card.excerpt}</p>
+      <div class="pills">
+        <span class="pill">{card.tag}</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="layout">
+        <div class="main">
+          {
+            card.sections.map((s) => (
+              <section class="blk">
+                <h2>{s.h}</h2>
+                {s.p.map((para) => <p>{para}</p>)}
+              </section>
+            ))
+          }
+
+          <div class="cta-band">
+            <h2>مشروعك في هذه الخدمة؟</h2>
+            <p>أرسل لنا الفكرة والمقاس التقريبي، ونرجع لك بخامة وتشطيب مقترح.</p>
+            <div class="cta-row">
+              <a href={url('/contact')} class="btn">طلب عرض سعر</a>
+              <a href={url('/products')} class="btn ghost">تصفح الأحجار</a>
+            </div>
+          </div>
+        </div>
+
+        <aside class="side">
+          {
+            card.image ? (
+              <figure class="side-img">
+                <img src={url(card.image)} alt={card.title} loading="lazy" decoding="async" />
+              </figure>
+            ) : (
+              <div class="need">
+                <h3>صورة الخدمة</h3>
+                <PhotoPlaceholder label="بانتظار صورة" ratio="4 / 3" icon={card.icon} />
+                <p class="need-txt">{card.imageNeed}</p>
+              </div>
+            )
+          }
+
+          <div class="side-box">
+            <h3>خدمات أخرى</h3>
+            <ul>
+              {others.map((o) => (
+                <li>
+                  <a href={url(`/about/${o.slug}`)}>
+                    <span class="ico">{o.icon}</span> {o.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .back {
+    display: inline-block;
+    font-size: .9rem;
+    color: var(--muted);
+    text-decoration: none;
+    margin-bottom: 14px;
+  }
+  .back:hover { color: #14140f; }
+  .lede { font-size: 1.06rem; line-height: 1.85; max-width: 66ch; }
+  .pills { display: flex; gap: 8px; margin-top: 16px; }
+  .pill {
+    font-size: .8rem;
+    background: var(--bg-soft);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 5px 13px;
+    color: var(--muted);
+  }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 40px;
+    align-items: start;
+  }
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; gap: 28px; }
+  }
+
+  .blk { margin-bottom: 34px; }
+  .blk h2 { font-size: 1.3rem; margin: 0 0 12px; }
+  .blk p { line-height: 1.95; color: var(--ink-soft); margin: 0 0 14px; }
+
+  .side { position: sticky; top: 78px; }
+  .side-img {
+    margin: 0 0 22px;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    background: #fff;
+    aspect-ratio: 4 / 3;
+  }
+  .side-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+  .need {
+    background: var(--bg-soft);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 22px;
+  }
+  .need h3 { margin: 0 0 12px; font-size: .98rem; }
+  .need-txt {
+    font-size: .88rem;
+    color: var(--muted);
+    line-height: 1.75;
+    margin: 12px 0 0;
+  }
+
+  .side-box {
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 18px;
+    background: #fff;
+  }
+  .side-box h3 { margin: 0 0 12px; font-size: .98rem; }
+  .side-box ul { list-style: none; margin: 0; padding: 0; }
+  .side-box li + li { border-top: 1px solid var(--line); }
+  .side-box a {
+    display: block;
+    padding: 10px 2px;
+    color: #14140f;
+    text-decoration: none;
+    font-size: .94rem;
+  }
+  .side-box a:hover { color: var(--gold); }
+  .side-box .ico { margin-inline-end: 6px; }
+</style>

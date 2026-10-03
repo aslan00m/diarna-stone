@@ -3,6 +3,7 @@ import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
 import { COMPANY, LINKS } from '../data/company.js';
 import PhotoPlaceholder from '../components/PhotoPlaceholder.astro';
+import ABOUT_CARDS from '../data/about-cards.js';
 ---
 
 <Base title="عن الشركة" description={`تعرف على ${COMPANY.name} — تجارة الرخام والحجر الطبيعي وتركيب الواجهات في الرياض.`}>
@@ -79,30 +80,21 @@ import PhotoPlaceholder from '../components/PhotoPlaceholder.astro';
         نماذج من مشاريعنا في الواجهات والأرضيات والتشطيبات الداخلية. نعرض ما نفتخر به فقط.
       </p>
       <div class="work-grid">
-        <figure class="work-item">
-          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
-          <figcaption>واجهة سكنية</figcaption>
-        </figure>
-        <figure class="work-item">
-          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
-          <figcaption>أرضيات داخلية</figcaption>
-        </figure>
-        <figure class="work-item">
-          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
-          <figcaption>درج ومدرّج</figcaption>
-        </figure>
-        <figure class="work-item">
-          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
-          <figcaption>تشطيب مطابخ</figcaption>
-        </figure>
-        <figure class="work-item">
-          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
-          <figcaption>واجهات تجارية</figcaption>
-        </figure>
-        <figure class="work-item">
-          <PhotoPlaceholder label="جاري البحث عن صورة" ratio="4 / 3" icon="◧" />
-          <figcaption>مغاسل حجرية</figcaption>
-        </figure>
+        {ABOUT_CARDS.map((c) => (
+          <a href={url(`/about/${c.slug}`)} class="work-item">
+            <span class="shot">
+              {c.image ? (
+                <img src={url(c.image)} alt={c.title} loading="lazy" decoding="async" />
+              ) : (
+                <PhotoPlaceholder label="بانتظار صورة" ratio="4 / 3" icon={c.icon} />
+              )}
+            </span>
+            <figcaption>
+              <span class="work-t">{c.icon} {c.title}</span>
+              <span class="work-tag">{c.tag}</span>
+            </figcaption>
+          </a>
+        ))}
       </div>
 
       <h2 class="deep-title">شركاؤنا</h2>

@@ -1,5 +1,6 @@
 import PRODUCTS from '../data/products.js';
 import PROJECTS_FULL from '../data/projects-full.js';
+import ABOUT_CARDS from '../data/about-cards.js';
 import { CATEGORIES, ORIGINS } from '../data/company.js';
 import POSTS from '../data/blog.js';
 
@@ -15,6 +16,7 @@ export async function GET() {
   for (const pr of PROJECTS_FULL) pages.push(`/works/${pr.slug}`);
   pages.push('/blog', '/consulting', '/sinks', '/installation-external', '/installation-internal', '/works');
   for (const b of POSTS) pages.push(`/blog/${b.slug}`);
+  for (const c of ABOUT_CARDS) pages.push(`/about/${c.slug}`);
 
   const urls = pages
     .map((p) => `  <url><loc>${base}${p}</loc></url>`)
