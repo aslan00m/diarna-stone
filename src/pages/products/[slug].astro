@@ -43,6 +43,23 @@ const waLink = `https://wa.me/${COMPANY.whatsapp}?text=${waMsg}`;
           <div style="border:1px solid var(--line);border-radius:14px;overflow:hidden">
             <ProductImage product={product} large={true} />
           </div>
+          {
+            product.beforeImage && (
+              <div class="ba">
+                <div class="ba-grid">
+                  <figure>
+                    <span class="ba-l">قبل — اللوح قبل النحت</span>
+                    <img src={url(product.beforeImage)} alt={`${product.name} قبل التشكيل`} loading="lazy" decoding="async" />
+                  </figure>
+                  <figure>
+                    <span class="ba-l">بعد — المغسلة بعد التركيب</span>
+                    <img src={url(product.afterImage)} alt={`${product.name} بعد التركيب`} loading="lazy" decoding="async" />
+                  </figure>
+                </div>
+                <p class="ba-n">من لوح حجر خام إلى مغسلة جاهزة — كل قطعة تُنحت على حدة، ولذلك يختلف شكل كل قطعة قليلاً.</p>
+              </div>
+            )
+          }
           <p style="color:var(--muted);font-size:.85rem;margin-top:10px">
             المصدر: {org?.name} — اللون: {product.color}
           </p>

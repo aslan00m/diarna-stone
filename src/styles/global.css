@@ -1111,3 +1111,20 @@ a.work-item .work-tag,
   min-height: 0;
   padding: 11px 15px 13px;
 }
+
+
+/* ===== صفحة المنتج: قبل وبعد ===== */
+.ba { margin-top: 20px; }
+.ba-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 700px) { .ba-grid { grid-template-columns: 1fr; } }
+.ba figure { margin: 0; }
+.ba-l { display: block; font-size: .82rem; color: var(--muted); margin-bottom: 6px; }
+.ba img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+}
+.ba-n { font-size: .85rem; color: var(--muted); margin-top: 10px; }
