@@ -7,7 +7,7 @@ import POSTS from '../data/blog.js';
 import { BASE } from '../data/urls.js';
 
 export async function GET() {
-  const base = ('https://dyarnaa.com' + BASE).replace(/\/$/, '');
+  const base = ('https://www.dyarnaa.com' + BASE).replace(/\/$/, '');
   const pages = ['/', '/products', '/products/all', '/services', '/about', '/contact'];
   for (const c of CATEGORIES) pages.push(`/products/${c.slug}`);
   const usedOrigins = new Set(PRODUCTS.map((p) => p.origin));
