@@ -1,6 +1,6 @@
 // مسار النشر — يجب أن يطابق `base` في astro.config.mjs
 // GitHub Pages: '/diarna-stone/'   |   دومين على الجذر: '/'
-export const BASE = '/diarna-stone/';
+export const BASE = '/';
 
 /** رابط داخلي يحترم مسار النشر. */
 export const url = (path = '/') => {

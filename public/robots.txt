@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aslan00m.github.io/diarna-stone/sitemap.xml
+Sitemap: https://dyarnaa.com/sitemap.xml
