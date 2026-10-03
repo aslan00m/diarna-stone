@@ -1,8 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
 import PROJECTS from '../data/projects-full.js';
-import MATERIALS from '../data/materials.js';
-import OUR_WORKS from '../data/our-works.js';
 import { url } from '../data/urls.js';
 import { COMPANY, LINKS } from '../data/company.js';
 
@@ -58,45 +56,6 @@ const byCat = PROJECTS.reduce((acc, p) => {
           </div>
         ))
       }
-
-      <div class="cat-block">
-        <h2 class="sec-title">مشاريعنا</h2>
-        <p class="sec-sub">
-          واجهات نفّذناها ونتولى صيانتها — تشطيبات كاملة من الأساس حتى التسليم.
-        </p>
-        <div class="work-grid">
-          {OUR_WORKS.map((m) => (
-            <figure class="work-item">
-              <span class="shot"><img src={url(m.src)} alt={m.alt} loading="lazy" decoding="async" /></span>
-              <figcaption>
-                <span class="work-t">{m.title}</span>
-                <span class="work-tag">واجهات خارجية</span>
-              </figcaption>
-            </figure>
-          ))}
-        </div>
-      </div>
-
-      <div class="cat-block">
-        <h2 class="sec-title">الخامات والمواد</h2>
-        <p class="sec-sub">
-          كتل وألواح حجرية في مخزننا وورشتنا، قبل القص والتشطيب النهائي.
-          صور حقيقية للمواد كما تصل.
-        </p>
-        <div class="work-grid">
-          {
-            MATERIALS.map((m) => (
-              <figure class="work-item">
-                <span class="shot"><img src={url(m.src)} alt={m.alt} loading="lazy" decoding="async" /></span>
-                <figcaption>
-                  <span class="work-t">{m.title}</span>
-                  <span class="work-tag">{m.tag}</span>
-                </figcaption>
-              </figure>
-            ))
-          }
-        </div>
-      </div>
 
       <div class="cta-band">
         <h2>مشروعك القادم قد يكون هنا</h2>
