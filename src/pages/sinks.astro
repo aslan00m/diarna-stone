@@ -2,6 +2,8 @@
 import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
 import { LINKS } from '../data/company.js';
+import PRODUCTS from '../data/products.js';
+import ProductCard from '../components/ProductCard.astro';
 ---
 
 <Base
@@ -136,4 +138,14 @@ import { LINKS } from '../data/company.js';
       </div>
     </div>
   </section>
+  <section>
+    <div class="wrap">
+      <h2 class="sec-title">أنواع المغاسل المتوفرة</h2>
+      <p class="sec-sub">اضغط على أي مغسلة لعرض تفاصيلها والخامة والمقاسات.</p>
+      <div class="grid" style="margin-top:22px">
+        {PRODUCTS.filter((p) => p.category === 'sinks').map((p) => <ProductCard product={p} />)}
+      </div>
+    </div>
+  </section>
+
 </Base>
