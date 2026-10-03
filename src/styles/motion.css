@@ -1,77 +1,44 @@
 /* ==========================================================================
    نظام الحركة — ديارنا الحديثة
    --------------------------------------------------------------------------
-   مبدأ أساسي: المحتوى ظاهر 100% بدون JavaScript.
-   States التلقائية تُفعَّل فقط بعد أن يؤكد السكربت جاهزته
-   بإضافة class="js-motion" على <html>.
-   تعطّل السكربت = الموقع يبقى كما هو، مقروء تماماً.
+   مبدأ معماري: JavaScript وحده يملك الحالات المخفية.
+   لا توجد أي قاعدة CSS تخفي عنصراً. GSAP يضبط الحالة الابتدائية بنفسه
+   قبل تشغيل الحركة.
+
+   السبب: لو ملك CSS الحالة المخفية وتوقف الـtween لأي سبب — revert من
+   matchMedia، أو إلغاء، أو خطأ — يبقى العنصر محجوباً خلف قناعه إلى
+   الأبد. وحين يملك JS الحالة فقط، فإن فشل الحركة يعني عنصراً ظاهراً،
+   وهو الفشل الآمن الصحيح.
+
+   يبقى هنا: will-change، وترتيبات العرض، ودعم الحركة المخفّضة.
    ========================================================================== */
 
-/* لا تفعّل أي حالة مخفية افتراضياً — السكربت هو من يفعّلها */
-.js-motion [data-anim] { will-change: transform, opacity; }
+.js-motion [data-anim],
+.js-motion [data-stagger] > * { will-change: transform, opacity; }
 
-.js-motion [data-anim='up'],
-.js-motion [data-anim='down'],
-.js-motion [data-anim='start'],   /* من اليمين (RTL) */
-.js-motion [data-anim='end'],     /* من اليسار (RTL) */
-.js-motion [data-anim='scale'],
-.js-motion [data-anim='fade'] {
-  opacity: 0;
-  will-change: transform, opacity;
-}
-
-/* Image Reveal — قناع يُكشف */
-.js-motion [data-anim='reveal'] .reveal-mask {
-  clip-path: inset(0 0 100% 0);
-  will-change: clip-path;
-}
-.js-motion [data-anim='reveal-r'] .reveal-mask {
-  clip-path: inset(100% 0 0 0);
-}
-
-/* كشف الخط — كل سطر يُكشف من خلف قناع */
-.js-motion .line-reveal { overflow: hidden; }
-.js-motion .line-reveal > span {
-  display: block;
-  transform: translateY(110%);
-  will-change: transform;
-}
-
-/* الحاويات القابلة للعدّ */
-.js-motion [data-count] { will-change: contents; }
-
-/* Parallax — تُحرّك عبر transform فقط، لا top/height */
 .js-motion [data-parallax] { will-change: transform; }
 
-/* تدرّج البطاقات: Children تبدأ مخفية فقط عند طلب stagger صريح */
-.js-motion [data-stagger] > * {
-  opacity: 0;
-  will-change: transform, opacity;
-}
+.js-motion .line-reveal { overflow: hidden; }
+.js-motion .line-reveal > span { display: block; will-change: transform; }
 
-/* بطاقات المنتج: طبقة للـzoom السلس */
+.js-motion .reveal-mask { will-change: clip-path; }
+
 .js-motion .card-img,
-.js-motion .ph img {
-  transition: transform var(--d-slow) var(--e-out);
-  will-change: transform;
-}
+.js-motion .ph img { transition: transform var(--d-slow) var(--e-out); }
 
 /* ==========================================================================
-   الحركة المخفّضة — prefers-reduced-motion
+   الحركة المخفّضة — كل شيء ظاهر وثابت
    ========================================================================== */
 @media (prefers-reduced-motion: reduce) {
+  .js-motion .line-reveal { overflow: visible !important; }
   .js-motion [data-anim],
-  .js-motion [data-stagger] > * {
+  .js-motion [data-stagger] > *,
+  .js-motion [data-parallax],
+  .js-motion .line-reveal > span,
+  .js-motion .reveal-mask {
     opacity: 1 !important;
     transform: none !important;
     clip-path: none !important;
   }
-  .js-motion [data-anim='reveal'] .reveal-mask,
-  .js-motion [data-anim='reveal-r'] .reveal-mask {
-    clip-path: none !important;
-  }
-  .js-motion .line-reveal > span { transform: none !important; }
-  .js-motion .line-reveal { overflow: visible !important; }
-  .js-motion [data-parallax] { transform: none !important; }
   .js-motion .card-img, .js-motion .ph img { transition: none !important; }
 }

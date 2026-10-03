@@ -31,9 +31,29 @@ function heroIntro() {
   const hero = document.querySelector('#hero');
   if (!hero) return;
 
-  const tl = gsap.timeline({ defaults: { ease: EASE }, delay: 0.08 });
-
+  // GSAP يملك الحالة الابتدائية — لا CSS
   const mask = hero.querySelector('.reveal-mask');
+  const lines = qa('.line-reveal > span', hero);
+  const p = hero.querySelector('.hero p');
+  const btns = qa('.btn', hero);
+  const dots = qa('.hero-dot', hero);
+  const slides = qa('.hero-slide', hero);
+
+  if (mask) gsap.set(mask, { clipPath: 'inset(0 0 100% 0)' });
+  if (lines.length) gsap.set(lines, { yPercent: 110 });
+  if (p) gsap.set(p, { y: 20, opacity: 0 });
+  if (btns.length) gsap.set(btns, { y: 16, opacity: 0 });
+
+  const tl = gsap.timeline({
+    defaults: { ease: EASE },
+    delay: 0.08,
+    onComplete() {
+      //// الحالة النهائية: نظّف أي inline transform متبقٍنظّف أي inline transform متبقٍ
+      gsap.set([mask, ...lines, p, ...btns, ...dots].filter(Boolean),
+        { clearProps: 'transform,opacity,clipPath' });
+    },
+  });
+
   if (mask) {
     tl.fromTo(mask,
       { clipPath: 'inset(0 0 100% 0)' },
@@ -41,7 +61,6 @@ function heroIntro() {
   }
 
   // تكسر بطيء جدّاً — إحساس سينمائي
-  const slides = qa('.hero-slide', hero);
   if (slides.length) {
     tl.fromTo(slides,
       { scale: 1.14 },
@@ -49,7 +68,6 @@ function heroIntro() {
   }
 
   // العنوان: كشف سطر بسطر
-  const lines = qa('.line-reveal > span', hero);
   if (lines.length) {
     tl.fromTo(lines,
       { yPercent: 110 },
@@ -60,16 +78,13 @@ function heroIntro() {
   }
 
   // النص بعد العنوان
-  const p = hero.querySelector('.hero p');
   if (p) tl.fromTo(p, { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.95 }, 0.55);
 
   // الأزرار بعد النص
-  const btns = qa('.btn', hero);
   if (btns.length) {
     tl.fromTo(btns, { y: 16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, stagger: 0.09 }, 0.75);
   }
 
-  const dots = qa('.hero-dot', hero);
   if (dots.length) {
     tl.fromTo(dots, { opacity: 0 }, { opacity: 1, duration: 0.6, stagger: 0.06 }, 1.0);
   }
@@ -118,6 +133,7 @@ function imageReveal(start) {
         clipPath: vertical ? 'inset(0% 0 0 0)' : 'inset(0 0 0% 0)',
         duration: 1.25,
         ease: 'power3.inOut',
+        onComplete() { gsap.set(mask, { clearProps: 'clipPath' }); },
         scrollTrigger: { trigger: el, start, once: true },
       });
 
@@ -159,6 +175,7 @@ function entrances(start) {
           opacity: 1, x: 0, y: 0, scale: 1,
           duration: cfg.duration,
           ease: EASE,
+          onComplete() { gsap.set(el, { clearProps: 'transform' }); },
           scrollTrigger: { trigger: el, start, once: true },
         });
     });
@@ -180,6 +197,7 @@ function stagger(start, isMobile) {
         duration: 0.85,
         ease: EASE,
         stagger: isMobile ? 0.06 : 0.1,
+        onComplete() { gsap.set(items, { clearProps: 'transform' }); },
         scrollTrigger: { trigger: group, start, once: true },
       });
   });
@@ -222,6 +240,7 @@ function lineReveal(start, isMobile) {
         duration: isMobile ? 0.9 : 1.05,
         ease: EASE,
         stagger: isMobile ? 0.07 : 0.1,
+        onComplete() { gsap.set(lines, { clearProps: 'transform' }); },
         scrollTrigger: { trigger: el, start, once: true },
       });
   });
@@ -256,7 +275,7 @@ function init() {
     // تغيّر في المقاس — فيعود العنوان محجوباً خلف قناعه.
     if (!document.body.dataset.heroPlayed) {
       document.body.dataset.heroPlayed = '1';
-      window.__heroTl = heroIntro();
+      heroIntro();
     }
 
     gsap.matchMedia()
