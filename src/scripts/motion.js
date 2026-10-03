@@ -34,13 +34,15 @@ function heroIntro() {
   // GSAP يملك الحالة الابتدائية — لا CSS
   const mask = hero.querySelector('.reveal-mask');
   const lines = qa('.line-reveal > span', hero);
-  const p = hero.querySelector('.hero p');
-  const btns = qa('.btn', hero);
+  const eyebrow = hero.querySelector('.hero-body .eyebrow');
+  const p = hero.querySelector('.hero-body p');
+  const btns = qa('.hero-actions .btn', hero);
   const dots = qa('.hero-dot', hero);
   const slides = qa('.hero-slide', hero);
 
   if (mask) gsap.set(mask, { clipPath: 'inset(0 0 100% 0)' });
   if (lines.length) gsap.set(lines, { yPercent: 110 });
+  if (eyebrow) gsap.set(eyebrow, { y: 14, opacity: 0 });
   if (p) gsap.set(p, { y: 20, opacity: 0 });
   if (btns.length) gsap.set(btns, { y: 16, opacity: 0 });
 
@@ -49,7 +51,7 @@ function heroIntro() {
     delay: 0.08,
     onComplete() {
       //// الحالة النهائية: نظّف أي inline transform متبقٍنظّف أي inline transform متبقٍ
-      gsap.set([mask, ...lines, p, ...btns, ...dots].filter(Boolean),
+      gsap.set([mask, ...lines, eyebrow, p, ...btns, ...dots].filter(Boolean),
         { clearProps: 'transform,opacity,clipPath' });
     },
   });
@@ -67,11 +69,17 @@ function heroIntro() {
       { scale: 1.0, duration: 2.6, ease: 'power2.out', stagger: 0.12 }, 0);
   }
 
+  // السطر التعريفي الصغير قبل العنوان
+  if (eyebrow) {
+    tl.fromTo(eyebrow, { y: 14, opacity: 0 },
+      { y: 0, opacity: 1, duration: 0.7, ease: EASE }, 0.22);
+  }
+
   // العنوان: كشف سطر بسطر
   if (lines.length) {
     tl.fromTo(lines,
       { yPercent: 110 },
-      { yPercent: 0, duration: 1.15, ease: EASE, stagger: 0.11 }, 0.28);
+      { yPercent: 0, duration: 1.15, ease: EASE, stagger: 0.11 }, 0.32);
   } else {
     const h1 = hero.querySelector('h1');
     if (h1) tl.fromTo(h1, { y: 26, opacity: 0 }, { y: 0, opacity: 1, duration: 1.1 }, 0.3);

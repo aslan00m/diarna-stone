@@ -24,34 +24,41 @@ const counts = {
 ---
 
 <Base>
-  <!-- HERO -->
+  <!-- HERO: الصور أولاً بملء العرض، ثم النص تحتها -->
   <div class="hero has-photo" id="hero">
-    <div class="hero-slides reveal-mask" aria-hidden="true" data-parallax="0.14">
-      {HEROES.map((h, i) => (
-        <img
-          class={`hero-slide${i === 0 ? ' is-active' : ''}`}
-          src={url(h.src)}
-          alt=""
-          loading={i === 0 ? 'eager' : 'lazy'}
-          decoding="async"
-          data-hero-alt={h.alt}
-        />
-      ))}
+    <div class="hero-media">
+      <div class="hero-slides reveal-mask" aria-hidden="true" data-parallax="0.10">
+        {HEROES.map((h, i) => (
+          <img
+            class={`hero-slide${i === 0 ? ' is-active' : ''}`}
+            src={url(h.src)}
+            alt=""
+            loading={i === 0 ? 'eager' : 'lazy'}
+            decoding="async"
+            data-hero-alt={h.alt}
+          />
+        ))}
+      </div>
+      <div class="hero-dots" role="presentation">
+        {HEROES.map((_, i) => (
+          <span class={`hero-dot${i === 0 ? ' is-on' : ''}`} data-i={i}></span>
+        ))}
+      </div>
     </div>
-    <div class="hero-scrim"></div>
-    <div class="wrap">
-      <h1 class="line-reveal"><span>رخام وجحر طبيعي</span><span>بجودة تدوم طويلاً</span></h1>
-      <p>
-        {COMPANY.name} — تجارة الرخام والجرانيت والترافرتينو وتركيب الواجهات والأرضيات.
-        نختار لك خامات تدوم أكثر من عمر المبنى.
-      </p>
-      <a href={url("/products")} class="btn">تصفّح المنتجات</a>
-      <a href={LINKS.whatsapp} class="btn ghost">اطلب عرض سعر</a>
-    </div>
-    <div class="hero-dots" role="presentation">
-      {HEROES.map((_, i) => (
-        <span class={`hero-dot${i === 0 ? ' is-on' : ''}`} data-i={i}></span>
-      ))}
+
+    <div class="hero-body">
+      <div class="wrap">
+        <span class="eyebrow">ديارنا الحديثة — الرياض</span>
+        <h1 class="line-reveal"><span>رخام وجحر طبيعي</span><span>بجودة تدوم طويلاً</span></h1>
+        <p class="lead">
+          {COMPANY.name} — تجارة الرخام والجرانيت والترافرتينو وتركيب الواجهات والأرضيات.
+          نختار لك خامات تدوم أكثر من عمر المبنى.
+        </p>
+        <div class="hero-actions">
+          <a href={url("/products")} class="btn">تصفّح المنتجات</a>
+          <a href={LINKS.whatsapp} class="btn ghost">اطلب عرض سعر</a>
+        </div>
+      </div>
     </div>
   </div>
 
