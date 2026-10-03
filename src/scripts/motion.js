@@ -256,7 +256,7 @@ function init() {
     // تغيّر في المقاس — فيعود العنوان محجوباً خلف قناعه.
     if (!document.body.dataset.heroPlayed) {
       document.body.dataset.heroPlayed = '1';
-      heroIntro();
+      window.__heroTl = heroIntro();
     }
 
     gsap.matchMedia()
