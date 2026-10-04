@@ -4,6 +4,8 @@ import Base from '../../layouts/Base.astro';
 import PRODUCTS from '../../data/products.js';
 import { CATEGORIES, ORIGINS } from '../../data/company.js';
 import ProductCard from '../../components/ProductCard.astro';
+import FamilyCard from '../../components/FamilyCard.astro';
+import FAMILIES from '../../data/families.js';
 import { CATEGORY_INTRO } from '../../data/category-intro.js';
 
 export function getStaticPaths() {
@@ -14,9 +16,15 @@ export function getStaticPaths() {
 }
 
 const { cat } = Astro.props;
-const filtered = cat === 'all' ? PRODUCTS : PRODUCTS.filter((p) => p.category === cat);
+// Cards, not raw products: several of our products are grades of one stone (a family),
+// and they share one photo. Showing a card per family with the types listed inside it
+// removes the repeated-photo grid while every type keeps its own page and URL.
+const cards = cat === 'all' ? FAMILIES : FAMILIES.filter((c) => c.cat === cat);
+const inCat = cat === 'all' ? PRODUCTS : PRODUCTS.filter((p) => p.category === cat);
+const filtered = inCat;
 const catName = cat === 'all' ? 'كل المنتجات' : CATEGORIES.find((c) => c.slug === cat)?.name;
 const intro = cat === 'all' ? null : CATEGORY_INTRO[cat];
+const typeCount = cards.reduce((n, c) => n + c.count, 0);
 ---
 
 <Base title={`${catName} — المنتجات`} description={`تصفح ${catName} من ${filtered.length} منتجاً في متجر ديارنا الحديثة للحجر الطبيعي.`}>
@@ -66,14 +74,20 @@ const intro = cat === 'all' ? null : CATEGORY_INTRO[cat];
       </div>
 
       {
-        filtered.length === 0 ? (
+        cards.length === 0 ? (
           <p style="color:var(--muted)">لا توجد منتجات في هذا التصنيف حالياً.</p>
         ) : (
-          <div class="grid">
-            {filtered.map((p) => (
-              <ProductCard product={p} />
-            ))}
-          </div>
+          <>
+            <p class="sec-sub" style="margin-bottom:22px">
+              {cards.length} حجراً · {typeCount} نوعاً — بعض الأحجار لها عدة أنواع، اضغط على «عرض الأنواع» لرؤية درجاتها اللونية.
+            </p>
+            <div class="grid">
+              {cards.map((c) => {
+                const p = PRODUCTS.find((x) => x.slug === c.slug);
+                return <FamilyCard product={p} family={c} />;
+              })}
+            </div>
+          </>
         )
       }
 
