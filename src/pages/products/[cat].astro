@@ -65,9 +65,20 @@ const sinkPhotos = gallery.reduce((n, g) => n + g.count, 0);
 
       <!-- تصفية حسب النوع -->
       <div class="tabs">
-        <a href={url("/products")} class={`tab ${cat === 'all' ? 'active' : ''}`}>الكل ({cat === 'all' ? STONES.length : PRODUCTS.length})</a>
+        <a href={url("/products")} class={`tab ${cat === 'all' ? 'active' : ''}`}>
+          الكل ({cat === 'all' ? cards.length : cat === 'sinks'
+            ? GALLERY.length + sinkProducts.length
+            : cards.length})
+        </a>
         {CATEGORIES.map((c) => {
-          const n = PRODUCTS.filter((p) => p.category === c.slug).length;
+          // Sinks are listed as 37 gallery vanities plus 6 spec entries, so counting
+          // PRODUCTS alone understated the tab as "المغاسل (6)" while the page showed 43
+          // cards. Every other category is one card per stone, which STONES reflects.
+          // count on the same basis as the page being rendered, otherwise the tab
+          // says 44 marble while 30 cards are listed
+          const n = c.slug === 'sinks'
+            ? GALLERY.length + sinkProducts.length
+            : STONES.filter((st) => st.cat === c.slug).length;
           return (
             <a href={url(`/products/${c.slug}`)} class={`tab ${cat === c.slug ? 'active' : ''}`}>
               {c.name} ({n})
