@@ -4,6 +4,9 @@ import Base from '../layouts/Base.astro';
 import { LINKS } from '../data/company.js';
 import PRODUCTS from '../data/products.js';
 import ProductCard from '../components/ProductCard.astro';
+import GALLERY from '../data/sink-gallery.js';
+
+const SINK_PHOTOS = GALLERY.reduce((n, e) => n + e.count, 0);
 ---
 
 <Base
@@ -86,7 +89,7 @@ import ProductCard from '../components/ProductCard.astro';
             عزلاً دورياً لأنه شديد المسامية.
           </li>
           <li>
-            <strong>حجر جيري</strong> — ناعم الملمس، محايد اللون،مناسب للحمامات الهادئة. من أرخص
+            <strong>حجر جيري</strong> — ناعم الملمس، محايد اللون، مناسب للحمامات الهادئة. من أرخص
             الخيارات وأقلها بريقاً.
           </li>
           <li>
@@ -121,13 +124,14 @@ import ProductCard from '../components/ProductCard.astro';
 
         <h2>العناية اليومية</h2>
         <p>
-          التنظيف بماء دافئ وصابون محايد يكفي. لا تستخدم الخل أو منظفات الليمون أو مزيل الجير —
-          فهي حمضية وتآكل سطح الرخام والترا فرتينوتآكل السطح الداخلي يعتم اللمعان. اشطف الحوض بعد
-          كل استخدام وامسحه بقطعة قطنية جافة. يُنصح بإعادة العزل كل ستة إلى اثني عشر شهراً
-          للخامات المسامية.
+          التنظيف بماء دافئ وصابون محايد يكفي. لا تستخدم الخل أو منظفات الليمون أو مزيل
+          الجير — فهي حمضية وتآكل سطح الرخام والترا فرتينو. اشطف الحوض بعد كل استخدام وامسحه
+          بقطعة قطنية جافة. يُنصح بإعادة العزل كل ستة إلى اثني عشر شهراً للخامات المسامية.
         </p>
         <p>
-          نصيحة عملية: أي تسرّب امسحه فوراً ولا تتركه يجفّ، فالبقايا تجفّ وتصبغ. الشقوق الصغيرة تُملأ بحجر مطابق قبل أن تكبر وتصبح?</p>
+                  نصيحة عملية: أي تسرّب امسحه فوراً ولا تتركه يجفّ، فالبقايا تجفّ وتصبغ. الشقوق
+                  الصغيرة تُملأ بحجر مطابق قبل أن تكبر وتزداد وضوحاً.
+                </p>
 
         <div class="post-cta">
           <h3>تبحث عن مغسلة مخصصة؟</h3>
@@ -142,6 +146,12 @@ import ProductCard from '../components/ProductCard.astro';
     <div class="wrap">
       <h2 class="sec-title">أنواع المغاسل المتوفرة</h2>
       <p class="sec-sub">اضغط على أي مغسلة لعرض تفاصيلها والخامة والمقاسات.</p>
+      <div style="margin:20px 0 30px">
+        <a href={url('/sinks-gallery')} class="btn">شاهد معرض صور المغاسل ←</a>
+        <p style="color:var(--muted);font-size:.88rem;margin:10px 0 0">
+          {SINK_PHOTOS} صورة حقيقية من مشاريعنا ومن معارض الموردين — تتصفّح صور كل نموذج على حدة.
+        </p>
+      </div>
       <div class="grid" style="margin-top:22px">
         {PRODUCTS.filter((p) => p.category === 'sinks').map((p) => <ProductCard product={p} />)}
       </div>

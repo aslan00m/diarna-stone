@@ -1,0 +1,153 @@
+---
+import { url } from '../../data/urls.js';
+import Base from '../../layouts/Base.astro';
+import GALLERY from '../../data/sink-gallery.js';
+import { LINKS, COMPANY } from '../../data/company.js';
+
+// Gallery of the owner's own sink photos. Each entry is one vanity; where several
+// angles of the same unit were sent they are grouped so the page shows a gallery of one
+// unit rather than several cards that look identical.
+export function getStaticPaths() {
+  return [{ params: { slug: 'all' }, props: { entry: null } },
+    ...GALLERY.map((e) => ({ params: { slug: e.slug }, props: { entry: e } }))];
+}
+
+const { entry } = Astro.props;
+const all = entry ? [entry] : GALLERY;
+
+const FILTERS = [
+  { key: 'all', label: 'الكل' },
+  { key: 'single', label: 'مفردة' },
+  { key: 'double', label: 'مزدوجة' },
+  { key: 'triple', label: 'ثلاثية' },
+  { key: 'quad', label: 'رباعية' },
+];
+---
+
+<Base
+  title={entry ? `${entry.name} — معرض المغاسل` : "معرض المغاسل الحجرية — صور حقيقية"}
+  description={entry
+    ? entry.description_ar
+    : `معرض صور حقيقية لمغاسل حجرية نفّذناها — ${GALLERY.length} نموذجاً بألوان وخامات مختلفة.`}
+>
+  <section>
+    <div class="wrap">
+      <div class="crumbs">
+        <a href={url("/")}>الرئيسية</a> / <a href={url("/sinks")}>المغاسل الحجرية</a> /
+        {entry ? entry.name : "المعرض"}
+      </div>
+
+      <h1 class="sec-title">{entry ? entry.name : "معرض المغاسل"}</h1>
+      <p class="sec-sub">
+        {
+          entry
+            ? entry.description_ar
+            : "صور حقيقية لمغاسل نفّذناها ونركّبها في الرياض. كل صورة توضّح اللون والعروق الفعلي — لأن لوحَي حجر من نفس المحجر لا يبدوان متطابقين."
+        }
+      </p>
+
+      {
+        !entry && (
+          <div class="tabs" style="margin-bottom:26px">
+            {FILTERS.map((f) => (
+              <a href={f.key === 'all' ? url('/sinks-gallery') : `#${f.key}`} class="tab">
+                {f.label}
+              </a>
+            ))}
+          </div>
+        )
+      }
+
+      <div class="gal">
+        {
+          all.map((e) => (
+            <a class="gcard" href={url(`/sinks-gallery/${e.slug}`)} id={e.type}>
+              <div class="gimg">
+                <img src={url(e.photos[0])} alt={`مغسلة ${e.name} — ${e.description_ar}`} loading="lazy" decoding="async" />
+                {e.count > 1 && <span class="gcount">{e.count} صور</span>}
+              </div>
+              <div class="gbody">
+                <h3>{e.name}</h3>
+                <div class="gmeta">{e.description_ar}</div>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+
+      {
+        entry && entry.count > 1 && (
+          <div class="shots">
+            <h2 class="sec-title">صور أخرى لنفس النموذج</h2>
+            <div class="gal small">
+              {entry.photos.map((p, i) => (
+                <figure class="shot">
+                  <img src={url(p)} alt={`${entry.name} — صورة ${i + 1}`} loading="lazy" decoding="async" />
+                </figure>
+              ))}
+            </div>
+          </div>
+        )
+      }
+
+      <div class="cta">
+        <h3>تريد نفس النموذج بمقاس مختلف؟</h3>
+        <p>كل قطعة تُنحت على حدة من لوح خام — لذلك يختلف شكل كل قطعة قليلاً عن أختها. أرسل لنا المقاس والخامة.</p>
+        <a href={`https://wa.me/${COMPANY.whatsapp}`} class="btn">اطلب عبر واتساب</a>
+        <a href={url('/contact')} class="btn ghost">نموذج طلب كامل</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .gal {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 18px;
+    margin-bottom: 40px;
+  }
+  .gal.small { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+  .gcard {
+    display: block;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background: var(--card, #fff);
+    transition: box-shadow .18s ease, transform .18s ease;
+  }
+  .gcard:hover {
+    box-shadow: 0 10px 26px rgba(15, 23, 42, .10);
+    transform: translateY(-2px);
+  }
+  .gimg { position: relative; }
+  .gimg img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+  }
+  .gcount {
+    position: absolute;
+    top: 10px;
+    inset-inline-start: 10px;
+    background: rgba(15, 23, 42, .78);
+    color: #fff;
+    border-radius: 999px;
+    padding: 3px 11px;
+    font-size: .74rem;
+  }
+  .gbody { padding: 13px 15px 16px; }
+  .gbody h3 { margin: 0 0 4px; font-size: 1rem; }
+  .gmeta { color: var(--muted); font-size: .82rem; line-height: 1.6; }
+  .shot {
+    margin: 0;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .shot img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+  .shots { margin-bottom: 40px; }
+</style>
