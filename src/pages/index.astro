@@ -6,6 +6,7 @@ import Base from '../layouts/Base.astro';
 import PhotoPlaceholder from '../components/PhotoPlaceholder.astro';
 import PRODUCTS from '../data/products.js';
 import { CATEGORIES, ORIGINS, LINKS, COMPANY } from '../data/company.js';
+import { categoryLabel, CATEGORY_COVER } from '../data/counts.js';
 import ProductCard from '../components/ProductCard.astro';
 import { PARTNERS } from '../data/partners.js';
 
@@ -104,22 +105,35 @@ const counts = {
   <section>
     <div class="wrap">
       <h2 class="sec-title" data-anim="up">تصفّح حسب النوع</h2>
-      <p class="sec-sub">أربع فئات رئيسية تغطي معظم احتياجات المشاريع السكنية والتجارية.</p>
+      <p class="sec-sub">ست فئات تغطي معظم احتياجات المشاريع السكنية والتجارية.</p>
       <div class="grid" data-stagger>
-        {CATEGORIES.map((c) => (
-          <a href={url(`/products/${c.slug}`)} class="card">
-            <div class="ph" style="aspect-ratio: 4/3">
-              <span class="ico">{c.icon}</span>
-              <span>{c.name}</span>
-            </div>
-            <div class="card-body">
-              <h3>{c.name}</h3>
-              <div class="meta">
-                {PRODUCTS.filter((p) => p.category === c.slug).length} منتج
+        {CATEGORIES.map((c) => {
+          const cover = CATEGORY_COVER[c.slug];
+          return (
+            <a href={url(`/products/${c.slug}`)} class="card">
+              <div style="aspect-ratio:4/3;overflow:hidden;background:#f8fafc">
+                {cover ? (
+                  <img
+                    src={url(cover)}
+                    alt={c.name}
+                    style="width:100%;height:100%;object-fit:cover;display:block"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                ) : (
+                  <div class="ph" style="width:100%;height:100%;display:grid;place-items:center">
+                    <span class="ico">{c.icon}</span>
+                    <span>{c.name}</span>
+                  </div>
+                )}
               </div>
-            </div>
-          </a>
-        ))}
+              <div class="card-body">
+                <h3>{c.name}</h3>
+                <div class="meta">{categoryLabel(c.slug)}</div>
+              </div>
+            </a>
+          );
+        })}
       </div>
     </div>
   </section>
