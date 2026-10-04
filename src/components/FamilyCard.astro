@@ -3,169 +3,40 @@ import { url } from '../data/urls.js';
 import { CATEGORIES, ORIGINS } from '../data/company.js';
 import ProductImage from './ProductImage.astro';
 
-// One card per stone family. When a family has more than one type the card becomes
-// interactive: the button reveals every type with ITS OWN colour, so the visitor sees
-// the full range without the same photo repeating across the grid.
+// One card per stone family: the stone's GENERAL name and ONE photo. A family is several
+// grades of the same stone sharing a single photograph (verified byte-identical), so
+// putting per-grade photos on the cards just repeats the same picture. The card links to
+// the family's page, which lists every grade with its own colour in a table.
 const { product, family } = Astro.props;
 
 const cat = CATEGORIES.find((c) => c.slug === product.category);
 const org = ORIGINS.find((o) => o.slug === product.origin);
-const types = family?.variants ?? [];
-const multi = types.length > 1;
-const rep = types.find((t) => t.isRep) ?? types[0];
-const colors = [...new Set(types.map((t) => t.color))];
+const n = family?.count ?? 1;
 ---
 
-{
-  multi ? (
-    <div class="card fam">
-      <ProductImage product={product} />
-      <div class="card-body">
-        <h3>{family.name}</h3>
-        {family.nameEn && <div class="en">{family.nameEn}</div>}
-        <div class="meta">
-          {cat?.name} · {org?.name} — {rep?.color ?? product.color}
-        </div>
-        <p class="fam-note">
-          {types.length} أنواع من هذا الحجر
-          {colors.length > 1 && <> — {colors.length} درجات لونية</>}
-        </p>
-        <button type="button" class="fam-toggle" aria-expanded="false">
-          عرض الأنواع ({types.length})
-        </button>
-        <div class="fam-list" hidden>
-          <ul>
-            {types.map((t) => (
-              <li>
-                <a href={url(`/products/${t.slug}`)}>
-                  <span class="t-name">{t.name}</span>
-                  <span class="t-color">{t.color}</span>
-                  {t.colorCode && t.colorCode !== "غير محدد" && (
-                    <span class="t-code">{t.colorCode}</span>
-                  )}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
+<a
+  href={family?.multi ? url(`/stones/${family.slug}`) : url(`/products/${product.slug}`)}
+  class="card"
+>
+  <ProductImage product={product} />
+  <div class="card-body">
+    <h3>{family?.name ?? product.name}</h3>
+    {product.nameEn && <div class="en">{product.nameEn}</div>}
+    <div class="meta">
+      {cat?.name} · {org?.name} — {product.color}
     </div>
-  ) : (
-    <a href={url(`/products/${product.slug}`)} class="card">
-      <ProductImage product={product} />
-      <div class="card-body">
-        <h3>{product.name}</h3>
-        <div class="en">{product.nameEn}</div>
-        <div class="meta">
-          {cat?.name} · {org?.name} — {product.color}
-        </div>
-      </div>
-    </a>
-  )
-}
+    {family?.multi && <div class="types">{n} أنواع</div>}
+  </div>
+</a>
 
 <style>
-  .fam {
-    display: flex;
-    flex-direction: column;
-    background: var(--card, #fff);
-    border: 1px solid var(--line, #e5e7eb);
-    border-radius: 14px;
-    overflow: hidden;
-    transition: box-shadow .18s ease, transform .18s ease;
-  }
-  .fam:hover {
-    box-shadow: 0 10px 28px rgba(15, 23, 42, .10);
-    transform: translateY(-2px);
-  }
-  .fam .card-body {
-    padding: 16px 18px 18px;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-  .fam h3 {
-    margin: 0;
-    font-size: 1.02rem;
-    line-height: 1.5;
-  }
-  .fam-note {
-    margin: 2px 0 0;
-    font-size: .82rem;
-    color: var(--muted, #64748b);
-  }
-  .fam-toggle {
+  .types {
+    display: inline-block;
     margin-top: 8px;
-    align-self: flex-start;
-    background: #1f2937;
-    color: #fff;
-    border: 0;
+    background: #f1f5f9;
+    color: #334155;
     border-radius: 999px;
-    padding: 7px 16px;
-    font-size: .84rem;
-    font-family: inherit;
-    cursor: pointer;
-  }
-  .fam-toggle:hover { background: #0f172a; }
-  .fam-list {
-    margin-top: 12px;
-    border-top: 1px solid var(--line, #e5e7eb);
-    padding-top: 10px;
-  }
-  .fam-list ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-  .fam-list a {
-    display: flex;
-    align-items: baseline;
-    gap: 8px;
-    padding: 7px 8px;
-    border-radius: 8px;
-    text-decoration: none;
-    color: inherit;
-  }
-  .fam-list a:hover { background: #f1f5f9; }
-  .t-name {
-    flex: 1;
-    font-size: .88rem;
-    line-height: 1.5;
-  }
-  .t-color {
-    font-size: .8rem;
-    color: var(--muted, #64748b);
-    white-space: nowrap;
-  }
-  .t-code {
-    font-size: .72rem;
-    color: #b45309;
-    background: #fef3c7;
-    border-radius: 6px;
-    padding: 1px 7px;
-    white-space: nowrap;
+    padding: 3px 11px;
+    font-size: .76rem;
   }
 </style>
-
-<script>
-  // One listener per toggle; the list is a plain hidden/visible toggle so it works
-  // without any framework and stays keyboard accessible via aria-expanded.
-  document.querySelectorAll('.fam-toggle').forEach((btn) => {
-    if (btn.dataset.bound) return;
-    btn.dataset.bound = '1';
-    btn.addEventListener('click', () => {
-      const card = btn.closest('.fam');
-      const list = card?.querySelector('.fam-list');
-      if (!list) return;
-      const open = btn.getAttribute('aria-expanded') === 'true';
-      btn.setAttribute('aria-expanded', String(!open));
-      list.hidden = open;
-      btn.textContent = open
-        ? `عرض الأنواع (${list.querySelectorAll('li').length})`
-        : 'إخفاء الأنواع';
-    });
-  });
-</script>

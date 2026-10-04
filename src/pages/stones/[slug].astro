@@ -1,0 +1,256 @@
+---
+import { url } from '../../data/urls.js';
+import Base from '../../layouts/Base.astro';
+import PRODUCTS from '../../data/products.js';
+import STONES from '../../data/families.js';
+import { CATEGORIES, ORIGINS, COMPANY } from '../../data/company.js';
+
+// One page per STONE (not per product). A stone is sold in several grades that share a
+// single photograph — hajar aldar publishes one photo per product and no gallery — so
+// this page shows the photo once in the header and lists every grade in a table with
+// that grade's own colour, colour code and specification. No image is repeated.
+export function getStaticPaths() {
+  return STONES.filter((s) => s.multi).map((s) => ({
+    params: { slug: s.slug },
+    props: { stone: s },
+  }));
+}
+
+const { stone } = Astro.props;
+const product = PRODUCTS.find((p) => p.slug === stone.slug);
+const cat = CATEGORIES.find((c) => c.slug === stone.cat);
+const org = ORIGINS.find((o) => o.slug === stone.origin);
+const grades = stone.grades;
+const colors = [...new Set(grades.map((g) => g.color))];
+
+// specs that at least one grade actually carries, so the table has no empty columns
+const SPEC_LABELS = {
+  size: "المقاس",
+  thickness: "السماكة",
+  finish: "التشطيب",
+  hardness: "الصلابة",
+  density: "الكثافة",
+  origin: "المصدر",
+  code: "الكود",
+};
+const specKeys = Object.keys(SPEC_LABELS).filter((k) =>
+  grades.some((g) => g.spec && g.spec[k])
+);
+const uses = grades.flatMap((g) => (Array.isArray(g.spec?.uses) ? g.spec.uses : []));
+const uniqueUses = [...new Set(uses)];
+
+const waMsg = encodeURIComponent(
+  `السلام عليكم، أرغب في الاستفسار عن ${stone.name} — ${grades.length} درجات متوفرة.`
+);
+const waLink = `https://wa.me/${COMPANY.whatsapp}?text=${waMsg}`;
+
+const related = STONES.filter(
+  (s) => s.slug !== stone.slug && s.cat === stone.cat
+).slice(0, 4);
+---
+
+<Base
+  title={`${stone.name} — ${grades.length} أنواع | ديارنا الحديثة`}
+  description={`${stone.name}: ${grades.length} درجات متوفرة بألوان ${colors.slice(0, 3).join("، ")}${colors.length > 3 ? " وغيرها" : ""}. اطلب عرض سعر من ديارنا الحديثة.`}
+>
+  <section>
+    <div class="wrap">
+      <div class="crumbs">
+        <a href={url("/")}>الرئيسية</a> / <a href={url("/products")}>الأحجار</a> /
+        <a href={url(`/products/${stone.cat}`)}>{cat?.name}</a> / {stone.name}
+      </div>
+
+      <div class="hero">
+        <div class="hero-img">
+          {
+            stone.image ? (
+              <img
+                src={url(stone.image)}
+                alt={`${stone.name} - ${stone.nameEn}`}
+                loading="eager"
+                decoding="async"
+              />
+            ) : (
+              <div class="ph">▧</div>
+            )
+          }
+        </div>
+        <div class="hero-txt">
+          <h1>{stone.name}</h1>
+          {stone.nameEn && <p class="en">{stone.nameEn}</p>}
+          <p class="meta">
+            {cat?.name}
+            {org?.name && <> · {org.name}</>}
+          </p>
+          <p class="lead">
+            يتوفر هذا الحجر بـ<strong>{grades.length}</strong> درجات.
+            {colors.length > 1
+              ? <> تختلف الدرجات في اللون والعروق، وجميعها من نفس الحجر.</>
+              : <> جميع الدرجات بنفس اللون.</>}
+          </p>
+          <div class="swatches">
+            {colors.map((c) => (
+              <span class="sw">{c}</span>
+            ))}
+          </div>
+          <a class="btn" href={waLink}>اطلب عرض سعر</a>
+        </div>
+      </div>
+
+      <h2 class="sec-title">درجات {stone.name}</h2>
+      <p class="sec-sub">
+        كل درجة لها مواصفاتها ولونها — اضغط على اسم الدرجة لصفحتها الكاملة.
+      </p>
+
+      <div class="table-wrap">
+        <table class="gt">
+          <thead>
+            <tr>
+              <th>الدرجة</th>
+              <th>اللون</th>
+              <th>رقم اللون</th>
+              {specKeys.filter((k) => k !== "origin" && k !== "code").map((k) => (
+                <th>{SPEC_LABELS[k]}</th>
+              ))}
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            {grades.map((g) => (
+              <tr>
+                <td>
+                  <a class="gname" href={url(`/products/${g.slug}`)}>{g.label}</a>
+                  {g.isMain && <span class="tag">الأساسي</span>}
+                </td>
+                <td>{g.color}</td>
+                <td class="cc">{g.colorCode}</td>
+                {specKeys.filter((k) => k !== "origin" && k !== "code").map((k) => (
+                  <td>{g.spec?.[k] ?? "—"}</td>
+                ))}
+                <td><a class="go" href={url(`/products/${g.slug}`)}>التفاصيل</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      {
+        uniqueUses.length > 0 && (
+          <div class="uses">
+            <h3>الاستخدامات</h3>
+            <ul>
+              {uniqueUses.map((u) => (
+                <li>{u}</li>
+              ))}
+            </ul>
+          </div>
+        )
+      }
+
+      <div class="cta">
+        <h3>تريد {stone.name} بمقاس أو تشطيب خاص؟</h3>
+        <p>
+          نفّذ القطع حسب مقاسك، ونرسل لك عينة قبل البدء. الأسعار حسب المقاس
+          والتشطيب وكمية الطلب.
+        </p>
+        <a href={waLink} class="btn">تواصل معنا</a>
+      </div>
+
+      {
+        related.length > 0 && (
+          <>
+            <h2 class="sec-title">أحجار مشابهة</h2>
+            <div class="grid">
+              {related.map((s) => (
+                <a class="card" href={url(`/stones/${s.slug}`)}>
+                  {s.image && (
+                    <div class="rc">
+                      <img src={url(s.image)} alt={s.name} loading="lazy" decoding="async" />
+                    </div>
+                  )}
+                  <div class="card-body">
+                    <h3>{s.name}</h3>
+                    <div class="meta">
+                      {s.count} {s.count > 1 ? "درجات" : "درجة"}
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </>
+        )
+      }
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: start;
+    margin-bottom: 44px;
+  }
+  .hero-img {
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  .hero-img img { width: 100%; height: auto; display: block; }
+  .hero-img .ph {
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    color: var(--muted);
+    background: #f8fafc;
+  }
+  .hero-txt h1 { margin: 0 0 6px; font-size: 1.9rem; line-height: 1.4; }
+  .hero-txt .en { color: var(--muted); font-size: .95rem; margin: 0 0 10px; }
+  .hero-txt .meta { color: var(--muted); font-size: .9rem; margin: 0 0 14px; }
+  .hero-txt .lead { font-size: 1.02rem; line-height: 1.9; margin: 0 0 16px; }
+  .swatches { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  .sw {
+    background: #f1f5f9;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 5px 14px;
+    font-size: .82rem;
+    color: #334155;
+  }
+  .table-wrap { overflow-x: auto; margin-bottom: 34px; }
+  .gt { width: 100%; border-collapse: collapse; font-size: .9rem; }
+  .gt th, .gt td {
+    border: 1px solid var(--line);
+    padding: 11px 12px;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .gt thead th { background: #f8fafc; font-weight: 600; white-space: nowrap; }
+  .gt tbody tr:nth-child(even) { background: #fcfdfe; }
+  .gname { font-weight: 600; text-decoration: none; color: inherit; }
+  .gname:hover { text-decoration: underline; }
+  .cc { color: #b45309; font-size: .85rem; white-space: nowrap; }
+  .tag {
+    display: inline-block;
+    margin-inline-start: 8px;
+    background: #eef2ff;
+    color: #4338ca;
+    border-radius: 6px;
+    padding: 1px 8px;
+    font-size: .7rem;
+  }
+  .go { font-size: .82rem; white-space: nowrap; }
+  .uses { margin-bottom: 30px; }
+  .uses ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    padding-inline-start: 20px;
+  }
+  .rc img { width: 100%; height: 150px; object-fit: cover; display: block; }
+  @media (max-width: 760px) {
+    .hero { grid-template-columns: 1fr; }
+  }
+</style>
