@@ -7,6 +7,7 @@ import PhotoPlaceholder from '../components/PhotoPlaceholder.astro';
 import PRODUCTS from '../data/products.js';
 import { CATEGORIES, ORIGINS, LINKS, COMPANY } from '../data/company.js';
 import ProductCard from '../components/ProductCard.astro';
+import { PARTNERS } from '../data/partners.js';
 
 const usedOrigins = ORIGINS.filter((o) => PRODUCTS.some((p) => p.origin === o.slug));
 const originCounts = Object.fromEntries(
@@ -264,15 +265,13 @@ const counts = {
         دقة في القطع، ووضوح في التعامل، واحترام الموعد.
       </p>
 
-      <div class="partners-grid">
-        {
-          Array.from({ length: 6 }, () => (
-            <div class="partner">
-              <PhotoPlaceholder label="جاري البحث عن صورة" ratio="1 / 1" icon="◈" />
-              <span>اسم الشريك</span>
-            </div>
-          ))
-        }
+      <div class="partners-grid" data-stagger>
+        {PARTNERS.map((p) => (
+          <div class="partner">
+            <img src={url(p.image)} alt={p.name} loading="lazy" decoding="async" />
+            <span>{p.name}</span>
+          </div>
+        ))}
       </div>
     </div>
   </section>

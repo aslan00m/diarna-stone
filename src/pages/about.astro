@@ -1,6 +1,7 @@
 ---
 import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
+import { PARTNERS } from '../data/partners.js';
 import { COMPANY, LINKS } from '../data/company.js';
 import PhotoPlaceholder from '../components/PhotoPlaceholder.astro';
 import ABOUT_CARDS from '../data/about-cards.js';
@@ -102,15 +103,13 @@ import ABOUT_CARDS from '../data/about-cards.js';
         نعمل مع شبكات من الموردين والمصنّعين والمقاولين، ونتشارك معهم المعايير نفسها:
         دقة في القطع، ووضوح في التعامل، واحترام الموعد.
       </p>
-      <div class="partners-grid">
-        {
-          Array.from({ length: 6 }, () => (
-            <div class="partner">
-              <PhotoPlaceholder label="جاري البحث عن صورة" ratio="1 / 1" icon="◈" />
-              <span>اسم الشريك</span>
-            </div>
-          ))
-        }
+      <div class="partners-grid" data-stagger>
+        {PARTNERS.map((p) => (
+          <div class="partner">
+            <img src={url(p.image)} alt={p.name} loading="lazy" decoding="async" />
+            <span>{p.name}</span>
+          </div>
+        ))}
       </div>
 
       <div class="cta">

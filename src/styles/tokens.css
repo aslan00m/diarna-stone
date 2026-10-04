@@ -450,3 +450,61 @@ main > section:first-of-type .sec-sub {
 
 /* فاصل ناعم قبل شبكات المنتجات الطويلة */
 main .grid { gap: var(--s-5); }
+
+/* ==========================================================================
+   شعارات الشركاء — ظهور هادئ واحترافي
+   ========================================================================== */
+
+.partners-grid { gap: var(--s-4); margin-top: var(--s-6); }
+
+.partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--s-3);
+  padding: var(--s-4) var(--s-3);
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  background: transparent;
+  transition: border-color var(--d-base) var(--e-out),
+              background var(--d-base) var(--e-out),
+              transform var(--d-base) var(--e-out);
+}
+
+.partner img {
+  width: 100%;
+  max-width: 150px;
+  height: 52px;
+  object-fit: contain;
+  /* الشعار داكن افتراضياً على خلفية بيضاء */
+  mix-blend-mode: multiply;
+  transition: transform var(--d-base) var(--e-out);
+}
+
+.partner span {
+  display: block;
+  margin-top: 0;
+  font-size: var(--fs-xs);
+  line-height: 1.5;
+  text-align: center;
+  color: var(--muted);
+  transition: color var(--d-base) var(--e-out);
+}
+
+.partner:hover {
+  border-color: var(--line);
+  background: var(--bg-soft);
+  transform: translateY(-3px);
+}
+.partner:hover img { transform: scale(1.04); }
+.partner:hover span { color: var(--text-2); }
+
+@media (max-width: 900px) {
+  .partners-grid { grid-template-columns: repeat(3, 1fr) !important; gap: var(--s-3) !important; }
+  .partner img { height: 42px; }
+}
+@media (max-width: 560px) {
+  .partners-grid { grid-template-columns: repeat(2, 1fr) !important; }
+  .partner img { height: 38px; }
+  .partner span { font-size: .72rem; }
+}
