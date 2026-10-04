@@ -6957,5 +6957,20 @@ export default [
     "isMain": true
    }
   ]
- }
+ },
+ {
+ "slug": "indian-galaxy-black",
+ "name": "جلاكسي هندي أسود",
+ "nameEn": "Indian Black Galaxy Granite",
+ "cat": "granite",
+ "origin": "indian",
+ "image": "/images/products-hj/hj-natural-indian-galaxy-black.jpg",
+ "color": "أسود ببقع ذهبية وفضية",
+ "count": 1,
+ "multi": false,
+ "grades": [
+  
+ ],
+ "note": "hajar aldar product 282772 — رخام جلاكسي الهندي. They call it marble; the photograph shows Black Galaxy granite (black with gold and silver flecks), so it is catalogued as granite."
+}
 ];
