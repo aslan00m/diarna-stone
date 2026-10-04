@@ -3,6 +3,8 @@ import { url } from '../../data/urls.js';
 import Base from '../../layouts/Base.astro';
 import PRODUCTS from '../../data/products.js';
 import STONES from '../../data/families.js';
+import GALLERY from '../../data/sink-gallery.js';
+import ProductCard from '../../components/ProductCard.astro';
 import { CATEGORIES, ORIGINS } from '../../data/company.js';
 import FamilyCard from '../../components/FamilyCard.astro';
 import { CATEGORY_INTRO } from '../../data/category-intro.js';
@@ -15,22 +17,38 @@ export function getStaticPaths() {
 }
 
 const { cat } = Astro.props;
-// One card per STONE, not per product: grades of the same stone share one photograph
-// (verified byte-identical), so per-product cards just repeat the same picture. Each
-// multi-grade card opens that stone's page, which tabulates every grade and its colour.
+// Sinks are not one product per item: the catalogue carries six specification entries
+// while the photo gallery holds 37 vanities of our own work. A visitor opening
+// /products/sinks expects to see everything we sell, so both are listed here — the
+// gallery cards first because a photo answers "what does it look like" before a spec
+// table does. One card per stone everywhere else; sinks are the exception.
+const gallery = cat === 'sinks' || cat === 'all' ? GALLERY : [];
 const cards = cat === 'all' ? STONES : STONES.filter((c) => c.cat === cat);
 const catName = cat === 'all' ? 'كل الأحجار' : CATEGORIES.find((c) => c.slug === cat)?.name;
 const intro = cat === 'all' ? null : CATEGORY_INTRO[cat];
 const gradeCount = cards.reduce((n, c) => n + c.count, 0);
 const multiCount = cards.filter((c) => c.multi).length;
+const sinkProducts = PRODUCTS.filter((p) => p.category === 'sinks');
+const sinkPhotos = gallery.reduce((n, g) => n + g.count, 0);
 ---
 
-<Base title={`${catName} — ${cards.length} حجر`} description={`تصفح ${cards.length} حجراً (${gradeCount} درجة) في متجر ديارنا الحديثة للحجر الطبيعي.`}>
+<Base
+  title={cat === 'sinks'
+    ? `المغاسل الحجرية — ${gallery.length} نموذجاً | ديارنا`
+    : `${catName} — ${cards.length} حجر`}
+  description={cat === 'sinks'
+    ? `${gallery.length} مغسلة حجرية نفّذناها — ${sinkPhotos} صورة حقيقية، مع المواصفات والمقاسات والخامات.`
+    : `تصفح ${cards.length} حجراً (${gradeCount} درجة) في متجر ديارنا الحديثة للحجر الطبيعي.`}
+>
   <section>
     <div class="wrap">
       <div class="crumbs"><a href={url("/")}>الرئيسية</a> / <a href={url("/products")}>المنتجات</a> / {catName}</div>
-      <h1 class="sec-title">{catName}</h1>
-      <p class="sec-sub">{cards.length} حجراً · {gradeCount} درجة — اختر الحجر المناسب لمشروعك.</p>
+      <h1 class="sec-title">{cat === 'sinks' ? 'المغاسل الحجرية' : catName}</h1>
+      <p class="sec-sub">
+        {cat === 'sinks'
+          ? `${gallery.length} نموذجاً · ${sinkPhotos} صورة حقيقية · ${sinkProducts.length} نموذج مواصفات — اختر ما يناسب حمامك.`
+          : `${cards.length} حجراً · ${gradeCount} درجة — اختر الحجر المناسب لمشروعك.`}
+      </p>
 
       {intro && (
         <div class="cat-intro">
@@ -59,7 +77,44 @@ const multiCount = cards.filter((c) => c.multi).length;
       </div>
 
       {
-        cards.length === 0 ? (
+        cat === 'sinks' ? (
+          <>
+            <h2 class="sec-title">نماذج من أعمالنا</h2>
+            <p class="sec-sub" style="margin-bottom:22px">
+              {gallery.length} مغسلة نفّذناها — اضغط على أي نموذج لعرض كل صوره.
+            </p>
+            <div class="grid" style="margin-bottom:46px">
+              {gallery.map((g) => (
+                <a class="card" href={url(`/sinks-gallery/${g.slug}`)}>
+                  <div style="aspect-ratio:4/3;overflow:hidden">
+                    <img
+                      src={url(g.photos[0])}
+                      alt={`مغسلة حجرية ${g.name} — ${g.description_ar}`}
+                      style="width:100%;height:100%;object-fit:cover;display:block"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h3>{g.name}</h3>
+                    <div class="meta">{g.description_ar}</div>
+                    {g.count > 1 && (
+                      <span class="badge">{g.count} صور</span>
+                    )}
+                  </div>
+                </a>
+              ))}
+            </div>
+
+            <h2 class="sec-title">مواصفات المغاسل</h2>
+            <p class="sec-sub" style="margin-bottom:22px">
+              المقاسات والخامات والتشطيبات — لكل نوع مواصفاته.
+            </p>
+            <div class="grid">
+              {sinkProducts.map((p) => <ProductCard product={p} />)}
+            </div>
+          </>
+        ) : cards.length === 0 ? (
           <p style="color:var(--muted)">لا توجد منتجات في هذا التصنيف حالياً.</p>
         ) : (
           <>
@@ -84,3 +139,15 @@ const multiCount = cards.filter((c) => c.multi).length;
     </div>
   </section>
 </Base>
+
+<style>
+  .badge {
+    display: inline-block;
+    margin-top: 8px;
+    background: #f1f5f9;
+    color: #334155;
+    border-radius: 999px;
+    padding: 3px 11px;
+    font-size: .76rem;
+  }
+</style>
