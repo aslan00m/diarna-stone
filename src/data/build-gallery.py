@@ -47,6 +47,7 @@ def main():
             "basin": rep.get("basin", ""),
             "setting": rep.get("setting", ""),
             "photos": [x["out"] for x in members],
+            "altEn": members[0].get("alt_en", ""),
             "count": len(members),
             "description_ar": " · ".join(filter(None, [
                 STONE.get(rep.get("stone_type", ""), ""),

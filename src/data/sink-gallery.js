@@ -10,10 +10,10 @@ export default [
   "basin": "vessel",
   "setting": "showroom",
   "photos": [
-   "/images/sinks/أبيض-ذهبي-double-vessel-00220bcf.jpg",
-   "/images/sinks/أبيض-ذهبي-double-vessel-5eaf9403.jpg",
-   "/images/sinks/أبيض-ذهبي-double-vessel-da18dae4.jpg",
-   "/images/sinks/أبيض-ذهبي-double-vessel-0a0bbc0b.jpg"
+   "/images/sinks/white-gold-ceramic-double-vessel-00220bcf.jpg",
+   "/images/sinks/white-gold-ceramic-double-vessel-5eaf9403.jpg",
+   "/images/sinks/white-gold-ceramic-double-vessel-da18dae4.jpg",
+   "/images/sinks/white-gold-ceramic-double-vessel-0a0bbc0b.jpg"
   ],
   "count": 4,
   "description_ar": "سيراميك · مزدوجة · علوية Vessel · من معرض العرض"
@@ -26,8 +26,8 @@ export default [
   "basin": "undermount",
   "setting": "installed",
   "photos": [
-   "/images/sinks/أبيض-بعروق-رمادية-double-undermount-c698117f.jpg",
-   "/images/sinks/أبيض-بعروق-رمادية-double-undermount-8ec4f5e9.jpg"
+   "/images/sinks/white-grey-veined-marble-double-undermount-c698117f.jpg",
+   "/images/sinks/white-grey-veined-marble-double-undermount-8ec4f5e9.jpg"
   ],
   "count": 2,
   "description_ar": "رخام · مزدوجة · مدمجة Undermount · مركّبة في حمام"
@@ -40,8 +40,8 @@ export default [
   "basin": "undermount",
   "setting": "under_construction",
   "photos": [
-   "/images/sinks/أبيض-بعروق-single-undermount-e889a09a.jpg",
-   "/images/sinks/أبيض-بعروق-single-undermount-c3931eab.jpg"
+   "/images/sinks/white-veined-marble-single-undermount-e889a09a.jpg",
+   "/images/sinks/white-veined-marble-single-undermount-c3931eab.jpg"
   ],
   "count": 2,
   "description_ar": "رخام · مفردة · مدمجة Undermount · قيد التركيب"
@@ -54,8 +54,8 @@ export default [
   "basin": "undermount",
   "setting": "installed",
   "photos": [
-   "/images/sinks/أبيض-double-undermount-1be4de7f.jpg",
-   "/images/sinks/أبيض-double-undermount-73cb8d10.jpg"
+   "/images/sinks/white-ceramic-double-undermount-1be4de7f.jpg",
+   "/images/sinks/white-marble-double-undermount-73cb8d10.jpg"
   ],
   "count": 2,
   "description_ar": "سيراميك · مزدوجة · مدمجة Undermount · مركّبة في حمام"
@@ -68,8 +68,8 @@ export default [
   "basin": "vessel",
   "setting": "installed",
   "photos": [
-   "/images/sinks/أبيض-double-vessel-fb79f065.jpg",
-   "/images/sinks/أبيض-double-vessel-7aa5750a.jpg"
+   "/images/sinks/white-ceramic-double-vessel-fb79f065.jpg",
+   "/images/sinks/white-marble-double-vessel-7aa5750a.jpg"
   ],
   "count": 2,
   "description_ar": "سيراميك · مزدوجة · علوية Vessel · مركّبة في حمام"
@@ -82,8 +82,8 @@ export default [
   "basin": "integrated",
   "setting": "installed",
   "photos": [
-   "/images/sinks/أبيض-single-integrated-918cb451.jpg",
-   "/images/sinks/أبيض-single-integrated-7d69080c.jpg"
+   "/images/sinks/white-marble-single-integrated-918cb451.jpg",
+   "/images/sinks/white-marble-single-integrated-7d69080c.jpg"
   ],
   "count": 2,
   "description_ar": "رخام · مفردة · مدمجة بالكامل · مركّبة في حمام"
@@ -96,8 +96,8 @@ export default [
   "basin": "vessel",
   "setting": "showroom",
   "photos": [
-   "/images/sinks/أبيض-single-vessel-265be6c6.jpg",
-   "/images/sinks/أبيض-single-vessel-0452702a.jpg"
+   "/images/sinks/white-marble-single-vessel-265be6c6.jpg",
+   "/images/sinks/white-marble-single-vessel-0452702a.jpg"
   ],
   "count": 2,
   "description_ar": "رخام · مفردة · علوية Vessel · من معرض العرض"
@@ -110,8 +110,8 @@ export default [
   "basin": "integrated",
   "setting": "showroom",
   "photos": [
-   "/images/sinks/بيج-single-integrated-13df9a27.jpg",
-   "/images/sinks/بيج-single-integrated-f71f408d.jpg"
+   "/images/sinks/beige-marble-single-integrated-13df9a27.jpg",
+   "/images/sinks/beige-marble-single-integrated-f71f408d.jpg"
   ],
   "count": 2,
   "description_ar": "رخام · مفردة · مدمجة بالكامل · من معرض العرض"
@@ -124,7 +124,7 @@ export default [
   "basin": "vessel",
   "setting": "installed",
   "photos": [
-   "/images/sinks/أبيض-أسود-double-vessel-ce696a30.jpg"
+   "/images/sinks/white-black-marble-double-vessel-ce696a30.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مزدوجة · علوية Vessel · مركّبة في حمام"
@@ -137,7 +137,7 @@ export default [
   "basin": "vessel",
   "setting": "showroom",
   "photos": [
-   "/images/sinks/أبيض-ذهبي-single-vessel-f92e7eea.jpg"
+   "/images/sinks/white-gold-ceramic-single-vessel-f92e7eea.jpg"
   ],
   "count": 1,
   "description_ar": "سيراميك · مفردة · علوية Vessel · من معرض العرض"
@@ -150,7 +150,7 @@ export default [
   "basin": "undermount",
   "setting": "installed",
   "photos": [
-   "/images/sinks/أبيض-بعروق-رمادية-كالاكاتا-single-undermount-ec46877c.jpg"
+   "/images/sinks/calacatta-white-marble-single-undermount-ec46877c.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · مدمجة Undermount · مركّبة في حمام"
@@ -163,7 +163,7 @@ export default [
   "basin": "undermount",
   "setting": "installed",
   "photos": [
-   "/images/sinks/أبيض-بعروق-رمادية-ذهبي-single-undermount-f6e84425.jpg"
+   "/images/sinks/white-grey-veined-gold-marble-single-undermount-f6e84425.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · مدمجة Undermount · مركّبة في حمام"
@@ -176,7 +176,7 @@ export default [
   "basin": "undermount",
   "setting": "under_construction",
   "photos": [
-   "/images/sinks/أبيض-بعروق-رمادية-quad-undermount-34032e54.jpg"
+   "/images/sinks/white-grey-veined-marble-quad-undermount-34032e54.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · رباعية · مدمجة Undermount · قيد التركيب"
@@ -189,7 +189,7 @@ export default [
   "basin": "vessel",
   "setting": "showroom",
   "photos": [
-   "/images/sinks/أبيض-بعروق-double-vessel-c4359dd0.jpg"
+   "/images/sinks/white-veined-marble-double-vessel-c4359dd0.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مزدوجة · علوية Vessel · من معرض العرض"
@@ -202,7 +202,7 @@ export default [
   "basin": "integrated",
   "setting": "installed",
   "photos": [
-   "/images/sinks/أبيض-بعروق-single-integrated-680a515b.jpg"
+   "/images/sinks/white-veined-marble-single-integrated-680a515b.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · مدمجة بالكامل · مركّبة في حمام"
@@ -215,7 +215,7 @@ export default [
   "basin": "vessel",
   "setting": "installed",
   "photos": [
-   "/images/sinks/أبيض-بيج-single-vessel-8671e4ca.jpg"
+   "/images/sinks/white-beige-marble-single-vessel-8671e4ca.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · مركّبة في حمام"
@@ -228,7 +228,7 @@ export default [
   "basin": "vessel",
   "setting": "showroom",
   "photos": [
-   "/images/sinks/أبيض-ذهبي-single-vessel-1c8c2cc6.jpg"
+   "/images/sinks/white-gold-ceramic-single-vessel-1c8c2cc6.jpg"
   ],
   "count": 1,
   "description_ar": "سيراميك · مفردة · علوية Vessel · من معرض العرض"
@@ -241,7 +241,7 @@ export default [
   "basin": "undermount",
   "setting": "installed",
   "photos": [
-   "/images/sinks/أبيض-رمادي-single-undermount-849ffd76.jpg"
+   "/images/sinks/white-grey-marble-single-undermount-849ffd76.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · مدمجة Undermount · مركّبة في حمام"
@@ -254,7 +254,7 @@ export default [
   "basin": "undermount",
   "setting": "under_construction",
   "photos": [
-   "/images/sinks/أبيض-single-undermount-3e5aa96a.jpg"
+   "/images/sinks/white-ceramic-single-undermount-3e5aa96a.jpg"
   ],
   "count": 1,
   "description_ar": "سيراميك · مفردة · مدمجة Undermount · قيد التركيب"
@@ -267,7 +267,7 @@ export default [
   "basin": "undermount",
   "setting": "workshop",
   "photos": [
-   "/images/sinks/أسود-بعروق-ذهبية-single-undermount-46d23bad.jpg"
+   "/images/sinks/black-gold-veined-marble-single-undermount-46d23bad.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · مدمجة Undermount · من الورشة"
@@ -280,7 +280,7 @@ export default [
   "basin": "vessel",
   "setting": "showroom",
   "photos": [
-   "/images/sinks/أسود-بني-single-vessel-578c1482.jpg"
+   "/images/sinks/black-brown-marble-single-vessel-578c1482.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · من معرض العرض"
@@ -293,7 +293,7 @@ export default [
   "basin": "undermount",
   "setting": "installed",
   "photos": [
-   "/images/sinks/أسود-double-undermount-f8e2271b.jpg"
+   "/images/sinks/black-marble-double-undermount-f8e2271b.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مزدوجة · مدمجة Undermount · مركّبة في حمام"
@@ -306,7 +306,7 @@ export default [
   "basin": "vessel",
   "setting": "installed",
   "photos": [
-   "/images/sinks/بني-بعروق-ذهبي-single-vessel-b18ce908.jpg"
+   "/images/sinks/brown-veined-gold-marble-single-vessel-b18ce908.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · مركّبة في حمام"
@@ -319,7 +319,7 @@ export default [
   "basin": "vessel",
   "setting": "showroom",
   "photos": [
-   "/images/sinks/بني-غامق-بعروق-بيضاء-كريمي-triple-vessel-4218f887.jpg"
+   "/images/sinks/dark-brown-cream-veined-marble-triple-vessel-4218f887.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · ثلاثية · علوية Vessel · من معرض العرض"
@@ -332,7 +332,7 @@ export default [
   "basin": "vessel",
   "setting": "showroom",
   "photos": [
-   "/images/sinks/بني-غامق-بعروق-single-vessel-75511015.jpg"
+   "/images/sinks/dark-brown-veined-marble-single-vessel-75511015.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · من معرض العرض"
@@ -345,7 +345,7 @@ export default [
   "basin": "integrated",
   "setting": "under_construction",
   "photos": [
-   "/images/sinks/بيج-فاتح-quad-integrated-1e8b7cf8.jpg"
+   "/images/sinks/light-beige-marble-quad-integrated-1e8b7cf8.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · رباعية · مدمجة بالكامل · قيد التركيب"
@@ -358,7 +358,7 @@ export default [
   "basin": "vessel",
   "setting": "installed",
   "photos": [
-   "/images/sinks/بيج-فاتح-single-vessel-6b79c655.jpg"
+   "/images/sinks/light-beige-marble-single-vessel-6b79c655.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · مركّبة في حمام"
@@ -371,7 +371,7 @@ export default [
   "basin": "vessel",
   "setting": "installed under renovation",
   "photos": [
-   "/images/sinks/بيج-أسود-double-vessel-d5b5421a.jpg"
+   "/images/sinks/beige-black-marble-double-vessel-d5b5421a.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مزدوجة · علوية Vessel"
@@ -384,7 +384,7 @@ export default [
   "basin": "integrated",
   "setting": "installed",
   "photos": [
-   "/images/sinks/بيج-ذهبي-double-integrated-b90365d0.jpg"
+   "/images/sinks/beige-gold-marble-double-integrated-b90365d0.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مزدوجة · مدمجة بالكامل · مركّبة في حمام"
@@ -397,7 +397,7 @@ export default [
   "basin": "undermount",
   "setting": "installed",
   "photos": [
-   "/images/sinks/خشب-أبيض-double-undermount-98256075.jpg"
+   "/images/sinks/wood-white-marble-double-undermount-98256075.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مزدوجة · مدمجة Undermount · مركّبة في حمام"
@@ -410,7 +410,7 @@ export default [
   "basin": "vessel",
   "setting": "showroom",
   "photos": [
-   "/images/sinks/ذهبي-أسود-single-vessel-3518f100.jpg"
+   "/images/sinks/gold-black-marble-single-vessel-3518f100.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · من معرض العرض"
@@ -423,7 +423,7 @@ export default [
   "basin": "vessel",
   "setting": "showroom",
   "photos": [
-   "/images/sinks/رمادي-أبيض-single-vessel-df2c3868.jpg"
+   "/images/sinks/grey-white-marble-single-vessel-df2c3868.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · من معرض العرض"
@@ -436,7 +436,7 @@ export default [
   "basin": "undermount",
   "setting": "installed",
   "photos": [
-   "/images/sinks/رمادي-أبيض-triple-undermount-f3d5f422.jpg"
+   "/images/sinks/grey-white-marble-triple-undermount-f3d5f422.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · ثلاثية · مدمجة Undermount · مركّبة في حمام"
@@ -449,7 +449,7 @@ export default [
   "basin": "vessel",
   "setting": "showroom",
   "photos": [
-   "/images/sinks/رمادي-بعروق-single-vessel-425ff3ec.jpg"
+   "/images/sinks/grey-veined-marble-single-vessel-425ff3ec.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · من معرض العرض"
@@ -462,7 +462,7 @@ export default [
   "basin": "undermount",
   "setting": "installed",
   "photos": [
-   "/images/sinks/رمادي-غامق-single-undermount-bafa68b7.jpg"
+   "/images/sinks/dark-grey-marble-single-undermount-bafa68b7.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · مدمجة Undermount · مركّبة في حمام"
@@ -475,7 +475,7 @@ export default [
   "basin": "integrated",
   "setting": "installed",
   "photos": [
-   "/images/sinks/رمادي-فاتح-single-integrated-53d3eed8.jpg"
+   "/images/sinks/light-grey-marble-single-integrated-53d3eed8.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · مدمجة بالكامل · مركّبة في حمام"
@@ -488,7 +488,7 @@ export default [
   "basin": "undermount",
   "setting": "installed",
   "photos": [
-   "/images/sinks/رمادي-double-undermount-9296af3f.jpg"
+   "/images/sinks/grey-marble-double-undermount-9296af3f.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مزدوجة · مدمجة Undermount · مركّبة في حمام"
@@ -501,7 +501,7 @@ export default [
   "basin": "vessel",
   "setting": "installed",
   "photos": [
-   "/images/sinks/رمادي-single-vessel-930889e0.jpg"
+   "/images/sinks/grey-marble-single-vessel-930889e0.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · مركّبة في حمام"
@@ -514,7 +514,7 @@ export default [
   "basin": "vessel",
   "setting": "installed",
   "photos": [
-   "/images/sinks/كريمي-ذهبي-single-vessel-094a9577.jpg"
+   "/images/sinks/cream-gold-marble-single-vessel-094a9577.jpg"
   ],
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · مركّبة في حمام"

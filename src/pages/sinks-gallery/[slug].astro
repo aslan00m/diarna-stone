@@ -63,7 +63,7 @@ const FILTERS = [
           all.map((e) => (
             <a class="gcard" href={url(`/sinks-gallery/${e.slug}`)} id={e.type}>
               <div class="gimg">
-                <img src={url(e.photos[0])} alt={`مغسلة ${e.name} — ${e.description_ar}`} loading="lazy" decoding="async" />
+                <img src={url(e.photos[0])} alt={`مغسلة حجرية ${e.name} — ${e.description_ar}${e.altEn ? ` / ${e.altEn}` : ""}`} loading="lazy" decoding="async" />
                 {e.count > 1 && <span class="gcount">{e.count} صور</span>}
               </div>
               <div class="gbody">
