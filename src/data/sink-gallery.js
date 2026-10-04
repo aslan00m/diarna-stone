@@ -15,6 +15,7 @@ export default [
    "/images/sinks/white-gold-ceramic-double-vessel-da18dae4.jpg",
    "/images/sinks/white-gold-ceramic-double-vessel-0a0bbc0b.jpg"
   ],
+  "altEn": "white gold ceramic double vessel sink vanity",
   "count": 4,
   "description_ar": "سيراميك · مزدوجة · علوية Vessel · من معرض العرض"
  },
@@ -29,25 +30,12 @@ export default [
    "/images/sinks/white-grey-veined-marble-double-undermount-c698117f.jpg",
    "/images/sinks/white-grey-veined-marble-double-undermount-8ec4f5e9.jpg"
   ],
+  "altEn": "white grey veined marble double undermount sink vanity",
   "count": 2,
   "description_ar": "رخام · مزدوجة · مدمجة Undermount · مركّبة في حمام"
  },
  {
   "slug": "s03",
-  "name": "أبيض بعروق",
-  "stoneType": "marble",
-  "type": "single",
-  "basin": "undermount",
-  "setting": "under_construction",
-  "photos": [
-   "/images/sinks/white-veined-marble-single-undermount-e889a09a.jpg",
-   "/images/sinks/white-veined-marble-single-undermount-c3931eab.jpg"
-  ],
-  "count": 2,
-  "description_ar": "رخام · مفردة · مدمجة Undermount · قيد التركيب"
- },
- {
-  "slug": "s04",
   "name": "أبيض",
   "stoneType": "ceramic",
   "type": "double",
@@ -57,11 +45,12 @@ export default [
    "/images/sinks/white-ceramic-double-undermount-1be4de7f.jpg",
    "/images/sinks/white-marble-double-undermount-73cb8d10.jpg"
   ],
+  "altEn": "white ceramic double undermount sink vanity",
   "count": 2,
   "description_ar": "سيراميك · مزدوجة · مدمجة Undermount · مركّبة في حمام"
  },
  {
-  "slug": "s05",
+  "slug": "s04",
   "name": "أبيض",
   "stoneType": "ceramic",
   "type": "double",
@@ -71,11 +60,12 @@ export default [
    "/images/sinks/white-ceramic-double-vessel-fb79f065.jpg",
    "/images/sinks/white-marble-double-vessel-7aa5750a.jpg"
   ],
+  "altEn": "white ceramic double vessel sink vanity",
   "count": 2,
   "description_ar": "سيراميك · مزدوجة · علوية Vessel · مركّبة في حمام"
  },
  {
-  "slug": "s06",
+  "slug": "s05",
   "name": "أبيض",
   "stoneType": "marble",
   "type": "single",
@@ -85,11 +75,12 @@ export default [
    "/images/sinks/white-marble-single-integrated-918cb451.jpg",
    "/images/sinks/white-marble-single-integrated-7d69080c.jpg"
   ],
+  "altEn": "white marble single integrated vanity",
   "count": 2,
   "description_ar": "رخام · مفردة · مدمجة بالكامل · مركّبة في حمام"
  },
  {
-  "slug": "s07",
+  "slug": "s06",
   "name": "أبيض",
   "stoneType": "marble",
   "type": "single",
@@ -99,11 +90,12 @@ export default [
    "/images/sinks/white-marble-single-vessel-265be6c6.jpg",
    "/images/sinks/white-marble-single-vessel-0452702a.jpg"
   ],
+  "altEn": "white marble single vessel sink vanity",
   "count": 2,
   "description_ar": "رخام · مفردة · علوية Vessel · من معرض العرض"
  },
  {
-  "slug": "s08",
+  "slug": "s07",
   "name": "بيج",
   "stoneType": "marble",
   "type": "single",
@@ -113,11 +105,12 @@ export default [
    "/images/sinks/beige-marble-single-integrated-13df9a27.jpg",
    "/images/sinks/beige-marble-single-integrated-f71f408d.jpg"
   ],
+  "altEn": "beige marble single integrated vanity",
   "count": 2,
   "description_ar": "رخام · مفردة · مدمجة بالكامل · من معرض العرض"
  },
  {
-  "slug": "s09",
+  "slug": "s08",
   "name": "أبيض + أسود",
   "stoneType": "marble",
   "type": "double",
@@ -126,11 +119,12 @@ export default [
   "photos": [
    "/images/sinks/white-black-marble-double-vessel-ce696a30.jpg"
   ],
+  "altEn": "white black marble double vessel sink vanity",
   "count": 1,
   "description_ar": "رخام · مزدوجة · علوية Vessel · مركّبة في حمام"
  },
  {
-  "slug": "s10",
+  "slug": "s09",
   "name": "أبيض + ذهبي",
   "stoneType": "ceramic",
   "type": "single",
@@ -139,11 +133,12 @@ export default [
   "photos": [
    "/images/sinks/white-gold-ceramic-single-vessel-f92e7eea.jpg"
   ],
+  "altEn": "white gold ceramic single vessel sink vanity",
   "count": 1,
   "description_ar": "سيراميك · مفردة · علوية Vessel · من معرض العرض"
  },
  {
-  "slug": "s11",
+  "slug": "s10",
   "name": "أبيض بعروق رمادية (كالاكاتا)",
   "stoneType": "marble",
   "type": "single",
@@ -152,11 +147,12 @@ export default [
   "photos": [
    "/images/sinks/calacatta-white-marble-single-undermount-ec46877c.jpg"
   ],
+  "altEn": "calacatta white marble single undermount sink vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · مدمجة Undermount · مركّبة في حمام"
  },
  {
-  "slug": "s12",
+  "slug": "s11",
   "name": "أبيض بعروق رمادية + ذهبي",
   "stoneType": "marble",
   "type": "single",
@@ -165,11 +161,12 @@ export default [
   "photos": [
    "/images/sinks/white-grey-veined-gold-marble-single-undermount-f6e84425.jpg"
   ],
+  "altEn": "white grey veined gold marble single undermount sink vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · مدمجة Undermount · مركّبة في حمام"
  },
  {
-  "slug": "s13",
+  "slug": "s12",
   "name": "أبيض بعروق رمادية",
   "stoneType": "marble",
   "type": "quad",
@@ -178,11 +175,12 @@ export default [
   "photos": [
    "/images/sinks/white-grey-veined-marble-quad-undermount-34032e54.jpg"
   ],
+  "altEn": "white grey veined marble quad undermount sink vanity",
   "count": 1,
   "description_ar": "رخام · رباعية · مدمجة Undermount · قيد التركيب"
  },
  {
-  "slug": "s14",
+  "slug": "s13",
   "name": "أبيض بعروق",
   "stoneType": "marble",
   "type": "double",
@@ -191,11 +189,12 @@ export default [
   "photos": [
    "/images/sinks/white-veined-marble-double-vessel-c4359dd0.jpg"
   ],
+  "altEn": "white veined marble double vessel sink vanity",
   "count": 1,
   "description_ar": "رخام · مزدوجة · علوية Vessel · من معرض العرض"
  },
  {
-  "slug": "s15",
+  "slug": "s14",
   "name": "أبيض بعروق",
   "stoneType": "marble",
   "type": "single",
@@ -204,8 +203,23 @@ export default [
   "photos": [
    "/images/sinks/white-veined-marble-single-integrated-680a515b.jpg"
   ],
+  "altEn": "white veined marble single integrated vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · مدمجة بالكامل · مركّبة في حمام"
+ },
+ {
+  "slug": "s15",
+  "name": "أبيض بعروق",
+  "stoneType": "marble",
+  "type": "single",
+  "basin": "undermount",
+  "setting": "under_construction",
+  "photos": [
+   "/images/sinks/white-veined-marble-single-undermount-e889a09a.jpg"
+  ],
+  "altEn": "white veined marble single undermount sink vanity",
+  "count": 1,
+  "description_ar": "رخام · مفردة · مدمجة Undermount · قيد التركيب"
  },
  {
   "slug": "s16",
@@ -217,6 +231,7 @@ export default [
   "photos": [
    "/images/sinks/white-beige-marble-single-vessel-8671e4ca.jpg"
   ],
+  "altEn": "white beige marble single vessel sink vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · مركّبة في حمام"
  },
@@ -230,6 +245,7 @@ export default [
   "photos": [
    "/images/sinks/white-gold-ceramic-single-vessel-1c8c2cc6.jpg"
   ],
+  "altEn": "white gold ceramic single vessel sink vanity",
   "count": 1,
   "description_ar": "سيراميك · مفردة · علوية Vessel · من معرض العرض"
  },
@@ -243,6 +259,7 @@ export default [
   "photos": [
    "/images/sinks/white-grey-marble-single-undermount-849ffd76.jpg"
   ],
+  "altEn": "white grey marble single undermount sink vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · مدمجة Undermount · مركّبة في حمام"
  },
@@ -256,6 +273,7 @@ export default [
   "photos": [
    "/images/sinks/white-ceramic-single-undermount-3e5aa96a.jpg"
   ],
+  "altEn": "white ceramic single undermount sink vanity",
   "count": 1,
   "description_ar": "سيراميك · مفردة · مدمجة Undermount · قيد التركيب"
  },
@@ -269,6 +287,7 @@ export default [
   "photos": [
    "/images/sinks/black-gold-veined-marble-single-undermount-46d23bad.jpg"
   ],
+  "altEn": "black gold veined marble single undermount sink vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · مدمجة Undermount · من الورشة"
  },
@@ -282,6 +301,7 @@ export default [
   "photos": [
    "/images/sinks/black-brown-marble-single-vessel-578c1482.jpg"
   ],
+  "altEn": "black brown marble single vessel sink vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · من معرض العرض"
  },
@@ -295,6 +315,7 @@ export default [
   "photos": [
    "/images/sinks/black-marble-double-undermount-f8e2271b.jpg"
   ],
+  "altEn": "black marble double undermount sink vanity",
   "count": 1,
   "description_ar": "رخام · مزدوجة · مدمجة Undermount · مركّبة في حمام"
  },
@@ -308,6 +329,7 @@ export default [
   "photos": [
    "/images/sinks/brown-veined-gold-marble-single-vessel-b18ce908.jpg"
   ],
+  "altEn": "brown veined gold marble single vessel sink vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · مركّبة في حمام"
  },
@@ -321,6 +343,7 @@ export default [
   "photos": [
    "/images/sinks/dark-brown-cream-veined-marble-triple-vessel-4218f887.jpg"
   ],
+  "altEn": "dark brown cream veined marble triple vessel sink vanity",
   "count": 1,
   "description_ar": "رخام · ثلاثية · علوية Vessel · من معرض العرض"
  },
@@ -334,24 +357,12 @@ export default [
   "photos": [
    "/images/sinks/dark-brown-veined-marble-single-vessel-75511015.jpg"
   ],
+  "altEn": "dark brown veined marble single vessel sink vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · من معرض العرض"
  },
  {
   "slug": "s26",
-  "name": "بيج فاتح",
-  "stoneType": "marble",
-  "type": "quad",
-  "basin": "integrated",
-  "setting": "under_construction",
-  "photos": [
-   "/images/sinks/light-beige-marble-quad-integrated-1e8b7cf8.jpg"
-  ],
-  "count": 1,
-  "description_ar": "رخام · رباعية · مدمجة بالكامل · قيد التركيب"
- },
- {
-  "slug": "s27",
   "name": "بيج فاتح",
   "stoneType": "marble",
   "type": "single",
@@ -360,11 +371,12 @@ export default [
   "photos": [
    "/images/sinks/light-beige-marble-single-vessel-6b79c655.jpg"
   ],
+  "altEn": "light beige marble single vessel sink vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · مركّبة في حمام"
  },
  {
-  "slug": "s28",
+  "slug": "s27",
   "name": "بيج/أسود",
   "stoneType": "marble",
   "type": "double",
@@ -373,11 +385,12 @@ export default [
   "photos": [
    "/images/sinks/beige-black-marble-double-vessel-d5b5421a.jpg"
   ],
+  "altEn": "beige black marble double vessel sink vanity",
   "count": 1,
   "description_ar": "رخام · مزدوجة · علوية Vessel"
  },
  {
-  "slug": "s29",
+  "slug": "s28",
   "name": "بيج/ذهبي",
   "stoneType": "marble",
   "type": "double",
@@ -386,11 +399,12 @@ export default [
   "photos": [
    "/images/sinks/beige-gold-marble-double-integrated-b90365d0.jpg"
   ],
+  "altEn": "beige gold marble double integrated vanity",
   "count": 1,
   "description_ar": "رخام · مزدوجة · مدمجة بالكامل · مركّبة في حمام"
  },
  {
-  "slug": "s30",
+  "slug": "s29",
   "name": "خشب + أبيض",
   "stoneType": "marble",
   "type": "double",
@@ -399,11 +413,12 @@ export default [
   "photos": [
    "/images/sinks/wood-white-marble-double-undermount-98256075.jpg"
   ],
+  "altEn": "wood white marble double undermount sink vanity",
   "count": 1,
   "description_ar": "رخام · مزدوجة · مدمجة Undermount · مركّبة في حمام"
  },
  {
-  "slug": "s31",
+  "slug": "s30",
   "name": "ذهبي + أسود",
   "stoneType": "marble",
   "type": "single",
@@ -412,11 +427,12 @@ export default [
   "photos": [
    "/images/sinks/gold-black-marble-single-vessel-3518f100.jpg"
   ],
+  "altEn": "gold black marble single vessel sink vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · من معرض العرض"
  },
  {
-  "slug": "s32",
+  "slug": "s31",
   "name": "رمادي + أبيض",
   "stoneType": "marble",
   "type": "single",
@@ -425,24 +441,12 @@ export default [
   "photos": [
    "/images/sinks/grey-white-marble-single-vessel-df2c3868.jpg"
   ],
+  "altEn": "grey white marble single vessel sink vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · من معرض العرض"
  },
  {
-  "slug": "s33",
-  "name": "رمادي + أبيض",
-  "stoneType": "marble",
-  "type": "triple",
-  "basin": "undermount",
-  "setting": "installed",
-  "photos": [
-   "/images/sinks/grey-white-marble-triple-undermount-f3d5f422.jpg"
-  ],
-  "count": 1,
-  "description_ar": "رخام · ثلاثية · مدمجة Undermount · مركّبة في حمام"
- },
- {
-  "slug": "s34",
+  "slug": "s32",
   "name": "رمادي بعروق",
   "stoneType": "marble",
   "type": "single",
@@ -451,11 +455,12 @@ export default [
   "photos": [
    "/images/sinks/grey-veined-marble-single-vessel-425ff3ec.jpg"
   ],
+  "altEn": "grey veined marble single vessel sink vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · من معرض العرض"
  },
  {
-  "slug": "s35",
+  "slug": "s33",
   "name": "رمادي غامق",
   "stoneType": "marble",
   "type": "single",
@@ -464,11 +469,12 @@ export default [
   "photos": [
    "/images/sinks/dark-grey-marble-single-undermount-bafa68b7.jpg"
   ],
+  "altEn": "dark grey marble single undermount sink vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · مدمجة Undermount · مركّبة في حمام"
  },
  {
-  "slug": "s36",
+  "slug": "s34",
   "name": "رمادي فاتح",
   "stoneType": "marble",
   "type": "single",
@@ -477,11 +483,12 @@ export default [
   "photos": [
    "/images/sinks/light-grey-marble-single-integrated-53d3eed8.jpg"
   ],
+  "altEn": "light grey marble single integrated vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · مدمجة بالكامل · مركّبة في حمام"
  },
  {
-  "slug": "s37",
+  "slug": "s35",
   "name": "رمادي",
   "stoneType": "marble",
   "type": "double",
@@ -490,11 +497,12 @@ export default [
   "photos": [
    "/images/sinks/grey-marble-double-undermount-9296af3f.jpg"
   ],
+  "altEn": "grey marble double undermount sink vanity",
   "count": 1,
   "description_ar": "رخام · مزدوجة · مدمجة Undermount · مركّبة في حمام"
  },
  {
-  "slug": "s38",
+  "slug": "s36",
   "name": "رمادي",
   "stoneType": "marble",
   "type": "single",
@@ -503,11 +511,12 @@ export default [
   "photos": [
    "/images/sinks/grey-marble-single-vessel-930889e0.jpg"
   ],
+  "altEn": "grey marble single vessel sink vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · مركّبة في حمام"
  },
  {
-  "slug": "s39",
+  "slug": "s37",
   "name": "كريمي/ذهبي",
   "stoneType": "marble",
   "type": "single",
@@ -516,6 +525,7 @@ export default [
   "photos": [
    "/images/sinks/cream-gold-marble-single-vessel-094a9577.jpg"
   ],
+  "altEn": "cream gold marble single vessel sink vanity",
   "count": 1,
   "description_ar": "رخام · مفردة · علوية Vessel · مركّبة في حمام"
  }
