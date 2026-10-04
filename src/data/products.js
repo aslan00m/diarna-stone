@@ -4040,4 +4040,6 @@ const PRODUCTS = [
   }
 ];
 
-export default PRODUCTS;
+import CERAMIC from './products-ceramic.js';
+
+export default [...PRODUCTS, ...CERAMIC];

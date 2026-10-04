@@ -25,6 +25,7 @@ export const CATEGORIES = [
   { slug: 'travertine', name: 'ترافنتينو', icon: '▤' },
   { slug: 'limestone', name: 'حجر جيري', icon: '▨' },
   { slug: 'sinks', name: 'المغاسل', icon: '◐' },
+  { slug: 'ceramic', name: 'سيراميك عماني', icon: '◫' },
 ];
 
 // التصنيف حسب المصدر
@@ -37,6 +38,8 @@ export const ORIGINS = [
   { slug: 'egyptian', name: 'مصري', flag: '🇪🇬' },
   { slug: 'brazilian', name: 'برازيلي', flag: '🇧🇷' },
   { slug: 'chinese', name: 'صيني', flag: '🇨🇳' },
+  { slug: 'saudi', name: 'سعودي', flag: '🇸🇦' },
+  { slug: 'jordanian', name: 'أردني', flag: '🇯🇴' },
   { slug: 'greek', name: 'يوناني', flag: '🇬🇷' },
   { slug: 'portuguese', name: 'برتغالي', flag: '🇵🇹' },
 ];
