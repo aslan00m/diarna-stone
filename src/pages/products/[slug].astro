@@ -82,6 +82,8 @@ const waLink = `https://wa.me/${COMPANY.whatsapp}?text=${waMsg}`;
               <tr><td>المادة</td><td>{cat?.name}</td></tr>
               <tr><td>اللون</td><td>{product.color}</td></tr>
               <tr><td>رقم اللون</td><td>{product.colorCode}</td></tr>
+              {product.refColor && <tr><td>اللون (المرجع)</td><td>{product.refColor}</td></tr>}
+              {product.refCode && <tr><td>رقم اللون (المرجع)</td><td>{product.refCode}</td></tr>}
               <tr><td>السماكات المتوفرة</td><td>{product.thickness.join('، ')}</td></tr>
               <tr><td>التشطيب</td><td>{product.finish.join('، ')}</td></tr>
               <tr><td>الصلابة (موهس)</td><td>{product.hardness}</td></tr>
