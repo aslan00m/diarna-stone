@@ -49,11 +49,6 @@ img { max-width: 100%; display: block; }
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('/images/scenes/interior.jpg');
-  background-size: cover;
-  background-position: center 40%;
-  opacity: .10;
-  filter: grayscale(.35);
   pointer-events: none;
 }
 .hero .wrap { position: relative; }

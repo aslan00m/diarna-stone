@@ -4,7 +4,6 @@
 
 | الملف | الوصف | الترخيص | المصدر |
 |------|-------|---------|--------|
-| `images/scenes/interior.jpg` | درج رخام داخلي فاخر | CC0 1.0 | [Wikimedia Commons — Marble Staircase Hotel Russell](https://commons.wikimedia.org/wiki/File:Marble_Staircase_Hotel_Russell.jpg) |
 
 ## البيانات الوصفية الكاملة
 
