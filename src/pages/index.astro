@@ -25,8 +25,22 @@ const MEDINA_TOP_SLUGS = [
   'calacatta-marble',            // رخام إيطالي (كرارا/كالاكاتا)
   'statuario-marble',            // رخام إيطالي (ستاتواريو)
 ];
+const MEDINA_TOP_NAMES = {
+  'crema-marfil-classic': 'حجر الرياض الطبيعي (كريما مارفيل)',
+  'bianco-carrara-marble': 'حجر الرياض الأبيض (بيانكو كرارة)',
+  'roman-travertine-classic': 'رخام ترافرتين روماني',
+  'emperador-light-marble': 'الرخام العماني (إمبرادور لايت)',
+  'basalt-dark': 'بازلت المدينة',
+  'mugla-bianco-classic': 'رخام موغلا التركي',
+  'calacatta-marble': 'رخام كالاكاتا الإيطالي',
+  'statuario-marble': 'رخام ستاتواريو الإيطالي',
+};
 const medinaTop = MEDINA_TOP_SLUGS
-  .map((slug) => PRODUCTS.find((p) => p.slug === slug))
+  .map((slug) => {
+    const p = PRODUCTS.find((x) => x.slug === slug);
+    if (p) p.name = MEDINA_TOP_NAMES[slug];
+    return p;
+  })
   .filter(Boolean);
 
 const featured = PRODUCTS.slice(0, 8);
