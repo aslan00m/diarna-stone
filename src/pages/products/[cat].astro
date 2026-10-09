@@ -17,6 +17,22 @@ export function getStaticPaths() {
 }
 
 const { cat } = Astro.props;
+
+// الأحجار الأكثر طلباً في المدينة المنورة — تظهر أولاً في صفحة "كل المنتجات"
+const MEDINA_TOP_SLUGS = [
+  'crema-marfil-classic',       // حجر الرياض الطبيعي (الأكثر استخداماً)
+  'bianco-carrara-marble',       // حجر الرياض الأبيض
+  'roman-travertine-classic',    // رخام ترافرتين
+  'emperador-light-marble',      // الرخام العماني
+  'basalt-dark',                 // بازلت المدينة
+  'mugla-bianco-classic',        // رخام تركي (موغلا)
+  'calacatta-marble',            // رخام إيطالي (كرارا/كالاكاتا)
+  'statuario-marble',            // رخام إيطالي (ستاتواريو)
+];
+const medinaTop = MEDINA_TOP_SLUGS
+  .map((slug) => PRODUCTS.find((p) => p.slug === slug))
+  .filter(Boolean);
+
 // Sinks are not one product per item: the catalogue carries six specification entries
 // while the photo gallery holds 37 vanities of our own work. A visitor opening
 // /products/sinks expects to see everything we sell, so both are listed here — the
@@ -86,6 +102,18 @@ const sinkPhotos = gallery.reduce((n, g) => n + g.count, 0);
           );
         })}
       </div>
+
+      <!-- الأكثر طلباً في المدينة المنورة — يظهر فقط في صفحة "كل المنتجات" -->
+      {cat === 'all' && medinaTop.length > 0 && (
+        <>
+          <h2 class="sec-title" style="margin-top:40px">الأكثر طلباً في المدينة المنورة</h2>
+          <p class="sec-sub">الأحجار الطبيعية الأكثر بيعًا واستخدامًا في واجهات المباني بالمدينة المنورة.</p>
+          <div class="grid" style="margin-bottom:40px">
+            {medinaTop.map((p) => <ProductCard product={p} />)}
+          </div>
+          <h2 class="sec-title">كل المنتجات</h2>
+        </>
+      )}
 
       {
         cat === 'sinks' ? (

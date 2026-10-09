@@ -14,6 +14,21 @@ const usedOrigins = ORIGINS.filter((o) => PRODUCTS.some((p) => p.origin === o.sl
 const originCounts = Object.fromEntries(
   usedOrigins.map((o) => [o.slug, PRODUCTS.filter((p) => p.origin === o.slug).length])
 );
+// الأحجار الأكثر طلباً في المدينة المنورة — تظهر أولاً في الصفحة الرئيسية
+const MEDINA_TOP_SLUGS = [
+  'crema-marfil-classic',       // حجر الرياض الطبيعي (الأكثر استخداماً)
+  'bianco-carrara-marble',       // حجر الرياض الأبيض
+  'roman-travertine-classic',    // رخام ترافرتين
+  'emperador-light-marble',      // الرخام العماني
+  'basalt-dark',                 // بازلت المدينة
+  'mugla-bianco-classic',        // رخام تركي (موغلا)
+  'calacatta-marble',            // رخام إيطالي (كرارا/كالاكاتا)
+  'statuario-marble',            // رخام إيطالي (ستاتواريو)
+];
+const medinaTop = MEDINA_TOP_SLUGS
+  .map((slug) => PRODUCTS.find((p) => p.slug === slug))
+  .filter(Boolean);
+
 const featured = PRODUCTS.slice(0, 8);
 const newest = [...PRODUCTS].slice(-6).reverse();
 const luxury = PRODUCTS.filter((p) => ['bianco-carrara-marble', 'buccino-italian-marble', 'cipollino-italian-marble', 'roman-travertine'].includes(p.slug));
@@ -151,6 +166,20 @@ const counts = {
             <span class="tab-count">{originCounts[o.slug]}</span>
           </a>
         ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- الأكثر طلباً في المدينة المنورة -->
+  <section>
+    <div class="wrap">
+      <h2 class="sec-title" data-anim="up">الأكثر طلباً في المدينة المنورة</h2>
+      <p class="sec-sub">الأحجار الطبيعية الأكثر بيعًا واستخدامًا في واجهات المباني بالمدينة المنورة.</p>
+      <div class="grid" data-stagger>
+        {medinaTop.map((p) => <ProductCard product={p} />)}
+      </div>
+      <div style="text-align:center;margin-top:30px">
+        <a href={url('/products')} class="btn">شاهد كل المنتجات</a>
       </div>
     </div>
   </section>

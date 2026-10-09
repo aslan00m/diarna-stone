@@ -4,6 +4,21 @@ import Base from '../../layouts/Base.astro';
 import PRODUCTS from '../../data/products.js';
 import { CATEGORIES } from '../../data/company.js';
 import ProductCard from '../../components/ProductCard.astro';
+
+// الأحجار الأكثر طلباً في المدينة المنورة — تظهر أولاً في صفحة المنتجات
+const MEDINA_TOP_SLUGS = [
+  'crema-marfil-classic',       // حجر الرياض الطبيعي (الأكثر استخداماً)
+  'bianco-carrara-marble',       // حجر الرياض الأبيض
+  'roman-travertine-classic',    // رخام ترافرتين
+  'emperador-light-marble',      // الرخام العماني
+  'basalt-dark',                 // بازلت المدينة
+  'mugla-bianco-classic',        // رخام تركي (موغلا)
+  'calacatta-marble',            // رخام إيطالي (كرارا/كالاكاتا)
+  'statuario-marble',            // رخام إيطالي (ستاتواريو)
+];
+const medinaTop = MEDINA_TOP_SLUGS
+  .map((slug) => PRODUCTS.find((p) => p.slug === slug))
+  .filter(Boolean);
 ---
 
 <Base title="المنتجات" description="كتالوج كامل للرخام والجرانيت والترافرتينو.">
@@ -18,6 +33,24 @@ import ProductCard from '../../components/ProductCard.astro';
           <a href={url(`/products/${c.slug}`)} class="tab">{c.name}</a>
         ))}
       </div>
+    </div>
+  </section>
+
+  <!-- الأكثر طلباً في المدينة المنورة -->
+  <section>
+    <div class="wrap">
+      <h2 class="sec-title" data-anim="up">الأكثر طلباً في المدينة المنورة</h2>
+      <p class="sec-sub">الأحجار الطبيعية الأكثر بيعًا واستخدامًا في واجهات المباني بالمدينة المنورة.</p>
+      <div class="grid" data-stagger>
+        {medinaTop.map((p) => <ProductCard product={p} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- كل المنتجات -->
+  <section>
+    <div class="wrap">
+      <h2 class="sec-title">كل المنتجات</h2>
       <div class="grid">
         {PRODUCTS.map((p) => <ProductCard product={p} />)}
       </div>
