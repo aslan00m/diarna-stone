@@ -5,18 +5,15 @@ import PRODUCTS from '../../data/products.js';
 import { CATEGORIES } from '../../data/company.js';
 import ProductCard from '../../components/ProductCard.astro';
 
-// الأحجار الأكثر طلباً في المدينة المنورة — تظهر أولاً في صفحة المنتجات
-const MEDINA_TOP_SLUGS = [
-  'crema-marfil-classic',       // حجر الرياض الطبيعي (الأكثر استخداماً)
-  'bianco-carrara-marble',       // حجر الرياض الأبيض
-  'roman-travertine-classic',    // رخام ترافرتين
-  'emperador-light-marble',      // الرخام العماني
-  'basalt-dark',                 // بازلت المدينة
-  'mugla-bianco-classic',        // رخام تركي (موغلا)
-  'calacatta-marble',            // رخام إيطالي (كرارا/كالاكاتا)
-  'statuario-marble',            // رخام إيطالي (ستاتواريو)
-];
-const MEDINA_TOP_NAMES = {
+// ترتيب الصفحة يتحكم به علم `featured` على المنتج نفسه، لا موضعه في المصفوفة.
+// بهذا يظهر المنتج المُضاف لاحقاً في المقدمة — وهو المطلوب.
+//
+//   featured: 2 = إضافة المالك الجديدة: مقدمة الصفحة + الأكثر طلباً + المميزة + الرئيسية
+//   featured: 1 = اختيارات راسخة (الأكثر طلباً في المدينة)
+//   غائب أو 0  = موضعه الطبيعي في الكتالوج
+
+// أسماء العرض المخصّصة لبعض الأحجار (ما يسمّيه العميل في السوق)
+const DISPLAY_NAMES = {
   'crema-marfil-classic': 'حجر الرياض الطبيعي (كريما مارفيل)',
   'bianco-carrara-marble': 'حجر الرياض الأبيض (بيانكو كرارة)',
   'roman-travertine-classic': 'رخام ترافرتين روماني',
@@ -24,15 +21,14 @@ const MEDINA_TOP_NAMES = {
   'basalt-dark': 'بازلت المدينة',
   'mugla-bianco-classic': 'رخام موغلا التركي',
   'calacatta-marble': 'رخام كالاكاتا الإيطالي',
-  'statuario-marble': 'رخام ستاتواريو إيطالي',
+  'statuario-marble': 'رخام ستاتواريو الإيطالي',
 };
-const medinaTop = MEDINA_TOP_SLUGS
-  .map((slug) => {
-    const p = PRODUCTS.find((x) => x.slug === slug);
-    if (p) p.name = MEDINA_TOP_NAMES[slug];
-    return p;
-  })
-  .filter(Boolean);
+const withDisplayName = (p) =>
+  DISPLAY_NAMES[p.slug] ? { ...p, name: DISPLAY_NAMES[p.slug] } : p;
+
+const newArrivals = PRODUCTS.filter((p) => p.featured >= 2).map(withDisplayName);
+const medinaTop = PRODUCTS.filter((p) => p.featured >= 1).map(withDisplayName);
+
 import { graph, breadcrumb } from '../../data/schema.js';
 
 const schemaJson = graph([
@@ -62,6 +58,19 @@ const schemaJson = graph([
       </div>
     </div>
   </section>
+
+  {newArrivals.length > 0 && (
+    <!-- إضافات جديدة -->
+    <section>
+      <div class="wrap">
+        <h2 class="sec-title" data-anim="up">إضافات جديدة</h2>
+        <p class="sec-sub">أحدث الأحجار التي أضافها المعرض.</p>
+        <div class="grid" data-stagger>
+          {newArrivals.map((p) => <ProductCard product={p} />)}
+        </div>
+      </div>
+    </section>
+  )}
 
   <!-- الأكثر طلباً في المدينة المنورة -->
   <section>

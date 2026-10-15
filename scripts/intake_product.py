@@ -231,6 +231,10 @@ def build_record(name_ar: str, name_en: str, cat: str, org: str, color: str,
         "category": cat,
         "origin": org,
         "image": image,
+        # featured: 2 puts this product at the top of /products, in "الأكثر
+        # طلباً", in "منتجات مميزة" and on the homepage. Every product the
+        # owner sends arrives pinned; demote it to 1 or 0 later if wanted.
+        "featured": 2,
         "code": "غير محدد",
         "color": color or "غير محدد",
         "colorCode": "غير محدد",
