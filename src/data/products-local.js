@@ -4,19 +4,20 @@
 //
 // كل منتج هنا يُضاف بعلم featured: 2 تلقائياً، فيظهر:
 //   أعلى قسم "إضافات جديدة" في صفحة المنتجات
-//   أول قائمة "الأكثر طلباً في المدينة المنورة"
-//   أول قائمة "منتجات مميزة" على الصفحة الرئيسية
-// لإنزاله من المقدمة: غيّر featured إلى 1 (راسخ) أو 0 (عادي).
+//   أول قائمة "الأكثر طلباً في المدينة المنورة" على الصفحة الرئيسية
+// لإنزله من المقدمة: غيّر featured إلى 1 (راسخ) أو 0 (عادي).
+//
+// قسم "المنتجات المميزة" لا يعرض هذا الملف — يعرض أحجاراً أخرى من الكتالوج.
 
 const PRODUCTS_LOCAL = [
   {
     id: 'L100',
-    slug: 'riyadh-white-honed-limestone',
-    name: 'Riyadh White Honed Limestone - حجر الرياض الأبيض المطفي',
-    nameEn: 'Riyadh White Honed Limestone',
+    slug: 'riyadh-white-stone',
+    name: 'Riyadh White Stone - حجر الرياض الأبيض',
+    nameEn: 'Riyadh White Stone',
     category: 'limestone',
     origin: 'saudi',
-    image: '/images/products-local/riyadh-white-honed-limestone.jpg',
+    image: '/images/products-local/riyadh-white-stone.jpg',
     featured: 2,
     code: 'غير محدد',
     color: 'أبيض كريمي دافئ',
@@ -26,6 +27,7 @@ const PRODUCTS_LOCAL = [
       '30 مم',
     ],
     finish: [
+      'مصقول (Polished)',
       'مطفي (Honed)',
     ],
     hardness: '3 – 4',
@@ -36,7 +38,7 @@ const PRODUCTS_LOCAL = [
       'جدران داخلية',
       'ديكورات',
     ],
-    excerpt: 'حجر الرياض الأبيض المطفي: حجر جيري طبيعي سعودي بسطح مطفي غير لامع، أبيض كريمي دافئ مع رقطات وطفح خفيف يميّز الحجر الطبيعي. يُستخدم في الواجهات والأرضيات والديكورات الداخلية.',
+    excerpt: 'حجر الرياض الأبيض: حجر جيري طبيعي سعودي، أبيض كريمي دافئ مع رقطات وطفح خفيف يميّز الحجر الطبيعي. يُستخدم في الواجهات والأرضيات والديكورات الداخلية.',
     features: [
       'لون أبيض كريمي دافئ من سعودي',
       'متوفر بمقاسات حسب الطلب',
@@ -48,47 +50,7 @@ const PRODUCTS_LOCAL = [
       'استخدم منظفات غير حمضية على الأسطح المصقولة.',
       'احسب فواصل تمدد في المساحات الكبيرة.',
     ],
-},
-  {
-    id: 'L101',
-    slug: 'riyadh-white-polished-stone',
-    name: 'Riyadh White Polished Stone - حجر الرياض الأبيض المصقول',
-    nameEn: 'Riyadh White Polished Stone',
-    category: 'limestone',
-    origin: 'saudi',
-    image: '/images/products-local/riyadh-white-polished-stone.jpg',
-    featured: 2,
-    code: 'غير محدد',
-    color: 'أبيض بعروق رمادية ناعمة',
-    colorCode: 'غير محدد',
-    thickness: [
-      '20 مم',
-      '30 مم',
-    ],
-    finish: [
-      'مصقول (Polished)',
-    ],
-    hardness: '3 – 4',
-    density: '2.3 – 2.7 جم/سم³',
-    uses: [
-      'واجهات',
-      'أرضيات',
-      'جدران',
-      'ديكور',
-    ],
-    excerpt: 'حجر الرياض الأبيض المصقول: حجر جيري من أصل سعودي بلون أبيض بعروق رمادية ناعمة. اطلب عيّنة لتأكيد اللون والعروق قبل التثبيت.',
-    features: [
-      'لون أبيض بعروق رمادية ناعمة من سعودي',
-      'متوفر بمقاسات حسب الطلب',
-      'قص دقيق على مقاس المشروع',
-      'توريد وتركيب بيد فريقنا',
-    ],
-    tips: [
-      'اطلب عيّنة فعلية قبل الاعتماد على اللون النهائي.',
-      'استخدم منظفات غير حمضية على الأسطح المصقولة.',
-      'احسب فواصل تمدد في المساحات الكبيرة.',
-    ],
-},
+  },
 ];
 
 export default PRODUCTS_LOCAL;

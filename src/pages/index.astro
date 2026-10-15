@@ -37,11 +37,28 @@ const withDisplayName = (p) =>
 
 const arrivals = PRODUCTS.filter((p) => p.featured >= 2).map(withDisplayName);
 const established = PRODUCTS.filter((p) => p.featured === 1).map(withDisplayName);
-// الأحدث أولاً في كل مكان، ثم بازلت المدينة. نفس ترتيب صفحة المنتجات.
+// "الأكثر طلباً في المدينة المنورة": إضافات المالك أولاً، ثم بازلت المدينة.
 const medinaTop = [...arrivals, ...established];
 
-// المميزة: إضافات المالك أولاً، ثم أكملها من الراسخة حتى 8
-const featured = medinaTop.slice(0, 8);
+// "المنتجات المميزة" قسم مختلف تماماً: أحجار من الكتالوج لم تُضَف من طرف المالك.
+// الترتيب ثابت ومكتوب هنا حتى لا يتغير بكل إضافة.
+const FEATURED_SLUGS = [
+  'calacatta-marble',
+  'statuario-marble',
+  'bianco-carrara-marble',
+  'crema-marfil-classic',
+  'emperador-light-marble',
+  'portoro-gold',
+  'thassos-classic',
+  'roman-travertine-classic',
+];
+const featured = FEATURED_SLUGS.map((s) => PRODUCTS.find((p) => p.slug === s))
+  .filter(Boolean)
+  .map(withDisplayName);
+
+// قسم المغاسل: كل المغاسل الموجودة في الموقع.
+const sinks = PRODUCTS.filter((p) => p.category === 'sinks');
+
 const newest = arrivals.length > 0 ? arrivals : established;
 const luxury = PRODUCTS.filter((p) => ['bianco-carrara-marble', 'buccino-italian-marble', 'cipollino-italian-marble', 'roman-travertine'].includes(p.slug));
 const counts = {
@@ -222,11 +239,27 @@ const schemaJson = graph([
     </div>
   </section>
 
+  <!-- المغاسل -->
+  {sinks.length > 0 && (
+    <section>
+      <div class="wrap">
+        <h2 class="sec-title" data-anim="up">المغاسل الحجرية</h2>
+        <p class="sec-sub">مغاسل منحوتة من الحجر الطبيعي — سطحية، مدمجة، وحوضية.</p>
+        <div class="grid" data-stagger>
+          {sinks.map((p) => <ProductCard product={p} />)}
+        </div>
+        <div style="text-align:center;margin-top:30px">
+          <a href={url('/products/sinks')} class="btn">شاهد كل المغاسل</a>
+        </div>
+      </div>
+    </section>
+  )}
+
   <!-- منتجات مميزة -->
   <section>
     <div class="wrap">
       <h2 class="sec-title" data-anim="up">منتجات مميزة</h2>
-      <p class="sec-sub">اختياراتنا الأكثر طلباً هذا الموسم.</p>
+      <p class="sec-sub">اختياراتنا من أجود الأحجار الطبيعية المتوفرة في المعرض.</p>
       <div class="grid" data-stagger>
         {featured.map((p) => <ProductCard product={p} />)}
       </div>
