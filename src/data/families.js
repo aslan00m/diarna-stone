@@ -10,7 +10,7 @@ export default [
     cat: 'granite',
     multi: false,
     count: 1,
-    image: '/images/products-hj/hj-natural-granite-black-white.jpg',
+    image: '/images/products-new/granite-black-white.jpg',
     color: 'الأبيض النقي',
     origin: 'saudi',
     grades: [
@@ -34,7 +34,7 @@ export default [
     cat: 'granite',
     multi: false,
     count: 1,
-    image: '/images/products-hj/hj-natural-granite-yellow-golden.jpg',
+    image: '/images/products-new/granite-yellow-golden.jpg',
     color: 'درجات الأصفر الفاتح إلى الداكن',
     origin: 'turkish',
     grades: [
@@ -442,7 +442,7 @@ export default [
     cat: 'limestone',
     multi: true,
     count: 5,
-    image: '/images/products-hj/hj-natural-slate-grey.jpg',
+    image: '/images/products-new/slate-grey.jpg',
     color: 'رمادي',
     origin: 'turkish',
     grades: [
@@ -510,7 +510,7 @@ export default [
     cat: 'limestone',
     multi: true,
     count: 3,
-    image: '/images/products-hj/hj-natural-basalt-dark.jpg',
+    image: '/images/products-new/basalt-dark.jpg',
     color: 'داكن، يتراوح بين الأسود والرمادي الغامق',
     origin: 'egyptian',
     grades: [
@@ -556,7 +556,7 @@ export default [
     cat: 'limestone',
     multi: false,
     count: 1,
-    image: '/images/products-hj/hj-natural-textured-limestone-tile.jpg',
+    image: '/images/products-new/textured-limestone-tile.jpg',
     color: 'لأبيض النقي',
     origin: 'turkish',
     grades: [
@@ -580,7 +580,7 @@ export default [
     cat: 'limestone',
     multi: true,
     count: 4,
-    image: '/images/products-hj/hj-natural-white-limestone.jpg',
+    image: '/images/products-new/white-limestone.jpg',
     color: 'لأبيض النقي',
     origin: 'egyptian',
     grades: [
@@ -733,7 +733,7 @@ export default [
     cat: 'limestone',
     multi: true,
     count: 3,
-    image: '/images/products-hj/hj-natural-red-sandstone.jpg',
+    image: '/images/products-new/red-sandstone.jpg',
     color: 'البيج الفاتح',
     origin: 'jordanian',
     grades: [
@@ -779,7 +779,7 @@ export default [
     cat: 'limestone',
     multi: false,
     count: 1,
-    image: '/images/products-hj/hj-natural-sandstone-beige.jpg',
+    image: '/images/products-new/sandstone-beige.jpg',
     color: 'أبيض',
     origin: 'italian',
     grades: [
@@ -827,7 +827,7 @@ export default [
     cat: 'limestone',
     multi: false,
     count: 1,
-    image: '/images/products-hj/hj-natural-crazy-paving-yellow.jpg',
+    image: '/images/products-new/crazy-paving-yellow.jpg',
     color: 'أصفر ذهبي',
     origin: 'saudi',
     grades: [
@@ -851,7 +851,7 @@ export default [
     cat: 'marble',
     multi: true,
     count: 7,
-    image: '/images/products-hj/hj-natural-cream-marble.jpg',
+    image: '/images/products-new/cream-marble.jpg',
     color: 'الكريمي الفاتح',
     origin: 'turkish',
     grades: [
@@ -941,7 +941,7 @@ export default [
     cat: 'marble',
     multi: false,
     count: 1,
-    image: '/images/products-hj/hj-natural-arabescato-marble.jpg',
+    image: '/images/products-new/arabescato-marble.jpg',
     color: 'الأبيض',
     origin: 'italian',
     grades: [
@@ -965,7 +965,7 @@ export default [
     cat: 'marble',
     multi: true,
     count: 3,
-    image: '/images/products-hj/hj-natural-dark-emperador-deep.jpg',
+    image: '/images/products-new/dark-emperador-deep.jpg',
     color: 'بني الداكن',
     origin: 'spanish',
     grades: [
@@ -1011,7 +1011,7 @@ export default [
     cat: 'marble',
     multi: false,
     count: 1,
-    image: '/images/products-hj/hj-natural-emperador-light-marble.jpg',
+    image: '/images/products-new/emperador-light-marble.jpg',
     color: 'بني الداكن',
     origin: 'spanish',
     grades: [
@@ -1107,7 +1107,7 @@ export default [
     cat: 'marble',
     multi: false,
     count: 1,
-    image: '/images/products-hj/hj-natural-buccino-italian-marble.jpg',
+    image: '/images/products-new/buccino-italian-marble.jpg',
     color: 'بيج',
     origin: 'italian',
     grades: [
@@ -1131,7 +1131,7 @@ export default [
     cat: 'marble',
     multi: true,
     count: 2,
-    image: '/images/products-hj/hj-natural-portoro-gold.jpg',
+    image: '/images/products-new/portoro-gold.jpg',
     color: 'أسود',
     origin: 'italian',
     grades: [
@@ -1166,7 +1166,7 @@ export default [
     cat: 'marble',
     multi: true,
     count: 2,
-    image: '/images/products-hj/hj-natural-bianco-carrara-marble.jpg',
+    image: '/images/products-new/bianco-carrara-marble.jpg',
     color: 'أبيض',
     origin: 'italian',
     grades: [
@@ -1201,7 +1201,7 @@ export default [
     cat: 'marble',
     multi: true,
     count: 2,
-    image: '/images/products-hj/hj-natural-pietra-grey-cloud.jpg',
+    image: '/images/products-new/pietra-grey-cloud.jpg',
     color: 'رمادي',
     origin: 'iranian',
     grades: [
@@ -1236,7 +1236,7 @@ export default [
     cat: 'marble',
     multi: false,
     count: 1,
-    image: '/images/products-hj/hj-natural-perlato-grey-marble.jpg',
+    image: '/images/products-new/perlato-grey-marble.jpg',
     color: 'الأبيض الناعم',
     origin: 'italian',
     grades: [
@@ -1308,7 +1308,7 @@ export default [
     cat: 'marble',
     multi: false,
     count: 1,
-    image: '/images/products-hj/hj-natural-giallo-siena-marble.jpg',
+    image: '/images/products-new/giallo-siena-marble.jpg',
     color: 'أبيض',
     origin: 'italian',
     grades: [
@@ -1332,7 +1332,7 @@ export default [
     cat: 'marble',
     multi: false,
     count: 1,
-    image: '/images/products-hj/hj-natural-statuario-marble.jpg',
+    image: '/images/products-new/statuario-marble.jpg',
     color: 'أبيض',
     origin: 'italian',
     grades: [
@@ -1500,7 +1500,7 @@ export default [
     cat: 'marble',
     multi: false,
     count: 1,
-    image: '/images/products-hj/hj-natural-rosso-levanto-rosso.jpg',
+    image: '/images/products-new/rosso-levanto-rosso.jpg',
     color: 'رمادي',
     origin: 'turkish',
     grades: [
@@ -1524,7 +1524,7 @@ export default [
     cat: 'marble',
     multi: true,
     count: 3,
-    image: '/images/products-hj/hj-natural-mugla-bianco-select.jpg',
+    image: '/images/products-new/mugla-bianco-select.jpg',
     color: 'رمادي',
     origin: 'turkish',
     grades: [
@@ -1690,7 +1690,7 @@ export default [
     cat: 'marble',
     multi: false,
     count: 1,
-    image: '/images/products-hj/hj-natural-super-white-quartzite.jpg',
+    image: '/images/products-new/super-white-quartzite.jpg',
     color: 'الكريمي أو البيج الفاتح',
     origin: 'brazilian',
     grades: [
