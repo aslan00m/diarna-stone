@@ -48,7 +48,7 @@ const schemaJson = graph([
   breadcrumb([
     { name: 'الرئيسية', path: '/' },
     { name: 'المغاسل الحجرية', path: '/sinks' },
-    { name: 'المعرض', path: '/sinks-gallery' },
+    { name: 'المعرض', path: '/sinks-gallery/all' },
     ...(entry ? [{ name: entry.name, path: gPath }] : []),
   ]),
 ]);
@@ -83,7 +83,13 @@ const schemaJson = graph([
         !entry && (
           <div class="tabs" style="margin-bottom:26px">
             {FILTERS.map((f) => (
-              <a href={f.key === 'all' ? url('/sinks-gallery') : `#${f.key}`} class="tab">
+              // /sinks-gallery has no index page — only /sinks-gallery/all and
+              // the per-model pages exist. "الكل" therefore stays on the
+              // current aggregator instead of linking to a URL that 404s.
+              <a
+                href={f.key === 'all' ? `#${entry?.slug ?? 'top'}` : `#${f.key}`}
+                class="tab"
+              >
                 {f.label}
               </a>
             ))}

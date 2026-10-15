@@ -67,8 +67,12 @@ const schemaJson = graph([
   ]),
 ]);
 
+// Only families with `multi: true` get a /stones/ page (see getStaticPaths
+// below), so filtering related stones the same way is what keeps every card
+// link alive. Without this, single-grade families rendered a link to a URL
+// that does not exist — 23 dead links across 12 pages.
 const related = STONES.filter(
-  (s) => s.slug !== stone.slug && s.cat === stone.cat
+  (s) => s.multi && s.slug !== stone.slug && s.cat === stone.cat
 ).slice(0, 4);
 ---
 
