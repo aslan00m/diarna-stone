@@ -531,7 +531,7 @@ def cmd_publish(args):
         files.add(f"public/images/blog-ai/{p['slug']}.jpg")
     G = ["git", "-c", "user.name=aslan00m", "-c", "user.email=aslan00m@users.noreply.github.com"]
     sh(G + ["add", *sorted(files)], check=False)
-    c = sh(G + ["commit", "-m", f"feat(blog): {len(posts)} مقالات SEO جديدة ({today})"], timeout=120, check=False)
+    c = sh(G + ["commit", "-m", f"feat(blog): مقال SEO جديد ({today})" if len(posts) == 1 else f"feat(blog): {len(posts)} مقالات SEO جديدة ({today})"], timeout=120, check=False)
     if c.returncode != 0 and "nothing to commit" not in (c.stdout + c.stderr):
         print("FAIL: commit failed")
         print(((c.stdout or "") + (c.stderr or ""))[-800:])
