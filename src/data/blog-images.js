@@ -179,6 +179,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'medina-stone-facade-home-designs',
+    file: '/images/blog-ai/medina-stone-facade-home-designs.jpg',
+    scene:
+      'منظر لواجهات منازل مغشاة بالحجر الطبيعي في حي سكني',
+    prompt:
+      'منظر لواجهات منازل متجاورة مغشاة بالحجر الطبيعي في حي سكني هادئ، تصاميم مختلفة لكل منزل، ضوء الشمس الصباحية، تصوير معماري واسع',
+    topics: [
+      'تصاميم واجهات',
+      'منازل',
+      'حجر طبيعي',
+      'حي سكني',
+      'إلهام',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
