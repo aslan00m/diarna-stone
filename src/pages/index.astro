@@ -35,13 +35,14 @@ const DISPLAY_NAMES = {
 const withDisplayName = (p) =>
   DISPLAY_NAMES[p.slug] ? { ...p, name: DISPLAY_NAMES[p.slug] } : p;
 
-const medinaTop = PRODUCTS.filter((p) => p.featured >= 1).map(withDisplayName);
+const arrivals = PRODUCTS.filter((p) => p.featured >= 2).map(withDisplayName);
+const established = PRODUCTS.filter((p) => p.featured === 1).map(withDisplayName);
+// الأحدث أولاً في كل مكان، ثم بازلت المدينة. نفس ترتيب صفحة المنتجات.
+const medinaTop = [...arrivals, ...established];
 
 // المميزة: إضافات المالك أولاً، ثم أكملها من الراسخة حتى 8
-const arrivals = PRODUCTS.filter((p) => p.featured >= 2);
-const established = PRODUCTS.filter((p) => p.featured === 1);
-const featured = [...arrivals, ...established].slice(0, 8).map(withDisplayName);
-const newest = arrivals.length > 0 ? arrivals : PRODUCTS.filter((p) => p.featured >= 1);
+const featured = medinaTop.slice(0, 8);
+const newest = arrivals.length > 0 ? arrivals : established;
 const luxury = PRODUCTS.filter((p) => ['bianco-carrara-marble', 'buccino-italian-marble', 'cipollino-italian-marble', 'roman-travertine'].includes(p.slug));
 const counts = {
   marble: PRODUCTS.filter((p) => p.category === 'marble').length,
