@@ -63,9 +63,9 @@ def main():
         f"    slug: '{slug}',\n"
         f"    file: '/images/blog-ai/{slug}.jpg',\n"
         f"    scene:\n"
-        f"      '{args.scene}',\n"
+        f"      '{esc(args.scene)}',\n"
         f"    prompt:\n"
-        f"      '{args.prompt}',\n"
+        f"      '{esc(args.prompt)}',\n"
         "    topics: [\n"
         f"{topics}"
         "    ],\n"
@@ -92,6 +92,11 @@ def re_ok(slug):
     import re
 
     return re.fullmatch(r"[a-z0-9][a-z0-9\-]*", slug) is not None
+
+
+def esc(s):
+    """Escape for a single-quoted JS string: backslash then apostrophe."""
+    return str(s).replace("\\", "\\\\").replace("'", "\\'")
 
 
 if __name__ == "__main__":

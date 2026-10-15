@@ -33,6 +33,9 @@ LIB = ROOT / "src" / "data" / "blog-images.js"
 ADD = ROOT / "scripts" / "blog_image_add.py"
 
 W, H = 1280, 720
+# Pollinations stamps a small logo along the bottom edge; nologo=true is no
+# longer honored, so every image loses this many pixels off the bottom.
+WATERMARK_PX = 64
 # Candidate interpreters, in order. video-studio's venv is first because it
 # is the one on this VPS that ships Pillow.
 CANDIDATES = [
@@ -103,7 +106,10 @@ def fetch(prompt, seed, out_path, attempts=4, timeout=200):
 
 
 def crop_1690(path):
-    """Centre-crop to exactly 1280x720 and re-encode as JPEG."""
+    """Centre-crop to exactly 1280x720, cut the generator watermark strip,
+    and re-encode as JPEG. The watermark is a small logo pinned to the bottom
+    edge; Pollinations stopped honoring nologo=true, so the bottom strip is
+    cropped on every image rather than trusted."""
     from PIL import Image
 
     im = Image.open(path).convert("RGB")
@@ -119,6 +125,8 @@ def crop_1690(path):
         im = im.crop(box)
     if im.size != (W, H):
         im = im.resize((W, H), Image.LANCZOS)
+    # remove the bottom watermark strip
+    im = im.crop((0, 0, W, H - WATERMARK_PX))
     im.save(path, "JPEG", quality=86, optimize=True)
     return im.size
 

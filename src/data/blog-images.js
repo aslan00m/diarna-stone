@@ -137,7 +137,7 @@ export const BLOG_AI_IMAGES = [
     scene:
       'يد تقدم عيّنة حجر طبيعي كبيرة لعميل داخل معرض حجر في المدينة المنورة',
     prompt:
-      'A shop assistant's hands presenting a large natural stone sample tile to a client inside a stone showroom, warm daylight from the side, editorial photography, shallow depth of field',
+      'A shop assistant\'s hands presenting a large natural stone sample tile to a client inside a stone showroom, warm daylight from the side, editorial photography, shallow depth of field',
     topics: [
       'شراء الحجر',
       'عيّنة رخام',
@@ -185,16 +185,18 @@ export const BLOG_AI_IMAGES = [
     scene:
       'منظر لواجهات منازل مغشاة بالحجر الطبيعي في حي سكني',
     prompt:
-      'منظر لواجهات منازل متجاورة مغشاة بالحجر الطبيعي في حي سكني هادئ، تصاميم مختلفة لكل منزل، ضوء الشمس الصباحية، تصوير معماري واسع',
+      'A quiet residential street with villas clad in natural stone, a different facade design per house, warm morning sunlight, wide architectural photography, no people, no text',
     topics: [
       'تصاميم واجهات',
       'منازل',
       'حجر طبيعي',
-      'حي سكني',
-      'إلهام',
+      'المدينة المنورة',
+      'واجهات فلل',
     ],
     usedBy: [''],
   },
+
+
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a

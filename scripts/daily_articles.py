@@ -443,6 +443,14 @@ def cmd_publish(args):
     ready = []
     for t in chosen:
         i = t["id"]
+        # gate: an Arabic prompt makes the generator produce garbage images
+        # (one live article got a random portrait). English only.
+        prompt = t.get("imagePrompt", "")
+        if re.search(r"[\u0600-\u06ff]", prompt):
+            report.append(
+                ("FAIL", i, "imagePrompt is Arabic — the generator needs English; fix the topic's imagePrompt and retry")
+            )
+            continue
         lib_has = IMAGE_LIB.exists() and f"slug: '{i}'" in IMAGE_LIB.read_text(encoding="utf-8")
         dest = IMAGE_DIR / f"{i}.jpg"
         if lib_has and dest.exists():
