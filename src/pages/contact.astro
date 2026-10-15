@@ -6,12 +6,19 @@ import { graph, breadcrumb } from '../data/schema.js';
 const schemaJson = graph([breadcrumb([{ name: 'الرئيسية', path: '/' }, { name: 'تواصل معنا', path: '/contact' }])]);
 ---
 
-<Base title="طلب عرض سعر" description="أرسل طلبك للحصول على عرض سعر للحجر والتركيب." canonical="/contact" schema={schemaJson} image="/images/heroes/section-contact-travertine.jpg">
+<Base title="طلب عرض سعر" description="أرسل طلبك للحصول على عرض سعر للحجر والتركيب." canonical="/contact" schema={schemaJson} image="/images/heroes/contact-travertine-bathroom.jpg">
   <section>
     <div class="wrap" style="max-width:720px">
       <div class="crumbs"><a href={url("/")}>الرئيسية</a> / طلب عرض سعر</div>
       <h1 class="sec-title">طلب عرض سعر</h1>
       <p class="sec-sub">املأ البيانات التالية وسنرسل لك عرض سعر عبر واتساب.</p>
+      <img
+        src={url('/images/heroes/contact-travertine-bathroom.jpg')}
+        alt="حمّام مكسو بالترافرتينو البيج مع طاولة مزدوجة وحوضين ومرآة بإضاءة دافئة"
+        loading="lazy"
+        decoding="async"
+        style="width:100%;height:auto;border-radius:14px;margin-bottom:26px"
+      />
 
       <!--
         النموذج يُبنى عبر واتساب: عند الإرسال يفتح محادثة جاهزة بالتفاصيل.

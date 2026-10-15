@@ -46,13 +46,20 @@ const schemaJson = graph([
   description="كتالوج كامل للرخام والجرانيت والترافرتينو."
   canonical="/products"
   schema={schemaJson}
-  image="/images/heroes/og-showroom-dark.jpg"
+  image="/images/heroes/products-showroom.jpg"
 >
   <section>
     <div class="wrap">
       <div class="crumbs"><a href={url('/')}>الرئيسية</a> / المنتجات</div>
       <h1 class="sec-title">المنتجات</h1>
       <p class="sec-sub">{PRODUCTS.length} منتجاً. اختر التصنيف لتضييق النتائج.</p>
+      <img
+        src={url('/images/heroes/products-showroom.jpg')}
+        alt="صالة عرض أحجار تضم ألواح رخام أبيض بعروق رمادية وترافرتينو بيج وحجر جيري مزخرف بإضاءة ذهبية"
+        loading="lazy"
+        decoding="async"
+        style="width:100%;height:auto;border-radius:14px;margin:22px 0 8px"
+      />
       <div class="tabs">
         <a href={url("/products/all")} class="tab active">الكل ({PRODUCTS.length})</a>
         {CATEGORIES.map((c) => (
