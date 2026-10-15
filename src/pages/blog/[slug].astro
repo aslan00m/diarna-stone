@@ -2,21 +2,21 @@
 import { url } from '../../data/urls.js';
 import Base from '../../layouts/Base.astro';
 import POSTS from '../../data/blog.js';
+import PRODUCTS from '../../data/products.js';
+import ProductCard from '../../components/ProductCard.astro';
 import { graph, article as articleSchema, faq as faqSchema, breadcrumb } from '../../data/schema.js';
 
 export function getStaticPaths() {
-  return [
-    { params: { slug: '_' }, props: { post: null } },
-    ...POSTS.map((p) => ({ params: { slug: p.slug }, props: { post: p } })),
-  ];
+  return POSTS.map((p) => ({ params: { slug: p.slug }, props: { post: p } }));
 }
 
 const { post } = Astro.props;
 const others = POSTS.filter((p) => p.slug !== post?.slug).slice(0, 3);
-
-if (!post) {
-  return Astro.redirect(url('/blog'));
-}
+// Related products: only slugs that actually exist in the catalogue, so a
+// removed product can never render a dead card or a 404 link.
+const related = (post?.related || [])
+  .map((s) => PRODUCTS.find((p) => p.slug === s))
+  .filter(Boolean);
 
 const fmt = (d) =>
   new Date(d).toLocaleDateString('ar-SA', { year: 'numeric', month: 'long', day: 'numeric' });
@@ -65,6 +65,15 @@ const schemaJson = graph([
         <h1 class="sec-title">{post.title}</h1>
         <p class="post-meta">{fmt(post.date)} · قراءة {post.readTime}</p>
         <p class="lead">{post.excerpt}</p>
+        {post.image && (
+          <img
+            src={url(post.image)}
+            alt={post.imageAlt || post.title}
+            style="width:100%;height:auto;border-radius:14px;margin-top:18px"
+            loading="eager"
+            decoding="async"
+          />
+        )}
       </div>
 
       <article class="prose">
@@ -82,6 +91,15 @@ const schemaJson = graph([
             <p>{f.a}</p>
           </details>
         ))}
+
+        {related.length > 0 && (
+          <div class="post-related">
+            <h2>أحجار من المعرض تناسب هذا المقال</h2>
+            <div class="grid" data-stagger>
+              {related.map((p) => <ProductCard product={p} />)}
+            </div>
+          </div>
+        )}
 
         <div class="post-cta">
           <h3>محتاج مساعدة في اختيار الخامة؟</h3>
