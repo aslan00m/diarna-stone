@@ -4391,5 +4391,6 @@ const PRODUCTS = [
 ];
 
 import CERAMIC from './products-ceramic.js';
+import LOCAL from './products-local.js';
 
-export default [...PRODUCTS, ...CERAMIC];
+export default [...PRODUCTS, ...CERAMIC, ...LOCAL];

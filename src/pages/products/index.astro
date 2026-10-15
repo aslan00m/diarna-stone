@@ -26,8 +26,10 @@ const DISPLAY_NAMES = {
 const withDisplayName = (p) =>
   DISPLAY_NAMES[p.slug] ? { ...p, name: DISPLAY_NAMES[p.slug] } : p;
 
-const newArrivals = PRODUCTS.filter((p) => p.featured >= 2).map(withDisplayName);
-const medinaTop = PRODUCTS.filter((p) => p.featured >= 1).map(withDisplayName);
+const arrivals = PRODUCTS.filter((p) => p.featured >= 2).map(withDisplayName);
+const established = PRODUCTS.filter((p) => p.featured === 1);
+// Arrivals first, then the established picks — the owner's newest stone leads.
+const medinaTop = [...arrivals, ...established].map(withDisplayName);
 
 import { graph, breadcrumb } from '../../data/schema.js';
 
@@ -59,14 +61,14 @@ const schemaJson = graph([
     </div>
   </section>
 
-  {newArrivals.length > 0 && (
+  {arrivals.length > 0 && (
     <!-- إضافات جديدة -->
     <section>
       <div class="wrap">
         <h2 class="sec-title" data-anim="up">إضافات جديدة</h2>
         <p class="sec-sub">أحدث الأحجار التي أضافها المعرض.</p>
         <div class="grid" data-stagger>
-          {newArrivals.map((p) => <ProductCard product={p} />)}
+          {arrivals.map((p) => <ProductCard product={p} />)}
         </div>
       </div>
     </section>
