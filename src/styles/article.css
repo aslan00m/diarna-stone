@@ -1,0 +1,192 @@
+/* ==========================================================================
+   المقال المفرد — القالب الغني
+   --------------------------------------------------------------------------
+   يضيف ما كان ناقصاً في القالب القديم: جدول مقارنة، صندوق ملخص،
+   خط زمني، قوائم نقطية، وتحذيرات — مع حركة دخول عبر نظام data-anim
+   الموجود في motion.css.
+
+   القاعدة المعمارية: لا قاعدة هنا تخفي عنصراً. الحالات المخفية يملكها
+   JS (motion.css)، ففشل الحركة يعني عنصراً ظاهراً لا محتوى مفقوداً.
+   ========================================================================== */
+
+/* ---- شريط تقدّم القراءة ---- */
+.read-progress {
+  position: fixed;
+  top: 0;
+  inset-inline: 0;
+  height: 3px;
+  z-index: 60;
+  background: linear-gradient(90deg, var(--gold), var(--gold-dim));
+  transform-origin: right center;
+  transform: scaleX(0);
+  will-change: transform;
+}
+@media (prefers-reduced-motion: reduce) {
+  .read-progress { display: none; }
+}
+
+/* ---- فهرس المقال ---- */
+.toc {
+  margin: 26px 0 8px;
+  padding: 18px 20px 14px;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.toc > strong {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--gold-deep);
+  font-size: .95rem;
+  letter-spacing: .01em;
+}
+.toc ol { margin: 0; padding-inline-start: 20px; }
+.toc li { margin-bottom: 6px; font-size: .95rem; }
+.toc a { color: #3d3c37; text-decoration: none; border-bottom: 1px solid transparent; }
+.toc a:hover { color: var(--gold-deep); border-bottom-color: var(--gold-dim); }
+
+/* ---- صندوق الملخص: أفضل نقطة لظهور المقتطف في البحث ---- */
+.takeaways {
+  margin: 22px 0 30px;
+  padding: 20px 22px;
+  background: linear-gradient(135deg, #14140f, #26251d);
+  color: #f4f4f5;
+  border-radius: var(--radius);
+  border: 1px solid #35342a;
+}
+.takeaways > strong {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--gold-soft);
+  font-size: 1rem;
+}
+.takeaways ul { margin: 0; padding-inline-start: 20px; }
+.takeaways li { margin-bottom: 9px; line-height: 1.8; opacity: .94; }
+.takeaways li::marker { color: var(--gold); }
+
+/* ---- جدول المقارنة ---- */
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 22px 0;
+  font-size: .95rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.prose thead th {
+  background: #14140f;
+  color: var(--gold-soft);
+  padding: 12px 14px;
+  text-align: right;
+  font-weight: 700;
+  font-size: .92rem;
+}
+.prose tbody td { padding: 11px 14px; border-top: 1px solid var(--line); color: #3d3c37; }
+.prose tbody tr:nth-child(even) { background: var(--bg-soft); }
+.prose tbody td:first-child { font-weight: 700; color: #14140f; }
+/* الجداول العريضة تُمرَّر أفقياً بدل أن تكسر التصميم على الجوال */
+.table-wrap { overflow-x: auto; margin: 22px 0; -webkit-overflow-scrolling: touch; }
+.table-wrap table { margin: 0; min-width: 520px; }
+
+/* ---- قائمة نقطية ---- */
+.prose ul.bullets { margin: 14px 0 20px; padding-inline-start: 4px; list-style: none; }
+.prose ul.bullets li {
+  position: relative;
+  padding-inline-start: 24px;
+  margin-bottom: 10px;
+  line-height: 1.85;
+  color: #3d3c37;
+}
+.prose ul.bullets li::before {
+  content: '';
+  position: absolute;
+  inset-inline-start: 2px;
+  top: .62em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--gold), var(--gold-dim));
+}
+
+/* ---- صندوق ملاحظة / تحذير ---- */
+.note {
+  margin: 20px 0;
+  padding: 15px 18px 15px 16px;
+  border-inline-start: 4px solid var(--gold-dim);
+  background: var(--bg-soft);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: .96rem;
+  line-height: 1.85;
+  color: #3d3c37;
+}
+.note > strong { color: var(--gold-deep); }
+.note.warn {
+  border-inline-start-color: #a8452f;
+  background: #fdf6f4;
+}
+.note.warn > strong { color: #a8452f; }
+
+/* ---- خط زمني للخطوات ---- */
+.steps { margin: 22px 0 26px; list-style: none; padding: 0; counter-reset: step; }
+.steps li {
+  position: relative;
+  padding-inline-start: 46px;
+  margin-bottom: 16px;
+  line-height: 1.85;
+  color: #3d3c37;
+  counter-increment: step;
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  inset-inline-start: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--gold-soft), var(--gold));
+  color: #14140f;
+  font-weight: 800;
+  font-size: .9rem;
+}
+.steps li > strong { display: block; color: #14140f; margin-bottom: 3px; }
+
+/* ---- الأرقام البارزة ---- */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 14px;
+  margin: 24px 0 28px;
+}
+.stats > div {
+  padding: 16px 14px;
+  text-align: center;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.stats > div > b {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--gold-deep);
+  line-height: 1.2;
+}
+.stats > div > span { font-size: .85rem; color: var(--muted); }
+
+/* ---- المنتجات ذات الصلة ---- */
+.post-related { margin-top: 46px; }
+.post-related > h2 { margin-bottom: 20px; }
+
+/* ---- المقالات الأخرى: صور مولّدة ---- */
+.other-post .rc { aspect-ratio: 16/9; overflow: hidden; border-radius: var(--radius) var(--radius) 0 0; }
+.other-post .rc img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform var(--d-slow) var(--e-out); }
+.other-post:hover .rc img { transform: scale(1.04); }
+.post-card { transition: transform var(--d-slow) var(--e-out), border-color var(--d-slow) var(--e-out); }
+.post-card:hover { transform: translateY(-4px); border-color: var(--gold-dim); }
+.post-card .rc { aspect-ratio: 16/9; overflow: hidden; }
+.post-card .rc img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform var(--d-slow) var(--e-out); }
+.post-card:hover .rc img { transform: scale(1.05); }

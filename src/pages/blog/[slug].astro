@@ -28,6 +28,12 @@ const words = post.sections.reduce(
   0
 );
 
+// Section anchors for the TOC — headings may be rendered from `h` or `title`.
+const toc = post.sections.map((s, i) => ({
+  id: `sec-${i + 1}`,
+  label: s.h || s.title || `قسم ${i + 1}`,
+}));
+
 const path = `/blog/${post.slug}`;
 const schemaJson = graph([
   articleSchema({
@@ -56,6 +62,8 @@ const schemaJson = graph([
   schema={schemaJson}
   type="article"
 >
+  <div class="read-progress" id="rp" aria-hidden="true"></div>
+
   <section>
     <div class="wrap">
       <div class="crumbs"><a href={url('/')}>الرئيسية</a> / <a href={url('/blog')}>مدونتنا</a> / {post.title}</div>
@@ -63,7 +71,7 @@ const schemaJson = graph([
       <div class="post-head">
         <span class="pill">{post.category}</span>
         <h1 class="sec-title">{post.title}</h1>
-        <p class="post-meta">{fmt(post.date)} · قراءة {post.readTime}</p>
+        <p class="post-meta">{fmt(post.date)} · قراءة {post.readTime} · {words} كلمة</p>
         <p class="lead">{post.excerpt}</p>
         {post.image && (
           <img
@@ -72,19 +80,89 @@ const schemaJson = graph([
             style="width:100%;height:auto;border-radius:14px;margin-top:18px"
             loading="eager"
             decoding="async"
+            width="1280"
+            height="720"
           />
         )}
       </div>
 
+      {/* فهرس المقال — يعمل مع وبدون JS */}
+      {toc.length > 2 && (
+        <nav class="toc" aria-label="فهرس المقال" data-anim="up">
+          <strong>في هذا المقال</strong>
+          <ol>
+            {toc.map((t) => (
+              <li><a href={`#${t.id}`}>{t.label}</a></li>
+            ))}
+          </ol>
+        </nav>
+      )}
+
+      {/* ملخص النقاط — أول مرشح قوي للمقتطف في نتائج البحث */}
+      {post.takeaways?.length > 0 && (
+        <aside class="takeaways" data-anim="up">
+          <strong>أهم ما في هذا المقال</strong>
+          <ul>
+            {post.takeaways.map((t) => <li>{t}</li>)}
+          </ul>
+        </aside>
+      )}
+
       <article class="prose">
-        {post.sections.map((s) => (
-          <>
-            <h2>{s.h}</h2>
+        {post.sections.map((s, i) => (
+          <section id={`sec-${i + 1}`} data-anim="up">
+            <h2>{s.h || s.title}</h2>
             {s.p.map((para) => <p>{para}</p>)}
-          </>
+
+            {s.bullets?.length > 0 && (
+              <ul class="bullets">
+                {s.bullets.map((b) => <li>{b}</li>)}
+              </ul>
+            )}
+
+            {s.table && (
+              <div class="table-wrap">
+                <table>
+                  {s.table.head && (
+                    <thead>
+                      <tr>
+                        {s.table.head.map((c) => <th scope="col">{c}</th>)}
+                      </tr>
+                    </thead>
+                  )}
+                  <tbody>
+                    {s.table.rows.map((r) => (
+                      <tr>
+                        {r.map((c, j) => (j === 0 ? <th scope="row">{c}</th> : <td>{c}</td>))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+
+            {s.steps?.length > 0 && (
+              <ol class="steps">
+                {s.steps.map((st) => (
+                  <li><strong>{st[0] || st.title}</strong>{st[1] || st.body || ''}</li>
+                ))}
+              </ol>
+            )}
+
+            {s.stats?.length > 0 && (
+              <div class="stats">
+                {s.stats.map((st) => (
+                  <div><b>{st.v}</b><span>{st.l}</span></div>
+                ))}
+              </div>
+            )}
+
+            {s.note && <div class="note"><strong>{s.noteTitle || 'ملاحظة'}:</strong> {s.note}</div>}
+            {s.warn && <div class="note warn"><strong>{s.warnTitle || 'تحذير'}:</strong> {s.warn}</div>}
+          </section>
         ))}
 
-        <h2>الأسئلة الشائعة</h2>
+        <h2 data-anim="up">الأسئلة الشائعة</h2>
         {post.faq.map((f) => (
           <details class="faq">
             <summary>{f.q}</summary>
@@ -93,7 +171,7 @@ const schemaJson = graph([
         ))}
 
         {related.length > 0 && (
-          <div class="post-related">
+          <div class="post-related" data-anim="up">
             <h2>أحجار من المعرض تناسب هذا المقال</h2>
             <div class="grid" data-stagger>
               {related.map((p) => <ProductCard product={p} />)}
@@ -111,9 +189,14 @@ const schemaJson = graph([
 
       <div style="margin-top:56px">
         <h2 class="sec-title">مقالات أخرى</h2>
-        <div class="grid">
+        <div class="grid" data-stagger>
           {others.map((o) => (
-            <a href={url(`/blog/${o.slug}`)} class="card">
+            <a href={url(`/blog/${o.slug}`)} class="card other-post">
+              {o.image && (
+                <div class="rc">
+                  <img src={url(o.image)} alt={o.imageAlt || o.title} loading="lazy" decoding="async" />
+                </div>
+              )}
               <div class="card-body">
                 <span class="pill">{o.category}</span>
                 <h3 style="margin-top:8px">{o.title}</h3>
@@ -126,3 +209,19 @@ const schemaJson = graph([
     </div>
   </section>
 </Base>
+
+{/* شريط تقدّم القراءة — يُدار بـrequestAnimationFrame، ومع تفضيل تقليل الحركة يُخفى بالـCSS */}
+<script>
+  const bar = document.getElementById('rp');
+  if (bar) {
+    let raf = 0;
+    const update = () => {
+      raf = 0;
+      const h = document.documentElement;
+      const max = h.scrollHeight - h.clientHeight;
+      bar.style.transform = `scaleX(${max > 0 ? Math.min(h.scrollTop / max, 1) : 0})`;
+    };
+    addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(update); }, { passive: true });
+    update();
+  }
+</script>

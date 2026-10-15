@@ -1,0 +1,98 @@
+#!/usr/bin/env python3
+"""Register a generated image in the AI blog image library.
+
+Usage:
+    python3 scripts/blog_image_add.py <slug> "<english prompt>" "<arabic scene>" \
+        "kw1,kw2,kw3"
+
+The image file itself must already exist at public/images/blog-ai/<slug>.jpg —
+this script only records it, so the library can never reference a file that
+was never produced. Use --file to point at a source file elsewhere.
+
+The JS stays valid because the entry is appended as text in the exact shape
+the reader in blog_image_match.py expects.
+"""
+
+import argparse
+import shutil
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+LIB = ROOT / "src" / "data" / "blog-images.js"
+IMGDIR = ROOT / "public" / "images" / "blog-ai"
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("slug", help="unique library key, also the filename")
+    ap.add_argument("prompt", help="the English prompt that produced the image")
+    ap.add_argument("scene", help="Arabic description — becomes the alt text")
+    ap.add_argument("topics", help="comma-separated Arabic keywords for matching")
+    ap.add_argument("--file", help="copy this file into the library as <slug>.jpg")
+    args = ap.parse_args()
+
+    slug = args.slug.strip()
+    if not re_ok(slug):
+        print(f"ERROR: slug must be lowercase letters, digits and hyphens: {slug}", file=sys.stderr)
+        sys.exit(2)
+
+    IMGDIR.mkdir(parents=True, exist_ok=True)
+    dest = IMGDIR / f"{slug}.jpg"
+
+    if args.file:
+        src = Path(args.file)
+        if not src.exists():
+            print(f"ERROR: source file not found: {src}", file=sys.stderr)
+            sys.exit(2)
+        shutil.copy2(src, dest)
+        print(f"copied  {src} -> {dest}")
+
+    if not dest.exists():
+        print(f"ERROR: no image at {dest} — generate it first, then re-run", file=sys.stderr)
+        sys.exit(2)
+
+    src_js = LIB.read_text(encoding="utf-8")
+    if f"slug: '{slug}'" in src_js:
+        print(f"ALREADY REGISTERED: {slug}")
+        sys.exit(0)
+
+    topics = "".join(f"      '{k.strip()}',\n" for k in args.topics.split(",") if k.strip())
+    entry = (
+        "  {\n"
+        f"    slug: '{slug}',\n"
+        f"    file: '/images/blog-ai/{slug}.jpg',\n"
+        f"    scene:\n"
+        f"      '{args.scene}',\n"
+        f"    prompt:\n"
+        f"      '{args.prompt}',\n"
+        "    topics: [\n"
+        f"{topics}"
+        "    ],\n"
+        "    usedBy: [''],\n"
+        "  },\n"
+    )
+
+    marker = "];"
+    idx = src_js.rfind(marker)
+    if idx < 0:
+        print("ERROR: could not find end of BLOG_AI_IMAGES", file=sys.stderr)
+        sys.exit(2)
+    # insert before the closing bracket of the array
+    arr_end = src_js.rfind("  },\n", 0, idx)
+    if arr_end < 0:
+        print("ERROR: array has no entries to append after", file=sys.stderr)
+        sys.exit(2)
+    new = src_js[: arr_end + len("  },\n")] + entry + src_js[arr_end + len("  },\n") :]
+    LIB.write_text(new, encoding="utf-8")
+    print(f"REGISTERED {slug} — library now has {new.count('slug: ')} entries")
+
+
+def re_ok(slug):
+    import re
+
+    return re.fullmatch(r"[a-z0-9][a-z0-9\-]*", slug) is not None
+
+
+if __name__ == "__main__":
+    main()
