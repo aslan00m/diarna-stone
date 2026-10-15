@@ -11,7 +11,11 @@ export function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const others = POSTS.filter((p) => p.slug !== post?.slug).slice(0, 3);
+// Newest first everywhere the blog lists posts
+const ORDERED = [...POSTS].sort(
+  (a, b) => b.date.localeCompare(a.date) || POSTS.indexOf(b) - POSTS.indexOf(a)
+);
+const others = ORDERED.filter((p) => p.slug !== post?.slug).slice(0, 3);
 // Related products: only slugs that actually exist in the catalogue, so a
 // removed product can never render a dead card or a 404 link.
 const related = (post?.related || [])
@@ -71,7 +75,7 @@ const schemaJson = graph([
       <div class="post-head">
         <span class="pill">{post.category}</span>
         <h1 class="sec-title">{post.title}</h1>
-        <p class="post-meta">{fmt(post.date)} · قراءة {post.readTime} · {words} كلمة</p>
+        <p class="post-meta">{fmt(post.date)}</p>
         <p class="lead">{post.excerpt}</p>
         {post.image && (
           <img
@@ -200,7 +204,7 @@ const schemaJson = graph([
               <div class="card-body">
                 <span class="pill">{o.category}</span>
                 <h3 style="margin-top:8px">{o.title}</h3>
-                <div class="meta">{fmt(o.date)} · {o.readTime}</div>
+                <div class="meta">{fmt(o.date)}</div>
               </div>
             </a>
           ))}

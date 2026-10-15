@@ -7,6 +7,10 @@ const fmt = (d) =>
   new Date(d).toLocaleDateString('ar-SA', { year: 'numeric', month: 'long', day: 'numeric' });
 import { graph, breadcrumb } from '../../data/schema.js';
 const schemaJson = graph([breadcrumb([{ name: 'الرئيسية', path: '/' }, { name: 'مدونتنا', path: '/blog' }])]);
+// Newest first: by date desc, then by position in POSTS desc (later = newer)
+const ORDERED = [...POSTS].sort(
+  (a, b) => b.date.localeCompare(a.date) || POSTS.indexOf(b) - POSTS.indexOf(a)
+);
 ---
 
 <Base title="مدونتنا" description="مقالات ونصائح عن الرخام والحجر الطبيعي: الاختيار، المواصفات، والتركيب." canonical="/blog" schema={schemaJson}>
@@ -20,7 +24,7 @@ const schemaJson = graph([breadcrumb([{ name: 'الرئيسية', path: '/' }, {
       </p>
 
       <div class="blog-list">
-        {POSTS.map((p) => (
+        {ORDERED.map((p) => (
           <a href={url(`/blog/${p.slug}`)} class="post-card">
             {p.image && (
               <img
@@ -34,7 +38,7 @@ const schemaJson = graph([breadcrumb([{ name: 'الرئيسية', path: '/' }, {
             <div class="post-card-body">
               <div class="post-card-top">
                 <span class="pill">{p.category}</span>
-                <span class="post-card-date">{fmt(p.date)} · {p.readTime}</span>
+                <span class="post-card-date">{fmt(p.date)}</span>
               </div>
               <h2>{p.title}</h2>
               <p>{p.excerpt}</p>
