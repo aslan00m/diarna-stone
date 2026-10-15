@@ -40,6 +40,5 @@ export const CATEGORY_COVER = {
   "granite": "/images/products-hj/hj-natural-granite-black-white.jpg",
   "travertine": "/images/products-new/golden-travertine.jpg",
   "limestone": "/images/products-hj/hj-natural-slate-grey.jpg",
-  "ceramic": "/images/products-hj/hj-ceramic-al-jamal.jpg",
   "sinks": "/images/sinks/white-gold-ceramic-double-vessel-00220bcf.jpg"
 };
