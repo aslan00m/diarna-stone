@@ -95,7 +95,7 @@ const schemaJson = graph([
 ]);
 ---
 
-<Base schema={schemaJson} image="/images/heroes/hero-1-villa-evening.jpg">
+<Base schema={schemaJson} image="/images/heroes/hero-villa-golden-hour.jpg">
   <!-- HERO: الصور أولاً بملء العرض، ثم النص تحتها -->
   <div class="hero has-photo" id="hero">
     <div class="hero-media">
@@ -245,6 +245,13 @@ const schemaJson = graph([
       <div class="wrap">
         <h2 class="sec-title" data-anim="up">المغاسل الحجرية</h2>
         <p class="sec-sub">مغاسل منحوتة من الحجر الطبيعي — سطحية، مدمجة، وحوضية.</p>
+        <img
+          src={url('/images/heroes/section-sinks-double-vanity.jpg')}
+          alt="طاولة مغسلة مزدوجة برخام أبيض بعروق رمادية ومغسلتين ترافرتينو وصنابير نحاسية"
+          loading="lazy"
+          decoding="async"
+          style="width:100%;height:auto;border-radius:14px;margin-bottom:26px"
+        />
         <div class="grid" data-stagger>
           {sinks.map((p) => <ProductCard product={p} />)}
         </div>
