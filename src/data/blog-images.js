@@ -115,6 +115,70 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-price-factors-medina',
+    file: '/images/blog-ai/stone-price-factors-medina.jpg',
+    scene:
+      'مقاول ورب منزل يراجعان عرض سعر مكتوباً على مكتب مع عيّنات حجر وشريط قياس',
+    prompt:
+      'A contractor and a homeowner reviewing a written stone quotation on a desk with stone samples and a tape measure, warm office daylight, editorial photography',
+    topics: [
+      'سعر الحجر',
+      'عرض سعر رخام',
+      'مقارنة عروض',
+      'المدينة المنورة',
+      'تكلفة الحجر',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 'buying-natural-stone-checklist',
+    file: '/images/blog-ai/buying-natural-stone-checklist.jpg',
+    scene:
+      'يد تقدم عيّنة حجر طبيعي كبيرة لعميل داخل معرض حجر في المدينة المنورة',
+    prompt:
+      'A shop assistant's hands presenting a large natural stone sample tile to a client inside a stone showroom, warm daylight from the side, editorial photography, shallow depth of field',
+    topics: [
+      'شراء الحجر',
+      'عيّنة رخام',
+      'معرض حجر',
+      'المدينة المنورة',
+      'سماكة الألواح',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 'calacatta-marble-guide',
+    file: '/images/blog-ai/calacatta-marble-guide.jpg',
+    scene:
+      'لوح رخام كالاكاتا بعروق رمادية وذهبية داخل مستودع حجر مضاء، ويد تلمع السطح المصقول',
+    prompt:
+      'A large Calacatta marble slab with grey and gold veining standing in a bright stone warehouse, soft daylight, a hand resting on the polished surface, editorial photography',
+    topics: [
+      'كالاكاتا',
+      'رخام إيطالي',
+      'عروق الرخام',
+      'الرخام الأبيض',
+      'مستودع حجر',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 'stone-finishes-guide',
+    file: '/images/blog-ai/stone-finishes-guide.jpg',
+    scene:
+      'ثلاث عيّنات حجر جنباً إلى جنب تُظهر تشطيباً مصقولاً وآخر مطفأً وثالثاً مجروشاً على طاولة ورشة',
+    prompt:
+      'Three stone sample tiles side by side showing polished, honed and textured finishes on a workshop table, soft daylight, editorial photography, macro detail',
+    topics: [
+      'تشطيبات الحجر',
+      'مصقول',
+      'مطفأ',
+      'ساندبلاست',
+      'عيّنات تشطيب',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
