@@ -1,4 +1,5 @@
 // عائلات الأحجار — كل تصميم = صفحة واحدة، بلا ذكر مقاس.
+// origin = بلد المنشأ الفعلي (المحجر)، لا بلد التوريد.
 // خط السيراميك العماني أُزيل بالكامل. الباقي: رخام، جرانيت، ترافرتينو، حجر جيري، مغاسل.
 
 export default [
@@ -35,7 +36,7 @@ export default [
     count: 1,
     image: '/images/products-hj/hj-natural-granite-yellow-golden.jpg',
     color: 'درجات الأصفر الفاتح إلى الداكن',
-    origin: 'brazilian',
+    origin: 'turkish',
     grades: [
       {
         slug: 'granite-yellow-golden',
@@ -966,7 +967,7 @@ export default [
     count: 3,
     image: '/images/products-hj/hj-natural-dark-emperador-deep.jpg',
     color: 'بني الداكن',
-    origin: 'turkish',
+    origin: 'spanish',
     grades: [
       {
         slug: 'dark-emperador-deep',
@@ -1012,7 +1013,7 @@ export default [
     count: 1,
     image: '/images/products-hj/hj-natural-emperador-light-marble.jpg',
     color: 'بني الداكن',
-    origin: 'turkish',
+    origin: 'spanish',
     grades: [
       {
         slug: 'emperador-light-marble',
@@ -1202,7 +1203,7 @@ export default [
     count: 2,
     image: '/images/products-hj/hj-natural-pietra-grey-cloud.jpg',
     color: 'رمادي',
-    origin: 'turkish',
+    origin: 'iranian',
     grades: [
       {
         slug: 'pietra-grey-cloud',
@@ -1667,7 +1668,7 @@ export default [
     count: 1,
     image: '/images/products-new/white-quartzite.jpg',
     color: 'عاجي بطبقات',
-    origin: 'turkish',
+    origin: 'brazilian',
     grades: [
       {
         slug: 'white-quartzite',
@@ -1691,7 +1692,7 @@ export default [
     count: 1,
     image: '/images/products-hj/hj-natural-super-white-quartzite.jpg',
     color: 'الكريمي أو البيج الفاتح',
-    origin: 'omani',
+    origin: 'brazilian',
     grades: [
       {
         slug: 'super-white-quartzite',

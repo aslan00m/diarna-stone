@@ -40,6 +40,7 @@ export const ORIGINS = [
   { slug: 'saudi', name: 'سعودي', flag: '🇸🇦' },
   { slug: 'jordanian', name: 'أردني', flag: '🇯🇴' },
   { slug: 'greek', name: 'يوناني', flag: '🇬🇷' },
+  { slug: 'iranian', name: 'إيراني', icon: '◇' },
   { slug: 'portuguese', name: 'برتغالي', flag: '🇵🇹' },
 ];
 
