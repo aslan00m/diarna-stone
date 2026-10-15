@@ -1,6 +1,7 @@
 ---
 import PageHero from '../components/PageHero.astro';
 import Base from '../layouts/Base.astro';
+import { graph, breadcrumb } from '../data/schema.js';
 import PROJECTS from '../data/projects-full.js';
 import { url } from '../data/urls.js';
 import { COMPANY, LINKS } from '../data/company.js';
@@ -9,11 +10,21 @@ const byCat = PROJECTS.reduce((acc, p) => {
   (acc[p.category] ||= []).push(p);
   return acc;
 }, {});
+
+const path = '/works';
+const schemaJson = graph([breadcrumb([
+  { name: 'الرئيسية', path: '/' },
+  { name: 'مشاريعنا', path: path },
+])]);
+
 ---
 
 <Base
   title={`مشاريعنا | ${COMPANY.name}`}
   description="مشاريع حقيقية نفّذتها ديارنا الحديثة: واجهات خارجية، ترميم، تشطيب داخلي، ومشاريع تحت التنفيذ — لكل مشروع صفحته بصوره ومراحله."
+
+  canonical={path}
+  schema={schemaJson}
 >
   <PageHero
     title="مشاريعنا"

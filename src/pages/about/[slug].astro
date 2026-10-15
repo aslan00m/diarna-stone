@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import ABOUT_CARDS from '../../data/about-cards.js';
 import PhotoPlaceholder from '../../components/PhotoPlaceholder.astro';
 import { url } from '../../data/urls.js';
+import { graph, breadcrumb } from '../../data/schema.js';
 
 export function getStaticPaths() {
   return ABOUT_CARDS.map((c) => ({ params: { slug: c.slug }, props: { card: c } }));
@@ -11,11 +12,23 @@ export function getStaticPaths() {
 
 const { card } = Astro.props;
 const others = ABOUT_CARDS.filter((c) => c.slug !== card.slug).slice(0, 3);
+
+const path = `/about/${card.slug}`;
+const schemaJson = graph([
+  breadcrumb([
+    { name: 'الرئيسية', path: '/' },
+    { name: 'عن الشركة', path: '/about' },
+    { name: card.title, path },
+  ]),
+]);
 ---
 
 <Base
   title={`${card.title} | خدمات ديارنا الحديثة`}
   description={card.excerpt}
+  image={card.image || undefined}
+  canonical={path}
+  schema={schemaJson}
 >
   <PageHero title={card.title} subtitle={card.excerpt} eyebrow={card.tag}>
     <a href={url('/about')} class="back">→ عن الشركة</a>

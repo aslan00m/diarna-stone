@@ -33,9 +33,22 @@ const medinaTop = MEDINA_TOP_SLUGS
     return p;
   })
   .filter(Boolean);
+import { graph, breadcrumb } from '../../data/schema.js';
+
+const schemaJson = graph([
+  breadcrumb([
+    { name: 'الرئيسية', path: '/' },
+    { name: 'المنتجات', path: '/products' },
+  ]),
+]);
 ---
 
-<Base title="المنتجات" description="كتالوج كامل للرخام والجرانيت والترافرتينو.">
+<Base
+  title="المنتجات"
+  description="كتالوج كامل للرخام والجرانيت والترافرتينو."
+  canonical="/products"
+  schema={schemaJson}
+>
   <section>
     <div class="wrap">
       <div class="crumbs"><a href={url('/')}>الرئيسية</a> / المنتجات</div>

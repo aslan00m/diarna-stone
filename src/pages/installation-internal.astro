@@ -1,13 +1,24 @@
 ---
 import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
+import { graph, breadcrumb } from '../data/schema.js';
 import { LINKS } from '../data/company.js';
 import PhotoPlaceholder from '../components/PhotoPlaceholder.astro';
+
+const path = '/installation-internal';
+const schemaJson = graph([breadcrumb([
+  { name: 'الرئيسية', path: '/' },
+  { name: 'التركيب الداخلي', path: path },
+])]);
+
 ---
 
 <Base
   title="التركيب الداخلي"
   description="تركيب أرضيات الرخام والجرانيت والتشطيبات الداخلية — أرضيات، جدران، درج، مطابخ، ومغاسل."
+
+  canonical={path}
+  schema={schemaJson}
 >
   <section>
     <div class="wrap">

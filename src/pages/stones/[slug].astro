@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import PRODUCTS from '../../data/products.js';
 import STONES from '../../data/families.js';
 import { CATEGORIES, ORIGINS, COMPANY } from '../../data/company.js';
+import { graph, product as productSchema, breadcrumb } from '../../data/schema.js';
 
 // One page per STONE (not per product). A stone is sold in several grades that share a
 // single photograph — hajar aldar publishes one photo per product and no gallery — so
@@ -44,6 +45,28 @@ const waMsg = encodeURIComponent(
 );
 const waLink = `https://wa.me/${COMPANY.whatsapp}?text=${waMsg}`;
 
+// /stones/{slug} and /products/{slug} describe the same stone. A canonical
+// pointing at the /products/ twin makes that explicit: the two URLs never
+// compete, and the /stones/ page stays reachable (329 internal links point at
+// it) instead of being 301'd or deleted.
+const canonicalTarget = product ? `/products/${product.slug}` : null;
+const schemaJson = graph([
+  productSchema({
+    name: stone.name,
+    description: `${stone.name}: ${grades.length} درجات متوفرة بألوان ${colors.slice(0, 3).join('، ')}${colors.length > 3 ? ' وغيرها' : ''}.`,
+    image: stone.image,
+    path: `/stones/${stone.slug}`,
+    category: cat?.name,
+    originName: org?.name,
+  }),
+  breadcrumb([
+    { name: 'الرئيسية', path: '/' },
+    { name: 'المنتجات', path: '/products' },
+    { name: cat?.name || 'المنتجات', path: `/products/${stone.cat}` },
+    { name: stone.name, path: `/stones/${stone.slug}` },
+  ]),
+]);
+
 const related = STONES.filter(
   (s) => s.slug !== stone.slug && s.cat === stone.cat
 ).slice(0, 4);
@@ -52,6 +75,9 @@ const related = STONES.filter(
 <Base
   title={`${stone.name} — ${grades.length} أنواع | ديارنا الحديثة`}
   description={`${stone.name}: ${grades.length} درجات متوفرة بألوان ${colors.slice(0, 3).join("، ")}${colors.length > 3 ? " وغيرها" : ""}. اطلب عرض سعر من ديارنا الحديثة.`}
+  image={stone.image}
+  canonical={canonicalTarget || `/stones/${stone.slug}`}
+  schema={schemaJson}
 >
   <section>
     <div class="wrap">

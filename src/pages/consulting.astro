@@ -1,10 +1,21 @@
 ---
 import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
+import { graph, breadcrumb } from '../data/schema.js';
 import { COMPANY, LINKS } from '../data/company.js';
+
+const path = '/consulting';
+const schemaJson = graph([breadcrumb([
+  { name: 'الرئيسية', path: '/' },
+  { name: 'الاستشارات', path: path },
+])]);
+
 ---
 
-<Base title="الاستشارات" description="استشارات حجر مجانية لاختيار الخامة والتصميم والتركيب.">
+<Base title="الاستشارات" description="استشارات حجر مجانية لاختيار الخامة والتصميم والتركيب."
+  canonical={path}
+  schema={schemaJson}
+>
   <section>
     <div class="wrap">
       <div class="crumbs"><a href={url('/')}>الرئيسية</a> / الاستشارات</div>

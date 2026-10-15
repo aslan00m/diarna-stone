@@ -4,17 +4,28 @@ import Base from '../../layouts/Base.astro';
 import PRODUCTS from '../../data/products.js';
 import { ORIGINS } from '../../data/company.js';
 import { url } from '../../data/urls.js';
+import { graph, breadcrumb } from '../../data/schema.js';
 
 const used = ORIGINS.filter((o) => PRODUCTS.some((p) => p.origin === o.slug));
 const groups = used.map((o) => ({
   o,
   count: PRODUCTS.filter((p) => p.origin === o.slug).length,
 }));
+
+const path = '/origins';
+const schemaJson = graph([breadcrumb([
+  { name: 'الرئيسية', path: '/' },
+  { name: 'مصادر الأحجار', path: path },
+])]);
+
 ---
 
 <Base
   title="مصادر الأحجار حسب الدولة"
   description="من أي دولة يأتي حجرك؟ تصفّح أحجارنا مصنّفة حسب بلد المنشأ: تركي، إيطالي، إسباني، هندي، برازيلي وغيرها."
+
+  canonical={path}
+  schema={schemaJson}
 >
   <PageHero
     title="مصادر الأحجار"

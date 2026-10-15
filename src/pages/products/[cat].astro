@@ -1,6 +1,7 @@
 ---
 import { url } from '../../data/urls.js';
 import Base from '../../layouts/Base.astro';
+import { graph, breadcrumb } from '../../data/schema.js';
 import PRODUCTS from '../../data/products.js';
 import STONES from '../../data/families.js';
 import GALLERY from '../../data/sink-gallery.js';
@@ -55,11 +56,26 @@ const medinaTop = MEDINA_TOP_SLUGS
 const gallery = cat === 'sinks' || cat === 'all' ? GALLERY : [];
 const cards = cat === 'all' ? STONES : STONES.filter((c) => c.cat === cat);
 const catName = cat === 'all' ? 'كل الأحجار' : CATEGORIES.find((c) => c.slug === cat)?.name;
+// The 'all' and 'marble' style routes are not real category objects, so
+// cat?.name is undefined there. The canonical must be the page's own path,
+// never a fragment built from a name that does not exist.
+const catReal = CATEGORIES.find((c) => c.slug === cat);
 const intro = cat === 'all' ? null : CATEGORY_INTRO[cat];
 const gradeCount = cards.reduce((n, c) => n + c.count, 0);
 const multiCount = cards.filter((c) => c.multi).length;
 const sinkProducts = PRODUCTS.filter((p) => p.category === 'sinks');
 const sinkPhotos = gallery.reduce((n, g) => n + g.count, 0);
+
+const catPath = `/products/${cat}`;
+const schemaJson = graph([
+  breadcrumb([
+    { name: 'الرئيسية', path: '/' },
+    { name: 'المنتجات', path: '/products' },
+    // Only add the category crumb when the route really is a category —
+    // otherwise the breadcrumb's last item must equal the canonical.
+    ...(catReal ? [{ name: catReal.name, path: catPath }] : []),
+  ]),
+]);
 ---
 
 <Base
@@ -69,6 +85,8 @@ const sinkPhotos = gallery.reduce((n, g) => n + g.count, 0);
   description={cat === 'sinks'
     ? `${gallery.length} مغسلة حجرية نفّذناها — ${sinkPhotos} صورة حقيقية، مع المواصفات والمقاسات والخامات.`
     : `تصفح ${cards.length} حجراً (${gradeCount} درجة) في متجر ديارنا الحديثة للحجر الطبيعي.`}
+  canonical={catPath}
+  schema={schemaJson}
 >
   <section>
     <div class="wrap">

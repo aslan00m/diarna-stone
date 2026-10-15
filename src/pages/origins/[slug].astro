@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import PRODUCTS from '../../data/products.js';
 import { ORIGINS, CATEGORIES } from '../../data/company.js';
 import { url } from '../../data/urls.js';
+import { graph, breadcrumb } from '../../data/schema.js';
 
 export function getStaticPaths() {
   const used = new Set(PRODUCTS.map((p) => p.origin));
@@ -19,11 +20,22 @@ const byCat = CATEGORIES.map((c) => ({
   cat: c,
   list: items.filter((p) => p.category === c.slug),
 })).filter((g) => g.list.length > 0);
+
+const path = `/origins/${origin.slug}`;
+const schemaJson = graph([
+  breadcrumb([
+    { name: 'الرئيسية', path: '/' },
+    { name: 'المصادر', path: '/origins' },
+    { name: `أحجار ${origin.name}`, path },
+  ]),
+]);
 ---
 
 <Base
   title={`أحجار ${origin.name} | ديارنا الحديثة`}
   description={`تشكيلة الأحجار القادمة من ${origin.name}: رخام وجرانيت وترا فرتينو وحجر جيري، مع الأسعار والمقاسات والتشطيبات المتاحة.`}
+  canonical={path}
+  schema={schemaJson}
 >
   <PageHero
     title={`أحجار ${origin.name}`}

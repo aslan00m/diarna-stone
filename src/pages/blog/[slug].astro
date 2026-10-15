@@ -2,6 +2,7 @@
 import { url } from '../../data/urls.js';
 import Base from '../../layouts/Base.astro';
 import POSTS from '../../data/blog.js';
+import { graph, article as articleSchema, faq as faqSchema, breadcrumb } from '../../data/schema.js';
 
 export function getStaticPaths() {
   return [
@@ -19,9 +20,42 @@ if (!post) {
 
 const fmt = (d) =>
   new Date(d).toLocaleDateString('ar-SA', { year: 'numeric', month: 'long', day: 'numeric' });
+
+// Word count drives the Article node's wordCount, and it is what proves the
+// article is not a stub. Counted from the rendered prose, not the source.
+const words = post.sections.reduce(
+  (n, s) => n + s.p.join(' ').split(/\s+/).filter(Boolean).length,
+  0
+);
+
+const path = `/blog/${post.slug}`;
+const schemaJson = graph([
+  articleSchema({
+    title: post.title,
+    description: post.excerpt,
+    path,
+    datePublished: post.date,
+    image: post.image,
+    section: post.category,
+    wordCount: words,
+  }),
+  faqSchema(post.faq),
+  breadcrumb([
+    { name: 'الرئيسية', path: '/' },
+    { name: 'مدونتنا', path: '/blog' },
+    { name: post.title, path },
+  ]),
+]);
 ---
 
-<Base title={post.title} description={post.excerpt}>
+<Base
+  title={post.title}
+  description={post.excerpt}
+  image={post.image}
+  canonical={path}
+  schema={schemaJson}
+  type="article"
+>
   <section>
     <div class="wrap">
       <div class="crumbs"><a href={url('/')}>الرئيسية</a> / <a href={url('/blog')}>مدونتنا</a> / {post.title}</div>

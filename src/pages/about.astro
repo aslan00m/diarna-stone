@@ -1,13 +1,24 @@
 ---
 import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
+import { graph, breadcrumb } from '../data/schema.js';
 import { PARTNERS } from '../data/partners.js';
 import { COMPANY, LINKS } from '../data/company.js';
 import PhotoPlaceholder from '../components/PhotoPlaceholder.astro';
 import ABOUT_CARDS from '../data/about-cards.js';
+
+const path = '/about';
+const schemaJson = graph([breadcrumb([
+  { name: 'الرئيسية', path: '/' },
+  { name: 'عن الشركة', path: path },
+])]);
+
 ---
 
-<Base title="عن الشركة" description={`تعرف على ${COMPANY.name} — تجارة الرخام والحجر الطبيعي وتركيب الواجهات في الرياض.`}>
+<Base title="عن الشركة" description={`تعرف على ${COMPANY.name} — تجارة الرخام والحجر الطبيعي وتركيب الواجهات في الرياض.`}
+  canonical={path}
+  schema={schemaJson}
+>
   <section>
     <div class="wrap">
       <div class="crumbs"><a href={url('/')}>الرئيسية</a> / عن الشركة</div>

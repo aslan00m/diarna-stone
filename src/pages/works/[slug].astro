@@ -3,6 +3,7 @@ import PageHero from '../../components/PageHero.astro';
 import Base from '../../layouts/Base.astro';
 import PROJECTS from '../../data/projects-full.js';
 import { url } from '../../data/urls.js';
+import { graph, breadcrumb } from '../../data/schema.js';
 
 export function getStaticPaths() {
   return PROJECTS.map((p) => ({ params: { slug: p.slug }, props: { project: p } }));
@@ -11,11 +12,23 @@ export function getStaticPaths() {
 const { project: pr } = Astro.props;
 const allImgs = pr.stages.flatMap((s) => s.images);
 const others = PROJECTS.filter((p) => p.slug !== pr.slug).slice(0, 3);
+
+const path = `/works/${pr.slug}`;
+const schemaJson = graph([
+  breadcrumb([
+    { name: 'الرئيسية', path: '/' },
+    { name: 'مشاريعنا', path: '/works' },
+    { name: pr.title, path },
+  ]),
+]);
 ---
 
 <Base
   title={`${pr.title} | مشاريع ديارنا الحديثة`}
   description={pr.summary}
+  image={pr.cover}
+  canonical={path}
+  schema={schemaJson}
 >
   <PageHero
     title={pr.title}

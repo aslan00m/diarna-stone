@@ -1,12 +1,29 @@
 ---
 import { url } from '../data/urls.js';
 import { COMPANY, LINKS } from '../data/company.js';
+import { abs } from '../data/schema.js';
 import '../styles/global.css';
 import '../styles/tokens.css';
 import '../styles/motion.css';
 
-const { title, description } = Astro.props;
-const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${COMPANY.tagline}`;
+const { title, description, image, canonical, schema, type, noindex } = Astro.props;
+
+// Base.astro must not repeat the company name when the title already carries it:
+// "خدماتنا | ديارنا الحديثة" appended to a title that ends in "ديارنا الحديثة"
+// reads as a stutter and Google truncates it anyway.
+const hasName = (s) => !!s && s.replace(/\s/g, '').includes(COMPANY.name.replace(/\s/g, ''));
+const pageTitle = title
+  ? hasName(title)
+    ? title
+    : `${title} | ${COMPANY.name}`
+  : `${COMPANY.name} — ${COMPANY.tagline}`;
+
+// Absolute URL of the current page. `canonical` overrides it (used by /stones/,
+// which delegates to its /products/ twin so the two never compete).
+const canonicalUrl = canonical ? (canonical.startsWith('http') ? canonical : abs(canonical)) : abs(Astro.url.pathname);
+
+// og:image must be an absolute URL — a relative path is ignored by every scraper.
+const ogImage = image ? (image.startsWith('http') ? image : abs(image)) : abs('/images/heroes/hero-1-villa-evening.jpg');
 ---
 
 <!doctype html>
@@ -16,11 +33,32 @@ const pageTitle = title ? `${title} | ${COMPANY.name}` : `${COMPANY.name} — ${
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={description || COMPANY.description} />
+    <link rel="canonical" href={canonicalUrl} />
+    {
+      noindex && <meta name="robots" content="noindex, follow" />
+    }
+
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description || COMPANY.description} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={type || 'website'} />
     <meta property="og:locale" content="ar_SA" />
+    <meta property="og:site_name" content={COMPANY.name} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:alt" content={pageTitle} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description || COMPANY.description} />
+    <meta name="twitter:image" content={ogImage} />
+
     <link rel="icon" href={url("/favicon.svg")} type="image/svg+xml" />
+
+    {
+      schema && (
+        <script type="application/ld+json" set:html={schema} />
+      )
+    }
   </head>
   <body>
     <header class="top" style="display:block !important;visibility:visible !important;opacity:1 !important;position:sticky;top:0;z-index:999;">

@@ -8,6 +8,7 @@ import ProductImage from '../../components/ProductImage.astro';
 import { MARBLE_CONTENT } from '../../data/content/marble.js';
 import { STONE_CONTENT } from '../../data/content/stone.js';
 import { SINK_CONTENT } from '../../data/content/sinks.js';
+import { graph, product as productSchema, breadcrumb } from '../../data/schema.js';
 
 export function getStaticPaths() {
   return PRODUCTS.map((p) => ({
@@ -22,6 +23,24 @@ const org = ORIGINS.find((o) => o.slug === product.origin);
 const related = PRODUCTS.filter((p) => p.slug !== product.slug && (p.category === product.category || p.origin === product.origin)).slice(0, 4);
 const deep = MARBLE_CONTENT[product.slug] || STONE_CONTENT[product.slug] || SINK_CONTENT[product.slug] || null;
 
+const path = `/products/${product.slug}`;
+const schemaJson = graph([
+  productSchema({
+    name: product.name,
+    description: product.excerpt,
+    image: product.image,
+    path,
+    category: cat?.name,
+    originName: org?.name,
+  }),
+  breadcrumb([
+    { name: 'الرئيسية', path: '/' },
+    { name: 'المنتجات', path: '/products' },
+    { name: cat?.name || 'المنتجات', path: `/products/${product.category}` },
+    { name: product.name, path },
+  ]),
+]);
+
 // رابط واتساب برسالة تخص هذا المنتج بالاسم
 const waMsg = encodeURIComponent(
   `السلام عليكم، أرغب في الاستفسار عن ${product.name} (${product.nameEn}) — السعر والتوفر.`
@@ -29,7 +48,13 @@ const waMsg = encodeURIComponent(
 const waLink = `https://wa.me/${COMPANY.whatsapp}?text=${waMsg}`;
 ---
 
-<Base title={`${product.name} (${product.nameEn})`} description={product.excerpt}>
+<Base
+  title={`${product.name} (${product.nameEn})`}
+  description={product.excerpt}
+  image={product.image}
+  canonical={path}
+  schema={schemaJson}
+>
   <section>
     <div class="wrap">
       <div class="crumbs">

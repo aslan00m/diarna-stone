@@ -2,6 +2,7 @@
 import { url } from '../../data/urls.js';
 import Base from '../../layouts/Base.astro';
 import GALLERY from '../../data/sink-gallery.js';
+import { graph, breadcrumb, abs } from '../../data/schema.js';
 import { LINKS, COMPANY } from '../../data/company.js';
 
 // Gallery of the owner's own sink photos. Each entry is one vanity; where several
@@ -22,13 +23,45 @@ const FILTERS = [
   { key: 'triple', label: 'ثلاثية' },
   { key: 'quad', label: 'رباعية' },
 ];
+
+// /sinks-gallery/all is an aggregator, not a destination: it shows every photo
+// with no unique text, so it competes with the 37 detail pages for the same
+// terms. noindex keeps the photos findable through the detail pages while
+// removing the duplicate surface. It is deliberately absent from the sitemap.
+const isAggregator = !entry;
+
+const gPath = entry ? `/sinks-gallery/${entry.slug}` : '/sinks-gallery';
+const schemaJson = graph([
+  // A gallery entry is a set of real photos of a unit we made — ImageObject is
+  // the honest type. Inventing a Product node with a price we do not publish
+  // would be a rich-result violation.
+  ...(entry
+    ? entry.photos.map((ph) => ({
+        '@type': 'ImageObject',
+        '@id': `${abs(gPath)}#photo-${ph.split('/').pop().replace(/\.[a-z]+$/, '')}`,
+        contentUrl: abs(ph),
+        url: abs(gPath),
+        name: entry.name,
+        caption: `مغسلة ${entry.name} — ${entry.stoneType} نفّذتها ديارنا الحديثة`,
+      }))
+    : []),
+  breadcrumb([
+    { name: 'الرئيسية', path: '/' },
+    { name: 'المغاسل الحجرية', path: '/sinks' },
+    { name: 'المعرض', path: '/sinks-gallery' },
+    ...(entry ? [{ name: entry.name, path: gPath }] : []),
+  ]),
+]);
 ---
 
 <Base
+  noindex={isAggregator}
   title={entry ? `${entry.name} — معرض المغاسل` : "معرض المغاسل الحجرية — صور حقيقية"}
   description={entry
     ? entry.description_ar
     : `معرض صور حقيقية لمغاسل حجرية نفّذناها — ${GALLERY.length} نموذجاً بألوان وخامات مختلفة.`}
+  canonical={gPath}
+  schema={schemaJson}
 >
   <section>
     <div class="wrap">

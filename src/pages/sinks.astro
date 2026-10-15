@@ -1,17 +1,28 @@
 ---
 import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
+import { graph, breadcrumb } from '../data/schema.js';
 import { LINKS } from '../data/company.js';
 import PRODUCTS from '../data/products.js';
 import ProductCard from '../components/ProductCard.astro';
 import GALLERY from '../data/sink-gallery.js';
 
 const SINK_PHOTOS = GALLERY.reduce((n, e) => n + e.count, 0);
+
+const path = '/sinks';
+const schemaJson = graph([breadcrumb([
+  { name: 'الرئيسية', path: '/' },
+  { name: 'المغاسل الحجرية', path: path },
+])]);
+
 ---
 
 <Base
   title="المغاسل الحجرية"
   description="مغاسل رخام وجرانيت وترا فرتينو مصنوعة من الحجر الطبيعي — الأنواع، الخامات، المقاسات، والتركيب. ديارنا الحديثة."
+
+  canonical={path}
+  schema={schemaJson}
 >
   <section>
     <div class="wrap">

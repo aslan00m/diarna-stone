@@ -1,13 +1,24 @@
 ---
 import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
+import { graph, breadcrumb } from '../data/schema.js';
 import { LINKS } from '../data/company.js';
 import PhotoPlaceholder from '../components/PhotoPlaceholder.astro';
+
+const path = '/installation-external';
+const schemaJson = graph([breadcrumb([
+  { name: 'الرئيسية', path: '/' },
+  { name: 'التركيب الخارجي', path: path },
+])]);
+
 ---
 
 <Base
   title="التركيب الخارجي"
   description="تركيب واجهات الحجر الطبيعي بخبرة ميدانية — تحضير، تثبيت، فواصل التمدد، ومعالجة التفاصيل النهائية."
+
+  canonical={path}
+  schema={schemaJson}
 >
   <section>
     <div class="wrap">

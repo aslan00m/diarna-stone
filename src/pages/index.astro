@@ -52,9 +52,35 @@ const counts = {
   travertine: PRODUCTS.filter((p) => p.category === 'travertine').length,
   limestone: PRODUCTS.filter((p) => p.category === 'limestone').length,
 };
+import { graph, website, faq } from '../data/schema.js';
+
+// The homepage is the only page that carries a WebSite node; the FAQ is the
+// four questions the owner is actually asked, and it is what earns an FAQ
+// rich result on the highest-traffic URL of the site.
+const schemaJson = graph([
+  website(),
+  faq([
+    {
+      q: 'هل تشترون رخاماً مستعملاً؟',
+      a: 'نشتري رخاماً وجرانيتاً مستعملاً بحالة جيدة ونعيد بيعه بعد التجهيز. تواصل معنا مع صور الحجر ومقاساته.',
+    },
+    {
+      q: 'ما هو أقل كمية للتوريد؟',
+      a: 'الحد الأدنى يختلف حسب الحجر، والأفضل إرسال المطلوب والمقاسات لنؤكد الكمية والتوفر والتكلفة.',
+    },
+    {
+      q: 'هل التركيب متاح خارج المدينة المنورة؟',
+      a: 'نخدم المدينة المنورة وما حولها، ومشاريع التوريد تصل لجميع مناطق المملكة.',
+    },
+    {
+      q: 'هل يمكن طلب عينة قبل الشراء؟',
+      a: 'نعم، نرسل عينات صغيرة للعملاء الجدد لمعاينة اللون واللمس قبل تثبيت الطلب.',
+    },
+  ]),
+]);
 ---
 
-<Base>
+<Base schema={schemaJson} image="/images/heroes/hero-1-villa-evening.jpg">
   <!-- HERO: الصور أولاً بملء العرض، ثم النص تحتها -->
   <div class="hero has-photo" id="hero">
     <div class="hero-media">

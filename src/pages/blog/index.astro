@@ -5,9 +5,11 @@ import POSTS from '../../data/blog.js';
 
 const fmt = (d) =>
   new Date(d).toLocaleDateString('ar-SA', { year: 'numeric', month: 'long', day: 'numeric' });
+import { graph, breadcrumb } from '../../data/schema.js';
+const schemaJson = graph([breadcrumb([{ name: 'الرئيسية', path: '/' }, { name: 'مدونتنا', path: '/blog' }])]);
 ---
 
-<Base title="مدونتنا" description="مقالات ونصائح عن الرخام والحجر الطبيعي: الاختيار، المواصفات، والتركيب.">
+<Base title="مدونتنا" description="مقالات ونصائح عن الرخام والحجر الطبيعي: الاختيار، المواصفات، والتركيب." canonical="/blog" schema={schemaJson}>
   <section>
     <div class="wrap">
       <div class="crumbs"><a href={url('/')}>الرئيسية</a> / مدونتنا</div>
