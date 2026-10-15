@@ -329,6 +329,83 @@ def _q(s):
     return "'" + str(s).replace("'", "'\\''") + "'"
 
 
+def cmd_claim(args):
+    """Atomically claim ONE unpublished topic for a single-article cron run.
+
+    Four jobs run per day; a lock file + claims ledger guarantees each gets a
+    different topic even if they fire at the same moment. A claim expires after
+    3 days so a failed publish gets retried instead of being lost forever.
+    Prints JSON: {"claimed": <id|null>, ...} on stdout for the cron agent.
+    """
+    import fcntl
+
+    data = load_data()
+    published = {p["slug"] for p in data["posts"]}
+    topics_dir = ROOT / "topics"
+    topics_dir.mkdir(exist_ok=True)
+    lock_path = topics_dir / ".claim.lock"
+    claims_path = topics_dir / "claims.json"
+
+    with open(lock_path, "w") as lf:
+        fcntl.flock(lf, fcntl.LOCK_EX)
+        claims = []
+        if claims_path.exists():
+            try:
+                claims = json.loads(claims_path.read_text(encoding="utf-8"))
+            except Exception:
+                claims = []
+        now = time.time()
+        fresh = {c["id"] for c in claims if now - c.get("ts", 0) < 3 * 86400}
+        unused = [
+            t
+            for t in data["topics"]
+            if t["id"] not in published and t["id"] not in fresh
+        ]
+        if not unused:
+            print(
+                json.dumps(
+                    {"claimed": None, "bank_unused": 0, "need_authoring": 1},
+                    ensure_ascii=False,
+                )
+            )
+            return 0
+
+        # category rotation: the Nth claim of the day takes the first unused
+        # topic from the (N mod K)th category, so the day stays diverse
+        cats = sorted({t.get("category", "?") for t in unused})
+        n = len(claims)
+        pick = None
+        for offset in range(len(cats)):
+            cat = cats[(n + offset) % len(cats)]
+            for t in unused:
+                if t.get("category", "?") == cat:
+                    pick = t
+                    break
+            if pick:
+                break
+        if pick is None:
+            pick = unused[0]
+
+        claims.append({"id": pick["id"], "ts": now})
+        claims_path.write_text(
+            json.dumps(claims, ensure_ascii=False), encoding="utf-8"
+        )
+        print(
+            json.dumps(
+                {
+                    "claimed": pick["id"],
+                    "title": pick.get("title", ""),
+                    "primary": pick.get("primary", ""),
+                    "category": pick.get("category", ""),
+                    "bank_unused": len(unused) - 1,
+                    "need_authoring": 0,
+                },
+                ensure_ascii=False,
+            )
+        )
+    return 0
+
+
 def cmd_author_rules(args):
     print(
         RULES
@@ -610,6 +687,7 @@ def main():
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("plan")
+    sub.add_parser("claim")
     sub.add_parser("author-rules")
     sub.add_parser("check")
     pp = sub.add_parser("publish")
@@ -617,6 +695,7 @@ def main():
     args = ap.parse_args()
     return {
         "plan": cmd_plan,
+        "claim": cmd_claim,
         "author-rules": cmd_author_rules,
         "publish": cmd_publish,
         "check": cmd_check,
