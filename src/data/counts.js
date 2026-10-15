@@ -36,19 +36,19 @@ export const SINK_PHOTO_COUNT = GALLERY.reduce((n, g) => n + g.count, 0);
 
 // one real photo per category, for the homepage category grid
 export const CATEGORY_COVER = {
-  "marble": "/images/products-new/cream-marble.jpg",
-  "granite": "/images/products-new/granite-black-white.jpg",
-  "travertine": "/images/products-new/golden-travertine.jpg",
-  "limestone": "/images/products-new/slate-grey.jpg",
+  "marble": "/images/covers/marble-cover.jpg",
+  "granite": "/images/covers/granite-cover.jpg",
+  "travertine": "/images/covers/travertine-cover.jpg",
+  "limestone": "/images/covers/limestone-cover.jpg",
   "sinks": "/images/sinks/white-gold-ceramic-double-vessel-00220bcf.jpg"
 };
 
 // نص بديل وصفي لكل غلاف فئة — يصف ما في الصورة فعلاً، وليس اسم الفئة فقط.
 // قارئ الشاشة يقرأ هذا النص، ومحركات البحث تفهرس الصورة به.
 export const CATEGORY_COVER_ALT = {
-  "marble": "لوح رخام كريمي فاتح بعروق بنية ناعمة متفرعة",
-  "granite": "جرانيت أبيض وأسود بنقشة ملح وفلفل",
-  "travertine": "ترافنتينو ذهبي بعروق أفقية طبيعية",
-  "limestone": "حجر جيري رمادي داكن بسطح طبيعي مشقوق",
+  "marble": "لوح رخام أبيض مصقول بعروق رمادية ورمادية فاحية تميل للذهبي",
+  "granite": "جرانيت رمادي فاتح وداكن وأسود وأبيض بنقشة حبيبية معدنية",
+  "travertine": "ترافنتينو بيج بسطح مسامي وخطوط طبقية أفقية طبيعية",
+  "limestone": "حجر طبيعي بيج مسامي بسطح مطفي وخامات رملية ناعمة",
   "sinks": "مغسلة سيراميك سطحية مزدوجة باللون الأبيض والذهبي"
 };

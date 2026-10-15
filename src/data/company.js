@@ -23,7 +23,7 @@ export const CATEGORIES = [
   { slug: 'marble', name: 'رخام', icon: '▦' },
   { slug: 'granite', name: 'جرانيت', icon: '◈' },
   { slug: 'travertine', name: 'ترافنتينو', icon: '▤' },
-  { slug: 'limestone', name: 'حجر جيري', icon: '▨' },
+  { slug: 'limestone', name: 'الحجر الطبيعي', icon: '▨' },
   { slug: 'sinks', name: 'المغاسل', icon: '◐' },
 ];
 
