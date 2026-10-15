@@ -46,39 +46,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-jamal-22",
-    "label": "الجمال بمقاس 30×30 سم",
-    "name": "الجمال بمقاس 30×30 سم — كود 63010",
-    "nameEn": "",
-    "color": "البيج، الرمادي، والأبيض",
-    "refColor": "",
-    "colorCode": "6123",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "63010",
-     "origin": "saudi"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-jamal-3",
@@ -123,39 +91,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-jamal-21",
-    "label": "الجمال بمقاس 30×30 سم",
-    "name": "الجمال بمقاس 30×30 سم — كود 63009",
-    "nameEn": "",
-    "color": "أبيض",
-    "refColor": "",
-    "colorCode": "6112",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "63009",
-     "origin": "saudi"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-jamal-4",
@@ -200,39 +136,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-jamal-19",
-    "label": "الجمال بمقاس 30×30 سم",
-    "name": "الجمال بمقاس 30×30 سم — كود 63007",
-    "nameEn": "",
-    "color": "أبيض",
-    "refColor": "",
-    "colorCode": "6113",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "63007",
-     "origin": "saudi"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-jamal-5",
@@ -277,39 +181,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-jamal-18",
-    "label": "الجمال بمقاس 30×30 سم",
-    "name": "الجمال بمقاس 30×30 سم — كود 63004",
-    "nameEn": "",
-    "color": "أبيض",
-    "refColor": "",
-    "colorCode": "6114",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "63004",
-     "origin": "saudi"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-jamal-6",
@@ -354,39 +226,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-jamal-17",
-    "label": "الجمال بمقاس 30×30 سم",
-    "name": "الجمال بمقاس 30×30 سم — كود 63003",
-    "nameEn": "",
-    "color": "أبيض",
-    "refColor": "",
-    "colorCode": "6114",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "63003",
-     "origin": "saudi"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-jamal-7",
@@ -431,39 +271,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-jamal-16",
-    "label": "الجمال بمقاس 30×30 سم",
-    "name": "الجمال بمقاس 30×30 سم — كود 63002",
-    "nameEn": "",
-    "color": "أبيض",
-    "refColor": "",
-    "colorCode": "6115",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "63002",
-     "origin": "saudi"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-jamal-11",
@@ -508,39 +316,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-jamal-20",
-    "label": "الجمال بمقاس 30×30 سم",
-    "name": "الجمال بمقاس 30×30 سم — كود 63008",
-    "nameEn": "",
-    "color": "أبيض",
-    "refColor": "",
-    "colorCode": "6111",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "63008",
-     "origin": "omani"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-jamal-2",
@@ -585,39 +361,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-jamal-23",
-    "label": "الجمال بمقاس 60×30 سم",
-    "name": "الجمال بمقاس 60×30 سم — كود 63002",
-    "nameEn": "",
-    "color": "البيج، الرمادي، والأبيض",
-    "refColor": "",
-    "colorCode": "6121",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "63002",
-     "origin": "saudi"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-jamal-8",
@@ -662,39 +406,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-jamal-15",
-    "label": "الجمال بمقاس 60×60 سم",
-    "name": "الجمال بمقاس 60×60 سم — كود 66001",
-    "nameEn": "",
-    "color": "أبيض",
-    "refColor": "",
-    "colorCode": "6116",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "66001",
-     "origin": "saudi"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-jamal-9",
@@ -739,39 +451,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-jamal-13",
-    "label": "الجمال بمقاس 60×60 سم",
-    "name": "الجمال بمقاس 60×60 سم — كود 66003",
-    "nameEn": "",
-    "color": "أبيض",
-    "refColor": "",
-    "colorCode": "6118",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "66003",
-     "origin": "saudi"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-jamal-10",
@@ -816,39 +496,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-jamal-12",
-    "label": "الجمال بمقاس 60×60 سم",
-    "name": "الجمال بمقاس 60×60 سم — كود 66004",
-    "nameEn": "",
-    "color": "أبيض",
-    "refColor": "",
-    "colorCode": "6119",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "66004",
-     "origin": "saudi"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-jamal-14",
@@ -938,39 +586,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-fanar-18",
-    "label": "الفنار بمقاس 40×40 سم",
-    "name": "الفنار بمقاس 40×40 سم — كود 200755",
-    "nameEn": "",
-    "color": "رمادي",
-    "refColor": "",
-    "colorCode": "6120",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "200755",
-     "origin": "omani"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-fanar-2",
@@ -1015,39 +631,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-fanar-17",
-    "label": "الفنار بمقاس 40×40 سم",
-    "name": "الفنار بمقاس 40×40 سم — كود 190427",
-    "nameEn": "",
-    "color": "أبيض",
-    "refColor": "",
-    "colorCode": "6133",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "190427",
-     "origin": "omani"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-fanar-3",
@@ -1092,39 +676,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-fanar-16",
-    "label": "الفنار بمقاس 40×40 سم",
-    "name": "الفنار بمقاس 40×40 سم — كود 190426",
-    "nameEn": "",
-    "color": "بيج",
-    "refColor": "",
-    "colorCode": "6134",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "190426",
-     "origin": "omani"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-fanar-4",
@@ -1169,39 +721,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-fanar-15",
-    "label": "الفنار بمقاس 40×40 سم",
-    "name": "الفنار بمقاس 40×40 سم — كود 190425",
-    "nameEn": "",
-    "color": "بيج",
-    "refColor": "",
-    "colorCode": "6136",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "190425",
-     "origin": "omani"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-fanar-5",
@@ -1246,39 +766,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-fanar-14",
-    "label": "الفنار بمقاس 40×40 سم",
-    "name": "الفنار بمقاس 40×40 سم — كود 180475",
-    "nameEn": "",
-    "color": "أبيض",
-    "refColor": "",
-    "colorCode": "6139",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "180475",
-     "origin": "omani"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-fanar-6",
@@ -1323,39 +811,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-fanar-13",
-    "label": "الفنار بمقاس 40×40 سم",
-    "name": "الفنار بمقاس 40×40 سم — كود 210258",
-    "nameEn": "",
-    "color": "أبيض",
-    "refColor": "",
-    "colorCode": "6142",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "210258",
-     "origin": "omani"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-fanar-7",
@@ -1400,39 +856,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-fanar-12",
-    "label": "الفنار بمقاس 40×40 سم",
-    "name": "الفنار بمقاس 40×40 سم — كود 210623",
-    "nameEn": "",
-    "color": "رمادي",
-    "refColor": "",
-    "colorCode": "6143",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "210623",
-     "origin": "omani"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-fanar-8",
@@ -1477,39 +901,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-fanar-11",
-    "label": "الفنار بمقاس 40×40 سم",
-    "name": "الفنار بمقاس 40×40 سم — كود 220045",
-    "nameEn": "",
-    "color": "رمادي",
-    "refColor": "",
-    "colorCode": "6144",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "220045",
-     "origin": "omani"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "al-fanar-9",
@@ -1554,39 +946,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "al-fanar-10",
-    "label": "الفنار بمقاس 40×40 سم",
-    "name": "الفنار بمقاس 40×40 سم — كود 220043",
-    "nameEn": "",
-    "color": "الأحمر",
-    "refColor": "",
-    "colorCode": "6145",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "220043",
-     "origin": "omani"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "balqis",
@@ -1631,39 +991,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "balqis-3",
-    "label": "بلقيس بمقاس 42×42 سم",
-    "name": "بلقيس بمقاس 42×42 سم — كود 42008",
-    "nameEn": "",
-    "color": "أبيض",
-    "refColor": "",
-    "colorCode": "6141",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "42008",
-     "origin": "omani"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "balqis-2",
@@ -1708,39 +1036,7 @@ export default [
     },
     "isMain": true
    },
-   {
-    "slug": "balqis-4",
-    "label": "بلقيس بمقاس 42×42 سم",
-    "name": "بلقيس بمقاس 42×42 سم — كود 42024",
-    "nameEn": "",
-    "color": "أبيض",
-    "refColor": "",
-    "colorCode": "6140",
-    "spec": {
-     "thickness": [
-      "9 مم",
-      "10 مم",
-      "12 مم"
-     ],
-     "finish": [
-      "مصقول (Polished)",
-      "مطفأ (Honed)"
-     ],
-     "hardness": "6 – 7",
-     "density": "2.4 جم/سم³ تقريباً",
-     "uses": [
-      "أرضيات",
-      "جدران",
-      "واجهات",
-      "أرضيات حمامات",
-      "جدران حمامات"
-     ],
-     "code": "42024",
-     "origin": "omani"
-    },
-    "isMain": false
-   }
-  ]
+   ]
  },
  {
   "slug": "سيراميك-عماني",
