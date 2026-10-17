@@ -398,6 +398,64 @@ const schemaJson = graph([
     </div>
   </section>
 
+  <!-- نموذج طلب عرض سعر -->
+  <section style="padding:70px 0;background:var(--bg2,#f6f7f9)">
+    <div class="wrap" style="max-width:720px">
+      <h2 class="sec-title" data-anim="up" style="text-align:center">اطلب عرض سعر</h2>
+      <p class="sec-sub" data-anim="up" style="text-align:center;margin:0 0 26px">املأ البيانات التالية وسنرسل لك عرض سعر عبر واتساب.</p>
+
+      <form id="quote-home" data-anim="up" style="background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px">
+        <div class="field">
+          <label for="name-h">الاسم *</label>
+          <input id="name-h" name="name" required placeholder="اسمك الكريم" />
+        </div>
+
+        <div class="field">
+          <label for="phone-h">رقم الجوال *</label>
+          <input id="phone-h" name="phone" type="tel" required placeholder="05xxxxxxxx" inputmode="tel" />
+        </div>
+
+        <div class="field">
+          <label for="city-h">المدينة</label>
+          <input id="city-h" name="city" placeholder="مثال: الرياض" />
+        </div>
+
+        <div class="field">
+          <label for="cat-h">نوع الحجر</label>
+          <select id="cat-h" name="cat">
+            <option value="">— اختر —</option>
+            {CATEGORIES.map((c) => <option value={c.name}>{c.name}</option>)}
+            <option value="أخرى">أخرى</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="origin-h">المصدر المطلوب</label>
+          <select id="origin-h" name="origin">
+            <option value="">— أي مصدر —</option>
+            {ORIGINS.map((o) => <option value={o.name}>{o.name}</option>)}
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="details-h">تفاصيل الطلب</label>
+          <textarea id="details-h" name="details" placeholder="مثال: رخام للأرضيات، المساحة تقريباً 120 متر مربع، سماكة 20 مم، مع التركيب."></textarea>
+        </div>
+
+        <button type="submit" class="btn" style="width:100%;border:none;cursor:pointer">إرسال الطلب عبر واتساب</button>
+        <p style="color:var(--muted);font-size:.82rem;margin:14px 0 0;text-align:center">
+          بالضغط على الإرسال ستفتح لك محادثة واتساب جاهزة مع بياناتك. لا يوجد خادم ولا تُخزَّن بياناتك.
+        </p>
+      </form>
+
+      <div style="margin-top:24px;padding:20px;border:1px solid var(--line);border-radius:14px;text-align:center">
+        <p style="margin:0 0 12px;color:var(--muted)">أو تواصل مباشرة</p>
+        <a href={LINKS.phone} class="btn">اتصل {COMPANY.phone}</a>
+        <a href={LINKS.whatsapp} class="btn ghost" style="margin-right:8px">واتساب</a>
+      </div>
+    </div>
+  </section>
+
   <!-- CTA -->
   <div class="wrap">
     <div class="cta">
@@ -407,4 +465,26 @@ const schemaJson = graph([
       <a href={LINKS.phone} class="btn" style="background:#14151a;color:#c9a227;margin-right:10px">اتصل الآن</a>
     </div>
   </div>
+
+  <script is:inline>
+    document.getElementById('quote-home')?.addEventListener('submit', function (e) {
+      e.preventDefault();
+      const g = (id) => (document.getElementById(id)?.value || '').trim();
+      const lines = [
+        '*طلب عرض سعر — موقع ديارنا الرئيسية*',
+        '',
+        'الاسم: ' + g('name-h'),
+        'الجوال: ' + g('phone-h'),
+        g('city-h') ? 'المدينة: ' + g('city-h') : '',
+        g('cat-h') ? 'نوع الحجر: ' + g('cat-h') : '',
+        g('origin-h') ? 'المصدر: ' + g('origin-h') : '',
+        '',
+        g('details-h') ? '*التفاصيل:*\n' + g('details-h') : '',
+      ].filter(Boolean);
+      window.open(
+        'https://wa.me/966536089153?text=' + encodeURIComponent(lines.join('\n')),
+        '_blank'
+      );
+    });
+  </script>
 </Base>
