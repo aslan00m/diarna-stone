@@ -227,6 +227,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'guest-washbasin-marble',
+    file: '/images/blog-ai/guest-washbasin-marble.jpg',
+    scene:
+      'زاوية مغسل ضيافة ضيقة في منزل بالمدينة المنورة مع حوض رخام دائري على كونسول بسيط',
+    prompt:
+      'A narrow guest washbasin corner in a bright Medina home, a round marble basin on a simple console, warm side light from a window highlighting the stone veins, editorial interior photography',
+    topics: [
+      'مغاسل ضيافة',
+      'رخام الضيافة',
+      'حوض صغير',
+      'المدينة المنورة',
+      'تصميم داخلي',
+    ],
+    usedBy: [''],
+  },
 
 
 ];
