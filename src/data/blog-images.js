@@ -195,6 +195,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-facade-annual-maintenance-cleaning',
+    file: '/images/blog-ai/stone-facade-annual-maintenance-cleaning.jpg',
+    scene:
+      'تنظيف واجهة حجرية بفرشاة ناعمة وماء في الشمس',
+    prompt:
+      'A worker gently washing a natural stone facade with a soft brush and water from ground level, daylight, editorial photography, no text',
+    topics: [
+      'تنظيف واجهات',
+      'صيانة',
+      'حجر',
+      'فرشاة',
+      'حماية',
+    ],
+    usedBy: [''],
+  },
 
 
 ];
