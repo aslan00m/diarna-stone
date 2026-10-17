@@ -243,6 +243,23 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'granite-vs-travertine-vs-limestone-facades',
+    file: '/images/blog-ai/granite-vs-travertine-vs-limestone-facades.jpg',
+    scene:
+      'ثلاث عيّنات حجر للواجهات معروضة تحت الشمس للمقارنة بينها',
+    prompt:
+      'Three large facade stone slabs leaning against a wall in a stone yard, grey granite beige travertine and pale limestone, soft daylight, editorial photography, no people, no text',
+    topics: [
+      'مقارنة',
+      'جرانيت',
+      'ترافرتينو',
+      'حجر جيري',
+      'واجهات',
+      'عينات',
+    ],
+    usedBy: [''],
+  },
 
 
 ];
