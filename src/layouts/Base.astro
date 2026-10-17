@@ -54,6 +54,13 @@ const ogImage = image ? (image.startsWith('http') ? image : abs(image)) : abs('/
     <meta name="twitter:image" content={ogImage} />
 
     <link rel="icon" href={url("/favicon.svg")} type="image/svg+xml" />
+    <link rel="icon" type="image/png" sizes="512x512" href={url("/favicon-512.png")} />
+    <link rel="icon" type="image/png" sizes="192x192" href={url("/favicon-192.png")} />
+    <link rel="icon" type="image/png" sizes="48x48" href={url("/favicon-48.png")} />
+    <link rel="icon" type="image/png" sizes="32x32" href={url("/favicon-32.png")} />
+    <link rel="icon" type="image/png" sizes="16x16" href={url("/favicon-16.png")} />
+    <link rel="shortcut icon" href={url("/favicon.ico")} />
+    <link rel="apple-touch-icon" sizes="180x180" href={url("/apple-touch-icon.png")} />
 
     {
       schema && (

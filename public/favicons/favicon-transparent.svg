@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldT" x1="8%" y1="8%" x2="92%" y2="92%">
+      <stop offset="0%" stop-color="#D8BC82"/>
+      <stop offset="45%" stop-color="#C9A96A"/>
+      <stop offset="100%" stop-color="#A98C50"/>
+    </linearGradient>
+    <linearGradient id="goldTV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D8BC82"/>
+      <stop offset="100%" stop-color="#A98C50"/>
+    </linearGradient>
+  </defs>
+
+  <!-- No background rect (transparent) -->
+
+  <!-- Outer gold frame (softened edges via smaller corner radius to keep it visible without bg) -->
+  <rect x="58" y="58" width="908" height="908" rx="164" fill="none" stroke="url(#goldT)" stroke-width="9" opacity="0.96"/>
+  <rect x="88" y="88" width="848" height="848" rx="140" fill="none" stroke="#C9A96A" stroke-width="3" opacity="0.28"/>
+
+  <!-- Marble veins -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M196 612 C 360 540, 520 640, 720 560 C 790 530, 850 560, 900 540" stroke="#F3EDE0" stroke-width="5" opacity="0.20"/>
+    <path d="M216 700 C 380 650, 560 720, 740 660 C 800 640, 850 670, 896 650" stroke="#F3EDE0" stroke-width="3" opacity="0.16"/>
+    <path d="M240 420 C 420 370, 600 450, 780 390" stroke="#F3EDE0" stroke-width="2.5" opacity="0.13"/>
+  </g>
+
+  <!-- Architectural arch -->
+  <path d="M332 622 C 332 420, 420 336, 512 336 C 604 336, 692 420, 692 622"
+        fill="none" stroke="url(#goldTV)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M390 600 C 390 450, 450 390, 512 390 C 574 390, 634 450, 634 600"
+        fill="none" stroke="#C9A96A" stroke-width="6" opacity="0.35" stroke-linecap="round"/>
+
+  <!-- Stylized د -->
+  <path d="M452 412 L452 560" fill="none" stroke="url(#goldTV)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M452 412 C 540 384, 628 420, 628 486 C 628 552, 546 590, 452 560"
+        fill="none" stroke="url(#goldTV)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M512 622 L540 660 L512 698 L484 660 Z" fill="url(#goldTV)" stroke-linejoin="round"/>
+
+  <!-- Stone slab base -->
+  <rect x="306" y="734" width="412" height="40" rx="8" fill="url(#goldT)" opacity="0.95"/>
+  <rect x="336" y="786" width="352" height="10" rx="5" fill="#C9A96A" opacity="0.45"/>
+  <path d="M320 754 C 440 742, 580 762, 700 750" fill="none" stroke="#F3EDE0" stroke-width="2.5" opacity="0.28" stroke-linecap="round"/>
+</svg>
