@@ -276,6 +276,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-facade-fixing-systems',
+    file: '/images/blog-ai/stone-facade-fixing-systems.jpg',
+    scene:
+      'نجار حجر يركّب كلبًا من معدن مقاوم للصدأ في حافة لوح حجر جيري على سقالة، وعامل يثبت اللوح، وميزان ماء في المقدمة وغبار في ضوء النهار.',
+    prompt:
+      'Editorial scene: a stonemason fastening a stainless steel anchor bracket to the edge of a limestone panel on a scaffold, a helper holding the panel steady, level in the foreground, dust particles in warm daylight, close-up of the fixing detail, no text',
+    topics: [
+      'تثبيت الحجر',
+      'كلاليب معدنية',
+      'تركيب الواجهات',
+      'فواصل الحجر',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 
 
 ];
