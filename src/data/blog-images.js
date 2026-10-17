@@ -292,6 +292,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-stain-removal',
+    file: '/images/blog-ai/stone-stain-removal.jpg',
+    scene:
+      'يدان تضعان عجينة امتصاص بيضاء على بقعة زيتية داكنة في سطح رخامي داخل مطبخ بإضاءة دافئة.',
+    prompt:
+      'Editorial photograph: hands applying a thick off-white poultice paste on a dark oil stain on a marble countertop, plastic film at the side, close-up of working hands in warm kitchen light, documentary style, no text or lettering.',
+    topics: [
+      'تنظيف الرخام',
+      'بقع زيتية',
+      'ضمادة امتصاص',
+      'عزل الرخام',
+      'صقل الرخام',
+    ],
+    usedBy: [''],
+  },
 
 
 ];
