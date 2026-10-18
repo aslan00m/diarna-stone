@@ -457,28 +457,11 @@ def cmd_publish(args):
             print(f"image ok (reused library): {i}")
             ready.append(t)
             continue
-        print(f"generating image for {i} ...")
-        try:
-            r = sh(
-                [
-                    sys.executable,
-                    "scripts/blog_image_gen.py",
-                    i,
-                    t.get("imagePrompt", ""),
-                    t.get("imageScene", ""),
-                    t.get("imageTopics", ""),
-                ],
-                timeout=420,
-                check=False,
-            )
-        except Exception as e:
-            print(f"  image gen error: {e}")
-            r = None
-        if r is not None and r.returncode == 0 and dest.exists():
-            ready.append(t)
-        else:
-            tail = ((r.stdout or "") + (r.stderr or ""))[-300:] if r else "timeout"
-            report.append(("FAIL", i, f"image generation failed: {tail}"))
+        # Image generation moved to the cron agent via Hermes image_generate tool.
+        # The agent generates the image and registers it before calling publish.
+        if not dest.exists():
+            report.append(("FAIL", i, "image not found — agent must generate it with image_generate before publish"))
+            continue
     if not ready:
         for st, slug, why in report:
             print(f"{st} {slug}: {why}")

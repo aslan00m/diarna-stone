@@ -36,6 +36,12 @@ W, H = 1280, 720
 # Pollinations stamps a small logo along the bottom edge; nologo=true is no
 # longer honored, so every image loses this many pixels off the bottom.
 WATERMARK_PX = 64
+# Flux model = sharper, more detailed output (free, slightly slower).
+MODEL = "flux"
+# Generate at 2x then downscale = crisper edges than native 1280x720.
+GEN_W, GEN_H = 2560, 1440
+# Quality boosters appended to every prompt.
+QUALITY = "sharp focus, high detail, 8k, professional photography, crisp, clear, well-defined, ultra realistic"
 # Candidate interpreters, in order. video-studio's venv is first because it
 # is the one on this VPS that ships Pillow.
 CANDIDATES = [
@@ -82,8 +88,8 @@ def fetch(prompt, seed, out_path, attempts=4, timeout=200):
     for i in range(attempts):
         url = (
             "https://image.pollinations.ai/prompt/"
-            + urllib.parse.quote(prompt)
-            + f"?width=1280&height=720&nologo=true&seed={seed + i * 7}"
+            + urllib.parse.quote(prompt + ", " + QUALITY)
+            + f"?model={MODEL}&width={GEN_W}&height={GEN_H}&seed={seed + i * 7}"
         )
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -110,7 +116,7 @@ def crop_1690(path):
     and re-encode as JPEG. The watermark is a small logo pinned to the bottom
     edge; Pollinations stopped honoring nologo=true, so the bottom strip is
     cropped on every image rather than trusted."""
-    from PIL import Image
+    from PIL import Image, ImageEnhance, ImageFilter
 
     im = Image.open(path).convert("RGB")
     w, h = im.size
@@ -127,7 +133,10 @@ def crop_1690(path):
         im = im.resize((W, H), Image.LANCZOS)
     # remove the bottom watermark strip
     im = im.crop((0, 0, W, H - WATERMARK_PX))
-    im.save(path, "JPEG", quality=86, optimize=True)
+    # Sharpen + contrast boost for crisper final output
+    im = im.filter(ImageFilter.UnsharpMask(radius=3, percent=120, threshold=1))
+    im = ImageEnhance.Contrast(im).enhance(1.15)
+    im.save(path, "JPEG", quality=92, optimize=True)
     return im.size
 
 

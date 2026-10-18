@@ -24,6 +24,10 @@
 export const BLOG_AI_DIR = '/images/blog-ai/';
 
 export const BLOG_AI_IMAGES = [
+
+// Fallback only. A generated cover is always preferred; this exists so a
+// post can never ship with no image at all.
+export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
   {
     slug: 'choosing-stone-countertop',
     file: '/images/blog-ai/choosing-stone-countertop.jpg',
@@ -31,8 +35,10 @@ export const BLOG_AI_IMAGES = [
       'شخص يقارن بين عيّنتي حجر على طاولة معمل، إحداهما رخام والأخرى جرانيت، في مكتب تصميم داخلي',
     prompt:
       'A person comparing two stone samples on a desk in an interior design office, one marble one granite, warm daylight, professional editorial photography, shallow depth of field',
-    topics: ['اختيار', 'مقارنة', 'رخام', 'جرانيت', 'سطح العمل', 'المطبخ'],
-    usedBy: '',
+    topics: [
+      'اختيار, مقارنة, رخام, جرانيت, سطح العمل, المطبخ',
+    ],
+    usedBy: [''],
   },
   {
     slug: 'travertine-facade-install',
@@ -42,12 +48,7 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'A construction crane installing large travertine facade panels on a modern building, worker in safety gear, golden hour, documentary photography',
     topics: [
-      'واجهات',
-      'ترافرتينو',
-      'تركيب',
-      'خارجي',
-      'مبنى',
-      'رافعة',
+      'واجهات, ترافرتينو, تركيب, خارجي, مبنى, رافعة',
     ],
     usedBy: [''],
   },
@@ -59,11 +60,7 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'A stonemason using a digital caliper to measure the thickness of a stone slab on a workbench with a printed spec sheet, warm workshop light, close-up documentary photography',
     topics: [
-      'مواصفات',
-      'قياس',
-      'سماكة',
-      'فحص',
-      'ورشة',
+      'مواصفات, قياس, سماكة, فحص, ورشة',
     ],
     usedBy: [''],
   },
@@ -123,11 +120,7 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'A contractor and a homeowner reviewing a written stone quotation on a desk with stone samples and a tape measure, warm office daylight, editorial photography',
     topics: [
-      'سعر الحجر',
-      'عرض سعر رخام',
-      'مقارنة عروض',
-      'المدينة المنورة',
-      'تكلفة الحجر',
+      'سعر الحجر, عرض سعر رخام, مقارنة عروض, المدينة المنورة, تكلفة الحجر',
     ],
     usedBy: [''],
   },
@@ -139,11 +132,7 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'A shop assistant\'s hands presenting a large natural stone sample tile to a client inside a stone showroom, warm daylight from the side, editorial photography, shallow depth of field',
     topics: [
-      'شراء الحجر',
-      'عيّنة رخام',
-      'معرض حجر',
-      'المدينة المنورة',
-      'سماكة الألواح',
+      'شراء الحجر, عيّنة رخام, معرض حجر, المدينة المنورة, سماكة الألواح',
     ],
     usedBy: [''],
   },
@@ -155,11 +144,7 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'A large Calacatta marble slab with grey and gold veining standing in a bright stone warehouse, soft daylight, a hand resting on the polished surface, editorial photography',
     topics: [
-      'كالاكاتا',
-      'رخام إيطالي',
-      'عروق الرخام',
-      'الرخام الأبيض',
-      'مستودع حجر',
+      'كالاكاتا, رخام إيطالي, عروق الرخام, الرخام الأبيض, مستودع حجر',
     ],
     usedBy: [''],
   },
@@ -171,11 +156,7 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'Three stone sample tiles side by side showing polished, honed and textured finishes on a workshop table, soft daylight, editorial photography, macro detail',
     topics: [
-      'تشطيبات الحجر',
-      'مصقول',
-      'مطفأ',
-      'ساندبلاست',
-      'عيّنات تشطيب',
+      'تشطيبات الحجر, مصقول, مطفأ, ساندبلاست, عيّنات تشطيب',
     ],
     usedBy: [''],
   },
@@ -187,11 +168,7 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'A quiet residential street with villas clad in natural stone, a different facade design per house, warm morning sunlight, wide architectural photography, no people, no text',
     topics: [
-      'تصاميم واجهات',
-      'منازل',
-      'حجر طبيعي',
-      'المدينة المنورة',
-      'واجهات فلل',
+      'تصاميم واجهات, منازل, حجر طبيعي, المدينة المنورة, واجهات فلل',
     ],
     usedBy: [''],
   },
@@ -203,11 +180,7 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'A worker gently washing a natural stone facade with a soft brush and water from ground level, daylight, editorial photography, no text',
     topics: [
-      'تنظيف واجهات',
-      'صيانة',
-      'حجر',
-      'فرشاة',
-      'حماية',
+      'تنظيف واجهات, صيانة, حجر, فرشاة, حماية',
     ],
     usedBy: [''],
   },
@@ -219,11 +192,7 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'Editorial photograph in a kitchen: a hand wiping spilled citrus juice from a creamy marble countertop with a soft cloth, close-up on surface texture and matte finish, natural window light, documentary style, no text or lettering.',
     topics: [
-      'رخام المطبخ',
-      'تآكل الرخام',
-      'عزل الرخام',
-      'صقل الرخام',
-      'عناية يومية',
+      'رخام المطبخ, تآكل الرخام, عزل الرخام, صقل الرخام, عناية يومية',
     ],
     usedBy: [''],
   },
@@ -235,11 +204,7 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'A narrow guest washbasin corner in a bright Medina home, a round marble basin on a simple console, warm side light from a window highlighting the stone veins, editorial interior photography',
     topics: [
-      'مغاسل ضيافة',
-      'رخام الضيافة',
-      'حوض صغير',
-      'المدينة المنورة',
-      'تصميم داخلي',
+      'مغاسل ضيافة, رخام الضيافة, حوض صغير, المدينة المنورة, تصميم داخلي',
     ],
     usedBy: [''],
   },
@@ -251,12 +216,7 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'Three large facade stone slabs leaning against a wall in a stone yard, grey granite beige travertine and pale limestone, soft daylight, editorial photography, no people, no text',
     topics: [
-      'مقارنة',
-      'جرانيت',
-      'ترافرتينو',
-      'حجر جيري',
-      'واجهات',
-      'عينات',
+      'مقارنة, جرانيت, ترافرتينو, حجر جيري, واجهات, عينات',
     ],
     usedBy: [''],
   },
@@ -268,11 +228,7 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'Editorial scene: a mason carefully setting a rough-hewn sandstone panel onto a villa facade with a rubber mallet, a second worker checking alignment with a string line, dust from cutting visible in daylight, close-up of stone texture and shadow, no text',
     topics: [
-      'واجهات حجر رملي',
-      'تثبيت الحجر',
-      'عزل الحجر',
-      'واجهات فلل',
-      'المدينة المنورة',
+      'واجهات حجر رملي, تثبيت الحجر, عزل الحجر, واجهات فلل, المدينة المنورة',
     ],
     usedBy: [''],
   },
@@ -284,11 +240,7 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'Editorial scene: a stonemason fastening a stainless steel anchor bracket to the edge of a limestone panel on a scaffold, a helper holding the panel steady, level in the foreground, dust particles in warm daylight, close-up of the fixing detail, no text',
     topics: [
-      'تثبيت الحجر',
-      'كلاليب معدنية',
-      'تركيب الواجهات',
-      'فواصل الحجر',
-      'المدينة المنورة',
+      'تثبيت الحجر, كلاليب معدنية, تركيب الواجهات, فواصل الحجر, المدينة المنورة',
     ],
     usedBy: [''],
   },
@@ -300,11 +252,7 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'Editorial photograph: hands applying a thick off-white poultice paste on a dark oil stain on a marble countertop, plastic film at the side, close-up of working hands in warm kitchen light, documentary style, no text or lettering.',
     topics: [
-      'تنظيف الرخام',
-      'بقع زيتية',
-      'ضمادة امتصاص',
-      'عزل الرخام',
-      'صقل الرخام',
+      'تنظيف الرخام, بقع زيتية, ضمادة امتصاص, عزل الرخام, صقل الرخام',
     ],
     usedBy: [''],
   },
@@ -316,11 +264,7 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'A maintenance team inspecting a row of stone washbasins in a hotel bathroom under renovation in Medina, tools on a towel, daylight from an open window, editorial photography',
     topics: [
-      'مغاسل فنادق',
-      'رخام المدينة المنورة',
-      'صيانة المغاسل',
-      'حوض فندقي',
-      'توريد حجر',
+      'مغاسل فنادق, رخام المدينة المنورة, صيانة المغاسل, حوض فندقي, توريد حجر',
     ],
     usedBy: [''],
   },
@@ -332,18 +276,8 @@ export const BLOG_AI_IMAGES = [
     prompt:
       'Editorial scene: an architect and a contractor reviewing stone cladding samples on a table at a construction site office, calipers and a thickness gauge beside the samples, drawing of a facade elevation on the table, daylight through a window, no text',
     topics: [
-      'تكلفة واجهات الحجر',
-      'سماكة الحجر',
-      'قطع الحجر',
-      'ميزانية الواجهة',
-      'المدينة المنورة',
+      'تكلفة واجهات الحجر, سماكة الحجر, قطع الحجر, ميزانية الواجهة, المدينة المنورة',
     ],
     usedBy: [''],
   },
-
-
 ];
-
-// Fallback only. A generated cover is always preferred; this exists so a
-// post can never ship with no image at all.
-export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
