@@ -280,4 +280,21 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'natural-marble-washbasins',
+    file: '/images/blog-ai/natural-marble-washbasins.jpg',
+    scene:
+      'يد نحّات حجر تلمّع الجزء الداخلي لمغسل رخام دائري في ورشة عمل مع ضوء جانبي',
+    prompt:
+      'A stonemason\'s hands polishing the interior of a round natural marble vessel sink in a workshop, water flowing over the stone, side daylight through a window, editorial photography, shallow depth of field',
+    topics: [
+      'مغاسل رخام',
+      'أحواض حمام',
+      'تشطيب الحجر',
+      'المدينة المنورة',
+      'ورشة حجر',
+      'سماكة الألواح',
+    ],
+    usedBy: [''],
+  },
 ];
