@@ -32,6 +32,17 @@ const ogImage = image ? (image.startsWith('http') ? image : abs(image)) : abs('/
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google tag (gtag.js) — GA4. is:inline keeps Astro from bundling it,
+         so gtag stays a global exactly as Google's snippet expects. -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-7FJGB4V8SE"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-7FJGB4V8SE');
+    </script>
+
     <title>{pageTitle}</title>
     <meta name="description" content={description || COMPANY.description} />
     <link rel="canonical" href={canonicalUrl} />
