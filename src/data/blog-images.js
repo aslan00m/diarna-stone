@@ -324,6 +324,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-facade-cost-factors',
+    file: '/images/blog-ai/stone-facade-cost-factors.jpg',
+    scene:
+      'مهندس ومقاول يراجعان نماذج حجر لواجهة على طاولة في مكتب موقع بناء بالمدينة المنورة، مع مقياس سماكة ومخطط واجهة على الطاولة، وضوء النهار من النافذة.',
+    prompt:
+      'Editorial scene: an architect and a contractor reviewing stone cladding samples on a table at a construction site office, calipers and a thickness gauge beside the samples, drawing of a facade elevation on the table, daylight through a window, no text',
+    topics: [
+      'تكلفة واجهات الحجر',
+      'سماكة الحجر',
+      'قطع الحجر',
+      'ميزانية الواجهة',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 
 
 ];
