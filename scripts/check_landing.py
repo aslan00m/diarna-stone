@@ -109,6 +109,18 @@ def check_html(html):
     for needle in ["بيع الحجر وتركيب الواجهات والمغاسل", "حجر الواجهات المتوفر", "المغاسل الحجرية", "wa.me/966536089153"]:
         check(f"html: يحتوي «{needle}»", needle in html)
 
+    # لا سلاج إنجليزي معروض كنص — المصدر يجب أن يظهر «سعودي» لا «saudi»
+    slugs = ["saudi", "italian", "egyptian", "jordanian", "turkish", "omani"]
+    leaked = [s for s in slugs if f">{s}<" in html]
+    check("html: لا سلاج مصدر إنجليزي معروض", not leaked, str(leaked))
+    check("html: المصدر بالعربية (سعودي/إيطالي)", "سعودي" in html and "إيطالي" in html)
+
+    # لا كلمة «سيراميك» — خط السيراميك أُزيل بقرار المالك
+    check("html: لا سيراميك", "سيراميك" not in html)
+
+    # لا سعر — لا «ريال» ولا رمز عملة
+    check("html: لا سعر معروض", ("ريال" not in html) and ("﷼" not in html) and ("SAR" not in html))
+
     # canonical مطلق وصحيح
     canon = re.search(r'<link rel="canonical" href="([^"]+)"', html)
     check("html: canonical مطلق", bool(canon) and canon.group(1).startswith("http"), canon.group(1) if canon else "")

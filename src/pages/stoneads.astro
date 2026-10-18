@@ -8,7 +8,7 @@
 //   - كل بطاقة حجر تسحب اسمها ومواصفاتها من products.js عبر src/data/stoneads.js.
 import { url } from '../data/urls.js';
 import Base from '../layouts/Base.astro';
-import { COMPANY, LINKS, CATEGORIES } from '../data/company.js';
+import { COMPANY, LINKS, CATEGORIES, ORIGINS } from '../data/company.js';
 import { graph, breadcrumb, faq } from '../data/schema.js';
 import { FACADE_STONES, SINKS } from '../data/stoneads.js';
 import PROJECTS_FULL from '../data/projects-full.js';
@@ -16,6 +16,8 @@ import GALLERY from '../data/sink-gallery.js';
 
 const path = '/stoneads';
 const catName = (slug) => CATEGORIES.find((c) => c.slug === slug)?.name || slug;
+// اسم المصدر بالعربية — سجل المنتج يخزّن السلاج (saudi) لا الاسم المعروض.
+const originName = (slug) => ORIGINS.find((o) => o.slug === slug)?.name || slug;
 
 // أعمال مكتملة فقط — لا نعرض «تحت التنفيذ» في صفحة إعلانية.
 const DONE = PROJECTS_FULL.slice(0, 4);
@@ -157,7 +159,7 @@ const schemaJson = graph([
               <tr>
                 <td><a href={url(`/products/${s.slug}`)}>{s.name}</a></td>
                 <td>{catName(s.cat)}</td>
-                <td>{s.origin}</td>
+                <td>{originName(s.origin)}</td>
                 <td>{s.thickness}</td>
                 <td>{s.finish}</td>
                 <td>{s.hardness}</td>
@@ -198,7 +200,7 @@ const schemaJson = graph([
                 {s.excerpt}
               </p>
               <div class="meta">
-                {s.origin} · سماكة {s.thickness.split(' · ').join(' و')} · صلابة {s.hardness}
+                {originName(s.origin)} · سماكة {s.thickness.split(' · ').join(' و')} · صلابة {s.hardness}
               </div>
             </div>
           </div>
