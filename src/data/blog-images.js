@@ -297,4 +297,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'facade-slab-thickness-20-30-50mm',
+    file: '/images/blog-ai/facade-slab-thickness-20-30-50mm.jpg',
+    scene:
+      'قياس سماكة لوح حجر بفركار على طاولة عمل قبل تجهيز واجهة',
+    prompt:
+      'Three natural stone wall panels of different thicknesses standing side by side in a stone workshop, a caliper measuring the panel edge, diffused daylight, editorial photography, no text',
+    topics: [
+      'سماكة ألواح',
+      'قياس',
+      'واجهات',
+      'حجر',
+      'مصنع',
+    ],
+    usedBy: [''],
+  },
 ];
