@@ -13,8 +13,14 @@ import FAMILIES from './families.js';
 
 const bySlug = (s) => PRODUCTS.find((p) => p.slug === s);
 const byFamily = (s) => FAMILIES.find((f) => f.slug === s);
-const originName = (p) => p.origin;
 const join = (arr) => (Array.isArray(arr) && arr.length ? arr.join(' · ') : '');
+
+/**
+ * الاسم العربي وحده. سجل الكتالوج يخزّن الاسم بصيغة "Latin - عربي"، فإظهاره
+ * كما هو على بطاقة إعلانية يقرأ كخطأ تحريري. إن لم يوجد " - " فالسلسلة عربية
+ * أصلاً (حجر الرياض، المجلي) وتؤخذ كاملة.
+ */
+const arabicName = (s) => (s && s.includes(' - ') ? s.split(' - ').pop().trim() : s || '');
 
 /** بطاقة حجر: من سجل المنتج مباشرة، بلا نص مكتوب يدوياً. */
 function stone({ slug, name, cat, origin, color, image, thickness, finish, hardness, density }) {
@@ -24,7 +30,7 @@ function stone({ slug, name, cat, origin, color, image, thickness, finish, hardn
   const spec = (f && f.grades && f.grades[0] && f.grades[0].spec) || {};
   return {
     slug,
-    name: name || p.name,
+    name: arabicName(name || p.name),
     cat: cat || p.category,
     origin: origin || p.origin,
     color: color || p.color || '',

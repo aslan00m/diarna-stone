@@ -21,7 +21,11 @@ const catName = (slug) => CATEGORIES.find((c) => c.slug === slug)?.name || slug;
 const DONE = PROJECTS_FULL.slice(0, 4);
 
 // نماذج مغاسل مركّبة في حمامات (ليست من معرض العرض) — أدلّ على التنفيذ الفعلي.
-const INSTALLED_SINKS = GALLERY.filter((g) => g.setting === 'installed').slice(0, 3);
+// خط السيراميك أُزيل من الموقع بقرار المالك، والمعرض ما زال يضم وحدات مصنّفة
+// «سيراميك» بقايا التصنيف القديم. لا نعرض السيراميك على صفحة إعلان حجر.
+const INSTALLED_SINKS = GALLERY.filter(
+  (g) => g.setting === 'installed' && g.stoneType !== 'ceramic'
+).slice(0, 3);
 
 const schemaJson = graph([
   breadcrumb([
@@ -194,7 +198,7 @@ const schemaJson = graph([
                 {s.excerpt}
               </p>
               <div class="meta">
-                {s.origin} · سماكة {s.thickness} · صلابة {s.hardness}
+                {s.origin} · سماكة {s.thickness.split(' · ').join(' و')} · صلابة {s.hardness}
               </div>
             </div>
           </div>
