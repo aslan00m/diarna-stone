@@ -1,0 +1,380 @@
+---
+// صفحة هبوط إعلانية — dyarnaa.com/stoneads
+//
+// غرضها: استقبال إعلانات بيع الحجر وتركيب الواجهات والمغاسل.
+// قواعد ثابتة على هذه الصفحة:
+//   - لا سعر واحد مكتوب. الأرقام الوحيدة هي السماكات والصلابة من الكتالوج.
+//   - لا صورة بلا ملف حقيقي — يفحصها scripts/check_landing_assets.py.
+//   - كل بطاقة حجر تسحب اسمها ومواصفاتها من products.js عبر src/data/stoneads.js.
+import { url } from '../data/urls.js';
+import Base from '../layouts/Base.astro';
+import { COMPANY, LINKS, CATEGORIES } from '../data/company.js';
+import { graph, breadcrumb, faq } from '../data/schema.js';
+import { FACADE_STONES, SINKS } from '../data/stoneads.js';
+import PROJECTS_FULL from '../data/projects-full.js';
+import GALLERY from '../data/sink-gallery.js';
+
+const path = '/stoneads';
+const catName = (slug) => CATEGORIES.find((c) => c.slug === slug)?.name || slug;
+
+// أعمال مكتملة فقط — لا نعرض «تحت التنفيذ» في صفحة إعلانية.
+const DONE = PROJECTS_FULL.slice(0, 4);
+
+// نماذج مغاسل مركّبة في حمامات (ليست من معرض العرض) — أدلّ على التنفيذ الفعلي.
+const INSTALLED_SINKS = GALLERY.filter((g) => g.setting === 'installed').slice(0, 3);
+
+const schemaJson = graph([
+  breadcrumb([
+    { name: 'الرئيسية', path: '/' },
+    { name: 'بيع الحجر وتركيب الواجهات والمغاسل', path },
+  ]),
+  faq([
+    {
+      q: 'هل الأسعار مذكورة على الصفحة؟',
+      a: 'لا. السعر يُحسب حسب نوع الحجر والسماكة والمساحة، لذلك نرسل عرض سعر مكتوباً يذكر السماكة والتشطيب والكمية بعد معرفة المطلوب.',
+    },
+    {
+      q: 'هل يشمل السعر التركيب؟',
+      a: 'نعم، عند طلب التوريد مع التركيب يصبح العرض شاملاً للحجر والقص والتركيب. ويمكن طلب التوريد وحده إن كان لديك فريق تنفيذ.',
+    },
+    {
+      q: 'هل يتوفر حجر الرياض للواجهات؟',
+      a: 'حجر الرياض الأبيض والمفروز والمبروم متوفر في الرياض، إضافة إلى حجر المجلي المصري والأردني والترافرتينو والجرانيت المستورد.',
+    },
+    {
+      q: 'هل تقدمون المغاسل الحجرية بمقاسات خاصة؟',
+      a: 'نعم، ننحت المغسلة من كتلة حجر واحدة بالمقاس والشكل المطلوب، وتتوفر بأشكال علوية ومدمجة وحوضية ومزدوجة.',
+    },
+  ]),
+]);
+---
+
+<Base
+  title="بيع الحجر وتركيب الواجهات والمغاسل"
+  description="بيع الرخام والجرانيت وحجر الرياض للواجهات، وتركيب الواجهات والمغاسل الحجرية في الرياض. حجر بسماكات 20 و30 و50 مم مع عرض سعر مفصّل."
+  image="/images/heroes/hero-marble-wall-led.jpg"
+  canonical={path}
+  schema={schemaJson}
+>
+  <!-- الهيرو: إعلان واضح من أول شاشة -->
+  <section class="lp-hero">
+    <div class="wrap">
+      <div class="lp-hero-inner">
+        <span class="eyebrow">ديارنا الحديثة — {COMPANY.city.split('،')[0].trim()}</span>
+        <h1>بيع الحجر وتركيب الواجهات والمغاسل</h1>
+        <p class="lead">
+          حجر الرياض للواجهات، رخام وجرانيت وترا فرتينو بسماكات 20 و30 و50 مم،
+          ومغاسل حجرية تُنحت من كتلة واحدة. توريد وتركيب في الرياض وحولها.
+        </p>
+        <div class="lp-actions">
+          <a href={LINKS.whatsapp} class="btn">اطلب عرض سعر عبر واتساب</a>
+          <a href={LINKS.phone} class="btn ghost">اتصل {COMPANY.phone}</a>
+          <a href="#sinks" class="btn ghost">المغاسل الحجرية</a>
+        </div>
+        <div class="lp-trust">
+          <span>توريد وتركيب</span>
+          <span>عرض سعر بالبنود</span>
+          <span>عيّنة قبل التثبيت</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- لماذا نحن -->
+  <section>
+    <div class="wrap">
+      <h2 class="sec-title">لماذا ديارنا الحديثة؟</h2>
+      <p class="sec-sub">
+        لا نبيع حجراً ونتركك تبحث عن مقاول. نورّد ونقصّ ونركّب —
+        والواجهة والمغسلة يصلان إلى الموقع جاهزين للتسليم.
+      </p>
+      <div class="grid">
+        <div class="card">
+          <div class="card-body">
+            <h3>حجر الواجهات</h3>
+            <p style="color:var(--muted);margin:0">
+              حجر الرياض الأبيض والمفروز والمبروم، المجلي المصري والأردني،
+              والترافرتينو والجرانيت المستورد — بسماكات تتحمل شمس الرياض.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>تركيب الواجهات</h3>
+            <p style="color:var(--muted);margin:0">
+              تركيب ميكانيكي وملاط، مع فواصل تمدد تحسب لارتفاع المبنى،
+              ومعالجة للخامات المسامية قبل التسليم.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>المغاسل الحجرية</h3>
+            <p style="color:var(--muted);margin:0">
+              تُنحت من كتلة واحدة بالمقاس المطلوب: علوية، مدمجة، حوضية، أو مزدوجة.
+              كل قطعة تحمل عروقها الخاصة.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>عرض سعر بالبنود</h3>
+            <p style="color:var(--muted);margin:0">
+              الحجر، القص، التثبيت، الفواصل، الرفع، والعمالة — كل بند في سطره،
+              حتى تقارن عرضين على نفس الأساس.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- حجر الواجهات: الجدول الفني -->
+  <section style="background:var(--bg-soft)">
+    <div class="wrap">
+      <h2 class="sec-title">حجر الواجهات المتوفر</h2>
+      <p class="sec-sub">
+        مواصفات من الكتالوج — السماكة والتشطيب والصلابة أرقام فعلية للحجر، لا أسعار.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>الحجر</th>
+              <th>الفئة</th>
+              <th>المصدر</th>
+              <th>السماكات</th>
+              <th>التشطيب</th>
+              <th>الصلابة</th>
+            </tr>
+          </thead>
+          <tbody>
+            {FACADE_STONES.map((s) => (
+              <tr>
+                <td><a href={url(`/products/${s.slug}`)}>{s.name}</a></td>
+                <td>{catName(s.cat)}</td>
+                <td>{s.origin}</td>
+                <td>{s.thickness}</td>
+                <td>{s.finish}</td>
+                <td>{s.hardness}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="gallery" style="margin-top:34px">
+        {FACADE_STONES.slice(0, 6).map((s) => (
+          <a class="shot" href={url(`/products/${s.slug}`)}>
+            <img src={url(s.image)} alt={`${s.name} — ${s.color}`} loading="lazy" decoding="async" />
+            <figcaption>{s.name} · {s.color}</figcaption>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- المغاسل الحجرية -->
+  <section id="sinks">
+    <div class="wrap">
+      <h2 class="sec-title">المغاسل الحجرية</h2>
+      <p class="sec-sub">
+        تُنحت من كتلة حجر واحدة — فلا يوجد حوضان متطابقان. المقاس والشكل حسب الطلب.
+      </p>
+      <div class="grid">
+        {SINKS.map((s) => (
+          <div class="card">
+            <div class="ph" style="aspect-ratio:4/3">
+              <img src={url(s.image)} alt={`${s.name} — ${s.color}`} loading="lazy" decoding="async" />
+            </div>
+            <div class="card-body">
+              <h3>{s.name}</h3>
+              <div class="en">{s.nameEn}</div>
+              <p style="color:var(--muted);font-size:.93rem;margin:10px 0 0;line-height:1.85">
+                {s.excerpt}
+              </p>
+              <div class="meta">
+                {s.origin} · سماكة {s.thickness} · صلابة {s.hardness}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <h2 class="sec-title" style="margin-top:48px">مغاسل مركّبة في حمامات</h2>
+      <p class="sec-sub">
+        {INSTALLED_SINKS.length} نماذج منفذة فعلياً في مواقع العملاء — اضغط لرؤية كل الصور.
+      </p>
+      <div class="gallery">
+        {INSTALLED_SINKS.map((g) => (
+          <a class="shot" href={url(`/sinks-gallery/${g.slug}`)}>
+            <img src={url(g.photos[0])} alt={`مغسلة حجرية ${g.name} — ${g.description_ar}`} loading="lazy" decoding="async" />
+            <figcaption>{g.description_ar}</figcaption>
+          </a>
+        ))}
+      </div>
+      <p style="margin-top:18px">
+        <a href={url('/sinks')} class="btn ghost">كل أنواع المغاسل ←</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- أعمالنا: قبل / بعد -->
+  <section style="background:var(--bg-soft)">
+    <div class="wrap">
+      <h2 class="sec-title">واجهات نفّذناها — من الهيكل إلى التسليم</h2>
+      <p class="sec-sub">
+        كل مشروع بدأ هيكلاً خرسانياً أو بلوكاً وأنهيناه واجهة مكتملة.
+        اضغط على أي مشروع لترى مراحله.
+      </p>
+      <div class="gallery">
+        {DONE.map((p) => (
+          <a class="shot" href={url(`/works/${p.slug}`)}>
+            <img src={url(p.cover)} alt={p.coverAlt} loading="lazy" decoding="async" />
+            <figcaption>{p.title}</figcaption>
+          </a>
+        ))}
+      </div>
+      <p style="margin-top:18px">
+        <a href={url('/works')} class="btn ghost">كل مشاريعنا ←</a>
+        <a href={url('/installation-external')} class="btn ghost" style="margin-right:10px">تفاصيل تركيب الواجهات ←</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- الأسئلة الشائعة -->
+  <section>
+    <div class="wrap" style="max-width:820px">
+      <h2 class="sec-title">أسئلة تتكرر عند الطلب</h2>
+      <div style="margin-top:22px">
+        {[
+          {
+            q: 'هل الأسعار مذكورة على الصفحة؟',
+            a: 'لا. السعر يُحسب حسب نوع الحجر والسماكة والمساحة، لذلك نرسل عرض سعر مكتوباً يذكر السماكة والتشطيب والكمية بعد معرفة المطلوب.',
+          },
+          {
+            q: 'هل يشمل السعر التركيب؟',
+            a: 'نعم، عند طلب التوريد مع التركيب يصبح العرض شاملاً للحجر والقص والتركيب. ويمكن طلب التوريد وحده إن كان لديك فريق تنفيذ.',
+          },
+          {
+            q: 'هل يتوفر حجر الرياض للواجهات؟',
+            a: 'حجر الرياض الأبيض والمفروز والمبروم متوفر في الرياض، إضافة إلى حجر المجلي المصري والأردني والترافرتينو والجرانيت المستورد.',
+          },
+          {
+            q: 'هل تقدمون المغاسل الحجرية بمقاسات خاصة؟',
+            a: 'نعم، ننحت المغسلة من كتلة حجر واحدة بالمقاس والشكل المطلوب، وتتوفر بأشكال علوية ومدمجة وحوضية ومزدوجة.',
+          },
+        ].map((f) => (
+          <details class="faq">
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="background:var(--bg-soft)">
+    <div class="wrap" style="max-width:760px;text-align:center">
+      <h2 class="sec-title" style="justify-content:center">جاهزون لعرض سعر مشروعك</h2>
+      <p class="sec-sub">
+        أرسل نوع الحجر والمقاسات والمساحة، ونرجع لك بعرض مفصّل بالبنود
+        خلال ساعات العمل.
+      </p>
+      <div class="lp-actions" style="justify-content:center">
+        <a href={LINKS.whatsapp} class="btn">واتساب — اطلب عرض سعر</a>
+        <a href={LINKS.phone} class="btn ghost">اتصل {COMPANY.phone}</a>
+      </div>
+      <p style="color:var(--muted);font-size:.9rem;margin-top:18px">
+        {COMPANY.name} · {COMPANY.city} · {COMPANY.hours}
+      </p>
+    </div>
+  </section>
+</Base>
+
+<style>
+  /* الهيرو: أعرض من .wrap الافتراضي، بلا صورة خلفية — نص إعلاني واضح */
+  .lp-hero {
+    background: linear-gradient(135deg, #ffffff 0%, #fdfbf6 55%, #f7efdb 100%);
+    border-bottom: 1px solid var(--line);
+    padding: clamp(56px, 8vw, 110px) 0 clamp(44px, 6vw, 76px);
+    text-align: center;
+  }
+  .lp-hero-inner { max-width: 860px; margin: 0 auto; }
+  .lp-hero h1 {
+    font-size: var(--fs-display);
+    font-weight: 600;
+    line-height: var(--lh-tight);
+    letter-spacing: var(--ls-display);
+    margin: 0 0 var(--s-4);
+    color: var(--ink);
+  }
+  .lp-hero .lead {
+    font-size: var(--fs-lead);
+    color: var(--text-2);
+    line-height: var(--lh-body);
+    max-width: 62ch;
+    margin: 0 auto var(--s-6);
+  }
+  .lp-actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+  .lp-trust {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: var(--s-6);
+    color: var(--muted);
+    font-size: var(--fs-sm);
+  }
+  .lp-trust span { position: relative; padding-inline-start: 16px; }
+  .lp-trust span::before {
+    content: '';
+    position: absolute;
+    inset-inline-start: 0;
+    top: .55em;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--gold), var(--gold-dim));
+  }
+
+  /* جدول المواصفات على هذه الصفحة — article.css يعرف .prose table فقط،
+     وهذه الصفحة بلا .prose، فتُعطى قواعدها هنا. */
+  .table-wrap { overflow-x: auto; margin: 26px 0 8px; -webkit-overflow-scrolling: touch; }
+  .table-wrap table {
+    width: 100%;
+    min-width: 620px;
+    border-collapse: collapse;
+    font-size: .95rem;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .table-wrap thead th {
+    background: var(--ink);
+    color: var(--gold-soft);
+    padding: 12px 14px;
+    text-align: right;
+    font-weight: 700;
+    font-size: .9rem;
+  }
+  .table-wrap tbody td { padding: 11px 14px; border-top: 1px solid var(--line); color: var(--text-2); }
+  .table-wrap tbody tr:nth-child(even) { background: var(--bg-soft); }
+  .table-wrap tbody td:first-child { font-weight: 700; color: var(--ink); }
+  .table-wrap a { color: var(--gold-deep); }
+
+  /* صور المغاسل في بطاقة بارتفاع 4:3 — ملء الصندوق بلا فراغ */
+  #sinks .ph { aspect-ratio: 4 / 3; }
+  #sinks .ph img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+  .sec-title { display: block; }
+  .sec-title[style*='justify-content']::before { display: none; }
+
+  @media (max-width: 640px) {
+    .lp-actions { flex-direction: column; align-items: stretch; }
+    .lp-actions .btn { text-align: center; }
+    .lp-trust { gap: 12px; }
+  }
+</style>

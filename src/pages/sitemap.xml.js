@@ -17,6 +17,8 @@ export async function GET() {
   for (const p of PRODUCTS) pages.push(`/products/${p.slug}`);
   for (const pr of PROJECTS_FULL) pages.push(`/works/${pr.slug}`);
   pages.push('/blog', '/consulting', '/sinks', '/installation-external', '/installation-internal', '/works');
+  // صفحة الهبوط الإعلانية — إعلان بيع الحجر وتركيب الواجهات والمغاسل
+  pages.push('/stoneads');
   for (const b of POSTS) pages.push(`/blog/${b.slug}`);
   for (const c of ABOUT_CARDS) pages.push(`/about/${c.slug}`);
 
