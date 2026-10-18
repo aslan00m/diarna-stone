@@ -308,6 +308,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'hotel-stone-sinks-medina',
+    file: '/images/blog-ai/hotel-stone-sinks-medina.jpg',
+    scene:
+      'فريق صيانة يفحص صفاً من المغاسل الحجرية في حمام فندق قيد التأثيث بالمدينة المنورة',
+    prompt:
+      'A maintenance team inspecting a row of stone washbasins in a hotel bathroom under renovation in Medina, tools on a towel, daylight from an open window, editorial photography',
+    topics: [
+      'مغاسل فنادق',
+      'رخام المدينة المنورة',
+      'صيانة المغاسل',
+      'حوض فندقي',
+      'توريد حجر',
+    ],
+    usedBy: [''],
+  },
 
 
 ];
