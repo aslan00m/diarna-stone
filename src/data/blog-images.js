@@ -362,4 +362,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'granite-exterior-facades',
+    file: '/images/blog-ai/granite-exterior-facades.jpg',
+    scene:
+      'عاملان يثبّتان ألواح جرانيت داكنة على واجهة فيلا حديثة بالمدينة المنورة، مع ضبط كلب معدني بميزان ماء وإضاءة عصر دافئة.',
+    prompt:
+      'Editorial scene: two workers in workwear installing large dark granite cladding panels on a modern villa exterior wall in Medina, adjusting a stainless steel angle bracket with a spirit level, warm afternoon daylight, construction dust in the air, close-up facade detail, no text',
+    topics: [
+      'واجهات جرانيت',
+      'تثبيت الألواح',
+      'واجهات فلل',
+      'جرانيت مطفأ',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
