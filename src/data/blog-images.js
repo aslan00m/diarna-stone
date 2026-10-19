@@ -313,4 +313,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'villa-facades-medina',
+    file: '/images/blog-ai/villa-facades-medina.jpg',
+    scene:
+      'مهندس على سقالة منخفضة يراجع واجهة فيلا مكتملة في المدينة المنورة مكسوة بحجر طبيعي متعدد الدرجات، يشرح بيده استواء الصفوف وعامل يحمل ميزان ماء على الحائط.',
+    prompt:
+      'Editorial scene: an architect standing on a low scaffold reviewing the facade of a completed Medina villa clad in mixed-tone natural stone, gesturing to the stone course alignment while a worker holds a level against the wall, late afternoon light, no text',
+    topics: [
+      'واجهات منازل',
+      'المدينة المنورة',
+      'حجر طبيعي',
+      'تصميم واجهات',
+      'تشطيب خارجي',
+    ],
+    usedBy: [''],
+  },
 ];
