@@ -329,4 +329,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-facades-complete-selection-guide',
+    file: '/images/blog-ai/stone-facades-complete-selection-guide.jpg',
+    scene:
+      'واجهة فيلا حديثة مغشاة بألواح ترافرتينو فاتحة تحت شمس المدينة المنورة',
+    prompt:
+      'Modern villa facade clad in large light beige travertine stone panels, bright direct sunlight, clear joints between stone slabs, architectural editorial photography',
+    topics: [
+      'واجهات حجر',
+      'ترافرتينو',
+      'فيلا',
+      'المدينة المنورة',
+      'تصميم واجهات',
+    ],
+    usedBy: [''],
+  },
 ];
