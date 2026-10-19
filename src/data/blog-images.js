@@ -345,4 +345,21 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-vessel-sinks',
+    file: '/images/blog-ai/stone-vessel-sinks.jpg',
+    scene:
+      'مصمم يثبّت حوضاً حجرياً فوق سطح طاولة في معرض حجر مضاء بالمدينة المنورة',
+    prompt:
+      'A designer gently lowering a heavy natural stone vessel sink onto a bathroom counter in a bright stone showroom, hands steadying the basin, morning sunlight from the side, editorial photography',
+    topics: [
+      'أحواض حمام',
+      'مغاسل حجر',
+      'رخام الحمام',
+      'المدينة المنورة',
+      'تصميم حمام',
+      'تشطيب الحجر',
+    ],
+    usedBy: [''],
+  },
 ];
