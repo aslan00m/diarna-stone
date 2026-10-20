@@ -394,4 +394,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'travertine-facades-design-installation-maintenance',
+    file: '/images/blog-ai/travertine-facades-design-installation-maintenance.jpg',
+    scene:
+      'تفصيل قريب لألواح ترافرتينو مثبتة على واجهة مبنى تحت شمس المدينة المنورة',
+    prompt:
+      'A close view of a travertine stone facade on a modern house, warm beige tones, sunlight casting soft shadows on the stone texture, architectural photography, no people, no text',
+    topics: [
+      'واجهات ترافرتينو',
+      'تركيب',
+      'مدن',
+      'حجر طبيعي',
+      'فواصل',
+    ],
+    usedBy: [''],
+  },
 ];
