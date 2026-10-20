@@ -410,4 +410,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'granite-kitchen-countertops',
+    file: '/images/blog-ai/granite-kitchen-countertops.jpg',
+    scene:
+      'يدان تقيسان سماكة لوح جرانيت رمادي داكن لسطح مطبخ باستخدام فراقة رقمية في ورشة إضاءتها دافئة.',
+    prompt:
+      'Editorial photograph inside a stone fabrication workshop: two pairs of hands measuring the thickness of a dark grey granite kitchen countertop slab with a digital caliper, slab resting on wooden trestles, warm workshop lighting, shallow depth of field, documentary style, no text or lettering.',
+    topics: [
+      'أسطح عمل الجرانيت',
+      'مطابخ الحجر',
+      'سماكة اللوح',
+      'ورشة قص الحجر',
+      'أسطح مطبخ',
+    ],
+    usedBy: [''],
+  },
 ];
