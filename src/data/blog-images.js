@@ -426,4 +426,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'interior-stone-floors',
+    file: '/images/blog-ai/interior-stone-floors.jpg',
+    scene:
+      'يدان بقفازات تثبتان بلاطة ترافرتينو كبيرة في ملاط لاصق فوق قاعدة إسمنتية باستخدام مجرفة مسنونة ومسافات بلاستيكية.',
+    prompt:
+      'Editorial photograph: gloved hands setting a large travertine floor tile into fresh mortar on a concrete slab, notched trowel and plastic spacers beside the tile, low working light in a quiet interior space, documentary detail shot, sharp focus, high detail, professional photography, crisp, clear.',
+    topics: [
+      'أرضيات الحجر',
+      'تركيب البلاط',
+      'تثبيت الحجر',
+      'فواصل الأرضيات',
+      'عزل الرطوبة',
+    ],
+    usedBy: [''],
+  },
 ];
