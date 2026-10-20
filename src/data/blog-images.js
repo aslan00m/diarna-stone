@@ -378,4 +378,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'marble-basins-buying-guide',
+    file: '/images/blog-ai/marble-basins-buying-guide.jpg',
+    scene:
+      'يد تختار بين مغسلتي رخام في معرض حجر بإضاءة نهارية دافئة',
+    prompt:
+      'A customer\'s hands choosing between two marble vessel sinks in a stone showroom, warm daylight, editorial photography',
+    topics: [
+      'مغاسل حجر',
+      'أحواض حمام',
+      'رخام',
+      'المدينة المنورة',
+      'الحمامات',
+    ],
+    usedBy: [''],
+  },
 ];
