@@ -490,4 +490,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-scratch-repair',
+    file: '/images/blog-ai/stone-scratch-repair.jpg',
+    scene:
+      'يدان تعملان في ترميم الحجر تصقلان لوحا رخاميا بآلة صقل كهربائية مع رش ماء داخل فراغ داخلي مضاء.',
+    prompt:
+      'Editorial photograph: a stone restorer\'s hands polishing a marble floor slab with an electric polishing machine and water spray in a bright interior space, protective gloves, close-up documentary style, no text or lettering.',
+    topics: [
+      'ترميم الحجر',
+      'صقل الرخام',
+      'خدوش الرخام',
+      'حشو الحجر',
+      'عزل بعد الصقل',
+    ],
+    usedBy: [''],
+  },
 ];
