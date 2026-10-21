@@ -553,4 +553,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 's3-2026-10-21-stone-bianco-carrara-marble',
+    file: '/images/blog-ai/s3-2026-10-21-stone-bianco-carrara-marble.jpg',
+    scene:
+      'مشهد تصويري لواجهة فيلا بكسل رخام بيانكو كرارة قبل وبعد التجديد بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Bianco Carrara Marble villa facade cladding, before and after comparison of a building exterior, worn plain concrete wall transforming into an elegant white marble-clad facade, professional architectural photography, soft daylight, high detail',
+    topics: [
+      'رخام_بيانكو_كرارة',
+      'واجهات_حجرية',
+      'واجهات_رخام',
+      'حجر_طبيعي',
+      'تشطيب_واجهات',
+    ],
+    usedBy: [''],
+  },
 ];
