@@ -458,4 +458,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'surface-vs-undermount-basins',
+    file: '/images/blog-ai/surface-vs-undermount-basins.jpg',
+    scene:
+      'طاولة حمام بمغسلة مدمجة بجانب عيّنة مغسى سطحية أثناء المقارنة',
+    prompt:
+      'A bathroom counter with an undermount stone basin next to a vessel sink sample, a designer comparing the two, editorial photography',
+    topics: [
+      'مغاسل حجر',
+      'أحواض حمام',
+      'رخام',
+      'المدينة المنورة',
+      'الحمامات',
+    ],
+    usedBy: [''],
+  },
 ];
