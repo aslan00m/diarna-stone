@@ -506,4 +506,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'madinah-stone-installation',
+    file: '/images/blog-ai/madinah-stone-installation.jpg',
+    scene:
+      'عمالة ماهرة تركّب ألواح حجر جيري طبيعي بلون بيج/كريمي على واجهة مبنى حديث في المدينة المنورة',
+    prompt:
+      'Professional construction photograph: skilled stone masons installing natural beige/cream limestone cladding tiles on a modern building exterior wall in Madinah, Saudi Arabia, trowel and level, visible stone veining, bright daylight, precise grout lines, workers in white uniforms and hard hats, authentic construction site, 4k photo style',
+    topics: [
+      'تركيب حجر',
+      'المدينة المنورة',
+      'واجهات',
+      'حجر جيري',
+      'ديارنا الحديثة',
+    ],
+    usedBy: [''],
+  },
 ];
