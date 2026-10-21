@@ -522,4 +522,35 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 's1-2026-10-21-stone-crema-marfil-classic',
+    file: '/images/blog-ai/s1-2026-10-21-stone-crema-marfil-classic.jpg',
+    scene:
+      'رخام كريما مارفيل كلاسيك مصقول بسطح كريمي مصفر وعروق طبيعية خفيفة',
+    prompt:
+      'Crema Marfil Classic Marble slab, polished cream beige surface with subtle natural veining, professional architectural photography, soft daylight, high detail',
+    topics: [
+      'رخام',
+      'حجر طبيعي',
+      'كريما مارفيل',
+      'واجهات',
+      'أرضيات',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 's2-2026-10-21-equip-01',
+    file: '/images/blog-ai/s2-2026-10-21-equip-01.jpg',
+    scene:
+      'رافعة شوكية صفراء ترفع منصة داخل مستودع',
+    prompt:
+      'A yellow forklift truck inside a warehouse aisle lifting a pallet, professional industrial photography, real logistics warehouse, warm daylight, high detail',
+    topics: [
+      'رافعة شوكية',
+      'معدات ثقيلة',
+      'مستودع',
+      'تأجير معدات',
+    ],
+    usedBy: [''],
+  },
 ];
