@@ -442,4 +442,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-facade-waterproofing',
+    file: '/images/blog-ai/stone-facade-waterproofing.jpg',
+    scene:
+      'عامل يرش عازلًا شفافًا على صف من الحجر الجيري في واجهة حديثة، وشمس تنعكس على سطح الحجر الرطب، وعامل آخر يفحص قاعدة الواجهة بأداة تسوية.',
+    prompt:
+      'Editorial scene: a worker applying a transparent stone sealer with a low-pressure sprayer across a freshly installed limestone facade course, sunlight reflecting off the wet stone surface, second worker inspecting the base course with a trowel, no text',
+    topics: [
+      'عزل الحجر',
+      'عزل مائي',
+      'معالجة الواجهات',
+      'أملاح بيضاء',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
