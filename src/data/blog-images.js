@@ -474,4 +474,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'facade-fixing-clips-mortar-joints',
+    file: '/images/blog-ai/facade-fixing-clips-mortar-joints.jpg',
+    scene:
+      'تثبيت قضبان معدنية وتعليق لوح حجر بالكلالات على واجهة مبنى',
+    prompt:
+      'A construction worker installing a vertical stainless steel fixing bar on a building facade wall, then hanging a beige travertine stone cladding panel with metal fixing clips, light scaffolding, natural daylight, documentary photography',
+    topics: [
+      'كلاليس',
+      'تثبيت',
+      'واجهات',
+      'قضبان',
+      'تركيب حجر',
+    ],
+    usedBy: [''],
+  },
 ];
