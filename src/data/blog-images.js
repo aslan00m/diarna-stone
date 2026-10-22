@@ -602,4 +602,21 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 's2-2026-10-22-equip-03',
+    file: '/images/blog-ai/s2-2026-10-22-equip-03.jpg',
+    scene:
+      'مشهد تصويري لـمان لفت في موقع عمل بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'A heavy forklift moving an industrial machine in a port, professional industrial photography, real construction site, warm daylight, dust in the air, sharp focus, high detail, no text, no watermark',
+    topics: [
+      'مان لفت',
+      'heavy forklift',
+      'معدات ثقيلة',
+      'موقع عمل',
+      'port',
+      'construction site',
+    ],
+    usedBy: [''],
+  },
 ];
