@@ -635,4 +635,21 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 's3-2026-10-22-stone-giallo-siena-marble',
+    file: '/images/blog-ai/s3-2026-10-22-stone-giallo-siena-marble.jpg',
+    scene:
+      'مشهد تصويري لـرخام جيلو سيينا بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Giallo Siena Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام جيلو سيينا',
+      'واجات رخام',
+      'رخام أصقل',
+      'تشطيب مصقول',
+      'تشطيب مطفأ',
+      'واجهات حجرية',
+    ],
+    usedBy: [''],
+  },
 ];
