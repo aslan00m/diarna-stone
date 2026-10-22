@@ -650,6 +650,24 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's3-2026-10-22-stone-giallo-siena-ig',
+    file: '/images/blog-ai/s3-2026-10-22-stone-giallo-siena-ig.jpg',
+    scene:
+      'واجهة مبنى تجاري قبل وبعد التجديد بكسوة رخام جيلو سيينا الذهبي - ديارنا الحديثة',
+    prompt:
+      'Modern commercial building exterior facade after renovation, newly clad in polished Giallo Siena yellow-gold Italian marble slabs with crisp clean joints, bright daylight, completed premium project',
+    topics: [
+      'رخام جيلو سيينا',
+      'واجهات حجرية',
+      'كسوة رخام',
+      'تجديد واجهات',
+      'رخام أصفر',
+      'ديارنا الحديثة',
+      'حجر طبيعي',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
