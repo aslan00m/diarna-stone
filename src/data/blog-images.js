@@ -569,4 +569,21 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 's1-2026-10-22-stone-arabescato-marble',
+    file: '/images/blog-ai/s1-2026-10-22-stone-arabescato-marble.jpg',
+    scene:
+      'مشهد تصويري لـرخام أرابيسكاتو بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Arabescato Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام',
+      'أرابيسكاتو',
+      'واجهات',
+      'أرضيات',
+      'حجر طبيعي',
+      'مصقول',
+    ],
+    usedBy: [''],
+  },
 ];
