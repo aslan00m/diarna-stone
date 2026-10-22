@@ -24,10 +24,6 @@
 export const BLOG_AI_DIR = '/images/blog-ai/';
 
 export const BLOG_AI_IMAGES = [
-
-// Fallback only. A generated cover is always preferred; this exists so a
-// post can never ship with no image at all.
-export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
   {
     slug: 'choosing-stone-countertop',
     file: '/images/blog-ai/choosing-stone-countertop.jpg',
@@ -639,17 +635,23 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     slug: 's3-2026-10-22-stone-giallo-siena-marble',
     file: '/images/blog-ai/s3-2026-10-22-stone-giallo-siena-marble.jpg',
     scene:
-      'مشهد تصويري لـرخام جيلو سيينا بإضاءة طبيعية وتفاصيل واضحة',
+      'واجهة مبنى تجاري قبل وبعد التجديد بكسوة رخام جيلو سيينا الذهبي - ديارنا الحديثة',
     prompt:
-      'Giallo Siena Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+      'Modern commercial building exterior facade after renovation, newly clad in polished Giallo Siena yellow-gold Italian marble slabs with crisp clean joints, bright daylight, completed premium project',
     topics: [
       'رخام جيلو سيينا',
-      'واجات رخام',
-      'رخام أصقل',
-      'تشطيب مصقول',
-      'تشطيب مطفأ',
       'واجهات حجرية',
+      'كسوة رخام',
+      'تجديد واجهات',
+      'رخام أصفر',
+      'ديارنا الحديثة',
+      'حجر طبيعي',
+      'تشطيب مباني',
     ],
     usedBy: [''],
   },
 ];
+
+// Fallback only. A generated cover is always preferred; this exists so a
+// post can never ship with no image at all.
+export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';

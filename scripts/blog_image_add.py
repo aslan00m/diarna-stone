@@ -14,6 +14,8 @@ the reader in blog_image_match.py expects.
 """
 
 import argparse
+import json
+import re
 import shutil
 import sys
 from pathlib import Path
@@ -23,6 +25,35 @@ LIB = ROOT / "src" / "data" / "blog-images.js"
 IMGDIR = ROOT / "public" / "images" / "blog-ai"
 
 
+def js_str(v):
+    """Single-quoted JS string literal, matching the library's existing style."""
+    return "'" + str(v).replace("\\", "\\\\").replace("'", "\\'") + "'"
+
+
+def replace_entry(src_js, slug, prompt, scene, topics):
+    """Rewrite scene/prompt/topics inside an existing entry block."""
+    start = src_js.index(f"slug: '{slug}'")
+    # walk back to the opening brace of this entry
+    start = src_js.rindex("  {", 0, start)
+    end = src_js.index("  },", start) + len("  },")
+    block = src_js[start:end]
+
+    def sub(field, value):
+        nonlocal block
+        pat = re.compile(r"(    %s: ?\[?\n)(?:      [^\n]*\n)+" % field)
+        vals = ([value] if field != "topics" else
+                [k.strip() for k in value.split(",") if k.strip()])
+        new = "".join("      %s,\n" % js_str(v) for v in vals)
+        block, n = pat.subn(lambda m: m.group(1) + new, block, count=1)
+        if n != 1:
+            print(f"WARN: field {field} not found in {slug}", file=sys.stderr)
+
+    sub("scene", scene)
+    sub("prompt", prompt)
+    sub("topics", topics)
+    return src_js[:start] + block + src_js[end:]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("slug", help="unique library key, also the filename")
@@ -30,6 +61,8 @@ def main():
     ap.add_argument("scene", help="Arabic description — becomes the alt text")
     ap.add_argument("topics", help="comma-separated Arabic keywords for matching")
     ap.add_argument("--file", help="copy this file into the library as <slug>.jpg")
+    ap.add_argument("--update", action="store_true",
+                    help="refresh scene/prompt/topics of an already-registered slug")
     args = ap.parse_args()
 
     slug = args.slug.strip()
@@ -54,7 +87,12 @@ def main():
 
     src_js = LIB.read_text(encoding="utf-8")
     if f"slug: '{slug}'" in src_js:
-        print(f"ALREADY REGISTERED: {slug}")
+        if not args.update:
+            print(f"ALREADY REGISTERED: {slug}")
+            sys.exit(0)
+        src_js = replace_entry(src_js, slug, args.prompt, args.scene, args.topics)
+        LIB.write_text(src_js, encoding="utf-8")
+        print(f"UPDATED: {slug}")
         sys.exit(0)
 
     topics = "".join(f"      '{k.strip()}',\n" for k in args.topics.split(",") if k.strip())
