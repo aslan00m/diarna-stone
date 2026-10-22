@@ -731,6 +731,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's6-2026-10-22-stone-silver-travertine-classic',
+    file: '/images/blog-ai/s6-2026-10-22-stone-silver-travertine-classic.jpg',
+    scene:
+      'مشهد تصويري لـSilver Travertine Travertine بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Silver Travertine travertine, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'Silver Travertine',
+      'ترافيرتين',
+      'حجر طبيعي',
+      'المدينة المنورة',
+      'ديارنا الحديثة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
