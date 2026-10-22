@@ -586,4 +586,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'basin-materials-carrara-travertine',
+    file: '/images/blog-ai/basin-materials-carrara-travertine.jpg',
+    scene:
+      'أربع عيّنات مغاسل من خامات مختلفة: رخام كرارة وترافرتينو وجرانيت وحجر جيري',
+    prompt:
+      'Four stone basin samples of different materials, Carrara marble travertine granite and limestone, arranged on a table, editorial photography',
+    topics: [
+      'مغاسل حجر',
+      'أحواض حمام',
+      'رخام',
+      'المدينة المنورة',
+      'الحمامات',
+    ],
+    usedBy: [''],
+  },
 ];
