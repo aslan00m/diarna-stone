@@ -700,6 +700,21 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's5-2026-10-22-stone-dark-emperador-classic',
+    file: '/images/blog-ai/s5-2026-10-22-stone-dark-emperador-classic.jpg',
+    scene:
+      'مشهد تصويري لـرخام إمبرادور الداكن بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Dark Emperador Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام إمبرادور الداكن',
+      'رخام بني',
+      'تأجير معدات الرياض',
+      'ديارنا الحديثة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
