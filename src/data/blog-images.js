@@ -715,6 +715,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'cleaning-stone-sinks',
+    file: '/images/blog-ai/cleaning-stone-sinks.jpg',
+    scene:
+      'عاملة نظافة تمسح حوض رخام مصقول بقطعة قماش ناعمة في حمام مشرق بإضاءة جانبية',
+    prompt:
+      'A housekeeper wiping a polished marble washbasin with a soft cloth in a bright bathroom, water droplets on the stone edge, daylight from the side, editorial photography',
+    topics: [
+      'تنظيف الحجر',
+      'عناية المغاسل',
+      'رخام الحمام',
+      'المدينة المنورة',
+      'صيانة الحجر',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
