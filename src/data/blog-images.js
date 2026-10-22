@@ -619,4 +619,20 @@ export const BLOG_AI_FALLBACK = '/images/blog-ai/choosing-stone-countertop.jpg';
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-facade-cost-per-meter',
+    file: '/images/blog-ai/stone-facade-cost-per-meter.jpg',
+    scene:
+      'مخطط واجهة وعيّنتا حجر على طاولة عمل قبل تسعير المشروع',
+    prompt:
+      'An architect and a homeowner reviewing natural stone facade samples and a printed building elevation drawing on a site office desk, calculator, pencil, two cut stone sample blocks, warm daylight from a window, editorial documentary photography, no text',
+    topics: [
+      'تكلفة',
+      'عرض سعر',
+      'واجهات حجر',
+      'عينات',
+      'مقاسات',
+    ],
+    usedBy: [''],
+  },
 ];
