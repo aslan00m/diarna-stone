@@ -668,6 +668,38 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's4-2026-10-22-equip-04',
+    file: '/images/blog-ai/s4-2026-10-22-equip-04.jpg',
+    scene:
+      'مشهد تصويري لـسيزر لفت في موقع عمل بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'A scissor lift platform raised beside a building facade, professional industrial photography, real construction site, warm daylight, dust in the air, sharp focus, high detail, no text, no watermark',
+    topics: [
+      'سيزر لفت',
+      'معدات ثقيلة',
+      'تأجير معدات',
+      'الرياض',
+      'السعودية',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 'interior-staircase-marble',
+    file: '/images/blog-ai/interior-staircase-marble.jpg',
+    scene:
+      'تفصيل قريب لدرج داخلي من الرخام يظهر درجة مصقولة بحافة مستديرة ورقاقة جانبية مطابقة، مع ضوء دافئ يلقي ظلالا ناعمة على الدرجات.',
+    prompt:
+      'Editorial photograph: close-up detail of an interior stone staircase showing a polished marble tread, rounded nosing edge and matching side cladding, warm sunlight casting soft shadows across the steps, architectural interior photography, no text or lettering.',
+    topics: [
+      'رخام الدرج',
+      'درج داخلي',
+      'حواف الدرج',
+      'تركيب الدرج',
+      'صقل الدرج',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
