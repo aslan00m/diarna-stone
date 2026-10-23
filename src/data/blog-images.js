@@ -888,6 +888,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's6-2026-10-23-stone-granite-exterior-facades',
+    file: '/images/blog-ai/s6-2026-10-23-stone-granite-exterior-facades.jpg',
+    scene:
+      'عاملان يثبّتان ألواح جرانيت داكنة على واجهة فيلا حديثة بالمدينة المنورة، مع ضبط كلب معدني بميزان ماء وإضاءة عصر دافئة.',
+    prompt:
+      'Close-up of large natural dark granite stone cladding slabs being mounted on a modern villa exterior facade, dark grey granite panels with visible crystalline speckled stone texture, a construction worker in a safety helmet positioning a slab, stainless steel mechanical anchor brackets and metal frame, construction site, warm afternoon light, no text, no watermark',
+    topics: [
+      'واجهات',
+      'جرانيت',
+      'حجر طبيعي',
+      'تشطيبات',
+      'ديارنا الحديثة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
