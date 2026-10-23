@@ -779,6 +779,29 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's2-2026-10-23-stone-roman-travertine-classic',
+    file: '/images/blog-ai/s2-2026-10-23-stone-roman-travertine-classic.jpg',
+    scene:
+      'مشهد تصويري لـRoman Travertine بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Roman Travertine travertine, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'Roman Travertine',
+      'travertine',
+      'natural stone',
+      'beige',
+      'polished',
+      'honed',
+      'Madinah',
+      'Medina',
+      'حجر طبيعي',
+      'ترافرتين',
+      'واجهات',
+      'أرضيات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
