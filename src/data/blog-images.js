@@ -869,6 +869,25 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's5-2026-10-23-stone-stone-finishes-guide',
+    file: '/images/blog-ai/s5-2026-10-23-stone-stone-finishes-guide.jpg',
+    scene:
+      'ثلاث عيّنات حجر جنباً إلى جنب تُظهر تشطيباً مصقولاً وآخر مطفأً وثالثاً مجروشاً على طاولة ورشة',
+    prompt:
+      'Three stone sample tiles side by side showing polished, honed and textured finishes on a workshop table, soft daylight, editorial photography, macro detail',
+    topics: [
+      'تشطيبات_الحجر',
+      'حجر_طبيعي',
+      'رخام',
+      'جرانيت',
+      'تشطيب_مصقول',
+      'تشطيب_مطفأ',
+      'المدينة_المنورة',
+      'ديارنا_الحديثة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
