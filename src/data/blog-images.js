@@ -747,6 +747,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's1-2026-10-23-stone-emperador-light-marble',
+    file: '/images/blog-ai/s1-2026-10-23-stone-emperador-light-marble.jpg',
+    scene:
+      'مشهد تصويري لـرخام إمبرادور فاتح بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Emperador Light Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام إمبرادور',
+      'حجر طبيعي',
+      'واجهات',
+      'أرضيات',
+      'تشطيبات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
