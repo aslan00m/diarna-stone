@@ -853,6 +853,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'undermount-marble-sinks',
+    file: '/images/blog-ai/undermount-marble-sinks.jpg',
+    scene:
+      'فنّي يثبّت مغسلاً رخامياً تحت سطح كونسول حجري سميك في حمام مضاء بإضاءة جانبية',
+    prompt:
+      'A fitter securing an undermount marble sink under a thick stone countertop in a bright bathroom, hands tightening a metal clamp, side daylight, editorial photography',
+    topics: [
+      'مغسل تحت السطح',
+      'تركيب المغاسل',
+      'رخام الكونسول',
+      'المدينة المنورة',
+      'حوض مدمج',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
