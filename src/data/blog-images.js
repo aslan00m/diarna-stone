@@ -836,6 +836,23 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's4-2026-10-23-stone-carrara-vessel-sink',
+    file: '/images/blog-ai/s4-2026-10-23-stone-carrara-vessel-sink.jpg',
+    scene:
+      'مشهد تصويري لمغسلة حوض كارارا المستديرة بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Carrara Round Vessel Sink stone washbasin, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'مغاسل',
+      'مغسلة رخام',
+      'حوض كارارا',
+      'مغسلة مستديرة',
+      'رخام',
+      'تشطيبات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
