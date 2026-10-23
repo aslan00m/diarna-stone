@@ -763,6 +763,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'basin-sizes-heights',
+    file: '/images/blog-ai/basin-sizes-heights.jpg',
+    scene:
+      'شريط قياس بجانب مغسلة حجرية على طاولة حمام يظهر الارتفاع والقطر',
+    prompt:
+      'A tape measure beside a stone basin on a bathroom counter showing height and diameter, editorial photography',
+    topics: [
+      'مغاسل حجر',
+      'أحواض حمام',
+      'رخام',
+      'المدينة المنورة',
+      'الحمامات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
