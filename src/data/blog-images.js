@@ -802,6 +802,24 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's3-2026-10-23-stone-granite-silver-grey-1',
+    file: '/images/blog-ai/s3-2026-10-23-stone-granite-silver-grey-1.jpg',
+    scene:
+      'مشهد تصويري لـجرانيت فضي رمادي بتصميم معماري أنيق',
+    prompt:
+      'Silver Grey Granite granite, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'جرانيت فضي',
+      'رخام',
+      'واجهات',
+      'مغاسل',
+      'مطابخ',
+      'تشطيبات',
+      'حجر طبيعي',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
