@@ -820,6 +820,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'three-stones-comparison-table',
+    file: '/images/blog-ai/three-stones-comparison-table.jpg',
+    scene:
+      'ثلاث عيّنات حجر في صف على طاولة ورشة: رخام وجرانيت وترافرتينو، وفني يقارن بينها',
+    prompt:
+      'Three stone sample tiles arranged in a row on a workshop table, marble granite and travertine, a technician comparing them, editorial photography',
+    topics: [
+      'مقارنة أحجار',
+      'رخام',
+      'جرانيت',
+      'ترافرتينو',
+      'أسطح مطبخ',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
