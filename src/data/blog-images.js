@@ -920,6 +920,21 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's1-2026-10-24-stone-portoro-classic',
+    file: '/images/blog-ai/s1-2026-10-24-stone-portoro-classic.jpg',
+    scene:
+      'مشهد تصويري لـرخام بورتورو بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Portoro Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام بورتورو',
+      'رخام أسود',
+      'حجر طبيعي',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
