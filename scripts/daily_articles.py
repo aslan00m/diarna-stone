@@ -517,39 +517,10 @@ def cmd_publish(args):
     print("PASS: build ok")
 
     # 6) commit + push (owner pushes concurrently — rebase, never force)
-    files = {"src/data/blog.js", "src/data/blog-images.js"}
-    for p in posts:
-        files.add(f"public/images/blog-ai/{p['slug']}.jpg")
-    G = ["git", "-c", "user.name=aslan00m", "-c", "user.email=aslan00m@users.noreply.github.com"]
-    sh(G + ["add", *sorted(files)], check=False)
-    c = sh(G + ["commit", "-m", f"feat(blog): مقال SEO جديد ({today})" if len(posts) == 1 else f"feat(blog): {len(posts)} مقالات SEO جديدة ({today})"], timeout=120, check=False)
-    if c.returncode != 0 and "nothing to commit" not in (c.stdout + c.stderr):
-        print("FAIL: commit failed")
-        print(((c.stdout or "") + (c.stderr or ""))[-800:])
-        return 1
-    sh(["git", "fetch", "origin", "main"], timeout=180)
-    r = sh(["git", "pull", "--rebase", "origin", "main"], timeout=180, check=False)
-    if r.returncode != 0:
-        print("FAIL: rebase conflict with owner's push — aborting, nothing pushed")
-        sh(["git", "rebase", "--abort"], check=False)
-        print(((r.stdout or "") + (r.stderr or ""))[-1000:])
-        return 1
-    pushed = False
-    push_out = ""
-    for attempt in range(3):
-        p = sh(["git", "push", "origin", "HEAD:main"], timeout=180, check=False)
-        push_out = f"{p.stdout or ''}{p.stderr or ''}"
-        if p.returncode == 0:
-            pushed = True
-            break
-        print(f"push attempt {attempt + 1} failed, retrying in 20s")
-        print(push_out[-400:])
-        time.sleep(20)
-    if not pushed:
-        print("FAIL: push failed after 3 attempts")
-        print(push_out[-800:])
-        return 1
-    print("PASS: pushed")
+    image_files = [f"public/images/blog-ai/{p['slug']}.jpg" for p in posts]
+    rc = publish_guarded(image_files=image_files)
+    if rc:
+        return rc
 
     # 7) confirm live pages
     print("waiting for GitHub Pages deploy ...")
@@ -582,6 +553,75 @@ for(const post of POSTS){
 }
 console.log('parse ok, posts:', POSTS.length);
 """
+
+
+def git(*a, **kw):
+    """Run git as the repo's owner identity (the global identity is sharikat)."""
+    return sh(
+        ["git", "-c", "user.name=aslan00m",
+         "-c", "user.email=aslan00m@users.noreply.github.com", *a], **kw
+    )
+
+
+def publish_guarded(image_files=(), extra_files=()):
+    """Commit + rebase-push the article, committing ANY leftovers first.
+
+    The bank file (blog-topics.js) is written by the authoring step of the same
+    job. If it is left uncommitted, `git pull --rebase` aborts with "You have
+    unstaged changes" and no article is pushed. So: commit the article's own
+    files, then sweep every remaining modified file into a second commit, then
+    rebase and push. Nothing is force-pushed and nothing is dropped.
+    """
+    files = {"src/data/blog.js", "src/data/blog-images.js", *image_files, *extra_files}
+    G = ["git", "-c", "user.name=aslan00m", "-c", "user.email=aslan00m@users.noreply.github.com"]
+    sh(G + ["add", *sorted(files)], check=False)
+    today = date.today().isoformat()
+    c = sh(G + ["commit", "-m",
+                f"feat(blog): مقال SEO جديد ({today})" if len(image_files) <= 1
+                else f"feat(blog): {len(image_files)} مقالات SEO جديدة ({today})"],
+           timeout=120, check=False)
+    if c.returncode != 0 and "nothing to commit" not in (c.stdout + c.stderr):
+        print("FAIL: commit failed")
+        print(((c.stdout or "") + (c.stderr or ""))[-800:])
+        return 1
+
+    # sweep leftovers (the topic bank the authoring step just appended to)
+    st = sh(["git", "status", "--porcelain"], check=False).stdout or ""
+    dirty = [ln[3:].strip().strip('"') for ln in st.splitlines() if ln[3:].strip()]
+    if dirty:
+        print("note: committing leftover files too: " + ", ".join(dirty))
+        sh(G + ["add", "--"] + dirty, check=False)
+        s = sh(G + ["commit", "-m", f"chore(blog): تزامن الملفات المعلّقة ({today})"],
+               timeout=120, check=False)
+        if s.returncode != 0 and "nothing to commit" not in (s.stdout + s.stderr):
+            print("FAIL: sweep commit failed")
+            print(((s.stdout or "") + (s.stderr or ""))[-800:])
+            return 1
+
+    git("fetch", "origin", "main", timeout=180)
+    r = git("pull", "--rebase", "origin", "main", timeout=180, check=False)
+    if r.returncode != 0:
+        print("FAIL: rebase conflict with owner's push — aborting, nothing pushed")
+        git("rebase", "--abort", check=False)
+        print(((r.stdout or "") + (r.stderr or ""))[-1000:])
+        return 1
+    pushed = False
+    push_out = ""
+    for attempt in range(3):
+        p = git("push", "origin", "HEAD:main", timeout=180, check=False)
+        push_out = f"{p.stdout or ''}{p.stderr or ''}"
+        if p.returncode == 0:
+            pushed = True
+            break
+        print(f"push attempt {attempt + 1} failed, retrying in 20s")
+        print(push_out[-400:])
+        time.sleep(20)
+    if not pushed:
+        print("FAIL: push failed after 3 attempts")
+        print(push_out[-800:])
+        return 1
+    print("PASS: pushed")
+    return 0
 
 
 def wait_live(url, needle, timeout_s=170):
