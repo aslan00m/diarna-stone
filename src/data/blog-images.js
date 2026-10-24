@@ -1093,6 +1093,22 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'outdoor-stone-flooring',
+    file: '/images/blog-ai/outdoor-stone-flooring.jpg',
+    scene:
+      'بلاطات حجر جيري بيج حديثة الرصف في فناء خارجي بفواصل رملية ظاهرة، ويد عامل بقفاز تمسك مطرقة مطاطية على بلاطة، وجزء من ميزان مستوٍ على الحجر',
+    prompt:
+      'Close-up detail of newly laid beige natural limestone paving slabs in an outdoor courtyard, visible sand joints between slabs, a worker\'s gloved hand holding a rubber mallet tapping one slab into place, part of a spirit level resting on the stone, hard shadows in warm late afternoon sunlight, shallow depth of field, macro editorial style, sharp focus, high detail, professional photography, crisp, clear',
+    topics: [
+      'أرضيات خارجية',
+      'حجر ممشى',
+      'فناء حجري',
+      'حجر حدائق',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
@@ -1108,8 +1124,7 @@ export const BLOG_AI_IMAGES = [
       'تنظيف الرخام',
     ],
     usedBy: [''],
-  },
-  {
+  },  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids-ig',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids-ig.jpg',
     scene:
@@ -1125,8 +1140,7 @@ export const BLOG_AI_IMAGES = [
       'تنظيف الرخام',
     ],
     usedBy: [''],
-  },
-];
+  },];
 
 // Fallback only. A generated cover is always preferred; this exists so a
 // post can never ship with no image at all.
