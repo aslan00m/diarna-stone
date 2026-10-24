@@ -950,6 +950,21 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's1-2026-10-24-stone-portoro-classic-ig',
+    file: '/images/blog-ai/s1-2026-10-24-stone-portoro-classic-ig.jpg',
+    scene:
+      'مشهد تصويري لـرخام بورتورو الأسود بعروقه الذهبية المميزة، سطح مصقول لامع، بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Portoro Marble, black marble with distinctive gold and white veins, polished surface, high contrast dark background, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام بورتورو',
+      'رخام أسود',
+      'حجر طبيعي',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
