@@ -1109,6 +1109,22 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'marble-countertops-buying-guide',
+    file: '/images/blog-ai/marble-countertops-buying-guide.jpg',
+    scene:
+      'مطبخ بسطح عمل من الرخام ورب منزل يختار شكل الحافة من عيّنات',
+    prompt:
+      'A kitchen with a marble countertop and a homeowner choosing edge profile from samples, warm daylight, editorial photography',
+    topics: [
+      'مقارنة أحجار',
+      'رخام',
+      'جرانيت',
+      'ترافرتينو',
+      'أسطح مطبخ',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
