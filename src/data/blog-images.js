@@ -981,6 +981,23 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's2-2026-10-24-stone-silver-travertine-veined',
+    file: '/images/blog-ai/s2-2026-10-24-stone-silver-travertine-veined.jpg',
+    scene:
+      'مشهد تصويري لحجر الترافنتينو الفضي المعرّق بتشطيب مصقول بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Veined Silver Travertine natural travertine stone slab, polished surface finish, soft grey base with clear white and pale grey linear veins running through the stone, visible natural pores and subtle crystalline texture, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'حجر ترافنتينو',
+      'ترافنتينو فضي',
+      'حجر طبيعي',
+      'واجهات حجر',
+      'ديارنا الحديثة',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
