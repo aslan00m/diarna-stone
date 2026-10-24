@@ -1092,6 +1092,23 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's6-2026-10-24-stone-marble-kitchen-acids',
+    file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
+    scene:
+      'يد تمسح عصير حماض مسكوبا على سطح رخامي كريمي داخل مطبخ بإضاءة نافذة طبيعية، مع إظهار نسيج السطح ولمعته.',
+    prompt:
+      'Editorial photograph in a kitchen: a hand wiping spilled citrus juice from a creamy marble countertop with a soft cloth, close-up on surface texture and matte finish, natural window light, documentary style, no text or lettering.',
+    topics: [
+      'رخام المطبخ',
+      'حمض الليمون على الرخام',
+      'تأثير الحموض على الرخام',
+      'صيانة رخام المطبخ',
+      'حجر طبيعي',
+      'تنظيف الرخام',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
