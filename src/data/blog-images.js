@@ -965,6 +965,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'narrow-bathroom-basins',
+    file: '/images/blog-ai/narrow-bathroom-basins.jpg',
+    scene:
+      'حمام ضيق بمغسلة حجرية صغيرة وخلاط جداري',
+    prompt:
+      'Editorial photograph of a very narrow small bathroom, a compact natural stone washbasin fixed to the wall with an exposed chrome wall-mounted faucet mounted directly on the tiled wall above the basin, daylight from a small window, neutral cream and white tones, no people',
+    topics: [
+      'مغاسل حجر',
+      'أحواض حمام',
+      'رخام',
+      'المدينة المنورة',
+      'الحمامات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
