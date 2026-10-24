@@ -998,6 +998,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'basin-installation-steps',
+    file: '/images/blog-ai/basin-installation-steps.jpg',
+    scene:
+      'يد تركّب مغسلة حجرية ثقيلة على الطاولة بمساند وسيليكون',
+    prompt:
+      'A plumber\'s hands fixing a heavy stone basin onto a bathroom counter with metal brackets and a bead of clear silicone sealant, level tool and tape measure nearby, daylight',
+    topics: [
+      'مغاسل حجر',
+      'أحواض حمام',
+      'رخام',
+      'المدينة المنورة',
+      'الحمامات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
