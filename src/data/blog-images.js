@@ -1076,6 +1076,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'natural-stone-sealing',
+    file: '/images/blog-ai/natural-stone-sealing.jpg',
+    scene:
+      'فني يطبّق مادة عازلة على أرضية رخام داخل فيلا مضاءة بنهار ناعم',
+    prompt:
+      'A technician applying penetrating stone sealer to a honed marble floor with a microfiber cloth inside a bright villa, soft daylight, sharp focus, high detail, 8k, professional photography, crisp, clear, well-defined, ultra realistic',
+    topics: [
+      'ختم الحجر',
+      'عزل الرخام',
+      'صيانة الحجر الطبيعي',
+      'حماية الأسطح',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
