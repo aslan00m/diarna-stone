@@ -1059,6 +1059,23 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's5-2026-10-24-stone-sandstone-facades-cladding',
+    file: '/images/blog-ai/s5-2026-10-24-stone-sandstone-facades-cladding.jpg',
+    scene:
+      'نجار حجر يثبّت لوح حجر رملي مشطوف على واجهة فيلا بيديه ومطرقة مطاطية، وعامل آخر يفحص الاستواء بخيط، وغبار القطع في الضوء.',
+    prompt:
+      'Editorial scene: a mason carefully setting a rough-hewn sandstone panel onto a villa facade with a rubber mallet, a second worker checking alignment with a string line, dust from cutting visible in daylight, close-up of stone texture and shadow, no text',
+    topics: [
+      'حجر رملي',
+      'واجهات',
+      'واجهات حجر رملي',
+      'تكسية حجر',
+      'واجهات فلل',
+      'حجر طبيعي',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
