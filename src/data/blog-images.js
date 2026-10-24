@@ -1014,6 +1014,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's3-2026-10-24-stone-granite-silver-grey-2',
+    file: '/images/blog-ai/s3-2026-10-24-stone-granite-silver-grey-2.jpg',
+    scene:
+      'مشهد تصويري لـSilver Grey Granite 2 بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Silver Grey Granite 2 granite, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'جرانيت فضي',
+      'حجر طبيعي',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
