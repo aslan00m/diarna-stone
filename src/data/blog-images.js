@@ -1043,6 +1043,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'basin-price-factors',
+    file: '/images/blog-ai/basin-price-factors.jpg',
+    scene:
+      'عرض سعر مكتوب لمغاسل حجرية على مكتب بجانب عيّنات',
+    prompt:
+      'A written quotation for stone basins on a desk next to basin samples, editorial photography',
+    topics: [
+      'مغاسل حجر',
+      'أحواض حمام',
+      'رخام',
+      'المدينة المنورة',
+      'الحمامات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
