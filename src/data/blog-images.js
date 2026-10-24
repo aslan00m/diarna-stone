@@ -1028,6 +1028,21 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's4-2026-10-24-stone-calacatta-vessel-sink',
+    file: '/images/blog-ai/s4-2026-10-24-stone-calacatta-vessel-sink.jpg',
+    scene:
+      'مغسلة مدمجة منحوتة في كتلة رخام كالاكاتا واحدة',
+    prompt:
+      'Bathroom vanity carved from one massive Calacatta marble block, integrated oval basin carved directly into the solid stone, gold and grey marble veins visible everywhere on the same continuous stone surface, polished marble, wall-mounted brushed gold faucet, soft daylight, architectural interior photography, sharp focus, high detail, no text, no watermark',
+    topics: [
+      'مغاسل',
+      'رخام كالاكاتا',
+      'مغسلة رخام',
+      'ديارنا الحديثة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
