@@ -29,6 +29,16 @@ if (cut < 0 || !bankSrc.slice(0, cut).includes('=')) {
   process.exit(2);
 }
 
+// Two entries with one id means the LAST copy silently wins in publish, so a
+// stale shell would be re-claimed later. Refuse instead of stacking a copy.
+const existingIds = [...bankSrc.matchAll(/^ {4}id: '([^']+)',$/gm)].map((m) => m[1]);
+const clash = [...new Set(topics.map((t) => t.id).filter((id) => existingIds.includes(id)))];
+if (clash.length) {
+  console.error(`batch ids already in the bank: ${clash.join(', ')}`);
+  console.error('remove the existing entry first — a duplicate makes publish take the last copy');
+  process.exit(2);
+}
+
 const esc = (s) => String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 
 const block = topics
@@ -55,7 +65,22 @@ const block = topics
       })
       .join('\n');
 
-    const faqs = t.faq.map((f) => `    { q: '${esc(f.q)}', a: '${esc(f.a)}' },`).join('\n');
+    // FAQ schema is {q, a}. Older batch files spelled it {question, answer},
+    // and reading .q off those wrote the literal string 'undefined' into the
+    // bank — and then into live posts (4 articles shipped it). Normalise both
+    // spellings, and refuse an entry that resolves to nothing.
+    const faqs = t.faq
+      .map((f) => {
+        const q = f.q ?? f.question;
+        const a = f.a ?? f.answer;
+        if (q == null || a == null || String(q) === 'undefined' || String(a) === 'undefined') {
+          throw new Error(
+            `topic ${t.id}: FAQ entry missing q/a (keys: ${Object.keys(f).join(',')})`
+          );
+        }
+        return `    { q: '${esc(q)}', a: '${esc(a)}' },`;
+      })
+      .join('\n');
 
     return `  {
     id: '${esc(t.id)}',
