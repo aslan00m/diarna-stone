@@ -1125,6 +1125,21 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's1-2026-10-25-stone-statuario-marble',
+    file: '/images/blog-ai/s1-2026-10-25-stone-statuario-marble.jpg',
+    scene:
+      'مشهد تصويري لـرخام ستاتيواريو بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Statuario Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام ستاتيواريو',
+      'رخام إيطالي',
+      'رخام أبيض',
+      'واجهات رخام',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
