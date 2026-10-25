@@ -1216,6 +1216,22 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'stone-crack-repair-assessment',
+    file: '/images/blog-ai/stone-crack-repair-assessment.jpg',
+    scene:
+      'مجرفة معدنية مسطّحة ملقاة على لوح حجر جيري بيج طبيعي فوق طاولة عمل في ورشة، بإضاءة نهارية وتركيز حاد',
+    prompt:
+      'Macro photograph of a metal trowel lying flat on a beige natural limestone slab on a workbench, workshop background, daylight, sharp focus, high detail, professional photography',
+    topics: [
+      'إصلاح تشققات الحجر',
+      'ترميم الرخام',
+      'تشقق الحجر الطبيعي',
+      'صيانة الحجر',
+      'معجون ترميم الحجر',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
