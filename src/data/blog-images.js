@@ -1140,6 +1140,18 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's2-2026-10-25-stone-roman-travertine-veincut',
+    file: '/images/blog-ai/s2-2026-10-25-stone-roman-travertine-veincut.jpg',
+    scene:
+      'مشهد تصويري لـVein Cut Roman Travertine بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Vein Cut Roman Travertine travertine, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark, sharp focus, high detail, 4K resolution, ultra realistic, crisp, clear, professional photography, 2048x1024',
+    topics: [
+      'ترافينتين، حجر طبيعي، واجهات، تركيب، رصف',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
