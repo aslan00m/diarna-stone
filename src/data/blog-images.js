@@ -1183,6 +1183,22 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'facade-leveling-flatness-guide',
+    file: '/images/blog-ai/facade-leveling-flatness-guide.jpg',
+    scene:
+      'ميزان مياه معدني موضوع على لوح حجر جيري طبيعي بيج فوق طاولة عمل في ورشة، مع خلفية خشبية',
+    prompt:
+      'Macro photograph of a spirit level tool lying flat on a beige natural limestone slab on a workbench, workshop background, daylight, realistic, sharp focus',
+    topics: [
+      'استواء الواجهات',
+      'تسوية الحجر',
+      'ميزان مياه',
+      'تثبيت الحجر',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
