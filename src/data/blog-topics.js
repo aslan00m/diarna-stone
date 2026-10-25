@@ -4276,8 +4276,8 @@ export const TOPIC_BANK = [
     ],
     ctaHeading: 'محتاج رأي فني قبل القرار؟',
     ctaBody: 'فريقنا يفحص استخدام مطبخك ويشرح لك الفرق على عينات حقيقية في المدينة المنورة.',
-    imagePrompt: 'Editorial photograph of a kitchen countertop corner in a stone design studio, two stone sample slabs leaning against a backsplash, one veined natural marble and one solid engineered quartz, daylight, sharp focus, no people',
-    imageScene: 'ركن سطح مطبخ في مكتب تصميم تسند عليه عينتا حجر، واحدة رخام بعروق وأخرى كوارتز بلون موحد',
+    imagePrompt: 'Editorial photograph of a kitchen countertop with white veined natural marble backsplash and matching stone worktop, dark matte cabinets, empty sink cutout, daylight, sharp focus, no people',
+    imageScene: 'سطح مطبخ حجري أبيض بعروق رمادية مع ظهر حجري مطابق وخزائن داكنة وفتحة حوض فارغة',
     imageTopics: 'أسطح المطبخ, رخام, كوارتز, المقارنات, المدينة المنورة',
     related: [],
     sections: [
