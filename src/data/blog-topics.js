@@ -4150,8 +4150,8 @@ export const TOPIC_BANK = [
     ],
     ctaHeading: 'محتاج مساعدة في اختيار الخامة؟',
     ctaBody: 'فريقنا يراجع استخدامك ويقترح الأنسب ضمن ميزانيتك.',
-    imagePrompt: 'Photorealistic documentary photo of a close-up of a hairline crack running across a polished beige natural limestone tile on a workbench, a small metal inspection tool and a container of color-matched repair paste beside it, workshop background, daylight, sharp focus',
-    imageScene: 'لقطة قريبة لشرخ رفيع يمر عبر بلاطة حجر جيري مصقول على طاولة عمل، وبجانبها أداة فحص معدنية صغيرة وعبوة معجون ترميم مطابقة اللون، في ورشة عمل بإضاءة نهارية',
+    imagePrompt: 'Macro photograph of a metal trowel lying flat on a beige natural limestone slab on a workbench, workshop background, daylight, sharp focus',
+    imageScene: 'مجرفة معدنية مسطّحة ملقاة على لوح حجر جيري بيج طبيعي فوق طاولة عمل في ورشة، بإضاءة نهارية وتركيز حاد',
     imageTopics: 'إصلاح تشققات الحجر,ترميم الرخام,تشقق الحجر الطبيعي,صيانة الحجر,معجون ترميم الحجر',
     related: [],
     sections: [
