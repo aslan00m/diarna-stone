@@ -1199,6 +1199,23 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's4-2026-10-25-stone-nero-assalto-sink',
+    file: '/images/blog-ai/s4-2026-10-25-stone-nero-assalto-sink.jpg',
+    scene:
+      'مشهد تصويري لـNero Assoluto Undermount Sink بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Nero Assoluto Undermount Sink stone washbasin, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark, sharp focus, high detail, 4K, professional photography',
+    topics: [
+      'رخام',
+      'مغاسل',
+      'نيرو أسسوتو',
+      'حجر طبيعي',
+      'واجهات',
+      'تشطيبات',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
