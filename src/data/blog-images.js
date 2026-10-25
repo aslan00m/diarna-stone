@@ -1232,6 +1232,22 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'marble-vs-quartz-countertops',
+    file: '/images/blog-ai/marble-vs-quartz-countertops.jpg',
+    scene:
+      'سطح مطبخ حجري أبيض بعروق رمادية مع ظهر حجري مطابق وخزائن داكنة وفتحة حوض فارغة',
+    prompt:
+      'Editorial photograph of a kitchen countertop with white veined natural marble backsplash and matching stone worktop, dark matte cabinets, empty sink cutout, daylight, sharp focus, no people',
+    topics: [
+      'أسطح المطبخ',
+      'رخام',
+      'كوارتز',
+      'المقارنات',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
