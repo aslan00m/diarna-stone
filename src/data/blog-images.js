@@ -1152,6 +1152,22 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'stone-grout-joints-filling',
+    file: '/images/blog-ai/stone-grout-joints-filling.jpg',
+    scene:
+      'يد فني بقفاز تملأ الفواصل بين ألواح حجر طبيعي كبيرة بمونة بيضاء باستخدام مسطرين مطاطي، وبجانبه دلو مونة وجاروف',
+    prompt:
+      'Photorealistic documentary photo of gloved hands holding a rubber grout float, pushing white cement grout into the joint between two large beige limestone tiles on a wall, fresh white grout line, construction site daylight',
+    topics: [
+      'ترويبات الحجر',
+      'مونة فواصل',
+      'شق الحجر',
+      'ألواح حجر طبيعي',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
