@@ -1248,6 +1248,23 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'limestone-facades-medina',
+    file: '/images/blog-ai/limestone-facades-medina.jpg',
+    scene:
+      'إزميل معدني بطرف مسطح ملقى بشكل مائل على لوح حجر جيري بيج اللون فوق طاولة عمل، وخلفية ورشة عمل ضبابية',
+    prompt:
+      'Macro photograph of a small steel chisel lying diagonally on a beige natural limestone slab on a workbench, workshop background, daylight, sharp focus, high detail, professional photography, crisp, clear',
+    topics: [
+      'حجر جيري',
+      'واجهات حجرية',
+      'تشطيبات واجهات',
+      'عزل الحجر',
+      'أدوات تركيب الحجر',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
