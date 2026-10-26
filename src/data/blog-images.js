@@ -1279,6 +1279,23 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'stone-compound-mortar-materials',
+    file: '/images/blog-ai/stone-compound-mortar-materials.jpg',
+    scene:
+      'مسطرين معدني بمقبض معدني ملقى بشكل مائل على لوح حجر طبيعي رمادي مرقط فوق طاولة عمل، وخلفية ورشة عمل ضبابية',
+    prompt:
+      'Macro photograph of a metal trowel with a metal handle lying diagonally on a grey speckled natural stone slab on a workbench, workshop background, daylight, sharp focus, high detail, professional photography, crisp, clear',
+    topics: [
+      'مونة تركيب الحجر',
+      'تركيب الواجهات',
+      'لصق الحجر الطبيعي',
+      'مواد البناء',
+      'أدوات التركيب',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
