@@ -42,7 +42,7 @@ PREV_REPORT = os.path.join(REPORT_DIR, "latest.json")
 GSC_CREDENTIALS = os.environ.get("GSC_SERVICE_ACCOUNT") or os.path.join(
     os.environ.get("HERMES_HOME", "/opt/data"), "secrets", "gsc-service-account.json"
 )
-GSC_SITE_PROPERTY = "https://dyarnaa.com/"  # Domain property preferred; fallback to URL-prefix
+GSC_SITE_PROPERTY = "sc-domain:dyarnaa.com"  # Domain property (preferred)
 MAX_URL_INSPECTION = 50  # cap per run to stay within GSC API quotas
 REQUEST_TIMEOUT = 20
 USER_AGENT = "DiarnaIndexingMonitor/1.0 (+https://dyarnaa.com)"

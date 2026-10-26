@@ -253,6 +253,8 @@ def audit_site(max_urls=None, summary=False, inspect=0, submit=False, analytics=
 
     # Step 3: GSC integration
     gsc_result = {"available": gsc_available()}
+    gsc_site_url = site_url  # default fallback
+
     if gsc_available():
         print("\nStep 3: Google Search Console API integration...")
 
@@ -264,16 +266,26 @@ def audit_site(max_urls=None, summary=False, inspect=0, submit=False, analytics=
             gsc_result["site_verification"] = {
                 "has_access": site_check.get("has_access", False),
                 "matching_site": site_check.get("matching_site"),
-                "all_sites": [s["identifier"] for s in site_check.get("all_sites", [])],
+                "all_sites": [s.get("identifier") for s in site_check.get("all_sites", [])],
             }
-            if site_check.get("has_access"):
-                print(f"    ✓ Property accessible: {site_check.get('matching_site', {}).get('identifier', 'N/A')}")
+
+            if site_check.get("has_access") and site_check.get("matching_site"):
+                gsc_site_url = site_check["matching_site"].get("identifier", site_url)
+                print(f"    ✓ Property accessible: {gsc_site_url}")
+            elif site_check.get("all_sites"):
+                # Fallback: use the first available site (e.g., sc-domain property)
+                available = site_check["all_sites"][0].get("identifier")
+                if available:
+                    gsc_site_url = available
+                    print(f"    ⚠ Using available property: {gsc_site_url}")
+                else:
+                    print(f"    ✗ Property not found. Available sites: {[s.get('identifier') for s in site_check.get('all_sites', [])]}")
             else:
-                print(f"    ✗ Property not found. Available sites: {[s['identifier'] for s in site_check.get('all_sites', [])]}")
+                print(f"    ✗ No properties accessible")
 
             # 3b: Sitemap status
             print("  Checking sitemap registration in GSC...")
-            sitemap_status = get_sitemap_status(service, site_url, sitemap_url)
+            sitemap_status = get_sitemap_status(service, gsc_site_url, sitemap_url)
             gsc_result["sitemap_status"] = sitemap_status
             if sitemap_status.get("ok"):
                 print(f"    ✓ Sitemap registered. Status: {sitemap_status.get('status', 'unknown')}")
@@ -283,7 +295,7 @@ def audit_site(max_urls=None, summary=False, inspect=0, submit=False, analytics=
             # 3c: Submit sitemap if requested
             if submit:
                 print("  Submitting sitemap to GSC...")
-                submit_result = submit_sitemap(service, site_url, sitemap_url)
+                submit_result = submit_sitemap(service, gsc_site_url, sitemap_url)
                 gsc_result["submit_result"] = submit_result
                 print(f"    Status: {submit_result.get('status', 'unknown')}")
 
@@ -291,7 +303,7 @@ def audit_site(max_urls=None, summary=False, inspect=0, submit=False, analytics=
             if inspect > 0:
                 print(f"\n  Running URL Inspection on top {inspect} URLs...")
                 top_urls = [r["url"] for r in url_checks[:inspect]]
-                inspection_results = inspect_batch(service, top_urls, site_url)
+                inspection_results = inspect_batch(service, top_urls, gsc_site_url)
                 gsc_result["inspections"] = inspection_results
                 # Classify
                 classifications = {}
@@ -310,7 +322,7 @@ def audit_site(max_urls=None, summary=False, inspect=0, submit=False, analytics=
             # 3e: Search Analytics
             if analytics:
                 print("\n  Querying Search Analytics...")
-                analytics_result = query_top_pages(service, site_url, days=28, row_limit=50)
+                analytics_result = query_top_pages(service, gsc_site_url, days=28, row_limit=50)
                 gsc_result["analytics"] = analytics_result
                 if analytics_result.get("ok"):
                     totals = analytics_result.get("totals", {})

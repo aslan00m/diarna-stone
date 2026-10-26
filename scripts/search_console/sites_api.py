@@ -13,7 +13,7 @@ def list_sites(service):
     """List all Search Console properties the account can access.
 
     Returns dict with 'sites' list and any error.
-    Each site has: identifier (URL), permissionLevel, and siteType.
+    Each site has: siteUrl, permissionLevel, and siteType.
     """
     try:
         response = service.sites().list().execute()
@@ -44,7 +44,7 @@ def find_site_property(service, target_url):
         return {"found": False, "error": result["error"], "matching_site": None}
 
     for site in result["sites"]:
-        ident = site.get("identifier", "")
+        ident = site.get("siteUrl", site.get("identifier", ""))
         for t in targets_to_check:
             if ident == t:
                 return {
@@ -86,7 +86,7 @@ def verify_site_access(service, target_url):
         return result
 
     result["all_sites"] = [
-        {"identifier": s.get("identifier"), "permission_level": s.get("permissionLevel"),
+        {"identifier": s.get("siteUrl", s.get("identifier")), "permission_level": s.get("permissionLevel"),
          "site_type": s.get("siteType")}
         for s in list_result["sites"]
     ]

@@ -160,11 +160,28 @@ def classify_inspection_result(result):
     coverage = result.get("coverage_state")
     indexing = result.get("indexing_state")
 
-    if coverage and "discovered" in coverage.lower() or "indexed" in coverage.lower():
+    # Normalize for matching (handle Arabic and English)
+    cov_lower = (coverage or "").lower()
+    idx_lower = (indexing or "").lower()
+
+    # Keywords indicating the page IS indexed (Arabic + English)
+    indexed_keywords = ["indexed", "تمت فهرستها"]
+    # Keywords indicating the page is NOT indexed (Arabic + English)
+    not_indexed_keywords = ["not indexed", "لم تتم فهرستها", "غير مفهرس", "لم يفهرس"]
+
+    is_indexed = any(kw in cov_lower for kw in indexed_keywords) and not any(kw in cov_lower for kw in not_indexed_keywords)
+    is_not_indexed = any(kw in cov_lower for kw in not_indexed_keywords)
+
+    if is_indexed:
         return "indexed"
-    if coverage and "not" in coverage.lower() and "indexed" in coverage.lower():
+    if is_not_indexed:
         return "not-indexed"
-    if indexing and "none" in indexing.lower() or "not" in indexing.lower():
-        return "not-indexed"
+
+    # Fallback: check indexing_state
+    if indexing:
+        if "INDEXING_ALLOWED" in indexing.upper():
+            return "indexed"
+        if "NOINDEX" in indexing.upper() or "EXCLUDED" in indexing.upper():
+            return "not-indexed"
 
     return "unknown"

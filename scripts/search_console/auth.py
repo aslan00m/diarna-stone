@@ -27,7 +27,7 @@ DEFAULT_CONFIG = {
     "credentials_file": os.path.join(SECRETS_DIR, "gsc-service-account.json"),
     "credentials_env_var": "GSC_SERVICE_ACCOUNT",
     "api_scopes": [
-        "https://www.googleapis.com/auth/webmasters.readonly",
+        "https://www.googleapis.com/auth/webmasters",
     ],
 }
 

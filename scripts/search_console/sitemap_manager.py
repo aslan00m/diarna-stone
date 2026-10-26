@@ -37,7 +37,7 @@ def get_sitemap_status(service, site_url, sitemap_url):
 
     Args:
         service: GSC API service
-        site_url: Property URL (e.g., "https://dyarnaa.com/")
+        site_url: Property URL (e.g., "sc-domain:dyarnaa.com" or "https://dyarnaa.com/")
         sitemap_url: The sitemap URL as submitted to Google (e.g., "https://dyarnaa.com/sitemap.xml")
 
     Returns dict with: ok, sitemap_url, status, last_submitted, last_read,
@@ -57,31 +57,36 @@ def get_sitemap_status(service, site_url, sitemap_url):
     }
 
     try:
-        response = service.sitemaps().get(
-            siteUrl=site_url,
-            sitemapUrl=sitemap_url,
-        ).execute()
+        # Use list_sitemaps to find the sitemap entry
+        list_result = list_sitemaps(service, site_url)
+        if not list_result.get("ok"):
+            result["error"] = list_result.get("error")
+            return result
 
-        result["ok"] = True
-        result["status"] = response.get("status")
-        result["last_submitted"] = response.get("lastSubmitted")
-        result["last_read"] = response.get("lastRead")
+        # Find matching sitemap in the list
+        for s in list_result.get("sitemaps", []):
+            s_url = s.get("path", s.get("url", s.get("sitemapUrl", "")))
+            if s_url == sitemap_url or s_url == sitemap_url.replace("https://", "http://"):
+                result["ok"] = True
+                result["status"] = s.get("status")
+                result["last_submitted"] = s.get("lastSubmitted")
+                result["last_read"] = s.get("lastDownloaded")
+                contents = s.get("contents", [])
+                if isinstance(contents, list) and contents:
+                    for c in contents:
+                        if isinstance(c, dict):
+                            result["urls_indexed"] = c.get("indexed")
+                            result["urls_not_indexed"] = c.get("notIndexed") or c.get("notIndexedAndExcluded")
+                elif isinstance(contents, dict):
+                    result["urls_indexed"] = contents.get("indexed")
+                    result["urls_not_indexed"] = contents.get("notIndexed") or contents.get("notIndexedAndExcluded")
+                result["errors"] = s.get("errors")
+                result["warnings"] = s.get("warnings")
+                return result
 
-        # Parse the sitemap-specific stats
-        contents = response.get("sitemapEntries", {})
-        if isinstance(contents, dict):
-            result["urls_indexed"] = contents.get("indexed")
-            result["urls_not_indexed"] = contents.get("notIndexed") or contents.get("notIndexedAndExcluded")
-            result["errors"] = contents.get("errors")
-            result["warnings"] = contents.get("warnings")
-
-        # Also check for common errors array
-        errors = response.get("errors", [])
-        if errors:
-            result["error_list"] = [
-                {"message": e.get("message"), "code": e.get("code")}
-                for e in errors
-            ]
+        # Sitemap not found in the list
+        result["error"] = f"Sitemap not found in GSC. Available: {[s.get('url', s.get('sitemapUrl', '')) for s in list_result.get('sitemaps', [])]}"
+        return result
 
     except Exception as e:
         result["error"] = str(e)
@@ -97,7 +102,7 @@ def submit_sitemap(service, site_url, sitemap_url):
 
     Args:
         service: GSC API service
-        site_url: Property URL (e.g., "https://dyarnaa.com/")
+        site_url: Property URL (e.g., "sc-domain:dyarnaa.com" or "https://dyarnaa.com/")
         sitemap_url: Full sitemap URL to submit (e.g., "https://dyarnaa.com/sitemap.xml")
 
     Returns:
@@ -106,21 +111,32 @@ def submit_sitemap(service, site_url, sitemap_url):
     result = {"ok": False, "submitted": False, "sitemap_url": sitemap_url, "error": None}
 
     try:
-        # The Sitemaps API uses PUT to submit
-        service.sitemaps().submit(
-            siteUrl=site_url,
-            body={"url": sitemap_url},
-        ).execute()
-        # The submit method returns empty on success
-        # Verify by checking if it appears in list_sitemaps
-        time.sleep(2)
-        status = get_sitemap_status(service, site_url, sitemap_url)
-        result["ok"] = True
-        result["submitted"] = True
-        result["verification"] = status
+        # The googleapiclient submit() method has a bug in some versions.
+        # Use the underlying HTTP request directly.
+        import urllib.parse
+        encoded_site = urllib.parse.quote(site_url, safe='')
+        encoded_sitemap = urllib.parse.quote(sitemap_url, safe='')
+        url = f"https://searchconsole.googleapis.com/webmasters/v3/sites/{encoded_site}/sitemaps/{encoded_sitemap}:submit"
+
+        # Use the service's credentials to make the request
+        from google.auth.transport.requests import Request
+        creds = service._http.credentials
+        resp = Request(creds).urlopen(
+            'POST',
+            url,
+            headers={'Content-Type': 'application/x-www-form-urlencoded'},
+            data=b''
+        )
+        status_code = resp.status
+        resp.close()
+
+        if status_code in (200, 204):
+            result["ok"] = True
+            result["submitted"] = True
+        else:
+            result["error"] = f"HTTP {status_code}"
     except Exception as e:
-        err_msg = str(e)
-        result["error"] = err_msg
+        result["error"] = str(e)
 
     return result
 
