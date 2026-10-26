@@ -1,0 +1,22 @@
+{
+  "site_url": "https://dyarnaa.com/",
+  "sitemap_url": "https://dyarnaa.com/sitemap.xml",
+  "credentials_file": "/opt/data/secrets/gsc-service-account.json",
+  "credentials_env_var": "GSC_SERVICE_ACCOUNT",
+  "api_scopes": [
+    "https://www.googleapis.com/auth/webmasters.readonly"
+  ],
+  "max_url_inspection_per_day": 50,
+  "max_url_inspection_batch": 5,
+  "search_analytics_days": 28,
+  "report_dir": "/opt/data/projects/diarna-stone/reports/search_console",
+  "language_code": "ar",
+  "priority_pages": [
+    "https://dyarnaa.com/",
+    "https://dyarnaa.com/services/",
+    "https://dyarnaa.com/products/marble/",
+    "https://dyarnaa.com/products/granite/",
+    "https://dyarnaa.com/about/",
+    "https://dyarnaa.com/contact/"
+  ]
+}
