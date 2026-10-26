@@ -192,11 +192,18 @@ def gsc_submit_sitemap():
         )
         service = build("searchconsole", "v1", credentials=creds)
 
-        response = service.sitemaps().submit(
-            siteUrl=GSC_SITE_PROPERTY,
-            body={"url": SITEMAP_URL}
-        ).execute()
-        return {"status": "submitted", "response": response}
+        # Use raw HTTP workaround due to client library bug
+        import google.auth.transport.requests
+        from urllib.parse import quote
+        session = google.auth.transport.requests.AuthorizedSession(creds)
+        site_enc = quote(GSC_SITE_PROPERTY, safe="")
+        sitemap_enc = quote(SITEMAP_URL, safe="")
+        url = f"https://searchconsole.googleapis.com/webmasters/v3/sites/{site_enc}/sitemaps/{sitemap_enc}:submit"
+        resp = session.post(url, timeout=30)
+        if resp.status_code == 200:
+            return {"status": "submitted", "response": resp.json()}
+        else:
+            return {"status": "error", "http_status": resp.status_code, "body": resp.text[:500]}
     except ImportError:
         return {"status": "skipped", "reason": "google-api-python-client not installed"}
     except Exception as e:
@@ -221,7 +228,11 @@ def gsc_inspect_urls(urls):
         results = []
         for u in urls[:MAX_URL_INSPECTION]:
             try:
-                resp = service.urlInspection().index().inspect(body={"inspectionUrl": u}).execute()
+                resp = service.urlInspection().index().inspect(body={
+                    "inspectionUrl": u,
+                    "siteUrl": GSC_SITE_PROPERTY,
+                    "languageCode": "ar",
+                }).execute()
                 inspection = resp.get("inspectionResult", {})
                 result = {
                     "url": u,
