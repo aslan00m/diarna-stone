@@ -1296,6 +1296,23 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'natural-stone-curing-moisture',
+    file: '/images/blog-ai/natural-stone-curing-moisture.jpg',
+    scene:
+      'فرشاة مسطّحة بمقبض خشبي ملقاة على لوح حجر طبيعي بيج فوق طاولة عمل، وخلفية ورشة عمل ضبابية',
+    prompt:
+      'Macro photograph of a stiff flat bristle brush with a wooden handle lying on a beige natural stone slab on a workbench, workshop background, daylight, sharp focus, high detail, professional photography, crisp, clear',
+    topics: [
+      'معالجة الحجر',
+      'مونة تركيب الحجر',
+      'رش الحجر بالماء',
+      'تركيب الواجهات',
+      'العناية بالحجر الطبيعي',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
