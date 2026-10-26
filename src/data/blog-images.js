@@ -1265,6 +1265,20 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's3-2026-10-26-stone-negro-black-classic',
+    file: '/images/blog-ai/s3-2026-10-26-stone-negro-black-classic.jpg',
+    scene:
+      'مشهد تصويري لـNegro Black Granite بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Negro Black Granite granite, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'negro-black-granite',
+      'granite',
+      'رخام',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
