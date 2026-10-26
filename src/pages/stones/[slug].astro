@@ -49,7 +49,7 @@ const waLink = `https://wa.me/${COMPANY.whatsapp}?text=${waMsg}`;
 // pointing at the /products/ twin makes that explicit: the two URLs never
 // compete, and the /stones/ page stays reachable (329 internal links point at
 // it) instead of being 301'd or deleted.
-const canonicalTarget = product ? `/products/${product.slug}` : null;
+const canonicalTarget = product ? `/products/${product.slug}/` : null;
 const schemaJson = graph([
   productSchema({
     name: stone.name,
@@ -80,7 +80,7 @@ const related = STONES.filter(
   title={`${stone.name} — ${grades.length} أنواع | ديارنا الحديثة`}
   description={`${stone.name}: ${grades.length} درجات متوفرة بألوان ${colors.slice(0, 3).join("، ")}${colors.length > 3 ? " وغيرها" : ""}. اطلب عرض سعر من ديارنا الحديثة.`}
   image={stone.image}
-  canonical={canonicalTarget || `/stones/${stone.slug}`}
+  canonical={canonicalTarget || `/stones/${stone.slug}/`}
   schema={schemaJson}
 >
   <section>

@@ -21,7 +21,18 @@ const pageTitle = title
 
 // Absolute URL of the current page. `canonical` overrides it (used by /stones/,
 // which delegates to its /products/ twin so the two never compete).
-const canonicalUrl = canonical ? (canonical.startsWith('http') ? canonical : abs(canonical)) : abs(Astro.url.pathname);
+// Normalize every canonical path to include a trailing slash (root stays "/")
+// so it always matches the served URL — GitHub Pages 301-redirects non-slash
+// directory URLs to their slash form, and a canonical that lacks the slash
+// creates a redirect/canonical conflict that wastes crawl budget.
+const withSlash = (p) =>
+  p === '/' || p === '' ? '/' : p.endsWith('/') ? p : `${p}/`;
+const canonicalUrl =
+  canonical
+    ? canonical.startsWith('http')
+      ? canonical
+      : abs(withSlash(canonical))
+    : abs(withSlash(Astro.url.pathname));
 
 // og:image must be an absolute URL — a relative path is ignored by every scraper.
 const ogImage = image ? (image.startsWith('http') ? image : abs(image)) : abs('/images/heroes/hero-villa-golden-hour.jpg');

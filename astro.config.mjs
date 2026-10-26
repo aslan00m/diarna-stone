@@ -5,5 +5,5 @@ export default defineConfig({
   // دومين مخصص على جذر الموقع — لا يوجد مسار فرعي
   base: '/',
   output: 'static',
-  trailingSlash: 'ignore',
+  trailingSlash: 'always',
 });
