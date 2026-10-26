@@ -1313,6 +1313,23 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'pool-stone-coping-guide',
+    file: '/images/blog-ai/pool-stone-coping-guide.jpg',
+    scene:
+      'لوح جرانيت رمادي داكن مرقط بحافة أمامية مستديرة قطاعاً نصف دائرياً ملقى على طاولة عمل، وخلفية ورشة عمل ضبابية',
+    prompt:
+      'Macro photograph of a natural grey granite slab with a rounded bullnose edge lying on a workbench, workshop background, daylight, sharp focus, high detail, professional photography, crisp, clear',
+    topics: [
+      'حجر المسبح',
+      'حواف المسبح',
+      'جرانيت',
+      'حافة مستديرة',
+      'أرضيات خارجية',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
