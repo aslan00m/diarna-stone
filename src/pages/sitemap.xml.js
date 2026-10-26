@@ -63,9 +63,22 @@ for (const c of CATEGORIES) entries.push([`/products/${c.slug}/`, DATE_PRODUCTS,
 const usedOrigins = new Set(PRODUCTS.map((p) => p.origin));
 for (const o of ORIGINS) if (usedOrigins.has(o.slug)) entries.push([`/origins/${o.slug}/`, DATE_ORIGINS, 0.7, 'monthly']);
 
-// Individual products
-for (const p of PRODUCTS) entries.push([`/products/${p.slug}/`, DATE_PRODUCTS, 0.9, 'weekly']);
-for (const p of PRODUCTS_LOCAL) entries.push([`/products/${p.slug}/`, DATE_PRODUCTS, 0.8, 'monthly']);
+// Individual products — deduplicate: PRODUCTS_LOCAL may overlap with PRODUCTS
+const seenProductPaths = new Set();
+for (const p of PRODUCTS) {
+  const path = `/products/${p.slug}/`;
+  if (!seenProductPaths.has(path)) {
+    seenProductPaths.add(path);
+    entries.push([path, DATE_PRODUCTS, 0.9, 'weekly']);
+  }
+}
+for (const p of PRODUCTS_LOCAL) {
+  const path = `/products/${p.slug}/`;
+  if (!seenProductPaths.has(path)) {
+    seenProductPaths.add(path);
+    entries.push([path, DATE_PRODUCTS, 0.8, 'monthly']);
+  }
+}
 
 // Works / projects
 for (const pr of PROJECTS_FULL) entries.push([`/works/${pr.slug}/`, DATE_WORKS, 0.8, 'monthly']);
