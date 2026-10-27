@@ -1330,6 +1330,22 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's3-2026-10-27-stone-kashmir-white-classic',
+    file: '/images/blog-ai/s3-2026-10-27-stone-kashmir-white-classic.jpg',
+    scene:
+      'مشهد تصويري لـKashmir White Granite بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Kashmir White Granite granite, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'جرانيت',
+      'حجر طبيعي',
+      'واجهات',
+      'مطابخ',
+      'تشطيبات',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
