@@ -1346,6 +1346,21 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's5-2026-10-29-stone-stone-facades-complete-selection-guide',
+    file: '/images/blog-ai/s5-2026-10-29-stone-stone-facades-complete-selection-guide.jpg',
+    scene:
+      'واجهة فيلا حديثة مغشاة بألواح ترافرتينو فاتحة تحت شمس المدينة المنورة',
+    prompt:
+      'A row of modern villa exteriors with different natural stone cladding styles, granite travertine and limestone facades, soft morning sunlight, wide architectural photography, no people, no text',
+    topics: [
+      'واجهات',
+      'حجر طبيعي',
+      'جرانيت',
+      'ترافرتينو',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
