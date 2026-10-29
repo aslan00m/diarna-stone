@@ -1375,6 +1375,22 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's6-2026-10-29-stone-basin-sizes-heights',
+    file: '/images/blog-ai/s6-2026-10-29-stone-basin-sizes-heights.jpg',
+    scene:
+      'شريط قياس بجانب مغسلة حجرية على طاولة حمام يظهر الارتفاع والقطر',
+    prompt:
+      'A tape measure beside a stone basin on a bathroom counter showing height and diameter, editorial photography',
+    topics: [
+      'مغاسل حجرية',
+      'مقاسات مغسلة',
+      'ارتفاعات',
+      'حجر طبيعي',
+      'رخام',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
