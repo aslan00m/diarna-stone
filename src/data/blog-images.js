@@ -1361,6 +1361,20 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'interior-stone-wall-cladding-medina',
+    file: '/images/blog-ai/interior-stone-wall-cladding-medina.jpg',
+    scene:
+      'أيدي عامل تركيب تكسية جدران حجرية داخلية بألوان ب، ألوان حجر جيري بيج، ملاط رقيق، إضاءة ورشة',
+    prompt:
+      'Editorial photograph of a stone cladding installation in progress on an interior wall, beige limestone slabs being fitted with stainless steel anchors, craftsman hands with trowel applying thin-set mortar, workshop lighting, sharp focus, high detail, professional photography',
+    topics: [
+      'تكسية جدران',
+      'حجر طبيعي',
+      'تكسية داخلية',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
