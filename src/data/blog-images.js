@@ -1427,6 +1427,20 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's3-2026-10-30-stone-granite-nero-silver-veins',
+    file: '/images/blog-ai/s3-2026-10-30-stone-granite-nero-silver-veins.jpg',
+    scene:
+      'مشهد تصويري مقسم لـNero Silver Veins Granite بتشطيب مصقول ومطفأ',
+    prompt:
+      'Nero Silver Veins Granite polished and honed finish split screen, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'granite',
+      'nero silver veins',
+      'architectural stone',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
