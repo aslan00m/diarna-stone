@@ -1501,6 +1501,17 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'stone-polishing-restoration',
+    file: '/images/blog-ai/stone-polishing-restoration.jpg',
+    scene:
+      '',
+    prompt:
+      'Macro photograph of a diamond polishing pad spinning on a white marble floor in a workshop, water spray, reflective surface, professional stone restoration, daylight, sharp focus',
+    topics: [
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
