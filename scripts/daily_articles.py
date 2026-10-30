@@ -23,6 +23,7 @@ product slug) blocks the publish.
 import argparse
 import json
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -35,6 +36,9 @@ BLOG_JS = ROOT / "src" / "data" / "blog.js"
 IMAGE_DIR = ROOT / "public" / "images" / "blog-ai"
 IMAGE_LIB = ROOT / "src" / "data" / "blog-images.js"
 SITE = "https://dyarnaa.com"
+
+# Sogni provider path
+SOGNI_DIR = Path("/opt/data/projects/sogni")
 
 CJK = re.compile(r"[\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]+")
 CYRILLIC = re.compile(r"[\u0400-\u04ff]+")
@@ -457,11 +461,45 @@ def cmd_publish(args):
             print(f"image ok (reused library): {i}")
             ready.append(t)
             continue
-        # Image generation moved to the cron agent via Hermes image_generate tool.
-        # The agent generates the image and registers it before calling publish.
+        # Primary: generate image via Sogni AI (krea-2-turbo) if missing.
+        # This keeps image generation inside the cron job and makes Sogni the
+        # first-choice provider.
         if not dest.exists():
-            report.append(("FAIL", i, "image not found — agent must generate it with image_generate before publish"))
-            continue
+            print(f"image missing; generating via Sogni: {i}")
+            sys.path.insert(0, str(SOGNI_DIR))
+            try:
+                from sogni_provider import generate_image
+            except ImportError:
+                report.append(("FAIL", i, "Sogni provider not available"))
+                continue
+            try:
+                res = generate_image(
+                    prompt=f"{prompt}, sharp focus, high detail, 8k, professional photography, crisp, clear, well-defined, ultra realistic",
+                    model="krea-2-turbo",
+                    title=f"Article cover: {i}",
+                )
+            except Exception as exc:
+                report.append(("FAIL", i, f"Sogni generation failed: {exc}"))
+                continue
+            if not res.ok or not res.local_path:
+                report.append(("FAIL", i, f"Sogni generation failed: {res.error}"))
+                continue
+            src = Path(res.local_path)
+            if src.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp"):
+                shutil.copy2(src, dest)
+            else:
+                dest.write_bytes(src.read_bytes())
+            print(f"generated {dest} ({dest.stat().st_size // 1024}KB)")
+            # register in blog image library
+            try:
+                r = subprocess.run(
+                    [sys.executable, str(ROOT / "scripts" / "blog_image_add.py"),
+                     i, prompt, t.get("scene", ""), ",".join(t.get("topics", []))],
+                    capture_output=True, text=True,
+                )
+                print((r.stdout or r.stderr).strip())
+            except Exception as exc:
+                print(f"WARNING: blog_image_add failed: {exc}")
     if not ready:
         for st, slug, why in report:
             print(f"{st} {slug}: {why}")
