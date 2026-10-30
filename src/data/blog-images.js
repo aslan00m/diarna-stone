@@ -1391,6 +1391,18 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'stone-polishing-grinding-guide',
+    file: '/images/blog-ai/stone-polishing-grinding-guide.jpg',
+    scene:
+      'فانوس تلميع على لوح حجر جيري بيج على طاولة عمل',
+    prompt:
+      'Macro photograph of a polishing pad on a beige natural limestone slab, workshop background, daylight, sharp focus',
+    topics: [
+      'تلميع، تغطية، جلي، حجر طبيعي، المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
