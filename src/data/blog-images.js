@@ -1512,6 +1512,23 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'natural-stone-gardens-walkways-medina',
+    file: '/images/blog-ai/natural-stone-gardens-walkways-medina.jpg',
+    scene:
+      'ممر حجري من ترافرتينو على طاولة عمل في ورشة',
+    prompt:
+      'Macro photograph of a natural stone garden pathway with travertine pavers on a workbench, workshop background, daylight, sharp focus',
+    topics: [
+      'حجر طبيعي',
+      'حدائق',
+      'ممرات',
+      'ترافرتينو',
+      'جرانيت',
+      'ليمنستون',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
