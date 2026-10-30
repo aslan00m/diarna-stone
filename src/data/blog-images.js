@@ -1441,6 +1441,34 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'natural-stone-sinks-selection',
+    file: '/images/blog-ai/natural-stone-sinks-selection.jpg',
+    scene:
+      'مغسلة جرانيت مصقول على سطح ترافرتينو مصقول في حمام حديث، إضاءة طبيعية ناعمة، تركيز واضح على نسيج الحجر وقطرات الماء',
+    prompt:
+      'Macro photograph of a polished granite vessel sink on a honed travertine countertop in a modern bathroom, soft natural light, sharp focus on stone texture and water droplets, professional interior photography',
+    topics: [
+      'مغاسل حجر، جرانيت، ترافرتينو، حمام، Medina',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 'bathroom-stone-flooring-medina',
+    file: '/images/blog-ai/bathroom-stone-flooring-medina.jpg',
+    scene:
+      'أرضية حمام حديثة ببلاط ترافرتين بيج مصقول',
+    prompt:
+      'Editorial photograph of a modern bathroom floor with honed beige travertine tiles',
+    topics: [
+      'أرضيات حجر',
+      'حمام',
+      'ترافرتين',
+      'رخام',
+      'جرانيت',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
