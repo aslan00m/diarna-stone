@@ -5467,4 +5467,111 @@ export const TOPIC_BANK = [
     { q: 'كم مرة ?', a: 'every 12-18 months.' },
     ],
   },
+
+  {
+    id: 'stone-polishing-restoration',
+    primary: 'تلميع الحجر الطبيعي',
+    keywords: ['تلميع الحجر الطبيعي', 'تلميع الرخام', 'تلميع الجرانيت', 'استعادة لمعة الحجر', 'تلميع أرضيات الرخام', 'تلميع واجهات الحجر', 'تلميع الحجر', 'تلميع الحجر في المدينة المنورة'],
+    intent: 'informational',
+    title: 'تلميع الحجر الطبيعي: متى وماذا وكم مرة؟',
+    description: 'دليل عملي لتلميع الحجر الطبيعي (رخام، جرانيت، ترافرتينو) في المدينة المنورة: متى تلمّع، ما الفرق بين التلميع والتبلل، وكيف تحمي اللمعة بعد التلميع.',
+    category: 'الصيانة',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'تلميع الحجر وتبلل الحجر عمليتان مختلفتان: التلميع يعيد اللمعة، والتبلل يزيل اللمعة لسطح مطفي.',
+      'الرخام يفقد لمعته أسرع من الجرانيت في مناطق الحركة.',
+      'تلميع أرضية رخام في منزل (100 م²) يتطلب 1-2 يوماً مع أقراص ماسية.',
+      'استخدم ماء فقط + منظف (6.5-7.5) على الحجر الملمّع؛ المنظفات الحمضية (أقل من 4) تآكل اللمعة.',
+      'واللوح لا تُلمّع — تُترك بملمسها الطبيعي أو تُشطف.',
+    ],
+    ctaHeading: 'محتاج مساعدة في اختيار الخامة؟',
+    ctaBody: 'فريقنا يراجع استخدامك ويقترح الأنسب ضمن ميزانيتك.',
+    imagePrompt: 'Macro photograph of a diamond polishing pad spinning on a white marble floor in a workshop, water spray, reflective surface, professional stone restoration, daylight, sharp focus',
+    imageScene: 'قرص تلميع ماسي يدور على أرضية رخام بيضاء في ورشة، رذاذ ماء، سطح عاكس، ترميم حجر احترافي، ضوء نهار، تركيز حاد',
+    imageTopics: 'تلميع الحجر، ترميم، أرضيات رخام، ورشة، صيانة',
+    related: [],
+    sections: [
+    {
+      h: 'متى تلمّع — إشارات أن الحجر فقد لمعته',
+      p: [
+        'تلميع الحجر هو عملية ميكانيكية (أقراص ماسية بدرجات 50-3000) لإعادة سطح الحجر إلى لمعة أصلية. ليس «تنظيفاً» — التنظيف يزيل الأوساخ، التلميع يعيد السطح.',
+        'إشارات أن الحجر بحاجة لتلميع: (1) اللمعة غير موحدة (مبقّعة)، (2) خدوش مرئية تحت الإضاءة، (3) بقع ماء لا تُزال بالمسح، (4) الحجر يمتص سوائل أسرع.',
+      ],
+      bullets: [
+        'رخام: 3-5 سنوات في مناطق منخفضة الحركة، 1-2 سنة في ممرات.',
+        'جرانيت: 5-8 سنوات (أقسى).',
+        'ترافرتينو: 2-3 سنوات (مسامه يملأ بالتراب).',
+        'الحجر الجيري: 2-4 سنوات.',
+      ],
+    },
+    {
+      h: 'الفرق بين التلميع والتبلل',
+      p: [
+        'التبلل يستخدم أقراص 50-200 لإزالة اللمعة تماماً لسطح مطفي. يُستخدم في مناطق خارجية ومناطق حركة عالية.',
+        'التلميع 400-3000.',
+      ],
+      table: {
+        head: [
+          'اللمعة',
+          'تلميع',
+          'تبلل',
+        ],
+        rows: [
+          [
+            'اللمعة',
+            '90-95',
+            '5-15',
+          ],
+          [
+            'الإمتصاص',
+            'أقل',
+            'أكثر',
+          ],
+          [
+            'الاستخدام',
+            'داخل',
+            'خارج',
+          ],
+        ],
+      },
+    },
+    {
+      h: 'عملية التلميع خطوة بخطوة',
+      p: [
+        "الخطوة 1: تنظيف عميق.",
+        "الخطوة 2: طحن ماسي.",
+        "الخطوة 3: تلميع.",
+        "الخطوة 4: تطبيق مانع.",
+        "الخطوة 5: تلميع ."
+      ],
+      steps: [
+        ['Deep clean', 'pH-neutral cleaner, 24h dry'],
+        ['Diamond grind', '50 → 3000 grit progression'],
+        ['Polish', 'tin oxide / aluminium oxide powder'],
+        ['Seal', 'penetrating impregnator'],
+        ['Buff', 'dry microfiber,  pass'],
+      ],
+    },
+    {
+      h: 'العناية بعد التلميع',
+      p: [
+        'Daily: dry dust mop (microfiber) — grit (sand) is the #1 enemy of polished stone. Wet mop with pH-neutral cleaner (pH 6.5-7.5) weekly.',
+        'Never: vinegar, lemon, bleach, ammonia, or any acidic cleaner (pH < 4) — they etch (dissolve) the polished surface, creating dull spots that require re-polishing.',
+        'Use door mats at entrances to trap grit. Felt pads under furniture legs. Avoid dragging heavy objects.',
+        'Re-seal annually: water drop test — if water darkens the stone in < 30 seconds, re-seal.',
+      ],
+      bullets: [
+        'pH-neutral cleaner only (pH 6.5-7.5).',
+        'No acidic cleaners (vinegar, lemon, bleach).',
+        'Door mats + felt pads + no dragging.',
+        'Re-seal when water absorbs in < 30s.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'كم مرة أحتاج لتلميع أرضية الرخام في منزل?', a: 'في منزل (100 م²) مع حركة معتدلة: كل 3-5 سنوات. في ممر عالي: كل 1-2 سنة.' },
+    { q: "هل يمكنني تلميع الحجر بنفسي (DIY)?", a: "لل: (DIY)." },
+    { q: 'ما هو الفرق بين «اللمعة» (gloss) و«اللمعان» (shine)?', a: 'Gloss = specular reflection (mirror-like, measured in gloss units 0-100). Shine = diffuse reflection (soft sheen). Polishing increases gloss; honing increases shine (matte). A well-polished marble has 80-95 gloss; honed marble has 5-15 gloss.' },
+    ],
+  },
 ];
