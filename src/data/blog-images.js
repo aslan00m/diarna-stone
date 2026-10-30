@@ -1403,6 +1403,30 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'outdoor-patio-terrace-stone-medina',
+    file: '/images/blog-ai/outdoor-patio-terrace-stone-medina.jpg',
+    scene:
+      'ميزان مياه على لوح حجر بيج على طاولة عمل في ورشة',
+    prompt:
+      'Macro photograph of a beige natural limestone slab on a workbench with a spirit level tool lying flat on it, workshop background, daylight, sharp focus',
+    topics: [
+      'أحجار، فناء، تراس، المدينة المنورة، جرانيت، ترافرتينو',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 's2-2026-10-30-stone-cream-limestone-classic',
+    file: '/images/blog-ai/s2-2026-10-30-stone-cream-limestone-classic.jpg',
+    scene:
+      'مشهد تصويري لـCream Limestone بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Cream Limestone limestone, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'limestone',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
