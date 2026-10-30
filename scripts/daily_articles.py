@@ -461,6 +461,22 @@ def cmd_publish(args):
             print(f"image ok (reused library): {i}")
             ready.append(t)
             continue
+        # Image file exists on disk but not registered in library — register it
+        # and reuse it instead of regenerating. This prevents orphaned images.
+        if dest.exists() and not lib_has:
+            print(f"image file exists but not in library; registering: {i}")
+            try:
+                r = subprocess.run(
+                    [sys.executable, str(ROOT / "scripts" / "blog_image_add.py"),
+                     i, prompt, t.get("scene", ""), ",".join(t.get("topics", []))],
+                    capture_output=True, text=True,
+                )
+                print((r.stdout or r.stderr).strip())
+                if r.returncode == 0:
+                    ready.append(t)
+                    continue
+            except Exception as exc:
+                print(f"WARNING: auto-register failed: {exc}")
         # Primary: generate image via Sogni AI (krea-2-turbo) if missing.
         # This keeps image generation inside the cron job and makes Sogni the
         # first-choice provider.
