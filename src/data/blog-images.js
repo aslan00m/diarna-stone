@@ -1485,6 +1485,22 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's4-2026-10-30-stone-undermount-marble-sinks',
+    file: '/images/blog-ai/s4-2026-10-30-stone-undermount-marble-sinks.jpg',
+    scene:
+      'مغسل رخام تحت السطح بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Professional product photography of marble undermount sink, sharp focus, high detail, 8k',
+    topics: [
+      'مغاسل',
+      'رخام',
+      'تحت السطح',
+      'حمام',
+      'تركيب مغاسل',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
