@@ -1596,6 +1596,22 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's4-2026-10-31-stone-facade-fixing-clips-mortar-joints',
+    file: '/images/blog-ai/s4-2026-10-31-stone-facade-fixing-clips-mortar-joints.jpg',
+    scene:
+      'تثبيت قضبان معدنية وتعليق لوح حجر بالكلالات على واجهة مبنى',
+    prompt:
+      'A worker installing a stone facade panel with metal clips and anchors on a building wall, close-up of the fixing system and the joint, daylight, editorial photography, no text',
+    topics: [
+      'stone',
+      'facade',
+      'clips',
+      'mortar',
+      'joints',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
