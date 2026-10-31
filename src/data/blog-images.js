@@ -1572,6 +1572,30 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'stone-surface-finishes-guide',
+    file: '/images/blog-ai/stone-surface-finishes-guide.jpg',
+    scene:
+      'يد حرفى تحمل لوح حجر صغير يُظهر تشطيبين متباينين (مصقول لامع مقابل مطفي) على طاولة عمل مع أقراص صقل ماسية ورذاذ ماء، إضاءة ورشة دافئة',
+    prompt:
+      'Editorial close-up of a stone fabricator\'s hand holding a small sample slab showing two contrasting finishes side by side, polished glossy versus honed matte, on a workbench with diamond polishing pads and a water spray, warm workshop light, sharp focus, professional photography',
+    topics: [
+      'تشطيبات الحجر، مصقول، مطفي، مطرقة، مغاسل، واجهات',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 's3-2026-10-31-stone-granite-silver-pearl',
+    file: '/images/blog-ai/s3-2026-10-31-stone-granite-silver-pearl.jpg',
+    scene:
+      'مشهد تصويري لـSilver Pearl Granite بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Silver Pearl Granite granite, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'granite',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
