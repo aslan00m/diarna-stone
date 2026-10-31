@@ -1529,6 +1529,21 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's1-2026-10-31-stone-calacatta-gold-marble',
+    file: '/images/blog-ai/s1-2026-10-31-stone-calacatta-gold-marble.jpg',
+    scene:
+      'مشهد تصويري لـCalacatta Gold Marble بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Calacatta Gold Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'marble',
+      'calacatta',
+      'gold',
+      'polished',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
