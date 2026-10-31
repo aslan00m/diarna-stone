@@ -1544,6 +1544,20 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's2-2026-10-31-stone-veined-travertine',
+    file: '/images/blog-ai/s2-2026-10-31-stone-veined-travertine.jpg',
+    scene:
+      'مشهد تصويري لـBeige Veined Travertine بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Beige Veined Travertine travertine, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'stone',
+      'travertine',
+      'veined',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
