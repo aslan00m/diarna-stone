@@ -1626,6 +1626,18 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's2-2026-11-01-stone-textured-limestone-tile',
+    file: '/images/blog-ai/s2-2026-11-01-stone-textured-limestone-tile.jpg',
+    scene:
+      'مشهد تصويري لـبلاط حجري مزخرف بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Textured Stone Tile limestone, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'حجر طبيعي',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
