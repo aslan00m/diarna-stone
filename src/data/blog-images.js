@@ -1612,6 +1612,20 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's1-2026-11-01-stone-thassos-classic',
+    file: '/images/blog-ai/s1-2026-11-01-stone-thassos-classic.jpg',
+    scene:
+      'مشهد تصويري لـThassos Marble بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Thassos Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'Thassos',
+      'marble',
+      'رخام',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
