@@ -1653,6 +1653,20 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's4-2026-11-01-stone-stone-facade-annual-maintenance-cleaning',
+    file: '/images/blog-ai/s4-2026-11-01-stone-stone-facade-annual-maintenance-cleaning.jpg',
+    scene:
+      'تنظيف واجهة حجرية بفرشاة ناعمة وماء في الشمس',
+    prompt:
+      'A worker gently washing a natural stone facade with a soft brush and water from ground level, daylight, editorial photography, no text',
+    topics: [
+      'صيانة واجهات',
+      'حجر طبيعي',
+      'تنظيف الحجر',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
