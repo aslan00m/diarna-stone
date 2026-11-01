@@ -1667,6 +1667,21 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's5-2026-11-01-equip-06',
+    file: '/images/blog-ai/s5-2026-11-01-equip-06.jpg',
+    scene:
+      'مشهد تصويري لـشيول في موقع عمل بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'A wheel loader moving sand on a construction site, professional industrial photography, real construction site, warm daylight, dust in the air, sharp focus, high detail, no text, no watermark',
+    topics: [
+      'معدات',
+      'شيول',
+      'أوناش',
+      'مشاريع تعمير',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
