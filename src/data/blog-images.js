@@ -1682,6 +1682,20 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's6-2026-11-01-stone-pietra-grey-classic',
+    file: '/images/blog-ai/s6-2026-11-01-stone-pietra-grey-classic.jpg',
+    scene:
+      'مشهد تصويري لـرخام بيترا رمادي بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Pietra Grey Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'stone',
+      'pietra-grey',
+      'marble',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
