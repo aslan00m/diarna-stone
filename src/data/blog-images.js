@@ -1638,6 +1638,21 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's3-2026-11-01-stone-rosso-brazilian-classic',
+    file: '/images/blog-ai/s3-2026-11-01-stone-rosso-brazilian-classic.jpg',
+    scene:
+      'مشهد تصويري لـRosso Brazilian Granite بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Rosso Brazilian Granite granite, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'granite',
+      'Rosso Brazilian Granite',
+      'architectural stone',
+      'polished granite',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
