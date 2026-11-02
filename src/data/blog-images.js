@@ -1764,6 +1764,21 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's4-2026-11-02-stone-granite-vs-travertine-vs-limestone-facades',
+    file: '/images/blog-ai/s4-2026-11-02-stone-granite-vs-travertine-vs-limestone-facades.jpg',
+    scene:
+      'ثلاث عيّنات حجر للواجهات معروضة تحت الشمس للمقارنة بينها',
+    prompt:
+      'Three large facade stone slabs leaning against a wall in a stone yard, grey granite beige travertine and pale limestone, soft daylight, editorial photography, no people, no text',
+    topics: [
+      'واجهات',
+      'رخام',
+      'جرانيت',
+      'حجر طبيعي',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
