@@ -1779,6 +1779,42 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'stone-finishes-matte-polished',
+    file: '/images/blog-ai/stone-finishes-matte-polished.jpg',
+    scene:
+      'يد حرفية تحمل لوح حجر مصقول بجوار لوح مطفي على طاولة عمل',
+    prompt:
+      'Editorial workshop scene: a craftsman\'s hand holding a polished natural stone tile next to a honed slab on a workbench, soft daylight, sharp focus, professional photography',
+    topics: [
+      'تشطيبات الحجر، رخام لامع، حجر مطفي، تشطيب متعدد، تشطب مصقول',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 'stone-finish-guide-natural',
+    file: '/images/blog-ai/stone-finish-guide-natural.jpg',
+    scene:
+      'يد حرفية تحمل لوح حجر مصقول بجوار لوح مطفي على طاولة عمل',
+    prompt:
+      'Editorial workshop scene: a craftsman\'s hand holding a polished natural stone tile next to a honed slab on a workbench, soft daylight, sharp focus, professional photography',
+    topics: [
+      'تشطيبات الحجر، رخام لامع، حجر مطفي، تشطيب متعدد، تشطب مصقول',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 'stone-finish-selection-guide',
+    file: '/images/blog-ai/stone-finish-selection-guide.jpg',
+    scene:
+      'يد حرفية تحمل لوح حجر مصقول بجوار لوح مطفي على طاولة عمل',
+    prompt:
+      'Editorial workshop scene: a craftsman\'s hand holding a polished natural stone tile next to a honed slab on a workbench, soft daylight, sharp focus, professional photography',
+    topics: [
+      'تشطيبات الحجر، رخام لامع، حجر مطفي، تشطيب متعدد، تشطيب مصقول',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
