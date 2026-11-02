@@ -1738,6 +1738,18 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'medina-stone-driveway-paving',
+    file: '/images/blog-ai/medina-stone-driveway-paving.jpg',
+    scene:
+      'تبليط ساحة مركبات بألواح جرانيت، عمال يضغطون القاعدة، فيلا خارجية',
+    prompt:
+      'Editorial photograph of a stone driveway being laid with granite slabs, workers compacting base, outdoor Medina villa, daylight',
+    topics: [
+      'أرضيات ممرات، ساحات مركبات، تبليط خارجي، جرانيت',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
