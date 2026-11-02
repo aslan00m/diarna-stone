@@ -1726,6 +1726,18 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's2-2026-11-02-stone-limestone-beige-jali',
+    file: '/images/blog-ai/s2-2026-11-02-stone-limestone-beige-jali.jpg',
+    scene:
+      'مشهد تصويري لـBeige Jali Limestone بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Beige Jali Limestone limestone, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'حجر طبيعي',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
