@@ -1829,6 +1829,24 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's6-2026-11-02-stone-mugla-bianco-veined',
+    file: '/images/blog-ai/s6-2026-11-02-stone-mugla-bianco-veined.jpg',
+    scene:
+      'مشهد تصويري لـرخام موغلا المعزّق بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Veined Mugla Bianco Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام',
+      'موغلا',
+      'رخام معزق',
+      'رخام موغلا',
+      'حجر طبيعي',
+      'رخام أبيض',
+      'رخام رمادي',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
