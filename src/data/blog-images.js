@@ -1696,6 +1696,25 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's1-2026-11-02-stone-crema-marfil-extra',
+    file: '/images/blog-ai/s1-2026-11-02-stone-crema-marfil-extra.jpg',
+    scene:
+      'مشهد تصويري لـرخام كريما مارفيل إكسترا بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Crema Marfil Extra Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام',
+      'كريما مارفيل',
+      'إكسترا',
+      'رخام كريمي',
+      'تشطيب مصقول',
+      'رخام إسباني',
+      'دهانات داخلية',
+      'واجهات',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
