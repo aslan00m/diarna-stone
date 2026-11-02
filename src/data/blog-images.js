@@ -1750,6 +1750,20 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's3-2026-11-02-stone-granite-salt-pepper',
+    file: '/images/blog-ai/s3-2026-11-02-stone-granite-salt-pepper.jpg',
+    scene:
+      'مشهد تصويري لـSalt and Pepper Granite بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Salt and Pepper Granite granite, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'granite',
+      'stone',
+      'salt-and-pepper',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
