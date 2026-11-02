@@ -31,6 +31,38 @@ import urllib.request
 from datetime import date
 from pathlib import Path
 
+# SEO enhancement functions
+def enhance_article_content(content: str, title: str, excerpt: str, slug: str) -> str:
+    word_count = len(re.sub(r'<[^>]+>', '', content).split())
+    minutes = max(4, round(word_count / 170))
+    
+    # Add reading time badge after first paragraph
+    badge = f'<div style="background:#e8f5e9;padding:10px 20px;border-radius:20px;display:inline-block;margin:10px 0;font-size:14px;color:#2e7d32;">⏱️ وقت القراءة: {minutes} دقائق</div>'
+    p_match = re.search(r'</p>', content)
+    if p_match:
+        content = content[:p_match.end()] + badge + content[p_match.end():]
+    
+    # Add table of contents
+    headings = re.findall(r'<h2[^>]*>(.*?)</h2>', content, re.DOTALL)
+    if headings:
+        toc_items = []
+        for i, h in enumerate(headings[:8], 1):
+            clean = re.sub(r'<[^>]+>', '', h).strip()
+            if clean:
+                toc_items.append(f'<li><a href="#toc-{i}">{clean}</a></li>')
+        
+        if toc_items:
+            toc_html = f'<div style="background:#f8f9fa;padding:20px;border-radius:12px;margin:30px 0;border-right:4px solid #667eea;"><h3 style="color:#667eea;margin-top:0;">📋 جدول المحتويات</h3><ul style="line-height:2;">{"".join(toc_items)}</ul></div>'
+            h1_match = re.search(r'</h1>', content)
+            if h1_match:
+                content = content[:h1_match.end()] + toc_html + content[h1_match.end():]
+    
+    # Add schema.org
+    schema = f'<script type="application/ld+json">{{"@context":"https://schema.org","@type":"Article","headline":"{title}","description":"{excerpt[:200]}","url":"https://dyarnaa.com/blog/{slug}/","publisher":{"@type":"Organization","name":"ديارنا الحديثة للاستثمار"},"inLanguage":"ar"}}</script>'
+    content = content + schema
+    
+    return content
+
 ROOT = Path(__file__).resolve().parent.parent
 BLOG_JS = ROOT / "src" / "data" / "blog.js"
 IMAGE_DIR = ROOT / "public" / "images" / "blog-ai"
@@ -521,8 +553,18 @@ def cmd_publish(args):
             print(f"{st} {slug}: {why}")
         return 1
 
-    # 2) build post objects + validate BEFORE writing anything
-    posts = [build_post(t, today, data["products"]) for t in ready]
+    # 2) build post objects + enhance SEO BEFORE writing anything
+    posts = []
+    for t in ready:
+        post = build_post(t, today, data["products"])
+        # Enhance content with SEO elements
+        post["content"] = enhance_article_content(
+            post["content"],
+            post["title"],
+            post["excerpt"],
+            post["slug"]
+        )
+        posts.append(post)
     problems = []
     for p in posts:
         for x in leak_report(p):
