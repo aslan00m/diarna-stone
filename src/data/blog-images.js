@@ -1715,6 +1715,17 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'natural-stone-bathroom-sinks',
+    file: '/images/blog-ai/natural-stone-bathroom-sinks.jpg',
+    scene:
+      '',
+    prompt:
+      'A designer gently lowering a heavy natural stone sink onto a bathroom counter in a bright stone showroom, hands steadying the basin, morning sunlight from the side, editorial photography',
+    topics: [
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
