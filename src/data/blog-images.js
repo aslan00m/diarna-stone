@@ -1815,6 +1815,20 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's5-2026-11-02-equip-07',
+    file: '/images/blog-ai/s5-2026-11-02-equip-07.jpg',
+    scene:
+      'مشهد تصويري لـمولد كهرباء في موقع عمل بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'A diesel generator set on a residential construction site, professional industrial photography, real construction site, warm daylight, dust in the air, sharp focus, high detail, no text, no watermark',
+    topics: [
+      'مولد كهرباء',
+      'معدات',
+      'تأجير معدات',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
