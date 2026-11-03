@@ -1862,6 +1862,29 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'stone-slip-resistance-flooring',
+    file: '/images/blog-ai/stone-slip-resistance-flooring.jpg',
+    scene:
+      '',
+    prompt:
+      'Macro photograph of a slip resistance test on a honed beige limestone floor tile, a pendulum tester resting on the wet surface, water droplets visible, workshop background, daylight, sharp focus, professional photography',
+    topics: [
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 's2-2026-11-03-stone-golden-sandstone-classic',
+    file: '/images/blog-ai/s2-2026-11-03-stone-golden-sandstone-classic.jpg',
+    scene:
+      'مشهد تصويري لـحجر رملي ذهبي بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Golden Sandstone limestone, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'حجر طبيعي',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
