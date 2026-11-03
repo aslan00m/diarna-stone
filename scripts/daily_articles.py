@@ -557,13 +557,6 @@ def cmd_publish(args):
     posts = []
     for t in ready:
         post = build_post(t, today, data["products"])
-        # Enhance content with SEO elements
-        post["content"] = enhance_article_content(
-            post["content"],
-            post["title"],
-            post["excerpt"],
-            post["slug"]
-        )
         posts.append(post)
     problems = []
     for p in posts:
@@ -583,8 +576,8 @@ def cmd_publish(args):
             for x in problems:
                 if "too short" in x.lower() and p['slug'] in x:
                     # Expand content
-                    from enhance_article_seo import enhance_article_content
-                    p["content"] = enhance_article_content(
+                    from enhance_article_seo import enhance_article as _enhance_article_content
+                    p["content"] = _enhance_article_content(
                         p["content"], p["title"], p["excerpt"], p["slug"]
                     )
                     fixed = True

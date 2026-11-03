@@ -5974,4 +5974,196 @@ export const TOPIC_BANK = [
     { q: 'هل المصقول مناسب للمغاسل؟', a: 'نعم، يوازن بين الثبات والمظهر لأسطح المغاسل.' },
     ],
   },
+
+  {
+    id: 'stone-slip-resistance-flooring',
+    primary: 'مقاومة الانزلاق في أرضيات الحجر',
+    keywords: ['مقاومة الانزلاق في أرضيات الحجر', 'أرضيات حجر مانعة للانزلاق', 'معامل الاحتكاك COF', 'أرضيات رخام للممرات', 'أرضيات جرانيت خارجية', 'تشطيب محروق للانزلاق', 'أرضيات حمامات حجر', 'أرضيات فلل Medina', 'مطابخ حجر مانع للانزلاق'],
+    intent: 'informational',
+    title: 'مقاومة الانزلاق في أرضيات الحجر: دليل المدينة المنورة',
+    description: 'دليل عملي لاختيار أرضيات حجر طبيعية مقاومة للانزلاق في المدينة المنورة: معامل الاحتكاك، التشطيب، والاختيار حسب كل مساحة.',
+    category: 'التصميم',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'معامل الاحتكاك (COF) هو المقياس (coefficient of friction) — وليس اسم التشطيب — الذي يحدد مانعية الانزلاق.',
+      'الأسطح المصقولة (Polished) تُظهر COF 0.30-0.40 على الأسطح الرطبة — غير مناسبة للممرات والحمامات.',
+      'الجرانيت المحروق (Flamed) والحجر المطروق (Bush-hammered) يحققان 0.60-0.80 — الأفضل للممرات الخارجية.',
+      'الترافرتين المُصقول بالفرشاة (Brushed) يوازن بين الراحة حافي القدمين والمانعية في الحمامات.',
+      'الصرف وتصريف الماء أهم من التشطيب — أرضية بتصريف سيئ تصبح زلقة مهما كان تشطيبها.',
+    ],
+    ctaHeading: 'محتاج مساعدة في اختيار الخامة؟',
+    ctaBody: 'فريقنا يراجع استخدامك ويقترح الأنسب ضمن ميزانيتك.',
+    imagePrompt: 'Macro photograph of a slip resistance test on a honed beige limestone floor tile, a pendulum tester resting on the wet surface, water droplets visible, workshop background, daylight, sharp focus, professional photography',
+    imageScene: 'أرضية حجر جيري مطفي (honed) بيج مع قطرات ماء على السطح و جهاز اختبار البندول (pendulum tester) فوقها',
+    imageTopics: 'أرضيات حجر, مقاومة انزلاق, معامل احتكاك, تشطيب مطفي, المدينة المنورة',
+    related: [],
+    sections: [
+    {
+      h: 'لماذا مقاومة الانزلاق ليست سمة واحدة',
+      p: [
+        'مقاومة الانزلاق (slip resistance) نتيجة تفاعل ثلاثة عوامل: كثافة المادة (density)، وملمس السطح (surface texture)، والبيئة (environment). لا يمكن عزل أي منها. حجر كثيف (dense) مثل الجرانيت (density ~2.7 g/cm³) يوفر احتكاكاً أساسياً (base friction) أعلى من حجر مسامي (porous stone) such as travertine (density ~2.4 g/cm³) — لكن التأثير (effect) يُلغى (overridden) إذا كان التشطيب (finish) مصقولاً (polished) أو إذا تراكمت الزيوت (oils) والصابون (soap).',
+        'في المدينة المنورة، humidity (رطوبة) 25-40% (low) but splash zones ( zones of water splash) in bathrooms and outdoor patios (ممرات خارجية) create wet surfaces (أسطح رطبة). The relevant metric (المقياس المتعلق) is wet COF (coefficient of friction when wet) — not dry COF. A stone that scores 0.80 dry may score 0.35 wet if its surface (surface) is smooth (smooth).',
+      ],
+      bullets: [
+        'COF = coefficient of friction (معامل الاحتكاك) — ratio of horizontal force to vertical force (نسبة القوة الأفقية إلى القوة العمودية).',
+        'Dry COF vs Wet COF: difference can be 50%+ for polished stones (فرق 50%+ للأحجار المصقولة).',
+        'Pendulum test (اختبار البندول): standard method (طريقة قياسية) used in Europe (DIN 51130, DIN 51097).',
+        'Ramp test (اختبار المنحدر): angle at which a person slips — higher angle = more slip resistance (زاوية أعلى = مقاومة أعلى).',
+      ],
+    },
+    {
+      h: 'اختيار التشطيب حسب المساحة',
+      p: [
+        'التشطيب (finish) determines surface texture (يحدد ملمس السطح). Six common finishes (ستة تشطيبات شائعة) exist: Polished (مصقول), Honed (مطفي), Brushed (مُصقول بالفرشاة), Flamed (محروق), Bush-hammered (مطروق), and Sandblasted (منفوخ بالرمل). Each has a distinct (مختلفة) wet COF range (مدى معامل الاحتكاك الرطب).',
+        'For outdoor walkways (للممرات الخارجية) and pool decks (حول المسابح): Flamed granite (جرانيت محروق) or Bush-hammered (حجر مطروق) — wet COF 0.60-0.80. For bathrooms (للحمامات) and shower floors (أرضيات الدش): Brushed travertine (ترافرتين بالفرشاة) or Honed limestone (حجر جيري مطفي) — wet COF 0.50-0.65 with comfort (راحة) for bare feet (حافي القدمين). For living rooms (لغرف المعيشة): Polished marble (رخام مصقول) is acceptable (مقبول) because dry COF (معامل الاحتكاك الجاف) is sufficient (كافٍ) and spill risk (خطر الانسكاب) is low (منخفض).',
+      ],
+      table: {
+        head: [
+          'التشطيب',
+          'COF رطب',
+          'المساحة المثلى',
+          'الصيانة',
+        ],
+        rows: [
+          [
+            'مصقول (Polished)',
+            '0.30-0.40',
+            'غرف معيشة، مكاتب',
+            'عالية (بقع)',
+          ],
+          [
+            'مطفي (Honed)',
+            '0.40-0.55',
+            'مطابخ، مداخل',
+            'متوسطة',
+          ],
+          [
+            'مُصقول بالفرشاة (Brushed)',
+            '0.50-0.65',
+            'حمامات، دش',
+            'منخفضة',
+          ],
+          [
+            'محروق (Flamed)',
+            '0.60-0.80',
+            'ممرات خارجية، مسابح',
+            'منخفضة',
+          ],
+          [
+            'مطروق (Bush-hammered)',
+            '0.55-0.75',
+            'أفنية، ممرات',
+            'منخفضة',
+          ],
+        ],
+      },
+    },
+    ],
+    faq: [
+    { q: 'ما هو أفضل حجر لأرضيات الحمامات في المدينة المنورة؟', a: 'الترافرتين (Travertine) بالفرشاة (Brushed) أو الحجر الجيري (Limestone) المطفي (Honed) — wet COF 0.50-0.65، مريح (comfortable) حافي القدمين (bare feet)، ويتحمل (withstands) الرطوبة (moisture). تجنب (Avoid) الرخام المصقول (Polished marble) — wet COF 0.30-0.40 (منخفض).' },
+    { q: 'هل الجرانيت المحروق (Flamed granite) مناسب للأفنية؟', a: 'نعم — wet COF 0.60-0.80، أفضل (best) للممرات (walkways) والمسابح (pools). لكن (However) السطح (surface) خشن (rough) — قد (may) يكون غير مريح (uncomfortable) حافي القدمين (bare feet) في مناطق (areas) الجلوس (seating). استخدم (Use) Honed (مطفي) أو Brushed (بالفرشاة) لتلك (those) المناطق (areas).' },
+    { q: 'كم مرة يجب إعادة إحكام (re-seal) أرضيات الحجر؟', a: '12-18 شهراً (months) للترافرتين (Travertine) والحجر الجيري (Limestone) — مسامية (porous). 24-36 شهراً (months) للجرانيت (Granite) — أقل مسامية (less porous). الرخام (Marble) — 12-18 شهراً (months). اختبر (Test) بقطرة ماء (water drop): إذا (if) امتص (absorbed) خلال (within) 5-10 ثوانٍ (seconds)، أعد الإحكام (re-seal).' },
+    { q: 'هل مقاومة الانزلاق (slip resistance) تُقاس (measured) بالتشطيب (finish) أو بالحجر (stone)؟', a: 'بالتشfinish (by finish) — primarily (primarily). الحجر (Stone) provides (provides) base (base) friction (friction)، but (but) finish (finish) determines (determines) surface (surface) texture (texture). نفس (Same) حجر (stone) (جرانيت (Granite)) with (with) Polished (مصقول) finish (تشطيب) = COF 0.30-0.40. same (same) جرانيت (Granite) with (with) Flamed (محروق) finish = COF 0.60-0.80. اختر (Choose) finish (finish) first (first)، then (then) stone (stone).' },
+    ],
+  },
+
+  {
+    id: 'stone-joint-width-facade-medina',
+    primary: 'عرض فواصل الحجر في واجهات المدينة المنورة',
+    keywords: ['عرض فواصل الحجر', 'فواصل واجهة حجر', 'عرض joints حجر', 'فواصل ملاط حجر', 'واجهات حجر المدينة المنورة', 'عرض شقوق الحجر', 'فواصل 5mm 10mm', 'توصيلات حجر طبيعي'],
+    intent: 'informational',
+    title: 'عرض فواصل الحجر في واجهات المدينة المنورة',
+    description: 'دليل عملي لاختيار عرض فواصل الحجر في واجهات المباني في المدينة المنورة: 5 و 8 و 10 ملم، متى نستخدم كل منها، وكيف تؤثر في التمدد والتصريف.',
+    category: 'الواجهات',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'عرض الفاصل 5 ملم مناسب للحجر المقطوع بدقة (sawn) والألواح الصغيرة.',
+      'عرض 8-10 ملم هو المعيار للواجهات الكبيرة والمعرضة للشمس.',
+      'كل 10 ملم عرض فاصل = 1 ملم امتصاص تمدد حراري (rule of thumb).',
+      'فواصل أفقية (bed joints) أوسع من عمودية (perpend) لتصرف الماء.',
+      'لا تستخدم ملاط صلب في فواصل أوسع من 6 ملم — استخدم ملاط مرّن.',
+    ],
+    ctaHeading: 'محتاج مساعدة في اختيار الخامة؟',
+    ctaBody: 'فريقنا يراجع استخدامك ويقترح الأنسب ضمن ميزانيتك.',
+    imagePrompt: 'Macro photograph of a stone facade corner showing horizontal and vertical mortar joints of different widths, beige limestone slabs, a measuring tape resting across a joint, daylight, sharp focus, professional photography',
+    imageScene: 'زاوية واجهة حجر جيري بيج مع فواصل ملاط أفقية وعمودية بأعرض مختلفة، وشريط قياس (measuring tape) ممتد عبر فاصل',
+    imageTopics: 'فواصل حجر, joints, واجهة حجر, City Medina, expansion, mortar',
+    related: [],
+    sections: [
+    {
+      h: 'لماذا عرض الفاصل مهم',
+      p: [
+        'عرض الفاصل (joint width) ليس تفصيلاً جمالياً فقط — هو عنصر هندسي يتحكم في تمدد الحجر (thermal expansion) وتصريف الماء (drainage) ومنع تشقق الواجهة.',
+        'في المدينة المنورة، فرق درجات الحرارة بين الصيف (45°C) والشتاء (5°C) ينتج تمدداً حرارياً (thermal expansion) ملحوظاً — الحجر الأبيض (limestone) يتمدد ~5 ملم لكل 10 متر طول.',
+        'إذا كانت الفواصل ضيقة جداً، التمدد يضغط على الألواح ويسبب تشققات (cracks) أو (انتفاخ) (buckling).',
+      ],
+    },
+    {
+      h: 'المعايير (5 / 8 / 10 ملم)',
+      p: [
+        '5 ملم: للحجر المقطوع بدقة (sawn) والألواح الصغيرة (أقل من 60 سم). مناسب للداخل (interior) والواجهات المحمية (sheltered).',
+        '8 ملم: المعيار للواجهات (facades) المعرضة (exposed) في المناخ المعتدل. توازن بين الجمال والوظيفة.',
+        '10 ملم: للواجهات الكبيرة والمعرضة للشمس (sun-exposed) في مناخ حار. يمنح تمدداً (expansion) إضافياً.',
+      ],
+      table: {
+        head: [
+          'عرض الفاصل',
+          'الاستخدام',
+          'المناخ',
+          'نوع الملاط',
+        ],
+        rows: [
+          [
+            '5 ملم',
+            'داخلي / محمي',
+            'معتدل',
+            'ملاط صلب (rigid)',
+          ],
+          [
+            '8 ملم',
+            'واجهة معرضة',
+            'معتدل',
+            'ملاط مرّن (flexible)',
+          ],
+          [
+            '10 ملم',
+            'واجهة كبيرة / حارة',
+            'حار (الرياض/المدينة)',
+            'ملاط مرّن + (sealant)',
+          ],
+        ],
+      },
+    },
+    {
+      h: 'فواصل أفقية (vs) عمودية',
+      p: [
+        'الفواصل الأفقية (bed joints) يجب أن تكون أوسع (8-10 ملم) لأنها تصرف الماء (water drainage) وتحمل وزن الألواح (load bearing).',
+        'الفواصل العمودية (perpend joints) يمكن أن تكون أضيق (5-8 ملم) لأنها لا تحمل وزناً (non-load-bearing).',
+        'في (وادي الفرع) والواجهات الممطرة: أضف (drip groove) (قطرة ماء) أسفل كل لوح (slab) لتصرف الماء (water runoff).',
+      ],
+      bullets: [
+        'أفقية: 8-10 ملم (تصريف + تحمل)',
+        'عمودية: 5-8 ملم ()',
+        'أضف (sealant) (سيليكون) في الفواصل الأفقية (horizontal)',
+        'استخدم (color-matched) (mortar) (ملاط مطابق اللون)',
+      ],
+    },
+    {
+      h: 'أخطاء شائعة',
+      p: [
+        'استخدام ملاط صلب (rigid mortar) في فواصل > 6 ملم → تشقق (cracking) بعد 6-12 شهراً.',
+        'فواصل ضيقة (< 5 ملم) في واجهات حارة → (buckling) (انتفاخ) في الصيف.',
+        'عدم ترك فاصل (expansion) (توسيع) في الزوايا (corners) → تشقق (cracking) في الزاوية.',
+        'ملاط ملون (colored mortar) غير مطابق (mismatched) → بقع (staining) على الحجر.',
+      ],
+      warn: 'لا تستخدم ملاط صلب في فواصل أوسع من 6 ملم — استخدم ملاط مرّن (flexible).',
+    },
+    ],
+    faq: [
+    { q: 'ما عرض الفاصل (joint width) المناسب لواجهة حجر في المدينة المنورة؟', a: '8-10 ملم (millimeters) هو المعيار (standard) للواجهات (facades) المعرضة (exposed) في مناخ حار (hot climate). 5 ملم (mm) فقط للداخل (interior) والواجهات المحمية (sheltered).' },
+    { q: 'هل فواصل أوسع (wider joints) أقوى (stronger)؟', a: 'لا — فواصل أوسع (wider) تمنح تمدداً (expansion) وتصريفاً (drainage) أفضل، لكنها تضعف (weaken) التماسك (bond) إذا كانت أوسع من 12 ملم (mm). 8-10 ملم (mm) هو التوازن (balance).' },
+    { q: 'ما نوع الملاط (mortar) لفواصل 10 ملم (mm)؟', a: 'ملاط مرّن (flexible mortar) + (sealant) (سيليكون) ملون (colored) — ملاط صلب (rigid) يتسبب في تشقق (cracking) في فواصل > 6 ملم (mm).' },
+    { q: 'كيف أحسب (Tamaddud) (تمدد) الحجر (stone expansion)؟', a: 'التمدد الحراري (thermal expansion) ≈ 5-8 ملم (mm) لكل 10 متر (m) طول (length) في مناخ حار (hot climate). كل 10 ملم (mm) عرض فاصل (joint width) = 1 ملم (mm) امتصاص (absorption).' },
+    ],
+  },
 ];
