@@ -1915,6 +1915,17 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'stone-joint-width-facade-medina',
+    file: '/images/blog-ai/stone-joint-width-facade-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Macro photograph of a stone facade corner showing horizontal and vertical mortar joints of different widths, beige limestone slabs, a measuring tape resting across a joint, daylight, sharp focus, professional photography',
+    topics: [
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
