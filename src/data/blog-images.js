@@ -1885,6 +1885,21 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's3-2026-11-03-stone-granite-black-white',
+    file: '/images/blog-ai/s3-2026-11-03-stone-granite-black-white.jpg',
+    scene:
+      'مشهد تصويري لـجرانيت أسود أبيض بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Black White Granite granite, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'granite',
+      'black-white',
+      'marble',
+      'stone',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
