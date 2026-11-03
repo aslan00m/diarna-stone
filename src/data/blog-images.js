@@ -1847,6 +1847,21 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's1-2026-11-03-stone-nero-marquina-veined',
+    file: '/images/blog-ai/s1-2026-11-03-stone-nero-marquina-veined.jpg',
+    scene:
+      'مشهد تصويري لـVeined Nero Marquina Marble بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Veined Nero Marquina Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'marble',
+      'nero-marquina',
+      'polished',
+      'honed',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
