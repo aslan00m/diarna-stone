@@ -1900,6 +1900,21 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's3-2026-11-03-stone-granite-black-white-ig',
+    file: '/images/blog-ai/s3-2026-11-03-stone-granite-black-white-ig.jpg',
+    scene:
+      'مشهد تصويري لـجرانيت أسود أبيض مصقول على خلفية بيضاء',
+    prompt:
+      'Black White Granite polished slab on a white background, minimalist architectural product photography, soft shadow, high detail, no text, no watermark',
+    topics: [
+      'granite',
+      'black-white',
+      'marble',
+      'stone',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
