@@ -2029,6 +2029,25 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's4-2026-11-04-stone-medina-stone-facade-home-designs',
+    file: '/images/blog-ai/s4-2026-11-04-stone-medina-stone-facade-home-designs.jpg',
+    scene:
+      'منظر لواجهات منازل مغشاة بالحجر الطبيعي في حي سكني',
+    prompt:
+      'A quiet residential street with villas clad in natural stone, a different facade design per house, warm morning sunlight, wide architectural photography, no people, no text',
+    topics: [
+      'natural stone',
+      'facade design',
+      'villa',
+      'residential architecture',
+      'stone cladding',
+      'warm sunlight',
+      'Medina',
+      'home exterior',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
