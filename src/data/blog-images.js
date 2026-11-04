@@ -2048,6 +2048,17 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'stone-cladding-maintenance-medina',
+    file: '/images/blog-ai/stone-cladding-maintenance-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Professional stone facade cleaning in Medina, worker with soft brush and water, warm morning light, no text',
+    topics: [
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
