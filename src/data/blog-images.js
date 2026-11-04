@@ -1926,6 +1926,32 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'stone-thermal-expansion-medina',
+    file: '/images/blog-ai/stone-thermal-expansion-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Macro photograph of a stone facade with visible expansion joints, beige limestone slabs, a thermometer resting on the surface, daylight, sharp focus, professional photography',
+    topics: [
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 's1-2026-11-04-stone-portoro-gold',
+    file: '/images/blog-ai/s1-2026-11-04-stone-portoro-gold.jpg',
+    scene:
+      'مشهد تصويري لـرخام بورتورو الذهبي بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Golden Portoro Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام',
+      'بورتورو',
+      'ذهب',
+      'رخام أسود',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
