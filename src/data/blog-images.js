@@ -1952,6 +1952,32 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'natural-stone-sink-installation-madina',
+    file: '/images/blog-ai/natural-stone-sink-installation-madina.jpg',
+    scene:
+      'مغسلة حجر natural being installed on a wooden workbench, hands holding a silicone gun, workshop background, daylight',
+    prompt:
+      'Macro photograph of a stone washbasin being installed on a wooden workbench, hands holding a silicone gun, workshop background, daylight, sharp focus',
+    topics: [
+      'مغاسل حجر، تركيب، Medina، تثبيت، سيليكون، حمام',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 's2-2026-11-04-stone-red-sandstone',
+    file: '/images/blog-ai/s2-2026-11-04-stone-red-sandstone.jpg',
+    scene:
+      'مشهد تصويري لـحجر رملي أحمر بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Red Sandstone limestone, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'حجر رملي',
+      'Red Sandstone',
+      'حجر طبيعي',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
