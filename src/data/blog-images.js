@@ -1992,6 +1992,43 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 'stone-shower-walls-bathrooms-medina',
+    file: '/images/blog-ai/stone-shower-walls-bathrooms-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Editorial photograph of a bathroom shower wall clad in filled travertine stone, warm beige tones, matte finish, brushed nickel fixtures, soft natural light from a window, clean modern design, professional interior photography',
+    topics: [
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 's3-2026-11-04-stone-granite-brown-dark',
+    file: '/images/blog-ai/s3-2026-11-04-stone-granite-brown-dark.jpg',
+    scene:
+      'مشهد تصويري لـDark Brown Granite بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Dark Brown Granite granite, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'جرانيت',
+      'حجر طبيعي',
+      'واجهات',
+      'تشطيبات',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 'stone-bathroom-walls-medina',
+    file: '/images/blog-ai/stone-bathroom-walls-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Editorial photograph of a bathroom shower wall clad in filled travertine stone, warm beige tones, matte finish, brushed nickel fixtures, soft natural light from a window, clean modern design, professional interior photography',
+    topics: [
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
