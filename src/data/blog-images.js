@@ -2090,7 +2090,36 @@ export const BLOG_AI_IMAGES = [
       'تنظيف الرخام',
     ],
     usedBy: [''],
-  },];
+  },  {
+    slug: 's4-2026-11-03-stone-stone-facade-cost-per-meter',
+    file: '/images/blog-ai/s4-2026-11-03-stone-stone-facade-cost-per-meter.jpg',
+    scene: 'واجهة حجرية بتكلفة محسوبة، صورة توضيحية',
+  },
+  {
+    slug: 's6-2026-10-30-stone-basin-installation-steps',
+    file: '/images/blog-ai/s6-2026-10-30-stone-basin-installation-steps.jpg',
+    scene: 'خطوات تركيب مغسلة حجر، صورة توضيحية',
+  },
+  {
+    slug: 'stone-polishing-grinding-guide',
+    file: '/images/blog-ai/stone-polishing-grinding-guide.png',
+    scene: 'تلميع وطحن حجر، صورة توضيحية',
+  },
+  {
+    slug: 's6-2026-11-04-stone-cream-marble',
+    file: '/images/blog-ai/s6-2026-11-04-stone-cream-marble.jpg',
+    scene:
+      'مشهد تصويري لـرخام كريمي معرّق ذهبي بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Golden Veined Cream Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام',
+      'كريمي',
+      'معرّق',
+    ],
+    usedBy: [''],
+  },
+];
 
 // Fallback only. A generated cover is always preferred; this exists so a
 // post can never ship with no image at all.
