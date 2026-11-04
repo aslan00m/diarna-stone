@@ -1978,6 +1978,20 @@ export const BLOG_AI_IMAGES = [
     usedBy: [''],
   },
   {
+    slug: 's2-2026-11-04-stone-red-sandstone-ig',
+    file: '/images/blog-ai/s2-2026-11-04-stone-red-sandstone-ig.jpg',
+    scene:
+      'مشهد تصويري لـحجر رملي أحمر بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Red Sandstone limestone, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'حجر رملي',
+      'Red Sandstone',
+      'حجر طبيعي',
+    ],
+    usedBy: [''],
+  },
+  {
     slug: 's6-2026-10-24-stone-marble-kitchen-acids',
     file: '/images/blog-ai/s6-2026-10-24-stone-marble-kitchen-acids.jpg',
     scene:
