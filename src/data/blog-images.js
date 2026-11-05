@@ -2119,6 +2119,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's1-2026-11-05-stone-super-white-quartzite',
+    file: '/images/blog-ai/s1-2026-11-05-stone-super-white-quartzite.jpg',
+    scene:
+      'مشهد تصويري لـكوارتزيت سوبر وايت بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Super White Quartzite marble, polished surface finish, professional architectural photography, soft daylight, high detail',
+    topics: [
+      'كوارتزيت',
+      'سوبر وايت',
+      'رخام',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
