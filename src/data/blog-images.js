@@ -2133,6 +2133,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's2-2026-11-05-stone-slate-grey',
+    file: '/images/blog-ai/s2-2026-11-05-stone-slate-grey.jpg',
+    scene:
+      'مشهد تصويري لـأردواز رمادي بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Grey Slate limestone, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'حجر طبيعي',
+      'أردواز',
+      'slate',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
