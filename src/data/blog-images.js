@@ -2200,6 +2200,30 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-cutting-tools-guide-medina',
+    file: '/images/blog-ai/stone-cutting-tools-guide-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Diamond blade stone cutting saw in workshop, marble slab being cut, water cooling, safety gear, professional photography',
+    topics: [
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 's6-2026-11-05-stone-basalt-dark',
+    file: '/images/blog-ai/s6-2026-11-05-stone-basalt-dark.jpg',
+    scene:
+      'مشهد تصويري لـبازلت داكن بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Dark Basalt limestone, polished surface finish, professional architectural photography, soft daylight, high detail',
+    topics: [
+      'بازلت',
+      'حجر طبيعي',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
