@@ -2175,6 +2175,17 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-terrace-maintenance-medina',
+    file: '/images/blog-ai/stone-terrace-maintenance-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Editorial photo of a stone terrace being maintained, worker with soft brush, warm Medina sunlight, no text',
+    topics: [
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
