@@ -2147,6 +2147,19 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'granite-kitchen-islands-medina',
+    file: '/images/blog-ai/granite-kitchen-islands-medina.jpg',
+    scene:
+      'جزيرة مطبخ بأسطح جرانيت في تصميم حديث بالمدينة المنورة',
+    prompt:
+      'Modern kitchen island with dark granite countertop, Medina style interior, warm lighting, clean lines, no text',
+    topics: [
+      'مطابخ جرانيت',
+      'جزيرة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
