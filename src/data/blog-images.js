@@ -2186,6 +2186,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's5-2026-11-05-stone-crema-marfil-select',
+    file: '/images/blog-ai/s5-2026-11-05-stone-crema-marfil-select.jpg',
+    scene:
+      'مشهد تصويري لـرخام كريما مارفيل سيليكت بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Crema Marfil Select Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام',
+      'كريما مارفيل',
+      'حجر طبيعي',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
