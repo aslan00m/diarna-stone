@@ -2224,6 +2224,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's1-2026-11-06-stone-perlato-grey-marble',
+    file: '/images/blog-ai/s1-2026-11-06-stone-perlato-grey-marble.jpg',
+    scene:
+      'مشهد تصويري لـرخام بيرلاتو رمادي بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Perlato Grey Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail',
+    topics: [
+      'marble',
+      'perlato',
+      'grey',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
