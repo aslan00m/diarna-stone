@@ -2263,6 +2263,18 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's3-2026-11-06-stone-granite-brown-grey',
+    file: '/images/blog-ai/s3-2026-11-06-stone-granite-brown-grey.jpg',
+    scene:
+      'مشهد تصويري لـجرانيت رمادي بني بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Grey Brown Granite granite, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'granite',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
