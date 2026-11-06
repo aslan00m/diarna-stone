@@ -2324,6 +2324,32 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-veneer-installation-medina',
+    file: '/images/blog-ai/stone-veneer-installation-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Stone veneer installation on villa wall, Medina, worker applying adhesive, natural stone panels, daylight',
+    topics: [
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 's6-2026-11-06-stone-stone-finishes-guide',
+    file: '/images/blog-ai/s6-2026-11-06-stone-stone-finishes-guide.jpg',
+    scene:
+      'ثلاث عيّنات حجر جنباً إلى جنب تُظهر تشطيباً مصقولاً وآخر مطفأً وثالثاً مجروشاً على طاولة ورشة',
+    prompt:
+      'Three stone sample tiles side by side showing polished, honed and textured finishes on a workshop table, soft daylight, editorial photography, macro detail',
+    topics: [
+      'تشطيبات',
+      'حجر طبيعي',
+      'رخام',
+      'جرانيت',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
