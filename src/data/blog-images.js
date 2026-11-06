@@ -2251,6 +2251,18 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's2-2026-11-06-stone-black-basalt',
+    file: '/images/blog-ai/s2-2026-11-06-stone-black-basalt.jpg',
+    scene:
+      'مشهد تصويري لـبازلت أسود بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Black Basalt limestone, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'بازلت أسود',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
