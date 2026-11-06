@@ -70,18 +70,8 @@ def generate_topics(n=5):
             "imageScene": title,
             "imageTopics": primary,
             "related": [],
-            "sections": [
-                {"h": "مقدمة", "p": [f"مقدمة عن {primary} في المدينة المنورة."]},
-                {"h": "التفاصيل", "p": [f"تفاصيل {primary} مع نصائح عملية."]},
-                {"h": "الصيانة", "p": ["نصائح صيانة دورية."]},
-                {"h": "التكلفة", "p": ["تقدير تكاليف تقريبية."]},
-            ],
-            "faq": [
-                {"q": f"ما هو {primary}؟", "a": f"دليل {primary} في المدينة المنورة."},
-                {"q": "كم تكلفة؟", "a": "حسب المساحة والمواد."},
-                {"q": "متى أحتاج؟", "a": "حسب المشروع."},
-                {"q": "هل أستطيع بنفسي؟", "a": "البعض نعم، والبعض يحتاج متخصص."},
-            ],
+            "sections": [],  # MUST be filled with real content before publishing
+            "faq": [],       # MUST be filled with real content before publishing
         }
         new_topics.append(entry)
         existing_ids.add(tid)
