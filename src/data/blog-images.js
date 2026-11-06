@@ -2298,6 +2298,32 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-countertop-sealing-guide-medina',
+    file: '/images/blog-ai/stone-countertop-sealing-guide-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Close-up of applying stone sealer to marble countertop with brush, warm indoor light, clean surface, professional photography',
+    topics: [
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 's5-2026-11-06-stone-carrara-vessel-sink',
+    file: '/images/blog-ai/s5-2026-11-06-stone-carrara-vessel-sink.jpg',
+    scene:
+      'مشهد تصويري لـCarrara Round Vessel Sink بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Carrara Round Vessel Sink stone washbasin, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'مغاسل',
+      'رخام',
+      'كارارا',
+      'مغسلة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
