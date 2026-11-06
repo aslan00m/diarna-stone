@@ -2275,6 +2275,29 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'marble-bathroom-floors-medina',
+    file: '/images/blog-ai/marble-bathroom-floors-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Luxury bathroom with honed marble floor, warm LED lighting, modern fixtures, clean and dry surface, no text',
+    topics: [
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 's4-2026-11-06-equip-11',
+    file: '/images/blog-ai/s4-2026-11-06-equip-11.jpg',
+    scene:
+      'مشهد تصويري لـلوبد في موقع عمل بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'A hydraulic lowbed trailer transporting heavy equipment, professional industrial photography, real construction site, warm daylight, dust in the air, sharp focus, high detail, no text, no watermark',
+    topics: [
+      'لوبد، معدات ثقيلة، نقل',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
