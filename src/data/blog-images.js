@@ -2238,6 +2238,19 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-outdoor-stairs-medina',
+    file: '/images/blog-ai/stone-outdoor-stairs-medina.jpg',
+    scene:
+      'سلم حجر خارجي لمنزل في المدينة المنورة عند الغروب',
+    prompt:
+      'Outdoor stone staircase leading to a villa entrance, warm sunset light, clean lines, safety texture, no people',
+    topics: [
+      'سلالم حجر',
+      'واجهات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
