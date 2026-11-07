@@ -2365,6 +2365,17 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-fireplace-design-medina',
+    file: '/images/blog-ai/stone-fireplace-design-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Stone fireplace in living room, Medina villa, natural limestone surround, warm fire glow, cozy interior, professional photography',
+    topics: [
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
