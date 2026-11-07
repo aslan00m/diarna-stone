@@ -2390,6 +2390,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's3-2026-11-07-stone-rosso-brazilian-extra',
+    file: '/images/blog-ai/s3-2026-11-07-stone-rosso-brazilian-extra.jpg',
+    scene:
+      'مشهد تصويري لـExtra Rosso Brazilian Granite بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Extra Rosso Brazilian Granite granite, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'جرانيت',
+      'رخام',
+      'حجر طبيعي',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
