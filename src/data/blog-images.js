@@ -2376,6 +2376,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's2-2026-11-07-stone-limestone-white-compact',
+    file: '/images/blog-ai/s2-2026-11-07-stone-limestone-white-compact.jpg',
+    scene:
+      'مشهد تصويري لـCompact White Limestone بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Compact White Limestone limestone, polished surface finish, professional architectural photography, soft daylight, high detail',
+    topics: [
+      'حجر طبيعي',
+      'حجر جيري',
+      'Compact White Limestone',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
