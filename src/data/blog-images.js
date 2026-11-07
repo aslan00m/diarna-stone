@@ -2439,6 +2439,17 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-staircase-medina',
+    file: '/images/blog-ai/stone-staircase-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Stone staircase in Medina villa, natural marble steps, warm interior lighting, clean design, no people, professional photography',
+    topics: [
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
