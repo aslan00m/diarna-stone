@@ -2404,6 +2404,17 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-floor-polishing-medina',
+    file: '/images/blog-ai/stone-floor-polishing-medina.jpg',
+    scene:
+      'تلميع أرضية رخام في فيلا بالمدينة المنورة',
+    prompt:
+      'Stone floor polishing in Medina villa, marble floor being polished, professional equipment, clean interior, warm lighting, no people, professional photography',
+    topics: [
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
