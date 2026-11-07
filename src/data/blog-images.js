@@ -2415,6 +2415,18 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's4-2026-11-07-equip-12',
+    file: '/images/blog-ai/s4-2026-11-07-equip-12.jpg',
+    scene:
+      'مشهد تصويري لـوايت ماء في موقع عمل بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'A water tanker truck filling a site tank, professional industrial photography, real construction site, warm daylight, dust in the air, sharp focus, high detail, no text, no watermark',
+    topics: [
+      'معدات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
