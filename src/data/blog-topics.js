@@ -8774,91 +8774,6 @@ export const TOPIC_BANK = [
     ]
   },
   {
-    "id": "stone-fireplace-design-medina",
-    "primary": "مدافئ حجر",
-    "keywords": [
-      "مدافئ حجر",
-      "fireplace",
-      "رخام",
-      "جرانيت",
-      "المدينة المنورة",
-      "تصميم"
-    ],
-    "intent": "informational",
-    "title": "مدافئ حجر (Stone Fireplace) في المدينة المنورة: تصميم وتنفيذ",
-    "description": "كيف تختار and تثبت مدفأة حجر (stone fireplace) في منزلك في المدينة المنورة.",
-    "category": "أفكار وتصميم",
-    "takeawayTitle": "أهم ما في هذا المقال",
-    "takeaways": [
-      "Choose heat-resistant stone like granite or limestone",
-      "Ensure proper ventilation and clearance",
-      "Consider local climate needs",
-      "Professional installation required for safety"
-    ],
-    "ctaHeading": "تريد مدفأة حجر (stone fireplace)?",
-    "ctaBody": "نصمم and ننفذ مدافئ حجر (stone fireplaces) في المدينة المنورة.",
-    "imagePrompt": "Stone fireplace in living room, Medina villa, natural limestone surround, warm fire glow, cozy interior, professional photography",
-    "imageScene": "مدفأة حجر (stone fireplace) in living room of Medina villa with warm fire glow",
-    "imageTopics": "مدافئ حجر,fireplace,تصميم",
-    "related": [],
-    "sections": [
-      {
-        "h": "اختيار الحجر",
-        "p": [
-          "Granite: heat resistant, durable",
-          "Limestone: classic look, moderate heat",
-          "Marble: elegant but needs protection from heat",
-          "Avoid porous stone near fire"
-        ]
-      },
-      {
-        "h": "التصميم",
-        "p": [
-          "Consider room size and ceiling height",
-          "Match fireplace to interior style",
-          "Plan for wood storage if needed",
-          "Include mantel for display"
-        ]
-      },
-      {
-        "h": "السلامة",
-        "p": [
-          "Maintain clearance from combustibles",
-          "Install proper chimney/flue",
-          "Use heat-resistant mortar",
-          "Add fire screen"
-        ]
-      },
-      {
-        "h": "الصيانة",
-        "p": [
-          "Clean ash regularly",
-          "Inspect chimney annually",
-          "Check for cracks",
-          "Re-seal stone if needed"
-        ]
-      }
-    ],
-    "faq": [
-      {
-        "q": "هل stone fireplace suitable for Medina climate?",
-        "a": "Yes for winter months, adds warmth and ambiance."
-      },
-      {
-        "q": "كم تكلفة stone fireplace?",
-        "a": "3000-15000 ريال حسب size and stone type."
-      },
-      {
-        "q": "هل need professional installation?",
-        "a": "Yes, for safety and code compliance."
-      },
-      {
-        "q": "ما best stone for fireplace?",
-        "a": "Granite or dense limestone for heat resistance."
-      }
-    ]
-  },
-  {
     "id": "stone-garden-paving-medina",
     "primary": "تبليط حدائق حجر",
     "keywords": [
@@ -8941,5 +8856,90 @@ export const TOPIC_BANK = [
         "a": "20-50 years with proper installation and maintenance."
       }
     ]
-  }
+  },
+  {
+    "id": "stone-fireplace-design-medina",
+    "primary": "مدافئ حجر",
+    "keywords": [
+      "مدافئ حجر",
+      "fireplace",
+      "رخام",
+      "جرانيت",
+      "المدينة المنورة",
+      "تصميم"
+    ],
+    "intent": "informational",
+    "title": "مدافئ حجر (Stone Fireplace) في المدينة المنورة: تصميم وتنفيذ",
+    "description": "كيف تختار وتثبت مدفأة حجر في منزلك في المدينة المنورة.",
+    "category": "أفكار وتصميم",
+    "takeawayTitle": "أهم ما في هذا المقال",
+    "takeaways": [
+      "Choose heat-resistant stone like granite or limestone",
+      "Ensure proper ventilation and clearance",
+      "Consider local climate needs",
+      "Professional installation required for safety"
+    ],
+    "ctaHeading": "تريد مدفأة حجر؟",
+    "ctaBody": "نصمم وننفذ مدافئ حجر في المدينة المنورة.",
+    "imagePrompt": "Stone fireplace in living room, Medina villa, natural limestone surround, warm fire glow, cozy interior, professional photography",
+    "imageScene": "مدفأة حجر في غرفة معيشة فيلا بالمدينة المنورة مع وهج نار دافئ",
+    "imageTopics": "مدافئ حجر,fireplace,تصميم",
+    "related": [],
+    "sections": [
+      {
+        "h": "اختيار الحجر",
+        "p": [
+          "جرانيت: مقاوم للحرارة، متين",
+          "حجر جيري: مظهر كلاسيكي، حرارة متوسطة",
+          "رخام: أنيق لكن يحتاج حماية من الحرارة",
+          "تجنب الحجر مسامي قرب النار"
+        ]
+      },
+      {
+        "h": "التصميم",
+        "p": [
+          "مراعاة حجم الغرفة وارتفاع السقف",
+          "مطابقة المدفأة لأسلوب الديكور",
+          "التخطيط لتخزين الحطب إن لزم",
+          "إضافة رف للعرض"
+        ]
+      },
+      {
+        "h": "السلامة",
+        "p": [
+          "الحفاظ على مسافة من المواد قابلة للاشتعال",
+          "تركيب مدخنة/مجرى مناسب",
+          "استخدام ملاط مقاوم للحرارة",
+          "إضافة شاشة نار"
+        ]
+      },
+      {
+        "h": "الصيانة",
+        "p": [
+          "تنظيف الرماد بانتظام",
+          "فحص المدخنة سنوياً",
+          "التحقق من الشقوق",
+          "إعادة إحكام الحجر عند الحاجة"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "هل مدفأة حجر مناسبة لمناخ المدينة المنورة؟",
+        "a": "نعم لأشهر الشتاء، تضيف دفئاً وأجواءً."
+      },
+      {
+        "q": "كم تكلفة مدفأة حجر؟",
+        "a": "3000-15000 ريال حسب الحجم ونوع الحجر."
+      },
+      {
+        "q": "هل تحتاج إلى تركيب احترافي؟",
+        "a": "نعم، للأمان والامتثال للمتطلبات."
+      },
+      {
+        "q": "ما أفضل حجر لمدفأة؟",
+        "a": "جرانيت أو حجر جيري كثيف لمقاومة الحرارة."
+      }
+    ]
+  },
 ];
