@@ -2450,6 +2450,19 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-flooring-insulation-medina',
+    file: '/images/blog-ai/stone-flooring-insulation-medina.jpg',
+    scene:
+      'مقطع عرضي لأرضية حجرية مع طبقات العزل',
+    prompt:
+      'Cross section diagram of natural stone flooring with waterproofing and thermal insulation layers, technical illustration, clean white background',
+    topics: [
+      'عزل حجر',
+      'أرضيات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
