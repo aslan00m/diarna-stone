@@ -2463,6 +2463,18 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's6-2026-11-07-stone-calacatta-vessel-sink',
+    file: '/images/blog-ai/s6-2026-11-07-stone-calacatta-vessel-sink.jpg',
+    scene:
+      'مشهد تصويري لـCalacatta Oval Vessel Sink بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Calacatta Oval Vessel Sink stone washbasin, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'مغاسل',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
