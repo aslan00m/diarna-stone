@@ -2562,6 +2562,17 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-wall-cladding-outdoor-medina',
+    file: '/images/blog-ai/stone-wall-cladding-outdoor-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Stone wall cladding exterior in Medina, natural limestone facade, warm sunlight, clean design, no people, professional photography',
+    topics: [
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
