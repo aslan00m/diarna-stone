@@ -2488,6 +2488,17 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-countertop-kitchen-medina',
+    file: '/images/blog-ai/stone-countertop-kitchen-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Stone kitchen countertop in Medina villa, granite surface, clean kitchen, warm lighting, no people, professional photography',
+    topics: [
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
