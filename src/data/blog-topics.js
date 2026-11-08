@@ -9931,4 +9931,256 @@ export const TOPIC_BANK = [
     { q: 'هل climate affects؟', a: 'نعم، Medina sunlight intense.' },
     ],
   },
+
+  {
+    id: 'stone-facade-lighting-medina',
+    primary: 'إضاءة واجهات حجرية',
+    keywords: ['إضاءة', 'واجهات', 'حجر', 'المدينة المنورة'],
+    intent: 'informational',
+    title: 'إضاءة واجهات الحجر الطبيعي في المدينة المنورة: دليل التصميم',
+    description: 'كيف تختار إضاءة واجهات حجرية طبيعية لتبرز جمال الحجر la noche y el día en Medina.',
+    category: 'دليل تنفيذي',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'LED IP65',
+      'تجنب بقع ساخنة',
+      'تشاور مع مصمم',
+    ],
+    ctaHeading: 'تريد إضاءة واجهة؟',
+    ctaBody: 'استشارة مجانية.',
+    imagePrompt: 'Natural stone facade at night illuminated by warm LED uplights, architectural lighting, photorealistic',
+    imageScene: 'واجهة حجرية مضاءة la noche',
+    imageTopics: 'undefined',
+    related: [],
+    sections: [
+    {
+      h: ' tipos de iluminación',
+      p: [
+        'الإضاءة من الأسفل تبرز textura.',
+        'الإضاءة المخفية تخلق ambiance.',
+      ],
+    },
+    {
+      h: 'نصائح',
+      p: [
+        'استخدم LED IP65.',
+        'تجنب البقع الساخنة.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'ما نوع الإضاءة؟', a: 'LED IP65.' },
+    { q: 'كم consume؟', a: '10-30 واط.' },
+    { q: 'هل يضر الحجر؟', a: 'لا إذا كانت LED.' },
+    ],
+  },
+  {
+    id: 'stone-cladding-interior-medina',
+    primary: 'كسوة داخلية حجرية',
+    keywords: ['كسوة', 'داخلية', 'حجر', 'المدينة'],
+    intent: 'informational',
+    title: 'كسوة الجدران الداخلية بالحجر في المدينة المنورة',
+    description: 'دليل اختيار وتركيب كسوة حجرية داخلية لمنزل في Medina.',
+    category: 'دليل تنفيذي',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'غراء مخصص',
+      'فواصل',
+      'sealing',
+    ],
+    ctaHeading: 'تريد كسوة داخلية؟',
+    ctaBody: 'استشارة مجانية.',
+    imagePrompt: 'Interior living room wall clad with natural limestone, warm lighting, cozy, photorealistic',
+    imageScene: 'جدار داخلي مكسو بحجر',
+    imageTopics: 'undefined',
+    related: [],
+    sections: [
+    {
+      h: ' أنواع الكسوة',
+      p: [
+        'شرائح حجرية.',
+        'بلاط حجري.',
+      ],
+    },
+    {
+      h: 'التركيب',
+      p: [
+        'استخدم غراء مخصص.',
+        'اترك فواصل.',
+      ],
+    },
+    {
+      h: 'الصيانة',
+      p: [
+        'نظف بقطعة ناعمة.',
+        'تجنب مواد كيميائية.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل ي weight ثقيل؟', a: 'يعتمد على thickness.' },
+    { q: 'كم cost؟', a: 'يتفاوت.' },
+    { q: 'هل مناسب لـ bathroom؟', a: 'نعم مع sealing.' },
+    ],
+  },
+  {
+    id: 'stone-staircase-design-villas-medina',
+    primary: 'سلالم حجرية',
+    keywords: ['سلالم', 'حجر', 'المدينة'],
+    intent: 'informational',
+    title: 'تصميم سلالم الحجر الطبيعي في المدينة المنورة',
+    description: 'نصائح لتصميم وتنفيذ سلالم حجرية طبيعية في منازل Medina.',
+    category: 'دليل تنفيذي',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'anti-slip',
+      'nosing',
+      'الجرانيت',
+    ],
+    ctaHeading: 'تريد سلالم حجرية؟',
+    ctaBody: 'استشارة مجانية.',
+    imagePrompt: 'Elegant natural stone staircase in modern villa, marble steps, glass railing, photorealistic',
+    imageScene: 'سلالم حجرية أنيقة',
+    imageTopics: 'undefined',
+    related: [],
+    sections: [
+    {
+      h: 'اختيار الحجر',
+      p: [
+        'الرخام للـ luxury.',
+        'الجرانيت للـ durability.',
+      ],
+    },
+    {
+      h: 'السلامة',
+      p: [
+        'أضف anti-slip.',
+        'استخدم nosing.',
+      ],
+    },
+    {
+      h: 'ال costs',
+      p: [
+        'يعتمد على material.',
+      ],
+    },
+    {
+      h: 'ال maintenance',
+      p: [
+        'نظف regularly.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'أي حجر أفضل؟', a: 'الجرانيت للـ durability.' },
+    { q: 'هل anti-slip ضروري؟', a: 'نعم.' },
+    { q: 'كم weight؟', a: 'يعتمد.' },
+    ],
+  },
+  {
+    id: 'stone-outdoor-patio-medina',
+    primary: 'أرضيات خارجية حجرية',
+    keywords: ['أرضيات خارجية', ' patio ', 'حجر', 'المدينة'],
+    intent: 'informational',
+    title: 'أرضيات خارجية بالحجر في المدينة المنورة',
+    description: 'دليل اختيار أرضيات حجرية خارجية لـ patio في Medina climate.',
+    category: 'دليل تنفيذي',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'textured finish',
+      'slope',
+      'sealing',
+    ],
+    ctaHeading: 'تريد أرضية خارجية؟',
+    ctaBody: 'استشارة مجانية.',
+    imagePrompt: 'Outdoor patio with natural stone pavers, desert landscaping, Medina Saudi Arabia, photorealistic',
+    imageScene: 'أرضية خارجية حجرية',
+    imageTopics: 'undefined',
+    related: [],
+    sections: [
+    {
+      h: 'أنسب الأحجار',
+      p: [
+        'الحجر الجيري للـ patio.',
+        'الترافرتين للـ pool.',
+      ],
+    },
+    {
+      h: 'ال slip resistance',
+      p: [
+        'اختر textured finish.',
+      ],
+    },
+    {
+      h: 'ال drainage',
+      p: [
+        'أضف slope.',
+      ],
+    },
+    {
+      h: 'ال maintenance',
+      p: [
+        'أعد sealing سنوياً.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'أي حجر للـ patio؟', a: 'الحجر الجيري.' },
+    { q: 'هل يتحمل heat؟', a: 'نعم.' },
+    { q: 'كم durability؟', a: 'سنوات.' },
+    ],
+  },
+  {
+    id: 'stone-maintenance-medina',
+    primary: 'صيانة الحجر',
+    keywords: ['صيانة', 'حجر', 'المدينة'],
+    intent: 'informational',
+    title: 'صيانة الحجر الطبيعي في المدينة المنورة',
+    description: 'روتين صيانة لأسطح حجرية طبيعية في Medina.',
+    category: 'دليل تنفيذي',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'pH-neutral',
+      'sealing',
+      'poultice',
+    ],
+    ctaHeading: 'تريد صيانة؟',
+    ctaBody: 'استشارة مجانية.',
+    imagePrompt: 'Cleaning natural stone surface with soft cloth and mild cleaner, close-up, photorealistic',
+    imageScene: 'تنظيف سطح حجري',
+    imageTopics: 'undefined',
+    related: [],
+    sections: [
+    {
+      h: 'التنظيف اليومي',
+      p: [
+        'استخدم cloth ناعم.',
+        'تجنب acidic cleaners.',
+      ],
+    },
+    {
+      h: 'ال sealing',
+      p: [
+        'أعد كل 1-2 سنة.',
+      ],
+    },
+    {
+      h: 'ال stain removal',
+      p: [
+        'استخدم poultice.',
+      ],
+    },
+    {
+      h: 'ال professional care',
+      p: [
+        'استعن بـ specialist.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'كم مرة sealing؟', a: 'كل 1-2 سنة.' },
+    { q: 'أي cleaner؟', a: 'pH-neutral.' },
+    { q: 'هل vinegar يضر؟', a: 'نعم.' },
+    ],
+  },
 ];
