@@ -2475,6 +2475,19 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's1-2026-11-08-stone-rosso-levanto-rosso',
+    file: '/images/blog-ai/s1-2026-11-08-stone-rosso-levanto-rosso.jpg',
+    scene:
+      'مشهد تصويري لـرخام ليفانتو الأحمر بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Rosso Levanto marble, polished surface finish',
+    topics: [
+      'رخام',
+      'رخام ليفانتو',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
