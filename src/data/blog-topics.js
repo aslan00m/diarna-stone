@@ -8774,90 +8774,6 @@ export const TOPIC_BANK = [
     ]
   },
   {
-    "id": "stone-garden-paving-medina",
-    "primary": "تبليط حدائق حجر",
-    "keywords": [
-      "تبليط حدائق حجر",
-      "garden paving",
-      "حجر طبيعي",
-      "المدينة المنورة",
-      "مسارات"
-    ],
-    "intent": "informational",
-    "title": "تبليط حدائق حجر (Stone Garden Paving) في المدينة المنورة: دليل التصميم",
-    "description": "كيف تختار and تثبت تبليط حجر (stone paving) لحدائق and مسارات in Medina.",
-    "category": "أفكار وتصميم",
-    "takeawayTitle": "أهم ما في هذا المقال",
-    "takeaways": [
-      "Choose slip-resistant stone for safety",
-      "Consider local climate and drainage",
-      "Mix stone types for visual interest",
-      "Proper base preparation is critical"
-    ],
-    "ctaHeading": "تريد تبليط حجر for your garden?",
-    "ctaBody": "نصمم and ننفذ تبليط حجر (stone paving) in Medina.",
-    "imagePrompt": "Stone garden path in Medina villa, natural limestone pavers, green plants, warm sunlight, clean design, no people",
-    "imageScene": "مسار حديقة with natural limestone pavers in Medina villa garden",
-    "imageTopics": "تبليط حدائق,stone paving,حديقة",
-    "related": [],
-    "sections": [
-      {
-        "h": "اختيار الحجر",
-        "p": [
-          "Limestone: classic, affordable",
-          "Granite: durable, slip-resistant",
-          "Sandstone: natural look, needs sealing",
-          "Travertine: elegant, porous"
-        ]
-      },
-      {
-        "h": "التصميم",
-        "p": [
-          "Plan layout before installation",
-          "Mix sizes for visual interest",
-          "Consider drainage slope",
-          "Include edging"
-        ]
-      },
-      {
-        "h": "التثبيت",
-        "p": [
-          "Excavate and compact base",
-          "Add sand or mortar bed",
-          "Lay stones with joints",
-          "Fill joints with sand or grout"
-        ]
-      },
-      {
-        "h": "الصيانة",
-        "p": [
-          "Sweep regularly",
-          "Wash with water",
-          "Re-seal annually",
-          "Remove weeds from joints"
-        ]
-      }
-    ],
-    "faq": [
-      {
-        "q": "ما best stone for garden path?",
-        "a": "Granite or textured limestone for slip resistance."
-      },
-      {
-        "q": "كم تكلفة تبليط حجر?",
-        "a": "150-400 ريال/م² حسب stone type and installation."
-      },
-      {
-        "q": "هل need professional installation?",
-        "a": "Recommended for large areas and proper drainage."
-      },
-      {
-        "q": "كم يدوم stone paving?",
-        "a": "20-50 years with proper installation and maintenance."
-      }
-    ]
-  },
-  {
     "id": "stone-fireplace-design-medina",
     "primary": "مدافئ حجر",
     "keywords": [
@@ -10181,6 +10097,335 @@ export const TOPIC_BANK = [
     { q: 'كم مرة sealing؟', a: 'كل 1-2 سنة.' },
     { q: 'أي cleaner؟', a: 'pH-neutral.' },
     { q: 'هل vinegar يضر؟', a: 'نعم.' },
+    ],
+  },
+
+  {
+    id: 'stone-countertop-sealing-guide-medina',
+    primary: 'عزل أسطح الحجر',
+    keywords: ['عزل أسطح الحجر', 'مانع تسرب', 'رخام', 'جرانيت', 'المدينة المنورة'],
+    intent: 'informational',
+    title: 'عزل أسطح الحجر (Sealing) في المدينة المنورة: دليل شامل',
+    description: 'كيف تختار مانع التسرب (sealer) المناسب لرخامك وجرانيتك في مناخ المدينة المنورة، ومتى تعيد العزل.',
+    category: 'دليل الصيانة',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'العزل (sealing) يمنع امتصاص السوائل والبقع',
+      'جرانيت المطبخ يحتاج عزلاً كل 1-2 سنة',
+      'الرخام (marble) يحتاج عزلاً متكرراً بسبب مساميته',
+      'استخدم مانع تسرب (penetrating sealer) وليس طلاء',
+    ],
+    ctaHeading: 'تريد عزل أسطح حجرك؟',
+    ctaBody: 'نقدم خدمة عزل احترافية لأسطح الحجر في المدينة المنورة.',
+    imagePrompt: 'Close-up of applying stone sealer to marble countertop with brush, warm indoor light, clean surface, professional photography',
+    imageScene: 'تطبيق مانع تسرب على سطح رخام بفرشاة في ضوء داخلي دافئ',
+    imageTopics: 'عزل حجر,sealer,رخام',
+    related: [],
+    sections: [
+    {
+      h: 'لماذا يحتاج عزل',
+      p: [
+        'الحجر الطبيعي يحتوي مساماً يمتص السوائل',
+        'Sealing closes pores without changing appearance',
+        'Unsealed stone stains permanently from oil, wine, acid',
+      ],
+    },
+    {
+      h: 'أنواع مانع التسرب',
+      p: [
+        'Penetrating sealer: absorbs into stone, invisible',
+        'Coating sealer: forms film on surface, changes look',
+        'Impregnating: best for kitchen countertops',
+      ],
+    },
+    {
+      h: 'متى تعيد العزل',
+      p: [
+        'Water test: drop water, if it darkens, re-seal',
+        'Kitchen granite: every 1-2 years',
+        'Bathroom marble: every 6-12 months',
+        'Outdoor stone: annually',
+      ],
+    },
+    {
+      h: 'أخطاء شائعة',
+      p: [
+        'Over-sealing: causes hazing',
+        'Using wrong sealer for stone type',
+        'Not cleaning before sealing',
+        'Sealing polished stone that doesn\'t need it',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل كل الحجر يحتاج عزل?', a: 'لا — الجرانيت (granite) كثيف قد لا يحتاج، لكن الرخام والترافرتينو والحجر الجيري يحتاج' },
+    { q: 'كم تكلفة عزل أسطح الحجر?', a: '10-30 ريال/م² حسب نوع الحجر وجودة مانع التسرب' },
+    { q: 'هل عزل يغير لون الحجر?', a: 'Penetrating sealer no. Coating sealer may darken slightly.' },
+    { q: 'متى أطبق عزل بعد تركيب?', a: 'After installation cures (24-48 hours), before use.' },
+    ],
+  },
+  {
+    id: 'stone-cutting-tools-guide-medina',
+    primary: 'أدوات قص الحجر',
+    keywords: ['أدوات قص الحجر', 'منشار حجر', 'cutting tools', 'المدينة المنورة', 'تجهيزات'],
+    intent: 'informational',
+    title: 'أدوات قص الحجر (Stone Cutting Tools): دليل الاختيار والسلامة',
+    description: 'أي منشار وblade تستخدم لقص الرخام والجرانيت والترافرتينو في مشاريع المدينة المنورة.',
+    category: 'دليل تنفيذي',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'Diamond blade for granite and marble',
+      'Wet saw reduces dust and heat',
+      'Angle grinder for small cuts and edges',
+      'Always use water cooling for diamond blades',
+    ],
+    ctaHeading: 'تريد قص حجر احترافي؟',
+    ctaBody: 'فريقنا يقص ويشكل الحجر حسب تصميمك في المدينة المنورة.',
+    imagePrompt: 'Diamond blade stone cutting saw in workshop, marble slab being cut, water cooling, safety gear, professional photography',
+    imageScene: 'منشار قص حجر with diamond blade cutting marble slab with water cooling',
+    imageTopics: 'أدوات قص,stone cutting,diamond blade',
+    related: [],
+    sections: [
+    {
+      h: 'أنواع المنشار',
+      p: [
+        'Wet saw: best for straight cuts, large slabs',
+        'Angle grinder: small cuts, curves, edges',
+        'Bridge saw: industrial, precision',
+        'Hand saw: small jobs only',
+      ],
+    },
+    {
+      h: 'اختيار Blade',
+      p: [
+        'Diamond blade: for granite, marble, travertine',
+        'Continuous rim: smooth cuts, slow',
+        'Segmented rim: fast, rough cuts',
+        'Turbo rim: balance of speed and finish',
+      ],
+    },
+    {
+      h: 'السلامة',
+      p: [
+        'Always wear safety glasses and mask',
+        'Use water to reduce silica dust',
+        'Secure slab before cutting',
+        'Keep hands away from blade path',
+      ],
+    },
+    {
+      h: 'نصائح للقص',
+      p: [
+        'Mark cut line clearly',
+        'Support slab fully',
+        'Let blade do work, don\'t force',
+        'Cool blade with water continuously',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل أستطيع قص حجر with angle grinder?', a: 'نعم for small cuts and edges, but wet saw for straight long cuts.' },
+    { q: 'كم تكلفة diamond blade?', a: '50-300 ريال حسب size and quality.' },
+    { q: 'هل أحتاج water for cutting?', a: 'Yes, water reduces dust and prevents blade overheating.' },
+    { q: 'ما أفضل blade for granite?', a: 'Segmented diamond blade for speed, continuous for smooth finish.' },
+    ],
+  },
+  {
+    id: 'stone-veneer-installation-medina',
+    primary: 'تكسية حجرية (Veneer)',
+    keywords: ['تكسية حجرية', 'stone veneer', 'واجهات', 'المدينة المنورة', 'تثبيت'],
+    intent: 'informational',
+    title: 'تكسية حجرية (Stone Veneer) في المدينة المنورة: دليل التثبيت',
+    description: 'كيف تثبت تكسية حجرية (stone veneer) على جدران المباني في المدينة المنورة، من التحضير إلى التشطيب.',
+    category: 'دليل تنفيذي',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'Prepare wall surface properly before installation',
+      'Use proper adhesive and mechanical fixing',
+      'Leave expansion joints',
+      'Seal joints after installation',
+    ],
+    ctaHeading: 'تريد تكسية حجرية احترافية؟',
+    ctaBody: 'نقدم تثبيت تكسية حجرية (stone veneer) في المدينة المنورة.',
+    imagePrompt: 'Stone veneer installation on villa wall, Medina, worker applying adhesive, natural stone panels, daylight',
+    imageScene: 'تثبيت تكسية حجرية on villa wall in Medina with adhesive application',
+    imageTopics: 'تكسية حجرية,stone veneer,تثبيت',
+    related: [],
+    sections: [
+    {
+      h: 'التحضير',
+      p: [
+        'Clean wall surface thoroughly',
+        'Apply waterproofing membrane',
+        'Install metal lath if needed',
+        'Check wall is plumb and level',
+      ],
+    },
+    {
+      h: 'التثبيت',
+      p: [
+        'Apply adhesive to back of veneer',
+        'Press firmly and wiggle',
+        'Use mechanical anchors for large pieces',
+        'Maintain consistent joint width',
+      ],
+    },
+    {
+      h: 'الفواصل',
+      p: [
+        'Leave 3-5mm joints between pieces',
+        'Fill with flexible grout',
+        'Seal joints after curing',
+        'Provide weep holes at bottom',
+      ],
+    },
+    {
+      h: 'التشطيب',
+      p: [
+        'Clean excess adhesive immediately',
+        'Apply sealer after 24-48 hours',
+        'Inspect for loose pieces',
+        'Touch up as needed',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل stone veneer suitable for exterior?', a: 'Yes, with proper waterproofing and mechanical fixing.' },
+    { q: 'كم تكلفة تكسية حجرية?', a: '100-300 ريال/م² حسب material and installation complexity.' },
+    { q: 'هل أستطيع تثبيت stone veneer myself?', a: 'Small areas yes, large facades need professional.' },
+    { q: 'كم يدوم stone veneer?', a: '20-50 years with proper installation and maintenance.' },
+    ],
+  },
+  {
+    id: 'stone-fireplace-design-medina',
+    primary: 'مدافئ حجر',
+    keywords: ['مدافئ حجر', 'fireplace', 'رخام', 'جرانيت', 'المدينة المنورة', 'تصميم'],
+    intent: 'informational',
+    title: 'مدافئ حجر (Stone Fireplace) في المدينة المنورة: تصميم وتنفيذ',
+    description: 'كيف تختار وتثبت مدفأة حجر في منزلك في المدينة المنورة.',
+    category: 'أفكار وتصميم',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'Choose heat-resistant stone like granite or limestone',
+      'Ensure proper ventilation and clearance',
+      'Consider local climate needs',
+      'Professional installation required for safety',
+    ],
+    ctaHeading: 'تريد مدفأة حجر؟',
+    ctaBody: 'نصمم وننفذ مدافئ حجر في المدينة المنورة.',
+    imagePrompt: 'Stone fireplace in living room, Medina villa, natural limestone surround, warm fire glow, cozy interior, professional photography',
+    imageScene: 'مدفأة حجر في غرفة معيشة فيلا بالمدينة المنورة مع وهج نار دافئ',
+    imageTopics: 'مدافئ حجر,fireplace,تصميم',
+    related: [],
+    sections: [
+    {
+      h: 'اختيار الحجر',
+      p: [
+        'جرانيت: مقاوم للحرارة، متين',
+        'حجر جيري: مظهر كلاسيكي، حرارة متوسطة',
+        'رخام: أنيق لكن يحتاج حماية من الحرارة',
+        'تجنب الحجر مسامي قرب النار',
+      ],
+    },
+    {
+      h: 'التصميم',
+      p: [
+        'مراعاة حجم الغرفة وارتفاع السقف',
+        'مطابقة المدفأة لأسلوب الديكور',
+        'التخطيط لتخزين الحطب إن لزم',
+        'إضافة رف للعرض',
+      ],
+    },
+    {
+      h: 'السلامة',
+      p: [
+        'الحفاظ على مسافة من المواد قابلة للاشتعال',
+        'تركيب مدخنة/مجرى مناسب',
+        'استخدام ملاط مقاوم للحرارة',
+        'إضافة شاشة نار',
+      ],
+    },
+    {
+      h: 'الصيانة',
+      p: [
+        'تنظيف الرماد بانتظام',
+        'فحص المدخنة سنوياً',
+        'التحقق من الشقوق',
+        'إعادة إحكام الحجر عند الحاجة',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل مدفأة حجر مناسبة لمناخ المدينة المنورة؟', a: 'نعم لأشهر الشتاء، تضيف دفئاً وأجواءً.' },
+    { q: 'كم تكلفة مدفأة حجر؟', a: '3000-15000 ريال حسب الحجم ونوع الحجر.' },
+    { q: 'هل تحتاج إلى تركيب احترافي؟', a: 'نعم، للأمان والامتثال للمتطلبات.' },
+    { q: 'ما أفضل حجر لمدفأة؟', a: 'جرانيت أو حجر جيري كثيف لمقاومة الحرارة.' },
+    ],
+  },
+  {
+    id: 'stone-garden-paving-medina',
+    primary: 'تبليط حدائق حجر',
+    keywords: ['تبليط حدائق حجر', 'garden paving', 'حجر طبيعي', 'المدينة المنورة', 'مسارات'],
+    intent: 'informational',
+    title: 'تبليط حدائق حجر (Stone Garden Paving) في المدينة المنورة: دليل التصميم',
+    description: 'كيف تختار وتنفذ تبليط حجر (stone paving) لحدائق ومسارات في المدينة المنورة.',
+    category: 'أفكار وتصميم',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'Choose slip-resistant stone for safety',
+      'Consider local climate and drainage',
+      'Mix stone types for visual interest',
+      'Proper base preparation is critical',
+    ],
+    ctaHeading: 'تريد تبليط حجر لحديقتك؟',
+    ctaBody: 'نصمم وننفذ تبليط حجر (stone paving) في المدينة المنورة.',
+    imagePrompt: 'Stone garden path in Medina villa, natural limestone pavers, green plants, warm sunlight, clean design, no people',
+    imageScene: 'مسار حديقة ببلاط حجر جيري طبيعي في حديقة فيلا بالمدينة المنورة',
+    imageTopics: 'تبليط حدائق,stone paving,حديقة',
+    related: [],
+    sections: [
+    {
+      h: 'اختيار الحجر',
+      p: [
+        'Limestone: classic, affordable',
+        'Granite: durable, slip-resistant',
+        'Sandstone: natural look, needs sealing',
+        'Travertine: elegant, porous',
+      ],
+    },
+    {
+      h: 'التصميم',
+      p: [
+        'Plan layout before installation',
+        'Mix sizes for visual interest',
+        'Consider drainage slope',
+        'Include edging',
+      ],
+    },
+    {
+      h: 'التثبيت',
+      p: [
+        'Excavate and compact base',
+        'Add sand or mortar bed',
+        'Lay stones with joints',
+        'Fill joints with sand or grout',
+      ],
+    },
+    {
+      h: 'الصيانة',
+      p: [
+        'Sweep regularly',
+        'Wash with water',
+        'Re-seal annually',
+        'Remove weeds from joints',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'ما أفضل حجر لمسار الحديقة؟', a: 'Granite or textured limestone for slip resistance.' },
+    { q: 'كم تكلفة تبليط حجر?', a: '150-400 ريال/م² حسب نوع الحجر والتركيب.' },
+    { q: 'هل أحتاج تركيب احترافي؟', a: 'Recommended for large areas and proper drainage.' },
+    { q: 'كم يدوم تبليط الحجر؟', a: '20-50 years with proper installation and maintenance.' },
     ],
   },
 ];
