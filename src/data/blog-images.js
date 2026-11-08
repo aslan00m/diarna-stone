@@ -2499,6 +2499,29 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's2-2026-11-08-stone-limestone-cream-compact',
+    file: '/images/blog-ai/s2-2026-11-08-stone-limestone-cream-compact.jpg',
+    scene:
+      'مشهد تصويري لـحجر جيري كريمي مصمت بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Compact Cream Limestone limestone, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'limestone',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 'stone-garden-paving-medina',
+    file: '/images/blog-ai/stone-garden-paving-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Stone garden path in Medina villa, natural limestone pavers, green plants, warm sunlight, clean design, no people',
+    topics: [
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a

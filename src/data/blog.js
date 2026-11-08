@@ -8435,6 +8435,84 @@ export const POSTS = [
       'bianco-carrara-marble',
     ],
   },
+
+  {
+    slug: 'stone-garden-paving-medina',
+    title: 'تبليط حدائق حجر (Stone Garden Paving) في المدينة المنورة: دليل التصميم',
+    image: '/images/blog-ai/stone-garden-paving-medina.jpg',
+    imageAlt: 'مسار حديقة ببلاط حجر جيري طبيعي في حديقة فيلا بالمدينة المنورة',
+    takeaways: [
+      'Choose slip-resistant stone for safety',
+      'Consider local climate and drainage',
+      'Mix stone types for visual interest',
+      'Proper base preparation is critical',
+    ],
+    excerpt: 'كيف تختار وتنفذ تبليط حجر (stone paving) لحدائق ومسارات في المدينة المنورة.',
+    category: 'أفكار وتصميم',
+    date: '2026-11-08',
+    readTime: '4 دقائق',
+    sections: [
+      {
+        h: 'اختيار الحجر',
+        p: [
+          'Limestone: classic, affordable',
+          'Granite: durable, slip-resistant',
+          'Sandstone: natural look, needs sealing',
+          'Travertine: elegant, porous',
+        ],
+      },
+      {
+        h: 'التصميم',
+        p: [
+          'Plan layout before installation',
+          'Mix sizes for visual interest',
+          'Consider drainage slope',
+          'Include edging',
+        ],
+      },
+      {
+        h: 'التثبيت',
+        p: [
+          'Excavate and compact base',
+          'Add sand or mortar bed',
+          'Lay stones with joints',
+          'Fill joints with sand or grout',
+        ],
+      },
+      {
+        h: 'الصيانة',
+        p: [
+          'Sweep regularly',
+          'Wash with water',
+          'Re-seal annually',
+          'Remove weeds from joints',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'ما أفضل حجر لمسار الحديقة؟',
+        a: 'Granite or textured limestone for slip resistance.',
+      },
+      {
+        q: 'كم تكلفة تبليط حجر?',
+        a: '150-400 ريال/م² حسب نوع الحجر والتركيب.',
+      },
+      {
+        q: 'هل أحتاج تركيب احترافي؟',
+        a: 'Recommended for large areas and proper drainage.',
+      },
+      {
+        q: 'كم يدوم تبليط الحجر؟',
+        a: '20-50 years with proper installation and maintenance.',
+      },
+    ],
+    related: [
+      'majli-mushawa',
+      'crema-marfil-classic',
+      'bianco-carrara-marble',
+    ],
+  },
 ];
 
 export default POSTS;
