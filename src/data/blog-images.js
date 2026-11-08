@@ -2522,6 +2522,21 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's4-2026-11-08-equip-13',
+    file: '/images/blog-ai/s4-2026-11-08-equip-13.jpg',
+    scene:
+      'مشهد تصويري لـجي سي بي في موقع عمل بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'A JCB backhoe loader working on a site, professional industrial photography, real construction site, warm daylight, dust in the air, sharp focus, high detail, no text, no watermark',
+    topics: [
+      'جي سي بي',
+      'حفارات',
+      'معدات ثقيلة',
+      'ديارنا الحديثة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
