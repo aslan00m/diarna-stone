@@ -2652,6 +2652,18 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's4-2026-11-09-equip-14',
+    file: '/images/blog-ai/s4-2026-11-09-equip-14.jpg',
+    scene:
+      'مشهد تصويري لـرصاصة في موقع عمل بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'A Bomag road roller compacting asphalt, professional industrial photography, real construction site, warm daylight, dust in the air, sharp focus, high detail, no text, no watermark',
+    topics: [
+      'equipments',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
