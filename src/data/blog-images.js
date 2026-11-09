@@ -2628,6 +2628,30 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'basalt-stone-medina-facades',
+    file: '/images/blog-ai/basalt-stone-medina-facades.jpg',
+    scene:
+      'واجهة حجر بازلت داكن في المدينة المنورة',
+    prompt:
+      'Macro photograph of dark basalt stone facade texture on a building wall in Medina, natural volcanic stone, warm daylight, sharp focus, professional photography',
+    topics: [
+      'الواجهات',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 's3-2026-11-09-stone-granite-walnut-brown',
+    file: '/images/blog-ai/s3-2026-11-09-stone-granite-walnut-brown.jpg',
+    scene:
+      'مشهد تصويري لـWalnut Brown Granite بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'split-screen before/after Walnut Brown Granite facade',
+    topics: [
+      'جرانيت',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
