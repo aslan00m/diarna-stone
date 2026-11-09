@@ -2664,6 +2664,18 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's5-2026-11-09-stone-nero-assoluto-sink',
+    file: '/images/blog-ai/s5-2026-11-09-stone-nero-assoluto-sink.jpg',
+    scene:
+      'مشهد تصويري لـNero Assoluto Undermount Sink بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Nero Assoluto Undermount Sink stone washbasin, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'مغاسل، حجر طبيعي',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
