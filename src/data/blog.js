@@ -8669,6 +8669,82 @@ export const POSTS = [
       'bianco-carrara-marble',
     ],
   },
+
+  {
+    slug: 'stone-countertop-sealing-guide-medina',
+    title: 'عزل أسطح الحجر (Sealing) في المدينة المنورة: دليل شامل',
+    image: '/images/blog-ai/stone-countertop-sealing-guide-medina.jpg',
+    imageAlt: 'تطبيق مانع تسرب على سطح رخام بفرشاة في ضوء داخلي دافئ',
+    takeaways: [
+      'العزل (sealing) يمنع امتصاص السوائل والبقع',
+      'جرانيت المطبخ يحتاج عزلاً كل 1-2 سنة',
+      'الرخام (marble) يحتاج عزلاً متكرراً بسبب مساميته',
+      'استخدم مانع تسرب (penetrating sealer) وليس طلاء',
+    ],
+    excerpt: 'كيف تختار مانع التسرب (sealer) المناسب لرخامك وجرانيتك في مناخ المدينة المنورة، ومتى تعيد العزل.',
+    category: 'دليل الصيانة',
+    date: '2026-11-09',
+    readTime: '4 دقائق',
+    sections: [
+      {
+        h: 'لماذا يحتاج عزل',
+        p: [
+          'الحجر الطبيعي يحتوي مساماً يمتص السوائل',
+          'Sealing closes pores without changing appearance',
+          'Unsealed stone stains permanently from oil, wine, acid',
+        ],
+      },
+      {
+        h: 'أنواع مانع التسرب',
+        p: [
+          'Penetrating sealer: absorbs into stone, invisible',
+          'Coating sealer: forms film on surface, changes look',
+          'Impregnating: best for kitchen countertops',
+        ],
+      },
+      {
+        h: 'متى تعيد العزل',
+        p: [
+          'Water test: drop water, if it darkens, re-seal',
+          'Kitchen granite: every 1-2 years',
+          'Bathroom marble: every 6-12 months',
+          'Outdoor stone: annually',
+        ],
+      },
+      {
+        h: 'أخطاء شائعة',
+        p: [
+          'Over-sealing: causes hazing',
+          'Using wrong sealer for stone type',
+          'Not cleaning before sealing',
+          'Sealing polished stone that doesn\'t need it',
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: 'هل كل الحجر يحتاج عزل?',
+        a: 'لا — الجرانيت (granite) كثيف قد لا يحتاج، لكن الرخام والترافرتينو والحجر الجيري يحتاج',
+      },
+      {
+        q: 'كم تكلفة عزل أسطح الحجر?',
+        a: '10-30 ريال/م² حسب نوع الحجر وجودة مانع التسرب',
+      },
+      {
+        q: 'هل عزل يغير لون الحجر?',
+        a: 'Penetrating sealer no. Coating sealer may darken slightly.',
+      },
+      {
+        q: 'متى أطبق عزل بعد تركيب?',
+        a: 'After installation cures (24-48 hours), before use.',
+      },
+    ],
+    related: [
+      'majli-mushawa',
+      'crema-marfil-classic',
+      'bianco-carrara-marble',
+    ],
+  },
 ];
 
 export default POSTS;
