@@ -2588,6 +2588,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's1-2026-11-09-stone-buccino-italian-marble',
+    file: '/images/blog-ai/s1-2026-11-09-stone-buccino-italian-marble.jpg',
+    scene:
+      'مشهد تصويري لـرخام بوتشينو بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Bianco Buccino Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام',
+      'بوتشينو',
+      'مغاسل',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
