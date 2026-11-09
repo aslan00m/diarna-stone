@@ -2676,6 +2676,31 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-terrace-roof-installation-medina',
+    file: '/images/blog-ai/stone-terrace-roof-installation-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Stone pavers on rooftop terrace with outdoor furniture, Medina skyline view, sunny day, professional photography',
+    topics: [
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 's6-2026-11-09-stone-stone-facade-cost-factors',
+    file: '/images/blog-ai/s6-2026-11-09-stone-stone-facade-cost-factors.jpg',
+    scene:
+      'مهندس ومقاول يراجعان نماذج حجر لواجهة على طاولة في مكتب موقع بناء',
+    prompt:
+      'Editorial scene: an architect and a contractor reviewing stone cladding samples on a table at a construction site office',
+    topics: [
+      'واجهات',
+      'حجر',
+      'تكلفة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
