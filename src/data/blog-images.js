@@ -2602,6 +2602,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-garden-path-medina',
+    file: '/images/blog-ai/stone-garden-path-medina.jpg',
+    scene:
+      'مسار حديقة ببلاط حجر جيري في فيلا بالمدينة المنورة',
+    prompt:
+      'Stone garden path in Medina villa, natural limestone pavers, green plants, warm sunlight, clean design, no people, professional photography',
+    topics: [
+      'تبليط حدائق',
+      'stone paving',
+      'حديقة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
