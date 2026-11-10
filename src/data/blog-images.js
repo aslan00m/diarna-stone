@@ -2757,6 +2757,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's4-2026-11-10-equip-15',
+    file: '/images/blog-ai/s4-2026-11-10-equip-15.jpg',
+    scene:
+      'مشهد تصويري لـجريدر في موقع عمل بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'A motor grader levelling a road, professional industrial photography, real construction site, warm daylight, dust in the air, sharp focus, high detail, no text, no watermark',
+    topics: [
+      'machinery',
+      'heavy-equipment',
+      'road',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
