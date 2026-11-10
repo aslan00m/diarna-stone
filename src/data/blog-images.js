@@ -2701,6 +2701,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's1-2026-11-10-stone-dark-emperador-deep',
+    file: '/images/blog-ai/s1-2026-11-10-stone-dark-emperador-deep.jpg',
+    scene:
+      'مشهد تصويري لـرخام إمبرادور العميق بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Deep Emperador Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام',
+      'حجر طبيعي',
+      'ديارنا',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
