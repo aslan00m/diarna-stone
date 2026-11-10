@@ -2743,6 +2743,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's3-2026-11-10-stone-granite-tan-brown',
+    file: '/images/blog-ai/s3-2026-11-10-stone-granite-tan-brown.jpg',
+    scene:
+      'مشهد تصويري لـTan Brown Granite بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Tan Brown Granite split before/after polished facade',
+    topics: [
+      'جرانيت',
+      'واجهات',
+      'تشطيبات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
