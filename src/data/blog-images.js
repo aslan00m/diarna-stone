@@ -2715,6 +2715,34 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-edge-profiles-medina',
+    file: '/images/blog-ai/stone-edge-profiles-medina.jpg',
+    scene:
+      'لقطة مقربة لبروفيلات حافة جرانيت (bullnose, ogee, beveled) مقارنة في إضاءة ورشة',
+    prompt:
+      'Close-up of granite countertop edge profiles bullnose ogee beveled comparison, workshop lighting, professional photography',
+    topics: [
+      'edge profiles',
+      'بروفيلات',
+      'جرانيت',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 's2-2026-11-10-stone-sandstone-beige',
+    file: '/images/blog-ai/s2-2026-11-10-stone-sandstone-beige.jpg',
+    scene:
+      'مشهد تصويري لـحجر رملي بيج بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Beige Sandstone limestone, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'stone',
+      'sandstone',
+      'limestone',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
