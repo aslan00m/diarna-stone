@@ -2771,6 +2771,25 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's5-2026-11-10-stone-interior-stone-floors',
+    file: '/images/blog-ai/s5-2026-11-10-stone-interior-stone-floors.jpg',
+    scene:
+      'يدان بقفازات تثبتان بلاطة ترافرتينو كبيرة في ملاط لاصق فوق قاعدة إسمنتية باستخدام مجرفة مسنونة ومسافات بلاستيكية.',
+    prompt:
+      'Editorial photograph: gloved hands setting a large travertine floor tile into fresh mortar on a concrete slab, notched trowel and plastic spacers beside the tile, low working light in a quiet interior space, documentary detail shot, no text or lettering.',
+    topics: [
+      'حجر طبيعي',
+      'رخام',
+      'جرانيت',
+      'مغاسل',
+      'مطابخ',
+      'واجهات',
+      'تشطيبات',
+      'معدات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
