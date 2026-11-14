@@ -2820,6 +2820,21 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's3-2026-11-14-stone-kashmir-white-fine',
+    file: '/images/blog-ai/s3-2026-11-14-stone-kashmir-white-fine.jpg',
+    scene:
+      'صورة توضيحية مقارنة قبل وبعد لواجهة فيلا تحولت من أسطح إسمنتية عادية إلى كسوة جرانيت أبيض ناعم مصقول',
+    prompt:
+      'Before and after facade transformation split screen: plain grey stucco villa exterior transformed with polished white granite cladding panels, architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'جرانيت',
+      'واجهات',
+      'تشطيبات',
+      'حجر طبيعي',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
