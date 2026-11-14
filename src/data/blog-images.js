@@ -2835,6 +2835,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's4-2026-11-14-equip-17',
+    file: '/images/blog-ai/s4-2026-11-14-equip-17.jpg',
+    scene:
+      'مشهد تصويري لجرافة كات مجنزرة تدفع التربة في موقع أعمال مغبر بإضاءة طبيعية',
+    prompt:
+      'A CAT D8 bulldozer pushing soil on a site, professional industrial photography, real construction site, warm daylight, dust in the air, sharp focus, high detail, no text, no watermark',
+    topics: [
+      'معدات',
+      'بلدوزر',
+      'تأجير_معدات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
