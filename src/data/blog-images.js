@@ -2790,6 +2790,21 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's1-2026-11-14-stone-mugla-bianco-select',
+    file: '/images/blog-ai/s1-2026-11-14-stone-mugla-bianco-select.jpg',
+    scene:
+      'مشهد تصويري لـرخام موغلا السيليكت بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Mugla Bianco Select Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام',
+      'حجر طبيعي',
+      'موغلا بيانكو',
+      'رخام موغلا',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
