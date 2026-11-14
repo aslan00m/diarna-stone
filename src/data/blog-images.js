@@ -2805,6 +2805,21 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's2-2026-11-14-stone-golden-travertine',
+    file: '/images/blog-ai/s2-2026-11-14-stone-golden-travertine.jpg',
+    scene:
+      'مشهد تصويري لحجر الترافنتين الذهبي الفاتح المصقول في واجهة بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Light Golden Travertine travertine, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'حجر طبيعي',
+      'ترافينتين',
+      'ترافنتين ذهبي',
+      'واجهات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
