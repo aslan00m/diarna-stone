@@ -2875,6 +2875,18 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's2-2026-11-15-stone-travertine-vein-cut',
+    file: '/images/blog-ai/s2-2026-11-15-stone-travertine-vein-cut.jpg',
+    scene:
+      'واجهة داخلية مكسوة بحجر الترافنتين الطبيعي بعروق بنية على خلفية بيج كريمي، تشطيب مطفي، إضاءة نهارية ناعمة',
+    prompt:
+      'Vein Cut Travertine travertine, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark, sharp focus, crisp, clear, well-defined, ultra realistic',
+    topics: [
+      'travertine',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
