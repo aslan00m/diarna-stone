@@ -160,6 +160,17 @@ def structural_report(post, products, existing_slugs):
             problems.append("section without heading")
         if not s.get("p") or len(s["p"]) < 1:
             problems.append(f"section '{s.get('h')}' has no paragraphs")
+    # gate: reject skeleton topics — bullet fragments instead of real
+    # paragraphs. A short average paragraph means the author wrote labels
+    # ("تلميع ميكانيكي") rather than sentences, and the live page renders as
+    # a list of 3-6 word stubs. 18 such articles shipped before this gate.
+    plens = [len(x) for s in secs for x in (s.get("p") or [])]
+    if plens:
+        avg = sum(plens) // len(plens)
+        if avg < 60:
+            problems.append(
+                f"skeleton content: average paragraph {avg} chars (need >= 60) — write real sentences"
+            )
     faq = post.get("faq") or []
     if len(faqq := faq) < 3:
         problems.append(f"only {len(faqq)} FAQ (need >= 3)")

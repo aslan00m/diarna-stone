@@ -7538,99 +7538,6 @@ export const TOPIC_BANK = [
     ]
   },
   {
-    "id": "natural-stone-bathroom-sinks",
-    "primary": "أحواض حمام حجر طبيعي",
-    "keywords": [
-      "أحواض حمام حجر طبيعي",
-      "حوض فوق السطح",
-      "حوض فوق السطح",
-      "حوض رخام للحمام",
-      "مقاسات أحواض الحجر",
-      "حوض حجري فوق الكونسول",
-      "أحواض المدينة المنورة",
-      "تشطيب حوض الحمام",
-      "تركيب حوض حجري"
-    ],
-    "intent": "informatiعلىal",
-    "title": "أحواض حمام حجر طبيعي: المقاسات والتشطيب وطريقة التركيب",
-    "description": "كل ما يهم قبل شراء أحواض حمام حجر طبيعي: المقاسات والارتفاع المريح، التشطيب الداخلي والخارجي، فتحة الصرف، التثبيت، والعيوب الشائعة التي تظهر بعد التركيب.",
-    "category": "المغاسل",
-    "takeawayTitle": "أهم ما في هذا المقال",
-    "takeaways": [
-      "عرض الحوض القياسي بين 35 و50 سنتيمتراً، وعمق 12 سنتيمتراً يكفي للاستخدام اليومي دون رشّ.",
-      "ارتفاع التركيب المؤثر بين 80 و85 سنتيمتراً ويقاس إلى حافة الحوض لا إلى قاعدته.",
-      "الخارج يفضل مطفأً والداخل يفضل مصقولاً لأن البقع تعلق بالأسطح الخشنة.",
-      "أنعم حوضاً على قاعدة مستقرة واترك 25 سنتيمتراً خلفه لصنابير المياه.",
-      "خط الماء الأبيض سببه الجير وليس الحجر، والجفاف اليومي يمنعه."
-    ],
-    "ctaHeading": "محتاج مساعدة في اختيار الخامة؟",
-    "ctaBody": "فريقنا يراجع استخدامك ويقترح الأنسب ضمن ميزانيتك.",
-    "imagePrompt": "A designer gently lowering a heavy natural stone sink onto a bathroom counter in a bright stone showroom, hands steadying the basin, morning sunlight from the side, editorial photography",
-    "imageScene": "مصمم يثبّت حوضاً حجرياً فوق سطح طاولة في معرض حجر مضاء بالمدينة المنورة",
-    "imageTopics": "أحواض حمام, مغاسل حجر, رخام الحمام, المدينة المنورة, تصميم حمام, تشطيب الحجر",
-    "related": [],
-    "sections": [
-      {
-        "h": "ما هي الأحواض الحجرية فوق السطح",
-        "p": [
-          "الحوض فوق السطح يشبه القطعة الفنية المستقلة. يوضع كتلة كاملة فوق طاولة أو كونسول. الحوض لا يغمر في سطح العمل بل يبرز للخارج. هذا الشكل يناسب المغاسل المستقلة وزوايا الضيافة.",
-          "الحجر الطبيعي يجعل كل حوض قطعة فريدة. عروق كل كتلة تختلف حتى من نفس المربع. لا يوجد حوضان متطابقان من نفس المنتج. هذه الفرادة تدفع الكثيرين لاختيار الحجر بدلاً من الخزف.",
-          "المقارنة بين الأشكال أهم من المقارنة بين الألوان. فوق السطح شكل حر وبارز. تحت السطح شكل هادئ ومدمج. المطمور يعرض الحجر بإطار حوله. اختر الشكل أولاً ثم اللون."
-        ]
-      },
-      {
-        "h": "المقاسات والارتفاع المريح",
-        "p": [
-          "عرض الحوض القياسي بين 35 و50 سنتيمتراً. الارتفاع بين 12 و18 سنتيمتراً للاستخدام المنزلي. الأحواض المخصصة للضيافة قد تكون أصغر قليلاً. العمق المناسب 12 سنتيمتراً يكفي دون رشّ.",
-          "ارتفاع التركيب المؤثر 80 إلى 85 سنتيمتراً عن الأرض. يقاس إلى حافة الحوض لا إلى سطح الأرضية السفلية. العائلات الذين لديهم أطفال قد ينزلون هذا الارتفاع قليلاً. اترك 45 سنتيمتراً أمام الحوض لحركة الوقوف.",
-          "الصنبور يحتاج مسافة 5 سنتيمترات على الأقل خلف الحوض. ارتفاعه بين 20 و30 سنتيمتراً فوق الحوض. بعض التصاميم تحتاج صنبوراً جدارياً بدلاً من الأمامي. خطط لموضع الصنبور قبل القياس النهائي."
-        ]
-      },
-      {
-        "h": "التشطيب الداخلي والخارجي",
-        "p": [
-          "الجزء الخارجي هو الأكثر تعرضاً للمس اليومي. التشطيب المطفأ هنا أفضل خيار عملي. الحافة المصقولة قد تترك بصمات وآثار جير. المطفأ يحتاج جفافاً أقل تكراراً. الفرق يظهر بعد أسبوعين فقط.",
-          "الداخل يحتاج سطحاً أملس. البقع تعلق بالأسطح الخشنة بسرعة. مصقول أو نصف مصقول داخل الحوض. بعض المصانع تترك الحافة الداخلية خام لإظهار البراعة. هذا جميل لكنه يحتاج تنظيفاً أسرع.",
-          "أرضية الحوض الداخلي تحتاج ميلاً بسيطاً للصرف. الميل القياسي درجة إلى درجتين نحو الفتحة. بدونه يبقى الماء راكداً في القاع. اسأل عن زاوية الميل عند الطلب. الميل الجيد يمنحك قاعاً جافاً."
-        ]
-      },
-      {
-        "h": "فتحة الصرف وحفر الصنابير",
-        "p": [
-          "فتحة الصرف القياسية 3.5 سنتيمتر. بعض الأحواض الخاصة تستخدم فتحة أصغر قليلاً. الحفر يحتاج قاطع ماسي وماء تبريد مستمر. الحفر بعد التشطيب النهائي أفضل لتجنب الكسر. اطلب الحفر في الورشة لا في الموقع.",
-          "لا تُنفذ فتحات إضافية إلا عند الحاجة فقط. الفتحة الزائدة تحد خياراتك لاحقاً. الحوض بفتحة واحدة أسهل في الاستبدال. اترك مرونة للتركيب المستقبلي. التفكير المسبق يوفر عليك حوضاً جديداً.",
-          "الحوض الثقيل يحتاج دعامة من الأسفل. استخدم مساند من نفس الحجر أو قاعدة خشب معالجة. لا تعتمد على اللاصق وحده في حمل الوزن. التثبيت السليم يمنع الكسر عند التحميل. اختبر الوزن بالماء قبل التشطيب."
-        ]
-      },
-      {
-        "h": "العيوب الشائعة وكيف تمنعها",
-        "p": [
-          "أكثر مشكلة هي ترسب الكلس على الحافة. يظهر خطاً أبيض عند خط الماء. يزداد مع المياه العسرة في بعض الأحياء. الجفاف اليومي هو الحل الأول والأسرع. لا تحتاج مواد كيميائية لهذا.",
-          "البقع الزيتية تأتي من مستحضرات العناية. بعض الكريمات تترك هالات على الرخام. نظف الحوض أسبوعياً بمنظف محايد الحموضة. تجنب المنظفات التي تحتوي على أحماض مركّزة. الضرر الحمضي لا يمكن التراجع عنه.",
-          "الكسر يحدث عند سقوط جسم ثقيل أو شدّ الفلنكة بقوة. الرخام صلب لكنه هش عند السقوط. ركّب الحوض على قاعدة ثابتة ومستوية. لا تشد الفلنكة أكثر من اللازم. حلقة سيليكون رقيقة حول الفتحة تحمي الحافة."
-        ]
-      }
-    ],
-    "faq": [
-      {
-        "q": "ما أفضل حجر لحوض فوق السطح؟",
-        "a": "الرخام الكثيف أو الجرانيت القاسي. الرخام أسهل في النحت والتفاصيل الدقيقة. الجرانيت أقوى أمام الخدش والاتساخ. اختر بحسب معدل الاستخدام اليومي للمكان."
-      },
-      {
-        "q": "هل الحوض فوق السطح يحتاج حافة خاصة؟",
-        "a": "نعم. الحافة تحتاج كسر زاوية بمقدار 3 إلى 5 ملم. الحافة الحادة غير آمنة للمعصم. بعض التصاميم تضيف شطفاً مزدوجاً على الوجه الأمامي."
-      },
-      {
-        "q": "كيف أمنع خط الماء الأبيض حول الحوض؟",
-        "a": "اجفف الحوض والصنبور بعد كل استخدام. استخدم قطعة قماش مايكروفايبر ناعمة. تنظيف أسبوعي بمنظف محايد يمنع التراكم."
-      },
-      {
-        "q": "هل يمكن تركيب صنبور خلف الحوض دائماً؟",
-        "a": "نعم مع مراعاة الارتفاع. اترك 25 سنتيمتراً بين الحوض والجدار للصنابير العالية. الصنابير القصيرة تحتاج مسافة أقل. تحقق من قطر فتحة الحوض قبل الشراء."
-      }
-    ]
-  },
-  {
     "id": "medina-stone-driveway-paving",
     "primary": "أرضيات الممرات بالحجر الطبيعي",
     "keywords": [
@@ -8345,95 +8252,6 @@ export const TOPIC_BANK = [
     ]
   },
   {
-    "id": "marble-bathroom-floors-medina",
-    "primary": "رخام حمامات",
-    "keywords": [
-      "رخام حمامات",
-      "أرضيات رخام",
-      "حمام فاخر",
-      "المدينة المنورة",
-      "رخام"
-    ],
-    "intent": "informational",
-    "title": "أرضيات رخام الحمامات في المدينة المنورة: دليل الأمان والصيانة",
-    "description": "كيف تختار رخام حمامات آمناً من الانزلاق وسهل التنظيف في مناخ المدينة المنورة.",
-    "category": "دليل الشراء",
-    "takeawayTitle": "أهم ما في هذا المقال",
-    "takeaways": [
-      "اختر تشطيب مطفي أو ديسكي للحمامات",
-      "تجنب الرخام المصقول أرضيات الحمام",
-      "استخدم مقوي لمعالجة السطح"
-    ],
-    "ctaHeading": "تريد أرضية رخام آمنة للحمام؟",
-    "ctaBody": "نقدم استشارة مجانية لاختيار نوع الرخام المناسب للحمامات.",
-    "imagePrompt": "Luxury bathroom with honed marble floor, warm LED lighting, modern fixtures, clean and dry surface, no text",
-    "imageScene": "أرضية حمام فاخر برخام مطفي في المدينة المنورة",
-    "imageTopics": "رخام حمامات,أرضيات",
-    "related": [
-      "marble-vs-granite",
-      "stone-finishes-guide"
-    ],
-    "sections": [
-      {
-        "h": "لماذا الرخام مميز للحمامات",
-        "p": [
-          "يعطي إحساساً بالفخامة والاتساع.",
-          "يمكن صقله بسهولة إذا تعرض لخدوش خفيفة."
-        ]
-      },
-      {
-        "h": "السلامة من الانزلاق",
-        "p": [
-          "التشطيب المطفي () هو الأفضل لأرضيات الحمامات.",
-          "التشطيب المصقول () يكون  عندما يكون مبللاً.",
-          "يمكن إضافة معالجة - دون تغيير المظهر."
-        ]
-      },
-      {
-        "h": "المناخ والرطوبة",
-        "p": [
-          "في المدينة المنورة الرطوبة المتوسطة تتطلبvetting جيد للفواصل.",
-          "استخدم مواد لاصقة مقاومة للرطوبة.",
-          "تجنب الألواح ذات المسام المفتوحة لأنها تمتص الماء."
-        ]
-      },
-      {
-        "h": "الصيانة اليومية",
-        "p": [
-          "تنظيف بمنظف محايد يومياً.",
-          "تجنب المواد الحمضية مثل الخل.",
-          "إعادة معالجة السطح كل 6-12 شهراً حسب الاستخدام."
-        ]
-      },
-      {
-        "h": "التكلفة والقياس",
-        "p": [
-          "رخام إيطالي: 300-800 ريال/م².",
-          "رخام تركي: 200-500 ريال/م².",
-          "تركيب: 50-100 ريال/م²."
-        ]
-      }
-    ],
-    "faq": [
-      {
-        "q": "هل الرخام ينزلق في الحمام؟",
-        "a": "الرخام المصقول ينزلق عندما يكون مبللاً، لكن المطفي آمن تماماً."
-      },
-      {
-        "q": "كم مرة أحتاج إلى معالجة -slip؟",
-        "a": "كل 6-12 شهراً حسب  الاستخدام."
-      },
-      {
-        "q": "هل يمكن استخدام الرخام في الحمامات الخارجية؟",
-        "a": "نعم، بشرط اختيار نوع مقاوم للصقيع والتجمد."
-      },
-      {
-        "q": "ما هو أفضل لون لحمام صغير؟",
-        "a": "الألوان الفاتحة تعطي إحساساً بالاتساع."
-      }
-    ]
-  },
-  {
     "id": "stone-outdoor-stairs-medina",
     "primary": "سلالم حجر خارجية",
     "keywords": [
@@ -8606,90 +8424,6 @@ export const TOPIC_BANK = [
     ]
   },
   {
-    "id": "stone-veneer-installation-medina",
-    "primary": "تكسية حجرية (Veneer)",
-    "keywords": [
-      "تكسية حجرية",
-      "stone veneer",
-      "واجهات",
-      "المدينة المنورة",
-      "تثبيت"
-    ],
-    "intent": "informational",
-    "title": "تكسية حجرية (Stone Veneer) في المدينة المنورة: دليل التثبيت",
-    "description": "كيف تثبت تكسية حجرية (stone veneer) على جدران المباني في المدينة المنورة، من التحضير إلى التشطيب.",
-    "category": "دليل تنفيذي",
-    "takeawayTitle": "أهم ما في هذا المقال",
-    "takeaways": [
-      "Prepare wall surface properly before installation",
-      "Use proper adhesive and mechanical fixing",
-      "Leave expansion joints",
-      "Seal joints after installation"
-    ],
-    "ctaHeading": "تريد تكسية حجرية احترافية؟",
-    "ctaBody": "نقدم تثبيت تكسية حجرية (stone veneer) في المدينة المنورة.",
-    "imagePrompt": "Stone veneer installation on villa wall, Medina, worker applying adhesive, natural stone panels, daylight",
-    "imageScene": "تثبيت تكسية حجرية on villa wall in Medina with adhesive application",
-    "imageTopics": "تكسية حجرية,stone veneer,تثبيت",
-    "related": [],
-    "sections": [
-      {
-        "h": "التحضير",
-        "p": [
-          "Clean wall surface thoroughly",
-          "Apply waterproofing membrane",
-          "Install metal lath if needed",
-          "Check wall is plumb and level"
-        ]
-      },
-      {
-        "h": "التثبيت",
-        "p": [
-          "Apply adhesive to back of veneer",
-          "Press firmly and wiggle",
-          "Use mechanical anchors for large pieces",
-          "Maintain consistent joint width"
-        ]
-      },
-      {
-        "h": "الفواصل",
-        "p": [
-          "Leave 3-5mm joints between pieces",
-          "Fill with flexible grout",
-          "Seal joints after curing",
-          "Provide weep holes at bottom"
-        ]
-      },
-      {
-        "h": "التشطيب",
-        "p": [
-          "Clean excess adhesive immediately",
-          "Apply sealer after 24-48 hours",
-          "Inspect for loose pieces",
-          "Touch up as needed"
-        ]
-      }
-    ],
-    "faq": [
-      {
-        "q": "هل stone veneer suitable for exterior?",
-        "a": "Yes, with proper waterproofing and mechanical fixing."
-      },
-      {
-        "q": "كم تكلفة تكسية حجرية?",
-        "a": "100-300 ريال/م² حسب material and installation complexity."
-      },
-      {
-        "q": "هل أستطيع تثبيت stone veneer myself?",
-        "a": "Small areas yes, large facades need professional."
-      },
-      {
-        "q": "كم يدوم stone veneer?",
-        "a": "20-50 years with proper installation and maintenance."
-      }
-    ]
-  },
-  {
     "id": "stone-fireplace-design-medina",
     "primary": "مدافئ حجر",
     "keywords": [
@@ -8842,138 +8576,6 @@ export const TOPIC_BANK = [
     ],
   },
   {
-    id: 'stone-wall-cladding-medina',
-    primary: 'تكسية جدران',
-    keywords: ['تكسية جدران', 'حجر طبيعي', 'المدينة المنورة', 'واجهات'],
-    intent: 'informational',
-    title: 'تكسية جدران (Stone Wall Cladding) في المدينة المنورة: خيارات وتنفيذ',
-    description: 'كيف تختار وتثبت تكسية جدران من حجر طبيعي في المدينة المنورة.',
-    category: 'أفكار وتصميم',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'اختيار حجر مناسب',
-      'تجهيز السطح',
-      '安裝 professionnel',
-      'صيانة',
-    ],
-    ctaHeading: 'تريد تكسية جدران؟',
-    ctaBody: 'نصمم وننفذ تكسية جدران في المدينة المنورة.',
-    imagePrompt: 'Stone wall cladding on villa exterior, Medina, natural limestone panels, warm daylight, clean modern facade, no people, professional photography',
-    imageScene: 'تكسية جدران بحجر جيري على واجهة فيلا بالمدينة المنورة',
-    imageTopics: 'تكسية جدران,stone cladding,واجهات',
-    related: [],
-    sections: [
-    {
-      h: 'اختيار الحجر',
-      p: [
-        'حجر جيري: مظهر كلاسيكي',
-        'جرانيت: متين',
-        'تجنب الحجر مسامي',
-        'مراعاة لون الواجهة',
-      ],
-    },
-    {
-      h: 'تجهيز السطح',
-      p: [
-        'تنظيف الجدار',
-        'تسوية السطح',
-        'تطبيق لاصق مناسب',
-        'فحص الرطوبة',
-      ],
-    },
-    {
-      h: 'التنفيذ',
-      p: [
-        'تثبيت من الأسفل للأعلى',
-        'فواصل مناسبة',
-        'استخدام ملاط مقاوم',
-        'فحص التسوية',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'تنظيف دوري',
-        'فحص الفواصل',
-        'إعادة إحكام',
-        'تجنب مواد كيميائية',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل تكسية جدران تناسب مناخ المدينة المنورة؟', a: 'نعم، اختر حجراً مقاوماً للحرارة.' },
-    { q: 'كم تكلفة تكسية جدران؟', a: '150-400 ريال للمتر.' },
-    { q: 'هل تحتاج إلى صيانة؟', a: 'نعم، فحص دوري.' },
-    { q: 'ما أفضل حجر لتكسية جدران؟', a: 'حجر جيري أو جرانيت.' },
-    ],
-  },
-  {
-    id: 'stone-kitchen-backsplash-medina',
-    primary: 'تكسية مطبخ',
-    keywords: ['تكسية مطبخ', 'حجر طبيعي', 'المدينة المنورة', 'backsplash'],
-    intent: 'informational',
-    title: 'تكسية مطبخ (Stone Backsplash) في المدينة المنورة: خيارات وتنفيذ',
-    description: 'كيف تختار وتثبت تكسية مطبخ من حجر طبيعي في المدينة المنورة.',
-    category: 'أفكار وتصميم',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'اختيار حجر مناسب',
-      'سهولة التنظيف',
-      'تنفيذ احترافي',
-      'صيانة',
-    ],
-    ctaHeading: 'تريد تكسية مطبخ؟',
-    ctaBody: 'نصمم وننفذ تكسية مطبخ في المدينة المنورة.',
-    imagePrompt: 'Stone kitchen backsplash in Medina villa, natural marble tiles, clean modern kitchen, warm lighting, no people, professional photography',
-    imageScene: 'تكسية مطبخ ببلاط رخام في فيلا بالمدينة المنورة',
-    imageTopics: 'تكسية مطبخ,stone backsplash,مطبخ',
-    related: [],
-    sections: [
-    {
-      h: 'اختيار الحجر',
-      p: [
-        'رخام: أنيق',
-        'جرانيت: مقاوم',
-        'تجنب الحجر مسامي',
-        'مراعاة لون المطبخ',
-      ],
-    },
-    {
-      h: 'التصميم',
-      p: [
-        'ارتفاع مناسب',
-        'تناسق مع الخزائن',
-        'إضاءة مدمجة',
-        'فواصل مناسبة',
-      ],
-    },
-    {
-      h: 'التنفيذ',
-      p: [
-        'تجهيز السطح',
-        'تطبيق لاصق',
-        'تثبيت البلاط',
-        'إحكام الفواصل',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'تنظيف يومي',
-        'تجنب مواد كيميائية',
-        'فحص الفواصل',
-        'إعادة إحكام',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل تكسية مطبخ تناسب الاستخدام اليومي؟', a: 'نعم، اختر حجراً مقاوماً.' },
-    { q: 'كم تكلفة تكسية مطبخ؟', a: '200-500 ريال للمتر.' },
-    { q: 'هل تحتاج إلى صيانة؟', a: 'نعم، تنظيف دوري.' },
-    { q: 'ما أفضل حجر لتكسية مطبخ؟', a: 'جرانيت أو رخام.' },
-    ],
-  },
-  {
     id: 'stone-floor-polishing-medina',
     primary: 'تلميع أرضيات',
     keywords: ['تلميع أرضيات', 'حجر طبيعي', 'المدينة المنورة', 'صيانة'],
@@ -9037,72 +8639,6 @@ export const TOPIC_BANK = [
     { q: 'هل التلميع يزيل الخدوش؟', a: 'نعم، خدوش سطحية.' },
     { q: 'كم تكلفة تلميع أرضيات؟', a: '30-80 ريال للمتر.' },
     { q: 'ما أفضل طريقة تلميع؟', a: 'ميكانيكي لنتائج أفضل.' },
-    ],
-  },
-  {
-    id: 'stone-staircase-design-medina',
-    primary: 'تصميم سلالم',
-    keywords: ['تصميم سلالم', 'حجر طبيعي', 'المدينة المنورة', 'سلالم'],
-    intent: 'informational',
-    title: 'تصميم سلالم (Stone Staircase) في المدينة المنورة: خيارات وتنفيذ',
-    description: 'كيف تختار وتثبت سلالم من حجر طبيعي في المدينة المنورة.',
-    category: 'أفكار وتصميم',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'اختيار حجر مناسب',
-      'تنفيذ احترافي',
-      'سلامة',
-      'صيانة',
-    ],
-    ctaHeading: 'تريد تصميم سلالم؟',
-    ctaBody: 'نصمم وننفذ سلالم حجر في المدينة المنورة.',
-    imagePrompt: 'Stone staircase in Medina villa, natural marble steps, elegant interior, warm lighting, no people, professional photography',
-    imageScene: 'سلالم رخام في فيلا بالمدينة المنورة',
-    imageTopics: 'تصميم سلالم,stone staircase,سلالم',
-    related: [],
-    sections: [
-    {
-      h: 'اختيار الحجر',
-      p: [
-        'رخام: أنيق',
-        'جرانيت: مقاوم',
-        'تجنب الحجر مسامي',
-        'مراعاة لون الديكور',
-      ],
-    },
-    {
-      h: 'التصميم',
-      p: [
-        'عرض مناسب',
-        'ارتفاع درجة مناسب',
-        'إضاءة مدمجة',
-        'درابزين',
-      ],
-    },
-    {
-      h: 'التنفيذ',
-      p: [
-        'تجهيز القاعدة',
-        'تثبيت البلاط',
-        'إحكام الفواصل',
-        'فحص التسوية',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'تنظيف دوري',
-        'فحص الفواصل',
-        'إعادة إحكام',
-        'تجنب مواد كيميائية',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل سلالم حجر تناسب المنازل؟', a: 'نعم، مع تصميم مناسب.' },
-    { q: 'كم تكلفة سلالم حجر؟', a: '500-1500 ريال للدرجة.' },
-    { q: 'هل تحتاج إلى صيانة؟', a: 'نعم، فحص دوري.' },
-    { q: 'ما أفضل حجر لسلالم؟', a: 'جرانيت أو رخام.' },
     ],
   },
 
@@ -9304,651 +8840,8 @@ export const TOPIC_BANK = [
     { q: 'هل إضافة عزل؟', a: 'نعم، حسب التصميم.' },
     ],
   },
-  {
-    id: 'stone-sink-installation-medina',
-    primary: 'تركيب مغاسل حجر',
-    keywords: ['تركيب مغاسل', 'حجر', 'المدينة المنورة', 'مغاسل'],
-    intent: 'informational',
-    title: 'تركيب مغاسل حجر (Stone Sink Installation) في المدينة المنورة',
-    description: 'كيف تركب مغسلة حجر في الحمام أو المطبخ بالمدينة المنورة.',
-    category: 'Odyssey',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'اختيار مغسلة مناسبة',
-      'تثبيت آمن',
-      'تصريف مياه',
-      'صيانة',
-    ],
-    ctaHeading: 'تريد تركيب مغسلة؟',
-    ctaBody: 'نصمم ونركب مغاسل حجر في المدينة المنورة.',
-    imagePrompt: 'Stone sink installation in Medina bathroom, marble vessel sink, clean interior, warm lighting, no people, professional photography',
-    imageScene: 'تركيب مغسلة حجر في حمام بالمدينة المنورة',
-    imageTopics: 'تركيب مغاسل,stone sink,حمام',
-    related: [],
-    sections: [
-    {
-      h: 'اختيار المغسلة',
-      p: [
-        'رخام: مظهر فاخر',
-        'جرانيت: مقاوم',
-        'تجنب الحجر مسامي',
-        'مراعاة حجم الحمام',
-      ],
-    },
-    {
-      h: 'التشطيب',
-      p: [
-        'مصقول: سهل التنظيف',
-        'مطفي: مظهر طبيعي',
-        'ملمس: مقاوم للانزلاق',
-        'اختيار حسب الاستخدام',
-      ],
-    },
-    {
-      h: 'التنفيذ',
-      p: [
-        'قياس دقيق',
-        'تثبيت آمن',
-        'إحكام الفواصل',
-        'فحص الجودة',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'تنظيف منتظم',
-        'تجنب مواد كيميائية',
-        'إعادة إحكام عند الحاجة',
-        'فحص سنوي',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل حجر المغسلة يتحمل الاستخدام؟', a: 'نعم، اختر حجراً كثيفاً.' },
-    { q: 'ما أفضل حجر لمغسلة؟', a: 'رخام أو جرانيت.' },
-    { q: 'هل يحتاج صيانة؟', a: 'نعم، تنظيف دوري.' },
-    { q: 'هل استبدال مغسلة؟', a: 'نعم، حسب التصميم.' },
-    ],
-  },
 
-  {
-    id: 'basalt-stone-medina-facades',
-    primary: 'حجر بازلت للواجهات',
-    keywords: ['حجر بازلت', 'واجهات بازلت', 'بازلت أسود', 'حجر بركاني', 'واجهات خارجية', 'Bazalt', 'حجر natural في المدينة', 'واجهات حجر'],
-    intent: 'commercial',
-    title: 'حجر بازلت للواجهات في المدينة المنورة',
-    description: 'دليل choosing حجر بازلت للواجهات في المدينة المنورة: خصائصه وسماكته وتشطيباته ونصائح تركيبه.',
-    category: 'الواجهات',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'البازلت صخر بركاني صلب بصلابة 6 على مقياس موهس.',
-      'سماكة 2-3 سم كافية للواجهات residential.',
-      'تشfinish flamed أو bush-hammered يمنع الانزلاق.',
-      'لونه داكن يقلل ظهور الأوساخ.',
-      'يحتاج ملاطاً مرناً لامتصاص الحركة.',
-    ],
-    ctaHeading: 'محتاج مساعدة في اختيار الخامة؟',
-    ctaBody: 'فريقنا يراجع استخدامك ويقترح الأنسب ضمن ميزانيتك.',
-    imagePrompt: 'Macro photograph of dark basalt stone facade texture on a building wall in Medina, natural volcanic stone, warm daylight, sharp focus, professional photography',
-    imageScene: 'واجهة حجر بازلت داكن في المدينة المنورة',
-    imageTopics: 'بازلت,واجهات,حجر بركاني,Medina',
-    related: [],
-    sections: [
-    {
-      h: 'ما هو حجر البازلت',
-      p: [
-        'البازلت صخر بركاني تشكل من تبريد الحمم بسرعة.',
-        'يتميز بلون داكن وحبيبات fine.',
-        'صلابته تجعله مناسباً للواجهات exterior.',
-      ],
-    },
-    {
-      h: 'خصائص البازلت للواجهات',
-      p: [
-        'امتصاصه للماء منخفض.',
-        'مقاومته للتآكل عالية.',
-        'لونه ثابت تحت أشعة UV.',
-      ],
-      bullets: [
-        'صلابة 6 موهس',
-        'امتصاص <0.5%',
-        'كثافة 2.9 g/cm3',
-      ],
-    },
-    {
-      h: 'تشfinishات مناسبة',
-      p: [
-        'تشfinish flamed (ملتهب) ي create texture.',
-        'تشfinish bush-hammered يزيد الإمساك.',
-        'ال研磨 (polished) غير مناسب ل exterior.',
-      ],
-    },
-    {
-      h: 'نصائح التركيب',
-      p: [
-        'استخدم ملاطاً مرناً (flexible).',
-        'اترك فواصل 3-5 مم.',
-        'تجنب تركيبه في ظروف ممطرة.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل البازلت مناسب للواجهات في المدينة؟', a: 'نعم، مقاومته للحرارة والرطوبة مناسب.' },
-    { q: 'ما سماكة البازلت للواجهة؟', a: '2-3 سم residential، 3-4 cm للمباني high.' },
-    { q: 'هل يتغير لون البازلت؟', a: 'لا، لونه ثابت تحت UV.' },
-    { q: 'كم تكلفة تركيب البازلت؟', a: 'تعتمد على السماكة والتشfinish والمساحة.' },
-    ],
-  },
-  {
-    id: 'travertine-polishing-maintenance-medina',
-    primary: 'تلميع ترافرتينو',
-    keywords: ['تلميع ترافرتينو', 'صيانة ترافرتينو', 'تلميع حجر', 'ترافرتينو في المدينة', 'Care travertine', 'تلميع أرضيات'],
-    intent: 'informational',
-    title: 'تلميع وصيانة ترافرتينو في المدينة المنورة',
-    description: 'كيفية تلميع وصيانة ترافرتينو في المدينة المنورة: أدوات وخطوات ونصائح للمحافظة على اللمعان.',
-    category: 'الصيانة',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'الترافرتينو بوروز (pores) تحتاج sealing.',
-      'تلميع بـ diamond pads يعيد اللمعان.',
-      'تجنب المنظفات الحمضية.',
-      'أعد sealing كل 1-2 سنة.',
-      'ال stains تُزال بـ poultice.',
-    ],
-    ctaHeading: 'محتاج مساعدة في اختيار الخامة؟',
-    ctaBody: 'فريقنا يراجع استخدامك ويقترح الأنسب ضمن ميزانيتك.',
-    imagePrompt: 'Close-up of a worker polishing a travertine stone floor with diamond pad in a Medina workshop, warm lighting, sharp focus, professional photography',
-    imageScene: 'تلميع حجر ترافرتينو في ورشة بالمدينة',
-    imageTopics: 'تلميع,ترافرتينو,صيانة,Medina',
-    related: [],
-    sections: [
-    {
-      h: 'لماذا يحتاج ترافرتينو للصيانة',
-      p: [
-        'الترافرتينو حجر مسامي.',
-        'المسامات تجمع الأوساخ.',
-        'Sealing يغلق المسامات.',
-      ],
-    },
-    {
-      h: 'خطوات التلميع',
-      p: [
-        'نظف السطح أولاً.',
-        'استخدم diamond pads تدريجية.',
-        'أنهِ بـ polishing powder.',
-      ],
-      steps: [
-        ['1', 'تنظيف'],
-        ['2', 'تلميع خشن'],
-        ['3', 'تلميع ناعم'],
-        ['4', 'Sealing'],
-      ],
-    },
-    {
-      h: 'ال stains الشائعة',
-      p: [
-        ' stains زيتية تُزال بـ poultice.',
-        ' stains معدنية تُزال بـ rust remover.',
-        ' stains organic تُزال بـ hydrogen peroxide.',
-      ],
-    },
-    {
-      h: 'جدول الصيانة',
-      p: [
-        'تنظيف يومي بـ pH-neutral.',
-        'تلميع كل 6-12 شهر.',
-        'Sealing كل 1-2 سنة.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'كم مرة ألمع ترافرتينو؟', a: 'كل 6-12 شهر حسب الاستخدام.' },
-    { q: 'هل أستخدم vinegar؟', a: 'لا، vinegar حامضي ويضر الحجر.' },
-    { q: 'متى أعيد sealing؟', a: 'عندما يمتص الماء بسرعة.' },
-    { q: 'هل يمكن DIY؟', a: 'التلميع الخفيف yes، العميق needs professional.' },
-    ],
-  },
-  {
-    id: 'granite-kitchen-countertop-medina',
-    primary: 'أسطح مطبخ جرانيت',
-    keywords: ['أسطح مطبخ جرانيت', 'جرانيت kitchen', 'countertop Medina', 'أسطح حجر', 'جرانيت for kitchen', 'أسطح مطبخ'],
-    intent: 'commercial',
-    title: 'أسطح مطبخ جرانيت في المدينة المنورة',
-    description: 'اختيار أسطح مطبخ جرانيت في المدينة المنورة: الألوان والتشfinishات والصيانة والتكاليف factors.',
-    category: 'المغاسل',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'الجرانيت صلب (6-7 موهس) مناسب للطبخ.',
-      'سماكة 3 cm standard.',
-      'تشfinish polished يسهل التنظيف.',
-      'Sealing recommended سنوياً.',
-      'Edge profiles vary by style.',
-    ],
-    ctaHeading: 'محتاج مساعدة في اختيار الخامة؟',
-    ctaBody: 'فريقنا يراجع استخدامك ويقترح الأنسب ضمن ميزانيتك.',
-    imagePrompt: 'Editorial photograph of a granite kitchen countertop slab in a Medina kitchen, natural stone surface, warm interior lighting, no people, sharp focus, professional photography',
-    imageScene: 'سطح مطبخ جرانيت في kitchen بالمدينة',
-    imageTopics: 'جرانيت,مطبخ,أسطح,Medina',
-    related: [],
-    sections: [
-    {
-      h: 'لماذا جرانيت للمطبخ',
-      p: [
-        'الجرانيت مقاوم للخدوش.',
-        'مقاوم للحرارة.',
-        'متوفر ب ألوان متعددة.',
-      ],
-    },
-    {
-      h: 'اختيار اللون',
-      p: [
-        'الألوان الداكنة تُخفي ال stains.',
-        'الألوان الفاتحة تُظهر ال stains.',
-        'ال patterns natural فريدة.',
-      ],
-    },
-    {
-      h: 'التشfinishات',
-      p: [
-        'Polished: لامع وسهل cleaning.',
-        'Honed: ماتي و elegant.',
-        'Leathered: texture.',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'نظف بـ pH-neutral.',
-        'أعد sealing سنوياً.',
-        'تجنب abrasives.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل جرانيت مناسب للمطبخ؟', a: 'نعم، صلب ومقاوم للحرارة.' },
-    { q: 'كم سماكة surface؟', a: '3 cm standard.' },
-    { q: 'هل needs sealing؟', a: 'نعم، سنوياً.' },
-    { q: 'ما أفضل edge؟', a: 'Eased أو beveled للسلامة.' },
-    ],
-  },
-  {
-    id: 'limestone-paving-medina-outdoor',
-    primary: 'تبليط حجر جيري خارجي',
-    keywords: ['تبليط حجر جيري', 'أرضيات خارجية', 'حجر جيري Medina', 'paving limestone', 'أرضيات حديقة', 'تبليط outdoor'],
-    intent: 'commercial',
-    title: 'تبليط حجر جيري خارجي في المدينة المنورة',
-    description: 'دليل تبليط حجر جيري خارجي في المدينة المنورة: اختيار السماكة والتشfinish والتركيب.',
-    category: 'التركيب',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'الحجر الجيري ناعم (3-4 موهس) مناسب للتبليط.',
-      'سماكة 4-5 cm للتبليط exterior.',
-      'تشfinish flamed أو sandblasted لـ slip resistance.',
-      'يحتاج base مدمجة (compacted).',
-      'Drainage slope 1-2%.',
-    ],
-    ctaHeading: 'محتاج مساعدة في اختيار الخامة؟',
-    ctaBody: 'فريقنا يراجع استخدامك ويقترح الأنسب ضمن ميزانيتك.',
-    imagePrompt: 'Editorial photograph of limestone paving stones in an outdoor Medina courtyard, natural stone floor, warm sunlight, no people, sharp focus, professional photography',
-    imageScene: 'تبليط حجر جيري خارجي في فناء Medina',
-    imageTopics: 'تبليط,حجر جيري,خارجية,Medina',
-    related: [],
-    sections: [
-    {
-      h: 'اختيار الحجر الجيري للتبليط',
-      p: [
-        'الحجر الجيري ناعم وسهل cutting.',
-        'متوفر ب ألوان earth tones.',
-        'امتصاصه متوسط.',
-      ],
-    },
-    {
-      h: 'السماكة والتشfinish',
-      p: [
-        '4-5 cm للتبليط exterior.',
-        'تشfinish flamed ي prevent slipping.',
-        'تشfinish sawn cut لل areas dry.',
-      ],
-    },
-    {
-      h: 'التركيب',
-      p: [
-        'base مدمجة (compacted gravel).',
-        'mortar bed أو sand bed.',
-        'فواصل 3-5 مم filled with sand.',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        ' Pressure wash سنوياً.',
-        'Sealing كل 2-3 سنة.',
-        'تجنب de-icing salts.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل الحجر الجيري مناسب للتبليط؟', a: 'نعم، مع تشfinish مناسب.' },
-    { q: 'ما سماكة التبليط؟', a: '4-5 cm.' },
-    { q: 'هل ينزلق؟', a: 'مع تشfinish flamed لا.' },
-    { q: 'كم durability؟', a: 'decades with proper installation.' },
-    ],
-  },
-  {
-    id: 'stone-color-matching-design-medina',
-    primary: 'تنسيق ألوان الحجر',
-    keywords: ['تنسيق ألوان الحجر', 'اختيار ألوان الحجر', 'design stone colors', 'ألوان Medina facades', 'تنسيق حجر', 'design'],
-    intent: 'informational',
-    title: 'تنسيق ألوان الحجر في تصميم Medina',
-    description: 'كيفية تنسيق ألوان الحجر في تصاميم Medina: قواعد التباين والانسجام والنصائح.',
-    category: 'التصميم',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'استخدم 2-3 ألوان كحد أقصى.',
-      'التباين high للواجهات (light/dark).',
-      'الانسجام للمساحات interior.',
-      'اختبر samples في site lighting.',
-      'ال climate Medina affects appearance.',
-    ],
-    ctaHeading: 'محتاج مساعدة في اختيار الخامة؟',
-    ctaBody: 'فريقنا يراجع استخدامك ويقترح الأنسب ضمن ميزانيتك.',
-    imagePrompt: 'Editorial photograph of stone color samples laid out on a design table in a Medina studio, natural stone slabs, warm light, sharp focus, professional photography',
-    imageScene: 'عينات ألوان حجر على طاولة تصميم في Medina',
-    imageTopics: 'تصميم,Medina,ألوان',
-    related: [],
-    sections: [
-    {
-      h: 'قواعد التباين',
-      p: [
-        'التباين high ي create visual interest.',
-        'التباين low ي create calm.',
-        'استخدم accent stones.',
-      ],
-    },
-    {
-      h: 'الانسجام (Harmony)',
-      p: [
-        'الألوان analogous لـ calm.',
-        'الألوان complementary لـ bold.',
-        'Monochromatic لـ subtle.',
-      ],
-    },
-    {
-      h: 'الضوء و climate',
-      p: [
-        'ضوء Medina intense ي brighten colors.',
-        'الظلال evening ت deepen.',
-        'اختبر samples at different times.',
-      ],
-    },
-    {
-      h: 'أمثلة تطبيقية',
-      p: [
-        'واجهة: light limestone + dark basalt accent.',
-        'interior: cream marble + gold travertine.',
-        'مطبخ: white granite + grey accent.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'كم لون أستخدم؟', a: '2-3 كحد أقصى.' },
-    { q: 'هل أستخدم samples؟', a: 'نعم، اختبر في site lighting.' },
-    { q: 'ما أفضل تباين؟', a: 'Light base + dark accent.' },
-    { q: 'هل climate affects؟', a: 'نعم، Medina sunlight intense.' },
-    ],
-  },
 
-  {
-    id: 'stone-facade-lighting-medina',
-    primary: 'إضاءة واجهات حجرية',
-    keywords: ['إضاءة', 'واجهات', 'حجر', 'المدينة المنورة'],
-    intent: 'informational',
-    title: 'إضاءة واجهات الحجر الطبيعي في المدينة المنورة: دليل التصميم',
-    description: 'كيف تختار إضاءة واجهات حجرية طبيعية لتبرز جمال الحجر la noche y el día en Medina.',
-    category: 'دليل تنفيذي',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'LED IP65',
-      'تجنب بقع ساخنة',
-      'تشاور مع مصمم',
-    ],
-    ctaHeading: 'تريد إضاءة واجهة؟',
-    ctaBody: 'استشارة مجانية.',
-    imagePrompt: 'Natural stone facade at night illuminated by warm LED uplights, architectural lighting, photorealistic',
-    imageScene: 'واجهة حجرية مضاءة la noche',
-    imageTopics: 'undefined',
-    related: [],
-    sections: [
-    {
-      h: ' tipos de iluminación',
-      p: [
-        'الإضاءة من الأسفل تبرز textura.',
-        'الإضاءة المخفية تخلق ambiance.',
-      ],
-    },
-    {
-      h: 'نصائح',
-      p: [
-        'استخدم LED IP65.',
-        'تجنب البقع الساخنة.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'ما نوع الإضاءة؟', a: 'LED IP65.' },
-    { q: 'كم consume؟', a: '10-30 واط.' },
-    { q: 'هل يضر الحجر؟', a: 'لا إذا كانت LED.' },
-    ],
-  },
-  {
-    id: 'stone-cladding-interior-medina',
-    primary: 'كسوة داخلية حجرية',
-    keywords: ['كسوة', 'داخلية', 'حجر', 'المدينة'],
-    intent: 'informational',
-    title: 'كسوة الجدران الداخلية بالحجر في المدينة المنورة',
-    description: 'دليل اختيار وتركيب كسوة حجرية داخلية لمنزل في Medina.',
-    category: 'دليل تنفيذي',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'غراء مخصص',
-      'فواصل',
-      'sealing',
-    ],
-    ctaHeading: 'تريد كسوة داخلية؟',
-    ctaBody: 'استشارة مجانية.',
-    imagePrompt: 'Interior living room wall clad with natural limestone, warm lighting, cozy, photorealistic',
-    imageScene: 'جدار داخلي مكسو بحجر',
-    imageTopics: 'undefined',
-    related: [],
-    sections: [
-    {
-      h: ' أنواع الكسوة',
-      p: [
-        'شرائح حجرية.',
-        'بلاط حجري.',
-      ],
-    },
-    {
-      h: 'التركيب',
-      p: [
-        'استخدم غراء مخصص.',
-        'اترك فواصل.',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'نظف بقطعة ناعمة.',
-        'تجنب مواد كيميائية.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل ي weight ثقيل؟', a: 'يعتمد على thickness.' },
-    { q: 'كم cost؟', a: 'يتفاوت.' },
-    { q: 'هل مناسب لـ bathroom؟', a: 'نعم مع sealing.' },
-    ],
-  },
-  {
-    id: 'stone-staircase-design-villas-medina',
-    primary: 'سلالم حجرية',
-    keywords: ['سلالم', 'حجر', 'المدينة'],
-    intent: 'informational',
-    title: 'تصميم سلالم الحجر الطبيعي في المدينة المنورة',
-    description: 'نصائح لتصميم وتنفيذ سلالم حجرية طبيعية في منازل Medina.',
-    category: 'دليل تنفيذي',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'anti-slip',
-      'nosing',
-      'الجرانيت',
-    ],
-    ctaHeading: 'تريد سلالم حجرية؟',
-    ctaBody: 'استشارة مجانية.',
-    imagePrompt: 'Elegant natural stone staircase in modern villa, marble steps, glass railing, photorealistic',
-    imageScene: 'سلالم حجرية أنيقة',
-    imageTopics: 'undefined',
-    related: [],
-    sections: [
-    {
-      h: 'اختيار الحجر',
-      p: [
-        'الرخام للـ luxury.',
-        'الجرانيت للـ durability.',
-      ],
-    },
-    {
-      h: 'السلامة',
-      p: [
-        'أضف anti-slip.',
-        'استخدم nosing.',
-      ],
-    },
-    {
-      h: 'ال costs',
-      p: [
-        'يعتمد على material.',
-      ],
-    },
-    {
-      h: 'ال maintenance',
-      p: [
-        'نظف regularly.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'أي حجر أفضل؟', a: 'الجرانيت للـ durability.' },
-    { q: 'هل anti-slip ضروري؟', a: 'نعم.' },
-    { q: 'كم weight؟', a: 'يعتمد.' },
-    ],
-  },
-  {
-    id: 'stone-outdoor-patio-medina',
-    primary: 'أرضيات خارجية حجرية',
-    keywords: ['أرضيات خارجية', ' patio ', 'حجر', 'المدينة'],
-    intent: 'informational',
-    title: 'أرضيات خارجية بالحجر في المدينة المنورة',
-    description: 'دليل اختيار أرضيات حجرية خارجية لـ patio في Medina climate.',
-    category: 'دليل تنفيذي',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'textured finish',
-      'slope',
-      'sealing',
-    ],
-    ctaHeading: 'تريد أرضية خارجية؟',
-    ctaBody: 'استشارة مجانية.',
-    imagePrompt: 'Outdoor patio with natural stone pavers, desert landscaping, Medina Saudi Arabia, photorealistic',
-    imageScene: 'أرضية خارجية حجرية',
-    imageTopics: 'undefined',
-    related: [],
-    sections: [
-    {
-      h: 'أنسب الأحجار',
-      p: [
-        'الحجر الجيري للـ patio.',
-        'الترافرتين للـ pool.',
-      ],
-    },
-    {
-      h: 'ال slip resistance',
-      p: [
-        'اختر textured finish.',
-      ],
-    },
-    {
-      h: 'ال drainage',
-      p: [
-        'أضف slope.',
-      ],
-    },
-    {
-      h: 'ال maintenance',
-      p: [
-        'أعد sealing سنوياً.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'أي حجر للـ patio؟', a: 'الحجر الجيري.' },
-    { q: 'هل يتحمل heat؟', a: 'نعم.' },
-    { q: 'كم durability؟', a: 'سنوات.' },
-    ],
-  },
-  {
-    id: 'stone-maintenance-medina',
-    primary: 'صيانة الحجر',
-    keywords: ['صيانة', 'حجر', 'المدينة'],
-    intent: 'informational',
-    title: 'صيانة الحجر الطبيعي في المدينة المنورة',
-    description: 'روتين صيانة لأسطح حجرية طبيعية في Medina.',
-    category: 'دليل تنفيذي',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'pH-neutral',
-      'sealing',
-      'poultice',
-    ],
-    ctaHeading: 'تريد صيانة؟',
-    ctaBody: 'استشارة مجانية.',
-    imagePrompt: 'Cleaning natural stone surface with soft cloth and mild cleaner, close-up, photorealistic',
-    imageScene: 'تنظيف سطح حجري',
-    imageTopics: 'undefined',
-    related: [],
-    sections: [
-    {
-      h: 'التنظيف اليومي',
-      p: [
-        'استخدم cloth ناعم.',
-        'تجنب acidic cleaners.',
-      ],
-    },
-    {
-      h: 'ال sealing',
-      p: [
-        'أعد كل 1-2 سنة.',
-      ],
-    },
-    {
-      h: 'ال stain removal',
-      p: [
-        'استخدم poultice.',
-      ],
-    },
-    {
-      h: 'ال professional care',
-      p: [
-        'استعن بـ specialist.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'كم مرة sealing؟', a: 'كل 1-2 سنة.' },
-    { q: 'أي cleaner؟', a: 'pH-neutral.' },
-    { q: 'هل vinegar يضر؟', a: 'نعم.' },
-    ],
-  },
 
   {
     id: 'stone-garden-paving-medina',
@@ -10017,1363 +8910,10 @@ export const TOPIC_BANK = [
     ],
   },
 
-  {
-    id: 'natural-stone-pool-surround-medina',
-    primary: 'تبطين مسبح حجر',
-    keywords: ['تبطين مسبح حجر', 'stone pool surround', 'حجر طبيعي', 'المدينة المنورة', 'مسبح'],
-    intent: 'informational',
-    title: 'تبطين مسبح حجر (Stone Pool Surround) في المدينة المنورة',
-    description: 'كيف تختار وتنفذ تبطين مسبح بحجر طبيعي في المدينة المنورة لسلامة وجمال.',
-    category: 'أفكار وتصميم',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'اختر حجر مقاوم للانزلاق حول المسبح',
-      'مراعاة مقاومة الكلور والملوحة',
-      'توفير تصريف مياه جيد',
-      'الصيانة الدورية تطيل عمر التبطين',
-    ],
-    ctaHeading: 'تريد تبطين مسبح بحجر؟',
-    ctaBody: 'نصمم وننفذ تبطين مسابح بحجر طبيعي في المدينة المنورة.',
-    imagePrompt: 'Stone pool surround in Medina villa garden, natural limestone pavers, clear blue water, warm sunlight, clean design',
-    imageScene: 'تبطين مسبح بحجر جيري طبيعي في حديقة فيلا بالمدينة المنورة',
-    imageTopics: 'تبطين مسبح,stone pool,مسبح',
-    related: [],
-    sections: [
-    {
-      h: 'اختيار الحجر',
-      p: [
-        'حجر جيري: مظهر كلاسيكي، needs sealing',
-        'جرانيت: مقاوم للانزلاق، متين',
-        'ترافرتينو: مسامي، elegant but needs care',
-        'تجنب الحجر أملس قرب الماء',
-      ],
-    },
-    {
-      h: 'السلامة',
-      p: [
-        'استخدم حجر textured لمنع الانزلاق',
-        'أضف شرائط non-slip عند الضرورة',
-        'تأكد من إضاءة كافية',
-        'تجنب حواف حادة',
-      ],
-    },
-    {
-      h: 'التثبيت',
-      p: [
-        'تحضير قاعدة صلبة',
-        'استخدام ملاط مقاوم للماء',
-        'توفير فواصل تمدد',
-        ' sealing after installation',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'غسل بالماء بانتظام',
-        'إعادة عزل سنوياً',
-        'إزالة رواسب كلور',
-        'فحص شقوق periodically',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'ما أفضل حجر لحافة مسبح؟', a: 'جرانيت textured أو حجر جيري مقاوم للانزلاق.' },
-    { q: 'كم تكلفة تبطين مسبح بحجر؟', a: '200-500 ريال/م² حسب نوع الحجر.' },
-    { q: 'هل يحتاج عزل؟', a: 'نعم، لمنع امتصاص الماء والكلور.' },
-    { q: 'كم يدوم التبطين؟', a: '15-30 years with proper maintenance.' },
-    ],
-  },
-  {
-    id: 'stone-fountain-design-medina',
-    primary: 'نوافير حجر',
-    keywords: ['نوافير حجر', 'stone fountain', 'رخام', 'جرانيت', 'المدينة المنورة', 'تصميم'],
-    intent: 'informational',
-    title: 'نوافير حجر (Stone Fountain) في المدينة المنورة: تصميم وتنفيذ',
-    description: 'كيف تختار وتنفذ نافورة حجر في حديقة أو فناء في المدينة المنورة.',
-    category: 'أفكار وتصميم',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'اختر حجر مقاوم للماء',
-      'تأكد من نظام تدوير ماء فعال',
-      'مراعاة حجم الفناء',
-      'الصيانة الدورية ضرورية',
-    ],
-    ctaHeading: 'تريد نافورة حجر؟',
-    ctaBody: 'نصمم وننفذ نوافير حجر في المدينة المنورة.',
-    imagePrompt: 'Stone fountain in Medina villa garden, natural marble, water flowing, green plants, warm sunlight, clean design',
-    imageScene: 'نافورة حجر رخام في حديقة فيلا بالمدينة المنورة مع تدفق ماء',
-    imageTopics: 'نوافير حجر,stone fountain,حديقة',
-    related: [],
-    sections: [
-    {
-      h: 'اختيار الحجر',
-      p: [
-        'رخام: أنيق، but porous',
-        'جرانيت: متين، مقاوم للماء',
-        'حجر جيري: classic look',
-        'تجنب الحجر highly porous',
-      ],
-    },
-    {
-      h: 'التصميم',
-      p: [
-        'مراعاة حجم الفناء',
-        'اختيار شكل مناسب',
-        'التخطيط لsource of water',
-        'إضافة إضاءة underwater',
-      ],
-    },
-    {
-      h: 'التنفيذ',
-      p: [
-        ' installing pump and basin',
-        'تثبيت الحجر securely',
-        ' sealing all joints',
-        'اختبار system before finishing',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'cleaning basin regularly',
-        'checking pump periodically',
-        'replacing water',
-        'winterizing if needed',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'ما أفضل حجر لنافورة؟', a: 'جرانيت أو رخام sealed for water resistance.' },
-    { q: 'كم تكلفة نافورة حجر؟', a: '3000-15000 ريال حسب الحجم.' },
-    { q: 'هل تحتاج كهرباء؟', a: 'نعم، لتشغيل المضخة.' },
-    { q: 'كم يدوم؟', a: '10-20 years with proper maintenance.' },
-    ],
-  },
-  {
-    id: 'stone-floor-heating-medina',
-    primary: 'تدفئة أرضية حجر',
-    keywords: ['تدفئة أرضية حجر', 'underfloor heating', 'حجر طبيعي', 'المدينة المنورة', 'راحة'],
-    intent: 'informational',
-    title: 'تدفئة أرضية حجر (Underfloor Heating) في المدينة المنورة',
-    description: 'كيف تدمج تدفئة أرضية مع تبليط حجر في منازل المدينة المنورة.',
-    category: 'دليل تنفيذي',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'الحجر ينقل الحرارة بفعالية',
-      'استخدم ملاط مقاوم للحرارة',
-      'مراعاة سمك الحجر',
-      'التحكم بالحرارة important',
-    ],
-    ctaHeading: 'تريد تدفئة أرضية بحجر؟',
-    ctaBody: 'نصمم وننفذ تدفئة أرضية مع تبليط حجر في المدينة المنورة.',
-    imagePrompt: 'Underfloor heating pipes beneath stone floor tiles in Medina villa, installation view, warm tone',
-    imageScene: 'أنابيب تدفئة أرضية تحت بلاط حجر في فيلا بالمدينة المنورة',
-    imageTopics: 'تدفئة أرضية,underfloor heating,حجر',
-    related: [],
-    sections: [
-    {
-      h: 'التوافق',
-      p: [
-        'الحجر يوصّل الحرارة جيداً',
-        'رخام and granite الأفضل',
-        'تجنب الحجر سميك جداً',
-        'مراعاة coefficient of expansion',
-      ],
-    },
-    {
-      h: 'التنفيذ',
-      p: [
-        ' installing heating pipes/mats',
-        ' pouring self-leveling compound',
-        ' laying stone tiles',
-        ' using heat-resistant adhesive',
-      ],
-    },
-    {
-      h: 'التحكم',
-      p: [
-        'thermostat for each zone',
-        ' gradual temperature increase',
-        ' avoid thermal shock',
-        ' monitor energy consumption',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'checking system annually',
-        'not drilling into floor',
-        'monitoring for leaks',
-        'keeping temperature moderate',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل حجر مناسب لتدفئة أرضية؟', a: 'نعم، especially marble and granite.' },
-    { q: 'كم تكلفة؟', a: '300-800 ريال/م² including heating system.' },
-    { q: 'كم يستغرق التدفئة؟', a: '30-60 minutes to reach comfortable temperature.' },
-    { q: 'هل آمن؟', a: 'Yes, when installed by professionals.' },
-    ],
-  },
-  {
-    id: 'stone-accent-wall-bedroom-medina',
-    primary: 'جدار مميز حجر غرفة نوم',
-    keywords: ['جدار مميز حجر', 'stone accent wall', 'غرفة نوم', 'المدينة المنورة', 'تصميم'],
-    intent: 'informational',
-    title: 'جدار مميز حجر (Stone Accent Wall) لغرفة نوم في المدينة المنورة',
-    description: 'كيف تختار وتنفذ جدار مميز بحجر في غرفة نوم في المدينة المنورة.',
-    category: 'أفكار وتصميم',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'اختر حجر بملمس دافئ',
-      'مراعاة إضاءة الغرفة',
-      'تجنب ألوان داكنة overwhelming',
-      'الصيانة البسيطة enough',
-    ],
-    ctaHeading: 'تريد جدار مميز بحجر؟',
-    ctaBody: 'نصمم وننفذ جدران مميزة بحجر في المدينة المنورة.',
-    imagePrompt: 'Stone accent wall behind bed in Medina bedroom, natural limestone, warm lighting, cozy interior, no people',
-    imageScene: 'جدار مميز بحجر جيري خلف سرير في غرفة نوم بالمدينة المنورة',
-    imageTopics: 'جدار مميز,stone accent wall,غرفة نوم',
-    related: [],
-    sections: [
-    {
-      h: 'اختيار الحجر',
-      p: [
-        'حجر جيري: دافئ، textured',
-        'رخام: أنيق، but cold',
-        'جرانيت: متين، modern',
-        'تجنب الحجر مفرط gloss',
-      ],
-    },
-    {
-      h: 'التصميم',
-      p: [
-        'وضع خلف السرير',
-        'اختيار إضاءة warm',
-        'مراعاة scale of room',
-        ' mixing textures carefully',
-      ],
-    },
-    {
-      h: 'التثبيت',
-      p: [
-        ' preparing wall surface',
-        ' using lightweight stone veneer',
-        ' proper adhesive',
-        ' leveling each piece',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'dusting regularly',
-        'avoiding harsh cleaners',
-        'checking for loose pieces',
-        're-sealing if needed',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل جدار حجر مناسب لغرفة نوم؟', a: 'نعم، adds warmth and texture.' },
-    { q: 'كم تكلفة؟', a: '150-400 ريال/م² حسب material.' },
-    { q: 'هل يحتاج عزل؟', a: 'Indoor usually no, unless bathroom adjacent.' },
-    { q: 'كم يدوم؟', a: '20-50 years with proper installation.' },
-    ],
-  },
-  {
-    id: 'stone-outdoor-kitchen-medina',
-    primary: 'مطبخ خارجي حجر',
-    keywords: ['مطبخ خارجي حجر', 'outdoor kitchen', 'حجر طبيعي', 'المدينة المنورة', 'فناء'],
-    intent: 'informational',
-    title: 'مطبخ خارجي حجر (Outdoor Kitchen) في المدينة المنورة',
-    description: 'كيف تصمم وتثبت مطبخ خارجي بحجر في فناء منزلك في المدينة المنورة.',
-    category: 'أفكار وتصميم',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'اختر حجر مقاوم للحرارة والرطوبة',
-      'مراعاة تصريف مياه',
-      'استخدم أجهزة مقاومة للطقس',
-      'الصيانة الدورية ضرورية',
-    ],
-    ctaHeading: 'تريد مطبخ خارجي بحجر؟',
-    ctaBody: 'نصمم وننفذ مطابخ خارجية بحجر في المدينة المنورة.',
-    imagePrompt: 'Outdoor stone kitchen in Medina villa patio, granite countertop, built-in grill, natural stone cladding, warm evening light',
-    imageScene: 'مطبخ خارجي بحجر جرانيت في فناء فيلا بالمدينة المنورة مع شواء',
-    imageTopics: 'مطبخ خارجي,outdoor kitchen,حجر',
-    related: [],
-    sections: [
-    {
-      h: 'اختيار الحجر',
-      p: [
-        'جرانيت: مقاوم للحرارة، متين',
-        'رخام: أنيق، but needs care',
-        'حجر جيري: classic، needs sealing',
-        'تجنب الحجر مسامي قرب grill',
-      ],
-    },
-    {
-      h: 'التصميم',
-      p: [
-        'التخطيط for workflow',
-        'مراعاة shade and ventilation',
-        'إضافة storage',
-        'التخطيط for utilities',
-      ],
-    },
-    {
-      h: 'التثبيت',
-      p: [
-        ' preparing base',
-        ' installing countertops',
-        ' sealing all surfaces',
-        ' testing utilities',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'cleaning after use',
-        ' covering when not in use',
-        'checking for cracks',
-        're-sealing annually',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'ما أفضل حجر لمطبخ خارجي؟', a: 'جرانيت مقاوم للحرارة and stains.' },
-    { q: 'كم تكلفة؟', a: '5000-25000 ريال حسب الحجم.' },
-    { q: 'هل يحتاج تغطية؟', a: 'Yes, to protect from weather.' },
-    { q: 'كم يدوم؟', a: '15-30 years with proper care.' },
-    ],
-  },
 
-  {
-    id: 'stone-balcony-cladding-medina',
-    primary: 'كسوة بلكونات حجر',
-    keywords: ['كسوة بلكونات', 'حجر طبيعي', 'المدينة المنورة', 'واجهات', 'شرفات', 'تشطيب', 'تثبيت', 'تصريف'],
-    intent: 'informational',
-    title: 'كسوة بلكونات حجر طبيعي في المدينة المنورة',
-    description: 'كيف تختار كسوة بلكونات حجر طبيعي في المدينة المنورة: مواد وتشطيبات وتثبيت آمن.',
-    category: 'التصميم',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'اختر حجراً مقاوماً للطقس',
-      'أعطِ أولوية للتصريف',
-      'ثبت بمشابك مناسبة',
-      'تجنب الأحجار مسامية',
-    ],
-    ctaHeading: 'محتاج مساعدة في اختيار الخامة؟',
-    ctaBody: 'فريقنا يراجع استخدامك ويقترح الأنسب ضمن ميزانيتك.',
-    imagePrompt: 'Stone balcony cladding Medina, natural limestone balcony railing, warm sunlight, clean design, no people, professional photography',
-    imageScene: 'كسوة بلكونات حجر في المدينة المنورة',
-    imageTopics: 'كسوة بلكونات,stone balcony,المدينة المنورة',
-    related: [],
-    sections: [
-    {
-      h: 'اختيار الحجر',
-      p: [
-        'حجر جيري: مظهر طبيعي',
-        'جرانيت: مقاوم',
-        'تجنب الحجر مسامي',
-        'مراعاة لون المبنى',
-      ],
-    },
-    {
-      h: 'التشطيب',
-      p: [
-        'تشطيب مصقول',
-        'تشطيب خشن',
-        'تشطيب مصقول جزئياً',
-        'تشطيب brushed',
-      ],
-    },
-    {
-      h: 'التثبيت',
-      p: [
-        'تحضير القاعدة',
-        'تسوية السطح',
-        'تثبيت الحجر',
-        'إحكام الفواصل',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'تنظيف منتظم',
-        'فحص الفواصل',
-        'إعادة إحكام عند الحاجة',
-        'تجنب مواد كيميائية قوية',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل حجر البلكونات يتحمل طقس المدينة؟', a: 'نعم، اختر حجراً مقاوماً.' },
-    { q: 'ما أفضل حجر لبلكونات؟', a: 'حجر جيري أو جرانيت.' },
-    { q: 'هل يحتاج صيانة؟', a: 'نعم، تنظيف دوري.' },
-    { q: 'هل إضافة عزل؟', a: 'نعم، حسب التصميم.' },
-    ],
-  },
 
-  {
-    id: 'stone-washbasin-care-medina',
-    primary: 'العناية بمغاسل الحجر',
-    keywords: ['العناية بمغاسل الحجر', 'مغاسل رخام', 'تنظيف', 'المدينة المنورة'],
-    intent: 'informational',
-    title: 'العناية بمغاسل الحجر في المدينة المنورة: دليل عملي',
-    description: 'كيف تنظف وتُعتني بمغاسل الحجر (رخام، جرانيت، ترافرتين) لتجنب البقع والخدوش في مناخ المدينة المنورة.',
-    category: 'دليل الصيانة',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'استخدم صابون متعادل pH لتنظيف المغاسل',
-      'تجنب الأحماض (vinegar, lemon) على الرخام',
-      'جفف المغسلة بعد كل استخدام',
-      'أعد العزل كل 6-12 شهراً',
-    ],
-    ctaHeading: 'تريد تنظيف أو عزل مغسلة حجرك؟',
-    ctaBody: 'نقدم خدمة صيانة مغاسل حجر في المدينة المنورة.',
-    imagePrompt: 'Marble bathroom washbasin with water droplets on surface, soft natural light, clean modern bathroom, professional photography',
-    imageScene: 'مغسلة رخام في حمام مع قطرات ماء على السطح وإضاءة طبيعية ناعمة',
-    imageTopics: 'مغاسل حجر,رخام,عناية',
-    related: [],
-    sections: [
-    {
-      h: 'التنظيف اليومي',
-      p: [
-        'استخدم قماشة ميكروفايبر وصابون متعادل',
-        'Avoid abrasive sponges that scratch',
-        'Rinse thoroughly and dry to prevent water spots',
-        'Never use bleach or ammonia on natural stone',
-      ],
-    },
-    {
-      h: 'البقع الشائعة',
-      p: [
-        'Hard water deposits: use stone-safe cleaner',
-        'Soap scum: weekly deep clean with pH-neutral cleaner',
-        'Rust rings from metal: poultice treatment',
-        'Etching from acids: professional repolish needed',
-      ],
-    },
-    {
-      h: 'العزل (Sealing)',
-      p: [
-        'Test absorption with water drop test',
-        'Apply penetrating sealer every 6-12 months',
-        'Allow 24 hours cure before use',
-        'Wipe excess to avoid hazing',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل يمكن استخدام vinegar لتنظيف مغسلة رخام?', a: 'لا — vinegar حامضي يُسبب etching على رخام. استخدم صابون متعادل فقط.' },
-    { q: 'كم مرة أعيد عزل مغسلة رخام?', a: 'كل 6-12 شهراً حسب الاستخدام. اختبر بقطرة ماء — إن امتصت، أعد العزل.' },
-    { q: 'كيف أزيل بقع صدأ من مغسلة حجر?', a: 'استخدم poultice (معجون) من baking soda وماء، اترك 24 ساعة، ثم امسح. للبقع العنيدة استعن بمتخصص.' },
-    { q: 'هل المغاسل الجرانيت تحتاج عزلاً?', a: 'جرانيت أقل مسامية من رخام، لكن العزل يُطيل عمره. أعد العزل كل 1-2 سنة.' },
-    ],
-  },
-  {
-    id: 'stone-terrace-roof-installation-medina',
-    primary: 'تركيب حجر على أسطح terraces',
-    keywords: ['تركيب حجر على أسطح', 'terrace', 'سطح', 'المدينة المنورة'],
-    intent: 'informational',
-    title: 'تركيب حجر على أسطح Terraces في المدينة المنورة',
-    description: 'دليل تركيب حجر على أسطح terraces و balconies في مناخ المدينة المنورة مع مقاومة الحرارة والرطوبة.',
-    category: 'دليل التركيب',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'استخدم stone pavers بسماكة 30mm+ للأسطح',
-      'أضف slope 1-2% للتصريف',
-      'استخدم mortar مقاوم للحرارة',
-      'أضف waterproofing membrane تحت الحجر',
-    ],
-    ctaHeading: 'تريد تركيب حجر على سطح terrace؟',
-    ctaBody: 'نقدم خدمة تركيب حجر على terraces в المدينة المنورة.',
-    imagePrompt: 'Stone pavers on rooftop terrace with outdoor furniture, Medina skyline view, sunny day, professional photography',
-    imageScene: 'بلاط حجر على سطح terrace مع أثاث خارجي وإطلالة على أفق المدينة المنورة في يوم مشمس',
-    imageTopics: 'terrace,سطح,حجر,المدينة المنورة',
-    related: [],
-    sections: [
-    {
-      h: 'اختيار الحجر',
-      p: [
-        'Granite: best heat resistance and durability',
-        'Travertine: cooler underfoot, good for pools',
-        'Avoid marble: too soft for foot traffic',
-        'Choose textured finish for slip resistance',
-      ],
-    },
-    {
-      h: 'التحضير والتركيب',
-      p: [
-        'Ensure structural load capacity',
-        'Install waterproofing membrane first',
-        'Use polymer-modified mortar',
-        'Maintain 1-2% slope for drainage',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'Seal annually before summer',
-        'Clean with pH-neutral cleaner',
-        'Check grout joints yearly',
-        'Replace cracked pavers promptly',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل حجر terrace يتحمل حرارة Medina?', a: 'جرانيت وترافرتينو يتحملان 50°C+ بسهولة. تجنب الرخام (marble) لأنه يُصبح حاراً ويُخدش.' },
-    { q: 'كم سماكة stone pavers للأسطح?', a: '30mm minimum لل surfaces خفيفة. 50mm لل surfaces with vehicle access.' },
-    { q: 'هل أحتاج waterproofing تحت حجر terrace?', a: 'نعم — membrane ضروري لمنع تسرب الماء إلى المبنى. استخدم sheet or liquid membrane.' },
-    { q: 'كم تكلفة تركيب حجر terrace في Medina?', a: '150-300 ريال/م² حسب نوع الحجر وسماكته. يشمل mortar وwaterproofing.' },
-    ],
-  },
-  {
-    id: 'stone-edge-profiles-medina',
-    primary: 'بروفيلات حافة الحجر',
-    keywords: ['بروفيلات حافة الحجر', 'edge profiles', 'رخام', 'جرانيت', 'المدينة المنورة'],
-    intent: 'informational',
-    title: 'بروفيلات حافة الحجر (Edge Profiles) في المدينة المنورة',
-    description: 'دليل اختيار بروفيلات حافة الحجر (bullnose, ogee, beveled) لرخام وجرانيت المطبخ والحمام.',
-    category: 'دليل التصميم',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'Bullnose: حافة مستديرة، آمنة للأطفال',
-      'Ogee: حافة كلاسيكية، تناسب الديكور التقليدي',
-      'Beveled: حافة مائلة، مظهر عصري',
-      'Eased: حافة مستقيمة with slight rounding',
-    ],
-    ctaHeading: 'تريد اختيار بروفيل حافة لحجرك؟',
-    ctaBody: 'نقدم استشارات تصميم وبروفيلات حافة في المدينة المنورة.',
-    imagePrompt: 'Close-up of granite countertop edge profiles bullnose ogee beveled comparison, workshop lighting, professional photography',
-    imageScene: 'لقطة مقربة لبروفيلات حافة جرانيت (bullnose, ogee, beveled) مقارنة في إضاءة ورشة',
-    imageTopics: 'edge profiles,بروفيلات,جرانيت',
-    related: [],
-    sections: [
-    {
-      h: 'البروفيلات الشائعة',
-      p: [
-        'Bullnose: fully rounded, safe for kids',
-        'Half-bullnose: rounded top, flat bottom',
-        'Ogee: S-shaped curve, classic look',
-        'Beveled: angled cut, modern aesthetic',
-      ],
-    },
-    {
-      h: 'اختيار البروفيل',
-      p: [
-        'Consider user safety (kids, elderly)',
-        'Match overall design style',
-        'Think about maintenance (complex profiles trap dirt)',
-        'Budget: simple profiles cost less',
-      ],
-    },
-    {
-      h: 'التطبيق',
-      p: [
-        'Done at fabrication, not on-site',
-        'Requires CNC router for precision',
-        'Polish after profiling',
-        'Seal edges after installation',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'ما أفضل بروفيل لطبخ العائلات?', a: 'Bullnose or half-bullnose — آمنة (no sharp corners) وسهلة التنظيف.' },
-    { q: 'هل بروفيل ogee يجمع الأوساخ?', a: 'نعم — الشكل S يجمع الأوساخ في الأخدود. نظّف بفرشاة ناعمة.' },
-    { q: 'كم تكلفة بروفيل حافة?', a: '50-150 ريال/متر linear حسب تعقيد البروفيل ونوع الحجر.' },
-    { q: 'هل يمكن تغيير بروفيل بعد تركيب?', a: 'صعب — يتطلب إزالة وإعادة fabrication. اختر بروفيلك before installation.' },
-    ],
-  },
-  {
-    id: 'stone-mosaics-patterns-medina',
-    primary: 'فسيفساء حجر',
-    keywords: ['فسيفساء حجر', 'mosaics', 'أنماط', 'المدينة المنورة'],
-    intent: 'informational',
-    title: 'فسيفساء الحجر (Stone Mosaics) في المدينة المنورة',
-    description: 'دليل فسيفساء الحجر: أنواع، أنماط، تطبيقات، ونصائح تركيب في Medina.',
-    category: 'دليل التصميم',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'فسيفساء حجر: تفاصيل دقيقة لجدران و floors',
-      'متوفرة بأشكال hexagon, penny, subway',
-      'تُركّب on mesh backing for ease',
-      'تتطلب grout دقيق for clean look',
-    ],
-    ctaHeading: 'تريد فسيفساء حجر لمنزلك؟',
-    ctaBody: 'نقدم تصميم وتركيب فسيفساء حجر في Medina.',
-    imagePrompt: 'Stone mosaic tile pattern hexagon marble and travertine mix, close-up view, warm lighting, professional photography',
-    imageScene: 'فسيفساء حجر بنمط hexagon بمزيج رخام وترافرتينو، لقطة مقربة، إضاءة دافئة',
-    imageTopics: 'فسيفساء,mosaics,حجر',
-    related: [],
-    sections: [
-    {
-      h: 'أنواع فسيفساء',
-      p: [
-        'Penny round: classic, suits bathrooms',
-        'Hexagon: modern, geometric',
-        'Subway: versatile, suits kitchens',
-        'Custom patterns: bespoke designs',
-      ],
-    },
-    {
-      h: 'اختيار الحجر',
-      p: [
-        'Marble: elegant, needs sealing',
-        'Travertine: textured, slip-resistant',
-        'Granite: durable, low maintenance',
-        'Mixed: combines colors for contrast',
-      ],
-    },
-    {
-      h: 'التركيب',
-      p: [
-        'Use mesh-backed sheets for speed',
-        'Apply thin-set mortar evenly',
-        'Grout with matching color',
-        'Seal after grout cures (48h)',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل فسيفساء حجر مناسبة ل floors?', a: 'نعم — but choose textured (travertine) for slip resistance. Avoid polished marble on floors.' },
-    { q: 'كم تكلفة فسيفساء حجر?', a: '200-500 ريال/م² حسب نوع الحجر والنمط. التثبيت (installation) يضيف 100-200 ريال/م².' },
-    { q: 'هل فسيفساء حجر سهلة الصيانة?', a: 'Grout lines need periodic cleaning. Seal grout annually to prevent stains.' },
-    { q: 'هل يمكن استخدام فسيفساء حجر في kitchen backsplash?', a: 'نعم — excellent choice. Choose marble or glass-stone mix for visual interest.' },
-    ],
-  },
-  {
-    id: 'stone-lighting-integration-medina',
-    primary: 'دمج الإضاءة مع الحجر',
-    keywords: ['دمج الإضاءة مع الحجر', 'lighting', 'stone', 'المدينة المنورة'],
-    intent: 'informational',
-    title: 'دمج الإضاءة مع الحجر في المدينة المنورة',
-    description: 'كيف تدمج الإضاءة LED مع حجر طبيعي (onix, marble) لإنشاء مظهر فاخر في Medina.',
-    category: 'دليل التصميم',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'Onyx translucent: perfect for backlit panels',
-      'LED strips: warm white (2700-3000K) for stone',
-      'Diffuser: prevents hot spots on surface',
-      'Dimmer: essential for ambiance control',
-    ],
-    ctaHeading: 'تريد دمج إضاءة مع حجرك؟',
-    ctaBody: 'نقدم تصميم وتركيب إضاءة حجر في Medina.',
-    imagePrompt: 'Backlit onyx stone panel with warm LED glow, luxury interior wall, dramatic lighting, professional photography',
-    imageScene: 'لوح onyx مُضاء من الخلف بضوء LED دافئ، جدار داخلي فاخر، إضاءة دراماتيكية',
-    imageTopics: 'onix,إضاءة,حجر,backlit',
-    related: [],
-    sections: [
-    {
-      h: 'الحجارة подходящة لل backlighting',
-      p: [
-        'Onyx: most translucent, stunning glow',
-        'Marble (thin slabs): subtle light diffusion',
-        'Alabaster: soft, warm glow',
-        'Avoid granite: too opaque',
-      ],
-    },
-    {
-      h: 'اختيار الإضاءة',
-      p: [
-        'LED strips: energy efficient, low heat',
-        'Color temperature: 2700-3000K warm white',
-        'CRI 90+: accurate color rendering',
-        'Dimmable drivers for ambiance',
-      ],
-    },
-    {
-      h: 'التركيب',
-      p: [
-        'Mount stone on aluminum frame',
-        'Leave 25-50mm gap for light diffusion',
-        'Use diffuser panel (acrylic) behind stone',
-        'Seal stone edges to prevent light leak',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل onyx يتحمل حرارة LED?', a: 'LED يُنتج حرارة منخفضة جداً — آمن for onyx. تجنب halogen (high heat).' },
-    { q: 'كم تكلفة backlit stone panel?', a: '800-2000 ريال/م² حسب نوع الحجر (onyx) وسماكته. يشمل LED والتركيب.' },
-    { q: 'هل يمكن backlighting رخام (marble)?', a: 'نعم — استخدم slabs 15-20mm thick. thinner = more light transmission.' },
-    { q: 'كم عمر LED خلف الحجر?', a: '50,000+ ساعة (10+ years daily use). استبدل driver if fails, not LEDs.' },
-    ],
-  },
 
-  {
-    id: 'stone-pool-decking-medina',
-    primary: 'تبليط محيط المسبح بالحجر الطبيعي',
-    keywords: ['تبليط محيط المسبح', 'حجر طبيعي حول المسبح', 'أرضيات خارجية مسبح', 'المدينة المنورة'],
-    intent: 'informational',
-    title: 'تبليط محيط المسبح بالحجر الطبيعي في المدينة المنورة',
-    description: 'دليل اختيار وتركيب الحجر الطبيعي حول المسبح: مقاومة الانزلاق، مقاومة الماء والكلور، والتشطيبات المناسبة لمناخ المدينة المنورة.',
-    category: 'دليل التركيب',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'اختر حجراً مقاوماً للانزلاق',
-      'تجنب الحجر الأملس حول المسبح',
-      'استخدم عزلاً مائياً تحت التبليط',
-      'اترك فواصل صرف for الماء',
-    ],
-    ctaHeading: 'تريد تبليط محيط مسبحك؟',
-    ctaBody: 'نقدم خدمة تبليط محيط المسبح بالحجر الطبيعي في المدينة المنورة.',
-    imagePrompt: 'Natural stone pool deck surrounding a swimming pool, textured limestone pavers, sunlit outdoor patio, professional photography',
-    imageScene: 'تبليط حجر طبيعي حول مسبح مع ألواح حجر جيري مسنون في فناء خارجي مشمس',
-    imageTopics: 'مسبح,تبليط,حجر طبيعي',
-    related: [],
-    sections: [
-    {
-      h: 'اختيار الحجر المناسب',
-      p: [
-        'المسبح بيئة رطبة وملحية (كلور)، لذا يتطلب حجراً مقاوماً للانزلاق (coefficient of friction ≥ 0.6).',
-        'أفضل الخيارات: الحجر الجيري مسنون، الترافرتينو فرش، والجرانيت بتشطيب مسنون.',
-        'تجنب الرخام المصقول والجرانيت الأملس — انزلاق خطير.',
-        'اللون الفاتح يقلل امتصاص الحرارة في صيف المدينة المنورة.',
-      ],
-    },
-    {
-      h: 'التحضير والتركيب',
-      p: [
-        'أزل التربة الزراعية واملأ بركام (gravel) + رمل.',
-        'ضع غشاء عزلاً مائياً (waterproof membrane) تحت التبليط.',
-        'ثبّت الألواح على مونة (mortar) بسماكة 3-5 سنتيمتر.',
-        'اترك فواصل 3-5 ملم للتمدد وصرف الماء.',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'اغسل الحجر بضغط ماء (pressure wash) مرة كل 3 أشهر.',
-        'أعد العزل (sealer) كل 12 شهراً.',
-        'أزل الطحالب (algae) فور ظهورها لتجنب الانزلاق.',
-        'تجنب الأحماض (acid cleaners) على الحجر الجيري.',
-      ],
-    },
-    {
-      h: 'أسعار تبليط محيط المسبح',
-      p: [
-        'التكلفة تعتمد على نوع الحجر، مساحة المسبح، والتشطيب.',
-        'الحجر الجيري مسنون أرخص من الترافرتينو.',
-        'العمالة (labour) تشكل 40-50% من التكلفة.',
-        'اطلب عرض سعر مفصلاً (bill of quantities).',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'ما أفضل حجر حول المسبح؟', a: 'الحجر الجيري مسنون (textured limestone) — مقاوم للانزلاق وبارد تحت القدم.' },
-    { q: 'هل يمكن استخدام رخام حول المسبح؟', a: 'الرخام المصقول (polished marble) خطير (انزلاق). الرخام مسنون (honed) مقبول but less durable.' },
-    { q: 'كم تكلفة تبليط محيط مسبح 5×10 م؟', a: 'التكلفة تعتمد على نوع الحجر والتشطيب. اطلب عرض سعر.' },
-    { q: 'كيف أمنع الطحالب على تبليط المسبح؟', a: 'غسل بضغط ماء (pressure wash) + مبيد الطحالب (algaecide) + تهوية.' },
-    ],
-  },
-  {
-    id: 'stone-retaining-walls-medina',
-    primary: 'جدران استنادية حجرية في المدينة المنورة',
-    keywords: ['جدران استنادية', 'حجر طبيعي لجدران التدعيم', 'المدينة المنورة', 'هندسة'],
-    intent: 'informational',
-    title: 'جدران استنادية حجرية في المدينة المنورة: تصميم وتنفيذ',
-    description: 'دليل تصميم وتنفيذ الجدران الاستنادية بالحجر الطبيعي في المدينة المنورة، مع اعتبارات التربة والصرف والارتفاع.',
-    category: 'دليل التركيب',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'استشر مهندساً للجدران فوق 1 متر',
-      'أضف صرف خلف الجدار',
-      'استخدم حجراً متيناً (جرانيت/بازلت)',
-      'اترك فواصل تمدد',
-    ],
-    ctaHeading: 'تريد جداراً استنادياً بالحجر؟',
-    ctaBody: 'نقدم خدمة تنفيذ جدران استنادية بالحجر الطبيعي في المدينة المنورة.',
-    imagePrompt: 'Natural stone retaining wall in garden landscape, stacked limestone blocks, terraced garden, professional photography',
-    imageScene: 'جدار استنادي من حجر طبيعي في حديقة مع كتل حجر جيري مكدسة وحديقة مدرجة',
-    imageTopics: 'جدار استنادي,حجر,حديقة',
-    related: [],
-    sections: [
-    {
-      h: 'متى تحتاج جداراً استنادياً',
-      p: [
-        'لمنع انزلاق التربة في الأراضي المنحدرة.',
-        'لإنشاء مستويات (terraces) في الحديقة.',
-        'لحماية المباني من التربة.',
-        'لتحسين المنظر (aesthetic).',
-      ],
-    },
-    {
-      h: 'اختيار الحجر',
-      p: [
-        'جرانيت وبازلت: أقوى، مقاوم للرطوبة.',
-        'حجر جيري: أرخص، but weaker in wet conditions.',
-        'رخام: not recommended outdoors in heat.',
-        'السماكة ≥ 15 cm for walls over 1 m.',
-      ],
-    },
-    {
-      h: 'الصرف (drainage)',
-      p: [
-        'أضف gravel drainage layer (20-30 cm) behind the wall.',
-        'أنابيب drain (weep holes) every 1-2 m.',
-        'geotextile fabric to prevent soil migration.',
-        'Slope the backfill away from the wall.',
-      ],
-    },
-    {
-      h: 'الارتفاع والهندسة',
-      p: [
-        'جدران ≤ 1 m: dry stack or mortar.',
-        'جدران > 1 m: need engineering + reinforcement.',
-        'check local building codes in Medina.',
-        'consider soil bearing capacity.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'ما أقصى ارتفاع لجدار حجري بدون هندسة؟', a: 'عادةً 1 متر. فوق ذلك، استشر مهندساً.' },
-    { q: 'أي حجر أفضل لجدار استنادي في المدينة المنورة؟', a: 'جرانيت أو بازلت — مقاومان للحرارة والرطوبة.' },
-    { q: 'هل يحتاج الجدار الاستنادي إلى صرف؟', a: 'نعم — الصرف (drainage) ضروري لمنع الضغط المائي (hydrostatic pressure).' },
-    { q: 'كم تكلفة جدار استنادي حجري؟', a: 'تعتمد على الارتفاع، طول الجدار، ونوع الحجر. اطلب عرض سعر.' },
-    ],
-  },
-  {
-    id: 'stone-window-sills-medina',
-    primary: 'عتبات نوافذ حجرية في المدينة المنورة',
-    keywords: ['عتبات نوافذ', 'حجر طبيعي للنوافذ', 'أعتاب', 'المدينة المنورة'],
-    intent: 'informational',
-    title: 'عتبات نوافذ حجرية في المدينة المنورة: أنواع وتركيب',
-    description: 'دليل اختيار وتركيب عتبات نوافذ حجرية (رخام، جرانيت، حجر جيري) في المدينة المنورة، مع مقاومة الطقس والتشطيبات.',
-    category: 'دليل التركيب',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'جرانيت: الأقوى للخارج',
-      'حجر جيري: اقتصادي',
-      'سماكة ≥ 3 cm',
-      'تشطيب مسنون (textured)',
-    ],
-    ctaHeading: 'تريد عتبات نوافذ حجرية؟',
-    ctaBody: 'نقدم خدمة توريد وتركيب عتبات نوافذ حجرية في المدينة المنورة.',
-    imagePrompt: 'Natural stone window sill on building facade, granite sill with drip edge, sunlight, professional photography',
-    imageScene: 'عتبة نافذة من حجر جرانيت على واجهة مبنى مع حافة تصريف وماء',
-    imageTopics: 'عتبات نوافذ,جرانيت,واجهة',
-    related: [],
-    sections: [
-    {
-      h: 'أنواع الحجر للعتبات',
-      p: [
-        'جرانيت: الأقوى، مقاوم للطقس (weather-resistant).',
-        'رخام: جمالي، but etches with rain/acid.',
-        'حجر جيري: اقتصادي، but softer.',
-        'بازلت: dark, modern look.',
-      ],
-    },
-    {
-      h: 'التشطيب (finish)',
-      p: [
-        'مسنون (honed): non-slip, matte.',
-        'مصقول (polished): glossy, slippery when wet.',
-        'فرش (brushed): textured, hides scratches.',
-        'flamed: rough, outdoor-grade.',
-      ],
-    },
-    {
-      h: 'التركيب (installation)',
-      p: [
-        'ثبّت على مونة (mortar) with slight slope for drainage.',
-        'أضف drip edge (lip) to shed water.',
-        'اترك 2-3 mm gap for thermal expansion.',
-        'Seal the joint with silicone.',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'اغسل بضغط ماء (pressure wash) annually.',
-        'أعد العزل (sealer) every 2 years.',
-        'Check for cracks after winter.',
-        'Avoid harsh chemicals.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'ما أفضل حجر لعتبات نوافذ خارجية؟', a: 'جرانيت (granite) — مقاوم للطقس والحرارة.' },
-    { q: 'هل رخام مناسب لعتبات خارجية؟', a: 'الرخام (marble) less durable outdoors — etches with rain/acid. Better indoors.' },
-    { q: 'ما سماكة عتبة نافذة حجرية؟', a: '3-5 cm (30-50 mm) typical.' },
-    { q: 'كيف أمنع تسرب الماء تحت العتبة؟', a: 'أضف drip edge + silicone sealant + slight slope.' },
-    ],
-  },
-  {
-    id: 'stone-garden-benches-medina',
-    primary: 'مقاعد حجرية للحديقة في المدينة المنورة',
-    keywords: ['مقاعد حجر', 'أثاث حديقة حجر', 'المدينة المنورة', 'ديكور خارجي'],
-    intent: 'informational',
-    title: 'مقاعد حجرية للحديقة في المدينة المنورة: تصميم وصيانة',
-    description: 'دليل اختيار وصيانة مقاعد حجرية للحديقة في المدينة المنورة، مع أنواع الحجر والتشطيبات والأسعار.',
-    category: 'دليل الصيانة',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'جرانيت: الأقوى والأسهل صيانة',
-      'تجنب الرخام في الهواء الطلق',
-      'تشطيب مسنون (honed)',
-      'أعد العزل (sealer) annually',
-    ],
-    ctaHeading: 'تريد مقاعد حجرية لحديقتك؟',
-    ctaBody: 'نقدم خدمة توريد مقاعد حجرية في المدينة المنورة.',
-    imagePrompt: 'Natural stone garden bench in outdoor setting, granite bench with smooth top, garden path, professional photography',
-    imageScene: 'مقعد حجر جرانيت في حديقة مع سطح أملس وطريق حديقة',
-    imageTopics: 'مقاعد حجر,حديقة,جرانيت',
-    related: [],
-    sections: [
-    {
-      h: 'أنواع الحجر للمقاعد',
-      p: [
-        'جرانيت: الأقوى، مقاوم للطقس (weather-resistant).',
-        'حجر جيري: اقتصادي، but softer.',
-        'رخام: جمالي but etches outdoors.',
-        'بازلت: dark, modern.',
-      ],
-    },
-    {
-      h: 'التشطيب (finish)',
-      p: [
-        'مسنون (honed): smooth, matte.',
-        'مصقول (polished): glossy, slippery.',
-        'فرش (brushed): textured, hides scratches.',
-        'flamed: rough, outdoor-grade.',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'اغسل بضغط ماء (pressure wash) annually.',
-        'أعد العزل (sealer) every 2 years.',
-        'Check for cracks after winter.',
-        'Avoid harsh chemicals.',
-      ],
-    },
-    {
-      h: 'الأسعار',
-      p: [
-        'التكلفة تعتمد على نوع الحجر والحجم.',
-        'جرانيت: أعلى سعر.',
-        'حجر جيري: أرخص.',
-        'اطلب عرض سعر.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'ما أفضل حجر لمقعد حديقة؟', a: 'جرانيت (granite) — مقاوم للطقس والحرارة.' },
-    { q: 'هل رخام مناسب لمقعد خارجي؟', a: 'الرخام (marble) less durable outdoors — etches with rain/acid. Better indoors.' },
-    { q: 'ما سماكة مقعد حجري؟', a: '5-8 cm (50-80 mm) typical.' },
-    { q: 'كيف أمنع تشقق المقعد الحجري؟', a: 'أضف base support + avoid thermal shock + seal annually.' },
-    ],
-  },
-  {
-    id: 'stone-cladding-columns-medina',
-    primary: 'كسوة أعمدة حجرية في المدينة المنورة',
-    keywords: ['كسوة أعمدة', 'حجر طبيعي للأعمدة', 'المدينة المنورة', 'ديكور'],
-    intent: 'informational',
-    title: 'كسوة أعمدة حجرية في المدينة المنورة: أنواع وتركيب',
-    description: 'دليل اختيار وتركيب كسوة أعمدة حجرية (رخام، جرانيت، ترافرتينو) في المدينة المنورة، مع اعتبارات التصميم والتكاليف.',
-    category: 'دليل التركيب',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'جرانيت: الأقوى',
-      'ترافرتينو: جمالي',
-      'سماكة ≥ 2 cm',
-      'تشطيب مسنون (honed)',
-    ],
-    ctaHeading: 'تريد كسوة أعمدة حجرية؟',
-    ctaBody: 'نقدم خدمة كسوة أعمدة حجرية في المدينة المنورة.',
-    imagePrompt: 'Natural stone column cladding on building facade, travertine veneer on pillar, modern architecture, professional photography',
-    imageScene: 'كسوة عمود حجر ترافرتينو على واجهة مبنى مع هندسة معمارية حديثة',
-    imageTopics: 'كسوة أعمدة,ترافرتينو,واجهة',
-    related: [],
-    sections: [
-    {
-      h: 'أنواع الحجر لكسوة الأعمدة',
-      p: [
-        'جرانيت: الأقوى، مقاوم للطقس (weather-resistant).',
-        'ترافرتينو: جمالي، natural holes.',
-        'رخام: جمالي but etches outdoors.',
-        'حجر جيري: اقتصادي.',
-      ],
-    },
-    {
-      h: 'التشطيب (finish)',
-      p: [
-        'مسنون (honed): smooth, matte.',
-        'مصقول (polished): glossy.',
-        'فرش (brushed): textured.',
-        'flamed: rough, outdoor-grade.',
-      ],
-    },
-    {
-      h: 'التركيب (installation)',
-      p: [
-        'ثبّت على مونة (mortar) or mechanical anchors.',
-        'اترك 2-3 mm gap for thermal expansion.',
-        'Seal the joint with silicone.',
-        'Ensure level plumb.',
-      ],
-    },
-    {
-      h: 'الأسعار',
-      p: [
-        'التكلفة تعتمد على نوع الحجر والارتفاع.',
-        'جرانيت: أعلى سعر.',
-        'حجر جيري: أرخص.',
-        'اطلب عرض سعر.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'ما أفضل حجر لكسوة أعمدة خارجية؟', a: 'جرانيت (granite) — مقاوم للطقس والحرارة.' },
-    { q: 'هل ترافرتينو مناسب لكسوة أعمدة؟', a: 'نعم — ترافرتينو (travertine) جمالي with natural holes, but needs sealing.' },
-    { q: 'ما سماكة كسوة عمود حجري؟', a: '2-3 cm (20-30 mm) typical.' },
-    { q: 'كيف أمنع تشقق الكسوة؟', a: 'أضف mechanical anchors + expansion joints + seal annually.' },
-    ],
-  },
-  {
-    id: 'stone-driveway-paving-medina',
-    primary: 'تبليط ممرات بالحجر الطبيعي',
-    keywords: ['تبليط ممرات', 'حجر طبيعي للممرات', 'المدينة المنورة', 'أرضيات خارجية'],
-    intent: 'informational',
-    title: 'تبليط ممرات بالحجر الطبيعي في المدينة المنورة',
-    description: 'دليل اختيار وتركيب الحجر الطبيعي لتبليط ممرات المركبات في المدينة المنورة، مع مقاومة الحمولة والانزلاق.',
-    category: 'دليل التركيب',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'جرانيت: الأقوى للحمولة',
-      'سماكة ≥ 5 cm',
-      'تشطيب مسنون (textured)',
-      'base gravel + sand',
-    ],
-    ctaHeading: 'تريد تبليط ممر لمركبتك؟',
-    ctaBody: 'نقدم خدمة تبليط ممرات بالحجر الطبيعي في المدينة المنورة.',
-    imagePrompt: 'Natural stone driveway paving with granite pavers, vehicle parked on stone driveway, outdoor, professional photography',
-    imageScene: 'تبليط ممر مركبات بألواح حجر جرانيت مع سيارة متوقفة على أرضية حجرية',
-    imageTopics: 'ممرات,تبليط,جرانيت',
-    related: [],
-    sections: [
-    {
-      h: 'اختيار الحجر للممرات',
-      p: [
-        'جرانيت: الأقوى، يتحمل حمولة المركبات (load-bearing).',
-        'حجر جيري: اقتصادي، but softer — cracks under heavy loads.',
-        'بازلت: dark, durable.',
-        'تجنب الرخام — too soft for driveways.',
-      ],
-    },
-    {
-      h: 'السماكة (thickness)',
-      p: [
-        'ممرات مركبات: ≥ 5 cm (50 mm).',
-        'ممرات مشاة: ≥ 3 cm (30 mm).',
-        ' thicker = more durable + more expensive.',
-        'check load rating (kN/m²).',
-      ],
-    },
-    {
-      h: 'التحضير (base preparation)',
-      p: [
-        'أزل التربة الزراعية (topsoil).',
-        'املأ بركام (gravel) 15-20 cm + رمل (sand) 5 cm.',
-        ' compact with plate compactor.',
-        'Ensure drainage slope (1-2%).',
-      ],
-    },
-    {
-      h: 'التركيب (installation)',
-      p: [
-        'ثبّت الألواح على مونة (mortar) or dry-lay on sand.',
-        'اترك فواصل 3-5 mm for expansion.',
-        'Seal the joints with polymeric sand or mortar.',
-        'Cure for 7 days before heavy use.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'ما أفضل حجر لممر مركبات؟', a: 'جرانيت (granite) — الأقوى، يتحمل حمولة المركبات.' },
-    { q: 'ما سماكة تبليط ممر مركبات؟', a: '≥ 5 cm (50 mm) recommended.' },
-    { q: 'هل يمكن استخدام حجر جيري لممر مركبات؟', a: 'حجر جيري (limestone) softer — may crack under heavy loads. Better for pedestrian paths.' },
-    { q: 'كم تكلفة تبليط ممر 10×3 م؟', a: 'تعتمد على نوع الحجر والسماكة. اطلب عرض سعر.' },
-    ],
-  },
 
-  {
-    id: 'small-bakery-build-riyadh-2026',
-    primary: 'تأجير معدات',
-    keywords: ['تأجير معدات', 'مخبز صغير', 'الرياض', 'معدات بناء', 'أفران'],
-    intent: 'commercial',
-    title: 'تأجير معدات لبناء مخبز صغير (120 م²) في الرياض 2026: التكلفة والجدول والمتطلبات',
-    description: 'دليل المعدات والجدول والتكلفة لبناء مخبز صغير 120 م² في الرياض 2026، مع متطلبات الدفاع المدني وهيئة الغذاء والدواء.',
-    category: 'المشاريع الصغيرة',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'الأعمال المدنية 40-55% من التكلفة',
-      'المولد مطلوب من اليوم الأول حتى التسليم',
-      'الكرين يدخل فقط لرفع الأفران ووحدات التكييف',
-      'تهوية الفرن ومدخنته بند كهرباء منفصل',
-    ],
-    ctaHeading: 'تبني مخبزاً صغيراً في الرياض؟',
-    ctaBody: 'نرسل لك جدول معدات كامل بالأسعار اليومية والأسبوعية والشهرية، مع خطة حجز تمنع المعدة الواقفة.',
-    imagePrompt: 'small bakery construction site in Riyadh, dough mixer and rotary oven being positioned by a compact crane, stainless steel work tables, dusty daylight, workers in hard hats, no text',
-    imageScene: 'مخبز صغير',
-    imageTopics: 'مخبز,معدات مخبز,بناء مخبز',
-    related: ['small-commercial-buildout-riyadh-2026'],
-    sections: [
-    {
-      h: 'لماذا مخبز صغير في الرياض 2026؟',
-      p: [
-        'الاستثمار المبدئي لمخبز تميس أو معجنات صغير في السعودية يتراوح بين 150 ألف و260 ألف ريال شامل رأس المال العامل، وتصل المشاريع الآلية المتوسطة إلى 300-700 ألف ريال (مصدر: بزنس بلدر 2026).',
-        'أكبر بند في التأسيس هو الأفران ومعدات الإنتاج، لكن بند البناء المدني — الحفر والقواعد والتهوية والتمديدات — يتحكم في الجدول الزمني كاملاً.',
-        'فترة الاسترداد المتوقعة 15 إلى 18 شهراً عند بلوغ 150 زبوناً يومياً، لذا كل أسبوع تأخير يكلّف فعلياً.',
-      ],
-    },
-    {
-      h: 'المعدات حسب المرحلة',
-      p: [
-        'المرحلة الأولى: بوبكات وشيول للتسوية وردم الأساس، ثم حفارة 5 طن لحفر القواعد وغرفة التخزين.',
-        'المرحلة الثانية: مضخة خرسانة وخلاطة لصب القواعد، وهزاز خرسانة لكل صب — خرسانة أرضيات المخبز لا تحتمل الفراغات لأنها تُغسل يومياً.',
-        'المرحلة الثالثة: كرين 10-15 طناً لرفع الأفران ووحدات التكييف، ورافعة شوكية 5 طن لتوزيع المعدات داخل المحل.',
-        'المرحلة الرابعة: مولد 50-100 ك.ف.أ كمصدر كهرباء مؤقت طوال المشروع، وسيزر لفت لأعمال التكييف والتمديدات العلوية.',
-      ],
-    },
-    {
-      h: 'الجدول الزمني والتكلفة',
-      p: [
-        'المدة الكلية 14 إلى 20 أسبوعاً: أسبوعان تسوية وحفر، 4 أسابيع قواعد وخرسانة، 6 أسابيع هيكل ومعدات، 4 أسابيع تشطيبات وكهرباء، أسبوعان تشغيل تجريبي وتسليم.',
-        'تكلفة تأجير المعدات 90 ألفاً إلى 160 ألف ريال شاملة النقل والوقود والتأمين، وتمثل 8 إلى 12% من إجمالي تكلفة المشروع.',
-        'أضف 15-25% للنقل والوقود والساعات الإضافية، وقارن 3 عروض مكتوبة قبل التوقيع.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'كم تكلفة تأجير معدات بناء مخبز صغير في الرياض؟', a: 'بين 90 ألفاً و160 ألف ريال شاملة النقل والوقود والتأمين، بحسب مدة المشروع وعدد المعدات.' },
-    { q: 'ما المعدات الأساسية؟', a: 'بوبكات، حفارة 5 طن، مضخة خرسانة وخلاطة، كرين 10-15 طناً، رافعة شوكية 5 طن، مولد 50-100 ك.ف.أ، سيزر لفت، قلابات رمل.' },
-    { q: 'متى أحجز المعدة؟', a: 'قبل أسبوع إلى أسبوعين من الحاجة الفعلية، وتُدفع من يوم دخولها الموقع. المولد استثناء: بعقد شهري من اليوم الأول.' },
-    { q: 'ما أهم اشتراطات المخبز؟', a: 'سجل تجاري ورخصة نشاط عبر منصة بلدي، اشتراطات المخابز والحلويات من وزارة البلديات والإسكان (تهوية وحرارة ومسببات حساسية)، شهادات صحية للعاملين، وشهادة سلامة من الدفاع المدني.' },
-    ],
-  },
-  {
-    id: 'small-laundry-build-riyadh-2026',
-    primary: 'تأجير معدات',
-    keywords: ['تأجير معدات', 'مغسلة ملابس', 'الرياض', 'غسالات تجارية'],
-    intent: 'commercial',
-    title: 'تأجير معدات لبناء مغسلة ملابس صغير (100 م²) في الرياض 2026: التكلفة والجدول والمتطلبات',
-    description: 'دليل المعدات والجدول والتكلفة لبناء مغسلة ملابس 100 م² في الرياض 2026، مع متطلبات البلدية والدفاع المدني ومساحة 48 م² كحد أدنى.',
-    category: 'المشاريع الصغيرة',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'المساحة الدنيا 48 م² بحسب الاشتراطات',
-      'الأرضيات والصرف الصحي أعلى بند مدني',
-      'مياه ساخنة وبخار يعني تمديدات خاصة',
-      'رافعة شوكية لمناولة الغسالات التجارية',
-    ],
-    ctaHeading: 'تبني مغسلة ملابس في الرياض؟',
-    ctaBody: 'نرسل لك جدول معدات كامل بالأسعار اليومية والأسبوعية والشهرية، مع خطة حجز تمنع المعدة الواقفة.',
-    imagePrompt: 'small commercial laundry construction site in Riyadh, industrial washing machines and dryers on a raised concrete plinth, drainage channels in the floor, worker in hard hat, dusty daylight, no text',
-    imageScene: 'مغسلة ملابس صغيرة',
-    imageTopics: 'مغسلة,غسالات تجارية,بناء مغسلة',
-    related: ['small-commercial-buildout-riyadh-2026'],
-    sections: [
-    {
-      h: 'السوق والاشتراطات',
-      p: [
-        'تتراوح تكلفة افتتاح مغسلة ملابس متوسطة في السعودية بين 136 ألفاً و266 ألف ريال بحسب ميزان، بينما تبدأ من 50 ألف ريال بحسب دفترة (مصدر: btaqa 2026).',
-        'المساحة لا تقل عن 48 متراً مربعاً بحسب المصدرين، وتشمل منطقة استقبال ومنطقة غسيل ومنطقة كي وطي ودورات مياه.',
-        'التراخيص: سجل تجاري بنشاط المغسلة عبر وزارة التجارة، ترخيص بلدي عبر منصة بلدي، وتصريح دفاع مدني.',
-      ],
-    },
-    {
-      h: 'المعدات حسب المرحلة',
-      p: [
-        'الحفر والقواعد: حفارة 5 أطنان لحفر قواعد الغسالات الثقيلة وقنوات الصرف، وبوبكات لردم وتسوية الأرضية.',
-        'الخرسانة: مضخة خرسانة لصب قواعد الغسالات (أوزانها تتجاوز 500 كغ للحوض الواحد)، وهزاز خرسانة إلزامي.',
-        'المناولة: رافعة شوكية 5 أطنان لإدخال الغسالات والمجففات ووضعها على قواعدها، وكريان صغير إن كان الدخول من الواجهة.',
-        'الكهرباء والتمديدات: مولد 50 ك.ف.أ كمؤقت، وكمبروسور هواء لاختبار ضغط الأنابيب، وسيزر لفت لتركيب التكييف.',
-      ],
-    },
-    {
-      h: 'الجدول الزمني والتكلفة',
-      p: [
-        'المدة الكلية 12 إلى 18 أسبوعاً: أسبوعان حفر وقواعد، 3 أسابيع أرضيات وصرف، 5 أسابيع تمديدات وكهرباء، 4 أسابيع تركيب معدات وتشطيب، أسبوعان تشغيل وتسليم.',
-        'تكلفة تأجير المعدات 75 ألفاً إلى 130 ألف ريال شاملة النقل والوقود والتأمين.',
-        'أضف 15-25% للنقل والوقود والساعات الإضافية، وقارن 3 عروض مكتوبة.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'كم مساحة مغسلة الملابس الدنيا في السعودية؟', a: '48 متراً مربعاً بحسب ميزان ودفترة، وتُقسّم إلى استقبال وغسيل وكيوَ وطيّ ودورات مياه.' },
-    { q: 'كم تكلفة تأجير المعدات؟', a: 'بين 75 ألفاً و130 ألف ريال شاملة النقل والوقود والتأمين لبناء مغسلة 100 م².' },
-    { q: 'ما المعدات الأساسية؟', a: 'بوبكات، حفارة 5 طن، مضخة خرسانة، رافعة شوكية 5 طن، مولد 50 ك.ف.أ، كمبروسور هواء، سيزر لفت، وقلابات رمل.' },
-    { q: 'ما أهم بند مدني في المغسلة؟', a: 'الأرضيات المائلة وقنوات الصرف — مغسلة تعمل بالماء يومياً، وأي خطأ في الميول يعني مياهاً راكدة ورائحة وشكوى جيران.' },
-    ],
-  },
-  {
-    id: 'small-gas-cylinder-shop-build-riyadh-2026',
-    primary: 'تأجير معدات',
-    keywords: ['تأجير معدات', 'محل اسطوانات غاز', 'الرياض', 'اشتراطات غاز'],
-    intent: 'commercial',
-    title: 'تأجير معدات لبناء محل بيع أسطوانات غاز صغير (400 م²) في الرياض 2026: التكلفة والجدول والمتطلبات',
-    description: 'دليل المعدات والجدول والتكلفة لبناء محل أسطوانات غاز 400 م² في الرياض 2026، مع الاشتراطات البلدية ومسافات الأمان والدفاع المدني.',
-    category: 'المشاريع الصغيرة',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'المساحة الدنيا 400 م² ونسبة بناء قصوى 40%',
-      'سور مصمت 4-4.5 م وبوابة تحميل 6 م',
-      'مسافات أمان 6 م عن مضخات الوقود وفتحات الخزان',
-      'رصفة تتحمل الأوزان الثقيلة (أسفلت/إنترلوك)',
-    ],
-    ctaHeading: 'تبني محل أسطوانات غاز في الرياض؟',
-    ctaBody: 'نرسل لك جدول معدات كامل بالأسعار اليومية والأسبوعية والشهرية، مع خطة حجز تمنع المعدة الواقفة.',
-    imagePrompt: 'small LPG gas cylinder retail shop construction site in Riyadh, solid perimeter wall being built with concrete blocks, forklift moving cylinder pallets, shaded loading bay, dusty daylight, no text',
-    imageScene: 'محل أسطوانات غاز',
-    imageTopics: 'أسطوانات غاز,محل غاز,بناء محل غاز',
-    related: ['fuel-station-small-build-riyadh-2026'],
-    sections: [
-    {
-      h: 'الاشتراطات البلدية والفنية',
-      p: [
-        'محل بيع أسطوانات الغاز على شارع تجاري يتطلب مساحة كلية لا تقل عن 400 م² ومساحة بناء لا تقل عن 200 م² بنسبة بناء قصوى 40% ودور أرضي (مصدر: الاشتراطات البلدية لنشاط بيع أسطوانات الغاز، وزارة البلديات والإسكان).',
-        'داخل مراكز الخدمة تنخفض المساحة الدنيا إلى 40 م² بشرط 6 أمتار عن مضخات الوقود و6 أمتار عن فتحات الخزان و3 أمتار من حدود الملكية.',
-        'سور مصمت من جميع الجهات بارتفاع 4 إلى 4.5 متر، وبوابة تحميل لا يقل عرضها عن 6 أمتار، ويُمنع دخول سيارات المستفيدين داخل المحل.',
-        'مسافات الأمان بين حاويات الغاز والمستخدمات المجاورة تبدأ من 1.5 متر وتصل إلى 7.5 متراً بحسب كمية الغاز المخزنة وكود الحماية من الحرائق (SBC-801).',
-      ],
-    },
-    {
-      h: 'المعدات حسب المرحلة',
-      p: [
-        'التسوية والرصف: بوبكات وشيول لتسوية الأرض، ورصاصة لدمك طبقة الأساس قبل صب الأسفلت أو تركيب الإنترلوك.',
-        'السور والبوابة: خلاطة خرسانة متحركة وبوبكات لبناء السور المصمت، وكرين صغير لتركيب البوابة المعدنية.',
-        'المبنى والتهوية: مضخة خرسانة لصب قواعد المبنى، ورافعة شوكية لمناولة الأسطوانات ومناولة مواد السقف.',
-        'الكهرباء والسلامة: مولد 50 ك.ف.أ مؤقتاً، وكمبروسور هواء لتنظيف الموقع، وسيزر لفت لتركيب الإضاءة والتهوية وميكروفونات الإنذار.',
-      ],
-    },
-    {
-      h: 'الجدول الزمني والتكلفة',
-      p: [
-        'المدة الكلية 10 إلى 16 أسبوعاً: أسبوعان تسوية ورصف، 3 أسابيع سور وبوابة، 4 أسابيع مبنى وتهوية، 3 أسابيع كهرباء وسلامة، أسبوعان تشغيل وترخيص.',
-        'تكلفة تأجير المعدات 70 ألفاً إلى 120 ألف ريال شاملة النقل والوقود والتأمين.',
-        'المقابل المالي لرخصة بيع أسطوانات غاز البترول السائل بالتجزئة 500 ريال يُدفع مرة واحدة قبل منح الرخصة أو تجديدها (مصدر: لائحة النشاط، وزارة الطاقة).',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'ما المساحة الدنيا لمحل بيع أسطوانات الغاز؟', a: '400 م² على شارع تجاري بمساحة بناء دنيا 200 م² ونسبة بناء قصوى 40%، ودور أرضي فقط. وداخل مراكز الخدمة تكفي 40 م².' },
-    { q: 'ما مسافات الأمان المطلوبة؟', a: '6 أمتار عن مضخات الوقود و6 أمتار عن فتحات الخزان و3 أمتار من حدود الملكية داخل مراكز الخدمة، وتبدأ مسافات التخزين من 1.5 متر وتصل إلى 7.5 متراً بحسب الكمية.' },
-    { q: 'كم رسوم الرخصة؟', a: '500 ريال نظير إصدار أو تجديد رخصة بيع أسطوانات غاز البترول السائل بالتجزئة في محلات البيع.' },
-    { q: 'كم تكلفة تأجير المعدات؟', a: 'بين 70 ألفاً و120 ألف ريال شاملة النقل والوقود والتأمين لمحل 400 م².' },
-    ],
-  },
-  {
-    id: 'small-printing-press-build-riyadh-2026',
-    primary: 'تأجير معدات',
-    keywords: ['تأجير معدات', 'مطبعة', 'الرياض', 'معدات طباعة'],
-    intent: 'commercial',
-    title: 'تأجير معدات لبناء مطبعة صغيرة (250 م²) في الرياض 2026: التكلفة والجدول والمتطلبات',
-    description: 'دليل المعدات والجدول والتكلفة لبناء مطبعة صغيرة 250 م² في الرياض 2026، مع متطلبات التهوية والكهرباء الثلاثية ومداخل الشاحنات.',
-    category: 'المشاريع الصغيرة',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'كهرباء ثلاثية الطور 380 فولت للماكينات',
-      'أرضيات مقاومة للاهتزاز والوزن المركّز',
-      'تهوية أحبار ومذيبات بند إلزامي',
-      'مدخل شاحنة وبوابة تحميل للورق',
-    ],
-    ctaHeading: 'تبني مطبعة في الرياض؟',
-    ctaBody: 'نرسل لك جدول معدات كامل بالأسعار اليومية والأسبوعية والشهرية، مع خطة حجز تمنع المعدة الواقفة.',
-    imagePrompt: 'small commercial printing press construction site in Riyadh, large offset printing machine being lowered by a mobile crane onto an anti-vibration concrete plinth, rolls of paper, dusty daylight, no text',
-    imageScene: 'مطبعة صغيرة',
-    imageTopics: 'مطبعة,ماكينة طباعة,بناء مطبعة',
-    related: ['small-commercial-buildout-riyadh-2026'],
-    sections: [
-    {
-      h: 'لماذا المطبعة الصغيرة مشروع مختلف؟',
-      p: [
-        'ماكينة الطباعة الأوفست الواحدة تزن بين 8 و20 طناً وتحتاج قاعدة خرسانية بمواصفات اهتزاز محددة — رفعها وتركيبها هو ذروة المشروع كلها.',
-        'الورق بضاعة ثقيلة: كل بالة ورق بوزن 500 كغ تقريباً، لذا مدخل الشاحنة والبوابة ومنطقة التخزين تُحسب قبل أي تشطيب.',
-        'الأحبار والمذيبات تتطلب تهوية ميكانيكية وطفايات حريق من نوع محدد، وهو ما يرفع بند الكهرباء والتكييف.',
-      ],
-    },
-    {
-      h: 'المعدات حسب المرحلة',
-      p: [
-        'القواعد: حفارة 8-12 طناً لحفر قاعدة الماكينة وصالات التخزين، ومضخة خرسانة لصب قاعدة مقاومة للاهتزاز.',
-        'الرفع: كرين 35-50 طناً لتركيب الماكينة — 4 إلى 6 أيام فقط، فلا تحجزه قبل اكتمال القاعدة واعتماد مخطط الرفع.',
-        'المناولة: رافعة شوكية 5 أطنان لمناولة البالات ولفائف الورق، وبوبكات لتنظيف الموقع.',
-        'الكهرباء والتهوية: مولد 100 ك.ف.أ مؤقتاً، وكمبروسور هواء، وسيزر لفت لتركيب التكييف والتهوية العلوية.',
-      ],
-    },
-    {
-      h: 'الجدول الزمني والتكلفة',
-      p: [
-        'المدة الكلية 14 إلى 22 أسبوعاً: أسبوعان حفر وقواعد، 3 أسابيع هيكل وأرضيات، 6 أسابيع كهرباء وتكييف وتهوية، 4 أسابيع تركيب ماكينات وتشطيب، 3 أسابيع تشغيل وتسليم.',
-        'تكلفة تأجير المعدات 110 ألفاً إلى 190 ألف ريال شاملة النقل والوقود والتأمين.',
-        'راجع بنود عرض السعر (نقل، مشغل، وقود، صيانة، ساعات إضافية) قبل المقارنة بين الموردين.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'كم تكلفة تأجير معدات بناء مطبعة صغيرة؟', a: 'بين 110 ألفاً و190 ألف ريال شاملة النقل والوقود والتأمين لمطبعة 250 م².' },
-    { q: 'ما سعة الكرين المطلوبة لرفع ماكينة الأوفست؟', a: 'بين 35 و50 طناً بحسب موديل الماكينة ومسافة الرفع، ولمدة 4 إلى 6 أيام فقط.' },
-    { q: 'ما أهم متطلب كهربائي؟', a: 'تغذية ثلاثية الطور 380 فولت للماكينات، مع مولد احتياطي 100 ك.ف.أ طوال فترة التنفيذ.' },
-    { q: 'ما المعدات الأساسية؟', a: 'حفارة 8-12 طناً، مضخة خرسانة، كرين 35-50 طناً، رافعة شوكية 5 أطنان، بوبكات، مولد 100 ك.ف.أ، كمبروسور هواء، وسيزر لفت.' },
-    ],
-  },
-  {
-    id: 'small-ice-factory-build-riyadh-2026',
-    primary: 'تأجير معدات',
-    keywords: ['تأجير معدات', 'مصنع ثلج', 'الرياض', 'تبريد'],
-    intent: 'commercial',
-    title: 'تأجير معدات لبناء مصنع ثلج صغير (500 م²) في الرياض 2026: التكلفة والجدول والمتطلبات',
-    description: 'دليل المعدات والجدول والتكلفة لبناء مصنع ثلج صغير 500 م² في الرياض 2026، مع متطلبات التبريد والعزل الحراري والكهرباء.',
-    category: 'المشاريع الصغيرة',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'عزل حراري للجدران والأرضيات بسمك 10-15 سم',
-      'أحمال تبريد عالية تعني محول كهرباء مخصص',
-      'أرضيات مقاومة للانزلاق وقنوات صرف مياه الذوبان',
-      'كرين 30-50 طناً لرفع وحدات التبريد والخزانات',
-    ],
-    ctaHeading: 'تبني مصنع ثلج في الرياض؟',
-    ctaBody: 'نرسل لك جدول معدات كامل بالأسعار اليومية والأسبوعية والشهرية، مع خطة حجز تمنع المعدة الواقفة.',
-    imagePrompt: 'small ice factory construction site in Riyadh, insulated cold room panels being installed on a concrete frame, ammonia refrigeration unit lifted by a mobile crane, forklift with ice blocks, dusty daylight, no text',
-    imageScene: 'مصنع ثلج',
-    imageTopics: 'مصنع ثلج,وحدات تبريد,بناء مصنع',
-    related: ['small-commercial-buildout-riyadh-2026'],
-    sections: [
-    {
-      h: 'لماذا مصنع الثلج مشروع بنية تحتية قبل أن يكون مصنعاً؟',
-      p: [
-        'مصنع الثلج الصغير هو في جوهره غرفة باردة محكمة العزل تعمل على مدار الساعة: أي ضعف في العزل يتحول إلى فاتورة كهرباء دائمة.',
-        'أحمال التبريد ترفع قيمة الكهرباء المطلوبة، لذا محول مخصص أو مولد احتياطي بقدرة 200-400 ك.ف.أ يُحسب من اليوم الأول.',
-        'مياه الذوبان تحتاج قنوات صرف وميول أرضية مائلة — أرضية مستوية تعني مياهاً راكدة ومخالفة بلدية.',
-      ],
-    },
-    {
-      h: 'المعدات حسب المرحلة',
-      p: [
-        'القواعد والخرسانة: حفارة 12-16 طناً لحفر القواعد وقنوات الصرف، ومضخة خرسانة لصب قواعد وحدات التبريد والخزانات.',
-        'الهيكل والعزل: بوبكات وشيول لرفع مونة البناء، ورافعة شوكية لمناولة ألواح العزل الثقيلة.',
-        'رفع الوحدات: كرين 30-50 طناً لتركيب وحدات التبريد والخزانات وصوامع الثلج — 5 إلى 8 أيام فقط.',
-        'الكهرباء والتبريد: مولد 200 ك.ف.أ مؤقتاً، وكمبروسور هواء، وسيزر لفت لتركيب التمديدات العلوية ولوحات التحكم.',
-      ],
-    },
-    {
-      h: 'الجدول الزمني والتكلفة',
-      p: [
-        'المدة الكلية 16 إلى 24 أسبوعاً: أسبوعان حفر وقواعد، 4 أسابيع هيكل وعزل، 6 أسابيع كهرباء وتبريد، 4 أسابيع تركيب معدات وتشطيب، 4 أسابيع تشغيل وتسليم.',
-        'تكلفة تأجير المعدات 130 ألفاً إلى 210 ألف ريال شاملة النقل والوقود والتأمين.',
-        'أضف 15-25% للنقل والوقود والساعات الإضافية، وقارن 3 عروض مكتوبة قبل التوقيع.',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'كم تكلفة تأجير معدات بناء مصنع ثلج صغير؟', a: 'بين 130 ألفاً و210 ألف ريال شاملة النقل والوقود والتأمين لمصنع 500 م².' },
-    { q: 'ما سماكة العزل المطلوبة؟', a: 'بين 10 و15 سنتيمتراً للجدران والأرضيات بحسب درجة التبريد المستهدفة — العزل الأرخص هو الأغلى على المدى الطويل.' },
-    { q: 'ما سعة المولد المؤقت المطلوبة؟', a: 'مولد 200 ك.ف.أ كحد أدنى طوال فترة التنفيذ، مع محول دائم يُحسب من مرحلة التصميم.' },
-    { q: 'ما المعدات الأساسية؟', a: 'حفارة 12-16 طناً، مضخة خرسانة، كرين 30-50 طناً، رافعة شوكية 5 أطنان، بوبكات، شيول، مولد 200 ك.ف.أ، كمبروسور هواء، وسيزر لفت.' },
-    ],
-  },
   {
     id: 'stone-restoration-cleaning-medina',
     primary: 'ترميم وتنظيف حجر',
@@ -11446,386 +8986,2856 @@ export const TOPIC_BANK = [
     ],
   },
 
+
   {
-    id: 'stone-countertop-chip-repair-medina',
-    primary: 'إصلاح شرخ سطح حجر',
-    keywords: ['إصلاح شرخ حجر', 'ترميم سطح', 'المدينة المنورة', 'أسطح'],
+    id: 'marble-bathroom-floors-medina',
+    primary: 'أرضيات رخام الحمامات',
+    keywords: ['أرضيات رخام الحمامات', 'رخام حمامات', 'أرضيات رخام', 'تشطيب حمام', 'المدينة المنورة', 'رخام أرضيات', 'أرضيات حمام فاخرة', 'عزل أرضيات الحمام'],
     intent: 'informational',
-    title: 'إصلاح شرخ سطح حجر (Stone Chip Repair) في المدينة المنورة',
-    description: 'كيف تُصلح شرخاً أو كسراً صغيراً في سطح حجر بالمدينة المنورة، من التنظيف والحشو إلى التلميع، ومتى تحتاج مختصاً.',
-    category: 'العناية بالحجر',
+    title: 'أرضيات رخام الحمامات في المدينة المنورة: الأمان والصيانة',
+    description: 'دليل عملي لأرضيات رخام الحمامات في المدينة المنورة: مقاومة الانزلاق، التشطيب المناسب، والصيانة اليومية للرخام.',
+    category: 'دليل الشراء',
     takeawayTitle: 'أهم ما في هذا المقال',
     takeaways: [
-      'تنظيف الشرخ قبل الحشو',
-      'حشو بلون قريب',
-      'تلميع تدريجي',
-      'إعادة عزل المنطقة',
+      'الرخام اللامع يلمع لكنه ينزلق عند البلل، فاختر تشطيب مضاد للانزلاق في أرضية الحمام.',
+      'سماكة بلاط الأرضية تؤثر في التحمل والعمر لا في المظهر فقط.',
+      'العزل الجيد تحت البلاط يحمي السقف والجيران من تسرب المياه.',
+      'التنظيف اليومي بماء وصابون متعادل أمن من أي منظف حمضي.',
+      'الفواصل العريضة أو الرفيعة قرار يتخذ قبل التركيب لا بعده.',
     ],
-    ctaHeading: 'ظهر شرخ في سطحك؟',
-    ctaBody: 'نرمم الأسطح الحجرية المتشرخة في المدينة المنورة.',
-    imagePrompt: 'Close-up of a small chipped edge on a beige marble countertop being filled with tinted resin by a hand tool on a workbench, workshop background, daylight, sharp focus, professional photography',
-    imageScene: 'إصلاح شرخ صغير في سطح رخام على طاولة عمل',
-    imageTopics: 'إصلاح شرخ,ترميم سطح,شرخ حجر',
+    ctaHeading: 'تريد أرضية حمام رخامية في المدينة المنورة؟',
+    ctaBody: 'راجع استخدامك ومساحة حمامك مع فريقنا، وسيقترح لك التشطيب والسماكة الأنسب دون أي التزام.',
+    imagePrompt: 'Editorial photograph of a bathroom floor in warm beige honed marble tiles with a subtle non-slip texture, a folded cotton towel and a wooden bath brush placed near the edge, soft daylight from a side window, Medina home interior, no people, no text, professional photography, sharp focus',
+    imageScene: 'أرضية حمام ببلاط رخام بيج بتشطيب غير لامع، ومنشفة مطوية وفرشاة خشبية على الحافة، وإضاءة نهارية ناعمة',
+    imageTopics: 'أرضيات رخام, رخام حمامات, تشطيب الحمام, المدينة المنورة, أرضيات',
     related: [],
     sections: [
     {
-      h: 'متى يمكن الإصلاح',
+      h: 'لماذا الرخام في أرضية الحمام',
       p: [
-        'الشروخ الصغيرة في الحواف قابلة للإصلاح بالحشو.',
-        'الشروخ العميقة أو الممتدة تحتاج تقييم مختص.',
-        'لا تُصلح شرخاً يمر تحت سطح غير مستقر.',
+        'الرخام من أكثر خامات الأرضيات تحملاً للرطوبة اليومية في الحمامات، لأنه سطح كثيف لا يمتص الماء بسرعة مثل خامات أخرى، ومع التشطيب المناسب يبقى مستوياً ويسهل كنسه وغسله. في مناخ المدينة المنورة حيث ترتفع الحرارة صيفاً، يمنح الرخام إحساساً بالبرودة تحت القدمين دون أن يتشقق مع الاستخدام المنتظم.',
+        'لكن الرخام ليس خياراً واحداً يصلح لكل حمام؛ فهناك فرق بين الرخام الذي يصلح للجدران وبين ما يتحمل وطء القدم والاحتكاك في الأرضية، والمهم قبل الشراء هو معرفة نسبة الامتصاص والتشطيب المناسب بدل الاكتفاء بشكل اللون أو سماكة اللوح.',
       ],
     },
     {
-      h: 'التحضير والتنظيف',
+      h: 'معايير اختيار أرضية الحمام',
       p: [
-        'نظّف الشرخ من الغبار والشحوم جيداً.',
-        'جفّف المنطقة قبل وضع الحشو.',
-        'احمِ السطح المحيط بشريط لاصق.',
+        'أول معيار هو معامل الاحتكاك، فالأرضية اللامعة قد تنزلق عند تراكم الماء والصابون، لذلك تفضل التشطيبات المضادة للانزلاق مثل التشطيب الخشن أو المصقول جزئياً في أرضيات الحمام الرئيسية. المعيار الثاني هو سماكة البلاط، فالأرضيات تتعرض لصدمات الأثاث والأدوات الثقيلة أكثر من الجدران، والسماكة الأكبر تعني مقاومة أعلى للكسر مع مرور السنوات.',
+        'المعيار الثالث هو مسامية الخامة وسهولة الصيانة؛ فبعض أنواع الرخام بها مسامات دقيقة تظهر مع الزيوت ومستحضرات العناية، ويفضل لمن لا يرغب في صيانة دورية اختيار رخام أقل مسامية أو معالج ضد التبقع. وأخيراً تناسق الدفعة الواحدة، إذ يطلب البلاط من كتلة واحدة لتوحيد درجة اللون واتجاه العروق في كل الأرضية.',
       ],
     },
     {
-      h: 'الحشو والتلميع',
+      h: 'التشطيب والملمس بين اللمعان والأمان',
       p: [
-        'استخدم حشوة بلون قريب من لون الحجر.',
-        'ازل الزيادة ثم صنفر تدريجياً.',
-        'لمّع المنطقة لتطابق التشطيب.',
+        'التشطيب هو ما يحدد ملمس الأرضية وأمانها أكثر من اسم الخامة نفسها. التشطيب اللامع يعكس الضوء ويكبر مساحة الحمام بصرياً، لكنه يحتاج تنظيفاً يومياً وقد يظهر أثر الماء بقعاً إن لم يجفف. التشطيب المصقول جزئياً أو الخشن يقلل الانزلاق ويخفي بصمات الأقدام، وهو الأنسب لحمامات الاستخدام العائلي في المدينة المنورة.',
+        'وينصح بتجربة عينة صغيرة من البلاط قبل الشراء، ووضعها على أرضية مبللة وتجربة الانزلاق عليها بقدم مبلولة، فهذا الاختبار البسيط يكشف الفرق بين تشطيب وآخر أفضل من أي وصف مكتوب على البطاقة.',
       ],
     },
     {
-      h: 'بعد الإصلاح',
+      h: 'التركيب: العزل والفواصل والميل',
       p: [
-        'أعد عزل المنطقة المُصلحة.',
-        'تجنب الحمل الثقيل عليها أيام.',
-        'افحصها دورياً مع الصيانة.',
+        'أرضية الحمام لا تحكم إلا بعزلها؛ فطبقة العزل تحت البلاط تمنع تسرب الماء إلى بلاطة السقف المجاور وتحمي الجيران أسفل الشقة، وتجرى قبل وضع المونة وبعد تسوية الأرضية مباشرة. ويجب أن تفحص ميول الأرضية نحو المصرف قبل التركيب، فالماء الراكد في منتصف الحمام علامة على ميل خاطئ لا يظهر إلا بعد الانتهاء.',
+        'الفواصل بين البلاطات قرار مبكر: فواصل عريضة تعني تنظيفاً أعمق وتكاليف سد أعلى، وفواصل رفيعة تعطي مظهراً أنظف لكنها تتطلب محاذاة دقيقة في التركيب. وينصح بسد الفواصل بمادة مرنة مقاومة للرطوبة والعفن، وإعادة فحصها كل فترة في الحمامات كثيرة الاستخدام.',
+      ],
+    },
+    {
+      h: 'الصيانة اليومية والطويلة',
+      p: [
+        'التنظيف اليومي لأرضية الرخام لا يحتاج أكثر من ماء دافئ وصابون متعادل وممسحة ناعمة، أما المنظفات الحمضية أو الكلور فتتآكل معها طبقة اللمعان وتترك بقعاً باهتة يصعب إصلاحها. وفي حال سال الماء أو وقعت بقعة زيت أو مكياج، تمسح فوراً بدل تركها لتترسب داخل المسامات.',
+        'أما التلميع الدوري فيعاد عند الحاجة فقط، حين يفقد السطح مظهره بعد سنوات من الاستخدام، وينفذ بمواد تلميع مخصصة للحجر الطبيعي لا بالشمع المنزلي الذي يسد المسامات ويجعل الأرضية زلقة. ومع صيانة بسيطة تبقى أرضية الرخام في حمام المدينة المنورة محتفظة بلمعانها لعقود.',
+      ],
+      note: 'اسأل المورد عن نسبة امتصاص الماء ومعامل الاحتكاك لكل خامة قبل الدفع، فهذه الأرقام أصدق من أي وصف تسويقي.',
+      warn: 'لا تستخدم الخل أو الليمون أو أي منظف حمضي على الرخام، فالحمض يأكل كربونات الكالسيوم ويترك بقعاً دائمة.',
+    },
+    ],
+    faq: [
+    { q: 'هل أرضية الرخام آمنة في الحمام مع وجود أطفال؟', a: 'نعم إذا اختير تشطيب مضاد للانزلاق ومعامل احتكاك مرتفع، فالأرضية اللامعة هي الخطر الحقيقي وليس الرخام نفسه. ينصح أيضاً بمسكة مطاطية قرب حوض الاستحمام وتجفيف الأرضية بعد كل استخدام.' },
+    { q: 'كم مرة تحتاج أرضية الرخام إلى تلميع؟', a: 'لا تحتاج تلميعاً دورياً قصيراً؛ تلمعم عند الحاجة فقط حين يفقد السطح مظهره بعد سنوات، وتعاد العملية بمواد تلميع مخصصة للحجر الطبيعي. الاعتناء اليومي بالتنظيف المتعادل يؤجل حاجة التلميع طويلاً.' },
+    { q: 'ما الفرق بين الرخام والجرانيت في أرضية الحمام؟', a: 'الرخام أرق في الملمس وأقل تحملاً للأحماض، بينما الجرانيت أصلب وأقل مسامية وأعلى تحملاً للخدش. في الحمامات الكثيفة الاستخدام يفضل الجرانيت، وفي الحمامات الفاخرة ذات اللمسة الهادئة يبقى الرخام خياراً رائجاً مع تشطيب آمن.' },
+    { q: 'هل يمكن تركيب الرخام فوق بلاط قديم؟', a: 'يمكن أحياناً بعد فحص التصاق البلاط القديم وصلاحية تسويته، لكن الخيار الأضمن هو رفعه وتركيب طبقة جديدة مع عزل كامل، لأن تركيب الرخام فوق قاعدة ضعيفة ينتهي بتشققات مبكرة. اسأل الفني عن حالة الأرضية قبل اتخاذ القرار.' },
+    ],
+  },
+  {
+    id: 'stone-veneer-installation-medina',
+    primary: 'تكسية حجرية',
+    keywords: ['تكسية حجرية', 'تكسية واجهات', 'تثبيت الحجر الطبيعي', 'واجهات حجرية', 'المدينة المنورة', 'حجر تكسية', 'مونة تثبيت', 'تكسية رقيقة'],
+    intent: 'commercial',
+    title: 'تكسية حجرية في المدينة المنورة: دليل التثبيت خطوة بخطوة',
+    description: 'خطوات تثبيت تكسية حجرية في المدينة المنورة: تجهيز السطح، مونة التثبيت، الفواصل، وأشهر الأخطاء التي تفسد الواجهة قبل سنوات.',
+    category: 'التركيب',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'التكسية الحجرية الرقيقة تحتاج سطحاً صلباً ونظيفاً وجافاً قبل أي خطوة.',
+      'جودة التثبيت أهم من ثمن الحجر نفسه في عمر الواجهة.',
+      'اترك فواصل مدروسة بدل لصق الحجر متلاصقاً خوفاً من التشقق.',
+      'التثبيت الميكانيكي لا يغني عن اللصق بالمونة في المناطق المرتفعة.',
+      'التنظيف النهائي فور الانتهاء يوفر إعادة شطف مكلفة لاحقاً.',
+    ],
+    ctaHeading: 'تخطط لتكسية حجرية في المدينة المنورة؟',
+    ctaBody: 'أرسل أبعاد السطح لنا وسيقوم فريقنا بمراجعته وتحديد طريقة التثبيت الأنسب.',
+    imagePrompt: 'Editorial photo of a notched trowel and a rubber mallet resting on stacked natural stone veneer panels on a workbench, bucket of thin-set mortar and a spirit level nearby, workshop background, daylight, no people, no text, professional photography, sharp focus',
+    imageScene: 'مسطرين معجون ومطرقة مطاطية على ألواح تكسية حجرية مكدسة فوق طاولة عمل، ودلو مونة وميزان مياه بجانبها',
+    imageTopics: 'تكسية حجرية, تثبيت الحجر, واجهات حجرية, المدينة المنورة, مونة تثبيت',
+    related: [],
+    sections: [
+    {
+      h: 'ما هي التكسية الحجرية وما الفرق بينها وبين الحجر الكامل',
+      p: [
+        'التكسية الحجرية ألواح رقيقة من الحجر الطبيعي تثبت على جدار مسلح أو سطح صلب لإعطاء مظهر الحجر الكامل بوزن أخف وتكلفة أقل. تستخدم في واجهات الفلل والأسوار والمداخل في المدينة المنورة، وتتراوح سماكتها بحسب الحجر ونوع التثبيت، والاختيار بين التكسية والحجر الكامل يعتمد على ارتفاع الجدار ووجود قاعدة خرسانية مناسبة.',
+        'الفرق الجوهري أن الحجر الكامل يحمل نفسه كجدار إنشائي، بينما التكسية طبقة تجميل تحتاج قاعدة صماء وتثبيتاً مضبوطاً؛ ولهذا فإن نجاح التكسية يقاس بجودة التثبيت لا بشكل الحجر وحده، حتى لا تنفصل الألواح بعد سنوات من التعرض لحرارة المدينة المنورة ومياه الأمطار.',
+      ],
+    },
+    {
+      h: 'تجهيز السطح قبل التثبيت',
+      p: [
+        'قبل فتح أي عبوة مونة يجب فحص السطح جيداً: يغسل من الغبار والأتربة والزيوت، وتصلح الشروخ والشقوق، ثم يترك ليجف تماماً لأن المونة تلتصق بالسطح الجاف لا الرطب. السطح الخرساني القديم يخشن بفرشاة سلك أو مادة تحضير لضمان تشريب المونة مسامه بدل انزلاقها عليه.',
+        'في الأسطح المبنية بالطوب يفضل طبقة بياض محكم أو شبكة معدنية قبل التثبيت، ويجرى اختبار ارتطام صغير للتأكد من عدم وجود فراغات خلف الطبقة القديمة؛ فالفراغ هو السبب الأول لسقوط التكسية الحجرية في الواجهات المكشوفة.',
+      ],
+    },
+    {
+      h: 'المونة وخلطة التثبيت',
+      p: [
+        'مونة التثبيت ليست مونة بناء عادية؛ تستخدم خلطة مخصصة للحجر الطبيعي مقاومة للرطوبة والحرارة، وتعجن بماء نظيف حتى قوام متماسك لا سائل ولا جاف. تفرد المونة بالمسطرين المسنن بطبقة متساوية ثم تضغط الألواح عليها بضغط متجانس من الأسفل إلى الأعلى.',
+        'من الأخطاء الشائعة في المدينة المنورة استخدام رمل البناء العادي أو إضافة ماء زائد لتسهيل العمل، وكلاهما يضعف التلاصق ويظهر في انفصال الألواح بعد أول شتاء. الأفضل الالتزام بنسب الخلطة المكتوبة على العبوات وتقليبها جيداً قبل الاستخدام.',
+      ],
+      steps: [
+        ['تنظيف السطح', 'غسل السطح وتجفيفه وإصلاح الشروخ'],
+        ['تحضير المونة', 'عجن الخلطة بالماء النظيف حتى قوام متماسك'],
+        ['فرد المونة', 'توزيعها بالمسطرين المسنن بطبقة متساوية'],
+        ['تركيب الألواح', 'ضغط اللوح من الأسفل للأعلى وضبط المستوي'],
+        ['تنظيف الفواصل', 'إزالة المونة الزائدة قبل أن تجف'],
+      ],
+    },
+    {
+      h: 'الفواصل والتمدد الحراري',
+      p: [
+        'الحجر الطبيعي يتمدد وينكمش مع حرارة شمس المدينة المنورة وليل الشتاء، لذا لا يثبت متلاصقاً أبداً بل تترك فواصل مدروسة بين الألواح تمتص هذا التمدد. عرض الفاصل يتحدد بنوع الحجر ومساحة السطح، ويعالج بمادة سد مرنة مقاومة للماء والعفن بدل المونة الجافة التي تتشقق مع أول موسم.',
+        'في الزوايا والمقابلات مع الألمنيوم والزجاج تترك فواصل أوسع قليلاً لأن المواد تتمدد بنسب مختلفة، وإهمال هذه النقطة ينتج ضغطاً يسبب تكسر حواف الحجر أو انفصال الألواح عند الأطراف.',
+      ],
+    },
+    {
+      h: 'التثبيت الميكانيكي واللصق معاً',
+      p: [
+        'في الواجهات المرتفعة أو الأسطح المعرضة للرياح يستخدم التثبيت الميكانيكي بمسامير أو قطع تثبيت معدنية مقاومة للصدأ إضافة إلى اللصق بالمونة، فالنظامان متكاملان لا بديل أحدهما عن الآخر. تثبت الحلقات المعدنية في الجدار ثم يربط الحجر بها مع مونة في الخلف، وتفحص كل قطعة قبل الانتقال للتي تليها.',
+        'يجب أن تكون أدوات التثبيت من معدن لا يصدأ ولا يترك بقعاً سوداء على الحجر مع مياه الأمطار، وتدهن نقاط التثبيت بمادة عازلة لمنع الصدأ من الانتشار داخل مسام الحجر الطبيعي وفساد مظهر الواجهة مع الوقت.',
+      ],
+      warn: 'لا تثبت التكسية الحجرية في حرارة الظهيرة العالية مباشرة، فالشمس القوية تجفف المونة بسرعة وتضعف تلاصقها.',
+    },
+    ],
+    faq: [
+    { q: 'ما الفرق بين التكسية الحجرية والحجر الكامل؟', a: 'التكسية ألواح رقيقة تثبت على جدار قائم لإعطاء مظهر الحجر بوزن أقل وتكلفة أخف، بينما الحجر الكامل جدار إنشائي بحد ذاته. التكسية تحتاج قاعدة صلبة وتثبيتاً مضبوطاً، واختيار أحدهما يعتمد على ارتفاع الجدار ونوع القاعدة الموجودة في موقعك.' },
+    { q: 'هل يمكن تركيب التكسية الحجرية على جدار قديم؟', a: 'يمكن بعد فحص التصاق الطبقة القديمة وصلاحيتها، فيخشن السطح أو يضاف شبكة معدنية ثم يثبت الحجر بمونة مخصصة. أما إذا كانت الطبقة القديمة متقشرة أو مجوفة فيجب إزالتها وإعادة التحضير، وإلا سقطت التكسية مع أول تبدل حراري.' },
+    { q: 'كم يستغرق تركيب التكسية الحجرية؟', a: 'المدة تتحدد بمساحة السطح وارتفاعه وحالة الجدار وطاقم العمل، فلا رقم ثابت ينطبق على كل مشروع. الأهم أن يخصص الفريق وقتاً كافياً لتجهيز السطح وتجفيف المونة، فالتسرع في هذه المراحل هو ما يسبب المشاكل لاحقاً.' },
+    { q: 'ما علامة فشل التثبيت المبكر؟', a: 'من العلامات صوت فراغ عند النقر على اللوح، أو ظهور خطوط مونة متشققة عند الحواف، أو انفصال خفيف عند زاوية اللوح. عند ملاحظة أي منها يعاد فحص التثبيت فوراً قبل اكتمال باقي السطح، فالإصلاح المبكر أبسط بكثير من إعادة الواجهة كاملة.' },
+    ],
+  },
+  {
+    id: 'stone-wall-cladding-medina',
+    primary: 'تكسية جدران',
+    keywords: ['تكسية جدران', 'حجر جدران داخلي', 'واجهات داخلية', 'المدينة المنورة', 'ديكور حجر', 'جدار حجري', 'تصميم جدران'],
+    intent: 'informational',
+    title: 'تكسية جدران في المدينة المنورة: خيارات وأفكار حجرية',
+    description: 'أفكار تكسية جدران بالحجر الطبيعي في المدينة المنورة: الجدار الرئيسي، المدخل، والمجلس، مع خيارات التشطيب والتنفيذ الصحيح.',
+    category: 'التصميم',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'جدار حجري واحد يكفي لتعريف هوية المكان، والباقي يترك هادئاً.',
+      'اختر الحجر بحسب إضاءة الغرفة ومساحتها لا بحسب شكله وحده.',
+      'الفواصل الداكنة تعطي إيقاعاً هندسياً، والفواصل الفاتحة تذيب الحدود.',
+      'الإضاءة الغاطسة تبرز نسيج الحجر أكثر من الإضاءة المباشرة.',
+      'احم الحجر من الشمس المباشرة ليبقى لونه زاهياً مع السنين.',
+    ],
+    ctaHeading: 'تفكر في جدار حجري في بيتك؟',
+    ctaBody: 'صمّم معنا جدارك الحجري واختر الخامة والتشطيب المناسبين لإضاءة غرفتك في المدينة المنورة.',
+    imagePrompt: 'Editorial interior photo of a living room feature wall in stacked natural stone cladding in warm beige tones, a low sofa with neutral cushions in front, recessed warm lighting grazing the stone texture, Medina home interior, no people, no text, professional photography, sharp focus',
+    imageScene: 'جدار رئيسي بكسوة حجر طبيعي بنقشة متراصة بدرجات البيج الدافئ، وأريكة منخفضة أمامه وإضاءة مخفية تبرز نسيج الحجر',
+    imageTopics: 'تكسية جدران, جدار حجري, ديكور داخلي, المدينة المنورة, حجر طبيعي',
+    related: [],
+    sections: [
+    {
+      h: 'أين يوضع الجدار الحجري في البيت',
+      p: [
+        'الجدار الحجري يعمل قطباً جاذباً في المكان، والأفضل أن يوضع على جدار رئيسي يرى من مدخل المجلس أو غرفة المعيشة، فيحدد هوية الفراغ من غير أن يثقل عليه. من الأخطاء الشائعة تكسية كل جدران الغرفة بالحجر، فيتحول البيت إلى قاعة باردة وضاغطة بدل أن يكون مريحاً؛ يكفي جدار واحد والباقي يترك بطلاء هادئ أو خشب.',
+        'أما في المدن ذات الحرارة العالية مثل المدينة المنورة فيستثمر الحجر في الجدران الداخلية المحمية من الشمس المباشرة، لأن التعرض الطويل لأشعة الشمس يبهت بعض الخامات ويغير لونها مع السنين، بينما يبقى الجدار الداخلي محتفظاً بلونه الطبيعي.',
+      ],
+    },
+    {
+      h: 'خيارات الحجر وتشطيباته للجدران',
+      p: [
+        'تتعدد الخيارات بين الحجر المقطوع اليدوي الذي يعطي مظهراً ريفياً دافئاً، والحجر المنشور الآلي الذي يعطي سطحاً مستوياً وإيقاعاً هندسياً واضحاً، والحجر الراكب على شكل شرائح رقيقة الذي يناسب الجدران الطويلة. ولكل خامة تشطيبات: الخشن يبرز النسيج ويعطي احتكاكاً آمناً، والمصقول يعكس الضوء ويكبر الغرفة بصرياً، والمصقول جزئياً يجمع بين المظهر واللمعان الهادئ.',
+        'ينصح عند الشراء بطلب عينات كبيرة نسبياً من الخامة الواحدة ورؤيتها في إضاءة البيت نفسه لا في معرض الإضاءة التجارية، فالفرق بين الإضاءتين كبير وقد يغير القرار بالكامل.',
+      ],
+      table: {
+        head: [
+          'نوع الحجر',
+          'المظهر',
+          'الاستخدام الأنسب',
+        ],
+        rows: [
+          [
+            'حجر مقطوع يدوي',
+            'ريفي دافئ',
+            'مجالس ومداخل',
+          ],
+          [
+            'حجر منشور آلي',
+            'هندسي مستوٍ',
+            'جدران طويلة',
+          ],
+          [
+            'شرائح رقيقة',
+            'عصري خفيف',
+            'واجهات داخلية',
+          ],
+        ],
+      },
+    },
+    {
+      h: 'الفواصل والتناسق والألوان',
+      p: [
+        'الفواصل بين قطع الحجر ليست فراغاً ثانوياً بل عنصر تصميمي كامل؛ فواصل داكنة تعطي إيقاعاً هندسياً وتخفي تفاوت سماكات القطع، وفواصل فاتحة تذيب الحدود بين الحجر وتجعل الجدار يبدو كقطعة واحدة. يختار المصمم لون الفواصل ليتناغم مع لون الحجر من العينات نفسها لا من ذاكرته.',
+        'تناسق توزيع القطع يبدأ قبل التثبيت برسم توزيع على الورق أو بشريط لاصق على الجدار، لتفادي خروج قطعة صغيرة مزعجة بجانب الأبواب أو أسفل الحائط مباشرة. هذه الخطوة البسيطة هي الفرق بين جدار يبدو مصمماً وجدار يبدو مرتجلاً.',
+      ],
+    },
+    {
+      h: 'الإضاءة وإبراز النسيج',
+      p: [
+        'الإضاءة هي ما يحرك الجدار الحجري من سطح عادي إلى عنصر مبهر؛ فالإضاءة الغاطسة أو الشرائط المخفية التي تنعكس على الحجر بزاوية تملأ الفراغات بين القطع وتبرز نسيجها الطبيعي. أما الإضاءة المباشرة من الأمام فتسطح النسيج وتظهر عيوب السطح أكثر مما تجمله.',
+        'ينصح بتوزيع نقاط الإضاءة قبل التثبيت لأن تعديل مكانها بعد إكمال الجدار صعب ومكلف، ويستحسن تجربة مصباح محمول على الجدار من زوايا مختلفة قبل تثبيت أي شيء نهائي.',
+      ],
+    },
+    {
+      h: 'تنفيذ الجدار وصيانته',
+      p: [
+        'يبدأ التنفيذ بتحضير الجدار وتسويته، ثم تثبيت الحجر بمونة مخصصة مع مراعاة المحاذاة بمسطرة مستوية في كل صف، وتنظف الفواصل فور الانتهاء قبل أن تجف المونة عليها. الجدار الحجري الداخلي لا يحتاج عزل مياه بل يحتاج تثبيتاً مضبوطاً وتهوية طبيعية للحجر ليجف خلفه.',
+        'صيانة الجدار الداخلي تقتصر على كنس الغبار بفرشاة ناعمة وتنظيفه بقطعة قماش جافة من حين لآخر، وتجنب رش الماء مباشرة على الحجر لأن الرطوبة قد تترك أثراً على بعض الخامات المسامية. ومع الاعتناء البسيط يبقى الجدار في المدينة المنورة محتفظاً بمظهره لعقود طويلة.',
+      ],
+      note: 'اطلب من المورد عينات من الحجر بنفس رقم الدفعة التي ستشترى، فاختلاف الدفعات يغير درجة اللون.',
+    },
+    ],
+    faq: [
+    { q: 'هل تكسية الجدران بالحجر مناسبة للمجالس؟', a: 'نعم، الحجر الطبيعي من أنسب خامات المجالس لأنه يتحمل الاستخدام ويكبر إحساس المكان بالفخامة دون صيانة معقدة. يفضل وضعه على الجدار الرئيسي أو حول المدفأة أو التلفاز، وترك بقية الجدران بطلاء هادئ حتى لا يثقل المجلس بصرياً.' },
+    { q: 'هل يتغير لون الحجر مع الوقت في المدينة المنورة؟', a: 'الحجر الداخلي المحمي من الشمس والمطر لا يتغير لونه غالباً، أما الحجر الخارجي المكشوف فقد يبهت أو يغمق مع السنين بحسب الخامة. يستحسن اختيار خامات كثيفة للواجهات والساحات، وسؤال المورد عن سلوك الخامة تحت أشعة الشمس قبل الشراء.' },
+    { q: 'كيف أختار لون الفواصل؟', a: 'القاعدة البسيطة أن تتناسق الفواصل مع لون الحجر نفسه: حجر فاتح بفواصل رمادية فاتحة، وحجر داكن بفواصل داكنة أو عاجية. وينصح بتجربة لونين على عينة حجر قبل التثبيت، لأن لون الفواصل يغير إيقاع الجدار بالكامل.' },
+    { q: 'ما السماكة المناسبة للحجر في الجدران الداخلية؟', a: 'سماكة الحجر في الجدران الداخلية أخف من الخارجية، وتكفي السماكات الرقيقة المخصصة للاستعمال الداخلي لأنها تخفف الحمل على الجدار. الأهم أن تكون السماكة متساوية في الدفعة الواحدة لتفادي بروز بعض القطع على سطح الجدار.' },
+    ],
+  },
+  {
+    id: 'stone-kitchen-backsplash-medina',
+    primary: 'تكسية مطبخ',
+    keywords: ['تكسية مطبخ', 'تكسية جدار المطبخ', 'حجر طبيعي للمطبخ', 'المدينة المنورة', 'رخام مطبخ', 'جرانيت مطبخ', 'تشطيب المطبخ', 'عزل حوائط المطبخ'],
+    intent: 'commercial',
+    title: 'تكسية مطبخ بالحجر الطبيعي في المدينة المنورة: خيارات وتنفيذ',
+    description: 'دليل تكسية مطبخ بالحجر الطبيعي في المدينة المنورة: الخامات المناسبة، التخطيط خلف الموقد والحوض، وطريقة العزل والتنظيف اليومي.',
+    category: 'التصميم',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'المنطقة خلف الموقد تحتاج حجراً كثيفاً لا يتشقق بالحرارة ولا يمتص الدهون.',
+      'التشطيب اللامع يسهل المسح، والمصقول يخفي بصمات الاستخدام.',
+      'قس المساحة مرتين قبل الطلب، فالحجر لا يقطع بعد التثبيت بسهولة.',
+      'الفواصل القليلة العريضة تعني تنظيفاً أسرع خلف الموقد.',
+      'مونة مقاومة للحرارة تحمي التكسية من تشقق الحواف مع الوقت.',
+    ],
+    ctaHeading: 'تريد تكسية مطبخ عملية وجميلة؟',
+    ctaBody: 'قم بتقييم مطبخك معنا واختر الخامة والتشطيب المناسبين للاستخدام اليومي في المدينة المنورة.',
+    imagePrompt: 'Editorial photo of a kitchen backsplash in natural stone tiles behind a cooktop, a stainless steel pot on the burner and a wooden spatula resting on a stone countertop, warm kitchen light, Medina home interior, no people, no text, professional photography, sharp focus',
+    imageScene: 'تكسية جدار خلف موقد مطبخ ببلاط حجر طبيعي، وقدرة معدنية على الموقد وملعقة خشبية على سطح حجري',
+    imageTopics: 'تكسية مطبخ, حجر مطبخ, تشطيب المطبخ, المدينة المنورة, رخام',
+    related: [],
+    sections: [
+    {
+      h: 'لماذا تكسية المطبخ بالحجر',
+      p: [
+        'المنطقة خلف الموقد والحوض هي أكثر أماكن المطبخ عرضة للدهون والماء والبخار، ولهذا تحتاج سطحاً تنظيفه سهل ولا يمتص الزيوت ولا يتشقق بالحرارة. الحجر الطبيعي يلبي هذا الشرط حين يختار بعناية، ويعطي المطبخ مظهراً دافئاً يواكب تصاميم المطابخ في المدينة المنورة بين الفخامة والبساطة.',
+        'لكن ليس كل حجر يصلح للمطبخ: الرخام الفاتح الجميل قد يمتص الزيوت ويظهر بقعاً مع الاستخدام اليومي، بينما الجرانيت الكثيف والترافرتينو المعالج يخدمان الاستعمال القاسي بشكل أفضل. القرار الصحيح يبدأ من معرفة عادات الطبخ في البيت قبل الذهاب إلى المعرض.',
+      ],
+    },
+    {
+      h: 'الخامات الأنسب خلف الموقد والحوض',
+      p: [
+        'الجرانيت من أقوى الخيارات لخلف الموقد لأنه كثيف ومقاوم للخدش والحرارة، ولا يمتص الزيوت بسرعة، ويتوفر بألوان فاتحة وداكنة تناسب أغلب المطابخ. الرخام يعطي مظهراً فخماً لكنه أضعف أمام الأحماض والزيوت، ويحتاج عناية دورية، فيناسب الجدران البعيدة عن الموقد أكثر من المنطقة الملاصقة له.',
+        'الترافرتينو خيار جميل للمطابخ ذات الطابع الهادئ، لكن مساماته المفتوحة تحتاج سد ومعالجة قبل الاستخدام لتفادي التبقع، والحجر الجيري الداكن الملمس يخفي بصمات الاستخدام ويمنح المطبخ شخصية قوية مع التشطيب المناسب.',
+      ],
+      table: {
+        head: [
+          'الخامة',
+          'مقاومة الزيوت',
+          'الأنسب',
+        ],
+        rows: [
+          [
+            'جرانيت',
+            'عالية',
+            'خلف الموقد',
+          ],
+          [
+            'رخام',
+            'متوسطة',
+            'جدران المطبخ العامة',
+          ],
+          [
+            'ترافرتينو',
+            'متوسطة بعد السد',
+            'مظهر هادئ',
+          ],
+        ],
+      },
+    },
+    {
+      h: 'التخطيط والقياس قبل الطلب',
+      p: [
+        'يبدأ التخطيط بقياس المنطقة خلف الموقد والحوض بدقة، وتسجيل مواضع الأفياش والفتحات والتوصيلات لأن الحجر بعد التثبيت لا يقطع بسهولة في مكانه. ويؤخذ في الاعتبار ارتفاع التكسية: فمن الشائع تغطية كامل الفراغ من سطح العمل إلى الخزائن العلوية، ومن الشائع أيضاً الاكتفاء بشريط خلف الموقد فقط.',
+        'وينصح برسم التوزيع على ورق قبل الشراء لمعرفة عدد القطع ومواضع القطع الصغيرة، فالتخطيط الجيد يمنع ظهور شريط حجر ضيق بجانب الخزانة أو في الزاوية، ويخفض الهدر في الخامة عند القطع.',
+      ],
+    },
+    {
+      h: 'التنفيذ والتثبيت',
+      p: [
+        'يثبت الحجر بمونة مخصصة مقاومة للحرارة والرطوبة، وتفرد بطبقة متساوية ثم يضغط كل لوح بضغط متجانس مع ضبط المستوي بمسطرة. وتستخدم فواصل محدودة العرض قدر الإمكان خلف الموقد، لأن الفواصل الكثيرة تتسخ بالدهون ويصعب تنظيفها مع الوقت.',
+        'بعد الانتهاء تنظف الفواصل من المونة الزائدة قبل أن تجف، ثم تسد بمادة مرنة مقاومة للعفن والرطوبة، وتترك التكسية لتجف تماماً قبل استخدام الموقد. وينصح بفحص الحواف عند التقاء الحجر مع الخشب أو الألمنيوم وإحكامها بمادة سد نظيفة لا تترك أثراً أسود مع الدهون.',
+      ],
+    },
+    {
+      h: 'التنظيف وحماية التكسية',
+      p: [
+        'تنظيف تكسية المطبخ اليومي لا يحتاج أكثر من قطعة قماش مبللة بماء دافئ وصابون متعادل، وتجفف بعد المسح لتفادي ترسب الأملاح على الحجر مع تكرار الاستخدام. أما الدهون المتراكمة خلف الموقد فتزال بمغاطس مخصصة للحجر الطبيعي لا بالمواد الكاشطة التي تخدش السطح وتفتح مسامه.',
+        'مع مرور الوقت قد تفقد التكسية لمعانها في المنطقة الملاصقة للموقد، وحينها يعاد تلميعها بمواد مخصصة أو تعالج الفواصل مجدداً. الاعتناء البسيط اليومي هو ما يبقي تكسية المطبخ في المدينة المنورة تبدو جديدة بعد سنوات من الاستخدام.',
+      ],
+      warn: 'لا تستخدم الصودا أو الكلور أو المنظفات الحمضية على الرخام في المطبخ، فهي تترك بقعاً باهتة يصعب إصلاحها.',
+    },
+    ],
+    faq: [
+    { q: 'ما أفضل خامة للمنطقة خلف الموقد؟', a: 'الجرانيت الكثيف هو الأنسب خلف الموقد لمقاومته العالية للحرارة والخدش والزيوت، ويخدم الاستخدام اليومي الشاق لسنوات دون صيانة معقدة. الرخام جميل لكنه أضعف أمام الأحماض ويحتاج عناية أكبر، فيناسب الجدران البعيدة عن الموقد.' },
+    { q: 'هل تكسية المطبخ تمتص الروائح؟', a: 'الحجر الكثيف مثل الجرانيت لا يمتص الروائح ولا يتأثر ببخار الطبخ، أما الخامات المسامية فيفضل سد مساماتها ومعالجتها قبل الاستخدام. عموماً الصيانة اليومية بالتنظيف المتعادل تمنع تراكم الروائح مهما كانت الخامة.' },
+    { q: 'كيف أنظف الدهون المتراكمة خلف الموقد؟', a: 'تستخدم مغاطس أو منظفات مخصصة للحجر الطبيعي غير كاشطة، وتترك قليلاً ثم تمسح بقطعة قماش ناعمة وتشطف بماء دافئ. ينصح بعدم ترك الدهون تتصلب لأن إزالتها لاحقاً تحتاج فركاً قد يخدش سطح الحجر أو يبهت لمعانه.' },
+    { q: 'هل يمكن تركيب تكسية المطبخ فوق بلاط قديم؟', a: 'يمكن أحياناً إذا كان البلاط القديم ثابتاً وملتصقاً جيداً، فيخشن سطحه بمادة تحضير ثم تثبت التكسية بمونة مخصصة. لكن إذا كان البلاط متقشراً أو فارغاً فيجب إزالته لأن التثبيت فوقه يسقط مع الوقت، ويكون الإصلاح حينها أعقد وأعلى تكلفة.' },
+    ],
+  },
+  {
+    id: 'stone-staircase-design-medina',
+    primary: 'تصميم سلالم',
+    keywords: ['تصميم سلالم', 'سلالم رخام', 'سلالم حجر طبيعي', 'المدينة المنورة', 'درجات رخام', 'سلالم داخلية', 'تشطيب سلالم'],
+    intent: 'informational',
+    title: 'تصميم سلالم في المدينة المنورة: خيارات وتنفيذ حجرية',
+    description: 'أفكار تصميم سلالم في المدينة المنورة: الرخام مقابل الجرانيت، سماكة الدرجات، المعالجة المضادة للانزلاق، وتنفيذ الفواصل.',
+    category: 'التصميم',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'الدرجة الرخامية اللامعة جميلة لكنها تحتاج تشطيباً مضاداً للانزلاق.',
+      'سماكة الدرجات وثقل الحجر يحتاجان هيكلاً حاملاً لا تكتفي بالمونة.',
+      'فواصل الدرجات تحسب قبل التصنيع لا بعده.',
+      'الإضاءة المخفية تحت العوارض تضيف أماناً ومظهراً في الممرات.',
+      'حواف الدرجات تشطف بزاوية خفيفة لمنع تكسر الزوايا.',
+    ],
+    ctaHeading: 'تخطط لتصميم سلم حجري في بيتك؟',
+    ctaBody: 'استشر فريقنا في اختيار الخامة والسماكة والتشطيب الأنسب لسلم بيتك في المدينة المنورة.',
+    imagePrompt: 'Editorial photo of an indoor stone staircase with honed marble steps and a dark stone nosing edge, soft light from a side window, a slim metal handrail, Medina villa interior, no people, no text, professional photography, sharp focus',
+    imageScene: 'سلم داخلي بدرجات رخامية بتشطيب غير لامع وحافة درجة داكنة، ودرابزين معدني رفيع وإضاءة جانبية ناعمة',
+    imageTopics: 'تصميم سلالم, سلالم رخام, درجات حجر, المدينة المنورة, تشطيب سلالم',
+    related: [],
+    sections: [
+    {
+      h: 'الرخام أم الجرانيت للدرجات',
+      p: [
+        'الدرجات أكثر عناصر السلم تعرضاً للاحتكاك والصدمات، ولهذا يقارن الكثيرون بين الرخام والجرانيت قبل الاختيار. الجرانيت أصلب وأكثر تحملاً للخدش وأقل مسامية، فيصلح للسلالم المشتركة والمداخل المزدحمة، والرخام يعطي مظهراً أرقى ويصلح للسلالم الداخلية الهادئة مع تشطيب مناسب.',
+        'ويؤخذ في الاعتبار أن الرخام الفاتح يظهر أثر الاستخدام أكثر من الجرانيت الداكن، فأصحاب البيوت التي فيها حركة عائلية كثيرة يميلون إلى الدرجات الداكنة أو الرخام المعالج ضد التبقع لتفادي الصيانة المستمرة.',
+      ],
+    },
+    {
+      h: 'السماكة والأبعاد والهيكل الحامل',
+      p: [
+        'سماكة الدرجة ليست تفصيلة ثانوية؛ فالحجر الطبيعي ثقيل، والدرجة الرقيقة فوق هيكل غير مصمم لها تتشقق أو تهتز مع الاستخدام. يلزم أن يحسب المنفذ وزن الدرجات على العوارض أو الهيكل الحامل، خاصة في السلالم المفتوحة أو المعلقة التي لا يوجد تحتها جدار يسند الدرجة.',
+        'أما أبعاد الدرجة نفسها فتخضع لراحة وطء القدم: الدرجة العميقة تريح المشي، والعالية منها تتعب، وتضبط النسب بحسب مساحة السلم وعدد الدرجات المتاحة، مع مراعاة اتساق ارتفاع كل الدرجات لأن اختلفاً بسيطاً يسبب تعثرات متكررة.',
+      ],
+    },
+    {
+      h: 'المعالجة المضادة للانزلاق',
+      p: [
+        'أكثر ما يقلق في السلالم الحجرية هو الانزلاق، وخصوصاً في المداخل التي يدخلها الزوار بحذاء مبلل أو في البيوت التي فيها أطفال وكبار سن. الحلول متعددة: تشطيب مصقول جزئياً أو خشن للدرجة نفسها، أو إضافة خطوط محفورة دقيقة على سطح الدرجة، أو تركيب شرائح مطاطية رفيعة قرب الحافة.',
+        'وينصح بتجربة الدرج بقدم مبلولة قبل اعتماد التشطيب، فليس كل سطح يبدو خشناً يمنح احتكاكاً حقيقياً. الأهم أن تكون المعالجة مدروسة من مرحلة التصنيع لأن إضافتها لاحقاً في الموقع تبدو رديئة وقد تنفصل مع الوقت.',
+      ],
+    },
+    {
+      h: 'الفواصل والحواف والتفاصيل',
+      p: [
+        'حواف الدرجات هي أول ما يتكسر مع الاستخدام، ولهذا تشطف بزاوية خفيفة أو تغلف بقطعة حجر أسمك عند الحافة، وتضبط الفواصل بين الدرجات بعناية لتبدو متسقة من أول درجة إلى آخرها. تفاصيل صغيرة كهذه هي ما يميز سلماً مصمماً عن سلماً مرتجلاً.',
+        'أما الوصلة بين الدرجة والحائط فتحكم بمادة سد مرنة تمنع دخول الغبار والماء وتتحمل حركة الحجر البسيطة، وتترك مسافة صغيرة عند الجدار ليتمدد الحجر مع حرارة المدينة المنورة من غير أن يضغط على الزاوية ويتكسر.',
+      ],
+    },
+    {
+      h: 'الإضاءة والمظهر العام',
+      p: [
+        'الإضاءة تكمل تصميم السلم: شرائط إضاءة مخفية تحت حافة الدرجات أو في جانب العوارض تحدد كل درجة وتضيف عمقاً للسلم، وفي الوقت نفسه تمنح أماناً في الليل. ينصح بتوزيع الإضاءة قبل تصنيع الدرجات لتفادي حفر لاحق يضعف الحجر أو يترك أثراً ظاهراً على السطح.',
+        'وأخيراً يختار لون الحجر ليتناغم مع أرضية المدخل أو المجلس المجاور، فالسلالم التي تجاور أرضية رخامية تبدو أجمل إذا نسقت درجة لونها معها، ويكفي فارق بسيط في الفاتح أو الداكن ليمنح السلم حضوراً مستقلاً دون أن يصطدم بالفراغ المحيط.',
+      ],
+      note: 'اطلب تصنيع الدرجات كلها من كتلة حجر واحدة لتوحيد اللون وسماكة القطع.',
+    },
+    ],
+    faq: [
+    { q: 'هل الرخام آمن على الدرجات؟', a: 'نعم إذا اختير تشطيب مضاد للانزلاق وسماكة مناسبة فوق هيكل حامل، فالرخام نفسه ليس خطراً بل السطح اللامع هو الخطر. ينصح أيضاً بمعالجة الحواف ووضع إضاءة تحدد الدرجات في الليل لتقليل احتمال التعثر.' },
+    { q: 'ما السماكة المناسبة لدرجة الرخام؟', a: 'السماكة المناسبة تتحدد بنوع الحجر وامتداد الدرجة ونوع الهيكل الحامل، فلا رقم واحد يصلح لكل سلم، لكن الدرجات الرقيقة جداً تتشقق مع الوزن والاهتزاز. الأفضل أن يحسبها المنفذ أو المهندس المشرف على أساس المسافة بين العوارض ووزن الحجر المختار.' },
+    { q: 'كيف أمنع انزلاق الدرجات في المدخل؟', a: 'الخيارات تبدأ بتشطيب مصقول جزئياً أو خشن للدرجة، ثم خطوط الحفر الدقيقة، ثم الشرائح المطاطية الرفيعة قرب الحافة، والأخيرة هي الأكثر عملية في المداخل المبللة. وينصح بتجربة السطح بقدم مبلولة قبل اعتماده، وتجديد المعالجة عند الحاجة مع الاستخدام.' },
+    { q: 'هل يمكن تغليف درجات سلم قديم بالحجر؟', a: 'يمكن أحياناً بعد فحص ثبات الدرجات القديمة وهيكلها، فيخشن سطحها وتثبت طبقة حجرية رقيقة عليها، لكن الأسلوب الأضمن هو استبدال الدرجات بالكامل حين يكون الهيكل قديماً أو متشققاً. التغليف فوق هيكل ضعيف يسقط مع أول تغير حراري أو اهتزاز قوي.' },
+    ],
+  },
+  {
+    id: 'stone-sink-installation-medina',
+    primary: 'تركيب مغاسل حجر',
+    keywords: ['تركيب مغاسل حجر', 'مغاسل حجر طبيعي', 'حوض غسيل حجر', 'المدينة المنورة', 'مغسلة رخام', 'حجر مغاسل', 'عزل مغاسل'],
+    intent: 'commercial',
+    title: 'تركيب مغاسل حجر في المدينة المنورة: الدليل العملي',
+    description: 'خطوات تركيب مغاسل حجر في المدينة المنورة: قياس المكان، العزل، التثبيت، ومعالجة الحواف، مع أخطاء شائعة يجب تجنبها.',
+    category: 'التركيب',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'قس المكان مرتين قبل طلب المغسلة، فالحجر لا يعد بسهولة بعد التصنيع.',
+      'العزل خلف المغسلة وتحتها يحمي الجدار والخزانة من الرطوبة الدائمة.',
+      'ارفع المغسلة الحجرية عن سطح الخزانة بقاعدة تهوية بسيطة.',
+      'الفواصل حول الحوض تسد بمادة مرنة لا تتشقق مع الماء.',
+      'الحجر المسامي يحتاج معالجة ضد التبقع قبل أول استخدام.',
+    ],
+    ctaHeading: 'تريد مغسلة حجرية في حمامك أو مطبخك؟',
+    ctaBody: 'فريقنا يقيس المكان ويركب المغسلة الحجرية ويعالجها ضد التبقع في المدينة المنورة.',
+    imagePrompt: 'Editorial photo of a carved natural stone vessel sink on a wooden vanity, a brass faucet and a folded towel beside it, a small bowl of soap, soft bathroom light, Medina home interior, no people, no text, professional photography, sharp focus',
+    imageScene: 'مغسلة حوض حجرية منحوتة على خزانة خشبية، وخلاط نحاسي ومنشفة مطوية بجانبها، وإضاءة حمام ناعمة',
+    imageTopics: 'مغاسل حجر, حوض حجر, تركيب مغاسل, المدينة المنورة, رخام',
+    related: [],
+    sections: [
+    {
+      h: 'أنواع مغاسل الحجر واستخدام كل نوع',
+      p: [
+        'تتنوع مغاسل الحجر بين الحوض المنحوت من كتلة واحدة الذي يعطي مظهراً متكاملاً وفخماً، والحوض المركب من قطع ملصقة الذي يتيح أشكالاً أخف وتكلفة أقل، والمغسلة المسطحة التي تتكامل مع سطح الخزانة. لكل نوع استخدامه: الحوض المنحوت يناسب الحمامات الفاخرة والمجسمات الظاهرة، والمسطحة تناسب المغاسل العملية في المطبخ أو المغسلة الخدمية.',
+        'في المدينة المنورة تكثر المغاسل الحجرية في المجالس وحمامات الضيوف لقدرتها على تحمل الرطوبة والاستخدام الكثيف، لكن الاختيار بين الأنواع يبدأ من مساحة المكان وارتفاع الاستخدام لا من الشكل وحده.',
+      ],
+    },
+    {
+      h: 'قياس المكان والتحضير',
+      p: [
+        'قبل أي طلب يقاس عرض وعمق المكان وارتفاع سطح الخزانة أو الجدار المراد التركيب عليه، وتحدد مواضع خلاط الماء والمصرف لأن الحجر بعد التصنيع لا يعد بسهولة. وتترك مسافة حول المغسلة للتهوية وتنظيف الحواف، وتختار الخزانة أو الحامل ليطابق وزن الحجر لا شكله فقط.',
+        'وينصح بتجربة الارتفاع النهائي قبل التثبيت، فارتفاع المغسلة الخاطئ يسبب تعباً في الظهر مع الاستخدام اليومي ويصعب تغييره لاحقاً، خصوصاً إذا كانت المغسلة منحوتة من كتلة واحدة مثبتة بوزنها على سطح الخزانة.',
+      ],
+    },
+    {
+      h: 'خطوات التركيب الصحيح',
+      p: [
+        'يبدأ التركيب بتجهيز سطح الخزانة أو الجدار وتسويته، ثم يوضع الحوض في مكانه النهائي ويعلم موضع المصرف والخلاط، ثم يزال ويفرش سطح التثبيت بمونة أو مادة لاصقة مخصصة للحجر بسمك متساوٍ. يضغط الحوض بضغط متجانس ويترك ليثبت تماماً قبل توصيل السباكة.',
+        'بعد ثبوت الحوض توصل السباكة ويفحص المصرف والتسرب من الوصلات قبل إغلاق أي غطاء، ثم تسد الفواصل بين الحوض والسطح أو الجدار بمادة مرنة مقاومة للعفن. وينصح بإعادة الفحص بعد يوم أو يومين من الاستخدام الأول للتأكد من عدم وجود ارتخاء أو تسرب خفيف.',
+      ],
+      steps: [
+        ['تحديد المكان', 'قياس العرض والعمق وعلام مواضع المصرف والخلاط'],
+        ['تجهيز السطح', 'تسوية سطح التثبيت وتنظيفه'],
+        ['التثبيت', 'وضع مادة اللصق وضغط الحوض بضغط متجانس'],
+        ['السباكة', 'توصيل الخلاط والمصرف وفحص التسرب'],
+        ['السد النهائي', 'سد الفواصل بمادة مرنة وانتظار الجفاف'],
+      ],
+    },
+    {
+      h: 'العزل وحماية الحجر',
+      p: [
+        'المغسلة الحجرية تعمل في رطوبة دائمة، ولهذا يجب عزل الجدار خلفها وتحتها قبل التثبيت، خاصة إذا كان الجدار خلف خزانة خشبية أو غرفة مجاورة. فواصل الجدار والحوض تسد بمادة مقاومة للعفن لا تتشقق مع الماء والصابون، وتعاد فحصها كل فترة.',
+        'أما الحجر المسامي كالترافرتينو والحجر الجيري فيعالج ضد التبقع قبل أول استخدام، ويعاد شمعه أو تلميعه حين يفقد مظهره مع الوقت، فالحوض المنحوت من كتلة واحدة يستحق هذه العناية ليبقى محتفظاً بلمعانه لسنوات طويلة.',
+      ],
+      warn: 'لا توصل السباكة قبل أن يجف لاصق التثبيت تماماً، فالضغط المبكر يحرك الحوض ويفسد العزل من البداية.',
+    },
+    {
+      h: 'الاستخدام اليومي والصيانة',
+      p: [
+        'المغسلة الحجرية عملية حين تعامل معاملتها الصحيحة: تغسل بعد الاستخدام بماء دافئ وتنشف بقطعة قماش ناعمة، وتبعد عنها المواد الحمضية والمبيضات لأنها تبهت لمعان الحجر وتفتح مسامه. وتمسح الأوساخ فور وقوعها بدل تركها لتترسب.',
+        'وفي حالة ظهور بقع أو فقدان لمعان يستعان بمواد تلميع مخصصة للحجر الطبيعي أو بإعادة شمع السطح، وتعاد سد الفواصل عند الحاجة. ومع الاعتناء البسيط تبقى المغسلة الحجرية في المدينة المنورة قطعة عملية وجميلة في الوقت نفسه.',
       ],
     },
     ],
     faq: [
-    { q: 'هل يتحمل الحجر الشرخ بعد الإصلاح؟', a: 'نعم في الشروخ الصغيرة المستقرة، مع تجنب الحمل الشديد.' },
-    { q: 'هل يمكن إصلاح شرخ بنفسك؟', a: 'الشروخ الصغيرة السطحية ممكنة، والأعمق تحتاج مختصاً.' },
-    { q: 'ما المادة المناسبة للحشو؟', a: 'حشوة راتنجية بلون قريب من لون الحجر.' },
-    { q: 'هل يظهر مكان الإصلاح بعد التلميع؟', a: 'يقل ظهوره بالتلميع التدريجي مع تطابق التشطيب.' },
+    { q: 'هل المغسلة الحجرية تحتاج صيانة خاصة؟', a: 'صيانتها أبسط مما يظن كثيرون: غسل بماء دافئ وصابون متعادل وتجفيف بقطعة ناعمة، وتجنب الأحماض والمبيضات التي تبهت لمعان الحجر. الحجر المسامي يحتاج معالجة ضد التبقع وإعادة شمع حين يفقد مظهره، وهذه الصيانة البسيطة تكفي لإبقاء المغسلة جميلة لسنوات.' },
+    { q: 'ما الفرق بين الحوض المنحوت والمركب؟', a: 'الحوض المنحوت من كتلة حجر واحدة متين ومتماسك المظهر ويصلح للمغاسل الفاخرة، بينما المركب من قطع ملصقة أخف وزناً وأقل تكلفة ويتيح أشكالاً أكثر. الاختيار بينهما يتحدد بالميزانية والاستخدام، فكلاهما يخدم الرطوبة العالية في حمامات المدينة المنورة إذا ثبت جيداً وعولج ضد التبقع.' },
+    { q: 'هل يمكن تركيب مغسلة حجرية فوق خزانة قديمة؟', a: 'يمكن بعد فحص صلابة الخزانة وثباتها لأن الحجر ثقيل ويحتاج سطحاً متيناً مستوياً، وتضاف قاعدة تهوية أو طبقة عزل بين الخزانة والحوض. أما إذا كانت الخزانة متآكلة أو مهتزة فيجب استبدالها أو تدعيمها أولاً، وإلا فالحمل الثقيل يفسدها سريعاً.' },
+    { q: 'كيف أتعامل مع ماء الصنبور العسر على الحجر؟', a: 'الماء العسر يترك رواسب كلسية باهتة على الحجر مع الوقت، وتزال بمسح يومي وتجفيف بعد الاستخدام، ومع تراكمها تعالج بمغاطس مخصصة للحجر الطبيعي غير كاشطة. وينصح أيضاً بوضع شمع أو مادة مقاومة للترسبات على الحجر المسامي لتقليل التصاق الأملاح به.' },
+    ],
+  },
+  {
+    id: 'basalt-stone-medina-facades',
+    primary: 'حجر بازلت',
+    keywords: ['حجر بازلت', 'واجهات بازلت', 'بازلت أسود', 'حجر بركاني', 'واجهات خارجية', 'المدينة المنورة', 'بازلت واجهات', 'حجر أسود'],
+    intent: 'commercial',
+    title: 'حجر بازلت للواجهات في المدينة المنورة: الدليل الشامل',
+    description: 'كل ما تحتاج معرفته عن حجر بازلت للواجهات في المدينة المنورة: الخصائص، التشطيبات، طرق التثبيت، وعوامل التكلفة دون أرقام.',
+    category: 'الواجهات',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'البازلت من أصلب الأحجار الطبيعية وأكثرها تحملاً للشمس والرطوبة.',
+      'الواجهة البازلتية الداكنة تكتسب لوناً أعمق مع المطر وتبقى زاهية في الحر.',
+      'التثبيت الميكانيكي هو الخيار الأأمن في الواجهات المرتفعة.',
+      'التشطيب الخشن يخفي الخدوش ويمنح احتكاكاً أفضل في المداخل.',
+      'الفواصل الداكنة تمنح الواجهة إيقاعاً هندسياً وتخفي تفاوت القطع.',
+    ],
+    ctaHeading: 'تخطط لواجهة بازلتية في المدينة المنورة؟',
+    ctaBody: 'استشر فريقنا في اختيار تشطيب البازلت وطريقة التثبيت الأنسب لواجهة مبناك.',
+    imagePrompt: 'Editorial photo of a modern villa facade clad in dark basalt stone panels with visible joint lines, a wooden entrance door, warm evening light grazing the stone surface, Medina residential street, no people, no text, professional photography, sharp focus',
+    imageScene: 'واجهة فيلا حديثة بألواح بازلت داكنة بفواصل ظاهرة، وباب خشبي وإضاءة مسائية دافئة تمسح سطح الحجر',
+    imageTopics: 'حجر بازلت, واجهات بازلت, بازلت أسود, واجهات خارجية, المدينة المنورة',
+    related: [],
+    sections: [
+    {
+      h: 'ما هو البازلت ولماذا يستخدم في الواجهات',
+      p: [
+        'البازلت حجر بركاني كثيف يتشكل من الحمم المتصلبة، ويتميز بصلابته العالية وقلة مساميته مقارنة بكثير من أحجار البناء، ولهذا فهو من الخامات المفضلة للواجهات الخارجية في المدن الحارة. في المدينة المنورة حيث ترتفع الحرارة صيفاً وتهب رياح محملة بالغبار، يثبت البازلت أنه يبقى محتفظاً بمظهره ولونه مع أقل صيانة بين الخامات الطبيعية.',
+        'ولأن البازلت داكن اللون بطبيعته يمنح الواجهة حضوراً قوياً وفخامة هادئة، ويعمل مع الخشب والنحاس والزجاج في التصاميم الحديثة، كما أنه يتوفر بدرجات من الأسود إلى الرمادي الداكن والبني المائل للسواد بحسب المصدر والقطع.',
+      ],
+    },
+    {
+      h: 'الأشكال والتشطيبات المتاحة',
+      p: [
+        'يتوفر البازلت للواجهات بأشكال متعددة: الألواح الكبيرة المنشورة التي تعطي سطحاً مستوياً متصلاً، والكسر الطبيعي الذي يعطي مظهراً ريفياً محبباً، والشرائح الرقيقة المخصصة للتكسية، والمكعبات الصغيرة المستخدمة في الممرات والأرصفة. ولكل شكل تشطيباته: المصقول اللامع، والمصقول جزئياً أو الهون، والمسطح باللهب أو الخشن الذي يبرز بلورات الحجر.',
+        'يختار المصمم الشكل بحسب مساحة الواجهة وارتفاعها ونوع المبنى؛ فالألواح الكبيرة تناسب الواجهات العريضة العصرية، والكسر الطبيعي يناسب الفلل ذات الطابع التراثي، وينصح بمشاهدة عينات كبيرة من الخامة في إضاءة النهار قبل الاعتماد النهائي.',
+      ],
+      table: {
+        head: [
+          'التشطيب',
+          'المظهر',
+          'الاستخدام',
+        ],
+        rows: [
+          [
+            'مصقول لامع',
+            'انعكاس ضوئي',
+            'واجهات فاخرة',
+          ],
+          [
+            'مصقول جزئياً',
+            'لمعان هادئ',
+            'مداخل وممرات',
+          ],
+          [
+            'خشن أو مسطح باللهب',
+            'نسيج بارز',
+            'أرضيات وأرصفة',
+          ],
+        ],
+      },
+    },
+    {
+      h: 'التثبيت ميكانيكي أم لصق',
+      p: [
+        'في الواجهات المرتفعة يفضل التثبيت الميكانيكي للبازلت لأنه الأصلب والأثقل بين أحجار التكسية، وتستخدم قطع تثبيت من معدن مقاوم للصدأ تربط اللوح بالجدار مع مونة خلفية تملأ الفراغ. أما في الواجهات المنخفضة أو الأسوار فيكفي اللصق بالمونة المخصصة بعد تحضير السطح جيداً.',
+        'ومهما كانت الطريقة يبقى تحضير السطح هو أساس النجاح: سطح صلب نظيف جاف خالٍ من الزيوت والغبار، مع طبقة تحضير أو شبكة معدنية عند الحاجة. وتترك فواصل مدروسة بين الألواح لامتصاص التمدد الحراري ومنع تكسر الحواف مع حرارة المدينة المنورة.',
+      ],
+    },
+    {
+      h: 'العوامل المؤثرة في التكلفة',
+      p: [
+        'تتحدد تكلفة الواجهة البازلتية بعوامل عدة: نوع البازلت ومصدره ودرجة لونه، وشكل القطع وتشطيب السطح، وارتفاع الواجهة وصعوبة الوصول إليها، وطريقة التثبيت المختارة وعدد القطع المعدنية اللازمة، ومساحة السطح الكلية وكمية الهدر في القطع. ولهذا تختلف التقديرات بين مشروع وآخر حتى لو بدت الواجهتان متشابهتين.',
+        'من الحكمة طلب مخطط توزيع القطع قبل التنفيذ لأنه يكشف كمية الهدر وعدد القطع الصغيرة في الزوايا، وهذه التفاصيل هي ما يرفع التكلفة أحياناً أكثر من ثمن الخامة نفسها. وينصح بمقارنة عروض على نفس المواصفات لا على أسماء الأحجار، فالأسماء التجارية تتشابه والحقيقة في العينة.',
+      ],
+    },
+    {
+      h: 'الصيانة والعمر الافتراضي',
+      p: [
+        'البازلت من أقل الخامات حاجة للصيانة؛ فطبيعته الكثيفة تقاوم الامتصاص والبقع والرطوبة، ويكفيه غسل دوري بماء وصابون متعادل لإزالة الغبار والأتربة المتراكمة. وفي الواجهات المكشوفة لأشعة الشمس يبقى لونه مستقراً أكثر من كثير من الخامات الفاتحة التي تبهت مع السنين.',
+        'قد تظهر مع الوقت طبقة كلسية باهتة في مناطق رشاشات الماء أو تساقط الأمطار الغزيرة، وتزال بمغاطس مخصصة للحجر الطبيعي، وتعاد معالجة السطح إن لزم. ومع الاعتناء البسيط تبقى الواجهة البازلتية في المدينة المنورة محتفظة بحضورها وعمرها الطويل لعقود.',
+      ],
+      note: 'اطلب من المورد تقرير معاملي الامتصاص والصلابة للخامة قبل الاعتماد، فالاسم وحده لا يكفي.',
+    },
+    ],
+    faq: [
+    { q: 'هل يتغير لون البازلت مع الشمس في المدينة المنورة؟', a: 'البازلت من الخامات المستقرة لونياً تحت الشمس مقارنة بكثير من الأحجار الفاتحة، فلا يبهت بسرعة ولا يتغير مع الفصول. قد يبدو أغمق وأعمق بعد الغسل أو المطر، ويعود لدرجته الطبيعية بعد الجفاف، ومع الزمن الطويل يبقى محافظاً على لونه بصفة عامة.' },
+    { q: 'ما الفرق بين البازلت والجرانيت في الواجهات؟', a: 'البازلت يتشكل من الحمم البركانية المتصلبة وهو أكثف وأصلب بشكل عام من الجرانيت، ولونه يميل للسواد الداكن، بينما الجرانيت يتوفر بألوان أوسع من الفاتح إلى الداكن وبتكلفات متفاوتة. في الواجهات الخارجية يكثر استخدام الاثنين، ويختار المصمم بحسب اللون المطلوب والميزانية والتشطيب المراد.' },
+    { q: 'هل البازلت مناسب للأرصفة والممرات؟', a: 'نعم، البازلت من أفضل الخامات للأرصفة والممرات الخارجية لصلابته ومقاومته للاحتكاك والانزلاق عند تشطيب سطحه خشناً أو باللهب. ينصح بسماكة مناسبة للأرضية وقاعدة سليمة أسفلها، واختيار تشطيب مضاد للانزلاق في الممرات التي تردها مياه الأمطار أو الري.' },
+    { q: 'كيف تختار منفذ تثبيت واجهة بازلتية جيد؟', a: 'ابحث عن منفذ له أعمال واجهات قائمة يمكن زيارتها أو رؤيتها بوضوح، واسأله عن طريقة التثبيت وتحضير السطح والعزل، واطلب عينات من أعماله لا صوراً فقط. المهم أن يكون ملتزماً بالفواصل المدروسة والمواد المخصصة للحجر الطبيعي، فالواجهة البازلتية الجميلة هي نتاج تنفيذ دقيق قبل الخامة.' },
+    ],
+  },
+  {
+    id: 'travertine-polishing-maintenance-medina',
+    primary: 'تلميع ترافرتينو',
+    keywords: ['تلميع ترافرتينو', 'صيانة ترافرتينو', 'تلميع حجر', 'ترافرتينو المدينة المنورة', 'تلميع أرضيات', 'ترافرتينو', 'معالجة ترافرتينو'],
+    intent: 'informational',
+    title: 'تلميع ترافرتينو وصيانته في المدينة المنورة',
+    description: 'دليل تلميع ترافرتينو وصيانته في المدينة المنورة: متى يحتاج التلميع، مراحل التلميع الميداني، وإعادة سد الثقوب.',
+    category: 'الصيانة',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'الترافرتينو حجر مسامي بثقوب طبيعية، وقرار سدها أو تركها يحدد مظهره وصيانته.',
+      'التلميع ليس عملية منزلية؛ يحتاج آلات ومواد مخصصة وأيدي خبيرة.',
+      'ابدأ التلميع بأدق مراحل الجلخ ثم تدرج نحو التنعيم للحصول على لمعان متجانس.',
+      'أعد سد الثقوب قبل التلميع لا بعده، وإلا ظهرت بقع باهتة على السطح.',
+      'الشمع أو مادة التلميع النهائية هي خط الدفاع الأول ضد البقع.',
+    ],
+    ctaHeading: 'عندك ترافرتينو باهت في المدينة المنورة؟',
+    ctaBody: 'فريقنا يفحص حالة الترافرتينو ويعيد تلميعه ومعالجته بمواد مخصصة للحجر الطبيعي.',
+    imagePrompt: 'Editorial photo of a polishing machine with a buffing pad resting on a travertine floor beside a small bucket of polishing powder, a clean cloth nearby, warm workshop light, Medina home interior, no people, no text, professional photography, sharp focus',
+    imageScene: 'ماكينة تلميع بقرص صوف على أرضية ترافرتينو بجانب دلو صغير بمسحوق تلميع وقطعة قماش نظيفة',
+    imageTopics: 'تلميع ترافرتينو, صيانة ترافرتينو, تلميع حجر, المدينة المنورة, ترافرتينو',
+    related: [],
+    sections: [
+    {
+      h: 'خصائص الترافرتينو التي تحدد صيانته',
+      p: [
+        'الترافرتينو حجر جيري مسامي يتشكل في عيون الماء المعدنية، ويتميز بثقوب وقنوات طبيعية ظاهرة على سطحه، ولهذا يتعامل مع الماء والزيوت بشكل مختلف عن الرخام أو الجرانيت. هذه المسامية هي ما يمنحه مظهره الدافئ المميز، وهي أيضاً مصدر أكثر مشاكله: يتسخ بسرعة، ويمتص السوائل، وتبهر لمعانها مع الاستخدام إذا لم تعالج.',
+        'في المدينة المنورة يكثر استخدام الترافرتينو في الأرضيات الخارجية وحول المسابح وفي الحمامات، فهو يتحمل الحرارة ولا تزل الأقدام عليه بسهولة عند التشطيب الخشن، لكن صيانته تحتاج وعياً بخصائصه بدل معاملته كحجر أملس.',
+      ],
+    },
+    {
+      h: 'متى يحتاج الترافرتينو إلى تلميع',
+      p: [
+        'العلامات الدالة على حاجة الترافرتينو للتلميع تتجلى في بهتان السطح وظهور بقع لا تزول بالتنظيف العادي وخشونة ملموسة عند المسح عليه باليد، أو تفكك مادة التلميع القديمة في أماكن متفرقة. في الأماكن كثيرة الاستخدام كالمداخل والصالونات تظهر هذه العلامات أسرع من الأرضيات الهادئة.',
+        'والأفضل ألا ينتظر صاحب البيت حتى يتفاقم البهتان؛ فالتلميع الدوري الخفيف يحافظ على السطح ويطيل عمر طبقة الحماية، بينما التأجيل الطويل يجعل التلميع اللازم أعمق وأكثر تكلفة، وقد يحتاج إلى مراحل جلخ أعنف تزيل من سمك الحجر.',
+      ],
+    },
+    {
+      h: 'مراحل التلميع الميداني',
+      p: [
+        'يبدأ التلميع بتنظيف الأرضية وإزالة الغبار والأتربة من الثقوب والفواصل، ثم تسد الثقوب المفتوحة بمادة سد مخصصة وتترك لتجف تماماً قبل أي جلخ. بعد ذلك يمر السطح بمراحل جلخ متدرجة الخشونة تبدأ من الأشد لإزالة الطبقة الباهتة والخدوش ثم تنتقل إلى الأدق لتنعيم السطح وتجهيزه للتلميع.',
+        'في المرحلة الأخيرة تستخدم مواد التلميع المخصصة للحجر الطبيعي مع آلة تلميع بسرعات مضبوطة، ثم يمسح السطح ويترك ليجف قبل استخدامه. وينصح بعدم الاستعجال في المراحل، فكل مرحلة تحتاج وقتها وجفافاً كاملاً قبل التي تليها للحصول على لمعان متجانس.',
+      ],
+      steps: [
+        ['تنظيف عميق', 'إزالة الغبار والأتربة من الثقوب والفواصل'],
+        ['سد الثقوب', 'ملء الثقوب المفتوحة بمادة سد وتجفيفها'],
+        ['الجلخ المتدرج', 'مراحل جلخ من الأشد إلى الأدق'],
+        ['التلميع', 'مواد تلميع مخصصة بآلة بسرعة مضبوطة'],
+        ['التجفيف والحماية', 'تجفيف السطح ثم وضع طبقة حماية'],
+      ],
+    },
+    {
+      h: 'إعادة السد والشمع والحماية',
+      p: [
+        'كثير من الترافرتينو يترك بثقوب مفتوحة في مظهره الريفي، لكن في الأرضيات كثيرة الاستخدام يفضل سد الثقوب لمنع تجمع الغبار والأوساخ داخلها وتسهيل التنظيف. مادة السد تختار بلون قريب من لون الحجر، وتزال الزوائد قبل أن تجف تماماً لتظهر النتيجة متجانسة.',
+        'بعد التلميع ينصح بوضع طبقة حماية شمع أو مادة مخصصة للحجر الطبيعي تقلل تعلق البقع وتطيل عمر اللمعان، وتعاد هذه الطبقة دورياً بحسب الاستخدام. هذه الطبقة هي خط الدفاع الأول الذي يحمي السطح من الترسبات اليومية.',
+      ],
+    },
+    {
+      h: 'روتين الصيانة اليومي وأخطاء شائعة',
+      p: [
+        'الصيانة اليومية للترافرتينو بسيطة: كنس الغبار بفرشاة ناعمة أو مكنسة، ومسح بماء دافئ وصابون متعادل، وتجفيف السطح بعد الغسل، وتنظيف البقع فور وقوعها قبل أن تتغلغل في الثقوب. أما الأخطاء الشائعة فأبرزها استخدام الخل أو الكلور أو المنظفات الحمضية التي تتفاعل مع كربونات الكالسيوم في الحجر وتترك بقعاً باهتة.',
+        'ومن الأخطاء أيضاً صب مواد التلميع أو الشمع المنزلي بكثرة فوق السطح، فتتكون طبقة لزجة تجذب الغبار وتجعل الأرضية زلقة، أو ترك الثقوب مفتوحة في أرضية خدمية تتعرض للزيوت فتتجمع فيها الأوساخ وتعسر تنظيفها. القليل المنتظم خير من الكثير المتقطع.',
+      ],
+      warn: 'لا تستخدم حمض أو كلور أو صودا كاوية على الترافرتينو، فكلها تترك بقعاً باهتة دائمة يصعب إصلاحها.',
+    },
+    ],
+    faq: [
+    { q: 'هل يمكن تلميع الترافرتينو في البيت بدون معدات؟', a: 'التلميع العميق يحتاج آلات جلخ ومواد مخصصة وأيدي خبيرة، فالمحاولة المنزلية قد تترك علامات غير متجانسة أو تزيل طبقة أكثر من اللازم من السطح. ما يمكن عمله في البيت هو التنظيف المنتظم وإعادة طبقة الحماية الخفيفة حين تضعف، أما البهتان العميق فيحتاج مختصاً.' },
+    { q: 'هل ثقوب الترافرتينو عيب أم ميزة؟', a: 'الثقوب خاصية طبيعية في الحجر لا عيب صناعي، وهي ما يمنح الترافرتينو مظهره المميز المحبب في كثير من التصاميم. قرار سدها أو تركها يعتمد على الاستخدام: فالأرضيات الخدمية والزيوت تفضل سدها، بينما الجدران والواجهات قد تترك مفتوحة لمظهرها الريفي.' },
+    { q: 'كم مرة يعاد تلميع الترافرتينو؟', a: 'لا توجد فترة ثابتة للجميع؛ تعاد العملية عند الحاجة حين يظهر بهتان أو بقع لا يزيلها التنظيف العادي، أو حين تتفكك طبقة الحماية القديمة. في الأماكن الكثيفة الاستخدام قد تكون الحاجة أقرب، وفي الأرضيات الهادئة قد تطول المدة، والمراقبة الدورية هي الفيصل.' },
+    { q: 'ما الفرق بين الترافرتينو المسدود والمفتوح الثقوب؟', a: 'المسدود تملأ ثقوبه بمادة سد قبل التلميع فيأتي سطحه مستوياً سهلاً للتنظيف ومناسباً للأرضيات المطبخية والخدمية، والمفتوح تبقى قنواته ظاهرة فتمنح مظهراً ريفياً وتحتاج تنظيفاً أعمق للثقوب. الاختيار بينهما قرار تصميمي وعملي معاً ويتحدد قبل التصنيع لا بعده.' },
+    ],
+  },
+  {
+    id: 'granite-kitchen-countertop-medina',
+    primary: 'أسطح مطبخ جرانيت',
+    keywords: ['أسطح مطبخ جرانيت', 'جرانيت مطبخ', 'سطح مطبخ حجر', 'المدينة المنورة', 'أسطح حجرية', 'جرانيت', 'تشطيب أسطح المطبخ'],
+    intent: 'commercial',
+    title: 'أسطح مطبخ جرانيت في المدينة المنورة: الاختيار والتشغيل',
+    description: 'دليل أسطح مطبخ جرانيت في المدينة المنورة: الخواص، اختيار السماكة والتشطيب، التفصيل والتركيب، والصيانة اليومية للأسطح الحجرية.',
+    category: 'المغاسل',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'الجرانيت أصلب خامات أسطح المطبخ وأكثرها مقاومة للخدش والحرارة.',
+      'التشطيب اللامع يعكس الضوء، والمصقول جزئياً يخفي بصمات الاستخدام.',
+      'سماكة السطح وطريقة التفصيل تؤثران في عمره أكثر من لونه.',
+      'لا تجلس على سطح الجرانيت ولا تقطع عليه مباشرة بسكين.',
+      'الفواصل بين الدرج تسد بمادة مرنة لمنع تسرب السوائل للخزانة.',
+    ],
+    ctaHeading: 'تريد سطح مطبخ جرانيت يدوم؟',
+    ctaBody: 'فريقنا يفصل سطح مطبخك من الجرانيت الطبيعي ويركبه ويحكم فواصله في المدينة المنورة.',
+    imagePrompt: 'Editorial photo of a polished granite kitchen countertop with a wooden cutting board, a knife and a bowl of lemons resting on it, a stone backsplash behind, soft kitchen light, Medina home interior, no people, no text, professional photography, sharp focus',
+    imageScene: 'سطح مطبخ جرانيت مصقول عليه لوح تقطيع خشبي وسكين وصحن ليمون، وخلفية حجرية بإضاءة مطبخ ناعمة',
+    imageTopics: 'أسطح مطبخ جرانيت, جرانيت مطبخ, سطح مطبخ حجر, المدينة المنورة, أسطح حجرية',
+    related: [],
+    sections: [
+    {
+      h: 'لماذا الجرانيت لسطح المطبخ',
+      p: [
+        'سطح المطبخ يتعرض يومياً للخدش والسكاكين والحرارة والأحماض والرطوبة، ولهذا يحتاج خامة تتحمل كل هذا دون أن تفسد مظهرها بسرعة. الجرانيت يلبي هذا الطلب لأنه أصلب الخامات الطبيعية الشائعة في الأسطح، ومقاوم للخدش والحرارة، ولا يتفاعل مع الأحماض كما يفعل الرخام.',
+        'في مطابخ المدينة المنورة حيث الطبخ اليومي الكثيف واستخدام الزيوت والتوابل والأحماض، يثبت الجرانيت أنه الخيار العملي الذي يبقى مستوياً ولامعاً لسنوات بصيانة بسيطة، ويمنح المطبخ مظهراً فخماً يتناسب مع ذوق أصحاب البيوت.',
+      ],
+    },
+    {
+      h: 'اختيار اللون والتشطيب والسماكة',
+      p: [
+        'الجرانيت يتوفر بألوان ودرجات واسعة من الفاتح إلى الداكن والأسود الناري والأخضر المائل للأزرق، ويختار صاحب المطبخ اللون ليتناسق مع الخزائن والأرضية أو ليتناقض معها بذكاء. التشطيب اللامع يكبر المطبخ بصرياً ويعكس الضوء، بينما التشطيب المصقول جزئياً يخفي بصمات الاستخدام ويظهرها أقل.',
+        'أما السماكة فليست تفصيلة شكلية؛ فالسطح السميك يتحمل الصدمات والحمل الثقيل ويمنح حافة أجمل عند التفاصيل، والرقيق قد يتشقق عند الزوايا مع مرور الوقت. وينصح باختيار سماكة موحدة في كامل المطبخ وفي الدرج الأمامي ليبدو السطح متماسكاً.',
+      ],
+    },
+    {
+      h: 'التفصيل والقياس قبل التركيب',
+      p: [
+        'يبدأ العمل بقياس المطبخ بدقة وتحديد مواضع الحوض والخلاط والموقد والأفياش، ثم يفصل الجرانيت في الورشة على مخططات دقيقة تشمل فتحات الحوض والموقد ونقاط التثبيت. التفصيل المسبق يضمن تطابق القطع في الموقع ويجنب القطع في المكان الذي يترك غباراً ويعرض الحواف للكسر.',
+        'ينصح بزيارة الورشة أو معاينة المخطط قبل التصنيع للتأكد من مطابقة اتجاه العروق ولون الدرجة المختارة، فالجرانيت خامة طبيعية تختلف من كتلة لأخرى، والموافقة المسبقة تحمي الجميع من مفاجآت لاحقة.',
+      ],
+    },
+    {
+      h: 'التركيب والفواصل والحواف',
+      p: [
+        'يثبت السطح فوق الخزانة بمادة لاصقة مخصصة مع نقاط دعم إن لزم، وتضبط المستويات بعناية لضمان استواء السطح كاملاً وتساوي الفواصل بين الدرج. الحواف الأمامية والحواف عند الأفياش تشطف بزوايا مدروسة وتصقل لتبدو ناعمة وآمنة، وتزال أي بروزات قبل التسليم.',
+        'وتسد الفواصل بين السطح والجدار أو بين الدرج بمادة مرنة مقاومة للماء لمنع تسرب السوائل إلى الخزانة أسفل السطح، وتفحص الوصلات عند الحوض والموقد إحكامها التام. وينصح بعدم إحكام السد بمادة صلبة تتشقق مع حركة الخزانة أو تمدد الحجر مع حرارة المدينة المنورة.',
+      ],
+    },
+    {
+      h: 'الاستخدام والصيانة اليومية',
+      p: [
+        'سطح الجرانيت قوي لكنه ليس بلا حدود: ينصح باستخدام لوح تقطيع بدل تقطيع الطعام مباشرة على السطح، ووضع حوامل تحت القدور الساخنة بدل وضعها مباشرة، وتجنب الجلوس على حافة السطح أو الاعتماد عليها بثقل الجسم. فهذه العادات البسيطة تمنع الشروخ والانفصال المبكر.',
+        'أما التنظيف فيكفيه ماء دافئ وصابون متعادل وقطعة قماش ناعمة، وتمسح البقع فور وقوعها لأن الجرانيت الكثيف لا يمتص بسرعة لكن البقع العنيدة قد تترك أثراً إن بقيت طويلة. ويعاد فحص الفواصل دورياً وإعادة سدها عند الحاجة لحماية الخزانة من أي تسرب خفيف.',
+      ],
+      note: 'اطلب من المورد رقم كتلة الجرانيت والدفعة المدونة على السطح، لتسهيل طلب قطع بديلة أو إضافية بنفس الدرجة مستقبلاً.',
+    },
+    ],
+    faq: [
+    { q: 'هل الجرانيت يتحمل حرارة القدور الساخنة؟', a: 'الجرانيت يتحمل الحرارة العالية بدرجة جيدة مقارنة بكثير من الخامات، لكنه لا يحب الصدمة الحرارية المباشرة المتكررة كوضع قدر ساخن جداً على سطح بارد فجأة. ينصح باستخدام حوامل دائمة للقدور الساخنة، فهي عادة بسيطة تطيل عمر السطح وتمنع أي أثر محتمل.' },
+    { q: 'ما الفرق بين الجرانيت والرخام في سطح المطبخ؟', a: 'الجرانيت أصلب وأقل مسامية وأعلى مقاومة للخدش والأحماض، بينما الرخام أرق ملمساً وأجمل عروقاً لكنه أضعف أمام الأحماض ويحتاج عناية أكبر. في المطابخ الكثيفة الاستخدام يفضل الجرانيت، وفي الأسطح الفاخرة ذات الاستخدام الهادئ يبقى الرخام خياراً جميلاً مع صيانة منتظمة.' },
+    { q: 'هل سطح الجرانيت يحتاج تلميعاً دورياً؟', a: 'الجرانيت لا يحتاج تلميعاً متكرراً؛ يحافظ على مظهره لسنوات بصيانة يومية بسيطة، ويعاد تلميعه عند الحاجة فقط حين يفقد لمعانه أو تظهر خدوش عميقة. الأهم هو حماية الفواصل وعدم تعريض السطح للصدمات القوية، فالصيانة الوقائية أجدى من الإصلاح لاحقاً.' },
+    { q: 'كيف أتعامل مع البقع العنيدة على الجرانيت؟', a: 'تترك البقعة الرطبة تزال فوراً بمسح بسيط، أما العنيدة فتعالج بمغاطس أو منظفات مخصصة للحجر الطبيعي غير كاشطة، وتترك قليلاً ثم تشطف بماء دافئ. ينصح بعدم استخدام المواد الكاشطة أو الصوف المعدني لأنها تخدش سطح الجرانيت وتفتح مسامه مع الوقت.' },
+    ],
+  },
+  {
+    id: 'limestone-paving-medina-outdoor',
+    primary: 'تبليط حجر جيري',
+    keywords: ['تبليط حجر جيري', 'أرضيات خارجية', 'حجر جيري', 'أرضيات حديقة', 'المدينة المنورة', 'تبليط خارجي', 'رصف حجري', 'أرضيات مسبح'],
+    intent: 'local',
+    title: 'تبليط حجر جيري خارجي في المدينة المنورة: دليل عملي',
+    description: 'دليل تبليط حجر جيري خارجي في المدينة المنورة: سماكات البلاط، قواعد التركيب، تصريف المياه، والصيانة في الأجواء الحارة.',
+    category: 'دليل الشراء',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'الحجر الجيري خيار ممتاز للأرضيات الخارجية لأنه أقل امتصاصاً للحرارة.',
+      'سماكة بلاط الأرضية الخارجية أكبر من الداخلية لأنه يتحمل أحمالاً أكبر.',
+      'الميل السليم نحو المصرف هو ما يمنع تجمع المياه بعد المطر.',
+      'الفواصل العريضة بالرمل أو المونة تسمح للحجر بالتمدد دون تكسر.',
+      'اختر تشطيب خشن أو مصقول جزئياً لتفادي الانزلاق في الممرات المبللة.',
+    ],
+    ctaHeading: 'تخطط لتبليط حديقتك أو ممر بيتك؟',
+    ctaBody: 'فريقنا يفصل ويركب بلاط الحجر الجيري الخارجي في الحدائق والممرات في المدينة المنورة.',
+    imagePrompt: 'Editorial photo of an outdoor garden path paved with beige limestone tiles in a running bond pattern, warm sunlight casting soft shadows between joints, a stone planter with green plants at the edge, Medina villa garden, no people, no text, professional photography, sharp focus',
+    imageScene: 'ممر حديقة مرصوف ببلاط حجر جيري بيج بنسق متداخل، وأشعة شمس دافئة وظلال ناعمة بين الفواصل، وأصيص حجري بنباتات خضراء',
+    imageTopics: 'تبليط حجر جيري, أرضيات خارجية, حجر جيري, أرضيات حديقة, المدينة المنورة',
+    related: [],
+    sections: [
+    {
+      h: 'الحجر الجيري والاستعمال الخارجي',
+      p: [
+        'الحجر الجيري من الخامات الطبيعية الودودة مع الأجواء الحارة؛ يمتص الحرارة أقل من الخرسانة والأسفلت، ويمنح سطحه ملمساً غير لامع لا يعمي العين تحت شمس المدينة المنورة. ولهذا يكثر استخدامه في ممرات الفلل والحدائق والأرصفة والساحات الخارجية حول المسابح، حيث يمنح المكان مظهراً طبيعياً مريحاً يمتد لسنوات.',
+        'لكن الحجر الجيري مسامي بطبيعته، ولهذا يحتاج اختياراً مدروساً للكثافة والتشطيب في الاستخدامات الخارجية المعرضة للماء والزيوت، كالمناطق حول المسبح أو أماكن الجلوس والطعام. الخامة الكثيفة المعالجة تتحمل هذه الظروف، والرقيقة المسامية تترك للمناطق الجافة أو التكسية الجدارية.',
+      ],
+    },
+    {
+      h: 'السماكة والأبعاد واختيار البلاط',
+      p: [
+        'بلاط الأرضيات الخارجية أسمك من الداخلي لأنه يحمل أوزاناً أكبر ويمر عليه الناس وربما السيارات في المداخل، والسماكة المناسبة تحدد بحسب الاستخدام ونوع القاعدة تحتها. وينصح باختيار أبعاد وأشكال تتناسب مع مساحة المكان: البلاط الكبير يناسب الساحات الواسعة، والصغير يناسب الممرات الضيقة والزوايا.',
+        'ويفضل أن يكون البلاط من دفعة واحدة متجانسة اللون والسماكة، فالتفاوت البسيط بين القطع يظهر واضحاً في الأرضيات الخارجية المكشوفة لضوء النهار، ويصعب إخفاؤه بأي تشطيب.',
+      ],
+    },
+    {
+      h: 'قاعدة التركيب وتصريف المياه',
+      p: [
+        'الأرضية الخارجية لا تصلح إلا بقاعدة صحيحة؛ فتضرب طبقة أساس مدكوكة جيداً ثم طبقة رمل أو مونة تسوى بعناية قبل وضع البلاط، وتترك فواصل بين القطع تمتص التمدد الحراري وتمنع تكسر الحواف مع تبدل حرارة النهار والليل. وتفرش المونة أو الرمل بين الفواصل بحسب النمط المختار، فواصل رملية تسمح بنفاذ الماء، ومونة تمنح مظهراً أمتن.',
+        'وأهم خطوة في الأرضيات الخارجية هي الميل نحو المصرف؛ فيوزن سطح الأرضية بميل خفيف لا يرى بالعين لكنه يمنع تجمع مياه المطر أو مياه غسيل الحديقة في منتصف الساحة. وتفحص الميول قبل تثبيت البلاط لأن تصحيحها بعد الانتهاء يعني رفع البلاط وإعادة العمل.',
+      ],
+    },
+    {
+      h: 'الفواصل والتشطيبات',
+      p: [
+        'تشطيب سطح البلاط الخارجي يحدد أمانه ومظهره معاً؛ فالتشطيب الخشن أو المسطح باللهب يمنح احتكاكاً جيداً ويخفي الخدوش ويصلح للممرات والمناطق المبللة حول المسبح، بينما التشطيب اللامع يكبر المساحة بصرياً لكنه ينزلق مع الماء ويحتاج معالجة مضادة للانزلاق في المناطق الرطبة.',
+        'وتختار الفواصل بعناية: الفواصل العريضة تمنح الأرضية مظهراً ريفياً وتعمل على تصريف الماء، والفواصل الرفيعة تمنح مظهراً عصرياً متصلاً وتحتاج محاذاة دقيقة في التركيب. ولكل نمط فواصل مادة سد مناسبة تتحمل حرارة الشمس ومياه الأمطار دون أن تبهت أو تتشقق.',
+      ],
+    },
+    {
+      h: 'الصيانة والتنظيف في الأجواء الحارة',
+      p: [
+        'تنظيف البلاط الجيري الخارجي يكفيه كنس الأتربة ثم غسل بماء وصابون متعادل، وتزال البقع والطحالب من الفواصل بفرشاة ناعمة ومغاطس مخصصة للحجر الطبيعي. وتعاد فحص الفواصل كل فترة وإعادة سدها عند الحاجة لأنها أكثر ما يتأثر بالمياه والشمس مع السنين.',
+        'وفي الأجواء الحارة ينصح بتجنب ترك المياه الراكدة طويلاً على الحجر المسامي لأنها تترك أثراً باهتاً قد يدوم، وتجفيف السطح بعد الغسيل أو المطر. ومع الاعتناء البسيط يبقى تبليط الحجر الجيري في حديقة المدينة المنورة محتفظاً بمظهره الطبيعي لعقود.',
+      ],
+      warn: 'لا تستخدم المنظفات الحمضية أو الكلور على الحجر الجيري، فكلاهما يبهت سطحه ويفتح مسامه.',
+    },
+    ],
+    faq: [
+    { q: 'هل الحجر الجيري يتحمل حرارة شمس المدينة المنورة؟', a: 'نعم، الحجر الجيري يتحمل الشمس والحرارة بشكل جيد ويبقى أقل امتصاصاً للحرارة من الخرسانة والأسفلت، ولهذا يكثر استخدامه في الممرات والساحات الخارجية. ينصح باختيار خامة كثيفة وتشطيب مناسب، وتجنب المياه الراكدة الطويلة التي قد تترك أثراً على الخامات المسامية.' },
+    { q: 'ما السماكة المناسبة لبلاط الأرضية الخارجية؟', a: 'السماكة المناسبة تتحدد بنوع الاستخدام: الممرات والحدائق تحتاج سماكة أكبر من البلاط الداخلي لأن البلاط الخارجي يحمل أوزاناً أكبر ويتعرض للرطوبة والتمدد الحراري. والأفضل سؤال المورد أو المنفذ عن السماكة المخصصة للاستخدام الخارجي بحسب القاعدة التي ستبنى عليها الأرضية.' },
+    { q: 'كيف أمنع تجمع مياه المطر في الحديقة؟', a: 'الحل يبدأ من مرحلة التصميم بإعطاء الأرضية ميلاً خفيفاً نحو المصرف أو قناة تصريف، ثم اختيار فواصل تسمح بنفاذ الماء أو مصارف سطحية في الأماكن المنخفضة. وينصح بفحص الميول قبل تثبيت البلاط لأن تصحيحها بعد الانتهاء يتطلب رفعاً وإعادة عمل، والميل الخفيف الصحيح لا يرى بالعين لكنه يفرق في النتيجة.' },
+    { q: 'هل يتغير لون الحجر الجيري مع الوقت؟', a: 'الحجر الجيري قد يغمق قليلاً أو يأخذ لوناً عتيقاً مع السنين نتيجة التعرض للشمس والمطر والغبار، وهذا التغير طبيعي ولا يعد عيباً. بعض المالكين يفضلون هذا المظهر العتيق، ومن يفضل ثبات اللون يختار خامات أكثر كثافة أو يعيد معالجة السطح دورياً بحسب الرغبة.' },
+    ],
+  },
+
+  {
+    id: 'stone-color-matching-design-medina',
+    primary: 'تنسيق ألوان الحجر',
+    keywords: ['تنسيق ألوان الحجر', 'توزيع درجات الحجر', 'ألوان واجهات المدينة المنورة', 'اختيار عيّنة الحجر', 'تناسق الحجر مع الدهان', 'حجر طبيعي المدينة المنورة'],
+    intent: 'informational',
+    title: 'تنسيق ألوان الحجر الطبيعي في المدينة المنورة',
+    description: 'قواعد تنسيق ألوان الحجر في المدينة المنورة: توزيع القاعدة والإطار ولمسة اللون، وأثر الإضاءة والعارضة على الدرجة.',
+    category: 'التصميم',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'توزيع الفراغ على قاعدة وإطار ولمسة لون يمنع تشتت العين.',
+      'اختبر العيّنات متلامسة في ضوء النهار والليل قبل الطلب.',
+      'الحجر الفاتح يعكس الشمس ويبقى أبرد في واجهات المدينة المنورة.',
+      'لا تخلط أكثر من حجرين مختلفين في الفراغ الواحد.',
+      'احتفظ بورقة مكتوبة بأسماء الحجر وأماكنه وأرقام دفعاته.',
+    ],
+    ctaHeading: 'محتاج تنسيقاً لونياً لمشروعك؟',
+    ctaBody: 'أرسل لنا صور مساحتك وموقعها، ويقترح فريقنا توزيع الحجر ودرجاته المناسباً لمناخ المدينة المنورة.',
+    imagePrompt: 'Editorial scene: interior designer\'s hands arranging three large natural stone sample tiles in beige, sand and warm grey beside a painted wall swatch on a studio table in Medina, warm daylight from the side, shallow depth of field',
+    imageScene: 'مصمّم يرتّب ثلاث عيّنات حجر بدرجات البيج والرملي والرمادي بجانب عيّنة دهان على طاولة استوديو',
+    imageTopics: 'تنسيق ألوان الحجر,درجات الحجر,عيّنات رخام,المدينة المنورة,تصميم داخلي',
+    related: [],
+    sections: [
+    {
+      h: 'القاعدة الأساسية قبل لمس أي عيّنة',
+      p: [
+        'الحجر الطبيعي في المدينة المنورة حاضر في الواجهات والأرضيات والمداخل، واختلاف درجاته بين الرملي الفاتح والجرانيت الداكن يجعل تنسيق ألوانه مهارة مطلوبة قبل الشراء لا بعده. الاختيار الصحيح يبدأ من توزيع الألوان داخل المساحة نفسها، فالحجر عنصر ثابت لا يُستبدل كل عام، وتناسق درجاته هو ما يجعل الفراغ متماسكاً أو مبعثراً. المبدأ الأبسط القائم على نسبة محددة بين القاعدة والإطار ولمسة اللون يجعل القرار سهلاً حتى في شقة بغرفتين أو في واجهة فيلا على شارعين. القاعدة الذهبية: لا تختر الحجر وحده من العيّنة، بل ضعه بجانب طلاء الجدار والأرضية وأطر الأبواب وحواف الخزائن في إضاءة النهار وفي إضاءة الليل.',
+      ],
+    },
+    {
+      h: 'من أين يبدأ التوزيع داخل الفراغ',
+      p: [
+        'عند تنسيق ألوان الحجر في المدينة المنورة ابدأ بتقسيم الفراغ إلى ثلاثة أدوار: الأرضية والجدران هي القاعدة الصامتة، وأسطح العمل وحافة الحمّام هي الإطار، وجدار واحد أو عنصر واحد يحمل لوناً أكثر جرأة. القاعدة المعروفة بنسبة ثلاث مساحات هادئة إلى مساحة واحدة فاعلة تمنع تشتيت العين وتبقي الحجر مقروءاً كعنصر تصميم لا كضجيج بصري. الشقة الصغيرة تستفيد من درجات قريبة من نفس العائلة، مثل رملي فاتح مع بيج رمادي، لأن تدرج القيمة الضوئية يكفي ليعطي عمقاً بدون تنافر. اختبر العيّنات معاً على لوح كبير لا منفصلة، فالفاصل بين لونين يختلف تماماً عن التلامس المباشر بينهما.',
+      ],
+    },
+    {
+      h: 'خامات المدينة المنورة وتوزيعها',
+      p: [
+        'الحجر الرملي يخدم هذا الأسلوب جيداً في واجهات المدينة المنورة وأرضيات المداخل لأنه يمتص ضوء الشمس الحادة ولا يعكسها، فيظهر لونه ثابتاً من الصباح إلى العصر. الجرانيت الداكن يفضّل توظيفه في عنصر واحد كجدار مدخل أو سطح بار، لأن وضعه في الأرضية والواجهة معاً يجعل الفراغ داكناً ويُخفي تفاصيل الدهان والأثاث. الرخام بعروقه الواسعة يحتاج خلفيات محايدة، والخطأ الشائع هو إقحام رخام متعرج فوق أرضية بلاط منقوش. تذكّر أن العارضة الساقطة على الأرضية تغيّر لون الحجر أكثر من اختياره نفسه، فعيّنة رأتَها في معرض مظلل تبدو أفتح في غرفة تطل غرباً.',
+      ],
+    },
+    {
+      h: 'تسلسل بصري يربط الغرف ببعضها',
+      p: [
+        'تدرج اللون الواحد أعمق من خلط عدة ألوان بجرعات متساوية، فمساحة بحجر رملي فاتح في الأرضية وبنفسجي باهت في الجدار المميز تبدو مصممة، بينما ثلاث درجات متفاوتة بلا علاقة بينها تبدو متراكبة. الإضاءة تُعدّل الحساب: المصابيح الدافئة تُذهب الحجر الفاتح والبارد يُبرز عروق الرخام. عند توزيع الألوان في فيلا المدينة المنورة اربط لون حجر الدور الأرضي بلون حجر الدرج، واربط حجر الحمّام بلون حجر المطبخ، ثم اترك غرفة النوم الرئيسية لدرج هادئ يميل للدفء. هذا الربط يخلق تسلسل بصري يُدركه الزائر دون أن يسميه.',
+      ],
+      bullets: [
+        'اختر حجر القاعدة فاتحاً هادئاً يخدم كل الغرف.',
+        'اجعل الجدار المميز لوناً أعمق من القاعدة بدرجة واحدة.',
+        'عيّنة الدهان النهائية جزء من مخطط الألوان.',
+        'اختبر العيّنات في ضوء النهار وفي إضاءة الليل.',
+        'تجنب أكثر من حجرين مختلفين في الفراغ الواحد.',
+      ],
+    },
+    {
+      h: 'اختبر العيّنات متلامسة في الموقع',
+      p: [
+        'تنسيق ألوان الحجر الطبيعي لا يحتاج خبرة تصميم بقدر ما يحتاج انضباطاً في الاختيار: اجمع أربع عيّنات فقط، رتّبها على الأرض بجانب عيّنة الدهان النهائية، وصوّرها في ضوء النهار وفي ضوء الليل. الصورة أمامك هي الحكم الأصدق على التوافق، لأنها تُظهر التلامس الحقيقي بين الأسطح بدل الخيال. لا تشترِ الحجر من صورة معرض أو من شاشة، فالألوان الرقمية تُشبع دائماً. احتفظ بورقة تكتب فيها اسم كل حجر ومكانه ورقم الدفعة، فالمشاريع الطويلة تُبنى على مراحل وقد تحتاج مطابقة لاحقة للألوان نفسها.',
+      ],
+      note: 'اطلب ورقة توزيع ألوان مكتوبة لكل غرفة، تذكر فيها اسم الحجر ومكانه ورقم الدفعة.',
+      warn: 'لا تشترِ الحجر من صورة معرض أو شاشة؛ الألوان الرقمية تُشبع دائماً.',
+    },
+    ],
+    faq: [
+    { q: 'ما القاعدة الأبسط لتوزيع ألوان الحجر داخل الغرفة؟', a: 'ابدأ بقاعدة صامتة لأغلبية الأسطح ثم إطار بلون مرتبط ثم لمسة واحدة جريئة على عنصر محدد. القاعدة الشائعة ثلاث مساحات هادئة مقابل مساحة فاعلة واحدة، وتُختبر العيّنات متلامسة في ضوء النهار والليل لا منفصلة.' },
+    { q: 'هل يمكن دمج أكثر من نوع حجر في نفس الفراغ؟', a: 'نعم، بشرط أن تجمع الأنواع صلة لونية أو ملمسية لا أن تكون متقابلة تماماً. الأنجح حجر واحد للأرضية وآخر للجدار المميز من نفس العائلة اللونية، والفواصل والأنماط تُقرأ أفضل عند التلامس المباشر في عيّنة كبيرة.' },
+    { q: 'كيف تؤثر الإضاءة على لون الحجر في المدينة المنورة؟', a: 'المصابيح الدافئة تُذهب الحجر الفاتح والباردة تُبرز عروق الرخام وتُزرق الرملي أحياناً. اعتمد درجة بينهما واختبر العيّنة تحت إضاءة الغرفة الفعلية، فالشمس الساطعة طوال النهار تُظهر أي اصفرار أو تباين يخفيه معرض مظلل.' },
+    { q: 'أي حجر يكثُر استخدامه في واجهات المدينة المنورة ولماذا؟', a: 'الحجر الرملي والترافرتينو يكثُران في الواجهات لأنهما يمتصان ضوء الشمس ولا يعكسانه، فيبقيان لوناً ثابتاً من الصباح إلى العصر. الجرانيت الداكن يفضّل للمداخل والعناصر المعمارية المحدودة لا للمساحات الواسعة.' },
+    ],
+  },
+  {
+    id: 'stone-facade-lighting-medina',
+    primary: 'إضاءة واجهات الحجر',
+    keywords: ['إضاءة واجهات الحجر', 'إضاءة الواجهة ليلاً', 'إبراز ملمس الحجر', 'إضاءة غاطسة للواجهات', 'واجهات المدينة المنورة', 'إضاءة نحت حجري'],
+    intent: 'informational',
+    title: 'إضاءة واجهات الحجر الطبيعي في المدينة المنورة',
+    description: 'كيف تُضيء إضاءة واجهات الحجر في المدينة المنورة ليبرز ملمسه ونحته ليلاً دون وهج ولا تسطيح، مع الزوايا والمسافات.',
+    category: 'الواجهات',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'الإضاءة الجانبية تكشف ملمس الحجر أكثر من الإضاءة العمودية.',
+      'مصابيح الغاطس تُعطي إضاءة صاعدة درامية للنحت الحجري.',
+      'اترك مسافة بين المصباح والحجر لتجنب تركيز الحرارة.',
+      'اعتمد درجة لونية بين الدافئ والبارد تحافظ على لون الحجر.',
+      'جرّب الإضاءة ليلة كاملة قبل الاعتماد النهائي.',
+    ],
+    ctaHeading: 'تريد إبراز واجهتك ليلاً؟',
+    ctaBody: 'نراجع واجهتك ونقترح مواقع الإضاءة وزواياها ومسافات التثبيت المناسبة لحجرك.',
+    imagePrompt: 'Editorial night scene: a stone villa facade in Medina lit by warm ground uplights and a soft wall washer on carved stone columns, deep shadows between joints, dark blue sky',
+    imageScene: 'واجهة فيلا حجرية مضاءة ليلاً بإضاءة أرضية صاعدة وإضاءة جانبية ناعمة على أعمدة منحوتة',
+    imageTopics: 'إضاءة واجهات,واجهة حجرية,إضاءة خارجية,نحت حجري,المدينة المنورة',
+    related: [],
+    sections: [
+    {
+      h: 'تحديد العناصر التي تستحق الإبراز',
+      p: [
+        'واجهة المدينة المنورة الحجرية تتعرض لشمس قوية نهاراً وليل صافٍ، فالإضاءة الليلية ليست رفاهية بل هي التي تُظهر الحجر بعد الغروب عندما يقف الزائر أمام المدخل. ابدأ بتحديد العناصر التي تستحق الإبراز: الباب الرئيسي، خط السقف، العمود أو القوس، والنافذة الكبيرة. وزّع مصادر الإضاءة بحيث لا تظهر بقعة ضوئية واحدة مسطحة، بل تدرج من إضاءة قوية عند المدخل إلى إضاءة هادئة عند الأطراف. مصابيح الغاطس في الأرض تُعطي إضاءة صاعدة درامية للنحت الحجري، بينما المصابيح الموجهة من الأعلى تُبرز التموجات الخفيفة في السطح المطفأ. تجنب الإضاءة المنعكسة المباشرة على حجر مصقول لأنها تُحدث وهجاً يفسد المشهد النهاري.',
+      ],
+    },
+    {
+      h: 'زاوية الضوء هي التي تكشف الملمس',
+      p: [
+        'اختر زاوية إضاءة تكشف ملمس الحجر لا تسطحه؛ الإضاءة العمودية على السطح المصقول تجعل الوجه باهتاً، بينما الإضاءة الجانبية الخفيفة تُظهر كل تعرّج وحبيبة. الحجر المنحوت أو المُخشّب يحتاج إضاءة من أسفل أو من الجنب بزاوية حادة، أما الحجر الأملس المصقول فيكفيه وميض خفيف من الأعلى حتى لا ينعكس الضوء ويظهر الوجه مسطحاً. احذر من المصادر القوية المخفية خلف الزرع لأن ظلالها تُشوّه شكل الواجهة. ضع في الحسبان أن المصابيح الباردة جداً تُزرق الحجر الرملي الفاتح، والدافئة تُذهبه؛ اعتمد درجة بينهما تحافظ على لون الحجر كما اخترته نهاراً.',
+      ],
+      table: {
+        head: [
+          'عنصر الإضاءة',
+          'المكان الأنسب',
+          'ملاحظة',
+        ],
+        rows: [
+          [
+            'غاطس أرضي',
+            'قاعدة الواجهة والأعمدة',
+            'إضاءة صاعدة تبرز النحت',
+          ],
+          [
+            'موجه من الأعلى',
+            'العناصر المنحوتة',
+            'يتجنب الوهج على المصقول',
+          ],
+          [
+            'جانبي خفيف',
+            'الواجهة المطفأة',
+            'يكشف الملمس والحبيبات',
+          ],
+          [
+            'شريط علوي',
+            'خط الحافة والقوس',
+            'يوزع ضوءاً ناعماً على المساحة',
+          ],
+        ],
+      },
+    },
+    {
+      h: 'أنماط الإضاءة الشائعة على الواجهات',
+      p: [
+        'واجهات الحجر في المدينة المنورة تُضاء عادة بثلاثة أنماط: الغاطس الأرضي للقاعدة والأعمدة، والموجه للعناصر المعمارية المصنوعة من حجر مختلف، والتركيز الخفيف على المدخل الرئيسي. مصابيح الغاطس تُثبّت على مسافة من الحائط حتى لا تحرق الحجر بتركيز حراري، وكلما زادت المسافة اتسعت بقعة الضوء وانخفضت حرارتها. الواجهة الحجرية الملساء تحتاج إضاءة موزعة بالتساوي لتفادي ظهور التفاوت في مستوى الفواصل، بينما الواجهة المنحوتة تتحمل التباين العالي بين الضوء والظل. استخدم عزل كهربائي جيداً وصناديق توصيل محكمة لأن الواجهة معرضة للرطوبة ومياه الغسيل.',
+      ],
+    },
+    {
+      h: 'تكلفة الإضاءة ومتطلبات التشغيل',
+      p: [
+        'التكلفة تتحدد بنوع المصباح وطول الكوابل وعدد نقاط التغذية لا بعدد المصابيح فقط. المصابيح الموفرة ذات العمر الطويل تخفض فاتورة التشغيل واستبدال المصباح المثبت على ارتفاع يتطلب سقالة أو رافعة كل مرة. اعمل مع فني كهرباء يفرّد دائرة خاصة للإضاءة الخارجية ويؤمّنها بقاطع منفصل. في المشاريع الكبيرة، عوّض الإضاءة الأرضية المكثفة بإضاءة على خط الحافة العلوية للقوس والمداخل تقطع استهلاك الطاقة وتحمي الحجر من الرطوبة الصاعدة. جرّب الإضاءة ليلة كاملة قبل الاعتماد، فالصورة التي تبدو جميلة في العيّنة قد تبدو مسرحية في المبنى كله.',
+      ],
+      bullets: [
+        'ابدأ بعنصر معماري واحد لكل واجهة.',
+        'الغاطس الأرضي يُعطي إضاءة صاعدة درامية.',
+        'اترك مسافة بين المصباح والحجر.',
+        'اعزل دوائر الإضاءة بقاطع منفصل.',
+        'جرّب الإضاءة ليلة كاملة قبل الاعتماد.',
+      ],
+    },
+    {
+      h: 'لماذا جدار واحد يكفي داخل البيت',
+      p: [
+        'تكلفة الإضاءة تتحدد بنوع المصباح وطول الكوابل وعدد نقاط التغذية لا بعدد المصابيح فقط. المصابيح الموفرة ذات العمر الطويل تخفض فاتورة التشغيل واستبدال المصباح المثبت على ارتفاع يتطلب سقالة أو رافعة كل مرة. اعمل مع فني كهرباء يفرّد دائرة خاصة للإضاءة الخارجية ويؤمّنها بقاطع منفصل. في المشاريع الكبيرة، عوّض الإضاءة الأرضية المكثفة بإضاءة على خط الحافة العلوية للقوس والمداخل تقطع استهلاك الطاقة وتحمي الحجر من الرطوبة الصاعدة. جرّب الإضاءة ليلة كاملة قبل الاعتماد، فالصورة التي تبدو جميلة في العيّنة قد تبدو مسرحية في المبنى كله.',
+      ],
+      warn: 'لا توجّه ضوءاً قوياً مباشرة على حجر مصقول، فالوهج يطمس التفاصيل.',
+    },
+    ],
+    faq: [
+    { q: 'ما زاوية الإضاءة الأفضل لإبراز ملمس الحجر على الواجهة؟', a: 'الإضاءة الجانبية أو الغاطسة بزاوية حادة تكشف الحبيبات وعمق الفواصل، بينما الإضاءة العمودية على سطح مصقول تجعله يبدو مسطحاً. للحجر المنحوت استخدم إضاءة صاعدة من أسفل وبمسافة مدروسة حتى لا تحرق الحجر بتركيز حراري.' },
+    { q: 'كيف تتجنب الوهج المنعكس من الحجر المصقول على الواجهة؟', a: 'تجنب سقوط الضوء المباشر القوي على الحجر المصقول، ووجّه المصابيح نحو العناصر المنحوتة أو المطفأ بدل المصقول. اختبر الإضاءة ليلة كاملة قبل الاعتماد لأن الانعكاس لا يظهر في العيّنة الصغيرة، وزوّد الدوائر بقاطع منفصل لحماية التغذية.' },
+    { q: 'كم مسافة آمنة بين مصباح الغاطس والحجر؟', a: 'المسافة تحدد اتساع بقعة الضوء وتركيز الحرارة؛ كلما ابتعد المصباح اتسعت البقعة وانخفضت حرارته. اعتمد مسافة تُغطي العنصر المعماري بلا تداخل حراري، وثبّت المصباح في نابيت أو قاعدة تسمح بتعديل الزاوية عند الصيانة.' },
+    { q: 'هل تختلف درجة حرارة اللون بين واجهة سكنية وأخرى تجارية؟', a: 'في الواجهات السكنية بالمدينة المنورة يُفضّل ضوء دافئ يميل للحياد حتى لا يُذهب الحجر ولا يُبرده. في واجهات المحلات والفنادق يمكن رفع شدة الإضاءة ودرجة التباين لأن الهدف هو لفت النظر من مسافة بعيدة لا قراءة تفاصيل الحجر.' },
+    ],
+  },
+  {
+    id: 'stone-cladding-interior-medina',
+    primary: 'كسوة الجدران الداخلية',
+    keywords: ['كسوة الجدران بالحجر', 'كسوة جدار داخلي', 'ألواح حجر رقيقة', 'تشطيب كسوة داخلية', 'تثبيت الحجر على الجدار', 'جدار مميز حجري'],
+    intent: 'informational',
+    title: 'كسوة الجدران الداخلية بالحجر في المدينة المنورة',
+    description: 'دليل كسوة الجدران الداخلية بالحجر في المدينة المنورة: سماكة اللوح والتشطيب ومواضع الجدار وشروط التثبيت.',
+    category: 'التصميم',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'عشرون ملم أو أقل تكفي لكسوة الجدران الداخلية وتقلل الوزن.',
+      'اختَر جداراً واحداً يستقبل النظر عند دخول الغرفة.',
+      'الحجر المصقول يحتاج إضاءة مخططة ليُظهر عروقه.',
+      'الجدار غير المستوي يضاعف وقت التركيب ويُنتج فواصل غير متساوية.',
+      'اترك فواصل تمدد عند التقاء الحجر بالسقف والجدران.',
+    ],
+    ctaHeading: 'عندك جدار داخلي يستحق الحجر؟',
+    ctaBody: 'نركب كسوة جدارك الداخلي بسماكة وتشطيب مناسبين، ونجهز القاعدة قبل التثبيت.',
+    imagePrompt: 'Editorial close-up: craftsman\'s hands installing thin beige stone cladding panels on an interior living room wall with a notched trowel, spirit level on the floor, soft daylight',
+    imageScene: 'حرفي يركّب ألواح كسوة حجرية رقيقة بلون البيج على جدار صالة داخلية بمساحة مشطوفة',
+    imageTopics: 'كسوة جدران داخلية,ألواح حجر,تشطيب مطفأ,جدار مميز,المدينة المنورة',
+    related: [],
+    sections: [
+    {
+      h: 'التشطيب المناسب للإضاءة المتاحة',
+      p: [
+        'الجدران الداخلية في بيوت المدينة المنورة تتعرض لحرارة جافة صيفاً وبرودة شتاء، وكلتا الحالتين تُظهران مزية الحجر: سطح بارد مريح في الصيف وكتلة حرارية تُهدئ تقلب الغرفة في الشتاء. ضع الكسوة في الجدار الذي يستقبل النظر عند دخول الغرفة، لا في كل الجدران، وإلا ضاقت المساحة البصرية وثقلت. جدار التلفاز أو جدار السرير أو الجدار خلف الكونسول هي المواضع الثلاثة الأكثر نجاحاً. اترك الجدار المقابل هادئاً بدهان مطفي، فالتقابل بين سطح حجري نابض وسطح أملس هادئ هو ما يمنح الكسوة معناها. استخدم حجر بسماكة عشرين ملم أو أقل في الداخل لتقليل الوزن على الهيكل ولتبسيط التثبيت.',
+      ],
+    },
+    {
+      h: 'شروط التثبيت على قاعدة صحيحة',
+      p: [
+        'اختر تشطيب الكسوة الداخلية حسب الإضاءة المتاحة؛ الحجر المصقول يحتاج إضاءة مركزة ليُظهر عروقه، والمطفأ يكفيه ضوء الغرفة العام، والمنحوت أو المُخشّب يعطي ظلالاً قوية تحت الإضاءة الجانبية. لا تكسُ جدار يطل على نافذة كبيرة بحجر مصقول عاكس، فوهج النهار سيطمس تفاصيل الحجر ويُتعب النظر. الرخام الفاتح بعروق رمادية يعمل بكفاءة في صالات المدينة المنورة لأنه يعكس الضوء ويوسّع المساحة، بينما الجرانيت الداكن يضيق الغرفة بصرياً ويُفضّل للمداخل الطويلة أو الجدران الخلفية للبار. العيّنة في المعرض ليست الحكم؛ ثبّت لوحاً كاملاً على الجدار الفعلي وانظر إليه نهاراً وليلاً قبل إتمام الطلب.',
+      ],
+    },
+    {
+      h: 'التكلفة الخفية في الكسوة الداخلية',
+      p: [
+        'تثبيت الكسوة الداخلية أخف وطأة من الخارجية، لكنه يبقى يعتمد على قاعدة صحيحة: جدار مستوٍ وجاف، لاصق مناسب لنوع الحجر، وفواصل مدروسة. الجدار قديم أو فيه تشطيب قابل للتفقع فيجب إعداده قبل التثبيت وإلا سقط اللوح مع مرور الوقت. الرخام والجرانيت الكثيفان يثبتان بلاصق عادي، أما الترافرتينو والحجر المسامي فيحتاج لاصقاً مرناً يمنع ظهور لون اللاصق من خلف السطح. ثبّت الألواح من أسفل إلى أعلى، واترك فواصل تمدد عند التقاء الحجر بالسقف والجدار المجاور. اجعل آخر لوح في الزاوية غير مرئي أو قابل للتعديل، فالأخطاء تظهر في الزوايا أولاً.',
+      ],
+      steps: [
+        ['1', 'حدد الجدار والإضاءة المتاحة قبل اختيار الحجر.'],
+        ['2', 'جهّز الجدار من تسوية وتنظيف وتجفيف.'],
+        ['3', 'ثبّت الألواح من الأسفل إلى الأعلى بلاصق مرن.'],
+        ['4', 'اترك فواصل تمدد عند السقف والجدار المجاور.'],
+        ['5', 'احمِ الحجر حتى انتهاء باقي أعمال الغرفة.'],
+      ],
+    },
+    {
+      h: 'السلم عنصر تلامس لا عنصر زينة',
+      p: [
+        'تكلفة كسوة الجدار الداخلي تتحدد بأربعة أشياء: سماكة الحجر والتشطيب ومساحة الجدار ومدة تجهيز القاعدة. الحجر المنحوت أو المُخشّب يكلف أكثر من الأملس لأنه يُنتَج بكميات أصغر، والمصقول يكلف أكثر من المطفأ في مرحلة الإنتاج. اطلب من المورّد لوحاً كاملاً على الجدار قبل القص النهائي لتقليل الهدر. عامل التكلفة الخفي هو تجهيز الجدار نفسه؛ جدار غير مستوٍ يضاعف وقت التركيب ويُنتج فواصل غير متساوية. احمِ الألواح بعد التثبيت بتغطية خفيفة حتى انتهاء أعمال الدهان والكهرباء، فالخدش في الحجر الطرفي يظهر فوراً.',
+      ],
+      bullets: [
+        'سماكة عشرين ملم تكفي داخل الغرف.',
+        'اترك فواصل تمدد عند التقاء الحجر بالسقف.',
+        'ثبّت الألواح من أسفل إلى أعلى.',
+        'الجدار القديم يُجهّز قبل التثبيت.',
+        'احمِ الحجر أثناء أعمال الدهان.',
+      ],
+    },
+    {
+      h: 'مواضع الجدران الأنسب للكسوة',
+      p: [
+        'تكلفة كسوة الجدار الداخلي تتوزع على الحجر وسماكته وتشطيبه، وتجهيز القاعدة، ووقت التركيب. الحجر المنحوت أو المُخشّب يكلف أكثر من الأملس لأنه يُنتَج بكميات أصغر، والمصقول يكلف أكثر من المطفأ في مرحلة التصنيع. اطلب من المورّد لوحاً كاملاً على الجدار قبل القص النهائي لتقليل الهدر. عامل التكلفة الخفي هو تجهيز الجدار نفسه؛ جدار غير مستوٍ يضاعف وقت التركيب ويُنتج فواصل غير متساوية. احمِ الألواح بعد التثبيت بتغطية خفيفة حتى انتهاء أعمال الدهان والكهرباء، فالخدش في الحجر الطرفي يظهر فوراً ويصعب تعويضه بعد التركيب.',
+      ],
+      note: 'لا تكسُ جداراً يخطط صاحبه لتغيير لونه كل سنتين؛ الحجر عنصر طويل الأمد.',
+    },
+    ],
+    faq: [
+    { q: 'أي الجدران يصلح للكسوة الداخلية بالحجر؟', a: 'الجدار الذي يستقبل النظر عند دخول الغرفة هو الأنسب، وجدار التلفاز أو السرير أو خلف الكونسول مواضع ناجحة عادة. تجنب الجدران التي تحمل نوافذ أو خزائن مبنية، فالحجر يحتاج سطحاً صامتاً يعرضه وخلفيته محايدة تمنحه معنى.' },
+    { q: 'ما السماكة المناسبة لكسوة الجدران الداخلية؟', a: 'عشرون ملم أو أقل يكفي داخل الغرف ويقلل الوزن على الهيكل ويبسّط التثبيت. الرخام والجرانيت الكثيف يثبتان بلاصق عادي، أما الترافرتينو والحجر المسامي فيحتاج لاصقاً مرناً يمنع ظهور لون اللاصق من خلف السطح.' },
+    { q: 'هل يصلح الحجر المصقول لكسوة جدار داخلي؟', a: 'يصلح إن كانت الإضاءة الموجهة مخططة، فالمصقول يحتاج ضوءاً مركزاً ليُظهر عروقه. تجنب المصقول على جدار يطل على نافذة كبيرة، فوهج النهار يطمس التفاصيل ويتعب النظر؛ المطفأ أو المخشّب يكفيه ضوء الغرفة العام.' },
+    { q: 'كيف تُجهّز الجدار قبل تثبيت الكسوة؟', a: 'يجب أن يكون الجدار مستوياً وجافاً وخالياً من تشطيب قابل للتفقع، وإلا سقط اللوح مع الوقت. ثبّت الألواح من أسفل إلى أعلى واترك فواصل تمدد عند التقاء الحجر بالسقف والجدار المجاور، واجعل آخر لوح في الزاوية قابلاً للتعديل لأن الأخطاء تظهر في الزوايا.' },
+    ],
+  },
+  {
+    id: 'stone-staircase-design-villas-medina',
+    primary: 'سلالم الحجر الطبيعي',
+    keywords: ['سلالم الحجر الطبيعي', 'تصميم سلم حجري', 'سماكة درجات السلم', 'درابزين سلم حجري', 'مقاسات درجات السلم', 'حافة درجة حجرية'],
+    intent: 'informational',
+    title: 'تصميم سلالم الحجر الطبيعي في المدينة المنورة',
+    description: 'معادلة الدرجة في سلالم الحجر الطبيعي بالمدينة المنورة: السماكة والحواف ومقاومة الانزلاق والفواصل، مع التكلفة.',
+    category: 'دليل الشراء',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'ثلاثون ملم حد عملي لسماكة الدرجات المكشوفة.',
+      'الحافة الأمامية المستديرة قليلاً تمنع التقشر مع الاحتكاك.',
+      'التشطيب المخشّب أو المطفأ يمنح قبضة ويمنع الانزلاق.',
+      'ثبّت الدرابزين بمسامير كيميائية لا عادية.',
+      'مخطط توزيع الألواح يمنع هدر لوح كامل في درجة واحدة.',
+    ],
+    ctaHeading: 'تبني سلماً يدوم؟',
+    ctaBody: 'نصمم سلّمك الحجري بمقاسات درجات مريحة وحواف مدروسة، ونورّد ونركّب بطابقاً واحداً.',
+    imagePrompt: 'Editorial scene: a stonemason\'s workshop bench in Medina with a thick granite stair tread, rounded nosing edge and a diamond polishing pad, dust in the air, daylight',
+    imageScene: 'طاولة ورشة حجر عليها درجة سلم جرانيت سميكة بحافة أمامية مستديرة وقرص تلميع ماسي',
+    imageTopics: 'سلالم حجر,درجات جرانيت,حافة درجة,ورشة حجر,المدينة المنورة',
+    related: [],
+    sections: [
+    {
+      h: 'الانزلاق والحواف والإضاءة على الدرجات',
+      p: [
+        'السلم في فيلا المدينة المنورة ليس مجرد وسيلة صعود؛ في المدخل الرئيسي هو أول ما يلمسه الزائر، وفي الأدوار العلوية هو نقطة التقاء الغرف. الحجر هنا يتعرض لضربة كعب وحمل مركّز على حافة ضيقة، لذا سماكة ثلاثين ملم هي الحد العملي للدرجات الخارجية والداخلية المكشوفة. الدرجة الرقيقة تتشقق عند الحافة مع الوقت، والتشقق لا يُصلح بسهولة لأنه في منطقة الضغط الأعلى. اختر حجراً كثيفاً قليلاً المسامية للدرجات؛ الجرانيت والرخام الكثيف يتفوقان على الحجر الرسوبي المسامي. اترك لكل درجة حافة أمامية مستديرة قليلاً لا حادة، فالزاوية الحادة تتقشر من أول احتكاك.',
+      ],
+    },
+    {
+      h: 'توزيع الميزانية على الحجر والورشة',
+      p: [
+        'تصميم السلم بالحجر في المدينة المنورة يبدأ من معادلة الخطوة: ارتفاع الدرجة وعمقها ونسبة كل منهما للأخرى تحدد راحة الصعود اليومية أكثر من لون الحجر. اجعل الحجر يحترم هذه المعادلة بدل أن يفرض مقاسه عليها؛ لوح الحجر يُقّص حسب الدرجة لا العكس. الدرجة المفتوحة من الخلف تحتاج دعماً إنشائياً يُخفى داخل الحجر، أما الدرجة المبنية فوق قاعدة خرسانية فتثبت مباشرة. اترك فاصلاً حرارياً صغيراً بين الحجر والجدار الجانب، فالحجر يتمدد ببطء ويحتاج مساحة حركة. ضع في الحسبان الدرابزين: قاعدة الدرابزين المعدني تُثبت في الحجر بمسامير كيميائية لا بالمسامير العادية.',
+      ],
+      table: {
+        head: [
+          'جزء السلم',
+          'المواصفة',
+          'السبب',
+        ],
+        rows: [
+          [
+            'سماكة الدرجة',
+            'ثلاثون ملم فأكثر',
+            'تتحمل حافة الكعب والحمل',
+          ],
+          [
+            'الحافة الأمامية',
+            'مستديرة قليلاً',
+            'تمنع التقشر عند الاحتكاك',
+          ],
+          [
+            'تشطيب الوجه',
+            'مطفأ أو مخشّب',
+            'يقلل الانزلاق عند البلل',
+          ],
+          [
+            'فواصل الدرجات',
+            'مونة مرنة',
+            'تتحرك مع تمدد الحجر',
+          ],
+        ],
+      },
+    },
+    {
+      h: 'الحرارة أول اختبار لأرضية مكشوفة',
+      p: [
+        'الانزلاق هو الخطر الأول في سلالم الحجر داخل المدينة المنورة، والدرجة المبللة بحذاء مبلل لا يرحم. اخشّب سطح الدرجة أو استخدم تشطيباً مطفأً خشناً، وتجنب المصقول في السلم الخارجي أو القريب من المسبح. الحجر المنحوت بخطوط أفقية خفيفة على وجه الدرجة يمنح قبضة إضافية دون أن يبدو خشناً. أضف شريطاً مضاداً للانزلاق عند الحافة الأمامية إذا كان السلم يخدم كباراً أو أطفالاً، واجعل الإضاءة على الدرجة نفسها لا في السقف فقط، فالظل هو سبب معظم التعثر. فواصل الدرجات يجب أن تكون مغلقة بمونة مرنة لا تتشقق مع حركة السلم.',
+      ],
+      bullets: [
+        'سماكة ثلاثين ملم إلزامية للدرجات.',
+        'اخشّب سطح الدرجة أو استخدم تشطيباً مطفأً.',
+        'أضئ الدرجة نفسها لا السقف فقط.',
+        'ثبّت الدرابزين بمسامير كيميائية.',
+        'احسب هدراً إضافياً للدرجات الطرفية.',
+      ],
+      steps: [
+        ['1', 'احسب ارتفاع الدرجة وعمقها قبل اختيار الحجر.'],
+        ['2', 'اطلب مخطط توزيع الألواح على الدرجات.'],
+        ['3', 'جهّز القاعدة أو الدعم الإنشائي للدرجات المفتوحة.'],
+        ['4', 'ركّب الدرجات بمونة مرنة وافحص الاستواء.'],
+        ['5', 'ثبّت الدرابزين بمسامير كيميائية بعد التثبيت.'],
+      ],
+    },
+    {
+      h: 'الانزلاق بعد البلل هو المعيار الحاسم',
+      p: [
+        'تكلفة سلم حجري في المدينة المنورة تتوزع على ثلاثة بنود: الحجر نفسه بسماكته وتشطيبه، وتجهيز الدرجات في الورشة قبل التركيب، ووقت التركيب في الموقع. الألواح الكبيرة التي تُقص منها درجتان أو ثلاث تخفض الهدر وتوحّد اللون. السلم المنحني أو الحلزوني يكلف أكثر لأن القص يصبح تشكيلياً لا خطياً. اطلب من المورّد مخططاً يوضح توزيع الألواح على الدرجات قبل القص؛ هذا المخطط يمنع هدر لوح كامل في درجة واحدة. احسب نسبة هدر إضافية للدرجات الطرفية والمقاسات غير المنتظمة، وثبّت في العقد من يمتلك الحجر المهدور ومن يدفع ثمن القص الزائد.',
+      ],
+      note: 'اجعل آخر لوح في الزاوية غير مرئي أو قابلاً للتعديل، فالأخطاء تظهر في الزوايا أولاً.',
+      warn: 'لا تثبّت درابزين معدني بالمسامير العادية في حافة الدرجة.',
+    },
+    ],
+    faq: [
+    { q: 'ما السماكة الدنيا لدرجات السلم الحجرية؟', a: 'ثلاثون ملم هي الحد العملي للدرجات المكشوفة لأن الحافة الرقيقة تتشقق من أول صدمة كعب أو حمل مركّز. اختر حجراً كثيفاً قليل المسامية كالجرانيت أو الرخام الكثيف، واجعل الحافة الأمامية مستديرة قليلاً لا حادة حتى لا تتقشر مع الاحتكاك.' },
+    { q: 'كيف تُضبط راحة الصعود في سلم حجري؟', a: 'الراحة تأتي من نسبة ارتفاع الدرجة إلى عمقها لا من لون الحجر، فاجعل مقاس الحجر يُقّص حسب الدرجة لا العكس. الدرجة المفتوحة من الخلف تحتاج دعماً إنشائياً يُخفى داخل الحجر، والمبنية على قاعدة خرسانية تثبت مباشرة مع فاصل حراري صغير عند الجدار.' },
+    { q: 'ما التشطيب الأمنع للانزلاق على الدرجات؟', a: 'المطفأ الخشن أو المنحوت بخطوط أفقية خفيفة يمنح قبضة كافية دون أن يبدو خشناً، وتجنب المصقول في السلم الخارجي أو القريب من المسبح. يمكن إضافة مانع انزلاق أو شريط عند الحافة الأمامية إذا كان السلم يخدم كباراً أو أطفالاً، وأضئ الدرجة نفسها لا السقف.' },
+    { q: 'كيف تُثبّت قاعدة الدرابزين في الحجر؟', a: 'تثبت قاعدة الدرابزين المعدني بمسامير كيميائية لا بالمسامير العادية، لأنها تتحمل عزماً وسحباً متكررين. وزّع نقاط التثبيت على عرض الدرجة لا على حافتها الرقيقة، وتأكد من عمق ونظافة الثقب قبل حقن المادة الكيميائية.' },
+    ],
+  },
+  {
+    id: 'stone-outdoor-patio-medina',
+    primary: 'أرضيات الحجر الخارجية',
+    keywords: ['أرضيات الحجر الخارجية', 'حجر الرصيف الخارجي', 'ترافرتينو خارجي', 'انزلاق أرضية المسبح', 'فواصل الأرضيات الخارجية', 'مقاومة الحجر للأملاح'],
+    intent: 'commercial',
+    title: 'أرضيات الحجر الخارجية في المدينة المنورة',
+    description: 'اختيار أرضيات الحجر الخارجية في المدينة المنورة: الحرارة والانزلاق بعد البلل وتحمل الأملاح، مع الفواصل والميل.',
+    category: 'دليل الشراء',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'الحجر الفاتح يعكس الحرارة ويبقى أبرد تحت القدم.',
+      'تجنب المصقول في الأرضيات المكشوفة للمطر وحول المسبح.',
+      'فواصل أضيق من الداخلية ومونة مرنة تمنع الغسل.',
+      'اميل الأرضية نحو مصرف مكشوف ولا تترك ماءً راكداً.',
+      'عالج السطح بمانع تغلغل بعد التركيب وأعده دورياً.',
+    ],
+    ctaHeading: 'أرضيتك الخارجية تحتاج خامة تناسب الجو؟',
+    ctaBody: 'نختار معك حجر الأرضية الخارجية الأنسب للحرارة والانزلاق والأملاح، ونركّبه بميل صحيح.',
+    imagePrompt: 'Editorial scene: an outdoor stone patio around a villa entrance in Medina with light travertine pavers, a worker sweeping fine sand into the joints, harsh midday sun',
+    imageScene: 'رصيف حجر فاتح حول مدخل فيلا بالمدينة المنورة وعامل يكنس الرمل الناعم داخل الفواصل',
+    imageTopics: 'أرضيات خارجية,ترافرتينو,فواصل حجر,رصيف فيلا,المدينة المنورة',
+    related: [],
+    sections: [
+    {
+      h: 'الفواصل في مناخ المدينة المنورة',
+      p: [
+        'الأرضية الخارجية في المدينة المنورة تسخن تحت الشمس أكثر من أي سطح آخر في المبنى، والفرق بين حجر يمتص الحرارة وآخر يعكسها يظهر في المشي حافي القدمين ظهراً. الحجر الفاتح يعكس قدراً أكبر من الإشعاع ويبقى أبرد، والحجر الداكن يمتصه ويسخن. الترافرتينو والحجر الرملي الفاتح خياران شائعان لأرصفة المدينة المنورة وشرفاتها لأنهما يحافظان على برودة نسبية ولا تتباهى عروقهما بالغبار. المقاس الصغير للألواح يقلل إجهاد التمدد ويخفض فرصة التقوس، والمقاس الكبير يحتاج فواصل أوسع محسوبة. لا تضع حجراً مصقولاً في أرضية مسبح أو رواق مكشوف للمطر، فالزلة هنا إصابة لا مجرّد سقوط.',
+      ],
+    },
+    {
+      h: 'الصيانة تحدد عمر الأرضية',
+      p: [
+        'الانزلاق بعد البلل هو المعيار الحاسم في أرضيات الحجر الخارجية بالمدينة المنورة، خصوصاً حول المسبح وفي الممرات التي تُغسل يومياً. التشطيب المصقول يصبح خطيراً جداً على الأسطح المبللة، بينما المطفأ والمخشّب والمنحوت بخطوط سطحية يمنح احتكاكاً كافياً. يمكن معالجة الحجر بمضاد انزلاق يرفع الاحتكاك دون أن يغيّر مظهره، ويُعاد تطبيقه دورياً بحسب الاستخدام. اترك ميولاً خفيفة في الأرضية نحو مصرف مكشوف، فالبركة الصغيرة هي التي تُنتج الطبقة الزلقة. احذر من استخدام حجر مسامي غير معالج في الممر الخارجي، فالمسام تمتص الماء وتبقي السطح داكناً ورطباً وتُنشئ بيئة طحلب.',
+      ],
+      table: {
+        head: [
+          'نوع الحجر',
+          'سلوكه في الشمس',
+          'ملاحظة',
+        ],
+        rows: [
+          [
+            'رملي فاتح',
+            'يعكس ويبقى أبرد',
+            'الأنسب للأرصفة المكشوفة',
+          ],
+          [
+            'ترافرتينو معالج',
+            'يحافظ على لون ثابت',
+            'يحتاج عازلاً دورياً',
+          ],
+          [
+            'جرانيت داكن',
+            'يمتص الحرارة',
+            'يفضّل للمداخل المظللة',
+          ],
+          [
+            'رخام مصقول',
+            'خطر انزلاق عند البلل',
+            'ممنوع حول المسبح',
+          ],
+        ],
+      },
+    },
+    {
+      h: 'ارتفاع الحجر ومساوئ التلاعب به',
+      p: [
+        'رمل المدينة المنورة ناعم ويتسلل إلى كل فاصل، لذلك فواصل الأرضية الخارجية يجب أن تكون أضيق من الداخلية ومملوءة بمونة مرنة لا تُغسل بالماء. استخدم فاصلاً بين الألواح يتراوح بين ثلاثة وخمسة مليمترات في الساحات المكشوفة، وأوسع قليلاً في المناطق المظللة حتى يجف الحجر ويتنفس. قاعدة التركيب هنا مختلفة: طبقة خرسانية معدة جيداً أو طبقة رمل مدكوكة بضبط الاستواء، ولاصق مرن يتحمل الرطوبة المتكررة. لا تثبت الحجر الخارجي على طبقة رقيقة من اللاصق فقط؛ الفراغ تحت اللوح يملأ ماءً ويتكسر مع الصقيع والحرارة.',
+      ],
+      bullets: [
+        'الدرجة الفاتحة أبرد تحت القدم.',
+        'تشطيب خشن يمنع الانزلاق.',
+        'فواصل أضيق من الداخلية بمونة مرنة.',
+        'اميل الأرضية نحو مصرف مكشوف.',
+        'عالج السطح بمانع تغلغل دوري.',
+      ],
+    },
+    {
+      h: 'عزل الحوض وثبات الحجر مع الهيكل',
+      p: [
+        'الصيانة تحدد عمر الأرضية الخارجية في المدينة المنورة أكثر من سعر الحجر. اغسل الأملاح والبقع العضوية بماء نظيف وفرشاة ناعمة، وتجنب الأحماض التي تُذيب كربونات الحجر الجيري. عالج الأرضية بمانع تغلغل بعد التركيب ثم أعد المعالجة كل بضع سنوات بحسب تعرض الموقع للمطر والشمس. غطّ الساحة أثناء أعمال الدهان أو اللياسة المجاورة، فبقع الدهان على الحجر المسامي تدخل عميقاً. امسح بقع الزيت والشوي سريعاً بمنظف متعادل، وكلما تأخرت كلما توغلت. اختيار تشطيب خشن يقلل ظهور الخدوش وقبول الصيانة الدورية على المدى الطويل.',
+      ],
+      note: 'اختبر العزل في مناطق مختلفة من الأرضية، فالاستخدام يختلف من ركن لركن.',
+      warn: 'لا تثبت الحجر الخارجي على طبقة لاصق رقيقة؛ الفراغ تحت اللوح يملأ ماءً.',
+    },
+    ],
+    faq: [
+    { q: 'أي حجر يصلح لأرضية رصيف مكشوف في المدينة المنورة؟', a: 'الترافرتينو والحجر الرملي الفاتح خياران شائعان لأنهما يعكسان قدراً أقل من الحرارة ويبقيان لوناً ثابتاً تحت الشمس. تجنب المصقول في الأرضيات المكشوفة للمطر وحول المسبح، فالحجر المبلل المصقول يصبح خطيراً ويزداد زلقة.' },
+    { q: 'كيف تُقلل حرارة سطح الأرضية الخارجية في الصيف؟', a: 'اختر درجة فاتحة تعكس الإشعاع وامنح الحجر تشطيباً لا يعكس الوهج، ووزّع المقاسات الصغيرة نسبياً لتقليل إجهاد التمدد. الظل الجزئي أو العريشة يخفض حرارة السطح بشكل ملموس، فالمقارنة بين حجر فاتح وظل وبين داكن مكشوف تظهر الفرق ظهراً مباشرة.' },
+    { q: 'ما الفاصل الأنسب بين ألواح الأرضية الخارجية؟', a: 'ثلاثة إلى خمسة مليمترات في الساحات المكشوفة، وأوسع قليلاً في المناطق المظللة حتى يجف الحجر ويتنفس. املأ الفواصل بمونة مرنة لا تُغسل بماء الغسيل، فالرمل الناعم يتسلل إلى كل فراغ ويعمل كحبيبات كشط عند السير.' },
+    { q: 'كيف تُجهّز القاعدة لأرضية حجرية خارجية؟', a: 'طبقة خرسانية معدة جيداً أو رمل مدكوك بضبط الاستواء، ولاصق مرن يتحمل الرطوبة المتكررة، وميل خفيف نحو مصرف مكشوف. لا تثبت الحجر الخارجي على طبقة لاصق رقيقة فقط؛ الفراغ تحت اللوح يملأ ماءً ويفرغ اللاصق مع الحرارة.' },
+    ],
+  },
+  {
+    id: 'stone-maintenance-medina',
+    primary: 'صيانة الحجر الطبيعي',
+    keywords: ['صيانة الحجر الطبيعي', 'عزل الحجر', 'تنظيف الرخام الصحيح', 'فحص فواصل الحجر', 'منظفات الحجر الممنوعة', 'صيانة واجهات المدينة المنورة'],
+    intent: 'informational',
+    title: 'صيانة الحجر الطبيعي في المدينة المنورة',
+    description: 'نظام صيانة الحجر الطبيعي في المدينة المنورة: التنظيف المتعادل والعزل الدوري وفحص الفواصل وإصلاح مبكر يمنع التلف.',
+    category: 'الصيانة',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'المنظفات القوية هي السبب الأول لتلف الحجر لا الاستخدام.',
+      'اختبر العزل برش قطرات ماء على سطح نظيف.',
+      'افحص الفواصل كل ستة أشهر وأصلح المفتوح منها فوراً.',
+      'لا تملأ فواصل الخارج بالإسمنت الأبيض العادي.',
+      'احتفظ بسجل صيانة مكتوب لكل حجر ومكانه.',
+    ],
+    ctaHeading: 'حجرك يحتاج خطة صيانة؟',
+    ctaBody: 'نضع لحجرك برنامج صيانة وقائي يشمل العزل والفواصل والفحص الدوري في المدينة المنورة.',
+    imagePrompt: 'Editorial scene: a technician\'s gloved hands wiping a natural stone countertop with a soft cloth and a small bottle of neutral cleaner on a workbench, workshop background, daylight',
+    imageScene: 'فني بقفازات يمسح سطحاً حجرياً بقماشة ناعمة وزجاجة منظف متعادل على طاولة عمل',
+    imageTopics: 'صيانة الحجر,تنظيف متعادل,عزل الأسطح,منظف حجر,المدينة المنورة',
+    related: [],
+    sections: [
+    {
+      h: 'الفواصل نقطة الضعف الأولى',
+      p: [
+        'أغلب تلف الحجر في المدينة المنورة سببه المنظفات لا الاستخدام؛ الأمونيا وماء الجير والخل تُذيب لمعة الرخام وتترك أثراً باهتاً لا يُزال إلا بإعادة تلميع. اعتمد ماءً دافئاً مع منظف متعادل قاعدته الصابون الخفيف، وجفّف السطح بعدها بقماشة ناعمة. الرمل المتراكم على الحذاء يعمل كورق صنفرة على الأرضية، فضع دواسة عند المدخل واغسل الأرضية بماء كثير لا بمنظف كثير. امسح الانسكاب فور حدوثه، فالبقعة التي تُترك ساعة تدخل مسام الحجر وتُصبح عيباً دائماً. في المطبخ والرصيف الخارجي، غطّ الحجر بورق أو قماش أثناء أعمال البناء والطلاء المجاورة.',
+      ],
+    },
+    {
+      h: 'اجعل للحجر برنامج صيانة مكتوباً',
+      p: [
+        'العزل هو الفرق بين حجر يدوم وحجر يتبدل؛ الحجر المسامي مثل الترافرتينو والحجر الرملي يمتص السوائل كالإسفنجة، ومانع التغلغل الجيد يُشترى مرة ويُعاد كل بضع سنوات بحسب الاستخدام. اختبر العزل برش بضع قطرات ماء على سطح نظيف: إن تبخرت بسرعة فالسطح عاري، وإن بقيت كرات فالعزل ما زال عاملاً. الأسطح الأكثر حاجة هي أسطح المطبخ وحافة الحمّام وأرضية الرصيف حول المسبح. عزل الأرضية الخارجية يحميها من الأملاح التي تخرج من التربة ويتسلل مع مياه الغسيل. لا تخلط بين الملمع والعازل؛ الملمع يضيف طبقة سطحية تُعاد وتُزال بينما العازل يدخل المسام ويبقى.',
+      ],
+      table: {
+        head: [
+          'دورة الصيانة',
+          'العمل',
+          'العلامة الدالة',
+        ],
+        rows: [
+          [
+            'أسبوعية',
+            'غسل بماء ومنظف متعادل',
+            'تراكم الغبار والرمل',
+          ],
+          [
+            'نصف سنوية',
+            'فحص الفواصل',
+            'مونة متشققة أو ساقطة',
+          ],
+          [
+            'سنوية',
+            'اختبار العزل',
+            'قطرات تنتشر بسرعة',
+          ],
+          [
+            'كل بضع سنوات',
+            'إعادة معالجة السطح',
+            'بقع تدخل المسام',
+          ],
+        ],
+      },
+    },
+    {
+      h: 'ثلاث قوى مجتمعة حول المسبح',
+      p: [
+        'الفواصل هي نقطة الضعف الأولى في أي سطح حجري، وفي مناخ المدينة المنورة تتمدد وتنكمش مع الفرق الحراري بين النهار والليل. افحص الفواصل مرة كل ستة أشهر، وابحث عن مونة متشققة أو ساقطة أو تغير لونها إلى الأسود. الفاصل المفتوح يدخله الماء والصابون فيتوسع التلف تحت اللوح حتى يفرغ اللاصق. الإصلاح المبكر فاصل واحد يكلف أقل بكثير من إصلاح لوح مفرغ. تجنب ملء الفواصل بالإسمنت الأبيض العادي في الخارج، فالإسمنت الصلب ينزع مع التمدد ويجر أطراف اللوح. استخدم مونة مرنة مصنوعة للفواصل، واطلب من الفني أن ينظف العمق قبل الملء.',
+      ],
+      bullets: [
+        'لا تستخدم الأمونيا ولا ماء الجير.',
+        'اختبر العزل برش قطرات ماء.',
+        'افحص الفواصل كل ستة أشهر.',
+        'اصلاح فاصل واحد مبكراً يحمي لوحاً كاملاً.',
+        'احتفظ بسجل صيانة مكتوب.',
+      ],
+      steps: [
+        ['1', 'ابدأ بفحص الفواصل والسطح قبل الغسيل.'],
+        ['2', 'استخدم منظفاً متعادلاً وماءً دافئاً.'],
+        ['3', 'جفّف السطح بقماشة ناعمة.'],
+        ['4', 'اختبر العزل سنوياً وأعد المعالجة عند الحاجة.'],
+        ['5', 'احتفظ بسجل مكتوب لكل معالجة.'],
+      ],
+    },
+    {
+      h: 'الميول والتصريف مسألة سلامة',
+      p: [
+        'اجعل للحجر برنامج صيانة مكتوباً في المدينة المنورة: تنظيف أسبوعي بماء ومنظف متعادل، وفحص فواصل نصف سنوي، واختبار عزل سنوي، وإعادة عزل كل بضع سنوات، وفحص احترافي بعد أي اصطدام أو شرخ أو لوح مفرغ. احتفظ بسجل يوضح اسم الحجر ومكانه وتاريخ آخر معالجة، فالمشاريع الكبيرة تُدار بالسجل لا بالذاكرة. لا تسمح للفني باستخدام حمض لتنظيف بقعة كلس؛ الحمض يزيل البقعة ويأكل اللمعة في نفس الجلسة. عند الحاجة لتنظيف عميق بعد مشروع بناء، استعن بشركة متخصصة في الحجر لا بعامل التنظيف العام، فالفرق في النتيجة واضح والمخاطرة فيه عالية.',
+      ],
+      note: 'لا تسمح للفني باستخدام حمض لتنظيف بقعة كلس؛ الحمض يزيل البقعة ويأكل اللمعة.',
+    },
+    ],
+    faq: [
+    { q: 'ما المنظفات الآمنة على الحجر الطبيعي يومياً؟', a: 'ماء دافئ مع منظف متعادل قاعدته الصابون الخفيف هو الخيار الآمن لمعظم الأسطح. ابتعد عن الأمونيا وماء الجير والخل، فهي تذيب لمعة الرخام وتترك أثراً باهتاً لا يُزال إلا بإعادة تلميع، وجفف السطح بعدها بقماشة ناعمة.' },
+    { q: 'كيف تختبر هل عزل الحجر ما زال فعالاً؟', a: 'ارش بضع قطرات ماء على سطح نظيف: إن تبخرت بسرعة وانتشرت فالسطح عاري يحتاج معالجة، وإن بقيت كرات منفصلة فالعازل ما زال عاملاً. كرر الاختبار سنوياً على أسطح المطبخ وحافة الحمّام وأرضية الرصيف حول المسبح لأنها الأكثر استهلاكاً للعزل.' },
+    { q: 'كم مرة يجب فحص فواصل الحجر؟', a: 'مرة كل ستة أشهر تكفي لكشف المونة المتشققة أو الساقطة أو المتغيرة إلى الأسود. الفاصل المفتوح يدخله الماء والصابون فيتوسع التلف تحت اللوح ويفرغه من اللاصق، والإصلاح المبكر لفاصل واحد أرخص بكثير من إصلاح لوح مفرغ.' },
+    { q: 'هل يُنصح بملء فواصل الحجر بالإسمنت الأبيض في الخارج؟', a: 'لا يُنصح، فالإسمنت الصلب ينزع مع تمدد الحجر ويجر أطراف اللوح في مناخ المدينة المنورة المتباين بين النهار والليل. استخدم مونة مرنة مصنوعة للفواصل، واطلب من الفني تنظيف العمق قبل الملء حتى تلتصق المونة على وجهين سليمين.' },
+    ],
+  },
+  {
+    id: 'natural-stone-pool-surround-medina',
+    primary: 'تبطين المسبح بالحجر',
+    keywords: ['تبطين المسبح بالحجر', 'حافة مسبح حجرية', 'حجر مقاوم للكلور', 'أرضية حول المسبح', 'عزل حوض المسبح', 'تصريف ماء المسبح'],
+    intent: 'informational',
+    title: 'تبطين المسبح بالحجر الطبيعي في المدينة المنورة',
+    description: 'قواعد تبطين المسبح بالحجر في المدينة المنورة: الخامات المقاومة للكلور والشمس والانزلاق، مع الميول والتصريف والعزل.',
+    category: 'التركيب',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'الجرانيت الكثيف والترافرتينو المعالج أنسب خامات حول المسبح.',
+      'عزل الحوض بطبقة مرنة قبل تثبيت الحجر يمنع التسرب.',
+      'الميول نحو المصرف تمنع الوقوف والزلة.',
+      'استخدم لاصقاً مرناً مقاوماً للأملاح ويتحمل الغمر.',
+      'أعد العزل كل بضع سنوات بسبب الشمس والاستخدام.',
+    ],
+    ctaHeading: 'تحيط مسبحاً بحجر آمن؟',
+    ctaBody: 'نؤمّن حجر تبطين المسبح وساحته بخامات مقاومة للكلور والانزلاق، مع عزل وميول صحيحة.',
+    imagePrompt: 'Editorial scene: worker installing dark granite coping stones around a private swimming pool edge in Medina, wet surface, garden hose coiled nearby, bright daylight',
+    imageScene: 'عامل يركّب حجر جرانيت داكن على حافة مسبح خاص بالمدينة المنورة وسطح مبلل وخرطوم حديقة',
+    imageTopics: 'تبطين مسبح,حافة مسبح,جرانيت داكن,أرضية مبللة,المدينة المنورة',
+    related: [],
+    sections: [
+    {
+      h: 'التثبيت فوق نظام مائي دائم',
+      p: [
+        'حول المسبح في المدينة المنورة يتعرض الحجر لثلاث قوى مجتمعة: الكلور أو الملح، والشمس الحادة، والاحتكاك الدائم بالأقدام المبللة. الجرانيت الكثيف والترافرتينو المعالج من أكثر الخامات نجاحاً في هذه البيئة، فمساميتهما المنخفضة نسبياً تحد من امتصاص الماء والأملاح، وقساوتهما تتحمل حركة الكراسي والأثقال. تجنب الرخام المصقول حول المسبح؛ سطحه يصبح زلقاً عند البلل والكلور يهاجم كربونات الكالسيوم في الرخام ويترك أثراً باهتاً. الحجر الرملي غير المعالج يمتص الماء ويبقى داكناً ورطباً طول النهار. اختار تشطيباً مطفأً أو مخشّباً لوجه الأرضية، وتأكد أن المورد يذكر أن الحجر مخصص للاستخدام حول المسبح لا للواجهات فقط.',
+      ],
+    },
+    {
+      h: 'صيانة حجر المسبح في ثلاثة أسطر',
+      p: [
+        'ميول الأرضية حول المسبح والتصريف هي مسألة سلامة قبل أن تكون تشطيب؛ الماء يجب أن يبتعد عن الحائط وعن الأثاث لا أن يقف في منتصف الرصيف. اجعل الميول خفيفة نحو مصرف مكشوف أو قناة جانبية، وضع فواصل أوسع قليلاً في الخارج لتسمح بتصريف سريع وتهوية أسرع. حافة المسبح نفسها تحتاج تشطيبًا غير قابل للانزلاق ومقاوماً للكلور، ويُفضل أن تكون بارزة قليلاً عن سطح الأرضية لمنع زحف الماء نحو الداخل. تأكد من أن ميل الرصيف لا يصب نحو باب الفيلا؛ بقعة ماء متكررة عند العتبة تُنتج طبقة زلقة وطحلب.',
+      ],
+    },
+    {
+      h: 'حجر يتحمل البلل والتجفيف المتكرر',
+      p: [
+        'ثبّت حجر المسبح على قاعدة مائلة جاهزة لا على رمل مفكك، واستخدم لاصقاً مرناً مقاوماً للرطوبة والأملاح ويتحمل الغمر المتقطع. اترك فواصل تمدد عند التقاء الحجر بجدار المسبح المسلح، فالهيكل الخرساني يتمدد بدرجة مختلفة عن الحجر. تجنب اللاصق الإسمنتي العادي في هذه المنطقة؛ الصلابة الزائدة تجعل اللوح يتكسر مع أول فرق حراري كبير. ثبّت الألواح من الجهة الجافة وابدأ من نقطة التصريف، وارفع مستوى الصف كله بميزان ماء لا بالعين. احمِ الحجر بعد التركيب حتى تنظيف بقايا اللاصق والمونة بماء كثير قبل ملء المسبح.',
+      ],
+      bullets: [
+        'اختر حجراً كثيفاً قليل المسامية.',
+        'عزل الحوض بطبقة مرنة قبل الحجر.',
+        'اجعل حافة المسبح بارزة قليلاً.',
+        'استخدم لاصقاً مرناً مقاوماً للأملاح.',
+        'أعد العزل كل بضع سنوات.',
+      ],
+    },
+    {
+      h: 'معادلة الماء قبل معادلة الحجر',
+      p: [
+        'صيانة حجر المسبح في المدينة المنورة سهلة إن التزمت بثلاث قواعد: اغسل الأملاح والكلور المتطاير بماء نظيف دورياً، واستخدم منظفاً متعادلاً لا حمضياً، وأعد العزل كل بضع سنوات. بقع الكلور المعدني والبروتين تظهر حول حافة المسبح وتُزال بماء ساخن وفرشاة ناعمة قبل أن تتغلغل. لا تفرك الحجر بفرشاة سلكية مهما تراكمت الأملاح، فالخدش يدخل الأوساخ بدل أن ينظفها. تأكد من سلامة العزل بعد كل موسم صيف طويل، فالأشعة والاستخدام المرتفع يستهلكان المانع أسرع من المناطق الجافة. عالج أي فاصل متشقق فوراً حتى لا يتسلل الماء تحت اللوح ويفرغه من اللاصق.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'أي الحجر يصلح لأرضية المسبح في المدينة المنورة؟', a: 'الجرانيت الكثيف والترافرتينو المعالج من أنسب الخامات لأن مساميتهما المنخفضة تحد من امتصاص الكلور والملح والماء. تجنب الرخام المصقول حول المسبح فالكلور يهاجم كربونات الكالسيوم ويترك أثراً باهتاً، والسطح المصقول يصبح زلقاً عند البلل.' },
+    { q: 'هل يحتاج حوض المسبح طبقة عزل قبل الحجر؟', a: 'نعم، طبقة عزل مرنة داخل الحوض قبل تثبيت الحجر ضرورية لأن الخرسانة وحدها تسرب مع الوقت وتظهر الأملاح على الحجر. ثبّت الحجر بلاصق مرن مقاوم للماء والأملاح ويتحمل الغمر المتقطع، واترك فاصل تمدد عند التقاء الحجر بالجدار المسلح.' },
+    { q: 'كيف تُدار الميول حول المسبح؟', a: 'اجعل ميولاً خفيفة نحو مصرف مكشوف أو قناة جانبية حتى يبتعد الماء عن الحائط والأثاث ولا يقف في منتصف الرصيف. اجعل حافة المسبح بارزة قليلاً عن سطح الأرضية لمنع زحف الماء نحو الداخل، وتأكد أن الميل لا يصب نحو باب الفيلا.' },
+    { q: 'ما أخطر ما يفسد حجر المسبح مع الوقت؟', a: 'الكلور المتطاير والأملاح المتراكمة عند خط الماء، ثم الإهمال في العزل. اغسل المنطقة بماء نظيف دورياً واستخدم منظفاً متعادلاً لا حمضياً، وأعد العزل كل بضع سنوات لأن الشمس والاستخدام الصيفي المرتفع يستهلكان المانع أسرع من المناطق الجافة.' },
+    ],
+  },
+  {
+    id: 'stone-fountain-design-medina',
+    primary: 'نوافير الحجر',
+    keywords: ['نوافير الحجر', 'تصميم نافورة حجرية', 'حجر مقاوم للماء', 'مضخة نافورة مخفاة', 'تنظيف كلس النافورة', 'نافورة فيلا المدينة المنورة'],
+    intent: 'informational',
+    title: 'نوافير الحجر في المدينة المنورة: تصميم وتنفيذ',
+    description: 'تصميم وتنفيذ نوافير الحجر في المدينة المنورة: الخام المقاوم للبلل وتوازن الماء وإخفاء المضخة، مع تنظيف الكلس وصيانة الفلتر.',
+    category: 'التصميم',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'الجرانيت والحجر الصلب المعالج يصمدان أمام البلل المستمر.',
+      'أخفِ المضخة في حجرة سهلة الوصول لتسهيل الصيانة.',
+      'وازن بين تدفق المضخة وعرض الحوض لتقليل التطاير.',
+      'ازيل الكلس بماء ساخن وفرشاة ناعمة قبل التصلب.',
+      'لا تستخدم مياهاً مالحة في الرش المكشوف.',
+    ],
+    ctaHeading: 'تفكر في نافورة حجرية؟',
+    ctaBody: 'نصمم وننفذ نافورتك الحجرية بنظام متوازن ومضخة مخفاة وصيانة مبسطة.',
+    imagePrompt: 'Editorial scene: a craftsman carving a stone fountain basin in a Medina workshop, water testing in a small basin, chisel and mallet on the bench, daylight',
+    imageScene: 'حرفي ينحت حوض نافورة حجرية في ورشة بالمدينة المنورة ويختبر الماء في حوض صغير',
+    imageTopics: 'نافورة حجرية,حوض نافورة,نحت حجري,مضخة مخفاة,المدينة المنورة',
+    related: [],
+    sections: [
+    {
+      h: 'العزل والتشغيل الأول للنافورة',
+      p: [
+        'الحجر المستخدم في النوافير بالمدينة المنورة يجب أن يتحمل البلل المستمر والتجفيف المتكرر؛ الرخام المائل للكربونات يفقد لمعته بسرعة تحت الماء الجاري، بينما الجرانيت الكثيف والحجر الرسوبي الصلب المعالج يصمدان. اختر تشطيباً هادئاً لا مصقولاً؛ الحجر الرطب المصقول يظهر لمعان الماء لا لمعان الحجر، ويختفي تأثير النحت تحت طبقة رقيقة من الماء. النحت المائي يحتاج حجراً قابلاً للنحت بعمق وخطوط محسوبة حتى ينساب الماء بشكل متساوٍ لا يقفز. حجر الكلس المتمدد في تصميم النوافير يوضع في مكان لا يتعرض لصدمة حرارية مباشرة؛ التباين بين ماء بارد وحجر مسخن بالشمس يُنتج شقوقاً سطحية مع السنوات.',
+      ],
+    },
+    {
+      h: 'الصيانة الدورية للنوافير الحجرية',
+      p: [
+        'تصميم النافورة الحجرية يبدأ من معادلة الماء: تدفق المضخة وارتفاع الرش وعرض الحوض ومساحة التبخر يجب أن تكون متوازنة، وإلا فاض الحوض أو جف سريعاً. في مناخ المدينة المنورة يتبخر الماء بسرعة، فاجعل الحوض عميقاً نسبياً واجعل حافته قريبة من سطح الرش لتقليل التطاير. اخفِ المضخة وفلترها في حجرة جانبية سهلة الوصول، فالصيانة هنا متكررة ولا يجب أن تُهدم الحجرة عند كل تنظيف. اجعل حوض التجميع أسفل مستوى الحجر الظاهر حتى لا تظهر طبقة الماء والكلس على الحافة. صمّم المخرج المائي بحيث يسهل فصله وتنظيفه دون كسر الحجر.',
+      ],
+      table: {
+        head: [
+          'عنصر النافورة',
+          'الشرط',
+          'السبب',
+        ],
+        rows: [
+          [
+            'حجر الحوض',
+            'كثيف قليل المسام',
+            'يقاوم البلل والأملاح',
+          ],
+          [
+            'الحجرة العازلة',
+            'مرنة قبل الحجر',
+            'تمنع تسرب الخرسانة',
+          ],
+          [
+            'فواصل الزوايا',
+            'مونة مرنة',
+            'تمتص فرق التمدد',
+          ],
+          [
+            'حجرة المضخة',
+            'سهلة الوصول',
+            'صيانة الفلتر متكررة',
+          ],
+        ],
+      },
+    },
+    {
+      h: 'الحجر موصل حراري جيد وكتلة حرارية',
+      p: [
+        'عند تنفيذ نافورة حجرية في فيلا أو مسطح عام بالمدينة المنورة، ابدأ بطبقة عزل مرنة داخل الحوض قبل تثبيت الحجر، فالخرسانة وحدها تسرب مع الوقت. ثبّت الحجر بلاصق مرن مقاوم للماء والأملاح، واترك فواصل تمدد عند زوايا الحوض وعند التقاء الحجر بجدار المبنى. يجب أن يكون تثبيت الحجر جافاً قبل ملء الماء، فالاستعجال في التشغيل يترك أثر اللاصق على الحافة الظاهرة. اعزل خطوط السباكة والكهرباء عن الحجر بعازل حراري، فالماء البارد يُكثّف الرطوبة على الحجر البارد ويُسرع تفقعه. شغّل النافورة يومياً ولا تتركها تجف مفتوحة؛ التناوب بين البلل والجفاف أطول عمراً للحجر من الوقوف على حالة واحدة.',
+      ],
+      bullets: [
+        'اختَر حجراً يتحمل البلل المتكرر.',
+        'أخفِ المضخة في حجرة سهلة الوصول.',
+        'اجعل الحوض عميقاً نسبياً لتقليل التبخر.',
+        'ازيل الكلس قبل أن يصلّب.',
+        'غطّ النافورة عند انقطاع الاستخدام.',
+      ],
+      steps: [
+        ['1', 'عزل الحوض بطبقة مرنة قبل تثبيت الحجر.'],
+        ['2', 'ثبّت الحجر بلاصق مرن مقاوم للأملاح.'],
+        ['3', 'اضبط الميول نحو المصرف وافتح الفواصل.'],
+        ['4', 'نظّف بقايا اللاصق والمونة قبل الملء.'],
+        ['5', 'اشحن النظام تدريجياً وافحص الأملاح دورياً.'],
+      ],
+    },
+    {
+      h: 'توزيع النظام والعزل تحت الحجر',
+      p: [
+        'صيانة النافورة الحجرية في المدينة المنورة تتركز على ثلاثة أمور: ضبط منسوب الماء وإعادة ملء الحوض بماء نظيف، وتنظيف الفلتر دورياً، وإزالة الكلس من الحجر بخلطة متعادلة لا حمضية. ترسبات الكلس تظهر أولاً عند خط الماء وعند مخارج الرش، وكلما تركتها تصلّبت احتجت لفرشاة أقسى تخدش الحجر. لا تستخدم مياه مالحة في الرش المكشوف، فالملح يتبلور على سطح الحجر ويُنتج طبقة بيضاء خشنة. غطّ النافورة في الشتاء إذا انقطع استخدامها، وضع كتيب صيانة عند المالك يوضح نقاط الفحص وأسماء القطع القابلة للاستبدال، فالنوافير تفشل من إهمال الفلتر لا من الحجر.',
+      ],
+      note: 'لا تُشغّل النافورة مفتوحة بلا ماء؛ التناوب بين البلل والجفاف أطول عمراً للحجر.',
+      warn: 'لا تُشعل نظام التدفئة بكامل حرارته فور التركيب؛ التدرج يحمي اللاصق والحجر.',
+    },
+    ],
+    faq: [
+    { q: 'أي حجر يصلح لصناعة النوافير والصنابير المائية؟', a: 'الجرانيت الكثيف والحجر الرسوبي الصلب المعالج يصمدان أمام البلل المستمر، بينما الرخام الكربوني يفقد لمعته بسرعة تحت الماء الجاري. اختر تشطيباً هادئاً لا مصقولاً؛ الحجر الرطب المصقول يظهر لمعان الماء لا لمعان الحجر ويختفي تحته أثر النحت.' },
+    { q: 'كيف تُخفى مضخة النافورة وفلترها؟', a: 'صمّم حجرة جانبية سهلة الوصول داخل الحوض أو تحته، وأخفِ المضخة والفلتر وخطوط السباكة خلف حجر قابل للفك. الصيانة متكررة في النوافير، وكلفة هدم الحجر عند كل تنظيف فلتر تجعل المشروع مكلفاً جداً على المدى الطويل.' },
+    { q: 'ما سبب ظهور الكلس على حجر النافورة؟', a: 'تبخر الماء يترك أملاحه على السطح، وتظهر أولاً عند خط الماء وعند مخارج الرش. ازيلها بماء ساخن وفرشاة ناعمة قبل أن تصلّب، وتجنب الأحماض القوية التي تزيل البقعة وتأكل اللمعة في الجلسة نفسها. غطّ النافورة في الشتاء عند انقطاع الاستخدام.' },
+    { q: 'هل تصلح النافورة الحجرية في ساحة مكشوفة للشمس؟', a: 'نعم بشرط اختيار حجر يتحمل التناوب بين البلل والجفاف والتباين الحراري، وحوض عميق نسبياً يقلل تبخر المنسوب. اخفِ المخارج المائية بحيث يسهل فصلها وتنظيفها دون كسر الحجر، واضبط تدفق المضخة ليوازن بين ارتفاع الرش وعرض الحوض.' },
+    ],
+  },
+  {
+    id: 'stone-floor-heating-medina',
+    primary: 'تدفئة أرضية الحجر',
+    keywords: ['تدفئة أرضية الحجر', 'نظام تدفئة أرضية', 'حجر موصل للحرارة', 'تدفئة أرضية رخام', 'عزل حراري تحت التدفئة', 'تشغيل تدفئة أرضية'],
+    intent: 'informational',
+    title: 'تدفئة أرضية الحجر الطبيعي في المدينة المنورة',
+    description: 'تدفئة أرضية الحجر في المدينة المنورة: سماكة اللوح والعزل واللاصق المرن والفواصل، وكيف يختار الحجر المناسب للتدفئة.',
+    category: 'دليل الشراء',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'الرخام موصل حراري أفضل من الحجر الرسوبي المسامي.',
+      'ضع عازلاً حرارياً تحت النظام لتوجيه الحرارة للأعلى.',
+      'اختبر الضغط والتشغيل قبل تثبيت الحجر.',
+      'شغّل التدفئة تدريجياً بعد التركيب لحماية اللاصق.',
+      'تجنب السجاد السميك الذي يعزل الحرارة عن الغرفة.',
+    ],
+    ctaHeading: 'تشتهي أرضية دافئة في الشتاء؟',
+    ctaBody: 'نركّب نظام تدفئة أرضية تحت حجرك بعزل صحيح ولاصق مرن وتشغيل تدريجي.',
+    imagePrompt: 'Editorial scene: technician inspecting a stone floor with exposed underfloor heating mats and cables on a subfloor in a Medina villa, tools laid out, daylight',
+    imageScene: 'فني يفحص أرضية حجرية عليها حصائر وكوابل تدفئة أرضية مكشوفة في فيلا بالمدينة المنورة',
+    imageTopics: 'تدفئة أرضية,كوابل تدفئة,أرضية حجرية,عزل حراري,المدينة المنورة',
+    related: [],
+    sections: [
+    {
+      h: 'اللاصق المرن والتشغيل التدريجي',
+      p: [
+        'أرضية حجرية دافئة في المدينة المنورة تُشغَّل في الشتاء وتبقى كتلتها باردة صيفاً، وهذا هو سبب ملاءمة الحجر لنظام التدفئة الأرضية في المناخ المتطرف. الرخام موصل أفضل من الحجر الرسوبي المسامي، فتنتشر الحرارة فيه أسرع وبشكل أتساوي. سماكة اللوح فوق نظام التدفئة يجب أن تبقى معتدلة؛ اللوح السميك يحتاج وقتاً أطول للوصول إلى الحرارة المطلوبة ويهدر الطاقة. تأكد أن الحجر مختار للتدفئة الأرضية، فبعض الخامات الطبيعية تحتوي رطوبة أو معادن تتفاعل مع الحرارة الرتيبة وتتشقق. اسأل المورد عن اختبار التحمل الحراري لا عن اسم الحجر فقط.',
+      ],
+    },
+    {
+      h: 'تكلفة النظام لا سعر الحجر وحده',
+      p: [
+        'نظام التدفئة تحت الحجر يعمل بكفاءة أعلى عندما تُوزع الأسلاك أو الأنابيب بتساوٍ تام وتُغطى بطبقة رقيقة من المونة الناعمة، فالسماكة الزائدة فوق النظام تبطئ انتقال الحرارة وتجعل الأرضية تستجيب ببطء. ضع عازلاً حرارياً تحت نظام التدفئة لتوجه الحرارة نحو الأعلى لا نحو البلاط السفلي؛ بدون العزل يخسر النظام نسبة كبيرة من حرارته في الهيكل. اختبر النظام بالضغط وبالتشغيل قبل تثبيت الحجر، فالكشف عن تسرب بعد تثبيت الحجر يعني رفع الأرضية. اضبط حرارة الماء أو التيار على مستوى ثابت متوسط؛ الحرارة العالية المتذبذبة تُجهد الحجر أكثر من الحرارة المعتدلة الثابتة.',
+      ],
+    },
+    {
+      h: 'الإضاءة المزدوجة تفصل بين الوظيفتين',
+      p: [
+        'تركيب الحجر فوق التدفئة الأرضية في المدينة المنورة يتم بلاصق مرن يتحمل التمدد الحراري المتكرر، فاللاصق الصلب يتشقق مع أول موسم. اترك فواصل تمدد عند أطراف الغرفة وعند الأبواب، وضع شريطاً مرناً محيطاً بالأرضية حتى تتحرك دون أن تضغط على الجدار. ثبّت الألواح بمونة لا تنقل الحرارة بعشوائية؛ التوزيع المتساوي للمونة تحت اللوح يمنع ظهور مناطق ساخنة وباردة وظهور فراغات. ابدأ تشغيل التدفئة تدريجياً بعد التركيب بفارق صغير كل يوم حتى درجة التشغيل، فالتدرج يحمي اللاصق والحجر من صدمة حرارية. استخدم عيّنات صغيرة لاختبار اللون بعد التسخين، فبعض الحجر يتغير لونه قليلاً مع الدفء الأول.',
+      ],
+      bullets: [
+        'اسأل عن اختبار التحمل الحراري.',
+        'ضع عازلاً حرارياً تحت النظام.',
+        'اختبر الضغط والتشغيل قبل الحجر.',
+        'شغّل التدفئة تدريجياً بعد التركيب.',
+        'اترك فواصل تمدد عند أطراف الغرفة.',
+      ],
+      steps: [
+        ['1', 'وازن بين تدفق المضخة وعرض الحوض.'],
+        ['2', 'أخفِ المضخة في حجرة سهلة الوصول.'],
+        ['3', 'ثبّت الحجر بلاصق مقاوم للماء.'],
+        ['4', 'شغّل النافورة يومياً ولا تتركها تجف.'],
+        ['5', 'نظّف الفلتر وازيل الكلس قبل تصلبه.'],
+      ],
+    },
+    {
+      h: 'الإضاءة تصنع الجدار أو تدمره',
+      p: [
+        'تكلفة تدفئة أرضية حجرية في المدينة المنورة تتحدد بنظام التدفئة ومساحة الغرفة وسماكة الحجر وطبقة العزل لا بسعر الحجر وحده. الحجر الفاتح يعكس الحرارة المشعة ويحسّن الإحساس بالدفء أكثر من الداكن. احذر من ترك سجادة سميكة تغطي مساحة كبيرة من الأرضية الدافئة، فالعزل يمنع الحرارة من الوصول للغرفة. الصيانة بسيطة: افحص الحرارة والتوصيلات مرة كل موسم، ولا تسكب ماءً ساخناً أو بارداً جداً على الحجر الدافئ. استخدم منظفاً متعادلاً متوافقاً مع نظام التدفئة، فبعض المنظفات القوية تترك أثراً في المونة الموصلة. أخيراً، أرضية دافئة بحجر جيد تُحسَب ضمن راحة السكن اليومية لا ضمن الكماليات.',
+      ],
+      warn: 'لا تضع جداراً حجرياً خلف سريرك ثم تغير لون الغرفة كل عامين.',
+    },
+    ],
+    faq: [
+    { q: 'أي حجر يصلح للأرضية الدافئة في المدينة المنورة؟', a: 'الرخام موصل حراري أفضل من الحجر الرسوبي المسامي فتنتشر فيه الحرارة أسرع وباتساع أكبر. اسأل المورد عن اختبار التحمل الحراري لا عن اسم الحجر، فبعض الخامات الطبيعية تحوي رطوبة أو معادن تتفاعل مع الحرارة الرتيبة وتتشقق مع المواسم.' },
+    { q: 'ما سماكة الحجر فوق نظام التدفئة الأرضية؟', a: 'السماكة المعتدلة هي الأنسب، فاللوح السميك يستغرق وقتاً أطول للوصول إلى الحرارة المطلوبة ويهدر الطاقة في كل دورة تشغيل. وزّع المونة الناعمة فوق الأسلاك أو الأنابيب بالتساوِ حتى لا تظهر مناطق ساخنة وباردة ولا تنتج فراغات تحت اللوح.' },
+    { q: 'هل يحتاج نظام التدفئة عازلاً حرارياً تحته؟', a: 'نعم، العزل يوجه الحرارة نحو الأعلى لا نحو بلاط الهيكل، وبدونه يخسر النظام نسبة كبيرة من حرارته. اختبر النظام بالضغط والتشغيل قبل تثبيت الحجر، فالكشف عن تسرب بعد التثبيت يعني رفع الأرضية كاملة وإعادة العمل.' },
+    { q: 'كيف يشتغل النظام بعد تركيب الحجر أول مرة؟', a: 'شغّله تدريجياً بفارق صغير كل يوم حتى درجة التشغيل المعتادة، فالتدرج يحمي اللاصق والحجر من صدمة حرارية. استخدم لاصقاً مرناً يتحمل التمدد الحراري المتكرر وضع شريطاً مرناً محيطاً بالأرضية حتى تتحرك دون أن تضغط على الجدار.' },
+    ],
+  },
+  {
+    id: 'stone-accent-wall-bedroom-medina',
+    primary: 'جدار مميز بالحجر',
+    keywords: ['جدار مميز بالحجر', 'جدار غرفة نوم حجري', 'إضاءة جدار مميز', 'حجر خلف السرير', 'اختبار عيّنة الحجر', 'درجة لونية لغرفة النوم'],
+    intent: 'commercial',
+    title: 'جدار مميز بالحجر في غرفة نوم المدينة المنورة',
+    description: 'جدار مميز بالحجر خلف السرير في المدينة المنورة: الموضع والارتفاع والدرجة والإضاءة، مع اختبار العيّنة في الموقع.',
+    category: 'التصميم',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'الجدار خلف السرير هو الموضع الأنسب للجدار المميز.',
+      'الحجر حتى السقف أقوى تأثيراً من التغطية الجزئية.',
+      'الدرجة الهادئة المائلة للدفء أرق لغرفة النوم.',
+      'الإضاءة الجانبية تبرز الملمس أفضل من التركيز العلوي.',
+      'اختبر لوحاً كاملاً في الموقع قبل إتمام الطلب.',
+    ],
+    ctaHeading: 'غرفة نومك تستحق جداراً مميزاً؟',
+    ctaBody: 'نصمم جدارك المميز خلف السرير ونختار درجته وإضاءته ونورّده ونركّبه بدقة.',
+    imagePrompt: 'Editorial scene: a bedroom interior in Medina with a full-height natural stone accent wall behind a low bed, warm bedside lighting, linen bedding, daylight from a side window',
+    imageScene: 'غرفة نوم بجدار حجري طبيعي كامل الارتفاع خلف سرير منخفض وإضاءة دافئة وضوء نهار جانبي',
+    imageTopics: 'جدار مميز,جدار غرفة نوم,حجر طبيعي,إضاءة جانبية,المدينة المنورة',
+    related: [],
+    sections: [
+    {
+      h: 'اختبار اللوح الكامل في الموقع',
+      p: [
+        'في غرفة نوم المدينة المنورة يُفضل أن يكون الجدار المميز هو الجدار خلف السرير، فهو السطح الذي تراه من الباب وتنظر إليه قبل النوم وبعد الاستيقاظ. لا تجعله الجدار الذي يحمل النافذة أو الخزانة المبنية، فالحجر يحتاج سطحاً صامتاً يعرضه. ارتفاع الحجر يحدد الإحساس: حجر يغطي الجدار كاملاً حتى السقف يعطي انطباعاً قوياً وعميقاً، وحجر يغطي الثلث السفلي فقط يبدو وكأنه قاعدة ديكور عادية. اختار درجة هادئة تميل للدفء أو الرمادي المحايد، فالألوان الصارخة في غرفة النوم تُتعب بعد أسابيع. اترك الجدارين الجانبيين والسقف بدهان مطفي محايد حتى لا تتشاجر الأسطح.',
+      ],
+    },
+    {
+      h: 'تكلفة جدار واحد منفذ بجودة',
+      p: [
+        'الإضاءة تصنع الجدار المميز أو تدمره؛ ضوء مركّز أم السرير يُنتج بقعة مسطحة مملة، بينما إضاءة جانبية خفيفة أو شرائط ضوئية خلف حافة السرير تُبرز ملمس الحجر وعمق فواصله. استخدم مصابيح دافئة قليلاً تكسر برودة الحجر وتمنح الغرفة إحساساً حميمياً. إن كان الحجر مصقولاً فتجنب سقوط الضوء عليه بزاوية حادة حتى لا يُعكس الوهج في العين. ضع في الحسبان مصابيح القراءة على الجانبين؛ يجب ألا تُحدث ظلاً على الحجر يُخفي تفاصيله. جرّب الإضاءة قبل تثبيت الحجر النهائي بمصباح محمول يوضع في نفس المواضع المخطط لها.',
+      ],
+    },
+    {
+      h: 'مواضع الجدران الأنسب للكسوة',
+      p: [
+        'لوحة الحجر في غرفة النوم يجب أن تُختبر في الموقع؛ عيّنة بمقاس لوح كامل تُثبّت على الجدار الفعلي وتُترك يوماً وليلة قبل القرار. الحجر الفاتح بعروق خفيفة يكبر الغرفة ويعيد الضوء، والداكن يضيقها بصرياً ويجعلها مهدئة. الترافرتينو بثقوبه الطبيعية يحتاج تشطيب ملء أو يظهر كمسام واسعة، والجرانيت الدقيق الحبيبات يبدو أرق وأقل قسوة من الحجر الرسوبي الخشن. لا تضع جداراً حجرياً خلفك إن كنت تخطط لتغيير لون الغرفة كل سنتين، فالحجر عنصر طويل الأمد ويجب أن يحترم قبل الألوان الأخرى. اترك مساحة للوحات أو مرآة تتحرك عليها العين بعد الحجر.',
+      ],
+      bullets: [
+        'اجعل الجدار خلف السرير هو المميز.',
+        'الحجر حتى السقف أقوى من التغطية الجزئية.',
+        'اختر درجة هادئة تميل للدفء.',
+        'استخدم إضاءة جانبية خفيفة.',
+        'اختبر لوحاً كاملاً قبل الطلب.',
+      ],
+    },
+    {
+      h: 'الإضاءة المزدوجة تفصل بين الوظيفتين',
+      p: [
+        'تكلفة الجدار المميز في غرفة نوم المدينة المنورة تتوزع على الحجر وسماكته وتشطيبه، وتجهيز الجدار، والإضاءة المخصصة له، ومدة التركيب الدقيق. سماكة عشرين ملم تكفي داخل غرفة النوم وتقلل الوزن. اطلب من المورّد لوحاً كبيراً يغطي مساحة السرير كاملة بدل ألواح صغيرة متقاطعة، فالفواصل القليلة أرقى وتُظهر نمط الحجر. احسب نسبة هدر إضافية عند التقاء الحجر بالزاوية أو بالسرير. احمِ الجدار بعد التركيب من الغبار والبقع أثناء باقي أعمال الغرفة. جدار واحد منفذ بجودة عالية يخدم الغرفة لعقود، وجداران منفذان بعجلة يبدوان أرخص بعد سنتين.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'أين يوضع الجدار المميز بالحجر في غرفة النوم؟', a: 'خلف السرير هو الموضع الأنجح لأنه السطح الذي تراه من الباب وقبل النوم وبعد الاستيقاظ. تجنب الجدار الذي يحمل النافذة أو الخزانة المبنية، فالحجر يحتاج سطحاً صامتاً وخلفيته محايدة حتى يُقرأ كعنصر تصميم لا كخلفية مشاغَبة.' },
+    { q: 'ما الارتفاع المناسب للحجر على جدار غرفة النوم؟', a: 'الحجر حتى السقف يعطي انطباعاً قوياً وعمقاً واضحاً، والثلث السفلي فقط يبدو وكأنه قاعدة ديكور عادية. اربط الارتفاع بخط السقف وبارتفاع السرير ورأسه، واترك الجدارين الجانبيين والسقف بدهان مطفي محايد حتى لا تتشاجر الأسطح.' },
+    { q: 'ما الدرجة اللونية الأهدأ لجدار غرفة نوم حجري؟', a: 'الدرجات الهادئة المائلة للدفء أو الرمادي المحايد هي الأنسب لغرفة النوم، فالألوان الصارخة فيها تُتعب بعد أسابيع. الحجر الفاتح بعروق خفيفة يكبر الغرفة ويعيد الضوء، والداكن يضيقها بصرياً ويمنحها إحساساً مهدئاً.' },
+    { q: 'كيف تُضيء جداراً مميزاً من الحجر خلف السرير؟', a: 'تجنب الضوء المركّز فوق السرير مباشرة فهو ينتج بقعة مسطحة، واستخدم إضاءة جانبية خفيفة أو شرائط ضوئية خلف حافة السرير تبرز ملمس الحجر وعمق فواصله. اجعل مصابيح القراءة لا تُحدث ظلاً يُخفي تفاصيل الحجر، وجرّب الإضاءة بمصباح محمول قبل التثبيت.' },
+    ],
+  },
+
+  {
+    id: 'stone-outdoor-kitchen-medina',
+    primary: 'مطبخ خارجي حجري',
+    keywords: ['مطبخ خارجي حجري', 'حجر طبيعي', 'المدينة المنورة', 'فناء خارجي', 'تشطيب مطابخ', 'حجر مقاوم للحرارة', 'تصميم مطابخ خارجية', 'رخام'],
+    intent: 'commercial',
+    title: 'تصميم مطبخ خارجي حجري في المدينة المنورة',
+    description: 'دليل عملي لتصميم مطبخ خارجي حجري في المدينة المنورة يشمل اختيار الحجر المقاوم للحرارة وتفاصيل التشطيب ونصائح التركيب والصيانة.',
+    category: 'التصميم',
+    takeawayTitle: 'مطبخ الفناء الحجري الناجح',
+    takeaways: [
+      'الحجر الطبيعي يتحمل حرارة الطبخ ومخلفات الطعام بشرط اختيار نوع كثيف المسام.',
+      'خصص منطقة الفرن والمشواة بحجر مقاوم للحرارة مع ترك هوامش تمدد عند الأطراف.',
+      'سطح المطبخ الخارجي يحتاج تهوية جيدة ومكاناً مظللاً في المدينة المنورة لتجنب الصيانة المتكررة.',
+      'خطة التصريف تمنع ركود مياه الغسيل وتطيل عمر الحجر.',
+      'اطلب عينة حجر قبل الاعتماد النهائي وقارنها بلون واجهة المنزل.',
+    ],
+    ctaHeading: 'جهّز مطبخك الخارجي بالحجر الطبيعي',
+    ctaBody: 'فريقنا في المدينة المنورة يساعدك على اختيار الحجر المناسب لمطبخك الخارجي وتحديد تفاصيل التشطيب قبل التنفيذ. تواصل معنا اليوم واحصل على استشارة تصميم مجانية.',
+    imagePrompt: 'Editorial photograph of a craftsman fitting natural stone cladding on an outdoor kitchen counter in a Medina courtyard, hands pressing a cut slab into mortar, trowel and level tools on the bench, warm late-afternoon light, no text, no watermark',
+    imageScene: 'حرفي يركّب كسوة حجر طبيعي على منضدة مطبخ خارجي في فناء منزل بالمدينة المنورة، مع أدوات التشطيب على الطاولة وإضاءة عصر دافئة',
+    imageTopics: 'مطبخ خارجي، حجر طبيعي، فناء، تشطيب، منضدة حجرية',
+    related: [],
+    sections: [
+    {
+      h: 'لماذا الحجر الطبيعي للمطبخ الخارجي',
+      p: [
+        'المطبخ الخارجي في المدينة المنورة يتعرض لحرارة الشمس والطبخ ومياه الغسيل طوال اليوم، لذلك يحتاج سطحه إلى مادة لا تتقشر ولا تتشقق مع تكرار الاستخدام. الحجر الطبيعي يوفر هذه المتانة ويضيف ملمساً فخماً للفناء، شرط اختيار نوع كثيف المسام مثل الجرانيت أو الرخام المعالج بمانح امتصاص مناسب.',
+        'قبل اتخاذ القرار قارن بين الجرانيت والرخام والحجر الجيري من حيث مقاومة البقع والحرارة وسهولة التنظيف، وتأكد من أن المورد يوفر عينات حقيقية لا صوراً فقط. العينة تكشف لون الحجر وملمسه تحت ضوء المدينة المنورة، وهو ما يوفر عليك مفاجآت لاحقة بعد التنفيذ.',
+      ],
+    },
+    {
+      h: 'تصميم التخطيط ومناطق العمل',
+      p: [
+        'ابدأ بتحديد مثلث العمل بين حوض الغسيل والفرن ومنطقة التحضير، ثم وزّع الأدوات بما يخدم حركة الطبخ دون ازدحام. في أفنية المدينة المنورة الصغيرة نسبياً يفضل أن يكون المطبخ على خط واحد أو على شكل حرف إل ليترك مساحة للجلوس وتمرير الأفراد.',
+        'خصص سطحاً جانبياً عازلاً للحرارة لوضع القدور الساخنة بجانب المشواة، واترك هوامش حرة عند الحواف حتى لا يتلامس الحجر الساخن مع المواد اللاصقة. ارتفاع المنضدة يحدد راحة العمل؛ القيمة الشائعة تتراوح حول تسعين سنتيمتراً ويمكن تعديلها حسب طول المستخدمين في البيت.',
+      ],
+    },
+    {
+      h: 'اختيار الحجر ونوع التشطيب',
+      p: [
+        'الجرانيت هو الخيار الأول لأسطح الطبخ لصلابته ومقاومته للخدش والحرارة، بينما يقدم الرخام شكلاً أنعم لكنه يحتاج عناية دورية ضد الأحماض والزيوت. في المطبخ الخارجي اسأل عن تشطيب مصقول أو مطفي يقلل الانزلاق ويخفي آثار الاستخدام اليومي.',
+        'تجنب الحجر المسامي عالي الامتصاص قرب منطقة الشوي لأنه يمتص الزيوت والبقع مع الوقت، واستبدله بنوع معالج أو بلاط حجري مخصص للاستخدام الخارجي. تنسيق لون الحجر مع أرضية الفناء ولون واجهة المنزل يعطي المطبخ مظهراً متكاملاً بدل أن يبدو عنصراً منفرداً.',
+      ],
+    },
+    {
+      h: 'التصريف والتهوية وحماية الحجر',
+      p: [
+        'مياه غسيل المطبخ الخارجي يجب أن تصرف بعيداً عن قاعدة الحجر لتجنب الرطوبة المزمنة التي تضعف اللاصق وتظهر أملاحاً بيضاء على السطح. ضع ميلاناً خفيفاً نحو فتحة تصريف مغطاة، وتأكد من أن الحوض له عزل سفلي يمنع تسرب الماء إلى هيكل المنضدة.',
+        'التهوية الجيدة تمنع تراكم حرارة الفرن والدخان على الحجر وتخفض الرطوبة تحت السطح. في الأجواء الحارة بالمدينة المنورة وفر مظلة أو شاشة جانبية تحمي المطبخ من الشمس المباشرة في ساعات الظهيرة.',
+      ],
+    },
+    {
+      h: 'الصيانة الدورية وطول العمر',
+      p: [
+        'نظف السطح بعد كل جلسة شوي بفرشاة ناعمة وماء دافئ ثم جففه بقماش قطني، وتجنب المنظفات الحمضية أو الكاشطة التي تخدش اللمعان وتفتح مسام الحجر. اعمل على إعادة العزل السطحي كل فترة بحسب تعرض المطبخ للشمس والاستخدام.',
+        'راجع فواصل التمدد بين الألواح سنوياً وأعد حشوها عند الحاجة، وانتبه لأي ارتفاع خفيف في حافة الحجر قد يشير إلى حركة في الطبقة السفلية. الاكتشاف المبكر يوفر عليك فك قطعة كاملة واستبدالها لاحقاً.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل يتحمل الحجر الطبيعي حرارة الشواء المباشرة؟', a: 'الجرانيت الكثيف يتحمل الحرارة العالية أفضل من الرخام والحجر الجيري، لكنه يفضل وضع قواعد عازلة تحت القدور الساخنة. تجنب وضع أوانٍ متوهجة مباشرة على السطح البارد لتفادي الصدمة الحرارية.' },
+    { q: 'ما أفضل حجر لمطبخ خارجي في مناخ المدينة المنورة؟', a: 'الجرانيت المعالج بمانع امتصاص هو الأنسب لقلة مسامه ومقاومته للشمس والغبار. الرخام يصلح للمطابخ المظللة إذا التزمت بإعادة العزل دورياً.' },
+    { q: 'كيف أحمي سطح المطبخ من بقع الزيت والصلصة؟', a: 'نظف البقعة فور حدوثها بماء دافئ وقماش قطني دون فرك قوي، وعالج السطح بمانع امتصاص مخصص للحجر الطبيعي. تجنب الخل والليمون والمنظفات الحمضية لأنها تتفاعل مع كربونات الكالسيوم في الرخام.' },
+    { q: 'هل يحتاج المطبخ الخارجي تصريفاً خاصاً؟', a: 'نعم، يجب توجيه مياه الحوض إلى فتحة تصريف بعيدة عن قاعدة الحجر مع ميلان خفيف يمنع ركود الماء. العزل السفلي للحوض يمنع تسرب الرطوبة إلى هيكل المنضدة وإضعاف اللاصق.' },
+    ],
+  },
+  {
+    id: 'stone-balcony-cladding-medina',
+    primary: 'كسوة بلكونات',
+    keywords: ['كسوة بلكونات', 'حجر طبيعي', 'المدينة المنورة', 'واجهات', 'شرفات', 'تشطيب', 'تثبيت', 'تصريف', 'كسوة حجرية'],
+    intent: 'commercial',
+    title: 'كسوة بلكونات بالحجر الطبيعي في المدينة المنورة',
+    description: 'كل ما تحتاجه عن كسوة بلكونات بالحجر الطبيعي في المدينة المنورة: اختيار الحجر المناسب وطريقة التثبيت الصحيحة وتفاصيل التصريف.',
+    category: 'التصميم',
+    takeawayTitle: 'بلكون مكسو بالحجر يدوم',
+    takeaways: [
+      'اختر حجراً خفيف الوزن نسبياً للبلكونات لتقليل الحمل على الهيكل.',
+      'التثبيت الميكانيكي بمشابك من الفولاذ أضمن من الاعتماد على اللاصق وحده.',
+      'اترك فواصل تمدد مملوءة بمادة مرنة تحتمل حرارة المدينة المنورة.',
+      'عالج ظهر الحجر بطبقة عازلة تمنع تسرب مياه الأمطار إلى الجدار.',
+      'افحص المشابك سنوياً وتأكد من سلامة العزل بعد كل موسم مطر.',
+    ],
+    ctaHeading: 'كسِّ بلكونك بالحجر الطبيعي',
+    ctaBody: 'استشارة مجانية لاختيار حجر البلكونة في المدينة المنورة وتحديد طريقة التثبيت الأنسب لحالة الشرفة لديك. تواصل معنا اليوم.',
+    imagePrompt: 'Editorial photo of a worker installing natural stone cladding panels on a residential balcony facade in Medina, safety harness, stainless steel anchors and rubber mallet visible, low angle, clear sky, no text',
+    imageScene: 'عامل يركّب ألواح حجر طبيعي على واجهة بلكون سكني في المدينة المنورة باستخدام مشابك تثبيت ومطرقة مطاطية، مع حبل أمان وسماء صافية',
+    imageTopics: 'كسوة بلكونات، حجر طبيعي، شرفات، تثبيت، واجهات',
+    related: [],
+    sections: [
+    {
+      h: 'لماذا كسوة البلكونات بالحجر',
+      p: [
+        'البلكونة أكثر أجزاء الواجهة تعرضاً للمطر والشمس وتقلبات الحرارة في المدينة المنورة، ولذلك تحتاج كسوة تتحمل العوامل الجوية دون أن تتشقق أو تسقط. الحجر الطبيعي يمنح الشرفة مظهراً رصيناً ويضيف طبقة حماية للجدار الأصلي خلفها ضد الرطوبة وتسرب المياه.',
+        'الكسوة الحجرية تخفي عيوب التشطيب القديم وتوحد مظهر البلكونات المتكررة في العمارة السكنية، مع إمكانية تنسيقها مع حجر الواجهة الرئيسية. عند الاختيار راعِ وزن الحجر لأن البلكونات لهياكل تحمل محددة، واستشر مختصاً قبل شراء كميات كبيرة.',
+      ],
+    },
+    {
+      h: 'اختيار الحجر والسماكة المناسبة',
+      p: [
+        'للبلكونات يفضل حجر متوسط السماكة لا يثقل الهيكل ولا يكون هشاً عند القطع، مثل الحجر الجيري أو الرخام المعالج بدرجة امتصاص منخفضة. اسأل المورد عن معامل امتصاص الماء ومقاومة الانحناء، واطلب تقرير مختبر للمشروعات الكبيرة.',
+        'تفادَ الأنواع المسامية العالية في المدارات الممطرة لأنها تمتص الماء ثم تفرغه ببطء وتظهر بقعاً داكنة بعد الجفاف. اللون الفاتح يعكس حرارة الشمس ويبقى مريحاً تحت الأقدام، بينما الداكن يفضح الغبار ويحتاج تنظيفاً متكرراً.',
+      ],
+    },
+    {
+      h: 'التثبيت الصحيح والمشابك',
+      p: [
+        'الطريقة المضمونة لتثبيت كسوة البلكونات هي المشابك المعدنية من الفولاذ المقاوم للصدأ المثبتة في الجدار بمسامير كيميائية، مع لاصق خلفي مساند فقط وليس بديلاً عن التثبيت الميكانيكي. وزع المشابك بحسب أبعاد اللوح الحجري ووزنه، وتأكد أن كل لوح مرتكز على نقطتي تثبيت على الأقل.',
+        'بعد تركيب اللوح الأول تحقق من الاستواء بالخيط والميزان قبل المتابعة، فالأخطاء في الصف الأول تتراكم وتظهر بوضوح في أعلى البلكونة. راجع عمق المشبك داخل الجدار وتأكد من سلامة العزل المائي قبل إغلاق الوجه الخارجي.',
+      ],
+    },
+    {
+      h: 'التصريف وفواصل التمدد',
+      p: [
+        'الكسوة الحجرية يجب أن تترك فواصل صغيرة بين الألواح مملوءة بمونة مرنة تتحمل تمدد وانكماش الحجر مع حرارة النهار وبرودة الليل في المدينة المنورة. الفواصل الصلبة تتشقق خلال موسم أو موسمين وتتحول إلى قنوات تسمح بتسرب مياه المطر خلف الكسوة.',
+        'وجّه مياه مطر البلكونة بعيداً عن ظهر الكسوة عبر شفة سفلية مائلة أو فتحات تصريف جانبية، وعالج الواجهة الخلفية للحجر بطبقة عازلة قبل التثبيت. راجع الشفة بعد كل موسم مطر وأعد حشو أي فاصل فارغ.',
+      ],
+    },
+    {
+      h: 'الصيانة وسلامة الكسوة',
+      p: [
+        'افحص الكسوة مرة في السنة بالوقوف على الأرض والنظر من زوايا مختلفة لاكتشاف أي لوح مرتفع أو فارغ الصوت عند الطرق الخفيف، واستعن بفني مختص لأي إصلاح بدل الطرق بذاتك. أعد حشو الفواصل كل بضع سنوات بحسب تعرض البلكونة للشمس المباشرة.',
+        'نظف الكسوة بماء دافئ وفرشاة ناعمة وتجنب الغسيل بالضغط العالي الذي قد يفكك المونة المرنة من الفواصل. تجنب المنظفات الحمضية على الرخام والحجر الجيري لأنها تترك بقعاً باهتة يصعب إزالتها.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل تحتاج كسوة البلكونة إذناً من الجهات المختصة؟', a: 'في الأغلب تحتاج تعديل واجهة البلكونة موافقة البلدية أو إدارة العمارة، خاصة في الأحياء ذات الضوابط المشددة. اسأل المكتب الهندسي أو المقاول عن المتطلبات قبل بدء الشراء والتنفيذ.' },
+    { q: 'ما الفرق بين تثبيت الحجر باللاصق وبالمشابك؟', a: 'المشابك المعدنية تثبت اللوح ميكانيكياً في الجدار وتتحمل الاهتزاز والحرارة، بينما اللاصق وحده قد ينفصل مع الزمن ويصبح غير آمن. الأفضل الجمع بينهما بحيث يكون التثبيت الميكانيكي هو الأساس واللاصق مسانداً.' },
+    { q: 'هل الحجر الخفيف مناسب للبلكونات؟', a: 'نعم، الألواح الرقيقة من الحجر الطبيعي أو الحجر الصناعي عالي الجودة تقلل الحمل على الهيكل وتناسب البلكونات. تأكد أن السماكة المختارة مدعومة بتقرير مقاومة الانحناء وأنها مصممة للاستخدام الخارجي.' },
+    { q: 'كيف أمنع تسرب مياه المطر خلف الكسوة؟', a: 'اعزل الجدار خلف الكسوة بطبقة عازلة قبل تركيب المشابك، ووجّه مياه المطر بعيداً عن ظهر الألواح، واستخدم مونة مرنة في الفواصل. راجع العزل والفواصل بعد كل موسم مطر لضمان استمرار الحماية.' },
+    ],
+  },
+  {
+    id: 'stone-washbasin-care-medina',
+    primary: 'مغاسل حجر',
+    keywords: ['العناية بمغاسل الحجر', 'مغاسل رخام', 'تنظيف', 'المدينة المنورة', 'حجر طبيعي', 'صيانة مغاسل', 'بقع صابون'],
+    intent: 'informational',
+    title: 'العناية بمغاسل حجر في المدينة المنورة: دليل عملي',
+    description: 'دليل عملي للعناية بمغاسل حجر في المدينة المنورة يغطي التنظيف الآمن من بقع الصابون والكلس وأساسيات العزل الدوري وأخطاء تتلف الرخام.',
+    category: 'الصيانة',
+    takeawayTitle: 'مغسلة حجرية نظيفة دائماً',
+    takeaways: [
+      'نظف المغسلة يومياً بماء دافئ وقماش قطني لمنع تراكم بقايا الصابون.',
+      'تجنب المنظفات الحمضية والكاشطة على الرخام والحجر الجيري.',
+      'أعد العزل السطحي كل سنة أو سنتين حسب الاستخدام.',
+      'عالج بقع الكلس بمحلول معتدل ولا تتركه طويلاً على السطح.',
+      'تحقق من سيفون المغسلة وفواصل الحوض عند أول علامة رطوبة.',
+    ],
+    ctaHeading: 'جدول صيانة مغاسلك الحجرية',
+    ctaBody: 'احجز زيارة صيانة لمغاسل الحجر في المدينة المنورة تشمل التنظيف العميق وإعادة العزل وفحص الفواصل. تواصل معنا اليوم.',
+    imagePrompt: 'Editorial photo of hands polishing a natural stone washbasin in a Medina bathroom, soft microfiber cloth and a small bowl of mild solution on the counter, warm neutral tones, close-up, no text',
+    imageScene: 'يد تحرك قطعة قماش ناعمة على مغسلة حجر طبيعي داخل حمام بالمدينة المنورة، مع وعاء صغير به محلول تنظيف على المنضدة وألوان دافئة',
+    imageTopics: 'مغاسل حجر، تنظيف، رخام، صيانة، حمام',
+    related: [],
+    sections: [
+    {
+      h: 'لماذا تحتاج مغسلة الحجر عناية خاصة',
+      p: [
+        'مغاسل الحجر الطبيعي في المدينة المنورة تتعرض يومياً لبقايا الصابون والمعجون ومياه الصنبور التي تحمل أملاحاً كلسية تترك طبقة رمادية باهتة على السطح مع الوقت. هذه الترسبات لا تضر المظهر فقط بل تسد مسام الحجر وتقلل كفاءة العزل، فيصبح السطح أكثر عرضة للبقع والخدوش.',
+        'الرخام والحجر الجيري من المواد الكلسية الحساسة للأحماض، فالمنظف الحمضي أو الخل يذيب جزءاً من السطح ويترك بقعاً باهتة خشنة الملمس يصعب إصلاحها إلا بإعادة تجليخ. لذلك فأول قاعدة في العناية هي اختيار منظف متعادل الحموضة مخصص للحجر الطبيعي.',
+      ],
+    },
+    {
+      h: 'روتين التنظيف اليومي والأسبوعي',
+      p: [
+        'بعد كل استخدام امسح الحوض بقماش قطني ناعم لإزالة قطرات الماء وبقايا المعجون، فالتجفيف الفوري يمنع تكون بقع الكلس قبل أن تتصلب. مرة أسبوعياً نظف المغسلة بمنظف متعادل مخفف بالماء الدافئ ثم اشطفها وجففها جيداً دون أن تترك سطحها ينشف بالهواء.',
+        'لا تستخدم الإسفنج الخشن أو البودرة الكاشطة أو فرشاة السلك لأنها تخدش اللمعان وتخلق حفراً صغيرة تتجمع فيها الأوساخ. لأثر الصابون المتراكم انقع المنطقة بقطنة مبللة بمحلول متعادل لدقائق ثم أزل الرواسب بلطف بفرشاة ناعمة.',
+      ],
+    },
+    {
+      h: 'معالجة البقع والكلس',
+      p: [
+        'بقع الكلس البيضاء تظهر حول الصنبور وعند حافة الحوض حيث تتبخر قطرات الماء وتترك أملاحها، ومعالجتها المبكرة أسهل من انتظارها أن تتصلب. استخدم محلولاً معتدلاً مخصصاً لإزالة الكلس من الحجر واتركه الفترة الموصى بها ثم اشطف بالماء النظيف وجفف السطح فوراً.',
+        'البقع الزيتية أو بقايا مستحضرات التجميل تعامل معها بمادة ماصة مخصصة للحجر توضع كمعجون على البقعة وتترك حتى تسحب الزيت من المسام، ثم تزال وتغسل المنطقة. تجنب فرك البقعة بعنف لأن الفرك ينشرها داخل المسام بدل إخراجها.',
+      ],
+    },
+    {
+      h: 'العزل وإعادة اللمعان',
+      p: [
+        'عزل سطح المغسلة بطبقة مانعة للامتصاص يقلل التصاق البقع ويجعل التنظيف اليومي أسرع، وكفاءة هذه الطبقة تضعف مع الاستخدام والمنظفات. أعد وضع المانع كل سنة أو سنتين بحسب عدد مستخدمي الحمام، واختبر كفاءته برش قطرات ماء على السطح ومراقبة تبللها السريع.',
+        'فقدان اللمعان التدريجي لا يعني نهاية عمر الحجر؛ صقل خفيف أو تجليخ موضعي يعيد للسطح نضارته دون تغيير شكل المغسلة. استعن بفني حجر مختص للتجليخ لأن العمل بأدوات هواة قد يترك وجهاً غير مستوٍ أو علامات دائرية واضحة.',
+      ],
+    },
+    {
+      h: 'أخطاء شائعة تتلف مغاسل الحجر',
+      p: [
+        'من أكثر الأخطاء شيوعاً سكب مواد التجميل أو مزيلات الشعر الحاوية على أحماض مباشرة على المغسلة ثم تركها لفترة، فهذا يحرق السطح ويترك بقعاً دائمة. خطأ آخر هو استخدام الكلور المركز في التنظيف الأسبوعي، وهو يضعف العزل ويغير لون الحجر مع التكرار.',
+        'أيضاً من الأخطاء ترك الصابونة المبللة داخل الحوض أو الوقوف على حافة المغسلة بأحذية ثقيلة، فالصابونة تترك بقايا قلوية تصعب إزالتها والوقوف قد يكسر الحافة الرخامية. ضع صينية للصابون وتجنب استخدام المغسلة كدرجة.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'ما المنظف الآمن لمغسلة الرخام؟', a: 'استخدم منظفاً متعادل الحموضة مخصصاً للحجر الطبيعي أو الرخام، وخففه بالماء الدافئ واتبع مدة الترك الموصى بها. تجنب الخل والليمون والكلور المركز لأنها تتفاعل مع كربونات الكالسيوم وتترك بقعاً باهتة.' },
+    { q: 'كيف أزيل طبقة الصابون الرمادية من الحوض؟', a: 'انقع قطنة مبللة بمحلول متعادل على المنطقة المتأثرة لدقائق ثم أزل الرواسب بفرشاة ناعمة مع شطف متكرر. كرر العملية عند الحاجة وتجنب البودرة الكاشطة لأنها تخدش السطح وتزيد التصاق الصابون لاحقاً.' },
+    { q: 'كم مرة يجب إعادة عزل المغسلة؟', a: 'يعاد وضع مانع الامتصاص كل سنة إلى سنتين بحسب كثرة الاستخدام ونوع المنظفات، ويمكن اختبار الكفاءة برش قطرات ماء وملاحظة سرعة تبلل السطح. إذا تبللت المنطقة بسرعة وغيّر الماء لونها فقد حان وقت إعادة العزل.' },
+    { q: 'هل يختلف العناية بين الرخام والجرانيت؟', a: 'الرخام والحجر الجيري أكثر حساسية للأحماض ويحتاجان عناية أدق وعزلاً متكرراً، بينما الجرانيت أصلب وأقل امتصاصاً ويتحمل تنظيفاً أوسع نطاقاً. في الحالتين تجنب المنظفات الكاشطة واختبر أي منتج جديد على زاوية غير ظاهرة أولاً.' },
+    ],
+  },
+  {
+    id: 'stone-terrace-roof-installation-medina',
+    primary: 'حجر الأسطح',
+    keywords: ['تركيب حجر على أسطح', 'حجر طبيعي', 'المدينة المنورة', 'سطح خارجي', 'شرفة', 'عزل أسطح', 'تصريف مياه'],
+    intent: 'informational',
+    title: 'تركيب حجر الأسطح الخارجية في المدينة المنورة',
+    description: 'خطوات تركيب حجر الأسطح الخارجية في المدينة المنورة: تحضير السطح والعزل وتثبيت الحجر وفواصل التمدد وتصريف مياه المطر.',
+    category: 'التركيب',
+    takeawayTitle: 'حجر سطح مركّب بإحكام',
+    takeaways: [
+      'ابدأ بفحص ميلان السطح وعزله قبل أي تثبيت للحجر.',
+      'استخدم لاصقاً مرناً مخصصاً للأسطح الخارجية يتحمل الحرارة.',
+      'وزّع الحمل على كامل اللوح ولا تعتمد على نقط لاصق منفصلة.',
+      'اترك فواصل تمدد مملوءة بمونة مرنة على محيط السطح.',
+      'اختبر تصريف المياه بعد اكتمال التركيب قبل التسليم.',
+    ],
+    ctaHeading: 'ركّب حجر سطحك الخارجي بأمان',
+    ctaBody: 'فريق التركيب لدينا في المدينة المنورة ينفذ كسوة الأسطح بالحجر الطبيعي مع عزل وتصريف محكمين. اطلب زيارة معاينة اليوم.',
+    imagePrompt: 'Editorial photo of two installers laying natural stone pavers on a rooftop terrace in Medina, notched trowel and spirit level on the deck, rubber mallet and bucket of adhesive nearby, bright daylight, no text',
+    imageScene: 'عاملان يركّبان بلاطات حجر طبيعي على سطح شرفة في المدينة المنورة باستخدام مجرفة مسننة وميزان تسوية، مع مطرقة مطاطية ودلو لاصق في ضوء النهار',
+    imageTopics: 'تركيب حجر، أسطح خارجية، شرفة، عزل، تصريف',
+    related: [],
+    sections: [
+    {
+      h: 'التحضير قبل تركيب حجر السطح',
+      p: [
+        'الأسطح الخارجية في المدينة المنورة تتعرض لشمس حارة ومطر متقطع وتقلبات حرارة بين النهار والليل، لذلك يجب أن يكون السطح الأساسي نظيفاً وجافاً ومستوياً قبل أي تثبيت للحجر. ابدأ بفحص ميلان السطح نحو فتحات التصريف وتصحيح أي انخفاض يجمع الماء ثم نظف الغبار والزيوت العالقة بفرشاة وماء.',
+        'العزل المائي تحت الحجر خطوة لا تقبل التأجيل لأن أي تسرب يظهر لاحقاً يتطلب فك الألواح وإعادة العمل من البداية. ضع طبقة عزل مرنة مخصصة للأسطح الخارجية مع لفات محكمة عند الأطراف ومناطق الصرف، واختبرها بسكب الماء ومراقبة أي تسرب قبل وضع اللاصق.',
+      ],
+    },
+    {
+      h: 'اختيار الحجر واللاصق للأسطح',
+      p: [
+        'للأسطح المكشوفة اختر حجراً كثيفاً قليل الامتصاص يتحمل الصقيع والحرارة ولا يتشقق مع التمدد، مثل الجرانيت أو الحجر الطبيعي المخصص للأرصفة الخارجية. تجنب الرخام المصقول على الأسطح المفتوحة لأنه ينزلق عند بلله ويحتاج صيانة أعلى.',
+        'اللاصق يجب أن يكون مرناً ومقاوماً للحرارة مخصصاً للاستخدام الخارجي، فاللاصق العادي يتصلب ويتشقق مع تمدد البلاط في شمس المدينة المنورة. اتبع نسبة الخلط والتحريك بدقة واستخدم الكمية المخلوطة خلال وقتها الصالح قبل أن تتغير قوامها.',
+      ],
+    },
+    {
+      h: 'خطوات التثبيت الصحيحة',
+      p: [
+        'انشر اللاصق بمجرفة مسننة على مساحة محدودة تكفي لوحاً أو اثنين ثم اضغط اللوح الحجري وحركه قليلاً لتفريغ الهواء وضمان تلامس كامل الوجه الخلفي. تحقق من الاستواء بميزان تسوية بعد كل لوح، وصحح أي فرق ارتفاع فوراً قبل أن يجف اللاصق.',
+        'لا تترك فراغاً تحت اللوح لأن منطقة الفراغ تنكسر بضغط الأقدام مع الوقت، واكتشفها بالطرق الخفيف الذي يعطي صوتاً أجوف عند وجود فراغ. ثبّت الألواح بحسب مخطط الفواصل المعتمد لتظهر الخطوط متساوية ومستقيمة على كامل السطح.',
+      ],
+    },
+    {
+      h: 'فواصل التمدد وتصريف المياه',
+      p: [
+        'تمدد الحجر مع حرارة الشمس حقيقة لا يمكن تجاهلها، لذلك اترك فواصل تمدد حول محيط السطح وعند التقاء الحجر بالجدران أو العوائق الثابتة، واملأها بمونة مرنة تتحمل الحركة بدل مونة صلبة ستتشقق خلال موسم. الفواصل بين الألواح أيضاً يجب أن تكون متساوية ومملوءة بمادة تتحمل الماء والشمس.',
+        'صمّم سطح الحجر بميلان خفيف نحو فتحات التصريف بحيث لا يتجمع الماء في أي نقطة بعد المطر، وتأكد أن الفتحات غير مسدودة بمخلفات اللاصق. اختبر تصريف السطح بسكب الماء ومراقبة مساره، فالماء الراكد يترك أملاحاً وبقعاً ويضعف فواصل اللاصق مع الزمن.',
+      ],
+    },
+    {
+      h: 'التسليم والصيانة المبكرة',
+      p: [
+        'امشِ على السطح بعد ثلاثة أيام من التركيب للتحقق من ثبات الألواح وسماع أي صوت أجوف يدل على فراغ، وأعد تثبيت أي لوح متحرك قبل أن يجف العمل تماماً. لا تعرض السطح لأحمال ثقيلة أو جر أثاث خلال الأسبوع الأول حتى يكتمل تصلب اللاصق.',
+        'بعد كل موسم مطر افحص فواصل التمدد وأعد حشو أي جزء فارغ، ونظف السطح بماء دافئ وفرشاة ناعمة لتجنب تراكم الأملاح في مسام الحجر. راجع أيضاً أي لوح مكسور أو متشقق واستبدله مبكراً قبل أن تنتشر الشرخة إلى جيرانه.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل يمكن تركيب الحجر مباشرة فوق بلاط قديم؟', a: 'لا ينصح بذلك لأن الطبقة الإضافية ترفع وزن السطح وتزيد خطر انفصال البلاط القديم، والأفضل نزع البلاط المتفكك ومعالجة السطح قبل التركيب. إذا كان البلاط متماسكاً يمكن مناقشة التثبيت فوقه مع مختص يفحص التحمل والتصاق الطبقة القديمة.' },
+    { q: 'ما الفرق بين لاصق الأسطح واللاصق العادي؟', a: 'لاصق الأسطح الخارجية أكثر مرونة ومقاومة للحرارة والماء لأنه مصمم ليتحمل تمدد وانكماش الحجر تحت الشمس. اللاصق العادي يتصلب ويتشقق مع الوقت في الأجواء المكشوفة ويفقد ثباته أسرع.' },
+    { q: 'كيف أعرف أن اللوح مثبت بدون فراغ؟', a: 'الطرق الخفيف على وسط اللوح يعطي صوتاً مكتوماً عند التثبيت الجيد وصوتاً أجوف عند وجود فراغ، ويمكن استخدام مطرقة مطاطية صغيرة لذلك. الأفضل التحقق أثناء التركيب مباشرة وإعادة تثبيت أي لوح مشكوك فيه قبل جفاف اللاصق.' },
+    { q: 'كم فاصلة تمدد يحتاجها سطح الشرفة؟', a: 'يحتاج السطح فواصل تمدد على محيطه وعند التقائه بالجدران أو الأعمدة، وتضاف فواصل إضافية كل مسافة معينة في الأسطح الواسعة. يحدد المهندس أو المقاول المسافة بحسب أبعاد السطح ونوع الحجر ومعدل التمدد المتوقع.' },
+    ],
+  },
+  {
+    id: 'stone-edge-profiles-medina',
+    primary: 'بروفيلات الحجر',
+    keywords: ['بروفيلات حافة الحجر', 'رخام', 'جرانيت', 'المدينة المنورة', 'حافة رخام', 'تشطيب حواف', 'مطابخ'],
+    intent: 'informational',
+    title: 'بروفيلات الحجر لحواف الرخام في المدينة المنورة',
+    description: 'دليل بروفيلات الحجر لحواف الرخام والجرانيت في المدينة المنورة يوضح أنواع الحواف المصقولة والمائلة والمدورة واستخدام كل نوع.',
+    category: 'التصميم',
+    takeawayTitle: 'حافة حجرية تليق بسطحك',
+    takeaways: [
+      'الحافة المدورة آمنة للحواض والمطابخ المنزلية وتمنع الاصطدام.',
+      'الحافة المائلة تعطي مظهراً حديثاً وتحتاج دقة في التنفيذ.',
+      'الحافة الكاملة السماكة تبدو أسمك وأفخم لكنها تحتاج دعماً عند البروز.',
+      'طابق لون البروفيل مع لون الحجر الأساسي لتبدو الحافة جزءاً منه.',
+      'اطلب عينة حافة قبل الاعتماد النهائي لتتأكد من الشكل تحت الضوء.',
+    ],
+    ctaHeading: 'اختر بروفيل حافتك بدقة',
+    ctaBody: 'أرسل لنا قياسات سطحك ونوع الحجر في المدينة المنورة ونقترح عليك البروفيل الأنسب من حيث الشكل والتكلفة. تواصل معنا اليوم.',
+    imagePrompt: 'Editorial close-up photo of a polished natural stone countertop edge profile in a Medina workshop, router tool and samples of different edge shapes on the bench, dust particles in workshop light, no text',
+    imageScene: 'لقطة قريبة لحافة منضدة حجر طبيعي مصقولة داخل ورشة في المدينة المنورة، مع أداة تشكيل الحواف وعينات بأشكال مختلفة على الطاولة ووميض ضوء الورشة',
+    imageTopics: 'بروفيل حجر، حافة رخام، تشطيب، منضدة، ورشة',
+    related: [],
+    sections: [
+    {
+      h: 'ما هي بروفيلات الحجر ولماذا تهم',
+      p: [
+        'بروفيل الحجر هو شكل الحافة النهائية للوح الرخام أو الجرانيت على المنضدة أو المغسلة أو الدرج، وهو أول ما يلامس اليد ويراه الزائر من قرب. الحافة الجيدة تكمل مظهر السطح وتمنع تشقق الزوايا الرقيقة، بينما الحافة المهملة تجعل سطحاً باهظ الخامة يبدو ناقصاً ومكشوفاً للكسر.',
+        'في أسواق المدينة المنورة تتوفر بروفيلات مصنعة مسبقاً تلصق على حافة اللوح، وأخرى تشكل من ذات اللوح بتجليخ كامل السماكة. الخيار الأول أسرع وأنظف في الموقع، والثاني يتطلب لوحاً أسمك وآلة تجليخ دقيقة لكنه يعطي حافة متجانسة لا تفرق بين جسم اللوح وحافته.',
+      ],
+    },
+    {
+      h: 'أنواع الحواف الشائعة',
+      p: [
+        'الحافة المدورة جزئياً أو بالكامل هي الأكثر أماناً حول أحواض المطابخ ومغاسل الحمام لأنها تزيل الزاوية الحادة وتريح اليد عند الانحناء المتكرر. الحافة المائلة بزاوية أربع وأربعين درجة تعطي مظهراً عصرياً هندسياً وتبدو رقيقة على الألواح السميكة.',
+        'الحافة الكاملة السماكة تبدو ككتلة حجر صلبة وتليق بالمناضد ذات الاستخدام الكثيف، لكنها تضيف وزناً أكبر وتحتاج دعماً إضافياً عند البروز الطويل. هناك أيضاً حواف مقوسة أو متعددة الخطوات تستخدم في القطع التزيينية والمغاسل المستقلة.',
+      ],
+    },
+    {
+      h: 'اختيار البروفيل بحسب المكان',
+      p: [
+        'لمطبخ العائلة اختر حافة مدورة أو مائلة خفيفة لأنها آمنة للصغار وسهلة التنظيف حول البقع والزوايا، وللمغسلة المستقلة يمكن اختيار بروفيل مصنع كامل الشكل يطابق منحنى الحوض. في درجات السلم اجعل الحافة خارجية الاستدارة لتقليل خطر الانزلاق وإبراز خط الدرجة.',
+        'خذ في الحسبان الاستخدام الفعلي قبل الانبهار بشكل عصري؛ الحافة شديدة الرقة قد تنكسر عند وضع قدر ثقيل أو جر أداة معدنية، والحافة شديدة البروز تصطدم بملابس المارة حول المنضدة. اسأل المنفذ عن تجارب سابقة في بيوت المدينة المنورة المشابهة لسياقك.',
+      ],
+    },
+    {
+      h: 'التنفيذ والجودة',
+      p: [
+        'جودة البروفيل تظهر في تجانس القوس على كامل طول الحافة وخلو السطح من علامات الأداة أو اختلاف اللمعان بين الحافة وجسم اللوح. اطلب من المنفذ تشغيل إصبعك على الحافة قبل الاعتماد، فالحافة الجيدة تنتقل من القوس إلى الوجه بنعومة دون أي نتوء محسوس.',
+        'تثبيت البروفيل المصنع يعتمد على لاصق مطابق لنوع الحجر ومكان الاستخدام، مع ضغط متساوٍ حتى الجفاف وتنظيف الزوائد قبل أن تتصلب. بعد التثبيت راجع خط الالتحام بين البروفيل واللوح وتأكد أنه متجانس ولا يجمع الأوساخ عند الفرق بينهما.',
+      ],
+    },
+    {
+      h: 'الأخطاء الشائعة في بروفيلات الحجر',
+      p: [
+        'من الأخطاء اختيار حافة رقيقة جداً على لوح رقيق فينكسر أول وجه عند أي صدمة خفيفة، أو الاكتفاء بلاصق غير مناسب فيختلف لونه مع الوقت ويظهر كخط داكن عند الالتحام. خطأ آخر هو إهمال حماية الحافة أثناء نقل الألواح وتركيب بقية الأعمال فتظهر خدوش لا يمكن إصلاحها إلا بإعادة التجليخ.',
+        'أيضاً من الأخطاء الشائعة عدم مطابقة شكل البروفيل بين أجزاء المشروع الواحد، فتظهر حواف مختلفة على مناضد متجاورة أو على جانبي مغسلة واحدة. اتفق مع المنفذ على شكل الحافة كتابةً قبل التصنيع واطلب لوحاً مختبرياً يعتمد كمرجع للبقية.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'ما الفرق بين الحافة المدورة والحافة المائلة؟', a: 'الحافة المدورة تزال فيها الزاوية بقوس ناعم وهي أمان أعلى حول أيدي الصغار وسهلة التنظيف، بينما الحافة المائلة تقطع بزاوية ثابتة فتبدو هندسية عصرية لكنها تبقى ذات حافة حادة نسبياً. اختر المدورة للمطابخ العائلية والمائلة للأسطح الاستعراضية.' },
+    { q: 'هل يمكن تغيير بروفيل الحجر بعد التركيب؟', a: 'نعم يمكن تجليخ الحافة وتغيير شكلها في الموقع أو في الورشة بحسب الحالة، لكن ذلك يتطلب فك اللوح أحياناً ويترك غباراً وربما يغير لمعان الحافة. الأصعب هو تقليل سماكة لوح أعد ببروفيل كامل، لذلك القرار المبكر أوفر.' },
+    { q: 'كيف أحافظ على لمعان حافة الرخام؟', a: 'نظف الحافة بماء دافئ وقماش ناعم وتجنب المنظفات الحمضية والكاشطة التي تبهت اللمعان وتفتح المسام. أعد تلميع الحافة دورياً بمسحوق تلميع مخصص للرخام أو بمنفذ مختص عند فقدان اللمعان.' },
+    { q: 'أي بروفيل يناسب مغسلة حجر مستقلة؟', a: 'للمغاسل المستقلة يفضل بروفيل مصنع بشكل كامل يطابق منحنى الحوض ويلصق بلاصق مقاوم للماء، مع فحص خط الالتحام حول كامل الحوض. هذا الخيار يعطي حافة ناعمة مستمرة بدل لحامات ظاهرة على المنحنى.' },
+    ],
+  },
+  {
+    id: 'stone-mosaics-patterns-medina',
+    primary: 'فسيفساء حجر',
+    keywords: ['فسيفساء حجر', 'أنماط فسيفساء', 'حجر طبيعي', 'المدينة المنورة', 'زخرفة حجرية', 'بلاط فسيفساء'],
+    intent: 'informational',
+    title: 'فسيفساء حجر طبيعي في المدينة المنورة',
+    description: 'أنماط فسيفساء حجر طبيعي في المدينة المنورة: الفسيفساء السادة والمشكّلة والقصات الكبيرة وأين تُستخدم في الواجهات والأرضيات.',
+    category: 'التصميم',
+    takeawayTitle: 'فسيفساء تمنح الحجر إيقاعاً',
+    takeaways: [
+      'الفسيفساء السادة توحي بالاتساع وتناسب الأرضيات الواسعة.',
+      'الأنماط المشكلة تضيف عمقاً للجدران الضيقة والمداخل.',
+      'القصات الكبيرة تحتاج فواصل أدق وتنفيذاً أدق لخطوط الالتحام.',
+      'اختر لوناً واحداً متدرجاً للفسيفساء بدل مزج ألوان متعددة.',
+      'اطلب عينة نمط مكتملة لترى الشكل النهائي قبل تغطية كامل المساحة.',
+    ],
+    ctaHeading: 'صمّم فسيفساء حجر لمنزلك',
+    ctaBody: 'ننفذ فسيفساء الحجر الطبيعي في المدينة المنورة للواجهات والمداخل والأرضيات بأنماط مصممة لحساب مساحتك. اطلب تصميماً مبدئياً اليوم.',
+    imagePrompt: 'Editorial photo of a craftsman arranging natural stone mosaic tiles in a geometric pattern on a worktable in Medina, loose tesserae in trays, paper template underneath, tweezers and spacers nearby, no text',
+    imageScene: 'حرفي يرتّب قطع فسيفساء حجر طبيعي بنمط هندسي على طاولة عمل في المدينة المنورة، مع صواني قطع صغيرة وقالب ورقي وملقط وفواصل بجانبها',
+    imageTopics: 'فسيفساء حجر، أنماط، زخرفة حجرية، واجهات، بلاط',
+    related: [],
+    sections: [
+    {
+      h: 'ما هي فسيفساء الحجر الطبيعي',
+      p: [
+        'الفسيفساء الحجرية هي تجميع قطع صغيرة من الحجر الطبيعي في نمط هندسي أو زخرفي على شبكة أو لوح واحد ثم تركيبه كقطعة واحدة، وتمنح السطح إيقاعاً بصرياً لا يقدر عليه اللوح الكبير. في المدينة المنورة تستخدم في المداخل والأرضيات ولوحات الجدران لما تضيئه من روح حرفية تليق بالعمارة المحلية.',
+        'تتوفر الفسيفساء السادة بلون واحد وملمس موحد، والفسيفساء المشكلة بألوان متدرجة أو قطع مقصوصة بأحجام مختلفة، وهناك قصات كبيرة تجمع كأحجية لتشكل لوحة واحدة. لكل نوع استخدامه ومكانه المناسب، واختيار النمط الخاطئ يحول الميزة إلى فوضى بصرية تكلف الكثير لإصلاحها.',
+      ],
+    },
+    {
+      h: 'أين تستخدم الفسيفساء في المنزل',
+      p: [
+        'أرضيات المداخل والردهات من أفضل مواضع الفسيفساء لأن القطع الصغيرة تتحمل الاحتكاك وتخفي الغبار بين فواصلها، كما أنها لا تنزلق عند بللها مثل القطع الكبيرة المصقولة. في الحمامات تستخدم فسيفساء الحجر على الجدران خلف المغاسل أو في أرضية كابينة الاستحمام لمقاومتها للرطوبة.',
+        'الواجهات ولوحات الجدران الخارجية تستفيد من الفسيفساء في كسر رتابة المساحات الواسعة وإبراز المدخل أو لوحة اسم المنزل. تجنب استخدامها في الأرضيات ذات الحركة الثقيلة كالمداخل الخدمية التي تجر فيها المعدات، فالقطع الصغيرة تتكسر تحت صدمة مركزة.',
+      ],
+    },
+    {
+      h: 'اختيار النمط واللون',
+      p: [
+        'القاعدة الأولى هي الالتزام بتشكيلة لونية واحدة متدرجة أو لونين متقاربين، فمزج ألوان متعددة في مساحة صغيرة يخلق تشوشاً بصرياً يتعب النظر. في المداخل الضيقة استخدم نمطاً يوجه العين نحو الداخل، وفي الردهات الواسعة يمكن لنمط مركزي أن يحدد نقطة تجمع.',
+        'خذ في الحسبان ملمس الحجر؛ الفسيفساء ذات الملمس الخشن تتحمل الاحتكاك وتصلح للأرضيات، بينما المصقولة تليق بالجدران كلوحات. استشر المصمم في نسب النمط إلى مساحة السطح، فنمط واسع على جدار صغير يفقد تفاصيله ونمط دقيق على مساحة كبيرة يضيع بين الفواصل.',
+      ],
+    },
+    {
+      h: 'التنفيذ والجودة',
+      p: [
+        'جودة تركيب الفسيفساء تظهر في استقامة الخطوط وتساوي الفواصل بين الألواح وخلو السطح من أي لوح مائل أو مرتفع، وهنا يظهر الفرق بين منفذ محترف وآخر مستعجل. اطلب من المنفذ تركيب لوح تجريبي واحد على الحائط أو الأرضية قبل الموافقة على كامل العمل لترى تأثير الضوء والمسافة.',
+        'اللاصق والمونة بين الفواصل يجب أن يناسبا الحجر الطبيعي ومكان الاستخدام الخارجي أو الداخلي، فكثرة المونة على وجه القطع الصغيرة تترك بقايا يصعب تنظيفها وتكسر المظهر. بعد التركيب نظف الوجه بقماش رطب قبل أن يجف اللاصق تماماً ثم اتركه يجف دون مشي عليه خلال الأيام الأولى.',
+      ],
+    },
+    {
+      h: 'الصيانة واستبدال القطع',
+      p: [
+        'نظف الفسيفساء بماء دافئ وفرشاة ناعمة وتجنب المنظفات الحمضية على الرخام والحجر الجيري، وامسح الفواصل بلطف حتى لا تتفكك المونة بين القطع الصغيرة. في الأرضيات الخارجية افحص الفواصل بعد كل موسم مطر وأعد حشو أي جزء فارغ.',
+        'ميزة الفسيفساء أنها تسمح باستبدال قطعة أو لوح واحد متضرر دون تغيير كامل السطح، بشرط توفر نوع الحجر نفسه ونمطه من المورد. احتفظ بقطع فائضة من دفعة التركيب في مكان جاف، فالاختلاف بين الدفعات يظهر بوضوح إذا احتجت لاحقاً تعويض قطعة.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل الفسيفساء الحجرية عملية للأرضيات؟', a: 'نعم، بل هي من أنسب الخيارات للأرضيات لأن كثرة الفواصل تمنح سطحاً ممانعاً للانزلاق وتخفي الغبار والخدوش الصغيرة. اختر حجراً كثيفاً بملمس خشن أو مطفي وابتعد عن القطع المصقولة عالية اللمعان في الممرات.' },
+    { q: 'ما الفرق بين الفسيفساء على شبكة والقصات المفردة؟', a: 'الفسيفساء على شبكة تركب بسرعة وتناسب المساحات الواسعة لأن كل لوح يحمل عشرات القطع دفعة واحدة، بينما القصات المفردة تمنح تحكماً أدق في توزيع الألوان وتصلح للوحات الزخرفية. لكل أسلوب ميزته بحسب النمط وميزانية التنفيذ.' },
+    { q: 'كيف أختار نمط الفسيفساء المناسب لمساحة صغيرة؟', a: 'استخدم نمطاً بسيطاً بألوان متقاربة وفواصل رفيعة لتوسيع المساحة بصرياً، وتجنب الأنماط الكثيفة عالية التباين التي تضغط الجدران الضيقة. اطلب من المصمم تركيب لوح تجريبي أو محاكاة بصرية قبل التنفيذ.' },
+    { q: 'هل يمكن استخدام فسيفساء الحجر في الواجهات الممطرة؟', a: 'نعم بشرط اختيار حجر كثيف قليل الامتصاص ومونة مرنة مقاومة للماء وفواصل محشوة جيداً. راجع العزل خلف الفسيفساء وافحص الفواصل بعد كل موسم مطر لضمان بقاء الطبقة محكمة.' },
+    ],
+  },
+  {
+    id: 'stone-lighting-integration-medina',
+    primary: 'إضاءة الحجر',
+    keywords: ['دمج الإضاءة مع الحجر', 'إضاءة واجهات', 'حجر طبيعي', 'المدينة المنورة', 'إضاءة أرضيات', 'إضاءة خنادق'],
+    intent: 'commercial',
+    title: 'دمج إضاءة الحجر في المدينة المنورة',
+    description: 'أفكار وتقنيات دمج إضاءة الحجر الطبيعي في المدينة المنورة تغطي إضاءة الواجهات والخنادق والأرضيات واختيار الدرجات اللونية المناسبة.',
+    category: 'التصميم',
+    takeawayTitle: 'إضاءة تبرز ملمس الحجر',
+    takeaways: [
+      'الإضاءة الغاطسة في الأرضية تحدد المسارات دون أن تطغى على الحجر.',
+      'الدرجة اللونية الدافئة تقارب درجات الحجر وتكشف ملمسه.',
+      'ثبّت الكابلات ومواقع الوحدات قبل تركيب الحجر لتفادي الحفر لاحقاً.',
+      'استخدم مصادر إضاءة مخصصة للأماكن الخارجية ومقاومة للرطوبة.',
+      'اختبر المشهد ليلاً قبل الاعتماد النهائي للإضاءة.',
+    ],
+    ctaHeading: 'أبرز حجر واجهتك بالإضاءة',
+    ctaBody: 'نصمم وننفذ دمج الإضاءة مع الحجر الطبيعي في واجهات ومنازل المدينة المنورة بخطة كهربائية مدروسة. اطلب دراسة إضاءة اليوم.',
+    imagePrompt: 'Editorial photo of warm recessed LED strip lighting along a natural stone wall at dusk in a Medina courtyard, electrician\'s conduit and driver unit partially visible at the base, deep blue evening sky, no text',
+    imageScene: 'شريط إضاءة دافئ مغروس على طول جدار حجر طبيعي عند الغسق في فناء بالمدينة المنورة، مع كابل توصيل ووحدة تشغيل ظاهرة عند القاعدة وسماء مساء زرقاء داكنة',
+    imageTopics: 'إضاءة حجر، واجهات، إضاءة خنادق، فناء، إضاءة خارجية',
+    related: [],
+    sections: [
+    {
+      h: 'لماذا تدمج الإضاءة مع الحجر',
+      p: [
+        'الحجر الطبيعي يمتلك ملمساً ولوناً لا يظهران بالكامل تحت إضاءة واحدة عامة، فالإضاءة المخططة تبرز نتوءات السطح وتدرج اللون وتمنح الواجهة عمقاً مسائياً يليق بمداخل المدينة المنورة. الإضاءة كذلك تضاعف وظيفة الحجر بجعل الممرات والزوايا آمنة للحركة في المساء.',
+        'التكامل الناجح يبدأ قبل تركيب الحجر لأن مواقع الوحدات وقنوات الكابلات ومواقع العوازل تحدد تصميم الواجهة نهائياً. إذا تأخر تخطيط الإضاءة حتى بعد تركيب الحجر ستضطر للحفر في سطحه وتكسير فواصله، وهو هدر للوقت والمال ومخاطرة بتشقق الألواح.',
+      ],
+    },
+    {
+      h: 'أنواع الإضاءة المناسبة للحجر',
+      p: [
+        'الإضاءة الغاطسة في الأرضية تحدد الممرات حول أحواض الزهور وحواف الشرفات دون أن تظهر الوحدات في مجال النظر، وتحتاج حجراً سميكاً يغطيها بعمق لا يسمح بتسرب حرارتها إلى السطح. إضاءة الخنادق أسفل حافة الواجهة تغسل الجدار الحجري من الأسفل وتفصل الواجهة بصرياً عن الأرض.',
+        'وحدات الغسل الجداري العلوية تكشف ملمس الحجر المنحوت أو ذي الوجه الخشن، بينما الإضاءة الخطية المخفية في السقوف أو تحت العتبات تعطي إضاءة ناعمة بلا وهج مباشر. اختر مصادر مخصصة للأماكن الخارجية بدرجة حماية مناسبة للرطوبة والغبار.',
+      ],
+    },
+    {
+      h: 'اختيار الدرجة اللونية والشدة',
+      p: [
+        'الدرجات اللونية الدافئة القريبة من لون الحجر الطبيعي تكشف ملمسه وألوانه بصدق وتضيف إحساساً بالدفء في المجالس الخارجية، بينما الدرجات البيضاء الباردة تليق بالواجهات العصرية ذات الحجر الفاتح. تجنب خلط درجتين متباعدتين في مشهد واحد لأن التباين يفضح اختلاف لون الحجر نفسه.',
+        'الشدة أهم من كثرة الوحدات؛ مشهد مضاء بهدوء من ثلاث نقاط مدروسة أرقى من عشر وحدات تصنع وهجاً يغسل تفاصيل الحجر ويضر بالهدوء الليلي. استخدم محددات شدة تتيح تخفيف الإضاءة في الجلسات الهادئة، واختبر كل مشهد ليلاً قبل الاعتماد النهائي.',
+      ],
+    },
+    {
+      h: 'التخطيط الكهربائي والتنفيذ',
+      p: [
+        'حدد مع الكهربائي مواقع لوحات التوزيع ومسارات الكابلات قبل بدء تركيب الحجر حتى تمر التوصيلات داخل الجدران أو خلف الطبقات العازلة دون حفر واجهة مكتملة. اجعل كل دائرة إضاءة خارجية محمية بقاطع تسرب أرضي مخصص وتأكد أن الوحدات قابلة للوصول للصيانة دون فك الحجر.',
+        'ثبت الوحدات في قوالبها النهائية قبل صب الطبقة المحيطة أو تركيب الحجر حولها، وراجع اتجاه الحزم الضوئية قبل إغلاق الطبقات. بعد اكتمال التركيب اختبر التشغيل بالتناوب وراقب أي وحدة تومض أو تسخن أكثر من أخواتها ونظف عدساتها قبل التسليم.',
+      ],
+    },
+    {
+      h: 'أخطاء شائعة في إضاءة الحجر',
+      p: [
+        'من الأخطاء تثبيت وحدات قوية قريبة من الحجر الداكن فتشبع اللون وتخفت تفاصيله، أو العكس بوحدات خافتة لا تكشف سوى وهج عام. خطأ آخر هو إهمال إخفاء الكابلات ومشغلات الطاقة فتظهر كعناصر مشتتة تفسد المشهد الذي دفعت لاكتسابه.',
+        'أيضاً يقع كثيرون في استخدام وحدات داخلية في الواجهات الخارجية فتتعطل مع أول مطر، أو ترك وحدات مكشوفة على مستوى المشي فتصبح عثرات ليلية. استعن بفني إضاءة ملم بالأنظمة الخارجية وراجع خطة الصيانة قبل الاعتماد النهائي.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'ما أفضل درجة لونية لإضاءة الحجر الطبيعي؟', a: 'الدرجات الدافئة القريبة من لون الحجر تكشف ملمسه وألوانه بصدق وتناسب المجالس الخارجية، بينما الدرجات البيضاء الفاتحة تليق بالواجهات العصرية ذات الحجر الفاتح. الأهم هو تجنب خلط درجتين متباعدتين في مشهد واحد حتى لا يظهر الحجر بلونين مختلفين.' },
+    { q: 'كيف أخفي كابلات الإضاءة في واجهة حجرية؟', a: 'مرر الكابلات داخل الجدار أو خلف طبقة العزل قبل تركيب الحجر، وخصص قنوات مخفية لمشغلات الطاقة ولوحات التوزيع في أماكن يسهل الوصول إليها للصيانة. التخطيط المبكر قبل التركيب هو ما يمنع الحفر في الحجر لاحقاً.' },
+    { q: 'هل الإضاءة الغاطسة آمنة حول أحواض المسبح والماء؟', a: 'نعم بشرط اختيار وحدات مخصصة للأماكن الرطبة ومقاومة للماء وذات جهد آمن، وتركيبها بعمق وتثبيت يمنع انكشاف أجزاء كهربائية. راجع شهادات الوحدات واطلب تركيبها بيد كهربائي مختص.' },
+    { q: 'كم وحدة إضاءة يحتاجها جدار حجري واحد؟', a: 'لا توجد قاعدة ثابتة؛ يعتمد العدد على ارتفاع الجدار ونوع الحجر وتأثيرك المطلوب، فوحدات غسل جداري قليلة قد تكفي لإبراز ملمس حجر خشن. الأفضل تجربة وحدات متحركة ليلاً لتحديد المواضع قبل التثبيت النهائي.' },
+    ],
+  },
+  {
+    id: 'stone-pool-decking-medina',
+    primary: 'أرضيات المسبح',
+    keywords: ['تبليط محيط المسبح', 'حجر طبيعي حول المسبح', 'أرضيات خارجية مسبح', 'المدينة المنورة', 'تبليط مسبح', 'أرضيات مسبح'],
+    intent: 'informational',
+    title: 'تبليط أرضيات المسبح بالحجر في المدينة المنورة',
+    description: 'دليل تبليط أرضيات المسبح بالحجر الطبيعي في المدينة المنورة: اختيار الحجر المقاوم للانزلاق والملح، تفاصيل العزل، وتركيب المحيط.',
+    category: 'التركيب',
+    takeawayTitle: 'محيط مسبح حجري آمن',
+    takeaways: [
+      'اختر حجراً ممانعاً للانزلاق بملمس مطفي أو خشن.',
+      'الرخام المصقول خطر حول المسبح ويهمل في اختياره.',
+      'اعزل طبقة الأساس وادفع الماء بعيداً عن حافة الحجر.',
+      'اجعل الحافة الخارجية للمسبح مدببة لمنع الانزلاق باتجاه الماء.',
+      'افحص فواصل الحجر حول المسبح بعد كل موسم.',
+    ],
+    ctaHeading: 'بلّط محيط مسبحك بالحجر',
+    ctaBody: 'ننفذ تبليط محيط المسبح بالحجر الطبيعي في المدينة المنورة بخامات آمنة ومانعة للانزلاق وعزل محكم. اطلب معاينة اليوم.',
+    imagePrompt: 'Editorial photo of an installer fitting natural stone pavers around a swimming pool edge in Medina, textured non-slip stone surface, bucket of adhesive and notched trowel nearby, clear water reflection, no text',
+    imageScene: 'عامل يركّب بلاطات حجر طبيعي حول حافة مسبح في المدينة المنورة، سطح حجري مطفي ممانع للانزلاق، مع دلو لاصق ومجرفة مسننة وانعكاس ماء صافٍ',
+    imageTopics: 'أرضيات مسبح، حجر طبيعي، تبليط مسبح، حافة مسبح، انزلاق',
+    related: [],
+    sections: [
+    {
+      h: 'متطلبات أرضية المسبح الخارجية',
+      p: [
+        'محيط المسبح يجمع بين البلل الدائم وأشعة الشمس القوية في المدينة المنورة، لذلك يجب أن يكون الحجر المختار ممانعاً للانزلاق وقليلاً الامتصاص ولا يتشقق مع الأملاح والكلور. الأرضية هنا ليست مجرد تشطيب بل نظام سلامة يلمسه أطفال وعابرون بأرجل مبللة طوال اليوم.',
+        'قبل شراء الحجر اسأل عن معامل الاحتكاك الرطب ومقاومة الأملاح والكلور، فبعض الأحجار المسامية تتفاعل مع أملاح المسبح وتظهر بقعاً أو تتقشر حبيباتها مع الوقت. اجعل الملمس المطفي أو الخشن خيارك الأول وابتعد عن الأسطح المصقولة قرب الماء.',
+      ],
+    },
+    {
+      h: 'تحضير الطبقة الأساسية والعزل',
+      p: [
+        'ابدأ بفحص منسوب الطبقة الأساسية وميلانها نحو مصرف قريب بعيد عن حافة المسبح، فالماء المتسرب من حافة الحوض يجب أن يصرف بعيداً عن هيكل الحجر. ضع طبقة عزل مرنة ومقاومة للكلور وادفعها تحت الحافة الداخلية للحوض لضمان عدم تسرب الماء إلى التربة أو الأساس.',
+        'في الأرضيات القديمة انزع البلاط المتقشر وعالج أي شرخ في الخرسانة قبل وضع اللاصق، فالأرضية المتشققة ستنتقل شروخها إلى الحجر الجديد خلال أشهر. اختبر الطبقة الأساسية بسكب الماء ومراقبة تجمعه في أي نقطة منخفضة.',
+      ],
+    },
+    {
+      h: 'اختيار الحجر وتنسيق الحدود',
+      p: [
+        'الجرانيت الكثيف والحجر المخصص للأرصفة الخارجية من أفضل الخيارات لمحيط المسبح لصلابتهما وقلة امتصاصهما ومقاومتهما للحرارة، بينما الحجر الجيري يحتاج معالجة خاصة ليتحمل الأملاح والبلل المتكرر. نسّق لون الحجر مع بطانة الحوض ولون واجهة الفناء ليبدو المسبح عنصراً واحداً متكاملاً.',
+        'اجعل الحافة الخارجية للمسبح بحجر مدبب أو بزاوية آمنة تقلل خطر اصطدام الركبة أو الانزلاق باتجاه الماء، وثبت خط تصريف محيطي يبعد الماء عن نقاط الجلوس على الحافة. تجنب الحواف شديدة البروز أو الزوايا الحادة التي تتحول إلى خطورة ليلية.',
+      ],
+    },
+    {
+      h: 'التركيب والفواصل',
+      p: [
+        'استخدم لاصقاً مرناً مقاوماً للماء والكلور مخصصاً للأرضيات الخارجية، وانشره بمجرفة مسننة لتغطية كاملة الوجه الخلفي لكل بلاطة دون فراغات تجمع الماء لاحقاً. ثبت الفواصل بحسب عرض موحد واجعلها مملوءة بمونة مرنة مقاومة للرطوبة حتى لا تتسع مع حرارة الشمس.',
+        'اترك فاصلة تمدد حول محيط المسبح بين الحجر وحافة الحوض تمتص فرق التمدد بين الخرسانة والحجر، تملؤها بمونة مرنة مقاومة للماء. اختبر استواء السطح بميزان تسوية وتأكد أن الماء ينساب نحو المصرف ولا يتجمع في أي حوض صغير على السطح.',
+      ],
+    },
+    {
+      h: 'الصيانة والسلامة المستمرة',
+      p: [
+        'اشطف محيط المسبح بماء نظيف بعد جلسات السباحة لتقليل تركيز الأملاح والكلور على سطح الحجر، ونظفه دورياً بماء دافئ وفرشاة ناعمة دون منظفات حمضية أو كاشطة. افحص الفواصل بعد كل موسم وأعد حشو أي جزء فارغ لمنع تسرب الماء خلف البلاط.',
+        'راقب أي بلاطة مرتفعة أو متشققة واستبدلها مبكراً لأن طرافتها خطر على الأقدام المبللة، وتحقق من أن مصرف المحيط لا يزال يصرف الماء بسرعة بعد كل عاصفة. الصيانة البسيطة المنتظمة تطيل عمر تبليط المحيط وتبقيه آمناً بلا مفاجآت.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'ما الحجر الأفضل حول المسبح؟', a: 'الجرانيت الكثيف والحجر المخصص للأرصفة الخارجية خياران ممتازان لقلة امتصاصهما ومقاومتهما للحرارة والأملاح. الأهم هو أن يكون السطح مطفياً أو خشناً يمنع الانزلاق عند البلل، وأن يكون الحجر مدعوماً بمعامل احتكاك رطب موثق.' },
+    { q: 'هل يتحمل الحجر الطبيعي كلور المسبح؟', a: 'الجرانيت الكثيف يتحمل الكلور والأملاح جيداً، بينما الأحجار الكلسية المسامية تحتاج معالجة وعزلاً متكرراً لتتحمل البلل المتكرر. اشطف المحيط بماء نظيف بعد الجلسات لتقليل تركيز الأملاح على سطح الحجر.' },
+    { q: 'كيف أمنع انزلاق الأرضية حول المسبح؟', a: 'اختر حجراً بملمس مطفي أو خشن بمعامل احتكاك رطب مرتفع، وتجنب الرخام المصقول أو الحجر الناعم قرب الماء. أيضاً اجعل الحافة الخارجية مدببة وضع فواصل عريضة بما يكفي لتفريغ الماء بسرعة.' },
+    { q: 'هل يحتاج محيط المسبح عزلاً خاصاً؟', a: 'نعم، يحتاج طبقة عزل مرنة مقاومة للكلور تمتد تحت حافة الحوض وتحمي الأساس من تسرب الماء، مع فاصلة تمدد مملوءة بمونة مرنة بين الحجر وحافة المسبح. اختبر العزل بسكب الماء ومراقبة أي تجمع خلف البلاط.' },
+    ],
+  },
+  {
+    id: 'stone-retaining-walls-medina',
+    primary: 'جدران استنادية',
+    keywords: ['جدران استنادية', 'حجر طبيعي لجدران التدعيم', 'المدينة المنورة', 'هندسة', 'تدعيم تربة', 'جدران حجرية'],
+    intent: 'local',
+    title: 'جدران استنادية حجرية في المدينة المنورة',
+    description: 'تصميم وتنفيذ جدران استنادية حجرية في المدينة المنورة يوضح متى تحتاج تدعيماً وأنواع الحجر المناسبة ودور المهندس والحسابات.',
+    category: 'التركيب',
+    takeawayTitle: 'جدار تدعيم حجري يصمم لا يخمن',
+    takeaways: [
+      'لا تبنِ جداراً استنادياً مرتفعاً دون مهندس مختص.',
+      'الحجر الكثيف ثقيل الوزن ويحتاج أساساً مدروساً لا مجرد حفر سطحي.',
+      'نظام الصرف خلف الجدار لا يقل أهمية عن الحجر نفسه.',
+      'اترك فتحات تصريف مياه التربة على ارتفاعات مدروسة.',
+      'افحص الجدار بعد كل موسم مطر وتأكد من سلامة الصرف.',
+    ],
+    ctaHeading: 'صمّم جدارك الاستنادي مع مختص',
+    ctaBody: 'نتعاون مع مكاتب هندسية لتنفيذ جدران استنادية حجرية في المدينة المنورة بأساسات وصرف محسوبين. اطلب استشارة اليوم.',
+    imagePrompt: 'Editorial photo of a stone retaining wall under construction on a sloped residential site in Medina, dry-stacked natural stone blocks, gravel drainage layer behind the wall, spirit level and shovel on site, no text',
+    imageScene: 'جدار استنادي حجري قيد الإنشاء على أرض مائلة في حي سكني بالمدينة المنورة، كتل حجر طبيعي مكدسة الجفاف مع طبقة تصريف حصوية خلف الجدار وميزان تسوية وجرف في الموقع',
+    imageTopics: 'جدران استنادية، حجر طبيعي، تدعيم، تصريف، أساس',
+    related: [],
+    sections: [
+    {
+      h: 'متى تحتاج جداراً استنادياً',
+      p: [
+        'الجدار الاستنادي يقوم بشد التربة ومنع انزلاقها عند فرق منسوب بين جزأين من الأرض، وهو حل ضروري في المواقع المائلة حول المدينة المنورة ولحواف الطرق والملاعب والحدائق المدرجة. تجاهل الحاجة إليه أو الاعتماد على حلول سطحية كالتراب والتكديس المؤقت يعرض المنزل والملاحق لمخاطر الانهيار مع أول موسم مطر غزير.',
+        'قرار بناء الجدار يجب أن يعتمد على مسح تربة وقياس مناسيب دقيق، فالجدار القصير بأساس ضحل قد يكون كافياً لفرق منسوب صغير بينما فرق منسوب كبير يحتاج جداراً عالياً بأساس عميق ونظام صرف مدروس. استشر مهندساً قبل التعاقد مع مقاول الحجر لأن الحسابات تحدد كل تفصيلة لاحقة.',
+      ],
+    },
+    {
+      h: 'الحسابات الهندسية والأساس',
+      p: [
+        'الجدار الاستنادي يتعرض لضغط التربة خلفها وضغط الماء المتراكم ووزن الحجر ذاته، وتحسب سماكة الجدار وعمق الأساس وحديد التسليح بحسب هذه القوى مجتمعة. الحجر الطبيعي ثقيل الوزن مقارنة بالمواد الصناعية الخفيفة، وهذا يجعله مستقراً لكنه يفرض أساساً أمتن وحملاً أكبر على التربة.',
+        'الأساس يجب أن يمتد تحت خط الصقيع وبعمق يكشف عن تربة متماسكة لا عن ردم مفكك، وتبنى عليه قاعدة خرسانية مسلحة تحمل الجدار وتوزع حمله. في المواقع القريبة من المباني أو الحدود راجع الأنظمة البلدية وموافقات الجوار قبل الحفر.',
+      ],
+    },
+    {
+      h: 'نظام الصرف خلف الجدار',
+      p: [
+        'الماء العدو الأول للجدار الاستنادي؛ مياه الأمطار والمياه الجوفية تتجمع خلف الجدار وتضغط عليه حتى يتشقق أو ينحرف، لذلك يجب وضع طبقة من الحصى خلف الجدار مع أنبوب تصريف مثقوب في قاعدتها. الفتحات المائية الصغيرة على وجه الجدار تنقص الضغط عند الهطول الغزير وتمنع ركود الماء خلف الحجر.',
+        'لا تغلف ظهر الجدار بمواد عازلة تمنع تهوية التربة إلا بخطة مهندس، فبعض المواقع تحتاج تصريفاً مفتوحاً وآخرون يحتاجون عزلاً يمنع تسرب الماء للمباني المجاورة. راجع مخارج الصرف دورياً وتأكد من أنها غير مسدودة بالطين أو الحصى المتراكم.',
+      ],
+    },
+    {
+      h: 'تنفيذ كسوة الحجر على الجدار',
+      p: [
+        'الحجر الطبيعي في الجدار الاستنادي قد يكون كسوة زخرفية أمام هيكل خرساني مسلح وقد يكون جزءاً من الجدار الكابولي نفسه بحسب التصميم، وفي الحالتين يجب ربط الحجر بالهيكل بمشابك أو روابط معدنية تمنع انفصاله مع الزمن. ثبت كل صف بحسب المخطط وراجع الاستواء والعمودي بالخيط والميزان.',
+        'املأ الفواصل بمونة مناسبة تحتمل الرطوبة والملح، واترك فواصل تمدد عند الفواصل الطويلة لتفادي التشقق الناتج عن تمدد وانكماش الحجر. في المدارات الممطرة عالج وجه الحجر بطبقة مانعة للامتصاص تقلل امتصاص الأمطار وتحمي الحجر من بقع الأملاح.',
+      ],
+    },
+    {
+      h: 'الفحص والصيانة',
+      p: [
+        'افحص الجدار بعد كل موسم مطر بالوقوف على مسافة ورصد أي انحراف في الخطوط أو شروخ مائية أو تورم في قاعدته، فهذه علامات مبكرة لمشكلة صرف وليست مجرد عيوب شكلية. تواصل مع مهندس إذا لاحظت أي حركة لأن التدخل المبكر أرخص وأأمن من إصلاح انهيار جزئي.',
+        'أعد حشو الفواصل الفارغة ونظف مخارج الصرف من الطين والحصى الموسمي، وتجنب زراعة جذور قوية قرب قاعدة الجدار لأنها تخترق الفواصل وتوسعها مع نموها. الصيانة البسيطة الدورية تبقي الجدار قائماً فوق التصميم بكثير من عمره التشغيلي.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل يمكن تنفيذ جدار استنادي دون مهندس؟', a: 'لا ينصح بذلك إطلاقاً خاصة للجدران التي تزيد عن ارتفاع متر واحد أو في المواقع الممطرة، فحسابات الضغط والأساس والصرف تحدد سماكة الجدار وعمقه ومواده. الاستعانة بمهندس توفر عليك فشل الجدار وإعادة بنائه لاحقاً.' },
+    { q: 'ما أفضل حجر لجدار استنادي في المدينة المنورة؟', a: 'الحجر الكثيف القوي كالجرانيت والصخور الصلبة مناسب للجدار الاستنادي لصلابته وثباته، مع مراعاة أن ثقله يتطلب أساساً أمتن. يتناسب سمك الحجر وشكله مع التصميم الهندسي للجدار ونوع التربة خلفه.' },
+    { q: 'كيف أعرف أن الجدار يحتاج إصلاحاً؟', a: 'راقب أي انحراف في خط الجدار أو شروخ مائية أو تورم في قاعدته أو تساقط مونة من الفواصل، فهي علامات على ضغط تربة أو مشكلة صرف خلف الجدار. تواصل مع مختص فور ملاحظتها لأن التدخل المبكر يمنع الانهيار الجزئي.' },
+    { q: 'ما دور الصرف خلف الجدار؟', a: 'يمنع الصرف تجمع مياه الأمطار والمياه الجوفية خلف الجدار وما تسببه من ضغط يؤدي إلى تشققه أو انحرافه، ويشمل طبقة حصى وأنبوب تصريف مثقوب وفتحات مائية على الوجه. تنظيف مخارج الصرف دورياً يحافظ على كفاءتها.' },
+    ],
+  },
+  {
+    id: 'stone-window-sills-medina',
+    primary: 'عتبات نوافذ',
+    keywords: ['عتبات نوافذ', 'حجر طبيعي للنوافذ', 'أعتاب', 'المدينة المنورة', 'تشطيب نوافذ', 'حافة نافذة'],
+    intent: 'local',
+    title: 'عتبات نوافذ حجرية في المدينة المنورة',
+    description: 'أنواع عتبات نوافذ حجرية في المدينة المنورة وطرق تركيبها: اختيار الحجر المناسب وتفاصيل العزل والميلان وحلول مشاكل التسرب.',
+    category: 'التركيب',
+    takeawayTitle: 'عتبة نافذة حجرية بلا تسرب',
+    takeaways: [
+      'اجعل العتبة تمتد خارجاً عن مستوى الجدار لتبعد الماء عن النافذة.',
+      'اميل سطح العتبة قليلاً نحو الخارج لتصريف مياه المطر.',
+      'اختر حجراً كثيفاً قليل الامتصاص يتحمل الشمس والرطوبة.',
+      'اعزل ما تحت العتبة وخلف أطرافها لمنع تسرب الماء للجدار.',
+      'افحص فواصل العتبة بعد كل موسم مطر وأعد حشوها.',
+    ],
+    ctaHeading: 'ركّب عتبات نوافذك بالحجر',
+    ctaBody: 'ننفذ عتبات النوافذ الحجرية في المدينة المنورة بقياسات دقيقة وعزل محكم يمنع التسرب. اطلب زيارة قياس اليوم.',
+    imagePrompt: 'Editorial photo of a worker installing a natural stone window sill on a building facade in Medina, polished stone slab with slight outward slope, sealant gun and spacers, level tool on the sill, no text',
+    imageScene: 'عامل يركّب عتبة نافذة من حجر طبيعي على واجهة مبنى في المدينة المنورة، لوح حجري مصقول بميلان خفيف نحو الخارج، مع مسدس مانع تسرب وفواصل وميزان تسوية على العتبة',
+    imageTopics: 'عتبات نوافذ، حجر طبيعي، تشطيب نوافذ، عزل، واجهات',
+    related: [],
+    sections: [
+    {
+      h: 'ما وظيفة عتبة النافذة الحجرية',
+      p: [
+        'العتبة الحجرية تحت النافذة تعمل كحاجز يبعد مياه المطر عن إطار النافذة والجدار تحتها، وتضيف خطاً تشطيبياً يحدد النافذة ويوحد مظهر الواجهة. في مناخ المدينة المنورة الجاف مع أمطار متقطعة، عتبة مصممة بلا ميلان أو عزل تصبح طريقاً مباشراً لتسرب الماء إلى داخل الجدار.',
+        'العتبة الجيدة تمتد خارجاً عن مستوى الجدار بمسافة كافية تسقط عندها القطرات بعيداً عن أسفل النافذة، وتكون سطحها مائلاً قليلاً نحو الخارج يمنع ركود الماء على حافتها. هذه التفاصيل الصغيرة هي الفارق بين واجهة تبقى سليمة سنوات وأخرى تظهر فيها الرطوبة والبقع خلال موسم واحد.',
+      ],
+    },
+    {
+      h: 'اختيار الحجر والسماكة',
+      p: [
+        'الجرانيت الكثيف والحجر الصلب قليل الامتصاص من أفضل الخيارات لعتبات النوافذ لتحمل الشمس والرطوبة وتغير الحرارة بين النهار والليل. تجنب الأحجار المسامية العالية في الواجهات الممطرة لأنها تمتص الماء ثم تفرغه ببطء وتظهر بقعاً داكنة على الوجه الخارجي.',
+        'سماكة العتبة تحدد متانتها ومظهرها؛ السماكة الأكبر تبدو أسمك وأفخم على الواجهات الرئيسية وتحتاج دعماً عند البروز، بينما السماكة الأقل أنسب للنوافذ الصغيرة والواجهات ذات الفتحات المتكررة. نسّق نوع الحجر مع حجر الواجهة الرئيسية أو اجعله متبايناً مقصوداً يحدد خط النافذة.',
+      ],
+    },
+    {
+      h: 'تفاصيل التركيب والعزل',
+      p: [
+        'ثبت العتبة على طبقة لاصقة مرنة تغطي كامل الوجه السفلي دون فراغات، وادعمها مؤقتاً حتى يجف اللاصق لأن الهبوط المبكر يخلق فراغاً يجمع الماء. اعزل السطح الذي ستستند عليه العتبة وخلف أطرافها بمونة أو شريط عازل يمنع تسرب الماء إلى الجدار من نقطة الالتحام.',
+        'اترك فواصل صغيرة عند طرفي العتبة حيث تلتقي بإطار النافذة والجدار، تملؤها بمونة مرنة تتحمل التمدد بدل مونة صلبة ستتشقق مع حرارة الشمس. تأكد أن العتبة مستوية أفقياً مع ميلان خفيف نحو الخارج يختبر بسكب قطرات ماء ومراقبة انسيابها.',
+      ],
+    },
+    {
+      h: 'معالجة مشاكل التسرب والبقع',
+      p: [
+        'إذا ظهرت رطوبة تحت النافذة بعد تركيب العتبة فابحث أولاً عن فاصل فارغ أو شرخ في المونة أو هبوط في مستوى العتبة يجمع الماء، فعادة يكون السبب التنفيذي لا الحجر ذاته. أعد حشو الفواصل وفحص الميلان وقارن منسوب العتبة مع مستوى الجدار المجاور لتحديد أي جزء منخفض.',
+        'البقع البيضاء على وجه العتبة أو أسفل النافذة علامة على أملاح ذائبة خرجت مع تبخر الماء، وهنا يجب معالجة مصدر الرطوبة أولاً ثم تنظيف الأملاح الجافة بفرشاة ناعمة. الاعتماد على مسح البقعة دون إصلاح المصدر يعيد ظهورها مع كل مطر.',
+      ],
+    },
+    {
+      h: 'تنسيق العتبات مع الواجهة',
+      p: [
+        'اجعل عتبات الطابق الواحد على خط أفقي واحد متصل، فاختلاف الارتفاع بين عتبة وأخرى يفسد انتظام الواجهة ويكشف أخطاء التنفيذ. العتبة المستمرة على كامل عرض الواجهة تمنح المبنى خطاً أفقياً قوياً وتوحد النوافذ المتكررة في الفلل والعمائر السكنية.',
+        'استخدم العتبة كعنصر لتحديد تقسيمات الواجهة؛ عتبة بارزة على النوافذ الرئيسية وأخرى بسيطة على النوافذ الخدمية يرتب الفتحات بصرياً دون كلفة إضافية كبيرة. راجع تنسيق العتبة مع لون إطار النافذة وحجر الواجهة قبل الاعتماد النهائي لضمان انسجام المشهد من بعيد ومن قرب.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل تحتاج عتبة النافذة ميلاً نحو الخارج؟', a: 'نعم، الميلان الخفيف نحو الخارج يمنع ركود مياه المطر على العتبة ويبعدها عن أسفل النافذة، مع امتداد العتبة خارج مستوى الجدار بمسافة تسقط عندها القطرات بعيداً. اختبر الميلان بسكب قطرات ماء ومراقبة انسيابها نحو الحافة الخارجية.' },
+    { q: 'ما الحجر الأنسب لعتبات النوافذ الخارجية؟', a: 'الجرانيت الكثيف والحجر الصلب قليل الامتصاص خياران ممتازان لتحمل الشمس والرطوبة وتغير الحرارة، بينما الأحجار المسامية تمتص الماء وتظهر بقعاً على الوجه الخارجي. اختر حجراً مدعوماً بمعامل امتصاص منخفض ووافق بينه وبين حجر الواجهة.' },
+    { q: 'كيف أصلح تسرب الماء من أسفل النافذة؟', a: 'ابدأ بفحص فواصل العتبة عند الطرفين وعند الالتحام بالجدار وإعادة حشو أي جزء فارغ بمونة مرنة، وتحقق من ميلان العتبة ومنسوبها مقارنة بالجدار المجاور. إذا استمر التسرب فابحث عن مصدر رطوبة خلف الجدار أو من عزلة النافذة نفسها واستعن بمختص.' },
+    { q: 'هل يمكن استبدال عتبة قديمة دون كسر التشطيب حولها؟', a: 'في أغلب الحالات نعم إذا كانت العتبة مثبتة باللاصق ولم تكن جزءاً من هيكل الجدار، ويمكن فكها بأدوات دقيقة واستبدالها مع إعادة العزل والفواصل. الأفضل تنفيذ ذلك بيد فني حجر يتجنب كسر البلاط أو الحجر المجاور للنافذة.' },
+    ],
+  },
+
+  {
+    id: 'stone-garden-benches-medina',
+    primary: 'مقاعد حجرية',
+    keywords: ['مقاعد حجرية', 'أثاث حديقة حجر', 'حجر طبيعي للحدائق', 'صيانة المقاعد', 'ديكور خارجي', 'فناء حجري', 'عزل الحجر', 'مقاعد خارجية'],
+    intent: 'informational',
+    title: 'مقاعد حجرية للحديقة في المدينة المنورة: صيانة وتصميم',
+    description: 'دليل عملي لاختيار مقاعد حجرية للحديقة في المدينة المنورة، من نوع الحجر والتثبيت إلى العناية اليومية ضد الحرارة والغبار والأمطار.',
+    category: 'الصيانة',
+    takeawayTitle: 'الخلاصة السريعة',
+    takeaways: [
+      'اختر حجراً كثيفاً منخفض الامتصاص مثل الجرانيت أو البازلت حتى لا يتشرب مياه الأمطار ولا يتأثر بحرارة صيف المدينة المنورة.',
+      'ثبّت المقعد على قاعدة مدكوسة جيداً مع ميول بسيطة تصرف مياه المطر ولا تتركها تتجمع تحت الحجر.',
+      'نظّف المقعد بالماء والصابون المحايد مرة كل أسبوعين وتجنب الأحماض والكلور التي تخدش لمعة الحجر الطبيعي.',
+      'أعد وضع عازل الحجر كل فترة لمنع تغلغل بقع الشاي والقهوة وزيوت الطهي في مسام الحجر.',
+      'افحص قاعدة المقعد بعد موجات الحر الشديد للتأكد من عدم ظهور فراغات أو اهتزاز تحت الحجر.',
+    ],
+    ctaHeading: 'جهّز فناءك بحجر يدوم',
+    ctaBody: 'فريقنا في المدينة المنورة يساعدك على اختيار الحجر المناسب لمقعد حديقتك وتنفيذه وتركيبه بعزل صحيح يحميه من الحرارة والرطوبة ومياه الأمطار.',
+    imagePrompt: 'Editorial photograph of a craftsman setting a polished granite garden bench into a compacted mortar bed in a Medina courtyard, warm late afternoon light, fine dust in the air, tools and stone slabs arranged around, no text, no watermark',
+    imageScene: 'عامل يركّب مقعداً حجرياً في فناء منزل بالمدينة المنورة مع ألواح حجر وأدوات حوله',
+    imageTopics: 'مقعد حجري، فناء، تركيب، جرانيت، حديقة',
+    related: [],
+    sections: [
+    {
+      h: 'لماذا تناسب المقاعد الحجرية أجواء المدينة المنورة',
+      p: [
+        'تجلس العائلة في فناء المنزل معظم المساء، ولهذا تحتاج مقاعد الحديقة إلى مادة لا تتعب من شمس الظهيرة ولا تشتعل حرارتها تحت الأجسام. الحجر الطبيعي الكثيف يمتص الحرارة ببطء ويعيد إطلاقها ببطء أيضاً، فيبقى سطحه مقبولاً للجلوس بعد ساعات من الشمس مقارنة بالبدائل المعدنية أو البلاستيكية التي تتقشر أو تتغير ألوانها مع تكرار موجات الحر.',
+        'كما يتوافق الحجر مع هوية المدينة المنورة المعمارية التي تعتمد على الخامات الطبيعية في المداخل والأفنية، فيمنح الفناء إحساساً بالاستمرارية مع المحيط. ومتانة الحجر تعني أن المقعد يتحمل الاستخدام اليومي والانتقال من مكان إلى آخر دون أن يتكسر، وهو ما يخدم العائلات التي تغير ترتيب الفناء بين الموسم والموسم.',
+      ],
+    },
+    {
+      h: 'كيف تختار حجر المقعد',
+      p: [
+        'ركّز على الكثافة وقلة الامتصاص قبل اللون والشكل، فالحجر المسامي يمتص مياه الأمطار والأتربة وتظهر عليه بقعاً يصعب إخراجها مع الزمن. الجرانيت والبازلت خياران ممتازان لجو المدينة المنورة لصلابتهما وثبات لونهما، بينما الأحجار الرملية تحتاج عازلاً جيداً وصيانة أدق للحفاظ على مظهرها.',
+        'انتبه إلى درجة صلابة الحجر بمقياس (Mohs) لأنها تحدد مقاومة السطح للخدش الناتج عن الاحتكاك اليومي والأثقال. واسأل المورّد عن نسبة امتصاص الحجر للماء، فكلما انخفضت كانت الصيانة أسهل والمقعد أطول عمراً في الفناء.',
+      ],
+    },
+    {
+      h: 'تجهيز القاعدة وتثبيت المقعد',
+      p: [
+        'ابدأ بتحديد مكان المقعد على تربة مستوية بعيدة عن تجمع مياه الأمطار ومراوح التكييف التي ترش الماء على الأرض. احفر طبقة سطحية بعمق مناسب ثم ضع طبقة من الرمل أو الخرسانة المدكوسة بحيث تمنح الحجر سطحاً ثابتاً لا يهتز عند الجلوس.',
+        'ثبّت الحجر على سرير من الملاط المخلوط بنسبة صحيحة، واضبط مستوى المقعد بميزان ماء قبل أن يجف الملاط حتى لا يتشكل حرف مرتفع يجمع الماء. واترك مسافات صغيرة بين القطع تملأ بمونة مقاومة للرطوبة حتى لا تتسع مع تمدد الحجر في الصيف.',
+      ],
+    },
+    {
+      h: 'العناية اليومية بالمقعد الحجري',
+      p: [
+        'نظّف المقعد مرة كل أسبوعين بماء دافئ وصابون محايد وفرشاة ناعمة، ثم اشطف وجفف السطح حتى لا تترك مياه التنظيف أثراً من الأملاح. وتجنب استخدام الأحماض أو الكلور لأن كليهما يخدش الطبقة اللامعة للحجر المصقول ويفتح مسامه لدخول البقع.',
+        'امسح بقع الشاي والقهوة والزيت فور حدوثها بمنشفة ورقية ثم نظف المنطقة بالماء، فالتأخير يسمح للصبغة بالتغلغل في مسام الحجر. وبعد تنظيف عميق أو تغيير فصل الصيف افحص لمعة السطح لمعرفة ما إذا كان يحتاج إعادة عزل.',
+      ],
+    },
+    {
+      h: 'إصلاح الشروخ وتجديد المظهر',
+      p: [
+        'راقب سطح المقعد بحثاً عن شروخ سطحية رفيعة تظهر عادة عند الزوايا أو عند حافة الجلوس. الشرخ السطحي يمكن معالجته بمادة إصلاح مطابقة للون الحجر تفرك في الشق وتصقل بعد الجفاف، فيختفي الأثر دون الحاجة إلى استبدال القطعة.',
+        'أما إذا كان الشرخ عميقاً أو رافقته حركة في الحجر، فالأفضل استشارة مختص لفك القطعة وإعادة تثبيتها على قاعدة جديدة. كما يمكن صقل السطح بالكامل كل بضع سنوات لإزالة الخدوش وإعادة العزل فتبدو المقاعد كأنها جديدة رغم مرور الزمن.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل يسخن المقعد الحجري في صيف المدينة المنورة؟', a: 'الحجر الكثيف يمتص الحرارة ببطء ويطلقها ببطء، فيكون سطحه أقل سخونة من المعدن في ذروة النهار، لكن الأفضل وضع قاعدة قماشية أو الجلوس في ساعات الصباح والمساء. أما الأحجار الفاتحة فتعكس جزءاً من أشعة الشمس وتبقى أبرد نسبياً من الأحجار الداكنة.' },
+    { q: 'ما أفضل حجر للمقاعد الخارجية؟', a: 'الجرانيت والبازلت من أكثر الخيارات ملاءمة لحدائق المدينة المنورة لصلابتهما وقلة امتصاصهما للماء وثبات ألوانهما أمام الشمس. أما الحجر الرملي فيبدو جميلاً لكنه يحتاج عازلاً جيداً وصيانة أكبر لكي لا يمتص البقع ولا يتفتت مع تكرار الرطوبة والحرارة.' },
+    { q: 'كيف أنظف بقع الشاي والقهوة من المقعد؟', a: 'امسح البقعة فور انسكابها بمنشفة جافة ثم نظف المنطقة بماء دافئ وصابون محايد وفرشاة ناعمة، وتجنب الفرك بمواد كاشطة حتى لا تخدش اللمعة. إذا بقيت البقعة بعد التنظيف يمكن استخدام معجون مخصص للحجر الطبيعي وتركه حتى يجف ثم غسله بالماء.' },
+    { q: 'هل أحتاج مختصاً لتركيب المقعد الحجري؟', a: 'المقعد البسيط الذي يوضع على تربة مستوية يمكن تركيبه ذاتياً باستخدام ميزان الماء ومونة مناسبة، لكن المقاعد الكبيرة والثقيلة تحتاج شخصاً خبيراً لضبط القاعدة وتوزيع الوزن. والاستعانة بمختص في المدينة المنورة تضمن أيضاً اختيار حجر محلي يتحمل أجواء المنطقة.' },
+    ],
+  },
+  {
+    id: 'stone-cladding-columns-medina',
+    primary: 'كسوة أعمدة',
+    keywords: ['كسوة أعمدة', 'حجر طبيعي للأعمدة', 'تكسية أعمدة', 'أعمدة حجرية', 'ديكور واجهات', 'تركيب حجر', 'أعمدة المداخل', 'تشطيب أعمدة'],
+    intent: 'commercial',
+    title: 'كسوة أعمدة حجرية في المدينة المنورة: أنواع وتركيب',
+    description: 'تعرف على أنواع كسوة أعمدة حجرية للمداخل والواجهات في المدينة المنورة، وطريقة التركيب والتثبيت الميكانيكي الذي يمنع التقشر.',
+    category: 'التركيب',
+    takeawayTitle: 'قبل أن تبدأ',
+    takeaways: [
+      'اختر حجراً خفيفاً نسبياً مثل الحجر الرملي أو البازلت النحيف حتى لا تثقل الكسوة على العمود القائم.',
+      'ثبّت الألواح بمزيج من اللصق والمسامير الميكانيكية، فالاعتماد على اللصق وحده لا يصمد أمام حرارة المدينة المنورة على المدى الطويل.',
+      'اضبط المناسيب والزوايا قبل جفاف المونة واستخدم ميزان ماء في كل اتجاه.',
+      'املأ الوصلات بمونة مقاومة للرطوبة وأعد فحصها كل موسم للتأكد من عدم اتساعها.',
+      'اطلب عيّنات من الحجر قبل تثبيت الشغل النهائي لمعرفة اللون الحقيقي تحت شمس المنطقة.',
+    ],
+    ctaHeading: 'واجهة مدخليك تستحق حجراً يصمد',
+    ctaBody: 'نفّذنا في المدينة المنورة عشرات الأعمدة الحجرية للمداخل والأفنية، ونوفر لك عيّنات واستشارة لاختيار الحجر والسماكة ونمط التثبيت الأنسب لعمودك.',
+    imagePrompt: 'Editorial photo of a mason fitting a split-face stone cladding panel onto a square column at a home entrance in Medina, spirit level and trowel in hand, afternoon sun casting long shadows on the facade, no text, no watermark',
+    imageScene: 'مبلّط يركّب ألواح حجر كسوة على عمود مدخل منزل بالمدينة المنورة مستخدماً ميزان ماء',
+    imageTopics: 'كسوة أعمدة، مدخل، تركيب، حجر طبيعي، واجهة',
+    related: [],
+    sections: [
+    {
+      h: 'متى تحتاج أعمدتك إلى كسوة حجرية',
+      p: [
+        'تعمد كثير من المنازل في المدينة المنورة إلى إظهار الأعمدة الخرسانية بلونها الرمادي المكشوف، فيبدو المدخل بارداً ومهملاً مهما كانت بقية الواجهة منفذة بدقة. الكسوة الحجرية تغطي هذا الوجه القاسي وتمنحه عمقاً وملمساً يجانس حجر الواجهة والأرضيات، فتصبح الأعمدة جزءاً من التصميم بدل أن تكون عنصراً ظاهراً بالصدفة.',
+        'وتبرز الحاجة أكثر في الأعمدة التي تتعرض للرطوبة قرب المسطحات أو مياه الري، فالكسوة تحمي الخرسانة من التساقط والتفتت وتطيل عمر العمود. كما أنها فرصة لإعادة الشكل من عمود مربع إلى شكل مستدير أو توسيع قاعدة العمود لتبدو أكثر رسوخاً أمام المدخل.',
+      ],
+    },
+    {
+      h: 'أنواع الحجر المناسبة للأعمدة',
+      p: [
+        'يتفوق الحجر الرملي على الأعمدة لأنه خفيف نسبياً وسهل القص والتشكيل حول الزوايا، ويأتي بألوان دافئة تناسب واجهات المدينة المنورة. والبازلت الداكن يعطي مظهراً معاصراً قوياً للمداخل ويقاوم الخدش والاحتكاك حول الزوايا المكشوفة.',
+        'الجرانيت يفضل للأعمدة الخارجية المعرضة لأشعة الشمس المباشرة ومياه الأمطار لأنه أقل امتصاصاً للماء وأثبت لوناً. ومهما كان الاختيار، تأكد من أن سماكة اللوح مناسبة لحمل العمود دون أن تزيد وزنه بشكل يضر بالأساس.',
+      ],
+    },
+    {
+      h: 'خطوات تركيب الكسوة من التحضير إلى التثبيت',
+      p: [
+        'ابدأ بتنظيف سطح العمود من الغبار والزيوت والطبقات الضعيفة، ثم رطب السطح قبل وضع المونة حتى لا يجف الملاط بسرعة من حرارة الجو. حدد خطوط البدء على ارتفاع ثابت من الأرض بحيث تبدأ أول ألواح الكسوة بمستوى واحد في كل الأعمدة المتجاورة.',
+        'ضع المونة على ظهر اللوح بسمك ثابت ثم اضغطه على العمود مع تحريك خفيف ليخرج الهواء المحبوس. ثبّت كل لوح بمسامير أو حوامل ميكانيكية مخفية في الوصلات، وتأكد من محاذاة الألواح بميزان ماء قبل أن تجف المونة تماماً.',
+      ],
+    },
+    {
+      h: 'التثبيت الميكانيكي أم اللصق فقط',
+      p: [
+        'الاعتماد على اللصق وحده قد يكفي للأعمدة الداخلية المحمية، لكنه لا يصمد طويلاً في أعمدة المداخل الخارجية في المدينة المنورة حيث تتناوب الشمس والرطوبة والرياح المحملة بالغبار. التثبيت الميكانيكي يوزع وزن الحجر على هيكل العمود بدل أن يعلقه على طبقة ملاط قد تضعف مع الزمن.',
+        'استخدم مزيجاً من الاثنين: مونة لاصقة تملأ الخلف والحوامل تثبت الأطراف، مع ترك فواصل تمدد صغيرة بين الألواح تحتمل حركة الحرارة دون أن تتشقق الكسوة. واختر حوامل من معدن لا يصدأ حتى لا تظهر بقع صدأ على وجه الحجر بعد سنوات.',
+      ],
+    },
+    {
+      h: 'صيانة وصلات الكسوة وتجديدها',
+      p: [
+        'افحص الوصلات بين الألواح مرة كل موسم، فالشقوق الصغيرة في المونة تسمح بدخول مياه الأمطار والغبار فتضعف التثبيت من الداخل قبل أن ترى أثراً على الوجه. عند وجود اتساع في الوصلة أعد ملؤها بمونة مقاومة للرطوبة بعد تنظيف الشق جيداً من المونة المفكوكة.',
+        'ونظّف وجه الحجر بماء وصابون محايد من فترة لأخرى، وتجنب الرش بالضغط العالي القريب من الوصلات لأنه قد يدفع الماء خلف الألواح. أما إذا لاحظت حركة في لوح أو فراغاً خلفه، فافك اللوح وأعد تثبيته بقاعدة جديدة بدل أن تتركه ينفصل ويتكسر.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل تثقل الكسوة الحجرية العمود؟', a: 'الكسوة الرقيقة بحدود سماكة قليلة لا تضيف وزناً يذكر إذا كان العمود مصمماً للأحمال العادية، لكن الأفضل استشارة المهندس قبل تغليف أعمدة قديمة أو رقيقة. ويمكن استخدام حوامل ميكانيكية تنقل الوزن إلى هيكل العمود بدل الاعتماد على اللصق وحده لتقليل الضغط على المونة.' },
+    { q: 'ما الفرق بين الحجر الرملي والبازلت للأعمدة؟', a: 'الحجر الرملي أخف وأسهل قصاً وتشكيلاً حول الزوايا وألوانه دافئة تناسب المداخل التقليدية، بينما البازلت أصلب وأثبت ضد الخدش ولونه الداكن يعطي مظهراً معاصراً. وكلاهما يحتاج عازلاً وطبقة تثبيت جيدة ليصمد في شمس المدينة المنورة ومياه الأمطار المتكررة.' },
+    { q: 'كم تدوم كسوة الأعمدة الحجرية؟', a: 'مع التثبيت الميكانيكي الصحيح والصيانة الدورية للوصلات تدوم الكسوة سنين طويلة دون أن تتقشر أو تتحرك، لأن الحجر الطبيعي نفسه لا يفسد بالزمن. والمؤثر الحقيقي في العمر هو جودة المونة والحوامل وانتظام فحص الوصلات بعد كل موسم ماطر أو موجة حر.' },
+    { q: 'هل يمكن تركيب الكسوة على عمود قديم متضرر؟', a: 'نعم في حالات كثيرة، شريطة أن تكون الخرسانة ما زالت متماسكة وأن تتم معالجة أي طبقة ضعيفة أو متفتتة قبل التثبيت بتنظيف السطح وتمهيده بمونة ربط. أما إذا كان العمود يعاني هبوطاً أو شروخاً هيكلية فالأولى معالجة العمود نفسه ثم تغليفه حتى لا تنتقل الشروخ إلى الكسوة.' },
+    ],
+  },
+  {
+    id: 'stone-driveway-paving-medina',
+    primary: 'تبليط ممرات',
+    keywords: ['تبليط ممرات', 'حجر طبيعي للممرات', 'أرضيات خارجية', 'رصف حجري', 'مداخل المنازل', 'تصريف مياه', 'ممرات حدائق', 'رصف بازلت'],
+    intent: 'commercial',
+    title: 'تبليط ممرات بالحجر الطبيعي في المدينة المنورة',
+    description: 'دليل عملي لتبليط ممرات المنازل والحدائق في المدينة المنورة بالحجر الطبيعي، من اختيار النوع ومقاومة الانزلاق إلى تجهيز الأساس.',
+    category: 'التركيب',
+    takeawayTitle: 'أساس متين قبل الحجر',
+    takeaways: [
+      'افحص تربة الممر وادككها جيداً قبل وضع الحجر فالطبقة الضعيفة تهبط وتكسر الممر مع أول موجة مطر.',
+      'اختر حجراً غير زلق للممرات المكشوفة مثل البازلت أو الحجر الخشن الذي يمسك الإطارات والأقدام عند بلل الأرض.',
+      'اميل سطح الممر قليلاً نحو جانب التصريف حتى لا تتجمع مياه الأمطار في برك على الحجر.',
+      'املأ الفراغات بين القطع بمونة أو رمل مقاوم للانجراف قبل أن تتسع وتصبح مكاناً للأعشاب والحشرات.',
+      'راجع التكلفة المحتملة بناءً على مساحة الممر وسماكة الحجر وكمية الأعمال الترابية قبل التعاقد.',
+    ],
+    ctaHeading: 'ممر منزلك يبدأ من الأرض',
+    ctaBody: 'نخطط وننفذ ممرات الحجر الطبيعي في المدينة المنورة من الأعمال الترابية والصرف حتى آخر قطعة، مع اختيار حجر محلي يتحمل حرارة الصيف ومياه الشتاء.',
+    imagePrompt: 'Editorial photograph of workers laying natural basalt paving stones along a house walkway in Medina, compacted gravel base visible at the edge, rubber mallet and string lines on site, golden hour light, no text, no watermark',
+    imageScene: 'عمال يرصّون بلاطات بازلت على ممر منزل بالمدينة المنورة فوق طبقة حصى مدكوسة',
+    imageTopics: 'ممر حجري، رصف، بازلت، تصريف، منزل',
+    related: [],
+    sections: [
+    {
+      h: 'لماذا يستحق الممر الحجري الاستثمار',
+      p: [
+        'المدخل هو أول ما يراه الزائر، والممر المتهالك أو المليء بالبرك يترك انطباعاً سلبياً قبل أن يدخل أحد إلى المنزل. الحجر الطبيعي يعطي الممر مظهراً راسخاً يتحمل مشي السيارات والعربات والأقدام اليومية، ويبقى صالحاً لسنين طويلة دون أن يتقشر أو يبهت لونه تحت شمس المدينة المنورة.',
+        'وقيمة الممر الحجري لا تتوقف عند المظهر، فالأرضية المستوية السليمة تقلل احتمال التعثر في الليل عند المدخل وتجعل دفع عربة الأطفال أو عربة البقالة سلساً طوال العام. ومع الخامات المحلية المتوفرة في المدينة المنورة تبقى تكلفة الأرضيات الخارجية معقولة مقارنة ببدائل تُستورد من مسافات بعيدة.',
+      ],
+    },
+    {
+      h: 'أنواع الحجر المناسبة للممرات',
+      p: [
+        'البازلت من أقوى الخيارات للممرات المكشوفة لأنه صلب ومقاوم للخدش ولونه الداكن يخفي أثر الإطارات والأتربة، وهو ما يناسب ممرات السيارات في المدينة المنورة. والحجر الطبيعي الخشن أو المدقوق يعطي سطحاً يمسك الأقدام ويقلل الانزلاق عند رطوبة الأرض بمياه الأمطار أو الغسيل.',
+        'تجنب الأحجار شديدة اللمعان المصقولة في الممرات المكشوفة لأنها تصبح زلقة جداً عند بللها، خاصة في الأماكن التي يكثر فيها غسل السيارات أو سقوط مياه الري. واسأل المورّد عن مقاومة الحجر للاحتكاك ودرجة امتصاصه للماء قبل شراء الكمية كاملة.',
+      ],
+    },
+    {
+      h: 'تجهيز الأساس والصرف قبل الرصف',
+      p: [
+        'ابدأ بإزالة التربة الطينية الضعيفة إلى عمق مناسب ثم ضع طبقة من الحصى أو الرمل المدكوس بضغط متكرر حتى لا تهبط الأرض تحت وزن السيارات لاحقاً. الطبقة الأساسية الصحيحة هي نصف عمر الممر، وإهمالها يؤدي إلى هبوط مفاجئ وتكسر الحجر في بقع متفرقة.',
+        'اميل السطح بنسبة خفيفة نحو اتجاه التصريف أو نحو مصارف مياه الأمطار، فالممر المستوي تماماً يجمع الماء في برك تزيد الانزلاق وتغسل المونة من الوصلات. وحدد أماكن العشب أو الحدائق المجاورة حتى لا يدفع الممر الماء نحو جذور النباتات أو أساسات الجدران.',
+      ],
+    },
+    {
+      h: 'أنماط الرصف وتعبئة الوصلات',
+      p: [
+        'اختر نمط الرصف حسب عرض الممر واتجاه الحركة، فالممر الضيق يكفيه صف واحد من القطع الكبيرة لتبدو الأرضية مرتبة، والممر العريض يسمح بتشكيلات متداخلة تضبط إيقاع المسير نحو الباب. والقطع المتساوية الحجم تختصر وقت القص والهدر مقارنة بالقطع العشوائية.',
+        'املأ الفراغات بين القطع بمونة مرنة أو رمل مقاوم للغسل، فالفراغ المفتوح يتسع مع تكرار الغسل والانجراف ويصبح بيئة للأعشاب والحشرات. وراجع الوصلات بعد أول موجة مطر لإعادة تعبئة أي نقطة ضعف قبل أن تتسع.',
+      ],
+    },
+    {
+      h: 'الصيانة وإطالة عمر الممر',
+      p: [
+        'اغسل الممر بماء ضغط متوسط من فترة لأخرى لإزالة الغبار والأتربة المتراكمة بين الوصلات، وتجنب الرش القوي القريب من حواف الحجر حتى لا يقتلع المونة. وعند ملاحظة حركة في قطعة حجر ارفعها فوراً وأعد تثبيتها بمونة جديدة حتى لا تتسع الفجوة وتكسر القطع المجاورة.',
+        'أعد فحص الميول وقنوات الصرف قبل موسم الأمطار، فتراكم التربة والغبار مع الوقت يغلق مجاري الماء فيعود الممر لجمع البرك من جديد. ومع الصيانة البسيطة الدورية يبقى الممر الحجري أنيقاً وآمناً لسنوات طويلة في مداخل منازل المدينة المنورة.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'أي حجر لا ينزلق في ممر السيارة؟', a: 'اختر حجراً ذا سطح خشن أو مدقوق مثل البازلت الطبيعي الذي يمسك الإطارات والأقدام عند بلل الأرض، وتجنب الحجر المصقول عالي اللمعان في الممرات المكشوفة. والنقطة المهمة هي نمط السطح لا اسم الحجر، فحتى الأحجار اللامعة توجد منها مقاسات خشنة مناسبة للأرضيات الخارجية.' },
+    { q: 'كيف أتأكد أن الأساس لن يهبط؟', a: 'السر في العمق والدمك: أزل التربة الضعيفة وضع طبقات رمل أو حصى وادكك كل طبقة على حدة حتى يصبح السطح صلباً لا يترك أثراً عند المشي عليه. بعد الدمك املأ أي هبوط يظهر بالرمل قبل وضع الحجر، وافحص السطح بميزان ماء في كل اتجاه قبل الرصف.' },
+    { q: 'كم مرة أحتاج صيانة الممر الحجري؟', a: 'الممر الحجري لا يحتاج إلا غسلاً دورياً وإعادة تعبئة الوصلات بعد موجات المطر أو الغسل الشديد، وهو أقل صيانة من الأرضيات الصناعية التي تتقشر أو تبهت. والأفضل مراجعة الوصلات مرة كل موسم والتأكد من سلامة الميول وقنوات الصرف قبل الشتاء.' },
+    { q: 'هل يتحمل الحجر الطبيعي ثقل السيارة؟', a: 'نعم بشرط أن يكون الحجر بسمك مناسب للأحمال وأن تكون القاعدة مدكوسة جيداً؛ فالحجر الرقيق فوق أرض ضعيفة ينكسر حتى لو كان نوعه قوياً. ولهذا نهتم في المدينة المنورة باختيار سماكة الحجر حسب استخدام الممر، هل هو للمشاة فقط أم تدخله السيارات يومياً.' },
+    ],
+  },
+  {
+    id: 'stone-countertop-chip-repair-medina',
+    primary: 'إصلاح شرخ الحجر',
+    keywords: ['إصلاح شرخ حجر', 'ترميم سطح حجر', 'أسطح حجرية', 'شرخ رخام', 'إصلاح أسطح', 'حجر مطبخ', 'ملء شقوق', 'ترميم رخام'],
+    intent: 'informational',
+    title: 'إصلاح شرخ الحجر في أسطح المدينة المنورة: الأسباب والحل',
+    description: 'دليل لإصلاح شرخ الحجر في أسطح منزلك بالمدينة المنورة، من تشخيص السبب إلى مواد الترميم وخطوات الإصلاح ومتى تستدعي مختصاً.',
+    category: 'الصيانة',
+    takeawayTitle: 'شخّص قبل أن ترمم',
+    takeaways: [
+      'افحص الشرخ بأصابعك وضوء جانبي لتعرف هل هو سطحي في الطبقة اللامعة أم يخترق جسم الحجر.',
+      'ابحث عن السبب قبل الإصلاح فإن كان هبوطاً في القاعدة أو صدمة متكررة عاد الشرخ بعد الترميم.',
+      'استخدم مادة إصلاح مطابقة للون الحجر وافركها في الشق بملعقة مرنة ثم صقل السطح بعد الجفاف.',
+      'رمم الشرخ في مرحلة الصغر قبل أن يتسع ويمتص السوائل والبقع.',
+      'استدع مختصاً عندما يمتد الشرخ عبر السطح أو ترافقه حركة أو فراغ تحت الحجر.',
+    ],
+    ctaHeading: 'سطح مطبخك يستحق إصلاحاً صامتاً',
+    ctaBody: 'نرمم شروخ الأسطح الحجرية في المدينة المنورة بمواد مطابقة للون الحجر ونعيد صقل السطح حتى لا يظهر أثر الإصلاح، مع تشخيص مجاني لمعرفة السبب قبل البدء.',
+    imagePrompt: 'Editorial photo of a technician repairing a hairline crack on a polished granite countertop in a Medina home kitchen, color-matched epoxy and a small flexible spatula on the surface, soft window light, no text, no watermark',
+    imageScene: 'فني يرمم شرخاً رفيعاً في سطح جرانيت بمطبخ منزل بالمدينة المنورة بأدوات صغيرة',
+    imageTopics: 'إصلاح شرخ، سطح جرانيت، ترميم، مطبخ، ملاط',
+    related: [],
+    sections: [
+    {
+      h: 'كيف تفرق بين شرخ سطحي وشرخ عميق',
+      p: [
+        'مرر طرف إصبعك على الشرخ مع إضاءة جانبية قوية حتى يظهر عمق الخط وظله؛ إذا أحسست بحافة خشنة أو فراغ عند الحافة فالمشكلة تجاوزت الطبقة اللامعة إلى جسم الحجر. والشرخ السطحي الذي يقتصر على الطبقة العلوية يبدو رفيعاً لا ظل له تحت الضوء ويختفي عند بللِه بالماء.',
+        'اضغط برفق على جانبي الشرخ بجسم صلب؛ فإن سمعت صوت فراغ أو شعرت بحركة فالحجر انفصل عن قاعدته عند تلك النقطة والإصلاح اللاصق وحده لن يكفيه. وعند الشك الأفضل استشارة مختص في المدينة المنورة قبل أن تتوسع المشكلة بسبب ثقل الأثقال أو تكرار الاستخدام.',
+      ],
+    },
+    {
+      h: 'الأسباب الشائعة للشروخ في الأسطح',
+      p: [
+        'من أشهر الأسباب هبوط القاعدة أو ضعفها تحت ثقل الحجر، فيظهر الشرخ عند نقطة الضغط الأقصى كركن المغسلة أو طرف السطح المعلق. والسبب الثاني هو الصدمة الحرارية عند وضع قدر ساخن أو صينية فرن ملامسة للحجر فجأة، فيتمدد السطح بسرعة وينشق في أضعف نقطة.',
+        'ويضاف إلى ذلك العيوب الطبيعية الخفية داخل الحجر التي تنشط مع الزمن فتحمل الشرخ، أو التركيب القديم الذي لم يترك مسافات تمدد كافية بين الألواح. وتشخيص السبب قبل الترميم هو ما يمنع عودة الشرخ بعد فترة قصيرة من الإصلاح.',
+      ],
+    },
+    {
+      h: 'مواد وطرق الترميم الصحيحة',
+      p: [
+        'للشروخ السطحية الرفيعة تستخدم مادة إصلاح لاصقة مطابقة للون الحجر تفرك داخل الشق بملعقة مرنة حتى تتدفق في الفراغ ويخرج الفائض. اترك المادة تجف بالمدة الموصى بها ثم صقل السطح بمادة صقل ناعمة حتى يستوي لمعان المنطقة مع محيطها.',
+        'للشروخ العميقة التي تصل إلى جسم الحجر يلزم ملء الشق بمونة إصلاح مرنة ثم معالجة السطح بمواد تقوية، وفي حالات الشرخ المفتوح يفضل استبدال الجزء المتضرر أو لصق الشق من الوجهين. واختر دائماً مواد مخصصة للحجر الطبيعي لأن المواد الصناعية العامة تبهت وتنكمش وتظهر كلون غريب.',
+      ],
+    },
+    {
+      h: 'خطوات إصلاح شرخ في سطح حجري',
+      p: [
+        'نظّف الشرخ وجوفه بفرشاة رفيعة أو بمكنسة كهربائية صغيرة لإزالة الغبار وأي فتات من المونة القديمة، ثم اغسل المنطقة بماء وصابون محايد واتركها تجف تماماً. واحمِ المحيط بالشرخ بشريط لاصق ورقي حتى لا توسّخ مادة الإصلاح السطح السليم.',
+        'افتح الشرخ قليلاً بأداة حادة عند الحواف لتتشرب المادة جيداً، ثم املأ الشق بمادة الإصلاح وافركها بضغط حتى تخرج فقاعات الهواء. بعد الجفاف صقل المنطقة تدريجياً بمادة صقل مبللة وافحص النتيجة بإضاءة جانبية، وكرر الصقل إن لزم حتى يستوي اللمعان.',
+      ],
+    },
+    {
+      h: 'متى تحتاج مختصاً في الترميم',
+      p: [
+        'إذا امتد الشرخ عبر عرض السطح أو تفرع إلى خطوط صغيرة فالمشكلة هيكلية غالباً وتحتاج فحص قاعدة السطح وإعادة تثبيت الحجر قبل أي ترميم تجميلي. وعند ملاحظة فراغ تحت الحجر أو صوت فراغ عند الضغط فالأفضل فك الجزء وإعادة لصقه بقاعدة جديدة بمونة مقاومة للرطوبة.',
+        'وأيضاً عندما يرتبط الشرخ ببقعة ماء أو رطوبة قادمة من تسريب الخزان أو التوصيلات، فإصلاح الشرخ دون معالجة المصدر يعيد المشكلة خلال أسابيع. والاستعانة بمختص في المدينة المنورة في هذه الحالات أوفر من تكرار الترميم كل فترة بمال وجهد أكبر.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل يمكن إصلاح الشرخ بنفسي؟', a: 'الشرخ السطحي الرفيع الذي لا يصاحبه فراغ يمكن إصلاحه بمجموعات إصلاح مخصصة للحجر الطبيعي وباتباع خطوات التنظيف والملء والصقل. أما الشرخ العميق أو المصحوب بفراغ أو هبوط فيحتاج أدوات وخبرة فك وإعادة تثبيت لا تتوفر في المجموعات الجاهزة.' },
+    { q: 'ما الذي يجعل الشرخ يعود بعد الإصلاح؟', a: 'أكثر سبب لعودة الشرخ هو معالجة المظهر دون السبب، فهبوط القاعدة أو الصدمة المتكررة أو الرطوبة الكامنة تعيد الضغط على نفس النقطة. ولهذا نبدأ في المدينة المنورة بفحص السبب وإعادة تثبيت السطح عند الحاجة قبل ملء الشرخ وصقله.' },
+    { q: 'هل تظهر بقعة بعد إصلاح الشرخ؟', a: 'إن استخدمت مادة إصلاح مطابقة للون الحجر وصقلت السطح تدريجياً فلن تظهر بقعة واضحة تحت الإضاءة العادية. ولتقليل الأثر أكثر يمكن معالجة السطح كاملاً بطبقة عازلة جديدة بعد الترميم لتوحيد اللمعان وحماية المنطقة المصلحة.' },
+    { q: 'كيف أحمي السطح من شروخ جديدة؟', a: 'استخدم حواجز أو قاعدة عازلة تحت الأواني الساخنة، وتجنب وضع القدور الملتهبة مباشرة على الحجر، وامسح الماء فوراً عند انسكابه. وافحص السطح كل بضعة أشهر خاصة عند حواف المغسلة والأركان حيث تتركز الضغوط والاهتزازات.' },
     ],
   },
   {
     id: 'stone-pool-jacuzzi-surround-medina',
-    primary: 'حجر أحواض السباحة',
-    keywords: ['حجر حوض سباحة', 'جاكوزي', 'المدينة المنورة', 'انزلاق'],
-    intent: 'informational',
-    title: 'حجر أحواض السباحة (Stone Pool Surround) في المدينة المنورة',
-    description: 'كيف تختار حجر منطقة حوض سباحة أو جاكوزي بالمدينة المنورة ليتحمل الكلور والماء المالح والحرارة، مع التصريف والعزل والصيانة.',
-    category: 'العناية بالحجر',
-    takeawayTitle: 'أهم ما في هذا المقال',
+    primary: 'حجر المسابح',
+    keywords: ['حجر حوض سباحة', 'حجر جاكوزي', 'أحواض سباحة حجرية', 'انزلاق حجر', 'صيانة مسابح', 'حجر خارجي', 'مقاومة كلور', 'حواف مسابح'],
+    intent: 'commercial',
+    title: 'حجر المسابح في المدينة المنورة: جاكوزي وأحواض سباحة آمنة',
+    description: 'كل ما تحتاجه لاختيار حجر المسابح والجاكوزي في المدينة المنورة: مقاومة الانزلاق، تحمل الكلور، تصريف المياه، وحواف الأمان.',
+    category: 'الصيانة',
+    takeawayTitle: 'أمان قبل المظهر',
     takeaways: [
-      'اختر حجراً كثيفاً قليل الامتصاص',
-      'تشطيب مطفأ لمنع الانزلاق',
-      'صرف مياه صحيح حول الحوض',
-      'عزل وتنظيف دوري',
+      'اختر حجراً خشناً مضاداً للانزلاق لحافة الحوض والمسارات المبللة فاللمعان الزائد خطر في منطقة المسابح.',
+      'اسأل عن مقاومة الحجر للكلور والأملاح قبل الشراء فبعض الأحجار تتفاعل مع مواد المعالجة وتبهت.',
+      'صمّم ميلاً بسيطاً بعيداً عن الحوض حتى يجري الماء إلى المصرف ولا يرجع نحو الحافة.',
+      'اترك حافة أمان عريضة حول الجاكوزي تكفي للمشي حافي القدمين بحافة دائرية لا تجرح.',
+      'نظّف تراكم الأملاح البيضاء بمواد مخصصة للحجر الطبيعي ولا تستخدم الأحماض القوية.',
     ],
-    ctaHeading: 'تبني حوض سباحة أو جاكوزي؟',
-    ctaBody: 'نختار ونركب حجر منطقة الحوض المناسب في المدينة المنورة.',
-    imagePrompt: 'Natural stone pool surround with coping in Medina villa, dense granite pavers beside a swimming pool, warm daylight, waterline visible, no people, professional photography',
-    imageScene: 'حجر كثيف حول حوض سباحة في فيلا بالمدينة المنورة',
-    imageTopics: 'حجر حوض سباحة,جاكوزي,انزلاق',
+    ctaHeading: 'حوضك يفتقر إلى حجر آمن',
+    ctaBody: 'نصمم وننفذ حواف وأرضيات أحواض السباحة والجاكوزي في المدينة المنورة بحجر مضاد للانزلاق ومقاوم للكلور، مع تصريف مياه مدروس وحواف أمان تناسب العائلة.',
+    imagePrompt: 'Editorial photo of a swimming pool edge in a Medina home garden finished with textured natural stone coping and anti-slip pavers, a worker checking the slope with a straightedge, water glistening, late afternoon light, no text, no watermark',
+    imageScene: 'عامل يفحص ميل حافة حوض سباحة بحجر طبيعي في حديقة منزل بالمدينة المنورة',
+    imageTopics: 'حوض سباحة، حجر طبيعي، انزلاق، حافة حوض، حديقة',
     related: [],
     sections: [
     {
-      h: 'الحجر المناسب للبيئة الرطبة',
+      h: 'متطلبات الحجر حول المسبح والجاكوزي',
       p: [
-        'الجرانيت والبازلت كثيفان قليلان الامتصاص.',
-        'الحجر الجيري والترافرتينو أكثر تأثراً بالماء المالح.',
-        'اختر تشطيباً مطفأً لتقليل الانزلاق.',
+        'تختلف بيئة المسبح عن أي أرضية خارجية أخرى لأن الحجر هناك يلامس الماء المكلور أو المملح باستمرار ويبقى مبللاً أغلب ساعات الاستخدام. ولهذا يحتاج الحجر إلى مقاومة مزدوجة: ألا يتفاعل مع مواد المعالجة الكيماوية فيبهت أو يتفتت، وألا يصبح زلقاً عند البلل فيؤذي من يمشي حافي القدمين.',
+        'وتزداد الصعوبة مع الجاكوزي الذي تجمع حوله الحرارة والبخار والماء المزاح باستمرار، فالشروخ الصغيرة التي تدخلها المياه تتمدد بالحرارة وتتوسع. واختيار حجر بمسامية منخفضة يوفر طبقة حماية أولى تطيل عمر الأرضية وتقلل الصيانة في فصل الصيف الحار بالمدينة المنورة.',
       ],
     },
     {
-      h: 'الكلور والماء المالح والحرارة',
+      h: 'مقاومة الانزلاق وسلامة الحواف',
       p: [
-        'الكلور العادي أقل تأثيراً من الماء المالح.',
-        'الملح يترسب في المسام ثم يجف تحت الشمس.',
-        'شطف الحجر بماء عذب يقلل الترسب.',
+        'اجعل سطح الحجر حول الحوض خشناً أو مدقوقاً بدرجة تمنع الانزلاق حتى مع رغوة الصابون وبلل الماء، فالطبقة المصقولة اللامعة تتحول إلى جليد حقيقي لحظة خروج أحد من الماء. وانتبه لحافة الحوض نفسها فتكون دائرية أو مشطوفة بدل الزاوية القائمة التي تجرح الساق أو الرأس عند الاصطدام.',
+        'ووفر حافة أمان عريضة بين الحوض وأي منطقة جلوس أو مشي، تكفي لخطوة كاملة وسليمة لحظة انزلاق الطفل أو اندفاع الماء. وتجنب وضع بلاط صغير الحواف أو زوايا بارزة في مسار المشي الحافي، واجعل الأرضية متصلة قدر الإمكان لتقليل نقاط التعثر.',
       ],
     },
     {
-      h: 'التصريف والسطح',
+      h: 'تحمل الكلور والأملاح',
       p: [
-        'اصرف المياه بعيداً عن الحوض بميل خفيف.',
-        'اجعل سطح الحجر مطفأً في منطقة المشي.',
-        'اترك فواصل متحركة عند الحواف.',
+        'بعض الأحجار الطبيعية تمتص الكلور والأملاح فتظهر عليها بقع بيضاء أو تشققات دقيقة مع تكرار المعالجة، ولهذا اسأل المورّد عن تجربة الحجر مع مياه المسابح لا مع المطر فقط. الأحجار الكثيفة مثل الجرانيت والبازلت تتحمل الكيماويات بشكل أفضل من الأحجار المسامية كالأحجار الجيرية التي تحتاج عازلاً قوياً.',
+        'وعند ظهور زبد أبيض أو ترسبات ملحية على الحجر نظفها بمادة مخصصة للحجر الطبيعي تخفف بالماء، وتجنب الأحماض القوية التي تذيب كربونات الكالسيوم في الحجر وتترك أثراً باهتاً. واشطف المنطقة بماء نظيف بعد أي تنظيف كيماوي حتى لا يبقى أثر على السطح.',
       ],
     },
     {
-      h: 'العزل والصيانة',
+      h: 'تصريف المياه وحماية القاعدة',
       p: [
-        'عزل الحجر قبل تعرضه للماء المالح.',
-        'نظف خط الماء والبلاط المحيط دورياً.',
-        'افحص الفواصل وأعد الإحكام عند الحاجة.',
+        'وجّه ميول أرضية المسبح بنسبة خفيفة نحو مصارف طرفية أو قناة تصريف تمنع رجوع الماء نحو الحافة أو تسربه تحت الحجر إلى التربة. فالماء المحبوس تحت البلاط في حرارة المدينة المنورة يولد ضغطاً وبخاراً يدفع الحجر للانفصال تدريجياً عن قاعدته.',
+        'واجعل قنوات الصرف قابلة للتنظيف والوصول حتى لا تنسد بأوراق الشجر والشعر وتتحول إلى برك راكدة بجانب الحوض. وراجع الصرف قبل موسم الشتاء وبعد عواصف الأمطار للتأكد من أن الماء يجري في مساره الطبيعي لا تحت الحجر.',
+      ],
+    },
+    {
+      h: 'الصيانة الدورية لحافة الحوض',
+      p: [
+        'افحص عزل حافة الحوض مرة كل موسم بحثاً عن تسرب ماء إلى الخلف أو فراغ تحت الحجر، فالكشف المبكر يوفر فك حجر كثير لاحقاً. ونظف الأملاح والبقع بمنشفة ناعمة وماء دافئ، وتجنب الفرك بمواد كاشطة تخدش السطح الخشن المضاد للانزلاق.',
+        'وعند ملاحظة حركة في حافة حجر أو صوت فراغ عند الخطو عليها أوقف استخدام تلك النقطة واستدع مختصاً لإعادة تثبيتها بمونة مقاومة للماء. وبهذه الخطوات البسيطة تبقى أرضية المسبح آمنة ومظهرها أنيقاً طوال العام.',
       ],
     },
     ],
     faq: [
-    { q: 'هل يتحمل الحجر ماء حوض السباحة؟', a: 'الجرانيت والبازلت نعم، أما الحجر الجيري فيحتاج عزلاً وعناية.' },
-    { q: 'ما أفضل تشطيب لحجر يحيط بالحوض؟', a: 'تشطيب مطفأ يمنع الانزلاق عند البلل.' },
-    { q: 'كيف أقي الحجر من الملح؟', a: 'شطف دوري بماء عذب وعزل قبل التعرض.' },
-    { q: 'كم مرة تُعاد صيانة الحجر حول الحوض؟', a: 'تنظيف دوري وفحص الفواصل والعزل كل موسم.' },
+    { q: 'أي حجر هو الأفضل حول المسبح؟', a: 'الحجر الكثيف منخفض المسامية مثل الجرانيت أو البازلت هو الأفضل حول أحواض السباحة في المدينة المنورة لأنه يتحمل الكلور والأملاح وحرارة الشمس. والمهم الثاني هو خشونة السطح، فالشكل الجميل لا قيمة له إن انزلق عليه طفل عند بلل الأرض.' },
+    { q: 'هل يفسد الكلور الحجر الطبيعي؟', a: 'الكلور المخفف بالتركيزات المعتادة في مياه المسابح لا يضر الأحجار الكثيفة كثيراً، لكنه يترك أثراً على الأحجار المسامية في صورة بقع أو تفتيت سطحي مع السنين. ولهذا ننصح بعزل الحجر جيداً وشطف الحواف بماء نظيف بعد المعالجة الكيماوية.' },
+    { q: 'كيف أمنع الانزلاق حول الجاكوزي؟', a: 'اختر سطحاً خشناً مدقوقاً أو مطفياً بمادة مضادة للانزلاق، واترك ممرات عريضة بين الجاكوزي ومناطق الجلوس. وانتبه أيضاً لرغوة الصابون التي تجعل أي سطح أملس خطراً، فاغسل الأرضية بعد كل استخدام كثيف حتى لا تتراكم الرغوة والبقع.' },
+    { q: 'ماذا أفعل عند ظهور ترسبات بيضاء على حافة الحوض؟', a: 'الترسبات البيضاء عادة أملاح مترسبة من مياه المعالجة أو من تبخر الماء على الحجر، وتزال بمادة مخصصة للحجر الطبيعي مخففة بالماء ثم شطفها بماء نظيف. وتجنب كشطها بأدوات حادة أو معالجتها بحمض قوي يترك أثراً باهتاً على السطح.' },
     ],
   },
   {
     id: 'stone-heat-protection-grills-medina',
     primary: 'حماية الحجر من الحرارة',
-    keywords: ['حماية الحجر من الحرارة', 'شواية حجر', 'المدينة المنورة', 'أسطح طبخ'],
+    keywords: ['حماية الحجر من الحرارة', 'شواية حجر', 'أسطح طبخ', 'حجر مقاوم للحرارة', 'شواء خارجي', 'ديكور شواء', 'عزل حراري', 'شواية خارجية'],
     intent: 'informational',
     title: 'حماية الحجر من الحرارة حول الشوايات في المدينة المنورة',
-    description: 'كيف تختار حجراً يتحمل الحرارة حول الشوايات والأفران بالمدينة المنورة: الخامة والسماكة والتشطيب والتهوية والتباعد عن اللهب المباشر.',
-    category: 'العناية بالحجر',
-    takeawayTitle: 'أهم ما في هذا المقال',
+    description: 'دليل لحماية الحجر من الحرارة حول الشوايات وأسطح الطبخ في المدينة المنورة، باختيار حجر مقاوم وتصميم يقلل الأثر.',
+    category: 'الصيانة',
+    takeawayTitle: 'الحرارة عدو صامت',
     takeaways: [
-      'اختر جرانيتاً أو بازلت مقاوماً للحرارة',
-      'لا تضع الرخام فوق حرارة مباشرة',
-      'سماكة كافية وعزل حراري',
-      'تهوية وتباعد حول مصدر الحرارة',
+      'اختر للمنطقة المحيطة بالشواية حجراً كثيفاً مثل الجرانيت أو البازلت يتحمل ملامسة الأدوات الساخنة.',
+      'ضع حاجزاً أو مسافة آمنة بين مصدر اللهب والحجر حتى لا يتلقى السطح حرارة مباشرة متكررة.',
+      'لا تضع القدور والصواني الساخنة مباشرة على الحجر البارد واستخدم حواجز خشبية أو معدنية.',
+      'بعد موسم الشواء افحص الحجر بحثاً عن شروخ دقيقة واعالجها قبل أن تتسع بفعل الأمطار.',
+      'نظّف الدهون فوراً لأن تراكمها مع الحرارة يصعب إزالتها ويترك بقعاً داكنة.',
     ],
-    ctaHeading: 'تبني شواية أو فرناً في المدخل؟',
-    ctaBody: 'ننفذ أسطح شوايات وأفران حجر مقاومة للحرارة في المدينة المنورة.',
-    imagePrompt: 'Stone cladding around an outdoor grill and oven in Medina villa, dense granite surface with a metal trivet, warm evening light, no people, professional photography',
-    imageScene: 'كسوة حجر حول شواية في الهواء الطلق بالمدينة المنورة',
-    imageTopics: 'حماية من الحرارة,شواية,فرن',
+    ctaHeading: 'اشوِ بحرية بلا خوف على حجرك',
+    ctaBody: 'نصمم منطقة الشواية الخارجية في المدينة المنورة بحجر مقاوم للحرارة مع حاجز مناسب ومسافات آمنة، ونوضح لك كيف تحمي السطح من الدهون والحرارة طوال الموسم.',
+    imagePrompt: 'Editorial photo of an outdoor stone barbecue counter in a Medina home garden, a technician placing a heat-resistant stone slab near the grill, metal tools and a protective barrier visible, warm evening light, no text, no watermark',
+    imageScene: 'فني يضع حجراً مقاوماً للحرارة قرب شواية في حديقة منزل بالمدينة المنورة',
+    imageTopics: 'شواية، حجر مقاوم، حرارة، حديقة، عزل',
     related: [],
     sections: [
     {
-      h: 'خامة تتحمل الحرارة',
+      h: 'كيف تؤثر الحرارة على الحجر الطبيعي',
       p: [
-        'الجرانيت والبازلت مقاومان للحرارة العالية.',
-        'الرخام يتأثر باللهب المباشر وقد يتغير لونه.',
-        'اختر سماكة كافية تناسب الاستخدام.',
+        'يتعامل الحجر مع الحرارة بطبيعته كموصل بطيء، فارتفاع درجة السطح المفاجئ بملامسة قدر ساخن أو لهب مباشر يجعل الطبقة الخارجية تتمدد أسرع من الطبقة الداخلية فتتولد إجهادات تنتهي بشرخ سطحي أو تقشر في أضعف نقطة. ومع تكرار الدورة بين حرارة النهار وبرودة الليل في المدينة المنورة تتسع هذه الشروخ الدقيقة ببطء حتى تظهر للعين.',
+        'وتختلف الأحجار في قابليتها للتلف الحراري، فالجرانيت الكثيف يتحمل درجات عالية نسبياً بفضل تركيبته البلورية، بينما الأحجار الرسوبية المسامية تتمزق طبقاتها مع التمدد المتكرر. وتلعب الرطوبة دوراً مضاعفاً، فالماء المحبوس داخل مسام الحجر يتحول إلى بخار عند التسخين فيضغط على الجدران الداخلية ويدفع الشرخ للامتداد.',
       ],
     },
     {
-      h: 'تفاصيل حول مصدر الحرارة',
+      h: 'اختيار حجر مقاوم للحرارة',
       p: [
-        'باعد بين الحجر ومصدر اللهب المباشر.',
-        'استخدم حواجز أو قواعد معدنية عند الحاجة.',
-        'وفّر تهوية مناسبة حول الفرن.',
+        'اختر للمنطقة القريبة من الشواية حجراً كثيفاً منخفض المسامية كالجرانيت أو البازلت يتحمل الحرارة العالية والاتصال العارض بأدوات الطبخ، وتجنب الأحجار الجيرية الهشة التي تبهت وتتشقق مع الحرارة المتكررة. واسأل المورّد عن تجربة الحجر مع الحرارة والزيوت لا عن مظهره فقط.',
+        'وانتبه للون الحجر أيضاً، فالألوان الداكنة تمتص حرارة الشمس وتصبح ساخنة الملمس في الصيف، بينما الألوان الفاتحة تعكس قدراً من الحرارة وتبقى أبرد. وفي كل الأحوال لا تجعل سطح الحجر يلامس اللهب مباشرة مهما كانت نوعيته قوية.',
       ],
     },
     {
-      h: 'التشطيب والتنظيف',
+      h: 'تصميم منطقة الشواء لتقليل الضرر',
       p: [
-        'تشطيب مطفأ يقلل ظهور البقع.',
-        'نظف الدهون والزيوت قبل أن تترسب.',
-        'تجنب المنظفات الحمضية القوية.',
+        'صمّم منطقة الشواية بمسافة آمنة بينها وبين الأسطح الحجرية، وضع حواجز أو أرفف جانبية من مادة لا توصل الحرارة كالمعدن المطلي أو الخشب المعالج. فالحرارة غير المباشرة تتلف الحجر على مدى سنوات حتى دون أن تلاحظ، والمسافة هي الخط الدفاعي الأول.',
+        'وفكّر في سطح عمل منفصل قريب من الشواية لوضع الأدوات الساخنة عليه بدل الحجر المحيط، واجعل الأرضية قابلة للتنظيف من الدهون والزيوت المتساقطة. وعند تخطيط المكان راعِ اتجاه الريح في حديقتك بالمدينة المنورة حتى لا يدفع الدخان والحرارة نحو الجدران الحجرية أو مناطق الجلوس.',
       ],
     },
     {
-      h: 'الوقاية الدائمة',
+      h: 'عزل ووقاية إضافية',
       p: [
-        'استخدم حوامل لأواني الطبخ الساخنة.',
-        'لا تضع قدوراً ملتهبة على الحجر مباشرة.',
-        'افحص الفواصل حول منطقة الحرارة دوريًا.',
+        'استخدم حواجز مخصصة أو قواعد خشبية ومعدنية تحت القدور والصواني الساخنة حتى لا يلامس الحجر الحرارة العالية مباشرة، فالصدمة الحرارية أخطر من الحرارة التدريجية. وعند تركيب سطح حجري جديد حول الشواية اسأل عن مونة مرنة تحتمل التمدد بدل المونة الصلبة التي تتشقق.',
+        'وعالج أي شرخ دقيق يظهر بعد موسم الشواء بمادة إصلاح مقاومة للحرارة قبل أن تدخله مياه الأمطار والأملاح. واحمِ الحجر بطبقة عازلة مخصصة للأسطح الخارجية الزيتية عند الحاجة، فالعازل الجيد يصد الدهون والماء ويجعل التنظيف أسهل.',
+      ],
+    },
+    {
+      h: 'صيانة الحجر بعد موسم الشواء',
+      p: [
+        'نظّف الدهون فور انسكابها بمنشفة ورقية ثم بماء دافئ وصابون مخصص للحجر، فالدهون المتراكمة مع الحرارة تتصلب وتترك بقعاً داكنة تلتصق بالسطح. وتجنب الأحماض القوية والفرك بالكاشطات التي تخدش اللمعة وتفتح مسام الحجر لدخول الأوساخ.',
+        'قبل دخول الشتاء افحص المنطقة المحيطة بالشواية بحثاً عن شروخ أو فراغات أو تقشر في الأطراف، وعالجها مبكراً فالأمطار تدخل الشقوق وتوسعها بالتجمد والانكماش. ومع الوقاية المستمرة يبقى حجر منطقة الشواء سليماً وأنيقاً موسماً بعد موسم.',
       ],
     },
     ],
     faq: [
-    { q: 'هل يتحمل الرخام حرارة الشواية؟', a: 'لا يفضل وضعه فوق حرارة مباشرة؛ الجرانيت أو البازلت أنسب.' },
-    { q: 'ما أفضل حجر حول فرن حطب؟', a: 'جرانيت أو بازلت كثيف مع تباعد عن اللهب المباشر.' },
-    { q: 'كيف أحمي السطح من البقع؟', a: 'تنظيف سريع للدهون وتجنب المنظفات الحمضية.' },
-    { q: 'هل التهوية ضرورية؟', a: 'نعم، تهوية مناسبة تقلل تراكم الحرارة حول الحجر.' },
+    { q: 'أي حجر يتحمل حرارة الشواية؟', a: 'الجرانيت والبازلت من أصلب الخيارات وأكثرها تحملاً للحرارة العالية والملامسة العارضة للأدوات الساخنة، وتبقى المسافة عن اللهب العامل الأهم. الأحجار الجيرية والرملية المسامية تفضل لمناطق بعيدة عن مصدر الحرارة لأن طبقاتها تتفكك مع التمدد المتكرر.' },
+    { q: 'ماذا أفعل إذا وضعت قدر ساخن على الحجر؟', a: 'اسحب القدر فوراً وضعه على حاجز عازل، ولا تصب ماء بارداً على المنطقة الساخنة لأن التبريد المفاجئ يوسع الشرخ. افحص السطح بعد أن يبرد تماماً بأصابعك وضوء جانبي، فإن ظهر شرخ صغير عالجه بمادة إصلاح مخصصة قبل أن يتسع.' },
+    { q: 'هل يتغير لون الحجر مع الحرارة؟', a: 'الحرارة المتكررة قد تفتح مسام الحجر وتترك أثراً باهتاً أو داكناً في مناطق وضع الأدوات الساخنة، والأحجار الفاتحة تظهر ذلك أكثر من الداكنة. ولتقليل الأثر استخدم دائماً حواجز عازلة ونظف الدهون فوراً، وعالج أي بهتان بمادة مخصصة للحجر الطبيعي.' },
+    { q: 'كيف أنظف دهون الشواية من الحجر؟', a: 'ابدأ بمسح الدهون الطازجة بمنشفة ورقية ثم نظف السطح بماء دافئ وصابون مخصص للحجر الطبيعي وفرشاة ناعمة، وكرر عند الحاجة. تجنب الكاشط والمواد الحمضية القوية لأنها تخدش السطح وتضعف العازل، وعند وجود بقع قديمة استخدم معجوناً مخصصاً واتركه حتى يجف ثم اغسله.' },
     ],
   },
   {
     id: 'stone-hollow-void-floors-medina',
-    primary: 'فراغ تحت بلاط الحجر',
-    keywords: ['فراغ تحت البلاط', 'تثبيت أرضيات', 'المدينة المنورة', 'ملاط'],
+    primary: 'فراغ تحت البلاط',
+    keywords: ['فراغ تحت البلاط', 'تثبيت أرضيات', 'هبوط بلاط', 'فراغ بلاط حجر', 'مونة أرضيات', 'صيانة أرضيات', 'إعادة تثبيت', 'كشف فراغات'],
     intent: 'informational',
-    title: 'فراغ تحت بلاط الحجر (Hollow Tile) في المدينة المنورة',
-    description: 'كيف تكتشف فراغاً أو ضعف تثبيت تحت بلاط الحجر بالمدينة المنورة، وكيف يُعالج بالحقن أو الاستبدال الموضعي، وما الذي يسبب الفراغ غالباً.',
-    category: 'العناية بالحجر',
-    takeawayTitle: 'أهم ما في هذا المقال',
+    title: 'فراغ تحت البلاط في المدينة المنورة: العلامات والحلول',
+    description: 'كيف تكتشف فراغ تحت البلاط في منزلك بالمدينة المنورة وتعالجه، من الهبوط وضعف المونة والحرارة إلى الحقن وإعادة التثبيت.',
+    category: 'الصيانة',
+    takeawayTitle: 'اصغِ لأرضك',
     takeaways: [
-      'اكشف الفراغ بالصوت والحركة',
-      'حدد نطاق الفراغ قبل الإصلاح',
-      'الحقن أو الاستبدال الموضعي',
-      'عالج السبب لا العرض',
+      'اقرع كل بلاطة بعمل معدني صغير واستمع للصوت فالصدى دليل فراغ تحت الحجر.',
+      'لا تتجاهل فراغاً صغيراً عند الحافة فهو يدخل الماء وتتسع مساحته مع كل موجة مطر وحر.',
+      'عالج السبب أولاً كهبوط القاعدة أو ضعف المونة ثم أعد الحقن أو التثبيت.',
+      'عند تثبيت جديد استخدم مونة بسمك ثابت ووزّعها على ظهر الحجر بالكامل قبل التركيب.',
+      'استدع مختصاً إن اتسعت رقعة الفراغ أو رافقها تكسر في بلاطات متجاورة.',
     ],
-    ctaHeading: 'تسمع صوتاً أجوف تحت البلاط؟',
-    ctaBody: 'نفحص ونعالج فراغات تثبيت الحجر في المدينة المنورة.',
-    imagePrompt: 'Stone floor tiles in Medina villa with one tile slightly lifted showing a void underneath, thin mortar layer, workbench tools nearby, daylight, no people, professional photography',
-    imageScene: 'بلاطة حجر مرفوعة تكشف فراغاً في أرضية بالمدينة المنورة',
-    imageTopics: 'فراغ تحت البلاط,تثبيت,ملاط',
+    ctaHeading: 'أرضيتك تستحق أن تصمت تحت الأقدام',
+    ctaBody: 'نفحص أرضيات الحجر في المدينة المنورة بحثاً عن الفراغات بأدوات دقيقة، ونعالجها بالحقن المخصص أو بإعادة التثبيت، ونعيد لمسة السطح حتى لا يظهر أثر الإصلاح.',
+    imagePrompt: 'Editorial photo of a technician injecting resin under a loose natural stone floor tile in a Medina home, hollow tapping test with a small wooden mallet nearby, kneeling worker, natural indoor light, no text, no watermark',
+    imageScene: 'فني يفحص بلاطة حجرية بالأرضية في منزل بالمدينة المنورة بمطرقة صغيرة ويستمع للصوت',
+    imageTopics: 'فراغ بلاط، أرضية حجر، حقن، تثبيت، صيانة',
     related: [],
     sections: [
     {
-      h: 'كيف تعرف أن هناك فراغاً',
+      h: 'كيف تعرف أن تحت البلاط فراغاً',
       p: [
-        'صوت أجوف عند النقر على البلاطة.',
-        'حركة خفيفة أو اهتزاز تحت القدم.',
-        'تشقق متمركز عند منطقة معينة.',
+        'اقرع سطح البلاطة بعمل معدني صغير أو بمقبض مفك خشبي، فالصوت المكتوم الرنان يختلف بوضوح عن صوت البلاطة المثبتة جيداً على قاعدتها. كرر القرع على نقاط متفرقة من نفس البلاطة لترسم خريطة للفراغ وتعرف هل هو في المنتصف أو عند الأطراف.',
+        'وانتبه لعلامات أخرى كاهتزاز البلاطة عند المشي عليها أو تحركها قليلاً تحت القدم، وظهور رطوبة أو رائحة رطوبة من الوصلات بعد الغسيل. في الأرضيات الحجرية بالمدينة المنورة يكثر الفراغ عند الحواف القريبة من الميول والصرف لأن المونة هناك هي أول ما يغسله الماء.',
       ],
     },
     {
-      h: 'قبل الإصلاح',
+      h: 'الأسباب الشائعة للفراغ تحت الحجر',
       p: [
-        'حدد نطاق الفراغ بفحص متسلسل.',
-        'ابحث عن سبب الرطوبة أو ضعف الملاط.',
-        'قيّم استقرار الطبقة السفلية.',
+        'من أكثر الأسباب شيوعاً ضعف طبقة المونة تحت البلاطة أو عدم تغطيتها ظهر الحجر بالكامل عند التركيب، فيبقى جزء من الحجر معلقاً في الهواء. وعامل الحرارة في المدينة المنورة يلعب دوره أيضاً، فالتمدد المتكرر للمونة والحجر بدرجات مختلفة يفسخ التلاصق تدريجياً مع السنين.',
+        'ويضاف إلى ذلك هبوط التربة أو الطبقة الأساسية تحت الأرضية، خاصة في المداخل والمناطق التي ترش بالماء أو تتعرض لرطوبة مستمرة. وإهمال صيانة الوصلات يسمح للماء بالتراكم تحت البلاط فيغسل المونة ويترك فراغات تكبر مع كل موسم.',
       ],
     },
     {
-      h: 'خيارات العلاج',
+      h: 'افحص بنفسك قبل أن تستدعي أحداً',
       p: [
-        'الحقن بملاط سائل للفراغات الصغيرة.',
-        'الاستبدال الموضعي للبلاط المتأثر.',
-        'إعادة وضع البلاط بطبقة ردم مناسبة.',
+        'نظّف الوصلات من الغبار ثم امشِ على الأرضية ببطء مركزاً انتباهك على أي صوت مختلف أو حركة خفيفة تحت القدم، وسجل مواقع البلاطات المشتبه بها بقطعة شريط لاصق. ويمكنك استخدام مسطرة معدنية طويلة لتضغط على جانبي بلاطة وتشاهد هل يهتز طرفها.',
+        'وعند الشك في سبب الفراغ، افحص أماكن الصرف والميول بحثاً عن تسرب ماء تحت الأرضية، وتأكد من أن العزل المائي ما زال سليماً في المناطق المبلطة حديثاً. وتصوير رقعة الفراغ ومشاركتها مع مختص في المدينة المنورة يوفر عليه وقتاً في التشخيص.',
       ],
     },
     {
-      h: 'بعد العلاج',
+      h: 'طرق العلاج: الحقن وإعادة التثبيت',
       p: [
-        'تحقق من مستوى السطح واستقامته.',
-        'أعد إحكام الفواصل حول المنطقة.',
-        'راقب المكان بعد فترة للتأكد.',
+        'للفراغات الصغيرة التي لم تتحرك فيها البلاطة كثيراً يستخدم الحقن عبر فتحات دقيقة تحفر في الوصلات أو في البلاطة نفسها، وتحقن مادة لاصقة سائلة تتدفق تحت الحجر وتملأ الفراغ ثم تصلب. وبعد الجفاف تنظف الفتحات وتملأ بمونة مطابقة حتى لا تظهر بقع.',
+        'أما عندما تكون البلاطة متحركة أو مكسورة أو هبطت قاعدتها فالأفضل فكها بالكامل وإعادة تثبيتها بطبقة مونة جديدة بسمك ثابت، مع معالجة السبب كهبوط الأرض أو تسرب الماء. وفي حالات واسعة قد يلزم استبدال الطبقة الأساسية نفسها قبل إعادة الرصف.',
+      ],
+    },
+    {
+      h: 'كيف تمنع الفراغ من العودة',
+      p: [
+        'عند تركيب أرضية جديدة تأكد من دهن ظهر كل بلاطة بطبقة مونة كاملة دون فراغات، واستخدم أداة التمشيط لتمهيد المونة بشكل متساوٍ قبل وضع الحجر. واترك الوصلات بعرض ثابت تملأ بمونة مرنة تقاوم الحركة والرطوبة.',
+        'وافحص الصرف والميول بعد كل موسم ماطر، وتجنب ترك الماء الراكد على الأرضية لفترات طويلة أثناء الغسيل. وراجع الأرضية مرة كل سنة بالقرع البسيط في المناطق الأكثر استخداماً، فالكشف المبكر يوفر فك بلاطات كثيرة وتكلفة أكبر لاحقاً.',
       ],
     },
     ],
     faq: [
-    { q: 'هل فراغ البلاط خطير؟', a: 'قد يؤدي إلى تشقق أو انفصال إذا تُرك دون علاج.' },
-    { q: 'هل يصلح الحقن وحده؟', a: 'للفراغات الصغيرة نعم، والكبيرة تحتاج استبدالاً موضعياً.' },
-    { q: 'ما سبب الفراغ غالباً؟', a: 'ضعف طبقة الملاط أو رطوبة أو هبوط في الطبقة السفلية.' },
-    { q: 'هل الإصلاح يؤثر على باقي الأرضية؟', a: 'الإصلاح الموضعي يحد الأثر إن حُدد نطاق الفراغ بدقة.' },
+    { q: 'هل فراغ تحت البلاط خطير؟', a: 'الفراغ الصغير ليس خطراً فورياً لكنه باب لدخول الماء الذي يغسل المونة ويوسع الرقعة مع كل موجة مطر أو غسل، ومع الوقت قد تنكسر البلاطة أو ترتفع حافتها فتصبح عثرة. ولهذا ننصح بمعالجته مبكراً قبل أن تتسع الرقعة وتلزم أعمالاً أكبر في أرضية منزلك.' },
+    { q: 'كيف أتأكد أن الفراغ تحت البلاطة لا فوقها؟', a: 'اقرع البلاطة والمحيط بها وقارن الصوت، فالصدى المميز يظهر غالباً في مواضع الفراغ ويختفي في البلاطات السليمة. وعند الضغط بمسطرة طويلة على طرف البلاطة يظهر الاهتزاز أو الحركة دليلاً إضافياً، والأدق هو فحص مختص يحدد حجم الفراغ ومدى التصاق الحجر.' },
+    { q: 'ماذا أفعل عند فراغ في أرضية المدخل؟', a: 'في المداخل والممرات يكثر الفراغ بسبب الاستخدام الثقيل والماء المتكرر، فالأفضل فك البلاطة وإعادة تثبيتها بطبقة مونة جديدة مدكوسة جيداً. وتأكد من معالجة أي تسرب ماء أو ضعف في الطبقة الأساسية قبل إعادة التركيب حتى لا يعود الفراغ في الموسم نفسه.' },
+    { q: 'هل يصلح الحقن لكل الفراغات؟', a: 'الحقن ممتاز للفراغات الصغيرة الساكنة التي لم تتحرك فيها البلاطة، لأنه يملأ الفراغ من الداخل دون فك السطح، لكنه لا يصلح لبلاطة هبطت قاعدتها أو انكسرت. ولهذا نبدأ في المدينة المنورة بتقييم حالة البلاطة ثم نختار الحقن أو إعادة التثبيت أو الاستبدال حسب الحالة.' },
     ],
   },
   {
     id: 'stone-door-threshold-entrance-medina',
     primary: 'عتبة باب حجرية',
-    keywords: ['عتبة باب', 'مدخل حجر', 'المدينة المنورة', 'مناسيب'],
-    intent: 'informational',
-    title: 'عتبة باب حجرية (Stone Threshold) في المدينة المنورة',
-    description: 'كيف تختار وتُنفذ عتبة باب حجرية في مدخل مبنى المدينة المنورة لتتحمل الاستخدام المتكرر والانزلاق وانتقال المياه عند المدخل.',
-    category: 'العناية بالحجر',
-    takeawayTitle: 'أهم ما في هذا المقال',
+    keywords: ['عتبة باب', 'مدخل حجر', 'مناسيب عتبة', 'عتبة مدخل', 'حجر مداخل', 'تسرب مياه', 'تشطيب مداخل', 'عتبات حجرية'],
+    intent: 'commercial',
+    title: 'عتبة باب حجرية في المدينة المنورة: مناسيب ومتانة',
+    description: 'كل ما يخص عتبة باب حجرية في مداخل المدينة المنورة: اختيار الحجر المناسب، ضبط المناسيب، ومنع تسرب المياه والغبار.',
+    category: 'الصيانة',
+    takeawayTitle: 'المدخل من عتبة الباب',
     takeaways: [
-      'اختر حجراً كثيفاً قليل الامتصاص',
-      'اضبط المناسيب قبل التركيب',
-      'عزل أسفل العتبة',
-      'اترك فواصل تمدد محكمة',
+      'اختر عتبة من حجر كثيف يتحمل الاحتكاك اليومي والرطوبة كالجرانيت أو البازلت الداكن.',
+      'اضبط ارتفاع العتبة مع مستوى الباب والأرضية الداخلية حتى لا تتعثر الأقدام ولا تدخل المياه.',
+      'اجعل وجه العتبة الخارجي أعلى من الخارج قليلاً لتصريف مياه الأمطار بعيداً عن الباب.',
+      'املأ الوصلات بين العتبة والأرضية بمونة مرنة مقاومة للماء لمنع التسرب.',
+      'اجعل حواف العتبة مشطوفة قليلاً لتكون مريحة عند الاصطدام والاستخدام اليومي.',
     ],
-    ctaHeading: 'تحتاج عتبة مدخل حجرية؟',
-    ctaBody: 'نصنع ونركب عتبات أبواب حجرية في المدينة المنورة.',
-    imagePrompt: 'Stone door threshold at a villa entrance in Medina, dense granite threshold slab between interior and exterior flooring, daylight, no people, professional photography',
-    imageScene: 'عتبة باب جرانيت عند مدخل فيلا بالمدينة المنورة',
-    imageTopics: 'عتبة باب,مدخل,مناسيب',
+    ctaHeading: 'مدخل منزلك يبدأ من عتبة محكمة',
+    ctaBody: 'نصنع ونركب عتبات الأبواب الحجرية في المدينة المنورة بضبط دقيق للمناسيب وعزل مائي محكم، مع تشطيب يحمي الحجر من الاحتكاك ويمنع دخول الماء والغبار تحت الباب.',
+    imagePrompt: 'Editorial photo of a natural stone door threshold being installed at the entrance of a Medina home, mason adjusting the level with a spirit level, sealant gun and tile spacers nearby, bright daylight, no text, no watermark',
+    imageScene: 'مبلّط يضبط مستوى عتبة حجرية عند مدخل منزل بالمدينة المنورة بميزان ماء',
+    imageTopics: 'عتبة باب، مدخل، مناسيب، عزل، حجر طبيعي',
     related: [],
     sections: [
     {
-      h: 'اختيار الحجر',
+      h: 'دور العتبة في مدخل المنزل',
       p: [
-        'اختر حجراً كثيفاً يتحمل الاستخدام المتكرر.',
-        'تجنب الحجر المسامي قرب مدخل معرض للمياه.',
-        'نسّق لون العتبة مع أرضية المدخل.',
+        'العتبة الحجرية هي القطعة التي تفصل بين العالم الخارجي وداخل المنزل، فهي تمنع مياه الأمطار من الانسياب تحت الباب وتحجب الغبار والأتربة التي تحملها رياح المدينة المنورة الموسمية. ومع ارتفاع بسيط محسوب توقف العتبة أيضاً تسرب مياه غسل المدخل نحو داخل المنزل.',
+        'وإضافة إلى دورها الواقي تمنح العتبة المدخل خطاً بصرياً راسخاً يربط بين حجر الواجهة الخارجية وتشطيب الأرضية الداخلية، فتختفي الفجوة بين العالمين ويبدو المدخل مخططاً كوحدة واحدة. ولهذا تهتم كثير من الأسر في المدينة المنورة باختيار حجر العتبة وسماكتها قبل التشطيب النهائي للمدخل.',
       ],
     },
     {
-      h: 'المناسيب والانزلاق',
+      h: 'اختيار حجر العتبة',
       p: [
-        'اضبط مناسيب العتبة مع الأبواب والأرضيات.',
-        'اجعل السطح مطفأً لتقليل الانزلاق.',
-        'وفّر انتقالاً مائياً موجهاً نحو الخارج.',
+        'اختر حجراً كثيفاً يتحمل الاحتكاك اليومي للأحذية والعربات والرطوبة المتكررة من غسل المدخل، فالجرانيت والبازلت خياران ممتازان لصلابتهما وثبات لونهما. وتجنب الأحجار المسامية التي تمتص الماء وتظهر عليها بقع داكنة مع الزمن في منطقة تتعرض للبلل معظم السنة.',
+        'وانتبه إلى سماكة العتبة ووزنها حتى لا ترتفع كثيراً عن مستوى الأرضية الداخلية فتصبح عثرة يومية للأطفال والكبار، فالارتفاع المناسب يكفي لصد الماء دون أن يعيق حركة المشي أو مرور عربة خفيفة.',
       ],
     },
     {
-      h: 'التنفيذ',
+      h: 'ضبط المناسيب مع الباب والأرضية',
       p: [
-        'ثبّت العتبة على قاعدة مستقرة ومستوية.',
-        'عزل أسفل العتبة وحوافها.',
-        'وزّع فواصل التمدد حول الأطراف.',
+        'قس ارتفاع قاعدة الباب ومستوى الأرضية الداخلية والخارجية قبل اختيار سماكة العتبة، فالخطأ في المناسيب يجعل الباب يكشط الحجر عند الفتح أو يدع فجوة تدخل منها المياه والغبار. واجعل الوجه الخارجي للعتبة أعلى بقليل من مستوى الخارج مع ميل بسيط نحو الخارج يبعد الماء عن حافة الباب.',
+        'واترك مسافة صغيرة محسوبة بين العتبة وباطن الباب الخشبي أو المعدني حتى لا يحتك الحجر بالباب عند الفتح والغلق المتكرر، وتملأ هذه الفجوة بمونة مرنة أو بختم مائي قابل للحركة. واستخدم ميزان ماء في الاتجاهين أثناء التركيب لتضمن أن العتبة مستوية ولا تجمع الماء في نقطة واحدة.',
       ],
     },
     {
-      h: 'الصيانة',
+      h: 'عزل الوصلات ومنع التسرب',
       p: [
-        'نظف العتبة من الغبار والرطوبة دورياً.',
-        'افحص الفواصل وأعد إحكامها عند الحاجة.',
-        'تجنب سحب أشياء ثقيلة عليها.',
+        'املأ الوصلات بين العتبة والأرضية الخارجية بمونة مرنة مقاومة للماء بدل المونة الصلبة التي تتشقق مع تمدد الحجر بالحرارة. والوصل بين العتبة والباب من أهم النقاط لأنه يتحرك مع كل فتح وغلق، فالختم المرن يحافظ على سدها مهما تكرر الاستخدام.',
+        'وعند المداخل المكشوفة للمطر مباشرة اجعل الوجه الخارجي للعتبة يمتد قليلاً فوق الأرضية ليكون حاجزاً مادياً يحول الماء بعيداً عن الباب، أو أضف قناة تصريف صغيرة أمامه. وافحص الوصلات بعد كل موسم ماطر وأعد ملء أي شق ظهر قبل أن يتسع ويسمح بالتسرب.',
+      ],
+    },
+    {
+      h: 'الصيانة والتشطيب النهائي',
+      p: [
+        'اشطُف حواف العتبة قليلاً لتكون مشطوفة بدل الزاوية الحادة التي تجرح عند الاصطدام أو تتكسر مع الاستخدام الثقيل، فالحافة المشطوفة تتحمل سنوات أطول وتبقى مريحة للأحذية. واختر تشطيباً خشناً أو مضاداً للانزلاق على وجه العتبة لأنها تبتل بمياه الأمطار وتصبح زلقة تحت الأقدام.',
+        'ونظّف العتبة بماء وصابون محايد بعد موجات الغبار والأتربة التي تميز أجواء المدينة المنورة، وتجنب الأحماض والكلور التي تبهت لون الحجر المصقول. ومع العناية البسيطة تبقى عتبة المدخل أنيقة وتؤدي دورها الواقي سنيناً طويلة دون أن تتفتت.',
       ],
     },
     ],
     faq: [
-    { q: 'هل عتبة الحجر تتشقق مع الوقت؟', a: 'نادراً إن ثُبّتت على قاعدة مستقرة مع فواصل تمدد.' },
-    { q: 'كم طول عتبة الباب؟', a: 'يساوي عرض فتحة الباب مع تمديد بسيط عند الطرفين.' },
-    { q: 'كيف أنظف عتبة المدخل؟', a: 'كنس وغسل بماء وصابون متعادل ثم تجفيف.' },
-    { q: 'هل يمكن إصلاح عتبة متشققة؟', a: 'الشروخ الصغيرة تُعالج بحشو، والكبيرة تستدعي استبدالاً.' },
+    { q: 'ما الارتفاع المناسب لعتبة الباب؟', a: 'الارتفاع المناسب هو ما يكفي لصد مياه الأمطار والغبار دون أن يعيق المشي أو يسبب التعثر، ويضبط بدقة حسب منسوب الباب ومستوى الأرضية الداخلية والخارجية عند مدخلك. ولهذا نقيس المناسيب الثلاثة قبل اختيار سماكة العتبة في المدينة المنورة حتى لا يكشط الباب الحجر أو تدخل فجوة مائية تحته.' },
+    { q: 'كيف أمنع دخول الماء تحت الباب؟', a: 'اجعل الوجه الخارجي للعتبة أعلى من مستوى الخارج بقليل مع ميل بسيط نحو الخارج، وأحكم الوصلات بين العتبة والأرضية والباب بمونة مرنة مقاومة للماء. وعند الحاجة أضف حاجزاً صغيراً أو قناة تصريف أمام المدخل المكشوف للمطر حتى يجري الماء بعيداً عن حافة الباب.' },
+    { q: 'أي حجر يتحمل احتكاك المدخل؟', a: 'الجرانيت والبازلت من أصلب الخيارات للعتبة لأنهما يتحملان الاحتكاك اليومي للأحذية والعربات والرطوبة المتكررة، ولونهما الداكن يخفي أثر الاستخدام أكثر من الأحجار الفاتحة. وتجنب الأحجار المسامية التي تمتص مياه الغسل وتظهر عليها بقع داكنة مع الزمن.' },
+    { q: 'هل تحتاج العتبة صيانة دورية؟', a: 'صيانة العتبة بسيطة: تنظيف دوري بماء وصابون محايد وإعادة فحص الوصلات مرة كل موسم للتأكد من عدم ظهور شقوق تسمح بالتسرب. وعند ملاحظة تشقق المونة أو اهتزاز العتبة أعد ملء الوصلة أو تثبيتها مبكراً قبل أن يتسع الضرر تحت الباب.' },
     ],
   },
   {
     id: 'stone-cutting-tools-guide-medina',
     primary: 'أدوات قص الحجر',
-    keywords: [
-      'أدوات قص الحجر',
-      'منشار حجر',
-      'شفرة ماسية',
-      'المدينة المنورة',
-      'تجهيزات',
-    ],
-    intent: 'informational',
-    title: 'أدوات قص الحجر (Stone Cutting Tools): دليل الاختيار والسلامة',
-    description: 'أي منشار وشفرة تستخدم لقص الرخام والجرانيت والترافرتينو في مشاريع المدينة المنورة، مع قواعد السلامة وقواعد العمل الصحيحة.',
-    category: 'دليل تنفيذي',
-    takeawayTitle: 'أهم ما في هذا المقال',
+    keywords: ['أدوات قص الحجر', 'منشار حجر', 'شفرة ماسية', 'قص حجر طبيعي', 'سلامة ورشة', 'تجهيزات', 'منشار كهربائي', 'شفرات ماسية'],
+    intent: 'commercial',
+    title: 'أدوات قص الحجر في المدينة المنورة: دليل الاختيار والسلامة',
+    description: 'دليل عملي لاختيار أدوات قص الحجر الطبيعي في المدينة المنورة: المناشير اليدوية والكهربائية والشفرات الماسية ومعدات السلامة.',
+    category: 'دليل الشراء',
+    takeawayTitle: 'اشترِ بحسب العمل لا بحسب الاسم',
     takeaways: [
-      'شفرة ماسية تليق بالجرانيت والرخام',
-      'القص الرطب يقلل الغبار والحرارة',
-      'منشار زاوية للقصوص الصغيرة والحواف',
-      'تبريد الشفرة بالماء باستمرار',
+      'اختر شفرة ماسية مطابقة لنوع الحجر فالحجر القاسي يحتاج شفرات قطع ماسية متخصصة تختلف عن الشفرة العادية.',
+      'للأشغال الدقيقة والرفيعة استخدم منشاراً يدوياً أو قرصاً رفيعاً يقلل الهدر ويمنح حافة نظيفة.',
+      'اشترِ منشاراً كهربائياً بحامل تثبيت قوي وموجه مائي يقلل الغبار ويطيل عمر الشفرة.',
+      'جهّز عامل الورشة بكمامة ونظارة وقفازات وغطاء أذن فغبار الحجر خطر طويل الأمد.',
+      'اشترِ أدوات تخدم أنواع الحجر التي تعمل عليها في المدينة المنورة لا أدوات عامة تهدر بسرعة.',
     ],
-    ctaHeading: 'تريد قص حجر احترافي؟',
-    ctaBody: 'فريقنا يقص ويشكل الحجر حسب تصميمك في المدينة المنورة.',
-    imagePrompt: 'Diamond blade stone cutting saw in workshop, marble slab being cut, water cooling, safety gear, professional photography',
-    imageScene: 'منشار قص حجر بشفرة ماسية يقطع لوح رخام مع تبريد بالماء',
-    imageTopics: 'أدوات قص,منشار حجر,شفرة ماسية',
+    ctaHeading: 'جهّز ورشتك بأدوات تدوم',
+    ctaBody: 'نساعدك في المدينة المنورة على اختيار أدوات قص الحجر المناسبة لأشغالك، ونوفر شفرات ومناشير ومعدات سلامة مناسبة لأنواع الحجر المحلية، مع تدريب عملي على الاستخدام الآمن.',
+    imagePrompt: 'Editorial photo of a stone cutting workshop in Medina with a worker using a diamond blade saw on a granite slab, water cooling and dust extraction visible, safety goggles and gloves on the worker, tools arranged on a bench, no text, no watermark',
+    imageScene: 'عامل ورشة يقص لوح جرانيت بمنشار قرص ماسي مع ماء تبريد في المدينة المنورة',
+    imageTopics: 'قص حجر، منشار ماسي، ورشة، سلامة، جرانيت',
     related: [],
     sections: [
     {
-      h: 'أنواع المنشار',
+      h: 'لماذا تهم جودة أدوات القص',
       p: [
-        'منشار رطب للقصوص المستقيمة والألواح الكبيرة.',
-        'منشار زاوية للقصوص الصغيرة والمنحنيات والحواف.',
-        'منشار جسري للعمل الصناعي والدقة العالية.',
-        'منشار يدوي للأشغال الصغيرة فقط.',
+        'الحجر الطبيعي مادة صلبة متبلورة، واستخدام أدوات غير مخصصة له لا يضيع الوقت فقط بل يكسر الألواح ويهدر الخامة ويترك حوافاً مكسرة يصعب إصلاحها في التشطيب النهائي. والأداة الصحيحة تختصر زمن العمل وتنتج قطعاً نظيفة ترفع جودة التركيب أمام العين.',
+        'في ورش المدينة المنورة تكثر أشغال الكسوة والمداخل والأرضيات التي تتطلب قصاً متكرراً بمقاسات دقيقة، ولهذا تكلفة الأدوات الجيدة تتغطى سريعاً بالهدر الذي توفره من الألواح والعمالة. وتذكّر أن الأداة الرخيصة التي تتعطل منتصف مشروع تكلف أضعاف قيمتها من التأخير والتعطيل.',
       ],
     },
     {
-      h: 'اختيار الشفرة',
+      h: 'المناشير اليدوية والكهربائية',
       p: [
-        'شفرة ماسية للجرانيت والرخام والترافرتينو.',
-        'حافة متصلة لقص ناعم بسرعة أقل.',
-        'حافة مفصصة لقص أسرع وحافة أكثر خشونة.',
-        'حافة توربو توازن بين السرعة وجودة الحافة.',
+        'المنشار اليدوي أو القرص اليدوي مناسب للقصات القليلة والتشطيبات الدقيقة في المواقع الصغيرة حيث لا يحتاج العامل إلى قطع كثير، ويمتاز بأنه خفيف الاهتزاز ويمنح تحكماً أفضل في الزوايا والحواف الرفيعة. لكنه أبطأ في الكميات الكبيرة ويتطلب جهداً بدنياً من العامل مع طول ساعات العمل.',
+        'أما المنشار الكهربائي فيتفوق في المشاريع الكبيرة والأرضيات والمداخل التي تحتاج عشرات الأمتار من القطع المتشابه، فيوفر سرعة ودقة مع حامل تثبيت يثبت اللوح ويمنع اهتزازه أثناء القطع. وعند شرائه ابحث عن موجه مائي أو نظام تبريد يقلل الغبار ويطيل عمر الشفرة.',
       ],
     },
     {
-      h: 'السلامة',
+      h: 'الشفرات الماسية واختيارها',
       p: [
-        'ارتدِ نظارات وقناعاً واقياً دائماً.',
-        'استخدم الماء لتقليل غبار السيليكا.',
-        'ثبّت اللوح قبل البدء في القص.',
-        'أبعد يديك عن مسار الشفرة.',
+        'الشفرة الماسية هي قلب عملية القص، وتختلف أنواعها بحسب الحجر المراد قصه وسماكته؛ فالشفرات الرفيعة مناسبة للتشطيبات الناعمة والرخام، والشفرات السميكة المطعمة بماس أشد صلابة تقطع الجرانيت والبازلت دون أن تفقد حدتها بسرعة. واختر شفرة بقطر وسماكة توافق جهازك وسماكة اللوح.',
+        'وانتبه إلى نمط الاستخدام، فالشفرات المخصصة للقطع الرطب تعطي عمراً أطول وحافة أنظف من القطع الجاف الذي يولد حرارة عالية تتلف الشفرة والحجر معاً. واسأل المورّد عن شفرة تخدم مزيج الأحجار التي تعمل عليها في المدينة المنورة حتى لا تضطر لتبديلها بين كل مشروع وآخر.',
       ],
     },
     {
-      h: 'نصائح للقص',
+      h: 'أدوات القياس والتثبيت',
       p: [
-        'حدد خط القص بوضوح قبل البدء.',
-        'اسند اللوح بالكامل على سطح مستقر.',
-        'دع الشفرة تعمل دون ضغط زائد.',
-        'برّد الشفرة بالماء باستمرار.',
+        'قبل القص تحتاج أدوات قياس دقيقة كالمتر المعدني والمسطرة الطويلة ومثلث التعامد لتحديد الخطوط على اللوح، فالخطأ في القياس يتحول إلى هدر في الخامة وفجوة في التشطيب. واستخدم قلم تحديد مناسب للحجر أو شريط لاصق لتحديد خط القطع بوضوح دون خدش السطح.',
+        'ووفّر حوامل أو قوالب تثبيت تثبت اللوح على منضدة العمل أثناء القطع حتى لا ينزلق فجأة ويتكسر أو يؤذي العامل، واجعل منطقة القص مستوية بعيدة عن حافة المنضدة. وخصص رفوفاً لتخزين الشفرات بعيداً عن الرطوبة حتى لا تصدأ الحواف وتفقد دقتها.',
       ],
-    }
+    },
+    {
+      h: 'معدات السلامة في ورشة القص',
+      p: [
+        'غبار الحجر الناتج عن القطع الجاف مضر بالرئة مع التراكم، فارتدِ كمامة مخصصة للغبار الناعم ونظارة واقية تغطي العين من الجسيمات المتطايرة، وقفازات تقاوم الاهتزاز والحرارة. واستخدم سدادات أذن أو غطاء عازلاً للصوت لأن ضجيج المنشار الكهربائي يرفع ضرر السمع مع السنين.',
+        'واعمل في منطقة جيدة التهوية أو مع نظام شفط غبار مائي، واحتفظ بمطفأة حريق قريبة لأن الشرر قد ينتج عن الاحتكاك مع المعادن أحياناً. وعلّم عمال الورشة في المدينة المنورة على إيقاف الجهاز قبل أي تعديل على الشفرة أو تغييرها، فالوقاية البسيطة توفر زيارات العيادة والتعطل الطويل.',
+      ],
+    },
     ],
     faq: [
-    { q: 'هل يمكن قص الحجر بمنشار الزاوية؟', a: 'نعم للقصوص الصغيرة والحواف، أما القصوص المستقيمة الطويلة فتُقص بالمنشار الرطب.' },
-    { q: 'ما عمر الشفرة الماسية؟', a: 'يختلف بحسب نوع الحجر وعدد ساعات الاستخدام وجودة التبريد.' },
-    { q: 'هل يلزم الماء في القص؟', a: 'نعم، الماء يقلل الغبار ويمنع ارتفاع حرارة الشفرة.' },
-    { q: 'ما أفضل شفرة للجرانيت؟', a: 'شفرة ماسية مفصصة للسرعة، ومتصلة الحافة للحصول على حافة ناعمة.' },
+    { q: 'أي شفرة تصلح لقص الجرانيت؟', a: 'اختر شفرة ماسية مخصصة للحجر الصلب بترسيب ماسي يتحمل صلابة الجرانيت، وابحث عن سماكة ونمط قطع يوافق جهازك وسماكة اللوح. والقطع الرطب يطيل عمر الشفرة ويمنح حافة أنظف، بينما القطع الجاف أسرع لكنه يستهلك الشفرة بسرعة ويزيد الغبار.' },
+    { q: 'هل أحتاج منشاراً كهربائياً أم يكفي اليدوي؟', a: 'للمشاريع الكبيرة كالأرضيات والمداخل والممرات يحتاج العامل منشاراً كهربائياً يوفر السرعة والدقة مع حامل تثبيت للألواح. أما التشطيبات الدقيقة والقطع القليلة في المواقع الصغيرة فيكفيها منشار يدوي يمنح تحكماً أفضل في الزوايا والحواف الرفيعة.' },
+    { q: 'ما أهم معدات السلامة عند قص الحجر؟', a: 'أهمها الكمامة المخصصة لغبار الحجر الناعم والنظارة الواقية والقفازات المقاومة للاهتزاز وغطاء الأذن العازل، فالغبار والصوت أخطر ما في العمل مع الزمن. وأضف إلى ذلك تهوية جيدة أو شفطاً مائياً للغبار ومطفأة حريق قريبة، وتدريب العامل على إيقاف الجهاز قبل أي تعديل.' },
+    { q: 'كيف أختار أدوات تناسب أعمالي في المدينة المنورة؟', a: 'ابدأ بتحديد أنواع الحجر التي تعمل عليها أغلب الوقت ومتوسط سمك الألواح وحجم المشاريع، ثم اختر شفرات ومناشير تخدم هذا النطاق بدل شراء أدوات عامة. واستفسر عن توفر قطع الغيار والشفرات محلياً حتى لا تتوقف ورشتك انتظاراً لشحنة قادمة.' },
     ],
   },
 ];

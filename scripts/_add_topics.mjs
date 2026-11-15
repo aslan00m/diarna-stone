@@ -31,7 +31,12 @@ if (cut < 0 || !bankSrc.slice(0, cut).includes('=')) {
 
 // Two entries with one id means the LAST copy silently wins in publish, so a
 // stale shell would be re-claimed later. Refuse instead of stacking a copy.
-const existingIds = [...bankSrc.matchAll(/^ {4}id: '([^']+)',$/gm)].map((m) => m[1]);
+// The bank is mixed-format (single-quote JS entries and double-quote JSON
+// entries) — match both spellings or a double-quote copy slips through.
+const existingIds = [
+  ...bankSrc.matchAll(/^ {4}id: '([^']+)',$/gm),
+  ...bankSrc.matchAll(/^ {4}"id": "([^"]+)",$/gm),
+].map((m) => m[1]);
 const clash = [...new Set(topics.map((t) => t.id).filter((id) => existingIds.includes(id)))];
 if (clash.length) {
   console.error(`batch ids already in the bank: ${clash.join(', ')}`);
