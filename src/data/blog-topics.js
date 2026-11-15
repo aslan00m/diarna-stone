@@ -8606,90 +8606,6 @@ export const TOPIC_BANK = [
     ]
   },
   {
-    "id": "stone-cutting-tools-guide-medina",
-    "primary": "أدوات قص الحجر",
-    "keywords": [
-      "أدوات قص الحجر",
-      "منشار حجر",
-      "cutting tools",
-      "المدينة المنورة",
-      "تجهيزات"
-    ],
-    "intent": "informational",
-    "title": "أدوات قص الحجر (Stone Cutting Tools): دليل الاختيار والسلامة",
-    "description": "أي منشار وblade تستخدم لقص الرخام والجرانيت والترافرتينو في مشاريع المدينة المنورة.",
-    "category": "دليل تنفيذي",
-    "takeawayTitle": "أهم ما في هذا المقال",
-    "takeaways": [
-      "Diamond blade for granite and marble",
-      "Wet saw reduces dust and heat",
-      "Angle grinder for small cuts and edges",
-      "Always use water cooling for diamond blades"
-    ],
-    "ctaHeading": "تريد قص حجر احترافي؟",
-    "ctaBody": "فريقنا يقص ويشكل الحجر حسب تصميمك في المدينة المنورة.",
-    "imagePrompt": "Diamond blade stone cutting saw in workshop, marble slab being cut, water cooling, safety gear, professional photography",
-    "imageScene": "منشار قص حجر with diamond blade cutting marble slab with water cooling",
-    "imageTopics": "أدوات قص,stone cutting,diamond blade",
-    "related": [],
-    "sections": [
-      {
-        "h": "أنواع المنشار",
-        "p": [
-          "Wet saw: best for straight cuts, large slabs",
-          "Angle grinder: small cuts, curves, edges",
-          "Bridge saw: industrial, precision",
-          "Hand saw: small jobs only"
-        ]
-      },
-      {
-        "h": "اختيار Blade",
-        "p": [
-          "Diamond blade: for granite, marble, travertine",
-          "Continuous rim: smooth cuts, slow",
-          "Segmented rim: fast, rough cuts",
-          "Turbo rim: balance of speed and finish"
-        ]
-      },
-      {
-        "h": "السلامة",
-        "p": [
-          "Always wear safety glasses and mask",
-          "Use water to reduce silica dust",
-          "Secure slab before cutting",
-          "Keep hands away from blade path"
-        ]
-      },
-      {
-        "h": "نصائح للقص",
-        "p": [
-          "Mark cut line clearly",
-          "Support slab fully",
-          "Let blade do work, don't force",
-          "Cool blade with water continuously"
-        ]
-      }
-    ],
-    "faq": [
-      {
-        "q": "هل أستطيع قص حجر with angle grinder?",
-        "a": "نعم for small cuts and edges, but wet saw for straight long cuts."
-      },
-      {
-        "q": "كم تكلفة diamond blade?",
-        "a": "50-300 ريال حسب size and quality."
-      },
-      {
-        "q": "هل أحتاج water for cutting?",
-        "a": "Yes, water reduces dust and prevents blade overheating."
-      },
-      {
-        "q": "ما أفضل blade for granite?",
-        "a": "Segmented diamond blade for speed, continuous for smooth finish."
-      }
-    ]
-  },
-  {
     "id": "stone-veneer-installation-medina",
     "primary": "تكسية حجرية (Veneer)",
     "keywords": [
@@ -10034,268 +9950,6 @@ export const TOPIC_BANK = [
     ],
   },
 
-  {
-    id: 'stone-countertop-sealing-guide-medina',
-    primary: 'عزل أسطح الحجر',
-    keywords: ['عزل أسطح الحجر', 'مانع تسرب', 'رخام', 'جرانيت', 'المدينة المنورة'],
-    intent: 'informational',
-    title: 'عزل أسطح الحجر (Sealing) في المدينة المنورة: دليل شامل',
-    description: 'كيف تختار مانع التسرب (sealer) المناسب لرخامك وجرانيتك في مناخ المدينة المنورة، ومتى تعيد العزل.',
-    category: 'دليل الصيانة',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'العزل (sealing) يمنع امتصاص السوائل والبقع',
-      'جرانيت المطبخ يحتاج عزلاً كل 1-2 سنة',
-      'الرخام (marble) يحتاج عزلاً متكرراً بسبب مساميته',
-      'استخدم مانع تسرب (penetrating sealer) وليس طلاء',
-    ],
-    ctaHeading: 'تريد عزل أسطح حجرك؟',
-    ctaBody: 'نقدم خدمة عزل احترافية لأسطح الحجر في المدينة المنورة.',
-    imagePrompt: 'Close-up of applying stone sealer to marble countertop with brush, warm indoor light, clean surface, professional photography',
-    imageScene: 'تطبيق مانع تسرب على سطح رخام بفرشاة في ضوء داخلي دافئ',
-    imageTopics: 'عزل حجر,sealer,رخام',
-    related: [],
-    sections: [
-    {
-      h: 'لماذا يحتاج عزل',
-      p: [
-        'الحجر الطبيعي يحتوي مساماً يمتص السوائل',
-        'Sealing closes pores without changing appearance',
-        'Unsealed stone stains permanently from oil, wine, acid',
-      ],
-    },
-    {
-      h: 'أنواع مانع التسرب',
-      p: [
-        'Penetrating sealer: absorbs into stone, invisible',
-        'Coating sealer: forms film on surface, changes look',
-        'Impregnating: best for kitchen countertops',
-      ],
-    },
-    {
-      h: 'متى تعيد العزل',
-      p: [
-        'Water test: drop water, if it darkens, re-seal',
-        'Kitchen granite: every 1-2 years',
-        'Bathroom marble: every 6-12 months',
-        'Outdoor stone: annually',
-      ],
-    },
-    {
-      h: 'أخطاء شائعة',
-      p: [
-        'Over-sealing: causes hazing',
-        'Using wrong sealer for stone type',
-        'Not cleaning before sealing',
-        'Sealing polished stone that doesn\'t need it',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل كل الحجر يحتاج عزل?', a: 'لا — الجرانيت (granite) كثيف قد لا يحتاج، لكن الرخام والترافرتينو والحجر الجيري يحتاج' },
-    { q: 'كم تكلفة عزل أسطح الحجر?', a: '10-30 ريال/م² حسب نوع الحجر وجودة مانع التسرب' },
-    { q: 'هل عزل يغير لون الحجر?', a: 'Penetrating sealer no. Coating sealer may darken slightly.' },
-    { q: 'متى أطبق عزل بعد تركيب?', a: 'After installation cures (24-48 hours), before use.' },
-    ],
-  },
-  {
-    id: 'stone-cutting-tools-guide-medina',
-    primary: 'أدوات قص الحجر',
-    keywords: ['أدوات قص الحجر', 'منشار حجر', 'cutting tools', 'المدينة المنورة', 'تجهيزات'],
-    intent: 'informational',
-    title: 'أدوات قص الحجر (Stone Cutting Tools): دليل الاختيار والسلامة',
-    description: 'أي منشار وblade تستخدم لقص الرخام والجرانيت والترافرتينو في مشاريع المدينة المنورة.',
-    category: 'دليل تنفيذي',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'Diamond blade for granite and marble',
-      'Wet saw reduces dust and heat',
-      'Angle grinder for small cuts and edges',
-      'Always use water cooling for diamond blades',
-    ],
-    ctaHeading: 'تريد قص حجر احترافي؟',
-    ctaBody: 'فريقنا يقص ويشكل الحجر حسب تصميمك في المدينة المنورة.',
-    imagePrompt: 'Diamond blade stone cutting saw in workshop, marble slab being cut, water cooling, safety gear, professional photography',
-    imageScene: 'منشار قص حجر with diamond blade cutting marble slab with water cooling',
-    imageTopics: 'أدوات قص,stone cutting,diamond blade',
-    related: [],
-    sections: [
-    {
-      h: 'أنواع المنشار',
-      p: [
-        'Wet saw: best for straight cuts, large slabs',
-        'Angle grinder: small cuts, curves, edges',
-        'Bridge saw: industrial, precision',
-        'Hand saw: small jobs only',
-      ],
-    },
-    {
-      h: 'اختيار Blade',
-      p: [
-        'Diamond blade: for granite, marble, travertine',
-        'Continuous rim: smooth cuts, slow',
-        'Segmented rim: fast, rough cuts',
-        'Turbo rim: balance of speed and finish',
-      ],
-    },
-    {
-      h: 'السلامة',
-      p: [
-        'Always wear safety glasses and mask',
-        'Use water to reduce silica dust',
-        'Secure slab before cutting',
-        'Keep hands away from blade path',
-      ],
-    },
-    {
-      h: 'نصائح للقص',
-      p: [
-        'Mark cut line clearly',
-        'Support slab fully',
-        'Let blade do work, don\'t force',
-        'Cool blade with water continuously',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل أستطيع قص حجر with angle grinder?', a: 'نعم for small cuts and edges, but wet saw for straight long cuts.' },
-    { q: 'كم تكلفة diamond blade?', a: '50-300 ريال حسب size and quality.' },
-    { q: 'هل أحتاج water for cutting?', a: 'Yes, water reduces dust and prevents blade overheating.' },
-    { q: 'ما أفضل blade for granite?', a: 'Segmented diamond blade for speed, continuous for smooth finish.' },
-    ],
-  },
-  {
-    id: 'stone-veneer-installation-medina',
-    primary: 'تكسية حجرية (Veneer)',
-    keywords: ['تكسية حجرية', 'stone veneer', 'واجهات', 'المدينة المنورة', 'تثبيت'],
-    intent: 'informational',
-    title: 'تكسية حجرية (Stone Veneer) في المدينة المنورة: دليل التثبيت',
-    description: 'كيف تثبت تكسية حجرية (stone veneer) على جدران المباني في المدينة المنورة، من التحضير إلى التشطيب.',
-    category: 'دليل تنفيذي',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'Prepare wall surface properly before installation',
-      'Use proper adhesive and mechanical fixing',
-      'Leave expansion joints',
-      'Seal joints after installation',
-    ],
-    ctaHeading: 'تريد تكسية حجرية احترافية؟',
-    ctaBody: 'نقدم تثبيت تكسية حجرية (stone veneer) في المدينة المنورة.',
-    imagePrompt: 'Stone veneer installation on villa wall, Medina, worker applying adhesive, natural stone panels, daylight',
-    imageScene: 'تثبيت تكسية حجرية on villa wall in Medina with adhesive application',
-    imageTopics: 'تكسية حجرية,stone veneer,تثبيت',
-    related: [],
-    sections: [
-    {
-      h: 'التحضير',
-      p: [
-        'Clean wall surface thoroughly',
-        'Apply waterproofing membrane',
-        'Install metal lath if needed',
-        'Check wall is plumb and level',
-      ],
-    },
-    {
-      h: 'التثبيت',
-      p: [
-        'Apply adhesive to back of veneer',
-        'Press firmly and wiggle',
-        'Use mechanical anchors for large pieces',
-        'Maintain consistent joint width',
-      ],
-    },
-    {
-      h: 'الفواصل',
-      p: [
-        'Leave 3-5mm joints between pieces',
-        'Fill with flexible grout',
-        'Seal joints after curing',
-        'Provide weep holes at bottom',
-      ],
-    },
-    {
-      h: 'التشطيب',
-      p: [
-        'Clean excess adhesive immediately',
-        'Apply sealer after 24-48 hours',
-        'Inspect for loose pieces',
-        'Touch up as needed',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل stone veneer suitable for exterior?', a: 'Yes, with proper waterproofing and mechanical fixing.' },
-    { q: 'كم تكلفة تكسية حجرية?', a: '100-300 ريال/م² حسب material and installation complexity.' },
-    { q: 'هل أستطيع تثبيت stone veneer myself?', a: 'Small areas yes, large facades need professional.' },
-    { q: 'كم يدوم stone veneer?', a: '20-50 years with proper installation and maintenance.' },
-    ],
-  },
-  {
-    id: 'stone-fireplace-design-medina',
-    primary: 'مدافئ حجر',
-    keywords: ['مدافئ حجر', 'fireplace', 'رخام', 'جرانيت', 'المدينة المنورة', 'تصميم'],
-    intent: 'informational',
-    title: 'مدافئ حجر (Stone Fireplace) في المدينة المنورة: تصميم وتنفيذ',
-    description: 'كيف تختار وتثبت مدفأة حجر في منزلك في المدينة المنورة.',
-    category: 'أفكار وتصميم',
-    takeawayTitle: 'أهم ما في هذا المقال',
-    takeaways: [
-      'Choose heat-resistant stone like granite or limestone',
-      'Ensure proper ventilation and clearance',
-      'Consider local climate needs',
-      'Professional installation required for safety',
-    ],
-    ctaHeading: 'تريد مدفأة حجر؟',
-    ctaBody: 'نصمم وننفذ مدافئ حجر في المدينة المنورة.',
-    imagePrompt: 'Stone fireplace in living room, Medina villa, natural limestone surround, warm fire glow, cozy interior, professional photography',
-    imageScene: 'مدفأة حجر في غرفة معيشة فيلا بالمدينة المنورة مع وهج نار دافئ',
-    imageTopics: 'مدافئ حجر,fireplace,تصميم',
-    related: [],
-    sections: [
-    {
-      h: 'اختيار الحجر',
-      p: [
-        'جرانيت: مقاوم للحرارة، متين',
-        'حجر جيري: مظهر كلاسيكي، حرارة متوسطة',
-        'رخام: أنيق لكن يحتاج حماية من الحرارة',
-        'تجنب الحجر مسامي قرب النار',
-      ],
-    },
-    {
-      h: 'التصميم',
-      p: [
-        'مراعاة حجم الغرفة وارتفاع السقف',
-        'مطابقة المدفأة لأسلوب الديكور',
-        'التخطيط لتخزين الحطب إن لزم',
-        'إضافة رف للعرض',
-      ],
-    },
-    {
-      h: 'السلامة',
-      p: [
-        'الحفاظ على مسافة من المواد قابلة للاشتعال',
-        'تركيب مدخنة/مجرى مناسب',
-        'استخدام ملاط مقاوم للحرارة',
-        'إضافة شاشة نار',
-      ],
-    },
-    {
-      h: 'الصيانة',
-      p: [
-        'تنظيف الرماد بانتظام',
-        'فحص المدخنة سنوياً',
-        'التحقق من الشقوق',
-        'إعادة إحكام الحجر عند الحاجة',
-      ],
-    },
-    ],
-    faq: [
-    { q: 'هل مدفأة حجر مناسبة لمناخ المدينة المنورة؟', a: 'نعم لأشهر الشتاء، تضيف دفئاً وأجواءً.' },
-    { q: 'كم تكلفة مدفأة حجر؟', a: '3000-15000 ريال حسب الحجم ونوع الحجر.' },
-    { q: 'هل تحتاج إلى تركيب احترافي؟', a: 'نعم، للأمان والامتثال للمتطلبات.' },
-    { q: 'ما أفضل حجر لمدفأة؟', a: 'جرانيت أو حجر جيري كثيف لمقاومة الحرارة.' },
-    ],
-  },
   {
     id: 'stone-garden-paving-medina',
     primary: 'تبليط حدائق حجر',
@@ -11789,6 +11443,389 @@ export const TOPIC_BANK = [
     { q: 'ما أفضل طريقة لتنظيف حجر؟', a: ' مواد مناسبة.' },
     { q: 'هل يحتاج الحجر إلى صيانة دورية؟', a: 'نعم، تنظيف دوري وفحص سنوي يحافظان على سطح الحجر.' },
     { q: 'هل إصلاح شقوق؟', a: 'نعم، حسب التلف.' },
+    ],
+  },
+
+  {
+    id: 'stone-countertop-chip-repair-medina',
+    primary: 'إصلاح شرخ سطح حجر',
+    keywords: ['إصلاح شرخ حجر', 'ترميم سطح', 'المدينة المنورة', 'أسطح'],
+    intent: 'informational',
+    title: 'إصلاح شرخ سطح حجر (Stone Chip Repair) في المدينة المنورة',
+    description: 'كيف تُصلح شرخاً أو كسراً صغيراً في سطح حجر بالمدينة المنورة، من التنظيف والحشو إلى التلميع، ومتى تحتاج مختصاً.',
+    category: 'العناية بالحجر',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'تنظيف الشرخ قبل الحشو',
+      'حشو بلون قريب',
+      'تلميع تدريجي',
+      'إعادة عزل المنطقة',
+    ],
+    ctaHeading: 'ظهر شرخ في سطحك؟',
+    ctaBody: 'نرمم الأسطح الحجرية المتشرخة في المدينة المنورة.',
+    imagePrompt: 'Close-up of a small chipped edge on a beige marble countertop being filled with tinted resin by a hand tool on a workbench, workshop background, daylight, sharp focus, professional photography',
+    imageScene: 'إصلاح شرخ صغير في سطح رخام على طاولة عمل',
+    imageTopics: 'إصلاح شرخ,ترميم سطح,شرخ حجر',
+    related: [],
+    sections: [
+    {
+      h: 'متى يمكن الإصلاح',
+      p: [
+        'الشروخ الصغيرة في الحواف قابلة للإصلاح بالحشو.',
+        'الشروخ العميقة أو الممتدة تحتاج تقييم مختص.',
+        'لا تُصلح شرخاً يمر تحت سطح غير مستقر.',
+      ],
+    },
+    {
+      h: 'التحضير والتنظيف',
+      p: [
+        'نظّف الشرخ من الغبار والشحوم جيداً.',
+        'جفّف المنطقة قبل وضع الحشو.',
+        'احمِ السطح المحيط بشريط لاصق.',
+      ],
+    },
+    {
+      h: 'الحشو والتلميع',
+      p: [
+        'استخدم حشوة بلون قريب من لون الحجر.',
+        'ازل الزيادة ثم صنفر تدريجياً.',
+        'لمّع المنطقة لتطابق التشطيب.',
+      ],
+    },
+    {
+      h: 'بعد الإصلاح',
+      p: [
+        'أعد عزل المنطقة المُصلحة.',
+        'تجنب الحمل الثقيل عليها أيام.',
+        'افحصها دورياً مع الصيانة.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل يتحمل الحجر الشرخ بعد الإصلاح؟', a: 'نعم في الشروخ الصغيرة المستقرة، مع تجنب الحمل الشديد.' },
+    { q: 'هل يمكن إصلاح شرخ بنفسك؟', a: 'الشروخ الصغيرة السطحية ممكنة، والأعمق تحتاج مختصاً.' },
+    { q: 'ما المادة المناسبة للحشو؟', a: 'حشوة راتنجية بلون قريب من لون الحجر.' },
+    { q: 'هل يظهر مكان الإصلاح بعد التلميع؟', a: 'يقل ظهوره بالتلميع التدريجي مع تطابق التشطيب.' },
+    ],
+  },
+  {
+    id: 'stone-pool-jacuzzi-surround-medina',
+    primary: 'حجر أحواض السباحة',
+    keywords: ['حجر حوض سباحة', 'جاكوزي', 'المدينة المنورة', 'انزلاق'],
+    intent: 'informational',
+    title: 'حجر أحواض السباحة (Stone Pool Surround) في المدينة المنورة',
+    description: 'كيف تختار حجر منطقة حوض سباحة أو جاكوزي بالمدينة المنورة ليتحمل الكلور والماء المالح والحرارة، مع التصريف والعزل والصيانة.',
+    category: 'العناية بالحجر',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'اختر حجراً كثيفاً قليل الامتصاص',
+      'تشطيب مطفأ لمنع الانزلاق',
+      'صرف مياه صحيح حول الحوض',
+      'عزل وتنظيف دوري',
+    ],
+    ctaHeading: 'تبني حوض سباحة أو جاكوزي؟',
+    ctaBody: 'نختار ونركب حجر منطقة الحوض المناسب في المدينة المنورة.',
+    imagePrompt: 'Natural stone pool surround with coping in Medina villa, dense granite pavers beside a swimming pool, warm daylight, waterline visible, no people, professional photography',
+    imageScene: 'حجر كثيف حول حوض سباحة في فيلا بالمدينة المنورة',
+    imageTopics: 'حجر حوض سباحة,جاكوزي,انزلاق',
+    related: [],
+    sections: [
+    {
+      h: 'الحجر المناسب للبيئة الرطبة',
+      p: [
+        'الجرانيت والبازلت كثيفان قليلان الامتصاص.',
+        'الحجر الجيري والترافرتينو أكثر تأثراً بالماء المالح.',
+        'اختر تشطيباً مطفأً لتقليل الانزلاق.',
+      ],
+    },
+    {
+      h: 'الكلور والماء المالح والحرارة',
+      p: [
+        'الكلور العادي أقل تأثيراً من الماء المالح.',
+        'الملح يترسب في المسام ثم يجف تحت الشمس.',
+        'شطف الحجر بماء عذب يقلل الترسب.',
+      ],
+    },
+    {
+      h: 'التصريف والسطح',
+      p: [
+        'اصرف المياه بعيداً عن الحوض بميل خفيف.',
+        'اجعل سطح الحجر مطفأً في منطقة المشي.',
+        'اترك فواصل متحركة عند الحواف.',
+      ],
+    },
+    {
+      h: 'العزل والصيانة',
+      p: [
+        'عزل الحجر قبل تعرضه للماء المالح.',
+        'نظف خط الماء والبلاط المحيط دورياً.',
+        'افحص الفواصل وأعد الإحكام عند الحاجة.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل يتحمل الحجر ماء حوض السباحة؟', a: 'الجرانيت والبازلت نعم، أما الحجر الجيري فيحتاج عزلاً وعناية.' },
+    { q: 'ما أفضل تشطيب لحجر يحيط بالحوض؟', a: 'تشطيب مطفأ يمنع الانزلاق عند البلل.' },
+    { q: 'كيف أقي الحجر من الملح؟', a: 'شطف دوري بماء عذب وعزل قبل التعرض.' },
+    { q: 'كم مرة تُعاد صيانة الحجر حول الحوض؟', a: 'تنظيف دوري وفحص الفواصل والعزل كل موسم.' },
+    ],
+  },
+  {
+    id: 'stone-heat-protection-grills-medina',
+    primary: 'حماية الحجر من الحرارة',
+    keywords: ['حماية الحجر من الحرارة', 'شواية حجر', 'المدينة المنورة', 'أسطح طبخ'],
+    intent: 'informational',
+    title: 'حماية الحجر من الحرارة حول الشوايات في المدينة المنورة',
+    description: 'كيف تختار حجراً يتحمل الحرارة حول الشوايات والأفران بالمدينة المنورة: الخامة والسماكة والتشطيب والتهوية والتباعد عن اللهب المباشر.',
+    category: 'العناية بالحجر',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'اختر جرانيتاً أو بازلت مقاوماً للحرارة',
+      'لا تضع الرخام فوق حرارة مباشرة',
+      'سماكة كافية وعزل حراري',
+      'تهوية وتباعد حول مصدر الحرارة',
+    ],
+    ctaHeading: 'تبني شواية أو فرناً في المدخل؟',
+    ctaBody: 'ننفذ أسطح شوايات وأفران حجر مقاومة للحرارة في المدينة المنورة.',
+    imagePrompt: 'Stone cladding around an outdoor grill and oven in Medina villa, dense granite surface with a metal trivet, warm evening light, no people, professional photography',
+    imageScene: 'كسوة حجر حول شواية في الهواء الطلق بالمدينة المنورة',
+    imageTopics: 'حماية من الحرارة,شواية,فرن',
+    related: [],
+    sections: [
+    {
+      h: 'خامة تتحمل الحرارة',
+      p: [
+        'الجرانيت والبازلت مقاومان للحرارة العالية.',
+        'الرخام يتأثر باللهب المباشر وقد يتغير لونه.',
+        'اختر سماكة كافية تناسب الاستخدام.',
+      ],
+    },
+    {
+      h: 'تفاصيل حول مصدر الحرارة',
+      p: [
+        'باعد بين الحجر ومصدر اللهب المباشر.',
+        'استخدم حواجز أو قواعد معدنية عند الحاجة.',
+        'وفّر تهوية مناسبة حول الفرن.',
+      ],
+    },
+    {
+      h: 'التشطيب والتنظيف',
+      p: [
+        'تشطيب مطفأ يقلل ظهور البقع.',
+        'نظف الدهون والزيوت قبل أن تترسب.',
+        'تجنب المنظفات الحمضية القوية.',
+      ],
+    },
+    {
+      h: 'الوقاية الدائمة',
+      p: [
+        'استخدم حوامل لأواني الطبخ الساخنة.',
+        'لا تضع قدوراً ملتهبة على الحجر مباشرة.',
+        'افحص الفواصل حول منطقة الحرارة دوريًا.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل يتحمل الرخام حرارة الشواية؟', a: 'لا يفضل وضعه فوق حرارة مباشرة؛ الجرانيت أو البازلت أنسب.' },
+    { q: 'ما أفضل حجر حول فرن حطب؟', a: 'جرانيت أو بازلت كثيف مع تباعد عن اللهب المباشر.' },
+    { q: 'كيف أحمي السطح من البقع؟', a: 'تنظيف سريع للدهون وتجنب المنظفات الحمضية.' },
+    { q: 'هل التهوية ضرورية؟', a: 'نعم، تهوية مناسبة تقلل تراكم الحرارة حول الحجر.' },
+    ],
+  },
+  {
+    id: 'stone-hollow-void-floors-medina',
+    primary: 'فراغ تحت بلاط الحجر',
+    keywords: ['فراغ تحت البلاط', 'تثبيت أرضيات', 'المدينة المنورة', 'ملاط'],
+    intent: 'informational',
+    title: 'فراغ تحت بلاط الحجر (Hollow Tile) في المدينة المنورة',
+    description: 'كيف تكتشف فراغاً أو ضعف تثبيت تحت بلاط الحجر بالمدينة المنورة، وكيف يُعالج بالحقن أو الاستبدال الموضعي، وما الذي يسبب الفراغ غالباً.',
+    category: 'العناية بالحجر',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'اكشف الفراغ بالصوت والحركة',
+      'حدد نطاق الفراغ قبل الإصلاح',
+      'الحقن أو الاستبدال الموضعي',
+      'عالج السبب لا العرض',
+    ],
+    ctaHeading: 'تسمع صوتاً أجوف تحت البلاط؟',
+    ctaBody: 'نفحص ونعالج فراغات تثبيت الحجر في المدينة المنورة.',
+    imagePrompt: 'Stone floor tiles in Medina villa with one tile slightly lifted showing a void underneath, thin mortar layer, workbench tools nearby, daylight, no people, professional photography',
+    imageScene: 'بلاطة حجر مرفوعة تكشف فراغاً في أرضية بالمدينة المنورة',
+    imageTopics: 'فراغ تحت البلاط,تثبيت,ملاط',
+    related: [],
+    sections: [
+    {
+      h: 'كيف تعرف أن هناك فراغاً',
+      p: [
+        'صوت أجوف عند النقر على البلاطة.',
+        'حركة خفيفة أو اهتزاز تحت القدم.',
+        'تشقق متمركز عند منطقة معينة.',
+      ],
+    },
+    {
+      h: 'قبل الإصلاح',
+      p: [
+        'حدد نطاق الفراغ بفحص متسلسل.',
+        'ابحث عن سبب الرطوبة أو ضعف الملاط.',
+        'قيّم استقرار الطبقة السفلية.',
+      ],
+    },
+    {
+      h: 'خيارات العلاج',
+      p: [
+        'الحقن بملاط سائل للفراغات الصغيرة.',
+        'الاستبدال الموضعي للبلاط المتأثر.',
+        'إعادة وضع البلاط بطبقة ردم مناسبة.',
+      ],
+    },
+    {
+      h: 'بعد العلاج',
+      p: [
+        'تحقق من مستوى السطح واستقامته.',
+        'أعد إحكام الفواصل حول المنطقة.',
+        'راقب المكان بعد فترة للتأكد.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل فراغ البلاط خطير؟', a: 'قد يؤدي إلى تشقق أو انفصال إذا تُرك دون علاج.' },
+    { q: 'هل يصلح الحقن وحده؟', a: 'للفراغات الصغيرة نعم، والكبيرة تحتاج استبدالاً موضعياً.' },
+    { q: 'ما سبب الفراغ غالباً؟', a: 'ضعف طبقة الملاط أو رطوبة أو هبوط في الطبقة السفلية.' },
+    { q: 'هل الإصلاح يؤثر على باقي الأرضية؟', a: 'الإصلاح الموضعي يحد الأثر إن حُدد نطاق الفراغ بدقة.' },
+    ],
+  },
+  {
+    id: 'stone-door-threshold-entrance-medina',
+    primary: 'عتبة باب حجرية',
+    keywords: ['عتبة باب', 'مدخل حجر', 'المدينة المنورة', 'مناسيب'],
+    intent: 'informational',
+    title: 'عتبة باب حجرية (Stone Threshold) في المدينة المنورة',
+    description: 'كيف تختار وتُنفذ عتبة باب حجرية في مدخل مبنى المدينة المنورة لتتحمل الاستخدام المتكرر والانزلاق وانتقال المياه عند المدخل.',
+    category: 'العناية بالحجر',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'اختر حجراً كثيفاً قليل الامتصاص',
+      'اضبط المناسيب قبل التركيب',
+      'عزل أسفل العتبة',
+      'اترك فواصل تمدد محكمة',
+    ],
+    ctaHeading: 'تحتاج عتبة مدخل حجرية؟',
+    ctaBody: 'نصنع ونركب عتبات أبواب حجرية في المدينة المنورة.',
+    imagePrompt: 'Stone door threshold at a villa entrance in Medina, dense granite threshold slab between interior and exterior flooring, daylight, no people, professional photography',
+    imageScene: 'عتبة باب جرانيت عند مدخل فيلا بالمدينة المنورة',
+    imageTopics: 'عتبة باب,مدخل,مناسيب',
+    related: [],
+    sections: [
+    {
+      h: 'اختيار الحجر',
+      p: [
+        'اختر حجراً كثيفاً يتحمل الاستخدام المتكرر.',
+        'تجنب الحجر المسامي قرب مدخل معرض للمياه.',
+        'نسّق لون العتبة مع أرضية المدخل.',
+      ],
+    },
+    {
+      h: 'المناسيب والانزلاق',
+      p: [
+        'اضبط مناسيب العتبة مع الأبواب والأرضيات.',
+        'اجعل السطح مطفأً لتقليل الانزلاق.',
+        'وفّر انتقالاً مائياً موجهاً نحو الخارج.',
+      ],
+    },
+    {
+      h: 'التنفيذ',
+      p: [
+        'ثبّت العتبة على قاعدة مستقرة ومستوية.',
+        'عزل أسفل العتبة وحوافها.',
+        'وزّع فواصل التمدد حول الأطراف.',
+      ],
+    },
+    {
+      h: 'الصيانة',
+      p: [
+        'نظف العتبة من الغبار والرطوبة دورياً.',
+        'افحص الفواصل وأعد إحكامها عند الحاجة.',
+        'تجنب سحب أشياء ثقيلة عليها.',
+      ],
+    },
+    ],
+    faq: [
+    { q: 'هل عتبة الحجر تتشقق مع الوقت؟', a: 'نادراً إن ثُبّتت على قاعدة مستقرة مع فواصل تمدد.' },
+    { q: 'كم طول عتبة الباب؟', a: 'يساوي عرض فتحة الباب مع تمديد بسيط عند الطرفين.' },
+    { q: 'كيف أنظف عتبة المدخل؟', a: 'كنس وغسل بماء وصابون متعادل ثم تجفيف.' },
+    { q: 'هل يمكن إصلاح عتبة متشققة؟', a: 'الشروخ الصغيرة تُعالج بحشو، والكبيرة تستدعي استبدالاً.' },
+    ],
+  },
+  {
+    id: 'stone-cutting-tools-guide-medina',
+    primary: 'أدوات قص الحجر',
+    keywords: [
+      'أدوات قص الحجر',
+      'منشار حجر',
+      'شفرة ماسية',
+      'المدينة المنورة',
+      'تجهيزات',
+    ],
+    intent: 'informational',
+    title: 'أدوات قص الحجر (Stone Cutting Tools): دليل الاختيار والسلامة',
+    description: 'أي منشار وشفرة تستخدم لقص الرخام والجرانيت والترافرتينو في مشاريع المدينة المنورة، مع قواعد السلامة وقواعد العمل الصحيحة.',
+    category: 'دليل تنفيذي',
+    takeawayTitle: 'أهم ما في هذا المقال',
+    takeaways: [
+      'شفرة ماسية تليق بالجرانيت والرخام',
+      'القص الرطب يقلل الغبار والحرارة',
+      'منشار زاوية للقصوص الصغيرة والحواف',
+      'تبريد الشفرة بالماء باستمرار',
+    ],
+    ctaHeading: 'تريد قص حجر احترافي؟',
+    ctaBody: 'فريقنا يقص ويشكل الحجر حسب تصميمك في المدينة المنورة.',
+    imagePrompt: 'Diamond blade stone cutting saw in workshop, marble slab being cut, water cooling, safety gear, professional photography',
+    imageScene: 'منشار قص حجر بشفرة ماسية يقطع لوح رخام مع تبريد بالماء',
+    imageTopics: 'أدوات قص,منشار حجر,شفرة ماسية',
+    related: [],
+    sections: [
+    {
+      h: 'أنواع المنشار',
+      p: [
+        'منشار رطب للقصوص المستقيمة والألواح الكبيرة.',
+        'منشار زاوية للقصوص الصغيرة والمنحنيات والحواف.',
+        'منشار جسري للعمل الصناعي والدقة العالية.',
+        'منشار يدوي للأشغال الصغيرة فقط.',
+      ],
+    },
+    {
+      h: 'اختيار الشفرة',
+      p: [
+        'شفرة ماسية للجرانيت والرخام والترافرتينو.',
+        'حافة متصلة لقص ناعم بسرعة أقل.',
+        'حافة مفصصة لقص أسرع وحافة أكثر خشونة.',
+        'حافة توربو توازن بين السرعة وجودة الحافة.',
+      ],
+    },
+    {
+      h: 'السلامة',
+      p: [
+        'ارتدِ نظارات وقناعاً واقياً دائماً.',
+        'استخدم الماء لتقليل غبار السيليكا.',
+        'ثبّت اللوح قبل البدء في القص.',
+        'أبعد يديك عن مسار الشفرة.',
+      ],
+    },
+    {
+      h: 'نصائح للقص',
+      p: [
+        'حدد خط القص بوضوح قبل البدء.',
+        'اسند اللوح بالكامل على سطح مستقر.',
+        'دع الشفرة تعمل دون ضغط زائد.',
+        'برّد الشفرة بالماء باستمرار.',
+      ],
+    }
+    ],
+    faq: [
+    { q: 'هل يمكن قص الحجر بمنشار الزاوية؟', a: 'نعم للقصوص الصغيرة والحواف، أما القصوص المستقيمة الطويلة فتُقص بالمنشار الرطب.' },
+    { q: 'ما عمر الشفرة الماسية؟', a: 'يختلف بحسب نوع الحجر وعدد ساعات الاستخدام وجودة التبريد.' },
+    { q: 'هل يلزم الماء في القص؟', a: 'نعم، الماء يقلل الغبار ويمنع ارتفاع حرارة الشفرة.' },
+    { q: 'ما أفضل شفرة للجرانيت؟', a: 'شفرة ماسية مفصصة للسرعة، ومتصلة الحافة للحصول على حافة ناعمة.' },
     ],
   },
 ];
