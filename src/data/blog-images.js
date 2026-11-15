@@ -2849,6 +2849,18 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's1-2026-11-15-stone-bardiglio-veined',
+    file: '/images/blog-ai/s1-2026-11-15-stone-bardiglio-veined.jpg',
+    scene:
+      'رخام مصقول بعروق رمادية على هيكل حجري بإضاءة طبيعية',
+    prompt:
+      'Veined Bardiglio Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'marble',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
