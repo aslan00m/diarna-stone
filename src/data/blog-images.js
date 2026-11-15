@@ -2944,6 +2944,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's4-2026-11-15-equip-18',
+    file: '/images/blog-ai/s4-2026-11-15-equip-18.jpg',
+    scene:
+      'مشهد تصويري لقلاب هيدروليكي في موقع عمل بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'A hydraulic tipper dump truck on a construction site, professional industrial photography, real construction site, warm daylight, dust in the air, sharp focus, high detail, no text, no watermark',
+    topics: [
+      'معدات',
+      'قلاب',
+      'تأجير_معدات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
