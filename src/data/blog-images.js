@@ -2974,6 +2974,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'granite-kitchen-countertop-medina',
+    file: '/images/blog-ai/granite-kitchen-countertop-medina.jpg',
+    scene:
+      'سطح مطبخ جرانيت مصقول عليه لوح تقطيع خشبي وسكين وصحن ليمون، وخلفية حجرية بإضاءة مطبخ ناعمة',
+    prompt:
+      'Editorial photo of a polished granite kitchen countertop with a wooden cutting board, a knife and a bowl of lemons resting on it, a stone backsplash behind, soft kitchen light, Medina home interior, no people, no text, professional photography, sharp focus',
+    topics: [
+      'أسطح مطبخ جرانيت',
+      'جرانيت مطبخ',
+      'سطح مطبخ حجر',
+      'المدينة المنورة',
+      'أسطح حجرية',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
