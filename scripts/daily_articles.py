@@ -177,6 +177,23 @@ def structural_report(post, products, existing_slugs):
     for f in faq:
         if not f.get("q") or not f.get("a"):
             problems.append("FAQ without q or a")
+    # gate: minimum article length. The owner's rule is > 1000 characters of
+    # real content per article; anything shorter is a stub, not an article.
+    total = 0
+    for s in secs:
+        total += len(s.get("h") or "")
+        total += sum(len(x) for x in (s.get("p") or []))
+        total += sum(len(x) for x in (s.get("bullets") or []))
+        tb = s.get("table") or {}
+        total += sum(len(x) for x in (tb.get("head") or []))
+        total += sum(len(c) for row in (tb.get("rows") or []) for c in row)
+        total += sum(len(x) + len(y) for x, y in (s.get("steps") or []))
+    total += sum(len(f.get("q") or "") + len(f.get("a") or "") for f in faq)
+    total += sum(len(x) for x in (post.get("takeaways") or []))
+    if total < 1000:
+        problems.append(
+            f"article too short: {total} chars of content (need > 1000)"
+        )
     for r in post.get("related") or []:
         if r not in products:
             problems.append(f"related product slug not in catalog: {r}")
