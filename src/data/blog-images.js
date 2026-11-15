@@ -2958,6 +2958,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-maintenance-medina',
+    file: '/images/blog-ai/stone-maintenance-medina.jpg',
+    scene:
+      'فني بقفازات يمسح سطحاً حجرياً بقماشة ناعمة وزجاجة منظف متعادل على طاولة عمل',
+    prompt:
+      'Editorial scene: a technician\'s gloved hands wiping a natural stone countertop with a soft cloth and a small bottle of neutral cleaner on a workbench, workshop background, daylight',
+    topics: [
+      'صيانة الحجر',
+      'تنظيف متعادل',
+      'عزل الأسطح',
+      'منظف حجر',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
