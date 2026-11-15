@@ -2915,6 +2915,35 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's3-2026-11-05-stone-granite-gabbro-dark',
+    file: '/images/blog-ai/s3-2026-11-05-stone-granite-gabbro-dark.jpg',
+    scene:
+      'مشهد تصويري لـDark Gabbro Granite بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Dark Gabbro Granite granite, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'جرانيت',
+      'جابرو',
+      'حجر طبيعي',
+      'واجهات',
+    ],
+    usedBy: [''],
+  },
+  {
+    slug: 's3-2026-11-08-stone-granite-silver-wave',
+    file: '/images/blog-ai/s3-2026-11-08-stone-granite-silver-wave.jpg',
+    scene:
+      'مشهد تصويري لـSilver Wave Granite بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Silver Wave Granite granite, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'جرانيت',
+      'حجر طبيعي',
+      'واجهات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
