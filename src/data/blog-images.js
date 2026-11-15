@@ -2887,6 +2887,18 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's3-2026-11-15-stone-indian-galaxy-black',
+    file: '/images/blog-ai/s3-2026-11-15-stone-indian-galaxy-black.jpg',
+    scene:
+      'مشهد مقارنة قبل وبعد لواجهة فيلا: جدار خرساني خام قبل الكسوة، ثم واجهة مكسوة بجرانيت جالاكسي أسود مصقول ببقع ذهبية وفضية',
+    prompt:
+      'Modern luxury villa facade fully clad in polished Indian Black Galaxy Granite, black natural stone slabs with golden and silver speckled crystals, before and after split with bare concrete wall, architectural photography, soft daylight, high detail, no people, no text, no watermark',
+    topics: [
+      'granite',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
