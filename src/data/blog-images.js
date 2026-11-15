@@ -2899,6 +2899,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'travertine-polishing-maintenance-medina',
+    file: '/images/blog-ai/travertine-polishing-maintenance-medina.jpg',
+    scene:
+      'ماكينة تلميع بقرص صوف على أرضية ترافرتينو بجانب دلو صغير بمسحوق تلميع وقطعة قماش نظيفة',
+    prompt:
+      'Editorial photo of a polishing machine with a buffing pad resting on a travertine floor beside a small bucket of polishing powder, a clean cloth nearby, warm workshop light, Medina home interior, no people, no text, professional photography, sharp focus',
+    topics: [
+      'تلميع ترافرتينو',
+      'صيانة ترافرتينو',
+      'تلميع حجر',
+      'المدينة المنورة',
+      'ترافرتينو',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
