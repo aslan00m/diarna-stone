@@ -2861,6 +2861,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-restoration-cleaning-medina',
+    file: '/images/blog-ai/stone-restoration-cleaning-medina.jpg',
+    scene:
+      'ماكينة تلميع ثابتة فوق لوح رخام في ورشة عمل',
+    prompt:
+      'Macro photograph of a rotary polishing buffing machine head resting on a beige natural marble slab surface on a workbench, foam cleaning residue on the stone, workshop background, daylight, sharp focus, no people, no hands, static tool on surface, professional photography, high detail',
+    topics: [
+      'ترميم حجر',
+      'stone restoration',
+      'تنظيف',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
