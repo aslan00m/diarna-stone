@@ -3013,6 +3013,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'natural-vs-artificial-stone-medina',
+    file: '/images/blog-ai/natural-vs-artificial-stone-medina.jpg',
+    scene:
+      'عيّنتان مربعتان من الحجر فوق طاولة عمل، واحدة بعروق طبيعية غير منتظمة والأخرى بنقشة موحدة متكررة، وبجانبهما عدسة مكبرة ومسطرة معدنية',
+    prompt:
+      'Editorial photo of two square stone tile samples side by side on a workbench, one with natural irregular veining and the other with a uniform printed pattern, a small magnifying glass and a metal ruler resting beside them, workshop background, daylight, no people, no text, professional photography, sharp focus',
+    topics: [
+      'الحجر الطبيعي',
+      'الحجر الصناعي',
+      'مقارنة الأحجار',
+      'المدينة المنورة',
+      'عيّنات حجر',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
