@@ -2279,9 +2279,9 @@ export const BLOG_AI_IMAGES = [
     slug: 'marble-bathroom-floors-medina',
     file: '/images/blog-ai/marble-bathroom-floors-medina.jpg',
     scene:
-      '',
+      'أرضية حمام ببلاط رخام بيج بتشطيب غير لامع، ومنشفة مطوية وفرشاة خشبية على الحافة، وإضاءة نهارية ناعمة',
     prompt:
-      'Luxury bathroom with honed marble floor, warm LED lighting, modern fixtures, clean and dry surface, no text',
+      'Editorial photograph of a bathroom floor in warm beige honed marble tiles with a subtle non-slip texture, a folded cotton towel and a wooden bath brush placed near the edge, soft daylight from a side window, Medina home interior, no people, no text, professional photography, sharp focus',
     topics: [
     ],
     usedBy: [''],
