@@ -3002,6 +3002,17 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-washbasin-care-medina',
+    file: '/images/blog-ai/stone-washbasin-care-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Editorial photo of hands polishing a natural stone washbasin in a Medina bathroom, soft microfiber cloth and a small bowl of mild solution on the counter, warm neutral tones, close-up, no text',
+    topics: [
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
