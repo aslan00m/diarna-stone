@@ -2990,6 +2990,18 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'bathroom-floor-drain-slope-stone-medina',
+    file: '/images/blog-ai/bathroom-floor-drain-slope-stone-medina.jpg',
+    scene:
+      'أرضية دش ببلاط حجري بيج مطفي تميل بلطف نحو مصرف أرضي مربع من الفولاذ، مع قطرات ماء على السطح وجدار مبلط في الخلفية',
+    prompt:
+      'Editorial photograph of a shower floor in honed beige stone tiles sloping gently toward a square stainless steel floor drain, water droplets on the surface, tiled wall in the background, Medina home bathroom, no people, no text, professional photography, sharp focus',
+    topics: [
+      'ميل أرضية الحمام، صرف أرضية الحمام، أرضية حمام حجرية، مقاومة الانزلاق، المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
