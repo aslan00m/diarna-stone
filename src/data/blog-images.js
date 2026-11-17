@@ -3029,6 +3029,18 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-heritage-restoration-medina',
+    file: '/images/blog-ai/stone-heritage-restoration-medina.jpg',
+    scene:
+      'واجهة مبنى تراثي قديم من الحجر الجيري البيج متآكلة السطح، مع رقع إصلاح ظاهرة وتنظيف جزئي، في شارع مدينة قديمة، إضاءة نهارية، بلا أشخاص',
+    prompt:
+      'Photograph of a heritage stone building facade after restoration, close view of weathered beige limestone blocks with patched repairs and partial cleaning, old town street, daylight, sharp focus, professional photography, no people, no text',
+    topics: [
+      'ترميم الحجر، المباني التراثية، المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
