@@ -2328,9 +2328,9 @@ export const BLOG_AI_IMAGES = [
     slug: 'stone-veneer-installation-medina',
     file: '/images/blog-ai/stone-veneer-installation-medina.jpg',
     scene:
-      '',
+      'مسطرين معجون ومطرقة مطاطية على ألواح تكسية حجرية مكدسة فوق طاولة عمل، ودلو مونة وميزان مياه بجانبها',
     prompt:
-      'Stone veneer installation on villa wall, Medina, worker applying adhesive, natural stone panels, daylight',
+      'Editorial photo of a notched trowel and a rubber mallet resting on stacked natural stone veneer panels on a workbench, bucket of thin-set mortar and a spirit level nearby, workshop background, daylight, no people, no text, professional photography, sharp focus',
     topics: [
     ],
     usedBy: [''],
