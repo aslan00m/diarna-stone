@@ -3041,6 +3041,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-staircase-design-villas-medina',
+    file: '/images/blog-ai/stone-staircase-design-villas-medina.jpg',
+    scene:
+      'درجتا سلم من الجرانيت بكافة أمامية مستديرة متراصتان على طاولة ورشة مغبرة وبجانبهما قرص تلميع',
+    prompt:
+      'Editorial workshop photograph of a thick granite stair tread with a rounded nosing edge lying on a dusty stone-mason workbench, a diamond polishing pad beside it, fine stone dust in the air, daylight from a window, no people, no hands, no text, professional photography, sharp focus',
+    topics: [
+      'سلالم حجر',
+      'درجات جرانيت',
+      'حافة درجة',
+      'ورشة حجر',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
