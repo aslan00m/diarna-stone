@@ -3089,6 +3089,18 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-garden-benches-medina',
+    file: '/images/blog-ai/stone-garden-benches-medina.jpg',
+    scene:
+      'عامل يركّب مقعداً حجرياً في فناء منزل بالمدينة المنورة مع ألواح حجر وأدوات حوله',
+    prompt:
+      'Editorial photograph of a craftsman setting a polished granite garden bench into a compacted mortar bed in a Medina courtyard, warm late afternoon light, fine dust in the air, tools and stone slabs arranged around, no text, no watermark',
+    topics: [
+      'مقاعد حجرية، فناء، تركيب، جرانيت، حديقة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
