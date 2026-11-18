@@ -3057,6 +3057,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-sink-installation-medina',
+    file: '/images/blog-ai/stone-sink-installation-medina.jpg',
+    scene:
+      'مغسلة حوض حجرية منحوتة على خزانة خشبية، وخلاط نحاسي ومنشفة مطوية بجانبها، وإضاءة حمام ناعمة',
+    prompt:
+      'Editorial photo of a carved natural stone vessel sink on a wooden vanity, a brass faucet and a folded towel beside it, a small bowl of soap, soft bathroom light, Medina home interior, no people, no text, professional photography, sharp focus, high detail, 8k',
+    topics: [
+      'مغاسل حجر',
+      'حوض حجر',
+      'تركيب مغاسل',
+      'المدينة المنورة',
+      'رخام',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
