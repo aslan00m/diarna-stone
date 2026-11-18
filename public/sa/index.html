@@ -1,0 +1,653 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f1e9">
+<title>ديارنا الحديثة | الحجر الطبيعي والواجهات والمغاسل</title>
+<meta name="description" content="ديارنا الحديثة للاستثمار: توريد وتركيب الحجر الطبيعي، حجر الرياض، حجر البازلت، الواجهات المعمارية، مغاسل الحجر والرخام، والمطابخ الحجرية الفاخرة.">
+<meta name="keywords" content="ديارنا الحديثة، حجر الرياض، حجر البازلت، الحجر الطبيعي، تركيب واجهات حجر، واجهات المدينة المنورة، مغاسل رخام، مطابخ حجر">
+<style>
+:root{
+  --bg:#f5f2ec;
+  --paper:#fffdf9;
+  --dark:#171815;
+  --dark2:#252720;
+  --gold:#c9a96a;
+  --gold2:#a98950;
+  --text:#34352f;
+  --muted:#77766e;
+  --line:#e8e1d5;
+  --radius:26px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:25px}
+body{
+  margin:0;background:var(--bg);color:var(--dark);
+  font-family:Tahoma,Arial,sans-serif;line-height:1.9
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+button,a{-webkit-tap-highlight-color:transparent}
+.container{width:min(1380px,calc(100% - 36px));margin:auto}
+.shell{
+  margin:25px auto 45px;background:var(--paper);
+  border:1px solid #fff;border-radius:32px;padding:14px;
+  box-shadow:0 20px 70px #342c1b0b;overflow:hidden
+}
+.header{
+  display:grid;grid-template-columns:1fr auto 1fr;
+  align-items:center;gap:24px;padding:8px 18px 18px;
+  min-height:84px
+}
+.brand{display:flex;align-items:center;gap:12px}
+.brand-symbol{
+  width:46px;height:46px;border:1px solid var(--gold);
+  display:grid;place-items:center;font-size:25px;
+  color:var(--gold);font-weight:bold;
+  border-radius:14px 14px 14px 3px
+}
+.brand-title{font-weight:900;font-size:17px;line-height:1.5}
+.brand-sub{
+  display:block;font-size:9px;color:var(--muted);
+  letter-spacing:1.1px;font-weight:normal
+}
+.nav{display:flex;align-items:center;gap:25px;font-size:12px;font-weight:bold}
+.nav a{transition:color .2s}
+.nav a:hover{color:var(--gold2)}
+.header-actions{display:flex;align-items:center;gap:9px;justify-self:end}
+.btn{
+  display:inline-flex;justify-content:center;align-items:center;gap:10px;
+  background:var(--dark);color:white;padding:13px 22px;
+  border-radius:40px;border:1px solid var(--dark);
+  font-size:12px;font-weight:bold;transition:.25s;cursor:pointer
+}
+.btn:hover{background:#35372e;transform:translateY(-2px)}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:#171815}
+.btn.gold:hover{background:#d5b980}
+.btn.outline{background:transparent;border-color:#b7aa92;color:var(--dark)}
+.btn.white{background:var(--paper);border-color:var(--paper);color:var(--dark)}
+.round-btn{
+  width:46px;height:46px;border-radius:50%;background:var(--dark);
+  color:white;display:grid;place-items:center;font-size:22px
+}
+.hero{
+  position:relative;min-height:680px;border-radius:25px;overflow:hidden;
+  background:#c8c0b2;isolation:isolate
+}
+.hero-image{
+  position:absolute;inset:0;z-index:-2;
+  background-image:url('https://dyarnaa.com/images/landing/hero-stone-facade.webp');
+  background-size:cover;background-position:center
+}
+.hero:before{
+  content:"";position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(270deg,
+  rgba(247,243,235,.97) 0%,
+  rgba(247,243,235,.92) 28%,
+  rgba(247,243,235,.64) 48%,
+  rgba(247,243,235,.05) 78%),
+  linear-gradient(0deg,rgba(15,15,13,.35),transparent 38%)
+}
+.hero-content{max-width:720px;padding:90px 6% 90px 0}
+.eyebrow{
+  display:flex;align-items:center;gap:12px;
+  font-size:10px;font-weight:bold;letter-spacing:1.7px;
+  color:#797164;margin-bottom:20px
+}
+.eyebrow:after{content:"";height:1px;width:70px;background:var(--gold)}
+.hero h1{
+  font-size:clamp(43px,5.4vw,76px);line-height:1.25;
+  margin:0 0 22px;font-weight:900;letter-spacing:-1.8px
+}
+.hero h1 span{display:block;color:#a5875c}
+.hero p{font-size:16px;color:#515149;max-width:550px;margin:0 0 27px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero-caption{
+  margin-top:31px;display:flex;align-items:center;gap:12px;
+  font-size:11px;font-weight:bold;color:#53534a
+}
+.gold-dot{width:9px;height:9px;background:var(--gold);border-radius:50%;box-shadow:0 0 0 5px #c9a96a26}
+.hero-bottom{
+  position:absolute;bottom:20px;left:20px;right:20px;
+  display:flex;gap:9px;flex-wrap:wrap
+}
+.hero-tag{
+  background:#fffdf0e8;border:1px solid #ffffffa8;
+  padding:9px 15px;border-radius:30px;font-size:11px;font-weight:bold
+}
+.section{padding:86px 4.5%}
+.section-head{
+  display:flex;justify-content:space-between;align-items:end;
+  gap:28px;margin-bottom:34px
+}
+.kicker{font-size:10px;letter-spacing:1.5px;color:var(--gold2);font-weight:bold;margin-bottom:9px}
+.section h2{
+  font-size:clamp(30px,3.6vw,47px);line-height:1.4;
+  margin:0;font-weight:900
+}
+.section-head>p{font-size:13px;color:var(--muted);max-width:450px;margin:0}
+.gold-line{width:65px;height:3px;background:var(--gold);margin-top:17px}
+.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.intro-image{
+  min-height:440px;border-radius:22px;background-size:cover;background-position:center;
+  background-image:url('https://dyarnaa.com/images/landing/about-natural-stone.webp')
+}
+.intro-copy h3{font-size:26px;line-height:1.6;margin:0 0 15px}
+.intro-copy p{font-size:14px;color:var(--muted);margin:0 0 15px}
+.checks{list-style:none;padding:0;margin:24px 0;display:grid;gap:9px}
+.checks li{font-size:13px;font-weight:bold}
+.checks li:before{content:"✦";color:var(--gold2);margin-left:10px}
+.service-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:19px}
+.service-card{
+  background:#fff;border:1px solid var(--line);border-radius:20px;
+  overflow:hidden;transition:transform .25s,box-shadow .25s
+}
+.service-card:hover{transform:translateY(-5px);box-shadow:0 16px 40px #29251b0d}
+.service-image{height:235px;background-size:cover;background-position:center;position:relative}
+.service-number{
+  position:absolute;top:14px;right:14px;width:38px;height:38px;
+  border-radius:50%;display:grid;place-items:center;
+  background:#fffdf2ed;color:var(--gold2);font-size:12px;font-weight:bold
+}
+.service-body{padding:22px}
+.service-body h3{font-size:19px;margin:0 0 9px}
+.service-body p{font-size:12px;color:var(--muted);margin:0 0 17px}
+.small-link{font-size:12px;font-weight:bold;color:var(--gold2);border-bottom:1px solid var(--gold);padding-bottom:5px}
+.img-riyadh{background-image:url('https://dyarnaa.com/images/landing/service-riyadh-stone.webp')}
+.img-basalt{background-image:url('https://dyarnaa.com/images/landing/service-basalt.webp')}
+.img-facade{background-image:url('https://dyarnaa.com/images/landing/service-facade.webp')}
+.img-sink{background-image:url('https://dyarnaa.com/images/landing/service-vanity.webp')}
+.img-kitchen{background-image:url('https://dyarnaa.com/images/landing/service-kitchen.webp')}
+.img-marble{background-image:url('https://dyarnaa.com/images/landing/service-marble-granite.webp')}
+.dark-band{
+  background:var(--dark);color:white;border-radius:23px;
+  padding:43px;margin:0 4.5%;display:grid;
+  grid-template-columns:1fr 1fr;gap:40px;align-items:center
+}
+.dark-band .kicker{color:var(--gold)}
+.dark-band h2{font-size:clamp(27px,3vw,40px);line-height:1.5;margin:0 0 14px}
+.dark-band p{font-size:13px;color:#d1d0c8;margin:0 0 20px}
+.dark-features{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.dark-feature{padding:17px;border:1px solid #ffffff20;border-radius:15px}
+.dark-feature b{display:block;font-size:13px;color:var(--gold);margin-bottom:5px}
+.dark-feature span{font-size:11px;color:#deddd5}
+.material-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.material{
+  min-height:365px;border-radius:22px;position:relative;overflow:hidden;
+  background-size:cover;background-position:center;display:flex;align-items:end;
+  isolation:isolate
+}
+.material:before{
+  content:"";position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(0deg,#10110ff2 0%,#10110f82 45%,transparent 100%)
+}
+.material.riyadh{
+  background-image:url('https://dyarnaa.com/images/landing/riyadh-stone-feature.webp')
+}
+.material.basalt{
+  background-image:url('https://dyarnaa.com/images/landing/basalt-stone-feature.webp')
+}
+.material-content{padding:28px;color:white}
+.material-content .kicker{color:var(--gold)}
+.material-content h3{font-size:29px;margin:0 0 8px}
+.material-content p{font-size:12px;color:#eeece6;max-width:440px;margin:0 0 17px}
+.material-content .btn{font-size:11px}
+.gallery-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;grid-template-rows:220px 220px;gap:13px}
+.gallery-item{border-radius:17px;background-size:cover;background-position:center;overflow:hidden}
+.gallery-item:first-child{grid-row:span 2}
+.g1{background-image:url('https://dyarnaa.com/images/landing/gallery-facade.webp')}
+.g2{background-image:url('https://dyarnaa.com/images/landing/gallery-stone-detail.webp')}
+.g3{background-image:url('https://dyarnaa.com/images/landing/gallery-stone-vanity.webp')}
+.g4{background-image:url('https://dyarnaa.com/images/landing/gallery-kitchen-stone.webp')}
+.g5{background-image:url('https://dyarnaa.com/images/landing/gallery-basalt-facade.webp')}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}
+.process-card{padding:22px;border-top:1px solid #d8d0c3}
+.process-num{font-size:12px;color:var(--gold2);font-weight:bold;letter-spacing:1px}
+.process-card h3{font-size:16px;margin:13px 0 7px}
+.process-card p{font-size:12px;color:var(--muted);margin:0}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.why-card{border:1px solid var(--line);border-radius:18px;background:white;padding:25px}
+.why-icon{
+  width:43px;height:43px;display:grid;place-items:center;
+  border-radius:13px;background:#f2eee5;color:var(--gold2);
+  font-size:20px;margin-bottom:14px
+}
+.why-card h3{font-size:16px;margin:0 0 8px}
+.why-card p{font-size:12px;color:var(--muted);margin:0}
+.cta{
+  margin:0 4.5% 35px;padding:38px;border-radius:23px;
+  background:linear-gradient(120deg,#282a23,#171815);color:white;
+  display:flex;align-items:center;justify-content:space-between;gap:24px
+}
+.cta .kicker{color:var(--gold)}
+.cta h2{font-size:clamp(26px,3vw,38px);line-height:1.5;margin:0 0 9px}
+.cta p{font-size:13px;color:#d2d0c8;margin:0}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+details{border:1px solid var(--line);border-radius:15px;padding:18px;background:white}
+summary{cursor:pointer;font-weight:bold;font-size:13px}
+details p{font-size:12px;color:var(--muted);margin-bottom:0}
+.footer{
+  padding:28px 4.5% 15px;border-top:1px solid var(--line);
+  display:flex;align-items:center;justify-content:space-between;
+  gap:20px;color:var(--muted);font-size:11px
+}
+.footer-contact{display:flex;gap:17px;flex-wrap:wrap}
+.floating{
+  position:fixed;bottom:19px;left:19px;z-index:50;
+  display:flex;align-items:center;gap:9px;
+  padding:13px 18px;background:#25291f;color:white;
+  border:1px solid #ffffff35;border-radius:50px;
+  box-shadow:0 8px 30px #0002;font-size:12px;font-weight:bold
+}
+@media(max-width:1000px){
+  .header{grid-template-columns:1fr auto}
+  .nav{display:none}
+  .service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .intro-grid{gap:25px}
+  .process{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:650px){
+  .container{width:calc(100% - 12px)}
+  .shell{margin:7px auto 25px;padding:7px;border-radius:23px}
+  .header{padding:4px 6px 12px;min-height:66px;gap:8px}
+  .brand{gap:8px}.brand-symbol{width:37px;height:37px;font-size:20px}
+  .brand-title{font-size:13px}.brand-sub{font-size:8px;letter-spacing:0}
+  .header-actions{gap:5px}.header-actions .btn{font-size:10px;padding:10px 11px}
+  .round-btn{width:37px;height:37px}
+  .hero{min-height:660px;border-radius:18px}
+  .hero-image{background-position:center}
+  .hero:before{background:linear-gradient(270deg,#f7f3ebf5,#f7f3ebdc 58%,#f7f3eb48)}
+  .hero-content{padding:65px 20px 95px;max-width:100%}
+  .hero h1{font-size:44px;letter-spacing:-1px}
+  .hero p{font-size:14px}
+  .hero-bottom{right:12px;left:12px;bottom:12px;gap:6px}
+  .hero-tag{font-size:9px;padding:8px 10px}
+  .section{padding:53px 12px}
+  .section-head{align-items:flex-start;flex-direction:column;gap:12px}
+  .intro-grid,.material-grid{grid-template-columns:1fr}
+  .intro-image{min-height:290px;order:1}
+  .intro-copy{order:2}
+  .service-grid{grid-template-columns:1fr}
+  .service-image{height:230px}
+  .dark-band{margin:0 12px;padding:27px 20px;grid-template-columns:1fr;gap:23px}
+  .dark-features{gap:9px}
+  .dark-feature{padding:13px}
+  .material{min-height:330px}
+  .material-content{padding:22px}
+  .gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:190px 150px 150px}
+  .gallery-item:first-child{grid-row:auto;grid-column:span 2}
+  .process,.why-grid,.faq-grid{grid-template-columns:1fr}
+  .process-card{padding:18px}
+  .cta{margin:0 12px 26px;padding:26px 21px;align-items:flex-start;flex-direction:column}
+  .footer{padding:24px 12px 12px;align-items:flex-start;flex-direction:column}
+  .floating{left:11px;bottom:11px;padding:11px 14px;font-size:11px}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="shell">
+
+<header class="header">
+  <a class="brand" href="#home" aria-label="ديارنا الحديثة">
+    <span class="brand-symbol">د</span>
+    <span>
+      <span class="brand-title">ديارنا الحديثة</span>
+      <span class="brand-sub">للاستثمار · الحجر والرخام والواجهات</span>
+    </span>
+  </a>
+
+  <nav class="nav" aria-label="القائمة الرئيسية">
+    <a href="#services">خدماتنا</a>
+    <a href="#materials">أنواع الحجر</a>
+    <a href="#gallery">معرض الأعمال</a>
+    <a href="#process">مراحل العمل</a>
+    <a href="#faq">الأسئلة الشائعة</a>
+  </nav>
+
+  <div class="header-actions">
+    <a class="btn gold" href="https://wa.me/966592705074" target="_blank" rel="noopener">اطلب عرض سعر</a>
+    <a class="round-btn" href="#services" aria-label="استكشف الخدمات">↙</a>
+  </div>
+</header>
+
+<main id="home">
+
+<section class="hero">
+  <div class="hero-image"></div>
+  <div class="hero-content">
+    <div class="eyebrow">حجر طبيعي · تصميم معماري · تفاصيل فاخرة</div>
+    <h1>جمال الطبيعة<br><span>في كل تفصيلة</span></h1>
+    <p>
+      في ديارنا الحديثة، نقدم حلول الحجر الطبيعي والرخام
+      للواجهات المعمارية والمغاسل والمطابخ. من حجر الرياض
+      إلى حجر البازلت، نساعدك في تحويل فكرتك إلى مساحة
+      تجمع بين جمال الخامة وجودة التنفيذ.
+    </p>
+    <div class="hero-actions">
+      <a class="btn gold" href="#services">اكتشف خدماتنا <span>↙</span></a>
+      <a class="btn white" href="https://wa.me/966592705074" target="_blank" rel="noopener">تواصل مع فريقنا ↗</a>
+    </div>
+    <div class="hero-caption">
+      <span class="gold-dot"></span>
+      <span>توريد وتركيب الحجر الطبيعي وحلول التصميم المعماري</span>
+    </div>
+  </div>
+  <div class="hero-bottom">
+    <span class="hero-tag">حجر الرياض</span>
+    <span class="hero-tag">حجر البازلت</span>
+    <span class="hero-tag">واجهات معمارية</span>
+    <span class="hero-tag">مغاسل ومطابخ حجرية</span>
+  </div>
+</section>
+
+<section class="section">
+  <div class="intro-grid">
+    <div class="intro-image" role="img" aria-label="تصميم معماري داخلي بخامات طبيعية"></div>
+    <div class="intro-copy">
+      <div class="kicker">عن ديارنا الحديثة</div>
+      <h2>خامات طبيعية<br>تصنع فرقًا في المكان</h2>
+      <div class="gold-line"></div>
+      <p>
+        في مجموعة ديارنا الحديثة للاستثمار، نؤمن بأن الحجر الطبيعي
+        أكثر من مجرد خامة بناء؛ فهو جزء من هوية المكان وجماله.
+        لذلك نهتم بتقديم حلول تناسب التصاميم المعمارية الحديثة
+        والكلاسيكية، مع مراعاة طبيعة المشروع واختيار الخامة الملائمة.
+      </p>
+      <p>
+        تشمل خدماتنا توريد وتركيب الحجر الطبيعي والرخام والجرانيت،
+        وتنفيذ الواجهات المعمارية، وتصميم مغاسل حجرية ورخامية،
+        وحلول المطابخ التي تجمع بين الاستخدام العملي والمظهر الأنيق.
+      </p>
+      <ul class="checks">
+        <li>توريد الحجر الطبيعي بمختلف الاستخدامات</li>
+        <li>تركيب واجهات حجرية للمباني والمشاريع</li>
+        <li>مغاسل ومطابخ بتصاميم حسب الطلب</li>
+        <li>خيارات من حجر الرياض وحجر البازلت</li>
+      </ul>
+      <a class="btn" href="https://wa.me/966592705074" target="_blank" rel="noopener">ناقش مشروعك معنا ↗</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="section-head">
+    <div>
+      <div class="kicker">خدماتنا</div>
+      <h2>من الواجهة الخارجية<br>إلى تفاصيل منزلك الداخلية</h2>
+    </div>
+    <p>
+      حلول متنوعة للحجر والرخام، مصممة لتلبية احتياجات المنازل
+      والفلل والمباني التجارية والمشاريع المعمارية.
+    </p>
+  </div>
+
+  <div class="service-grid">
+    <article class="service-card">
+      <div class="service-image img-riyadh"><span class="service-number">01</span></div>
+      <div class="service-body">
+        <h3>توريد حجر الرياض</h3>
+        <p>خيارات من حجر الرياض الطبيعي للواجهات والتفاصيل المعمارية، مع إمكانية مناقشة المقاسات والتشطيبات المطلوبة للمشروع.</p>
+        <a class="small-link" href="https://wa.me/966592705074?text=أرغب%20بالاستفسار%20عن%20حجر%20الرياض" target="_blank" rel="noopener">استفسر عن حجر الرياض ↙</a>
+      </div>
+    </article>
+
+    <article class="service-card">
+      <div class="service-image img-basalt"><span class="service-number">02</span></div>
+      <div class="service-body">
+        <h3>حجر البازلت</h3>
+        <p>حجر طبيعي بطابع مميز يناسب مجموعة من التطبيقات المعمارية والخارجية، مع خيارات متنوعة بحسب الاستخدام والتصميم.</p>
+        <a class="small-link" href="https://wa.me/966592705074?text=أرغب%20بالاستفسار%20عن%20حجر%20البازلت" target="_blank" rel="noopener">اكتشف خيارات البازلت ↙</a>
+      </div>
+    </article>
+
+    <article class="service-card">
+      <div class="service-image img-facade"><span class="service-number">03</span></div>
+      <div class="service-body">
+        <h3>تركيب الواجهات الحجرية</h3>
+        <p>واجهات معمارية من الحجر الطبيعي تمنح المبنى حضورًا مميزًا، مع الاهتمام بتناسق الألوان والتفاصيل وطبيعة التصميم.</p>
+        <a class="small-link" href="https://wa.me/966592705074?text=أرغب%20بعرض%20سعر%20لتركيب%20واجهة%20حجرية" target="_blank" rel="noopener">اطلب عرض الواجهات ↙</a>
+      </div>
+    </article>
+
+    <article class="service-card">
+      <div class="service-image img-sink"><span class="service-number">04</span></div>
+      <div class="service-body">
+        <h3>مغاسل رخامية وحجرية</h3>
+        <p>مغاسل بتصاميم عصرية أو كلاسيكية، مع خيارات من الرخام والجرانيت والحجر الطبيعي لتناسب مساحة الحمام وهوية الديكور.</p>
+        <a class="small-link" href="https://wa.me/966592705074?text=أرغب%20بتصميم%20مغسلة%20رخام%20أو%20حجر" target="_blank" rel="noopener">صمم مغسلتك ↙</a>
+      </div>
+    </article>
+
+    <article class="service-card">
+      <div class="service-image img-kitchen"><span class="service-number">05</span></div>
+      <div class="service-body">
+        <h3>مطابخ الحجر والرخام</h3>
+        <p>أسطح وتفاصيل حجرية للمطابخ، مع اختيار الخامة والتشطيب بما يتناسب مع التصميم والاستخدام اليومي ومتطلبات المساحة.</p>
+        <a class="small-link" href="https://wa.me/966592705074?text=أرغب%20بالاستفسار%20عن%20أسطح%20المطابخ%20الحجرية" target="_blank" rel="noopener">ناقش تصميم مطبخك ↙</a>
+      </div>
+    </article>
+
+    <article class="service-card">
+      <div class="service-image img-marble"><span class="service-number">06</span></div>
+      <div class="service-body">
+        <h3>الرخام والجرانيت</h3>
+        <p>حلول من الرخام والجرانيت الطبيعي للاستخدامات الداخلية والتفاصيل الديكورية، مع تنوع في المظهر والعروق والألوان بحسب المتاح.</p>
+        <a class="small-link" href="https://wa.me/966592705074?text=أرغب%20بمعرفة%20خيارات%20الرخام%20والجرانيت" target="_blank" rel="noopener">تعرّف على الخامات ↙</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="dark-band">
+  <div>
+    <div class="kicker">تفاصيل تصنع الهوية</div>
+    <h2>الحجر الطبيعي<br>اختيار يدوم في الذاكرة</h2>
+    <p>
+      سواء كنت تخطط لواجهة فيلا، أو مدخل مبنى، أو مغسلة مصممة
+      خصيصًا لك، فإن اختيار نوع الحجر وتشطيبه وتناسق تفاصيله
+      يساعد على إبراز الطابع المعماري للمكان.
+    </p>
+    <a class="btn gold" href="https://wa.me/966592705074" target="_blank" rel="noopener">ابدأ الاستفسار عن مشروعك ↗</a>
+  </div>
+  <div class="dark-features">
+    <div class="dark-feature"><b>الحجر الطبيعي</b><span>خامات ذات طابع وتفاصيل فريدة</span></div>
+    <div class="dark-feature"><b>التصميم المعماري</b><span>خيارات تناسب أنماطًا متنوعة</span></div>
+    <div class="dark-feature"><b>التفصيل حسب الطلب</b><span>مغاسل وحلول حجرية وفق المقاسات</span></div>
+    <div class="dark-feature"><b>تنوع الاستخدامات</b><span>واجهات وديكورات ومساحات داخلية</span></div>
+  </div>
+</section>
+
+<section class="section" id="materials">
+  <div class="section-head">
+    <div>
+      <div class="kicker">خاماتنا المميزة</div>
+      <h2>حجر الرياض<br>وحجر البازلت</h2>
+    </div>
+    <p>
+      خامتان طبيعيتان بطابعين مختلفين، ويمكن اختيار الأنسب
+      وفق تصميم المشروع وطبيعة الاستخدام والتشطيب المطلوب.
+    </p>
+  </div>
+  <div class="material-grid">
+    <article class="material riyadh">
+      <div class="material-content">
+        <div class="kicker">NATURAL STONE</div>
+        <h3>حجر الرياض</h3>
+        <p>
+          خيار مميز للواجهات والتفاصيل المعمارية، تتنوع ملامحه
+          وتشطيبته بحسب نوع الحجر والمقاسات والتصميم المختار.
+          تواصل معنا لمعرفة الخيارات المناسبة لمشروعك.
+        </p>
+        <a class="btn gold" href="https://wa.me/966592705074?text=السلام%20عليكم،%20أرغب%20في%20توريد%20حجر%20الرياض" target="_blank" rel="noopener">استفسر عن التوريد ↗</a>
+      </div>
+    </article>
+    <article class="material basalt">
+      <div class="material-content">
+        <div class="kicker">BASALT STONE</div>
+        <h3>حجر البازلت</h3>
+        <p>
+          حجر طبيعي ذو حضور قوي ومظهر مميز، يناسب تطبيقات
+          معمارية متعددة وفق نوع البازلت والتشطيب ومواصفات الموقع.
+          اطلب تفاصيل الأنواع المتاحة للمشروع.
+        </p>
+        <a class="btn gold" href="https://wa.me/966592705074?text=السلام%20عليكم،%20أرغب%20في%20توريد%20حجر%20البازلت" target="_blank" rel="noopener">استفسر عن الأنواع ↗</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="gallery">
+  <div class="section-head">
+    <div>
+      <div class="kicker">إلهام للمشاريع</div>
+      <h2>أفكار من عالم الحجر<br>والتصميم المعماري</h2>
+    </div>
+    <p>
+      استكشف أنماطًا معمارية وداخلية تساعدك في تحديد اتجاه التصميم
+      الذي يناسب مشروعك.
+    </p>
+  </div>
+  <div class="gallery-grid">
+    <div class="gallery-item g1" role="img" aria-label="إلهام لواجهة معمارية حديثة"></div>
+    <div class="gallery-item g2" role="img" aria-label="إلهام لتصميم داخلي بخامات طبيعية"></div>
+    <div class="gallery-item g3" role="img" aria-label="إلهام لتصميم مغسلة"></div>
+    <div class="gallery-item g4" role="img" aria-label="إلهام لتفاصيل معمارية"></div>
+    <div class="gallery-item g5" role="img" aria-label="إلهام للرخام والديكور الداخلي"></div>
+  </div>
+  <p style="font-size:11px;color:var(--muted);margin-top:14px">
+    الصور المعروضة للإلهام البصري، وليست توثيقًا لأعمال منفذة بواسطة الشركة.
+  </p>
+</section>
+
+<section class="section" id="process">
+  <div class="section-head">
+    <div>
+      <div class="kicker">كيف نبدأ؟</div>
+      <h2>خطوات واضحة لمشروعك</h2>
+    </div>
+    <p>أرسل لنا فكرة المشروع وتفاصيله الأساسية، لنناقش الخامة المناسبة وخيارات التنفيذ.</p>
+  </div>
+  <div class="process">
+    <article class="process-card">
+      <div class="process-num">01 / الاستفسار</div>
+      <h3>شاركنا فكرتك</h3>
+      <p>حدد نوع الخدمة: واجهة، توريد حجر، مغسلة، مطبخ أو رخام وجرانيت.</p>
+    </article>
+    <article class="process-card">
+      <div class="process-num">02 / تفاصيل المشروع</div>
+      <h3>أرسل المقاسات والموقع</h3>
+      <p>شارك الموقع والمقاسات التقريبية والصور أو المخططات إن توفرت.</p>
+    </article>
+    <article class="process-card">
+      <div class="process-num">03 / اختيار الخامة</div>
+      <h3>ناقش الخيارات المناسبة</h3>
+      <p>استفسر عن نوع الحجر والتشطيب والمقاسات الملائمة لاستخدامك.</p>
+    </article>
+    <article class="process-card">
+      <div class="process-num">04 / عرض السعر</div>
+      <h3>راجع تفاصيل العرض</h3>
+      <p>اطلب عرض سعر يتضمن نطاق العمل والخامات والكميات والتفاصيل المتفق عليها.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <div class="kicker">لماذا ديارنا الحديثة؟</div>
+      <h2>اهتمام بالخامة<br>وتفاصيل المشروع</h2>
+    </div>
+    <p>نساعدك على فهم الخيارات المتاحة قبل اتخاذ قرارك، من نوع الحجر إلى استخدامه والتشطيب المطلوب.</p>
+  </div>
+  <div class="why-grid">
+    <article class="why-card">
+      <div class="why-icon">◇</div>
+      <h3>تنوع الخامات</h3>
+      <p>خيارات من الحجر الطبيعي والرخام والجرانيت، مع إمكانية الاستفسار عن حجر الرياض والبازلت.</p>
+    </article>
+    <article class="why-card">
+      <div class="why-icon">⌂</div>
+      <h3>حلول متعددة</h3>
+      <p>خدمات للواجهات والمغاسل والمطابخ والتفاصيل المعمارية وفق احتياج المشروع.</p>
+    </article>
+    <article class="why-card">
+      <div class="why-icon">✧</div>
+      <h3>تفاصيل حسب الطلب</h3>
+      <p>ناقش المقاسات والتصميم والتشطيب المطلوب للوصول إلى تصور مناسب للمساحة.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="section-head">
+    <div>
+      <div class="kicker">الأسئلة الشائعة</div>
+      <h2>قبل أن تبدأ مشروعك</h2>
+    </div>
+    <p>إجابات عن أبرز الاستفسارات المتعلقة بالحجر الطبيعي والواجهات والمغاسل.</p>
+  </div>
+  <div class="faq-grid">
+    <details>
+      <summary>هل توفرون حجر الرياض؟</summary>
+      <p>يمكنك التواصل للاستفسار عن أنواع حجر الرياض المتاحة والمقاسات والتشطيبات والكميات المناسبة لمشروعك.</p>
+    </details>
+    <details>
+      <summary>هل توفرون حجر البازلت؟</summary>
+      <p>نعم، يمكنك الاستفسار عن توريد حجر البازلت وأنواعه وتشطيباته واستخداماته بحسب متطلبات المشروع.</p>
+    </details>
+    <details>
+      <summary>هل تشمل الخدمات تركيب الواجهات الحجرية؟</summary>
+      <p>تشمل خدمات الشركة تركيب الواجهات الحجرية. أرسل موقع المشروع وصور الواجهة والمقاسات التقريبية لمناقشة التفاصيل.</p>
+    </details>
+    <details>
+      <summary>هل يمكن تنفيذ مغسلة حسب المقاس؟</summary>
+      <p>يمكنك إرسال المقاسات والصور المرجعية والتصميم المطلوب للاستفسار عن إمكانية تنفيذ المغسلة والخامات المناسبة.</p>
+    </details>
+    <details>
+      <summary>هل تقدمون حلولًا للمطابخ الحجرية والرخامية؟</summary>
+      <p>يمكنك الاستفسار عن أسطح المطابخ والخامات والتشطيبات المتاحة، مع توضيح أبعاد المساحة والاستخدام المطلوب.</p>
+    </details>
+    <details>
+      <summary>كيف أطلب عرض سعر؟</summary>
+      <p>تواصل عبر واتساب، وحدد الخدمة والموقع والمقاسات والكميات التقريبية. كلما كانت التفاصيل أوضح، أمكن مناقشة طلبك بصورة أدق.</p>
+    </details>
+  </div>
+</section>
+
+<section class="cta">
+  <div>
+    <div class="kicker">ديارنا الحديثة للاستثمار</div>
+    <h2>لنجعل الحجر جزءًا من هوية مشروعك</h2>
+    <p>للتوريد والتركيب وتصاميم الواجهات والمغاسل والمطابخ الحجرية، تواصل معنا لمناقشة احتياجك.</p>
+  </div>
+  <a class="btn gold" href="https://wa.me/966592705074?text=السلام%20عليكم،%20أرغب%20في%20طلب%20عرض%20سعر%20للحجر%20الطبيعي" target="_blank" rel="noopener">اطلب عرض سعر عبر واتساب ↗</a>
+</section>
+
+</main>
+
+<footer class="footer">
+  <a class="brand" href="#home">
+    <span class="brand-symbol">د</span>
+    <span>
+      <span class="brand-title">ديارنا الحديثة</span>
+      <span class="brand-sub">الحجر والرخام والواجهات والمغاسل</span>
+    </span>
+  </a>
+  <span>© ديارنا الحديثة للاستثمار — جميع الحقوق محفوظة</span>
+  <div class="footer-contact">
+    <a href="https://wa.me/966592705074" target="_blank" rel="noopener">واتساب</a>
+    <a href="tel:+966592705074">اتصال: 0592705074</a>
+  </div>
+</footer>
+
+</div>
+</div>
+
+<a class="floating" href="https://wa.me/966592705074" target="_blank" rel="noopener">
+  <span>◉</span> تحدث معنا عبر واتساب
+</a>
+</body>
+</html>
