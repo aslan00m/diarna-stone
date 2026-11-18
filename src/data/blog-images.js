@@ -3073,6 +3073,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-wall-cladding-medina',
+    file: '/images/blog-ai/stone-wall-cladding-medina.jpg',
+    scene:
+      'جدار رئيسي بكسوة حجر طبيعي بنقشة متراصة بدرجات البيج الدافئ، وأريكة منخفضة أمامه وإضاءة مخفية تبرز نسيج الحجر',
+    prompt:
+      'Editorial interior photo of a living room feature wall in stacked natural stone cladding in warm beige tones, a low sofa with neutral cushions in front, recessed warm lighting grazing the stone texture, Medina home interior, no people, no text, professional photography, sharp focus',
+    topics: [
+      'تكسية جدران',
+      'جدار حجري',
+      'ديكور داخلي',
+      'المدينة المنورة',
+      'حجر طبيعي',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
