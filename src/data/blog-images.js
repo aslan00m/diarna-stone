@@ -3101,6 +3101,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-quality-tests-medina',
+    file: '/images/blog-ai/stone-quality-tests-medina.jpg',
+    scene:
+      'عيّنة حجر جيري بيج على طاولة مختبر وعلى سطحها قدمة رقمية (digital caliper) لقياس السماكة، وميزان صغير وكوب ماء بجانبها',
+    prompt:
+      'Macro photograph of a natural stone sample being tested, a digital caliper measuring thickness on a beige limestone slab, a small digital scale and a glass of water nearby, laboratory bench, daylight, sharp focus, professional photography, no people, no text',
+    topics: [
+      'فحص جودة الحجر',
+      'اختبار امتصاص الماء',
+      'تفاوت السماكة',
+      'استلام الحجر',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
