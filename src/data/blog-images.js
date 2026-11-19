@@ -3163,6 +3163,21 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-countertop-chip-repair-medina',
+    file: '/images/blog-ai/stone-countertop-chip-repair-medina.jpg',
+    scene:
+      'سطح جرانيت مصقول به شرخ ممتلئ بمادة إيبوكسية، وبجانبه زجاجة تطبيق وسكين معجون على طاولة عمل',
+    prompt:
+      'Macro photograph of a hairline crack on a polished beige granite kitchen countertop filled with tinted epoxy resin, a small flexible spatula and a resin applicator bottle lying on the stone surface, soft daylight, sharp focus, professional photography, no text, no watermark',
+    topics: [
+      'إصلاح شرخ',
+      'سطح جرانيت',
+      'إيبوكسي',
+      'مطبخ',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
