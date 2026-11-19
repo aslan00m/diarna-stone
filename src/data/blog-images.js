@@ -3131,6 +3131,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'natural-stone-pool-surround-medina',
+    file: '/images/blog-ai/natural-stone-pool-surround-medina.jpg',
+    scene:
+      'عامل يركّب حجر جرانيت داكن على حافة مسبح خاص بالمدينة المنورة وسطح مبلل وخرطوم حديقة',
+    prompt:
+      'Editorial scene: worker installing dark granite coping stones around a private swimming pool edge in Medina, wet surface, garden hose coiled nearby, bright daylight',
+    topics: [
+      'تبطين مسبح',
+      'حافة مسبح',
+      'جرانيت داكن',
+      'أرضية مبللة',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
