@@ -3147,6 +3147,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-kitchen-backsplash-medina',
+    file: '/images/blog-ai/stone-kitchen-backsplash-medina.jpg',
+    scene:
+      'تكسية جدار خلف موقد مطبخ ببلاط حجر طبيعي، وقدرة معدنية على الموقد وملعقة خشبية على سطح حجري',
+    prompt:
+      'Editorial photo of a kitchen backsplash in natural stone tiles behind a cooktop, a stainless steel pot on the burner and a wooden spatula resting on a stone countertop, warm kitchen light, Medina home interior, no people, no text, professional photography, sharp focus',
+    topics: [
+      'تكسية مطبخ',
+      'حجر مطبخ',
+      'تشطيب المطبخ',
+      'المدينة المنورة',
+      'رخام',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
