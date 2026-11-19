@@ -3117,6 +3117,20 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-garden-planters-raised-beds-medina',
+    file: '/images/blog-ai/stone-garden-planters-raised-beds-medina.jpg',
+    scene:
+      'حوض زرع مرتفع مبني من بلوكات حجر جيري بيج متراصة ومليء بالتربة والشجيرات الصغيرة بجوار ممر حديقة',
+    prompt:
+      'Editorial photograph of a raised garden planter built from stacked beige natural limestone blocks filled with soil and small shrubs, garden path beside it, warm afternoon light, Medina residential garden, no people, no text, professional photography, sharp focus',
+    topics: [
+      'احواض زرع حجرية',
+      'حجر جيري',
+      'حدائق المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
