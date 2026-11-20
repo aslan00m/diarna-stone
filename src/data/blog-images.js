@@ -3198,6 +3198,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-flooring-commercial-medina',
+    file: '/images/blog-ai/stone-flooring-commercial-medina.jpg',
+    scene:
+      'أرضية مقهى ببلاطات جرانيت محروق داكنة كبيرة مع صف من الطاولات والكراسي، وإضاءة نهارية دافئة من واجهة المحل، بلا أشخاص',
+    prompt:
+      'Wide interior photograph of a busy cafe floor paved with large dark flamed granite tiles, a row of tables and chairs on top, warm daylight from shop windows, no people, sharp focus, professional photography',
+    topics: [
+      'أرضيات المحلات التجارية',
+      'جرانيت محروق',
+      'أرضيات مطاعم',
+      'صيانة الحجر',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
