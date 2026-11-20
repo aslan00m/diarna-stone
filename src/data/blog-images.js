@@ -2541,11 +2541,15 @@ export const BLOG_AI_IMAGES = [
     slug: 'limestone-paving-medina-outdoor',
     file: '/images/blog-ai/limestone-paving-medina-outdoor.jpg',
     scene:
-      'تبليط حجر جيري خارجي في فناء Medina',
+      'ممر حديقة مرصوف ببلاط حجر جيري بيج بنسق متداخل، وأشعة شمس دافئة وظلال ناعمة بين الفواصل، وأصيص حجري بنباتات خضراء',
     prompt:
-      'Editorial photograph of limestone paving stones in an outdoor Medina courtyard, natural stone floor, warm sunlight, no people, sharp focus, professional photography',
+      'Editorial photo of an outdoor garden path paved with beige limestone tiles in a running bond pattern, warm sunlight casting soft shadows between joints, a stone planter with green plants at the edge, Medina villa garden, no people, no text, professional photography, sharp focus',
     topics: [
-      'التركيب',
+      'تبليط حجر جيري',
+      'أرضيات خارجية',
+      'حجر جيري',
+      'أرضيات حديقة',
+      'المدينة المنورة',
     ],
     usedBy: [''],
   },
