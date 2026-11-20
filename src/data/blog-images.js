@@ -2632,11 +2632,15 @@ export const BLOG_AI_IMAGES = [
     slug: 'basalt-stone-medina-facades',
     file: '/images/blog-ai/basalt-stone-medina-facades.jpg',
     scene:
-      'واجهة حجر بازلت داكن في المدينة المنورة',
+      'واجهة فيلا حديثة بألواح بازلت داكنة بفواصل ظاهرة، وباب خشبي وإضاءة مسائية دافئة تمسح سطح الحجر',
     prompt:
-      'Macro photograph of dark basalt stone facade texture on a building wall in Medina, natural volcanic stone, warm daylight, sharp focus, professional photography',
+      'Editorial photo of a modern villa facade clad in dark basalt stone panels with visible joint lines, a wooden entrance door, warm evening light grazing the stone surface, Medina residential street, no people, no text, professional photography, sharp focus',
     topics: [
-      'الواجهات',
+      'حجر بازلت',
+      'واجهات بازلت',
+      'بازلت أسود',
+      'واجهات خارجية',
+      'المدينة المنورة',
     ],
     usedBy: [''],
   },
