@@ -3178,6 +3178,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'travertine-filled-vs-untreated-medina',
+    file: '/images/blog-ai/travertine-filled-vs-untreated-medina.jpg',
+    scene:
+      'بلاطتا ترافرتينو مائلتان جنباً إلى جنب في حامل خشبي، إحداهما مملوءة ومصقولة ناعمة والأخرى بفراغاتها الطبيعية الظاهرة',
+    prompt:
+      'Editorial photograph of two travertine stone tiles leaning side by side on a wooden rack in a Medina stone yard, one surface filled and polished smooth, the other unfilled with visible natural holes and channels, warm daylight, no people, no text, professional photography, sharp focus',
+    topics: [
+      'ترافرتينو مملوء',
+      'ترافرتينو غير مملوء',
+      'بلاط ترافرتينو',
+      'واجهات ترافرتينو',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
