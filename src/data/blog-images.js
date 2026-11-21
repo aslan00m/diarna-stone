@@ -3250,6 +3250,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-frost-freeze-damage-medina',
+    file: '/images/blog-ai/stone-frost-freeze-damage-medina.jpg',
+    scene:
+      'بلورات أملاح بيضاء تتفتح على سطح جدار حجري طبيعي مع بقع رطوبة قرب قاعدة الجدار في ضوء نهار بارد ملبد',
+    prompt:
+      'Editorial photograph of white salt efflorescence crystals blooming on a natural stone wall surface, damp patches near the base of the wall, cold overcast daylight, no people, no text, professional photography, sharp focus',
+    topics: [
+      'تلف الحجر بالصقيع',
+      'أملاح الحجر',
+      'مسامية الحجر',
+      'عزل الحجر',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
