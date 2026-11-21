@@ -3218,6 +3218,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-fire-resistance-medina',
+    file: '/images/blog-ai/stone-fire-resistance-medina.jpg',
+    scene:
+      'إطار مدفأة حجري من الجرانيت الداكن الكثيف ونار صغيرة متوهجة داخل التجويف وإضاءة دافئة على سطح الحجر، بلا أشخاص',
+    prompt:
+      'Photograph of a stone fireplace surround made of dense dark granite, a small fire glowing inside the hearth, warm light on the stone surface, living room setting, no people, sharp focus, professional photography',
+    topics: [
+      'مقاومة الحجر للحرارة',
+      'حجر المدافئ',
+      'شوايات حجرية',
+      'التمدد الحراري',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
