@@ -3266,6 +3266,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-water-absorption-test-medina',
+    file: '/images/blog-ai/stone-water-absorption-test-medina.jpg',
+    scene:
+      'عيّنة حجر طبيعي صغيرة على ميزان رقمي بجانب وعاء ماء على طاولة مختبر، وبجانبها لوح بيانات',
+    prompt:
+      'Editorial close-up photograph of a small natural stone sample on a digital scale beside a water container on a laboratory bench in Medina, a clipboard with data sheets beside, soft daylight, no people, no text, professional photography, sharp focus',
+    topics: [
+      'امتصاص الماء',
+      'اختبار الحجر',
+      'كثافة الحجر',
+      'مختبر حجر',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
