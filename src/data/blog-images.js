@@ -3234,6 +3234,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-outdoor-patio-medina',
+    file: '/images/blog-ai/stone-outdoor-patio-medina.jpg',
+    scene:
+      'رصيف حجر فاتح حول مدخل فيلا بالمدينة المنورة وعامل يكنس الرمل الناعم داخل الفواصل',
+    prompt:
+      'Editorial scene: an outdoor stone patio around a villa entrance in Medina with light travertine pavers, a worker sweeping fine sand into the joints, harsh midday sun, sharp focus, high detail, 8k, professional photography, crisp, clear',
+    topics: [
+      'أرضيات خارجية',
+      'ترافرتينو',
+      'فواصل حجر',
+      'رصيف فيلا',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
