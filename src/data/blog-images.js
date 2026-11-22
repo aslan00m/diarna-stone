@@ -3282,6 +3282,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-pergola-cladding-medina',
+    file: '/images/blog-ai/stone-pergola-cladding-medina.jpg',
+    scene:
+      'عريش حديقة بأعمدة مربعة مكسوة بألواح حجر جيري بيج، وسقف خشبي يلقي ظلالاً مخططة على الأرض وحديقة خضراء في الخلفية',
+    prompt:
+      'Editorial photograph of a stone-clad garden pergola with thick square columns covered in beige natural limestone panels, wooden slat roof casting striped shadows on the ground, green garden behind, warm afternoon light, Medina residential garden, no people, no text, professional photography, sharp focus',
+    topics: [
+      'تكسية عريش',
+      'مظلة حجرية',
+      'أعمدة حجرية',
+      'حديقة',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
