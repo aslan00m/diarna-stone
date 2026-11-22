@@ -2688,9 +2688,9 @@ export const BLOG_AI_IMAGES = [
     slug: 'stone-terrace-roof-installation-medina',
     file: '/images/blog-ai/stone-terrace-roof-installation-medina.jpg',
     scene:
-      '',
+      'عاملان يركّبان بلاطات حجر طبيعي على سطح شرفة في المدينة المنورة باستخدام مجرفة مسننة وميزان تسوية، مع مطرقة مطاطية ودلو لاصق في ضوء النهار',
     prompt:
-      'Stone pavers on rooftop terrace with outdoor furniture, Medina skyline view, sunny day, professional photography',
+      'Editorial photo of two installers laying natural stone pavers on a rooftop terrace in Medina, notched trowel and spirit level on the deck, rubber mallet and bucket of adhesive nearby, bright daylight, no text',
     topics: [
     ],
     usedBy: [''],
