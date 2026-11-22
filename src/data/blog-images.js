@@ -3298,6 +3298,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-staircase-design-medina',
+    file: '/images/blog-ai/stone-staircase-design-medina.jpg',
+    scene:
+      'سلم داخلي بدرجات رخامية بتشطيب غير لامع وحافة درجة داكنة، ودرابزين معدني رفيع وإضاءة جانبية ناعمة',
+    prompt:
+      'Editorial photo of an indoor stone staircase with honed marble steps and a dark stone nosing edge, soft light from a side window, a slim metal handrail, Medina villa interior, no people, no text, professional photography, sharp focus',
+    topics: [
+      'تصميم سلالم',
+      'سلالم رخام',
+      'درجات حجر',
+      'المدينة المنورة',
+      'تشطيب سلالم',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
