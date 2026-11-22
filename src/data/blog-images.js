@@ -3314,6 +3314,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-pool-jacuzzi-surround-medina',
+    file: '/images/blog-ai/stone-pool-jacuzzi-surround-medina.jpg',
+    scene:
+      'عامل يفحص ميل حافة حوض سباحة بحجر طبيعي في حديقة منزل بالمدينة المنورة',
+    prompt:
+      'Editorial photo of a swimming pool edge in a Medina home garden finished with textured natural stone coping and anti-slip pavers, a worker checking the slope with a straightedge, water glistening, late afternoon light, no text, no watermark, sharp focus, high detail, professional photography',
+    topics: [
+      'حوض سباحة',
+      'حجر طبيعي',
+      'انزلاق',
+      'حافة حوض',
+      'حديقة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
