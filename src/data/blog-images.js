@@ -3373,6 +3373,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-floor-heating-medina',
+    file: '/images/blog-ai/stone-floor-heating-medina.jpg',
+    scene:
+      'فني يفحص أرضية عليها حصائر وكوابل تدفئة أرضية مكشوفة فوق طبقة أساس في فيلا بالمدينة المنورة، وأدوات عمل موضوعة بجواره',
+    prompt:
+      'Editorial scene: technician inspecting a stone floor with exposed underfloor heating mats and cables on a subfloor in a Medina villa, tools laid out, daylight',
+    topics: [
+      'تدفئة أرضية',
+      'كوابل تدفئة',
+      'أرضية حجرية',
+      'عزل حراري',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
