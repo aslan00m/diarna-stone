@@ -3330,6 +3330,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-vs-porcelain-patio-medina',
+    file: '/images/blog-ai/stone-vs-porcelain-patio-medina.jpg',
+    scene:
+      'فناء فيلا مرصوف بألواح حجر طبيعي بيج كبيرة، ومقعد حجري منخفض على الحافة، وضوء عصر دافئ يرسم ظلالاً ناعمة على السطح',
+    prompt:
+      'Editorial photograph of an outdoor villa patio paved with large beige natural stone slabs, a low stone bench along the edge, warm afternoon sunlight casting soft shadows, dry garden planting, Medina residential setting, no people, no text, professional photography, sharp focus',
+    topics: [
+      'الحجر الطبيعي',
+      'البورسلان',
+      'أفنية',
+      'أرضيات خارجية',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
