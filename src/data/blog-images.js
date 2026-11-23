@@ -3346,6 +3346,17 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-facade-lighting-medina',
+    file: '/images/blog-ai/stone-facade-lighting-medina.jpg',
+    scene:
+      '',
+    prompt:
+      'Editorial night scene: a stone villa facade in Medina lit by warm ground uplights and a soft wall washer on carved stone columns, deep shadows between joints, dark blue sky',
+    topics: [
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
