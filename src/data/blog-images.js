@@ -3357,6 +3357,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-balustrade-medina',
+    file: '/images/blog-ai/stone-balustrade-medina.jpg',
+    scene:
+      'سلم خارجي حجري بدرابزين حجري متين بحواجز منحوتة ويد علوية ملساء مدورة، من الحجر الجيري البيج، عند مدخل فيلا، إضاءة نهارية، بلا أشخاص',
+    prompt:
+      'Photograph of an outdoor stone staircase with a solid stone balustrade, smooth rounded handrail and carved balusters, beige limestone, villa entrance, daylight, sharp focus, professional photography, no people, no text',
+    topics: [
+      'درابزين حجري',
+      'درابزين سلالم',
+      'حواجز سلالم حجر',
+      'تثبيت الدرابزين',
+      'درابزين حجر جيري',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
