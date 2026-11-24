@@ -3389,6 +3389,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-uv-sun-fading-medina',
+    file: '/images/blog-ai/stone-uv-sun-fading-medina.jpg',
+    scene:
+      'جدار واجهة حجر طبيعي مضاء بالشمس مع فرق لون واضح بين لوحين، أحدهما باهت فاتح والآخر أغمق، وضوء ظهيرة قاسٍ يلقي ظلالاً حادة',
+    prompt:
+      'Editorial photograph of a sunlit natural stone facade wall with a visible colour difference between two stone panels, one faded pale and one darker, harsh midday sunlight casting sharp shadows, no people, no text, professional photography, sharp focus',
+    topics: [
+      'بهتان لون الحجر',
+      'أشعة الشمس على الحجر',
+      'واجهات حجرية',
+      'ثبات اللون',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
