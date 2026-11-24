@@ -3405,6 +3405,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-wudu-area-flooring-medina',
+    file: '/images/blog-ai/stone-wudu-area-flooring-medina.jpg',
+    scene:
+      'أرضية منطقة وضوء مرصوصة بألواح حجر طبيعي رمادي فاتح مع قناة صرف خطية على أحد الحواف وتشطيب مطفي مانع للانزلاق',
+    prompt:
+      'Editorial photograph of an ablution area floor paved with light grey natural stone slabs with a linear drain channel along one edge and a matte non-slip finish, soft daylight, sharp focus, no people, no text',
+    topics: [
+      'أرضيات وضوء',
+      'حجر غير زلق',
+      'مساجد',
+      'ميل صرف',
+      'المدينة المنورة',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
