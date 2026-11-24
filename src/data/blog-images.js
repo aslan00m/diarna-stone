@@ -3421,6 +3421,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 'stone-service-penetrations-cladding-medina',
+    file: '/images/blog-ai/stone-service-penetrations-cladding-medina.jpg',
+    scene:
+      'لوح كسوة حجرية فيه فتحة دائرية مقصوصة بدقة لماسورة تكييف مع حلقة مطاطية ومادة سدّ حول الحافة',
+    prompt:
+      'Editorial photograph of a rectangular natural stone cladding panel standing on a workbench, with one neatly cut circular opening fitted with a black rubber gasket ring around a grey plastic pipe, white sealant around the opening edge, stone dust and small offcuts on the workbench, no people, no text, professional photography, sharp focus',
+    topics: [
+      'كسوة حجرية',
+      'فتحات تكييف',
+      'صرف',
+      'حفر الحجر',
+      'تمديدات',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
