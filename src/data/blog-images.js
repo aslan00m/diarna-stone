@@ -3437,6 +3437,22 @@ export const BLOG_AI_IMAGES = [
     ],
     usedBy: [''],
   },
+  {
+    slug: 's1-2026-11-25-stone-plain-white-superwhite',
+    file: '/images/blog-ai/s1-2026-11-25-stone-plain-white-superwhite.jpg',
+    scene:
+      'مشهد تصويري لـرخام أبيض سوبر وايت بإضاءة طبيعية وتفاصيل واضحة',
+    prompt:
+      'Super White Plain Marble marble, polished surface finish, professional architectural photography, soft daylight, high detail, no text, no watermark',
+    topics: [
+      'رخام',
+      'أبيض',
+      'سوبر وايت',
+      'Super White',
+      'marble',
+    ],
+    usedBy: [''],
+  },
 ];
 
 // Fallback only. A generated cover is always preferred; this exists so a
